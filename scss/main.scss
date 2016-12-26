@@ -1,0 +1,102 @@
+$brand-brown: #452e26;
+$brand-yellow: #c49524;
+
+body {
+	background-color: #fff8e9;
+}
+
+@mixin ir() {
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+}
+
+.nav-logo {
+	background-image: url('../img/ddd-logo.svg');
+	height: 61px;
+	margin: 0;
+	width: 240px;
+	@include ir();
+}
+
+.nav-list {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.nav-list-item {
+	color: #ffebc1;
+	display: inline-block;
+}
+
+.nav.btn {
+	display: inline-block;
+}
+
+.navbar {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$brand-brown+0,452e26+50,573c27+100 */
+	background: $brand-brown; /* Old browsers */
+	background: -moz-linear-gradient(top,  $brand-brown 0%, $brand-brown 50%, #573c27 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  $brand-brown 0%,$brand-brown 50%,#573c27 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  $brand-brown 0%,$brand-brown 50%,#573c27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$brand-brown, endColorstr='#573c27',GradientType=0 ); /* IE6-9 */
+}
+
+.section {
+	.row {
+		margin: 0 auto;
+		max-width: 960px;
+	}
+
+	&.speakers {
+		text-align: center;
+	}
+}
+
+.section-header {
+	color: $brand-brown;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.section-subheader {
+	color: $brand-yellow;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.copy {
+	color: $brand-brown;
+	text-align: center;
+
+	a {
+		color: $brand-yellow;
+		text-decoration: none;
+	}
+}
+
+.speaker-container {
+	display: inline-block;
+}
+
+.speaker-name {
+	color: $brand-yellow;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.location-img {
+	display: block;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: $brand-brown;
+
+	.section-header {
+		color: #ffebc1;
+	}
+}
