@@ -1,8 +1,22 @@
 $brand-brown: #452e26;
 $brand-yellow: #c49524;
 
+@font-face { 
+	font-family: NunitoSans; 
+	src: url(../fonts/NunitoSans-Regular.ttf);
+}
+@font-face { 
+	font-family: NunitoSansBold; 
+	src: url(../fonts/NunitoSans-Bold.ttf);
+}
+@font-face { 
+	font-family: NunitoSansExtraBold; 
+	src: url(../fonts/NunitoSans-ExtraBold.ttf);
+}
+
 body {
 	background-color: #fff8e9;
+	padding-bottom: 0;
 }
 
 @mixin ir() {
@@ -41,6 +55,8 @@ body {
 	background: -webkit-linear-gradient(top,  $brand-brown 0%,$brand-brown 50%,#573c27 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  $brand-brown 0%,$brand-brown 50%,#573c27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$brand-brown, endColorstr='#573c27',GradientType=0 ); /* IE6-9 */
+
+	font-family: NunitoSansBold, sans-serif;
 }
 
 .section {
@@ -56,6 +72,7 @@ body {
 
 .section-header {
 	color: $brand-brown;
+	font-family: NunitoSansExtraBold, sans-serif; 
 	font-size: 24px;
 	text-align: center;
 	text-transform: uppercase;
@@ -63,6 +80,7 @@ body {
 
 .section-subheader {
 	color: $brand-yellow;
+	font-family: NunitoSansBold, sans-serif; 
 	font-size: 18px;
 	text-align: center;
 	text-transform: uppercase;
@@ -70,11 +88,19 @@ body {
 
 .copy {
 	color: $brand-brown;
+	font-family: NunitoSans, sans-serif; 
 	text-align: center;
 
 	a {
 		color: $brand-yellow;
 		text-decoration: none;
+	}
+}
+
+.section.speakers {
+	.row {
+		display: flex;
+		justify-content: space-between;
 	}
 }
 
@@ -84,6 +110,7 @@ body {
 
 .speaker-name {
 	color: $brand-yellow;
+	font-family: NunitoSansExtraBold, sans-serif; 
 	font-size: 20px;
 	text-transform: uppercase;
 }
@@ -96,7 +123,32 @@ body {
 footer {
 	background-color: $brand-brown;
 
+	.container {
+		background-image: url('../img/footer-maze.png');
+	}
+
 	.section-header {
 		color: #ffebc1;
 	}
 }
+
+.sponsor-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sponsor-logo {
+	display: inline-block;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }

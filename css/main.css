@@ -1,5 +1,15 @@
+@font-face {
+  font-family: NunitoSans;
+  src: url(../fonts/NunitoSans-Regular.ttf); }
+@font-face {
+  font-family: NunitoSansBold;
+  src: url(../fonts/NunitoSans-Bold.ttf); }
+@font-face {
+  font-family: NunitoSansExtraBold;
+  src: url(../fonts/NunitoSans-ExtraBold.ttf); }
 body {
-  background-color: #fff8e9; }
+  background-color: #fff8e9;
+  padding-bottom: 0; }
 
 .nav-logo {
   background-image: url("../img/ddd-logo.svg");
@@ -33,7 +43,8 @@ body {
   background: linear-gradient(to bottom, #452e26 0%, #452e26 50%, #573c27 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$brand-brown, endColorstr='#573c27',GradientType=0 );
-  /* IE6-9 */ }
+  /* IE6-9 */
+  font-family: NunitoSansBold, sans-serif; }
 
 .section .row {
   margin: 0 auto;
@@ -43,28 +54,36 @@ body {
 
 .section-header {
   color: #452e26;
+  font-family: NunitoSansExtraBold, sans-serif;
   font-size: 24px;
   text-align: center;
   text-transform: uppercase; }
 
 .section-subheader {
   color: #c49524;
+  font-family: NunitoSansBold, sans-serif;
   font-size: 18px;
   text-align: center;
   text-transform: uppercase; }
 
 .copy {
   color: #452e26;
+  font-family: NunitoSans, sans-serif;
   text-align: center; }
   .copy a {
     color: #c49524;
     text-decoration: none; }
+
+.section.speakers .row {
+  display: flex;
+  justify-content: space-between; }
 
 .speaker-container {
   display: inline-block; }
 
 .speaker-name {
   color: #c49524;
+  font-family: NunitoSansExtraBold, sans-serif;
   font-size: 20px;
   text-transform: uppercase; }
 
@@ -74,7 +93,22 @@ body {
 
 footer {
   background-color: #452e26; }
+  footer .container {
+    background-image: url("../img/footer-maze.png"); }
   footer .section-header {
     color: #ffebc1; }
+
+.sponsor-container {
+  display: flex;
+  justify-content: space-between; }
+
+.sponsor-logo {
+  display: inline-block; }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=main.css.map */
