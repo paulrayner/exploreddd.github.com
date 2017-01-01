@@ -9,12 +9,17 @@
   src: url(../fonts/NunitoSans-ExtraBold.ttf); }
 body {
   background-color: #fff8e9;
+  padding-top: 100px;
   padding-bottom: 0; }
+
+@media (min-width: 1200px) {
+  .navbar .container {
+    width: 955px; } }
 
 .nav-logo {
   background-image: url("../img/ddd-logo.svg");
   height: 61px;
-  margin: 0;
+  margin: 19px 0 0 0;
   width: 240px;
   background-position: top left;
   background-repeat: no-repeat;
@@ -23,14 +28,36 @@ body {
 
 .nav-list {
   display: inline-block;
-  list-style-type: none; }
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 55px; }
 
 .nav-list-item {
   color: #ffebc1;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 18px;
+  line-height: 100px;
+  transition: color 0.2s; }
+  .nav-list-item:hover {
+    color: #c49524; }
 
-.nav.btn {
-  display: inline-block; }
+.nav-list-item:not(:first-child) {
+  padding-left: 16px; }
+
+.nav-btn {
+  background: #ffebc1;
+  color: #452e26;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 100px;
+  margin-left: 20px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  transition: background 0.2s; }
+  .nav-btn:hover {
+    background: #c49524;
+    color: #452e26;
+    text-decoration: none; }
 
 .navbar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$brand-brown+0,452e26+50,573c27+100 */
@@ -44,13 +71,21 @@ body {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$brand-brown, endColorstr='#573c27',GradientType=0 );
   /* IE6-9 */
-  font-family: NunitoSansBold, sans-serif; }
+  font-family: NunitoSansBold, sans-serif;
+  max-height: 100px; }
 
 .section .row {
   margin: 0 auto;
   max-width: 960px; }
 .section.speakers {
   text-align: center; }
+
+.jumbotron {
+  margin-bottom: 0;
+  height: 400px; }
+
+.section.about {
+  padding-top: 18px; }
 
 .section-header {
   color: #452e26;
@@ -63,20 +98,56 @@ body {
   color: #c49524;
   font-family: NunitoSansBold, sans-serif;
   font-size: 18px;
+  margin: 0;
   text-align: center;
   text-transform: uppercase; }
 
 .copy {
   color: #452e26;
+  display: block;
   font-family: NunitoSans, sans-serif;
+  font-size: 18px;
+  line-height: 1.22em;
+  margin: 0 auto 23px;
+  max-width: 700px;
   text-align: center; }
   .copy a {
     color: #c49524;
     text-decoration: none; }
 
-.section.speakers .row {
-  display: flex;
-  justify-content: space-between; }
+.copy:last-child {
+  margin-bottom: 0; }
+
+.section.conf-dates {
+  background-color: #452e26;
+  font-family: NunitoSans, sans-serif;
+  padding-top: 22px;
+  text-align: center; }
+
+.conf-header {
+  color: #c49524;
+  padding-right: 15px;
+  text-transform: uppercase; }
+
+.conf-copy, .conf-contact {
+  color: #fff8e9;
+  font-size: 24px;
+  margin-bottom: 2px; }
+
+.conf-contact {
+  font-size: 18px;
+  padding: 13px 0 15px; }
+  .conf-contact a {
+    color: #c49524;
+    padding-right: 10px; }
+
+.section.speakers {
+  padding-top: 10px; }
+  .section.speakers .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 32px; }
 
 .speaker-container {
   display: inline-block; }
@@ -87,23 +158,42 @@ body {
   font-size: 20px;
   text-transform: uppercase; }
 
+.section.location {
+  padding-bottom: 117px;
+  padding-top: 10px; }
+  .section.location .section-header {
+    margin-bottom: 18px; }
+  .section.location .copy {
+    max-width: 400px; }
+
 .location-img {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto 15px; }
 
 footer {
-  background-color: #452e26; }
+  background-color: #452e26;
+  color: #ffebc1;
+  font-family: NunitoSans, sans-serif;
+  padding-top: 15px;
+  text-align: center; }
   footer .container {
-    background-image: url("../img/footer-maze.png"); }
+    background-image: url("../img/footer-maze.png");
+    background-repeat: no-repeat;
+    background-position: bottom center; }
   footer .section-header {
     color: #ffebc1; }
 
-.sponsor-container {
-  display: flex;
-  justify-content: space-between; }
+@media (min-width: 768px) {
+  .sponsor-container {
+    display: flex;
+    justify-content: space-between; } }
 
 .sponsor-logo {
-  display: inline-block; }
+  display: block;
+  margin: 10px auto; }
+  @media (min-width: 768px) {
+    .sponsor-logo {
+      display: inline-block; } }
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */

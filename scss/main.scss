@@ -1,5 +1,18 @@
 $brand-brown: #452e26;
 $brand-yellow: #c49524;
+$brand-cream: #fff8e9;
+
+@mixin mq($size) {
+  @if $size == sm {
+    @media (min-width: 768px) { @content; }
+  }
+  @else if $size == md {
+    @media (min-width: 992px) { @content; }
+  }
+  @else if $size == lg {
+    @media (min-width: 1200px)  { @content; }
+  }
+}
 
 @font-face { 
 	font-family: NunitoSans; 
@@ -14,11 +27,6 @@ $brand-yellow: #c49524;
 	src: url(../fonts/NunitoSans-ExtraBold.ttf);
 }
 
-body {
-	background-color: #fff8e9;
-	padding-bottom: 0;
-}
-
 @mixin ir() {
 	background-position: top left;
 	background-repeat: no-repeat;
@@ -26,10 +34,24 @@ body {
 	text-indent: -9999px;
 }
 
+body {
+	background-color: $brand-cream;
+	padding-top: 100px;
+	padding-bottom: 0;
+}
+
+.navbar {
+	@include mq(lg) {
+		.container {
+			width: 955px;
+		}
+	}
+}
+
 .nav-logo {
 	background-image: url('../img/ddd-logo.svg');
 	height: 61px;
-	margin: 0;
+	margin: 19px 0 0 0;
 	width: 240px;
 	@include ir();
 }
@@ -37,15 +59,42 @@ body {
 .nav-list {
 	display: inline-block;
 	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 55px;
 }
 
 .nav-list-item {
 	color: #ffebc1;
 	display: inline-block;
+	font-size: 18px;
+	line-height: 100px;
+	transition: color 0.2s;
+
+	&:hover {
+		color: $brand-yellow;
+	}
 }
 
-.nav.btn {
+.nav-list-item:not(:first-child) {
+    padding-left: 16px;
+}
+
+.nav-btn {
+	background: #ffebc1;
+	color: $brand-brown;
 	display: inline-block;
+	font-size: 18px;
+	line-height: 100px;
+	margin-left: 20px;
+	padding: 0 10px;
+	text-transform: uppercase;
+	transition: background 0.2s;
+
+	&:hover {
+		background: $brand-yellow;
+		color: $brand-brown;
+		text-decoration: none;
+	}
 }
 
 .navbar {
@@ -57,6 +106,7 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$brand-brown, endColorstr='#573c27',GradientType=0 ); /* IE6-9 */
 
 	font-family: NunitoSansBold, sans-serif;
+	max-height: 100px;
 }
 
 .section {
@@ -70,25 +120,41 @@ body {
 	}
 }
 
+.jumbotron {
+	margin-bottom: 0;
+	height: 400px;
+}
+
+.section.about {
+	padding-top: 18px;
+}
+
 .section-header {
 	color: $brand-brown;
 	font-family: NunitoSansExtraBold, sans-serif; 
 	font-size: 24px;
 	text-align: center;
 	text-transform: uppercase;
+
 }
 
 .section-subheader {
 	color: $brand-yellow;
 	font-family: NunitoSansBold, sans-serif; 
 	font-size: 18px;
+	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 .copy {
 	color: $brand-brown;
-	font-family: NunitoSans, sans-serif; 
+	display: block;
+	font-family: NunitoSans, sans-serif;
+	font-size: 18px;
+	line-height: 1.22em;
+	margin: 0 auto 23px;
+	max-width: 700px;
 	text-align: center;
 
 	a {
@@ -97,10 +163,46 @@ body {
 	}
 }
 
+.copy:last-child {
+	margin-bottom: 0;
+}
+
+.section.conf-dates {
+	background-color: $brand-brown;
+	font-family: NunitoSans, sans-serif;
+	padding-top: 22px;
+	text-align: center;
+}
+
+.conf-header {
+	color: $brand-yellow;
+	padding-right: 15px;
+	text-transform: uppercase;
+}
+.conf-copy {
+	color: $brand-cream;
+	font-size: 24px;
+	margin-bottom: 2px;
+}
+
+.conf-contact {
+	@extend .conf-copy;
+	font-size: 18px;
+	padding: 13px 0 15px;
+
+	a {
+		color: $brand-yellow;
+		padding-right: 10px;
+	}
+}
+
 .section.speakers {
+	padding-top: 10px;
 	.row {
 		display: flex;
 		justify-content: space-between;
+		margin-bottom: 8px;
+		margin-top: 32px;
 	}
 }
 
@@ -115,16 +217,34 @@ body {
 	text-transform: uppercase;
 }
 
+.section.location {
+	padding-bottom: 117px;
+	padding-top: 10px;
+
+	.section-header {
+		margin-bottom: 18px;
+	}
+	.copy {
+		max-width: 400px;
+	}
+}
+
 .location-img {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 15px;
 }
 
 footer {
 	background-color: $brand-brown;
+	color: #ffebc1;
+	font-family: NunitoSans, sans-serif;
+	padding-top: 15px;
+	text-align: center;
 
 	.container {
 		background-image: url('../img/footer-maze.png');
+		background-repeat: no-repeat;
+		background-position: bottom center;
 	}
 
 	.section-header {
@@ -133,12 +253,18 @@ footer {
 }
 
 .sponsor-container {
-	display: flex;
-	justify-content: space-between;
+	@include mq(sm) {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 .sponsor-logo {
-	display: inline-block;
+	display: block;
+	margin: 10px auto;
+	@include mq(sm) {
+		display: inline-block;
+	}
 }
 
 /* Extra small devices (phones, less than 768px) */
