@@ -21,7 +21,6 @@
         <script src="https://code.jquery.com/jquery-2.2.4.min.js"
           integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
           crossorigin="anonymous"></script>
-        <script src="js/vendor/jquery.flexslider-min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -52,13 +51,22 @@
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
+    
+      <section class="slider">
+        <div class="flexslider">
+          <ul class="slides">
+            <li class="slide hyatt">
+              <img style="height:400px" src="img/slider-hyatt.jpg" />
+            </li>
+            <li class="slide eric-evans">
+              <img style="height:400px" src="img/slider-eric-evans.jpg" />
+            </li>
+            <li class="slide denver">
+              <img style="height:400px" src="img/slider-denver.jpg" />
+            </li>
+          </ul>
+        </div>
+      </section>
 
     <div class="container-fluid section conf-dates">
       <div class="row">
@@ -156,6 +164,7 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
+        <script src="js/vendor/jquery.flexslider-min.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
