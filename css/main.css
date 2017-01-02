@@ -9,7 +9,7 @@
   src: url(fonts/NunitoSans-ExtraBold.ttf); }
 body {
   background-color: #fff8e9;
-  padding-top: 100px;
+  padding-top: 51px;
   padding-bottom: 0; }
   @media (min-width: 768px) {
     body {
@@ -44,26 +44,34 @@ body {
   text-indent: -9999px; }
   @media (min-width: 768px) {
     .nav-logo {
-      height: 46px;
-      margin: 19px 0 0 0;
-      width: 180px; } }
+      height: 37px;
+      margin: 8px 0 0 0;
+      width: 144px; } }
   @media (min-width: 992px) {
     .nav-logo {
       height: 46px;
+      margin: 13px 0 0 0;
       width: 180px; } }
   @media (min-width: 1200px) {
     .nav-logo {
       height: 61px;
+      margin: 19px 0 0 0;
       width: 240px; } }
 
 .nav-list {
-  display: inline-block;
+  display: block;
   list-style-type: none;
-  margin: 0;
-  padding: 0 0 0 55px; }
+  margin: 0 auto;
+  padding: 0; }
+  @media (min-width: 768px) {
+    .nav-list {
+      display: inline-block;
+      padding: 0 0 0 55px; } }
 
 .nav-list-item {
   color: #ffebc1;
+  line-height: 30px;
+  text-align: center;
   transition: color 0.2s; }
   @media (min-width: 768px) {
     .nav-list-item {
@@ -86,16 +94,19 @@ body {
 
 .nav-btn {
   background: #ffebc1;
+  border-radius: 5px;
   color: #452e26;
   display: inline-block;
-  margin-left: 20px;
+  line-height: 30px;
   padding: 0 10px;
   text-transform: uppercase;
   transition: background 0.2s; }
   @media (min-width: 768px) {
     .nav-btn {
+      border-radius: 0px;
       font-size: 14px;
-      line-height: 60px; } }
+      line-height: 60px;
+      margin-left: 20px; } }
   @media (min-width: 992px) {
     .nav-btn {
       font-size: 18px;
@@ -132,6 +143,13 @@ body {
     .navbar {
       max-height: 100px; } }
 
+.navbar-collapse {
+  text-align: center; }
+  @media (min-width: 768px) {
+    .navbar-collapse {
+      background: transparent;
+      text-align: left; } }
+
 .section .row {
   margin: 0 auto;
   max-width: 960px; }
@@ -142,8 +160,46 @@ body {
   margin-bottom: 0;
   height: 400px; }
 
-.flexslider {
-  border: none; }
+.slide {
+  background-position: bottom center;
+  background-size: cover;
+  height: 400px; }
+  @media (min-width: 1200px) {
+    .slide .container {
+      width: 955px; } }
+
+.slide.hyatt {
+  background-image: url("../img/slider-hyatt.jpg"); }
+
+.hyatt-copy {
+  background-color: #fff8e9;
+  display: inline-block;
+  margin-top: 100px;
+  padding: 8px; }
+  .hyatt-copy h1 {
+    color: #c49524;
+    font-family: NunitoSansExtraBold, sans-serif;
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase; }
+  .hyatt-copy p {
+    font-family: NunitoSans, sans-serif;
+    font-size: 30px;
+    line-height: 1em;
+    margin: 0;
+    max-width: 320px; }
+  .hyatt-copy a {
+    color: #c49524;
+    font-family: NunitoSansBold, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase; }
+
+.slide.eric-evans {
+  background-image: url("../img/slider-eric-evans.jpg"); }
+
+.slide.denver {
+  background-image: url("../img/slider-denver.jpg"); }
 
 .section.about {
   padding-top: 18px; }
@@ -205,13 +261,23 @@ body {
 .section.speakers {
   padding-top: 10px; }
   .section.speakers .row {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 8px;
     margin-top: 32px; }
+    @media (min-width: 768px) {
+      .section.speakers .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center; } }
+    @media (min-width: 992px) {
+      .section.speakers .row {
+        flex-wrap: nowrap; } }
 
 .speaker-container {
-  display: inline-block; }
+  display: block; }
+  @media (min-width: 768px) {
+    .speaker-container {
+      display: inline-block; } }
 
 .speaker-name {
   color: #c49524;
@@ -229,7 +295,8 @@ body {
 
 .location-img {
   display: block;
-  margin: 0 auto 15px; }
+  margin: 0 auto 15px;
+  max-width: 100%; }
 
 footer {
   background-color: #452e26;

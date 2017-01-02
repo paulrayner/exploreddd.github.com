@@ -36,7 +36,7 @@ $brand-cream: #fff8e9;
 
 body {
 	background-color: $brand-cream;
-	padding-top: 100px;
+	padding-top: 51px;
 	padding-bottom: 0;
 	@include mq(sm){
 		padding-top: 60px;
@@ -73,29 +73,37 @@ body {
 	width: 180px;
 	@include ir();
 	@include mq(sm) {
-		height: 46px;
-		margin: 19px 0 0 0;
-		width: 180px;
+		height: 37px;
+		margin: 8px 0 0 0;
+		width: 144px;
 	}
 	@include mq(md) {
 		height: 46px;
+		margin: 13px 0 0 0;
 		width: 180px;
 	}
 	@include mq(lg) {
 		height: 61px;
+		margin: 19px 0 0 0;
 		width: 240px;
 	}
 }
 
 .nav-list {
-	display: inline-block;
+	display: block;
 	list-style-type: none;
-	margin: 0;
-	padding: 0 0 0 55px;
+	margin: 0 auto;
+	padding: 0;
+	@include mq(sm) {
+		display: inline-block;
+		padding: 0 0 0 55px;
+	}
 }
 
 .nav-list-item {
 	color: #ffebc1;
+	line-height: 30px;
+	text-align: center;
 	transition: color 0.2s;
 	@include mq(sm) {
 		display: inline-block;
@@ -123,15 +131,18 @@ body {
 
 .nav-btn {
 	background: #ffebc1;
+	border-radius: 5px;
 	color: $brand-brown;
 	display: inline-block;
-	margin-left: 20px;
+	line-height: 30px;
 	padding: 0 10px;
 	text-transform: uppercase;
 	transition: background 0.2s;
 	@include mq(sm) {
+		border-radius: 0px;
 		font-size: 14px;
 		line-height: 60px;
+		margin-left: 20px;
 	}
 	@include mq(md) {
 		font-size: 18px;
@@ -169,6 +180,14 @@ body {
 	}
 }
 
+.navbar-collapse {
+	text-align: center;
+	@include mq(sm) {
+		background: transparent;
+		text-align: left;
+	}
+}
+
 .section {
 	.row {
 		margin: 0 auto;
@@ -185,9 +204,57 @@ body {
 	height: 400px;
 }
 
-.flexslider {
-	border: none;
+.slide {
+	background-position: bottom center;
+	background-size: cover;
+	height: 400px;
+	@include mq(lg) {
+		.container {
+			width: 955px;
+		}
+	}
 }
+
+.slide.hyatt {
+	background-image: url('../img/slider-hyatt.jpg');
+}
+
+.hyatt-copy {
+	background-color: #fff8e9;
+	display: inline-block;
+	margin-top: 100px;
+	padding: 8px;
+	h1 {
+		color: $brand-yellow;
+		font-family: NunitoSansExtraBold, sans-serif;
+		font-size: 40px;
+		margin: 0;
+		text-transform: uppercase;
+	}
+	p {
+		font-family: NunitoSans, sans-serif;
+		font-size: 30px;
+		line-height: 1em;
+		margin: 0;
+		max-width: 320px;
+	}
+	a {
+		color: $brand-yellow;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 20px;
+		margin: 0;
+		text-transform: uppercase;
+	}
+}
+
+.slide.eric-evans {
+	background-image: url('../img/slider-eric-evans.jpg');
+}
+
+.slide.denver {
+	background-image: url('../img/slider-denver.jpg');
+}
+
 
 .section.about {
 	padding-top: 18px;
@@ -263,15 +330,25 @@ body {
 .section.speakers {
 	padding-top: 10px;
 	.row {
-		display: flex;
-		justify-content: space-between;
 		margin-bottom: 8px;
 		margin-top: 32px;
+		@include mq(sm) {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			text-align: center;
+		}
+		@include mq(md) {
+			flex-wrap: nowrap;
+		}
 	}
 }
 
 .speaker-container {
-	display: inline-block;
+	display: block;
+	@include mq(sm) {
+		display: inline-block;
+	}
 }
 
 .speaker-name {
@@ -296,6 +373,7 @@ body {
 .location-img {
 	display: block;
 	margin: 0 auto 15px;
+	max-width: 100%;
 }
 
 footer {
