@@ -1,6 +1,9 @@
 $brand-brown: #452e26;
 $brand-yellow: #c49524;
+$rollover-yellow: #fdc33c;
 $brand-cream: #fff8e9;
+$white-text: #ffebc1;
+$dark-text: #452e26;
 
 @mixin mq($size) {
   @if $size == sm {
@@ -15,12 +18,20 @@ $brand-cream: #fff8e9;
 }
 
 @font-face { 
+	font-family: NunitoSansLight; 
+	src: url(fonts/NunitoSans-Light.ttf);
+}
+@font-face { 
 	font-family: NunitoSans; 
 	src: url(fonts/NunitoSans-Regular.ttf);
 }
 @font-face { 
 	font-family: NunitoSansBold; 
 	src: url(fonts/NunitoSans-Bold.ttf);
+}
+@font-face { 
+	font-family: NunitoSansSemiBold; 
+	src: url(fonts/NunitoSans-SemiBold.ttf);
 }
 @font-face { 
 	font-family: NunitoSansExtraBold; 
@@ -36,6 +47,7 @@ $brand-cream: #fff8e9;
 
 body {
 	background-color: $brand-cream;
+	overflow-x: hidden;
 	padding-top: 51px;
 	padding-bottom: 0;
 	@include mq(sm){
@@ -47,6 +59,10 @@ body {
 	@include mq(lg){
 		padding-top: 100px;
 	}
+}
+
+nav {
+	border: 0;
 }
 
 .navbar {
@@ -101,7 +117,7 @@ body {
 }
 
 .nav-list-item {
-	color: #ffebc1;
+	color: $white-text;
 	line-height: 30px;
 	text-align: center;
 	transition: color 0.2s;
@@ -119,7 +135,7 @@ body {
 	}
 
 	&:hover {
-		color: $brand-yellow;
+		color: $rollover-yellow;
 	}
 }
 
@@ -168,7 +184,7 @@ body {
 	background: linear-gradient(to bottom,  $brand-brown 0%,$brand-brown 50%,#573c27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$brand-brown, endColorstr='#573c27',GradientType=0 ); /* IE6-9 */
 
-	font-family: NunitoSansBold, sans-serif;
+	font-family: NunitoSansSemiBold, sans-serif;
 	@include mq(sm){
 		max-height: 60px;
 	}
@@ -223,7 +239,7 @@ body {
 	background-color: #fff8e9;
 	display: inline-block;
 	margin-top: 100px;
-	padding: 8px;
+	padding: 30px;
 	h1 {
 		color: $brand-yellow;
 		font-family: NunitoSansExtraBold, sans-serif;
@@ -232,7 +248,7 @@ body {
 		text-transform: uppercase;
 	}
 	p {
-		font-family: NunitoSans, sans-serif;
+		font-family: NunitoSansLight, sans-serif;
 		font-size: 30px;
 		line-height: 1em;
 		margin: 0;
@@ -261,8 +277,8 @@ body {
 }
 
 .section-header {
-	color: $brand-brown;
-	font-family: NunitoSansExtraBold, sans-serif; 
+	color: $dark-text;
+	font-family: NunitoSansBold, sans-serif; 
 	font-size: 24px;
 	text-align: center;
 	text-transform: uppercase;
@@ -276,6 +292,10 @@ body {
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
+	transition: color 0.2s;
+	&:hover {
+		color: $rollover-yellow;
+	}
 }
 
 .copy {
@@ -348,14 +368,23 @@ body {
 	display: block;
 	@include mq(sm) {
 		display: inline-block;
+		max-width: 150px;
 	}
 }
 
 .speaker-name {
 	color: $brand-yellow;
-	font-family: NunitoSansExtraBold, sans-serif; 
-	font-size: 20px;
+	font-family: NunitoSansBold, sans-serif; 
+	font-size: 18px;
 	text-transform: uppercase;
+	transition: color 0.2s;
+	&:hover {
+		color: $rollover-yellow;
+	}
+}
+
+.speaker-details {
+	font-size: 15px;
 }
 
 .section.location {
