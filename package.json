@@ -1,19 +1,14 @@
 {
-  "name": "exploreddd.github.com",
-  "version": "1.0.0",
-  "description": "Marketing website to promote Exlpore DDD, the upcoming domain-driven design conference in Denver, CO.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paulrayner/exploreddd.github.com.git"
-  },
-  "author": "stinedec",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/paulrayner/exploreddd.github.com/issues"
-  },
-  "homepage": "https://github.com/paulrayner/exploreddd.github.com#readme"
+  "name": "static-site-example",
+  "private": true,
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "metalsmith": "^2.1.0",
+    "metalsmith-discover-helpers": "^0.1.0",
+    "metalsmith-discover-partials": "^0.1.0",
+    "metalsmith-layouts": "^1.4.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-sass": "^1.4.0"
+  }
 }
