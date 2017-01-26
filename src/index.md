@@ -2,35 +2,35 @@
 layout: layout.html
 ---
     
-  <section class="slider">
-    <div class="flexslider">
-      <ul class="slides">
-        
-        <li class="slide hyatt">
-          <div class="container">
-            <div class="hyatt-copy">
-              <h1>Grand Hyatt</h1>
-              <p>Explore the views from the heart of Denver, Colorado.</p>
-              <a href="#">About the venue</a>
-            </div>
+<section class="slider">
+  <div class="flexslider">
+    <ul class="slides">
+
+      <li class="slide hyatt">
+        <div class="container">
+          <div class="hyatt-copy">
+            <h1>Grand Hyatt</h1>
+            <p>Explore the views from the heart of Denver, Colorado.</p>
+            <a href="#">About the venue</a>
           </div>
-        </li>
+        </div>
+      </li>
+      
+      <li class="slide eric-evans">
+        <div class="container">
 
-        <li class="slide eric-evans">
-          <div class="container">
+        </div>
+      </li>
 
-          </div>
-        </li>
+      <li class="slide denver">
+        <div class="container">
 
-        <li class="slide denver">
-          <div class="container">
+        </div>
+      </li>
 
-          </div>
-        </li>
-
-      </ul>
-    </div>
-  </section>
+    </ul>
+  </div>
+</section>
 
 <div class="container-fluid section conf-dates">
   <div class="row">
