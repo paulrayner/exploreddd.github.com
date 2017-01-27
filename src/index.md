@@ -15,7 +15,7 @@ layout: layout.html
           </div>
         </div>
       </li>
-      
+
       <li class="slide eric-evans">
         <div class="container">
 
@@ -29,6 +29,10 @@ layout: layout.html
       </li>
 
     </ul>
+    <div class="custom-navigation">
+      <a class="arrow left"><img src="img/slider-arrow-left.svg" /></a>
+      <a class="arrow right"><img src="img/slider-arrow-right.svg" /></a>
+    </div>
   </div>
 </section>
 

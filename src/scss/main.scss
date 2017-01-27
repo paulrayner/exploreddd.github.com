@@ -118,12 +118,14 @@ nav {
 
 .nav-list-item {
 	line-height: 30px;
-	text-align: center;
+	text-align: left;
 	transition: color 0.2s;
+
 	@include mq(sm) {
 		display: inline-block;
 		font-size: 14px;
 		line-height: 60px;
+		text-align: center;
 	}
 	@include mq(md) {
 		font-size: 18px;
@@ -152,15 +154,16 @@ nav {
 
 .nav-btn {
 	background: #ffebc1;
-	border-radius: 5px;
 	color: $brand-brown;
-	display: inline-block;
+	display: block;
 	line-height: 30px;
+	margin: -1px -15px;
 	padding: 0 10px;
+	text-align: left;
 	text-transform: uppercase;
 	transition: background 0.2s;
 	@include mq(sm) {
-		border-radius: 0px;
+		display: inline-block;
 		font-size: 14px;
 		line-height: 60px;
 		margin-left: 20px;
@@ -209,6 +212,52 @@ nav {
 	}
 }
 
+.nav-submenu {
+	background-color: $brand-cream;
+	display: block;
+	list-style-type: none;
+	margin: 0 -15px;
+	max-height: 0;
+	overflow: hidden;
+	padding: 0 0 0 10px;
+	transition: all 0.2s;
+
+	@include mq(sm) {
+		display: none;
+	}
+}
+
+.submenu-toggle {
+	background-image: url('../img/read-more-arrow.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	height: 15px;
+	margin-bottom: -2px;
+	margin-left: 8px;
+	opacity: 0.8;
+	transition: all 0.2s;
+	width: 15px;
+	@include mq(sm) {
+		display: none;
+	}
+}
+
+.nav-list-item.open {
+	.nav-submenu {
+		max-height: 200px;
+	}
+	.submenu-toggle {
+		opacity: 1;
+		transform: rotate(90deg);
+	}
+}
+
+.submenu-item {
+
+}
+
 .section {
 	.row {
 		margin: 0 auto;
@@ -223,6 +272,7 @@ nav {
 .slider {
 	margin-bottom: 0;
 	height: 400px;
+	position: relative;
 }
 
 .slide {
@@ -274,6 +324,35 @@ nav {
 
 .slide.denver {
 	background-image: url('../img/slider-denver.jpg');
+}
+
+.custom-navigation {
+	bottom: 0;
+	display: block;
+	line-height: 400px;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+
+	.arrow {
+		display: inline-block;
+		opacity: 0.4;
+		transition: all 0.2s;
+		vertical-align: middle;
+		img{
+			height: 60px;
+			width: 60px;
+		}
+		&.left {
+			float: left;
+		}
+		&.right {
+			float: right;
+		}
+		&:hover {
+			opacity: 1;
+		}
+	}
 }
 
 
@@ -445,6 +524,23 @@ footer {
 	@include mq(sm) {
 		display: inline-block;
 	}
+}
+
+.container.page {
+	margin: 0 auto;
+	max-width: 600px;
+	padding-bottom: 3em;
+
+	.copy {
+		text-align: left;
+	}
+}
+
+.page-subheader {
+	color: $dark-text;
+	font-family: NunitoSansSemiBold, sans-serif; 
+	font-size: 18px;
+	margin: 0;
 }
 
 /* Extra small devices (phones, less than 768px) */

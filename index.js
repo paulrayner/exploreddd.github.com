@@ -23,9 +23,9 @@ Metalsmith(__dirname)
   })
   .source('./src')
   .destination('./build')
-  .clean(false)
+  .clean(true)
   .use(markdown())
-  .use(permalinks())
+  // .use(permalinks())
   .use(discoverPartials({
     directory: 'partials',
     pattern: /\.hbs$/
