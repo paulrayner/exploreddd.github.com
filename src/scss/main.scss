@@ -543,6 +543,38 @@ footer {
 	margin: 0;
 }
 
+.featured-speaker.container {
+	text-align: center;
+
+	.img-container {
+		display: block;
+		vertical-align: top;
+		@include mq(sm) {
+			display: inline-block;
+		}
+
+		img {
+			vertical-align: top;
+		}
+	}
+	.copy-container {
+		display: block;
+		max-width: 600px;
+		@include mq(sm) {
+			display: inline-block;
+		}
+	}
+
+	.copy {
+		text-align: left;
+	}
+	.speaker-subheader {
+		color: $dark-text;
+		text-align: left;
+		text-transform: uppercase;
+	}
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 

@@ -1,5 +1,5 @@
 ---
-layout: layout-tier2.html
+layout: layout.html
 ---
 <div class="container section page location">
 <h1 class="section-header">Venue</h1>

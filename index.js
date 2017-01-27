@@ -23,7 +23,7 @@ Metalsmith(__dirname)
   })
   .source('./src')
   .destination('./build')
-  .clean(true)
+  .clean(false)
   .use(markdown())
   // .use(permalinks())
   .use(discoverPartials({

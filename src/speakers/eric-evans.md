@@ -2,114 +2,136 @@
 layout: layout-tier2.html
 ---
 
-<div class="container section speakers"></div>
+<div class="container section featured-speaker">
+  <div class="img-container">
+    <img src="../img/eric-evans.png" />
+  </div>
+  <div class="copy-container">
+    Eric Evans
+    Author of “Domain-Driven Design”
+    @ericevans0
+
+    <h2 class="speaker-subheader">biography</h2>
+    <p class="copy">Eric Evans is the author of “Domain-Driven Design: Tackling Complexity in Software,” Addison-Wesley 2004.</p>
+
+    <p class="copy">Since the early 1990s, he has worked on many projects developing large business systems with objects with many different approaches and many different outcomes. The book is a synthesis of that experience. It presents a system of modeling and design techniques that successful teams have used to align complex software systems with business needs and to keep projects agile as systems grow large.</p>
+
+    <p class="copy">Eric now leads “Domain Language”, a consulting group which coaches and trains teams applying domain-driven design, helping them to make their development work more productive and more valuable to their business.</p>
+
+    <h2 class="speaker-subheader">talk</h2>
+    <p class="copy">Mene voluptaero quid quatquunt utas dolendi ditiusti delesequis re volorro qui omni dolupta tiorion sequatur rerum seque sa iunt qui ande poresto vera quam autam es maximped quo blanihillaut volorei urendam dolora dolum dolum quiate doleseque num dentur acculles cupta prora issi nis quam as deseque perfernatia volupta vendipsandus eatur minctat aspel etur sed eum ratem. Ut atur, opta sit ea estest atempos venest minienis aliciis aboratem antibus modit, ideliquam restin plaboreped exped et aut doloriandit unt moloriatem fugit, corporem. Itatquatur alique aut lam, quibus et eium non nis dictas remporem sus, numqui cum quis natibus eiunt.</p>
+
+    <h2 class="speaker-subheader">Workshop</h2>
+    <p class="copy">Mene voluptaero quid quatquunt utas dolendi ditiusti delesequis re volorro qui omni dolupta tiorion sequatur rerum seque sa iunt qui ande poresto vera quam autam es maximped quo blanihillaut volorei urendam dolora dolum dolum quiate doleseque num dentur acculles cupta prora. </p>
+    Register for workshop
+  </div>
+</div>
 <div class="container section speakers">
-  <h1 class="section-header">Featured Speakers</h1>
-  <h2 class="section-subheader">View all speakers</h2>
+  <h1 class="section-header">Speakers</h1>
   <div class="row">
     <div class="speaker-container">
-      <img class="speaker-img" src="img/eric-evans.png" alt="" />
+      <img class="speaker-img" src="../img/eric-evans.png" alt="" />
       <h3 class="speaker-name">Eric Evans</h3>
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/nichole-rauch.png" alt="" />
+      <img class="speaker-img" src="../img/nichole-rauch.png" alt="" />
       <h3 class="speaker-name">Nichole Rauch</h3>
       <p class="speaker-details">Software Developer and Development Coach</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/scott-wlaschin.png" alt="" />
+      <img class="speaker-img" src="../img/scott-wlaschin.png" alt="" />
       <h3 class="speaker-name">Scott Wlaschin</h3>
       <p class="speaker-details">Software Gardener</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/wirfsbrock.png" alt="" />
+      <img class="speaker-img" src="../img/wirfsbrock.png" alt="" />
       <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
       <p class="speaker-details">Responsibility-Driven Design</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/udi-dahan.png" alt="" />
+      <img class="speaker-img" src="../img/udi-dahan.png" alt="" />
       <h3 class="speaker-name">Udi Dahan</h3>
       <p class="speaker-details">Founder of NServiceBus</p>
     </div>
   </div>
   <div class="row">
     <div class="speaker-container">
-      <img class="speaker-img" src="img/eric-evans.png" alt="" />
+      <img class="speaker-img" src="../img/eric-evans.png" alt="" />
       <h3 class="speaker-name">Eric Evans</h3>
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/nichole-rauch.png" alt="" />
+      <img class="speaker-img" src="../img/nichole-rauch.png" alt="" />
       <h3 class="speaker-name">Nichole Rauch</h3>
       <p class="speaker-details">Software Developer and Development Coach</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/scott-wlaschin.png" alt="" />
+      <img class="speaker-img" src="../img/scott-wlaschin.png" alt="" />
       <h3 class="speaker-name">Scott Wlaschin</h3>
       <p class="speaker-details">Software Gardener</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/wirfsbrock.png" alt="" />
+      <img class="speaker-img" src="../img/wirfsbrock.png" alt="" />
       <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
       <p class="speaker-details">Responsibility-Driven Design</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/udi-dahan.png" alt="" />
+      <img class="speaker-img" src="../img/udi-dahan.png" alt="" />
       <h3 class="speaker-name">Udi Dahan</h3>
       <p class="speaker-details">Founder of NServiceBus</p>
     </div>
   </div>
   <div class="row">
     <div class="speaker-container">
-      <img class="speaker-img" src="img/eric-evans.png" alt="" />
+      <img class="speaker-img" src="../img/eric-evans.png" alt="" />
       <h3 class="speaker-name">Eric Evans</h3>
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/nichole-rauch.png" alt="" />
+      <img class="speaker-img" src="../img/nichole-rauch.png" alt="" />
       <h3 class="speaker-name">Nichole Rauch</h3>
       <p class="speaker-details">Software Developer and Development Coach</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/scott-wlaschin.png" alt="" />
+      <img class="speaker-img" src="../img/scott-wlaschin.png" alt="" />
       <h3 class="speaker-name">Scott Wlaschin</h3>
       <p class="speaker-details">Software Gardener</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/wirfsbrock.png" alt="" />
+      <img class="speaker-img" src="../img/wirfsbrock.png" alt="" />
       <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
       <p class="speaker-details">Responsibility-Driven Design</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/udi-dahan.png" alt="" />
+      <img class="speaker-img" src="../img/udi-dahan.png" alt="" />
       <h3 class="speaker-name">Udi Dahan</h3>
       <p class="speaker-details">Founder of NServiceBus</p>
     </div>
   </div>
   <div class="row">
     <div class="speaker-container">
-      <img class="speaker-img" src="img/eric-evans.png" alt="" />
+      <img class="speaker-img" src="../img/eric-evans.png" alt="" />
       <h3 class="speaker-name">Eric Evans</h3>
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/nichole-rauch.png" alt="" />
+      <img class="speaker-img" src="../img/nichole-rauch.png" alt="" />
       <h3 class="speaker-name">Nichole Rauch</h3>
       <p class="speaker-details">Software Developer and Development Coach</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/scott-wlaschin.png" alt="" />
+      <img class="speaker-img" src="../img/scott-wlaschin.png" alt="" />
       <h3 class="speaker-name">Scott Wlaschin</h3>
       <p class="speaker-details">Software Gardener</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/wirfsbrock.png" alt="" />
+      <img class="speaker-img" src="../img/wirfsbrock.png" alt="" />
       <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
       <p class="speaker-details">Responsibility-Driven Design</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/udi-dahan.png" alt="" />
+      <img class="speaker-img" src="../img/udi-dahan.png" alt="" />
       <h3 class="speaker-name">Udi Dahan</h3>
       <p class="speaker-details">Founder of NServiceBus</p>
     </div>
