@@ -98,7 +98,7 @@ layout: layout.html
     <h2 class="section-subheader">September 19-20</h2>
     <p class="copy">Our full-day pre-conference workshops will be held Tuesday, September 19 and Wednesday, September 20. Currently we have confirmed that Eric Evans will be teaching his Strategic DDD workshop, and Alberto Brandolini will be teaching his EventStorming Masterclass. We are actively sourcing other workshops and will be announcing them as soon as they are confirmed.
     </p>
-    <p class="copy"> Enter your contact details to <a href="https://virtualgenius.typeform.com/to/tZlftR">stay updated</a> so you are the first to hear the news. Our workshops promise to be popular, so make sure you stay updated with conference news to learn when registration becomes available. </p>
+    <p class="copy">Our workshops promise to be popular, so enter your contact details to <a href="https://virtualgenius.typeform.com/to/tZlftR">stay updated</a>, and be the first to know when pricing and registration information becomes available. </p>
   </div>
 </div>
 
