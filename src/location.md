@@ -8,9 +8,6 @@ layout: layout.html
 
 <p class="copy">The main conference will be hosted in the incredible Pinnacle Club of the Grand Hyatt Denver, a luxury event venue located on the 38th floor and overlooking the entire Rocky Mountain Front Range. The pre-conference workshops will be located on the 2nd floor of the Grand Hyatt Denver.</p>
 
-[Embed (and credit) the following promotional video: https://www.youtube.com/watch?v=CzZdojjuMm0]
-
-[embed map here?]
 
 <p class="copy">The Grand Hyatt Denver hotel has the following features:</p>
 
@@ -29,8 +26,6 @@ layout: layout.html
 <h2 class="page-subheader">About Denver</h2>
 
 <p class="copy">Welcome to Denver, where 300 days of sunshine, a thriving cultural scene, diverse neighborhoods, and natural beauty combine for the world's most spectacular playground. For more information, see www.denver.org.</p>
-
-[embed and credit the promotional video http://youtube.com/watch?v=26RxUbH8HnU here]
 
 <p class="copy">September in Denver is typically a beautiful time of year in Colorado, with the leaves changing into Fall colors in the mountains and pleasant warm weather to enjoy in the city and surrounds.</p>
 

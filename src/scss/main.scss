@@ -153,7 +153,7 @@ nav {
 }
 
 .nav-btn {
-	background: #ffebc1;
+	background: $white-text;
 	color: $brand-brown;
 	display: block;
 	line-height: 30px;
@@ -530,6 +530,7 @@ nav {
 .speaker-img {
 	background-size: contain;
 	height: 150px;
+	margin: 0 auto;
 	transition: all 0.2s;
 	width: 150px;
 
@@ -583,7 +584,9 @@ nav {
 		max-width: 400px;
 	}
 }
-
+.location-col {
+	padding-bottom: 20px;
+}
 .location-img {
 	display: block;
 	margin: 0 auto 15px;
@@ -592,7 +595,7 @@ nav {
 
 footer {
 	background-color: $brand-brown;
-	color: #ffebc1;
+	color: $white-text;
 	font-family: NunitoSans, sans-serif;
 	padding-top: 15px;
 	text-align: center;
@@ -605,7 +608,8 @@ footer {
 	}
 
 	.section-header {
-		color: #ffebc1;
+		color: $white-text;
+		padding-bottom: 15px;
 	}
 }
 
@@ -619,6 +623,7 @@ footer {
 .sponsor-logo {
 	display: block;
 	margin: 10px auto;
+	max-width: 80%;
 	@include mq(sm) {
 		display: inline-block;
 	}
@@ -738,6 +743,11 @@ footer {
 
 //Sponsorship
 .container.sponsorship {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.container.short {
 	padding-top: 50px;
 	padding-bottom: 150px;
 }
