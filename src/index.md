@@ -5,7 +5,6 @@ layout: layout.html
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
-
       <li class="slide hyatt">
         <div class="container">
           <div class="hyatt-copy">
@@ -15,24 +14,24 @@ layout: layout.html
           </div>
         </div>
       </li>
-
       <li class="slide eric-evans">
         <div class="container">
-
+          <h1>Announcement</h1>
+          <h2>We are delighted to announce <span>Eric Evans</span> as our First Keynote Speaker!</h2>
+          <a href="speakers/eric-evans.html">About Eric Evans</a>
         </div>
       </li>
-
       <li class="slide denver">
         <div class="container">
-
         </div>
       </li>
-
     </ul>
-    <div class="custom-navigation">
-      <a class="arrow left"><img src="img/slider-arrow-left.svg" /></a>
-      <a class="arrow right"><img src="img/slider-arrow-right.svg" /></a>
-    </div>
+  </div>
+  <div class="custom-navigation-container">
+  <div class="custom-navigation">
+    <a class="arrow left"><img src="img/slider-arrow-left.svg" /></a>
+    <a class="arrow right"><img src="img/slider-arrow-right.svg" /></a>
+  </div>
   </div>
 </section>
 
@@ -49,7 +48,7 @@ layout: layout.html
   <div class="row">
     <h1 class="section-header">About Explore DDD</h1>
     <p class="copy">In September 2017, join fellow software developers and architects in Denver, Colorado, USA for the first-ever Domain-Driven Design (DDD) destination conference in the USA. Come prepared to engage with others, and learn how DDD can accelerate the delivery of software when dealing with complex business domains. The Explore DDD Conference sets the perfect stage to discover industry peers and leaders are using DDD to build better software.</p>
-    <ul>
+    <ul class="copy-list">
       <li>World-class talks and workshops from DDD practitioners and experts.</li>
       <li>Designed by and for DDD explorers, enthusiasts, and experts.</li>
       <li>Two days of pre-conference full-day workshops with expert instructors.</li>
@@ -76,19 +75,19 @@ layout: layout.html
       <div class="speaker-img alberto-brandolini">
       </div>
       <h3 class="speaker-name">Alberto Brandolini</h3>
-      <p class="speaker-details">Software Developer and Development Coach</p>
+      <p class="speaker-details">Inventor of Event Storming</p>
     </div>
     <div class="speaker-container">
-      <div class="speaker-img matthias-verraes">
+      <div class="speaker-img mathias-verraes">
       </div>
       <h3 class="speaker-name">Mathias Verraes</h3>
-      <p class="speaker-details">Software Gardener</p>
+      <p class="speaker-details">Temporal Modeling</p>
     </div>
     <div class="speaker-container">
       <div class="speaker-img vaughn-vernon">
       </div>
       <h3 class="speaker-name">Vaughn Vernon</h3>
-      <p class="speaker-details">Responsibility-Driven Design</p>
+      <p class="speaker-details">Author of “Implementing Domain-Driven Design”</p>
     </div>
   </div>
 </div>

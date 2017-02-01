@@ -288,7 +288,7 @@ nav {
 }
 
 .slide.hyatt {
-	background-image: url('../img/slider-hyatt.jpg');
+	background-image: url('../img/slider-hyatt-1600x400-2.png');
 }
 
 .hyatt-copy {
@@ -320,29 +320,73 @@ nav {
 }
 
 .slide.eric-evans {
+	background-color: $brand-cream;
 	background-image: url('../img/slider-eric-evans.jpg');
+	background-size: contain;
+	.container {
+		float: right;
+		padding-top: 50px;
+		width: 50%;
+	}
+	h1 {
+		color: $brand-yellow;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 40px;
+		text-transform: uppercase;
+	}
+	h2 {
+		color: $dark-text;
+		font-family: NunitoSansLight, sans-serif;
+		font-size: 30px;
+		max-width: 410px;
+		span {
+			font-family: NunitoSansBold, sans-serif;
+			text-transform: uppercase;
+		}
+	}
+	a {
+		color: $brand-yellow;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 20px;
+		position: relative;
+		text-transform: uppercase;
+		transition: all 0.2s;
+		&:hover {
+			color: $rollover-yellow;
+			text-decoration: none;
+		}
+	}
+
 }
 
 .slide.denver {
 	background-image: url('../img/slider-denver.jpg');
 }
 
-.custom-navigation {
+.custom-navigation-container {
 	bottom: 0;
 	display: block;
 	line-height: 400px;
 	position: absolute;
 	width: 100%;
-	z-index: 10;
+}
+
+.custom-navigation {
+	display: block;
+	height: 400px;
+	margin: 0 auto;
+	width: 1300px;
 
 	.arrow {
 		display: inline-block;
 		opacity: 0.4;
+		position: relative;
 		transition: all 0.2s;
 		vertical-align: middle;
+		z-index: 10;
 		img{
-			height: 60px;
-			width: 60px;
+			height: 150px;
+			width: 150px;
 		}
 		&.left {
 			float: left;
@@ -396,6 +440,20 @@ nav {
 	a {
 		color: $brand-yellow;
 		text-decoration: none;
+	}
+}
+.copy-list {
+	color: $brand-brown;
+	display: block;
+	font-family: NunitoSansLight, sans-serif;
+	font-size: 18px;
+	line-height: 1.22em;
+	margin: 0 auto 23px;
+	max-width: 700px;
+	text-align: left;
+
+	li {
+		margin-bottom: 10px;
 	}
 }
 
