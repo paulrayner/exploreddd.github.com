@@ -48,9 +48,17 @@ layout: layout.html
 <div class="container section about">
   <div class="row">
     <h1 class="section-header">About Explore DDD</h1>
-    <p class="copy">Through applying Domain Driven Design (DDD), teams are able to tackle customer needs in complex and changing business domains, deal effectively with the challenges of legacy systems, and navigate large-scale multi-team development efforts.</p>
-    <p class="copy"> We provide private and public classes in DDD and BDD for agile teams. Focused follow-up coaching furnishes teams with the skills necessary to apply the collaborative design techniques to their project work.</p>
-    <p class="copy">Collaborative design enables innovation, creativity, and accelerates the delivery of software solutions that truly meet human needs in creative ways. <a href="#">Read more...</a></p>
+    <p class="copy">In September 2017, join fellow software developers and architects in Denver, Colorado, USA for the first-ever Domain-Driven Design (DDD) destination conference in the USA. Come prepared to engage with others, and learn how DDD can accelerate the delivery of software when dealing with complex business domains. The Explore DDD Conference sets the perfect stage to discover industry peers and leaders are using DDD to build better software.</p>
+    <ul>
+      <li>World-class talks and workshops from DDD practitioners and experts.</li>
+      <li>Designed by and for DDD explorers, enthusiasts, and experts.</li>
+      <li>Two days of pre-conference full-day workshops with expert instructors.</li>
+      <li>Entire area of the conference floor dedicated to domain model exploration with others, where drawing and refining domain models is both expected and encouraged.</li>
+      <li>A smaller, more intimate conference, with a hard limit of 330 attendees.</li>
+      <li>Incredible, inspiring location - the 38th floor Pinnacle Club of the Grand Hyatt Denver, with the entire conference floor provides uninterrupted majestic views of the Rocky Mountains, downtown Denver, and city surrounds.</li>
+      <li>Friday afternoon unconference with lightning talks, impromptu modeling and coding sessions, and problem-solving with your peers.</li>
+      <li>Conference hotel accommodation at AAA Four Diamond Grand Hyatt Denver</li>
+    </ul>
   </div>
 </div>
 
@@ -59,29 +67,28 @@ layout: layout.html
   <h2 class="section-subheader">View all speakers</h2>
   <div class="row">
     <div class="speaker-container">
-      <img class="speaker-img" src="img/eric-evans.png" alt="" />
+      <div class="speaker-img eric-evans">
+      </div>
       <h3 class="speaker-name">Eric Evans</h3>
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/nichole-rauch.png" alt="" />
-      <h3 class="speaker-name">Nichole Rauch</h3>
+      <div class="speaker-img alberto-brandolini">
+      </div>
+      <h3 class="speaker-name">Alberto Brandolini</h3>
       <p class="speaker-details">Software Developer and Development Coach</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/scott-wlaschin.png" alt="" />
-      <h3 class="speaker-name">Scott Wlaschin</h3>
+      <div class="speaker-img matthias-verraes">
+      </div>
+      <h3 class="speaker-name">Mathias Verraes</h3>
       <p class="speaker-details">Software Gardener</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="img/wirfsbrock.png" alt="" />
-      <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
+      <div class="speaker-img vaughn-vernon">
+      </div>
+      <h3 class="speaker-name">Vaughn Vernon</h3>
       <p class="speaker-details">Responsibility-Driven Design</p>
-    </div>
-    <div class="speaker-container">
-      <img class="speaker-img" src="img/udi-dahan.png" alt="" />
-      <h3 class="speaker-name">Udi Dahan</h3>
-      <p class="speaker-details">Founder of NServiceBus</p>
     </div>
   </div>
 </div>

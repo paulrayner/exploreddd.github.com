@@ -1,10 +1,11 @@
 ---
 layout: layout.html
 ---
+<div class="container-fluid section hero location">
+</div>
 <div class="container section page location">
-<h1 class="section-header">Venue</h1>
+<h1 class="section-header">Location</h1>
 
-[embed image of hotel here]
 <p class="copy">The main conference will be hosted in the incredible Pinnacle Club of the Grand Hyatt Denver, a luxury event venue located on the 38th floor and overlooking the entire Rocky Mountain Front Range. The pre-conference workshops will be located on the 2nd floor of the Grand Hyatt Denver.</p>
 
 [Embed (and credit) the following promotional video: https://www.youtube.com/watch?v=CzZdojjuMm0]

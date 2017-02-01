@@ -1,6 +1,7 @@
 var Metalsmith        = require('metalsmith'),
     markdown          = require('metalsmith-markdown'),
     layouts           = require('metalsmith-layouts'),
+    metadata           = require('metalsmith-metadata'),
     permalinks        = require('metalsmith-permalinks'),
     sass              = require('metalsmith-sass'),
     discoverPartials  = require('metalsmith-discover-partials'),
@@ -41,6 +42,9 @@ Metalsmith(__dirname)
     outputDir: 'css/',
     outputStyle: 'compressed'
   }))
+  // .use(metadata({
+  //   ericEvans: 'data/eric-evans.json'
+  // }))
   // .use(watch({
   //   paths: {
   //     "${source}/**/*": true,

@@ -3,33 +3,31 @@ layout: layout-tier2.html
 ---
 
 <div class="container section speakers">
-  <h1 class="section-header">Featured Speakers</h1>
-  <h2 class="section-subheader">View all speakers</h2>
+  <h1 class="section-header">Speakers</h1>
   <div class="row">
     <div class="speaker-container">
-      <img class="speaker-img" src="../img/eric-evans.png" alt="" />
+      <a href="eric-evans.html"><div class="speaker-img eric-evans">
+      </div></a>
       <h3 class="speaker-name">Eric Evans</h3>
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="../img/nichole-rauch.png" alt="" />
-      <h3 class="speaker-name">Nichole Rauch</h3>
+      <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
+      </div></a>
+      <h3 class="speaker-name">Alberto Brandolini</h3>
       <p class="speaker-details">Software Developer and Development Coach</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="../img/scott-wlaschin.png" alt="" />
-      <h3 class="speaker-name">Scott Wlaschin</h3>
+      <a href="mathias-verraes.html"><div class="speaker-img mathias-verraes">
+      </div></a>
+      <h3 class="speaker-name">Mathias Verraes</h3>
       <p class="speaker-details">Software Gardener</p>
     </div>
     <div class="speaker-container">
-      <img class="speaker-img" src="../img/wirfsbrock.png" alt="" />
-      <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
+      <a href="vaughn-vernon.html"><div class="speaker-img vaughn-vernon">
+      </div></a>
+      <h3 class="speaker-name">Vaughn Vernon</h3>
       <p class="speaker-details">Responsibility-Driven Design</p>
-    </div>
-    <div class="speaker-container">
-      <img class="speaker-img" src="../img/udi-dahan.png" alt="" />
-      <h3 class="speaker-name">Udi Dahan</h3>
-      <p class="speaker-details">Founder of NServiceBus</p>
     </div>
   </div>
 </div>

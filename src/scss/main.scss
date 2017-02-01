@@ -259,6 +259,7 @@ nav {
 }
 
 .section {
+
 	.row {
 		margin: 0 auto;
 		max-width: 960px;
@@ -385,7 +386,7 @@ nav {
 .copy {
 	color: $brand-brown;
 	display: block;
-	font-family: NunitoSans, sans-serif;
+	font-family: NunitoSansLight, sans-serif;
 	font-size: 18px;
 	line-height: 1.22em;
 	margin: 0 auto 23px;
@@ -468,6 +469,45 @@ nav {
 	}
 }
 
+.speaker-img {
+	background-size: contain;
+	height: 150px;
+	transition: all 0.2s;
+	width: 150px;
+
+	&.eric-evans {
+		background-image: url('../img/speakers/Eric-Evans-OFF.png');
+
+		&:hover {
+			background-image: url('../img/speakers/Eric-Evans-ON.png');
+		}
+	}
+
+	&.alberto-brandolini {
+		background-image: url('../img/speakers/Alberto-Brandolini-OFF.png');
+
+		&:hover {
+			background-image: url('../img/speakers/Alberto-Brandolini-ON.png');
+		}
+	}
+
+	&.mathias-verraes {
+		background-image: url('../img/speakers/Mathias-Verraes-OFF.png');
+
+		&:hover {
+			background-image: url('../img/speakers/Mathias-Verraes-ON.png');
+		}
+	}
+
+	&.vaughn-vernon {
+		background-image: url('../img/speakers/Vaughn-Vernon-OFF.png');
+
+		&:hover {
+			background-image: url('../img/speakers/Vaughn-Vernon-ON.png');
+		}
+	}
+}
+
 .speaker-details {
 	color: $dark-text;
 	font-family: NunitoSansLight, sans-serif; 
@@ -540,7 +580,7 @@ footer {
 	color: $dark-text;
 	font-family: NunitoSansSemiBold, sans-serif; 
 	font-size: 18px;
-	margin: 0;
+	margin: 0 0 4px 0;
 }
 
 .featured-speaker.container {
@@ -559,7 +599,7 @@ footer {
 	}
 	.copy-container {
 		display: block;
-		max-width: 600px;
+		max-width: 640px;
 		@include mq(sm) {
 			display: inline-block;
 		}
@@ -573,6 +613,81 @@ footer {
 		text-align: left;
 		text-transform: uppercase;
 	}
+}
+
+.about {
+	.section-header {
+		margin-bottom: 40px;
+	}
+}
+
+.featured-speaker {
+	.copy-container {
+		padding-left: 37px;
+	    padding-top: 95px;
+	}
+	.img-container {
+		padding-left: 17px;
+	    padding-top: 41px;
+	}
+	.copy {
+		max-width: none;
+	}
+
+}
+
+.speaker-page-img {
+	height: 150px;
+	width: 150px;
+}
+
+.speaker-header {
+	color: $dark-text;
+	font-family: NunitoSansBold, sans-serif;
+	font-size: 24px;
+	margin: 0 0 2px 0;
+	text-align: left;
+	text-transform: uppercase;
+}
+.speaker-subtitle {
+	color: $dark-text;
+	font-family: NunitoSansLight, sans-serif;
+	font-size: 18px;
+	margin: 0 0 2px 0;
+	text-align: left;
+}
+.speaker-handle {
+	color: $brand-yellow;
+	font-family: NunitoSans, sans-serif;
+	font-size: 18px;
+	margin: 0;
+	text-align: left;
+}
+.speaker-subheader {
+	font-family: NunitoSans, sans-serif;
+	font-size: 18px;
+	margin: 24px 0 2px 0;
+}
+
+
+// Location page 
+.location.hero {
+	background-image: url('../img/hyatt-panorama.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	height: 400px;
+}
+
+//Sponsorship
+.container.sponsorship {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+//People
+.container.people {
+	padding-top: 50px;
+	padding-bottom: 150px;
 }
 
 /* Extra small devices (phones, less than 768px) */
