@@ -14,7 +14,7 @@ layout: layout.html
           <div class="hyatt-copy">
             <h1>Grand Hyatt</h1>
             <p>Explore our incredible conference venue in Denver, Colorado.</p>
-            <a href="#">About the venue</a>
+            <a href="location.html">About the venue</a>
           </div>
         </div>
       </li>
@@ -96,9 +96,9 @@ layout: layout.html
   <div class="row">
     <h1 class="section-header">Workshops</h1>
     <h2 class="section-subheader">September 19-20</h2>
-    <p class="copy">Our full-day pre-conference workshops will be held during on Tuesday, September 19 and Wednesday, September 20. Currently we have confirmed that Eric Evans will be teaching his Strategic DDD workshop, and Alberto Brandolini will be teaching his EventStorming Masterclass. These both promise to be very popular workshops, so make sure you stay updated with conference news to learn when registration becomes available. We are actively sourcing other workshops and will be announcing them as soon as they are confirmed. Enter your contact details to <a href="https://virtualgenius.typeform.com/to/tZlftR">stay updated</a> so you are the first to hear the news.
-</p>
-<!--     <p class="copy">In EventStorming, development team members and business people gather in a room and together they create a visual map of the flow of events - important things that happen - through concrete business examples. They use sticky notes to map out a story of how the software system behaves, or should behave, given a particular business problem to solve. <a href="#">Read more...</a></p> -->
+    <p class="copy">Our full-day pre-conference workshops will be held Tuesday, September 19 and Wednesday, September 20. Currently we have confirmed that Eric Evans will be teaching his Strategic DDD workshop, and Alberto Brandolini will be teaching his EventStorming Masterclass. We are actively sourcing other workshops and will be announcing them as soon as they are confirmed.
+    </p>
+    <p class="copy"> Enter your contact details to <a href="https://virtualgenius.typeform.com/to/tZlftR">stay updated</a> so you are the first to hear the news. Our workshops promise to be popular, so make sure you stay updated with conference news to learn when registration becomes available. </p>
   </div>
 </div>
 
@@ -108,12 +108,12 @@ layout: layout.html
     <div class="location-col col-xs-12 col-sm-6">
       <img src="img/hyatt.jpg" class="location-img" />
       <h2 class="section-subheader">Grand Hyatt</h2>
-      <p class="copy">Treat yourself to the exceptional at Grand Hyatt Denver. Our AAA Four Diamond hotel welcomes you with beautifully designed guestrooms with free WiFi and an inviting lobby in a stylish, modern setting. <a href="#">Read more...</a></p>
+      <p class="copy">Treat yourself to the exceptional at Grand Hyatt Denver. Our AAA Four Diamond hotel welcomes you with beautifully designed guestrooms with free WiFi and an inviting lobby in a stylish, modern setting. <a href="location.html">Read more...</a></p>
     </div>
     <div class="location-col col-xs-12 col-sm-6">
       <img src="img/denver.jpg" class="location-img" />
       <h2 class="section-subheader">Denver, Colorado</h2>
-      <p class="copy">Welcome to Denver, where 300 days of sunshine, a thriving cultural scene, diverse neighborhoods, and natural beauty combine for the world's most spectacular playground. <a href="#">Read more...</a></p>
+      <p class="copy">Welcome to Denver, where 300 days of sunshine, a thriving cultural scene, diverse neighborhoods, and natural beauty combine for the world's most spectacular playground. <a href="location.html">Read more...</a></p>
     </div>
   </div>
 </div>
