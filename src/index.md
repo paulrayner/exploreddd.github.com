@@ -5,11 +5,15 @@ layout: layout.html
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
+      <li class="slide denver">
+        <div class="container">
+        </div>
+      </li>
       <li class="slide hyatt">
         <div class="container">
           <div class="hyatt-copy">
             <h1>Grand Hyatt</h1>
-            <p>Explore the views from the heart of Denver, Colorado.</p>
+            <p>Explore our incredible conference venue in Denver, Colorado.</p>
             <a href="#">About the venue</a>
           </div>
         </div>
@@ -19,10 +23,6 @@ layout: layout.html
           <h1>Announcement</h1>
           <h2>We are delighted to announce <span>Eric Evans</span> as our First Keynote Speaker!</h2>
           <a href="speakers/eric-evans.html">About Eric Evans</a>
-        </div>
-      </li>
-      <li class="slide denver">
-        <div class="container">
         </div>
       </li>
     </ul>
@@ -40,7 +40,7 @@ layout: layout.html
     <p class="conf-copy"><span class="conf-header">Conference</span> September 21 - 22, 2017</p>
     <p class="conf-copy"><span class="conf-header">Workshops</span> September 19 - 20, 2017</p>
     <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>
-    <p class="conf-contact">Follow us <a href="#">@ExploreDDD</a>    Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
+    <p class="conf-contact">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a>    Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
   </div>
 </div>
 
@@ -63,7 +63,7 @@ layout: layout.html
 
 <div class="container section speakers">
   <h1 class="section-header">Featured Speakers</h1>
-  <h2 class="section-subheader">View all speakers</h2>
+ <!--  <h2 class="section-subheader">View all speakers</h2> -->
   <div class="row">
     <div class="speaker-container">
       <div class="speaker-img eric-evans">
@@ -95,9 +95,10 @@ layout: layout.html
 <div class="container section workshops">
   <div class="row">
     <h1 class="section-header">Workshops</h1>
-    <h2 class="section-subheader">Event storming workshop</h2>
-    <p class="copy">EventStorming enables a team struggling with understanding and exploring a complex business problem to model that problem collaboratively in hours instead of weeks.</p>
-    <p class="copy">In EventStorming, development team members and business people gather in a room and together they create a visual map of the flow of events - important things that happen - through concrete business examples. They use sticky notes to map out a story of how the software system behaves, or should behave, given a particular business problem to solve. <a href="#">Read more...</a></p>
+    <h2 class="section-subheader">September 19-20</h2>
+    <p class="copy">Our full-day pre-conference workshops will be held during on Tuesday, September 19 and Wednesday, September 20. Currently we have confirmed that Eric Evans will be teaching his Strategic DDD workshop, and Alberto Brandolini will be teaching his EventStorming Masterclass. These both promise to be very popular workshops, so make sure you stay updated with conference news to learn when registration becomes available. We are actively sourcing other workshops and will be announcing them as soon as they are confirmed. Enter your contact details to <a href="https://virtualgenius.typeform.com/to/tZlftR">stay updated</a> so you are the first to hear the news.
+</p>
+<!--     <p class="copy">In EventStorming, development team members and business people gather in a room and together they create a visual map of the flow of events - important things that happen - through concrete business examples. They use sticky notes to map out a story of how the software system behaves, or should behave, given a particular business problem to solve. <a href="#">Read more...</a></p> -->
   </div>
 </div>
 
