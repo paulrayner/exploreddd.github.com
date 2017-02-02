@@ -10,17 +10,10 @@ layout: layout-speaker.html
   <div class="col-xs-12 col-sm-10 copy-container">
     <h1 class="speaker-header">Vaughn Vernon</h1>
     <h2 class="speaker-subtitle">Author of “Implementing Domain-Driven Design”</h2>
-    <h3 class="speaker-handle">@vaughnvernon</h3>
+    <p class="copy"><a class="speaker-handle" href="https://twitter.com/vaughnvernon">@vaughnvernon</a></p>
 
     <h2 class="speaker-subheader">biography</h2>
     <p class="copy">Vaughn is a veteran software craftsman, with more than 30 years of experience in software design, development, and architecture. He is a thought leader in simplifying software design and implementation using innovative methods. Vaughn is the author of the books "Implementing Domain-Driven Design" and "Reactive Messaging Patterns with the Actor Model", both published by Addison-Wesley. He has been applying the tenets of Domain-Driven Design since his Smalltalk domain modeling days in the early 1990s. Vaughn speaks and presents at conferences internationally, he consults, and has taught his IDDD Workshop around the globe to hundreds of developers. He is also the founder of ForComprehension.com, an online training website.</p>
-
-   <!--  <h2 class="speaker-subheader">talk</h2>
-    <p class="copy">Mene voluptaero quid quatquunt utas dolendi ditiusti delesequis re volorro qui omni dolupta tiorion sequatur rerum seque sa iunt qui ande poresto vera quam autam es maximped quo blanihillaut volorei urendam dolora dolum dolum quiate doleseque num dentur acculles cupta prora issi nis quam as deseque perfernatia volupta vendipsandus eatur minctat aspel etur sed eum ratem. Ut atur, opta sit ea estest atempos venest minienis aliciis aboratem antibus modit, ideliquam restin plaboreped exped et aut doloriandit unt moloriatem fugit, corporem. Itatquatur alique aut lam, quibus et eium non nis dictas remporem sus, numqui cum quis natibus eiunt.</p>
-
-    <h2 class="speaker-subheader">Workshop</h2>
-    <p class="copy">Mene voluptaero quid quatquunt utas dolendi ditiusti delesequis re volorro qui omni dolupta tiorion sequatur rerum seque sa iunt qui ande poresto vera quam autam es maximped quo blanihillaut volorei urendam dolora dolum dolum quiate doleseque num dentur acculles cupta prora. </p> -->
-    <a href="#" class="workshop-register-button">Register for workshop</a>
   </div>
 </div>
 </div>
