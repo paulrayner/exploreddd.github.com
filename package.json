@@ -7,6 +7,7 @@
     "metalsmith-browser-sync": "^1.1.1",
     "metalsmith-discover-helpers": "^0.1.0",
     "metalsmith-discover-partials": "^0.1.0",
+    "metalsmith-google-analytics": "0.0.1",
     "metalsmith-layouts": "^1.4.1",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-metadata": "0.0.4",

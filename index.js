@@ -1,12 +1,14 @@
 var Metalsmith        = require('metalsmith'),
     markdown          = require('metalsmith-markdown'),
     layouts           = require('metalsmith-layouts'),
-    metadata           = require('metalsmith-metadata'),
+    metadata          = require('metalsmith-metadata'),
     permalinks        = require('metalsmith-permalinks'),
     sass              = require('metalsmith-sass'),
     discoverPartials  = require('metalsmith-discover-partials'),
     discoverHelpers   = require('metalsmith-discover-helpers'),
     watch             = require('metalsmith-watch');
+
+//var googleAnalytics = require('metalsmith-google-analytics')
 
 var dir = {
   base:   __dirname + '/',
@@ -18,7 +20,7 @@ var dir = {
 Metalsmith(__dirname)
   .metadata({
     title: "Explore DDD Conference - 2017",
-    description: "Explore DDD Conference - 2017: Explore DDD Conference - 2017: Domain-Driven Design Conference in Denver, Colorado, USA for Software Leaders. Practical, cutting-edge, talks &amp; workshops.",
+    description: "Explore DDD Conference - 2017: Domain-Driven Design Conference in Denver, Colorado, USA for Software Leaders. Practical, cutting-edge, talks &amp; workshops.",
     generator: "Metalsmith",
     url: "http://www.exploreddd.com"
   })
@@ -42,6 +44,7 @@ Metalsmith(__dirname)
     outputDir: 'css/',
     outputStyle: 'compressed'
   }))
+//  .use(googleAnalytics('UA-37443128-6'))
   // .use(metadata({
   //   ericEvans: 'data/eric-evans.json'
   // }))
