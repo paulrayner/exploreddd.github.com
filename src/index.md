@@ -81,7 +81,7 @@ layout: layout.html
       <div class="speaker-img mathias-verraes">
       </div>
       <h3 class="speaker-name">Mathias Verraes</h3>
-      <p class="speaker-details">Temporal Modeling</p>
+      <p class="speaker-details">Student of Systems</p>
     </div>
     <div class="speaker-container">
       <div class="speaker-img vaughn-vernon">
