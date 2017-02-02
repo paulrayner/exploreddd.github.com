@@ -7,6 +7,5 @@ layout: layout-tier2.html
   <p class="copy">We are actively fleshing out the schedule and will be posting updates as they become available. At a high level, Explore DDD kicks off on Wednesday night, September 20, with an evening keynote from Eric Evans followed by a drinks reception.</p>
   <p class="copy">Thursday will provide an entire day of concurrent tracks of talks and workshops, closing with an evening keynote and drinks. Downtown Denver has an incredible music and food scene, so Thursday night is your chance to explore LoDo (Lower Downtown Denver) with your conference friends, and indulge your tastebuds in the finest food and drink Denver has to offer.</p>
   <p class="copy">Friday morning will consist of concurrent talk sessions, followed by an unconference in the afternoon with lightning talks, impromptu modeling and coding sessions, and problem-solving with your peers. And for those staying at the Grand Hyatt Denver on Friday night, we will have an informal group trip on Saturday into the Rocky Mountains to enjoy the beautiful Fall colors.</p>
-
-  <p class="copy">Enter your contact details to <a href="https://virtualgenius.typeform.com/to/tZlftR">stay updated</a>, and be the first to know when new information becomes available. </p>
+  <p class="copy">Enter your contact details to <a href="https://virtualgenius.typeform.com/to/tZlftR">stay updated</a>, and be the first to know when new information becomes available.</p>
 </div>

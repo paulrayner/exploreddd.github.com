@@ -43,6 +43,7 @@ layout: layout-tier2.html
 	<p class="copy">We are always looking for partners to help us bring the greatest possible event to our community. Contact us and we will be happy to discuss sponsorship opportunities with you.</p>
 
 	<h2 class="page-subheader">What is the conference Code of Conduct?</h2>
+	<p class="copy"><i>We aim to provide a safe learning experience for all conference participants, and thus expect them to be kind and respectful to others. We embrace diversity of human experience and the strength it brings to our communities and relationships.</i> </p>
 	<p class="copy">We care deeply about making Explore DDD a safe and welcoming space for everyone. In light of this, all attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.</p>
 	<p class="copy">If you have any questions, or are harassed in any way, please contact Paul Rayner (paul@virtualgenius.com, or call 303-374-4370) or approach someone of the staff. All reports are confidential.</p>
 
@@ -62,7 +63,7 @@ We expect participants to follow these rules at conference and workshop venues a
 	<p class="copy">Adapted from original at http://2012.jsconf.us/#/about, with thanks to DDD Europe.</p>
 
 	<h2 class="page-subheader">What about diversity?</h2>
-	<p class="copy">We are seeking to source and support speakers from underrepresented groups as much as possible in order to provide a richly diverse lineup of perspectives and backgrounds.</p>
+	<p class="copy">We are seeking to source and support speakers from underrepresented groups as much as possible in order to provide a richly diverse lineup of perspectives and backgrounds. We are also reaching out to groups to advise us on how best to improve the diversity of the conference.</p>
 
 	<h2 class="page-subheader">Accessibility</h2>
 	<p class="copy">Our venue provides full wheelchair accessibility, as required by USA federal and Colorado state law. Access to the conference venue is via elevator. If you have special requirements, please let us know and we will do our best to accommodate you.</p>
