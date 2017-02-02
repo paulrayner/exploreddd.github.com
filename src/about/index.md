@@ -7,7 +7,7 @@ layout: layout-tier2.html
 	<h2 class="page-subheader">What's different about the Explore DDD Conference?</h2>
 	<p class="copy">World-class talks and workshops from DDD practitioners and industry experts? Of course! But Explore DDD takes the notion/idea of conference engagement and exploration to a whole new level. An entire area of the conference floor will be dedicated to domain model exploration with others, where drawing and refining domain models is both expected and encouraged. We'll provide everything you need to cover walls with stickies, whiteboards with drawings, and make new friends and problem-solve together.
 </p>
-	<p class="copy">Practice your domain modeling techniques and skills collaboratively, and learn new and innovative techniques from each other while engaging with DDD experts such as Eric Evans, Paul Rayner, Vaughn Vernon, Alberto Brandolini and others. No other conference in the USA offers this opportunity to observe domain modeling in action, and practice and learn together in this way.</p>
+	<p class="copy">Practice your domain modeling techniques and skills collaboratively, and learn new and innovative techniques from each other while engaging with DDD experts such as Eric Evans, Paul Rayner, Vaughn Vernon, Alberto Brandolini and others. <i>No other conference in the USA offers this opportunity to observe domain modeling in action, and practice and learn together in this way.</i></p>
 	<p class="copy">We've deliberately opted for a smaller, more intimate conference, with a hard limit of 330 attendees due to venue size. Speaking of venue, we've selected an incredible, inspiring location for the conference! The 38th floor Pinnacle Club of the Grand Hyatt Denver, with the entire conference floor provides uninterrupted majestic views of the Rocky Mountains, downtown Denver, and city surrounds.</p>
 
 	<h2 class="page-subheader">Is this conference for me?</h2>
@@ -37,7 +37,7 @@ layout: layout-tier2.html
 	<p class="copy">The conference ticket gives you access to the main event conference sessions. You'll be able to attend all the talks. To attend the workshops, you need a separate ticket. All tickets include lunch and beverages. Not included in the ticket price are accommodation, travel, social events, dinners, or any other costs, unless specifically indicated.</p>
 
 	<h2 class="page-subheader">Can I speak at the conference?</h2>
-	<p class="copy">We are looking for interesting talk that will enlighten and empower our community. Please submit your talk to our CFP process and we'll get in contact with you.</p>
+	<p class="copy">We are looking for interesting talk that will enlighten and empower our community. Please submit your talk to our CFP process and we'll get in contact with you. Enter your contact details to <a href="https://virtualgenius.typeform.com/to/tZlftR">stay updated</a>, and be the first to know when the CFP opens. </p>
 
 	<h2 class="page-subheader">How can I become a sponsor?</h2>
 	<p class="copy">We are always looking for partners to help us bring the greatest possible event to our community. Contact us and we will be happy to discuss sponsorship opportunities with you.</p>

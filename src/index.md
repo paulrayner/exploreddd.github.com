@@ -14,7 +14,7 @@ layout: layout.html
           <div class="hyatt-copy">
             <h1>Grand Hyatt</h1>
             <p>Explore our incredible conference venue in Denver, Colorado.</p>
-            <a href="location.html">About the venue</a>
+            <a href="location/index.html">About the venue</a>
           </div>
         </div>
       </li>
@@ -108,12 +108,12 @@ layout: layout.html
     <div class="location-col col-xs-12 col-sm-6">
       <img src="img/hyatt.jpg" class="location-img" />
       <h2 class="section-subheader">Grand Hyatt</h2>
-      <p class="copy">Treat yourself to the exceptional at Grand Hyatt Denver. Our AAA Four Diamond hotel welcomes you with beautifully designed guestrooms with free WiFi and an inviting lobby in a stylish, modern setting. <a href="location.html">Read more...</a></p>
+      <p class="copy">Treat yourself to the exceptional at Grand Hyatt Denver. Our AAA Four Diamond hotel welcomes you with beautifully designed guestrooms with free WiFi and an inviting lobby in a stylish, modern setting. <a href="location/index.html">Read more...</a></p>
     </div>
     <div class="location-col col-xs-12 col-sm-6">
       <img src="img/denver.jpg" class="location-img" />
       <h2 class="section-subheader">Denver, Colorado</h2>
-      <p class="copy">Welcome to Denver, where 300 days of sunshine, a thriving cultural scene, diverse neighborhoods, and natural beauty combine for the world's most spectacular playground. <a href="location.html">Read more...</a></p>
+      <p class="copy">Welcome to Denver, where 300 days of sunshine, a thriving cultural scene, diverse neighborhoods, and natural beauty combine for the world's most spectacular playground. <a href="location/index.html">Read more...</a></p>
     </div>
   </div>
 </div>
