@@ -10,7 +10,7 @@ layout: layout-speaker.html
   <div class="col-xs-12 col-sm-10 copy-container">
     <h1 class="speaker-header">Eric Evans</h1>
     <h2 class="speaker-subtitle">Author of “Domain-Driven Design”</h2>
-    <h3 class="speaker-handle">@ericevans0</h3>
+    <p class="copy"><a class="speaker-handle" href="https://twitter.com/ericevans0">@ericevans0</a></p>
 
     <h2 class="speaker-subheader">biography</h2>
     <p class="copy">Eric Evans is the author of “Domain-Driven Design: Tackling Complexity in Software,” Addison-Wesley 2004.</p>
