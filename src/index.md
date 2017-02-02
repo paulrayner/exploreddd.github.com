@@ -37,7 +37,7 @@ layout: layout.html
 
 <div class="container-fluid section conf-dates">
   <div class="row">
-    <p class="conf-copy"><span class="conf-header">Conference</span> September 21 - 22, 2017</p>
+    <p class="conf-copy"><span class="conf-header">Conference</span> September 20 - 22, 2017</p>
     <p class="conf-copy"><span class="conf-header">Workshops</span> September 19 - 20, 2017</p>
     <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>
     <p class="conf-contact">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a>    Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
