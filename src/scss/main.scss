@@ -45,6 +45,10 @@ $dark-text: #452e26;
 	text-indent: -9999px;
 }
 
+html, body {
+	width: 100%;
+}
+
 body {
 	background-color: $brand-cream;
 	overflow-x: hidden;
@@ -84,9 +88,9 @@ nav {
 .nav-logo {
 	background-image: url('../img/ddd-logo.svg');
 	display: block;
-	margin: 0 auto;
+	margin: 3px auto;
 	height: 46px;
-	width: 180px;
+	width: 160px;
 	@include ir();
 	@include mq(sm) {
 		height: 37px;
@@ -272,14 +276,20 @@ nav {
 
 .slider {
 	margin-bottom: 0;
-	height: 400px;
+	height: 500px;
 	position: relative;
+	@include mq(sm){
+		height: 400px;
+	}
 }
 
 .slide {
 	background-position: bottom center;
 	background-size: cover;
-	height: 400px;
+	height: 500px;
+	@include mq(sm){
+		height: 400px;
+	}
 	@include mq(lg) {
 		.container {
 			width: 955px;
@@ -299,16 +309,22 @@ nav {
 	h1 {
 		color: $brand-yellow;
 		font-family: NunitoSansExtraBold, sans-serif;
-		font-size: 40px;
+		font-size: 30px;
 		margin: 0;
 		text-transform: uppercase;
+		@include mq(sm){
+			font-size: 40px;
+		}
 	}
 	p {
 		font-family: NunitoSansLight, sans-serif;
-		font-size: 30px;
+		font-size: 20px;
 		line-height: 1em;
 		margin: 0;
 		max-width: 320px;
+		@include mq(sm){
+			font-size: 30px;
+		}
 	}
 	a {
 		color: $brand-yellow;
@@ -321,24 +337,43 @@ nav {
 
 .slide.eric-evans {
 	background-color: $brand-cream;
-	background-image: url('../img/slider-eric-evans.jpg');
+	background-image: url('../img/eric-mobile.png');
+	background-position: 33% 0%;
+	background-repeat: no-repeat;
 	background-size: contain;
+	@include mq(sm) {
+		background-image: url('../img/slider-eric-evans.jpg');
+		background-size: contain;
+	}
 	.container {
-		float: right;
-		padding-top: 50px;
-		width: 50%;
+		bottom: 0;
+		display: block;
+		position: absolute;
+		@include mq(sm) {
+			display: inline-block;
+			float: right;
+			padding-top: 50px;
+			position: static;
+			width: 50%;
+		}
 	}
 	h1 {
 		color: $brand-yellow;
 		font-family: NunitoSansBold, sans-serif;
-		font-size: 40px;
+		font-size: 30px;
 		text-transform: uppercase;
+		@include mq(sm){
+			font-size: 40px;
+		}
 	}
 	h2 {
 		color: $dark-text;
 		font-family: NunitoSansLight, sans-serif;
-		font-size: 30px;
+		font-size: 20px;
 		max-width: 410px;
+		@include mq(sm){
+			font-size: 30px;
+		}
 		span {
 			font-family: NunitoSansBold, sans-serif;
 			text-transform: uppercase;
@@ -364,11 +399,14 @@ nav {
 }
 
 .custom-navigation-container {
-	bottom: 0;
-	display: block;
-	line-height: 400px;
-	position: absolute;
-	width: 100%;
+	display: none;
+	@include mq(sm){
+		bottom: 0;
+		display: block;
+		line-height: 400px;
+		position: absolute;
+		width: 100%;
+	}
 }
 
 .custom-navigation {
@@ -574,7 +612,7 @@ nav {
 }
 
 .section.location {
-	padding-bottom: 117px;
+	padding-bottom: 50px;
 	padding-top: 10px;
 
 	.section-header {
