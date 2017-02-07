@@ -218,6 +218,9 @@ nav {
 
 .nav-submenu {
 	background-color: $brand-cream;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
 	color: $dark-text;
 	display: block;
 	list-style-type: none;
