@@ -122,9 +122,9 @@ nav {
 
 .nav-list-item {
 	line-height: 30px;
+	position: relative;
 	text-align: left;
 	transition: color 0.2s;
-
 	@include mq(sm) {
 		display: inline-block;
 		font-size: 14px;
@@ -218,16 +218,25 @@ nav {
 
 .nav-submenu {
 	background-color: $brand-cream;
+	color: $dark-text;
 	display: block;
 	list-style-type: none;
 	margin: 0 -15px;
 	max-height: 0;
 	overflow: hidden;
 	padding: 0 0 0 10px;
+	text-align: left;
 	transition: all 0.2s;
-
 	@include mq(sm) {
-		display: none;
+		// display: none;
+		left: 5px;
+		position: absolute;
+		top: 75px;
+		white-space: nowrap;
+	}
+
+	a {
+		color: $dark-text;
 	}
 }
 
@@ -250,7 +259,8 @@ nav {
 
 .nav-list-item.open {
 	.nav-submenu {
-		max-height: 200px;
+		max-height: 300px;
+		padding: 10px;
 	}
 	.submenu-toggle {
 		opacity: 1;
@@ -259,11 +269,12 @@ nav {
 }
 
 .submenu-item {
-
+	@include mq(sm) {
+		line-height: 30px;
+	}
 }
 
 .section {
-
 	.row {
 		margin: 0 auto;
 		max-width: 960px;
@@ -413,7 +424,10 @@ nav {
 	display: block;
 	height: 400px;
 	margin: 0 auto;
-	width: 1300px;
+	max-width: 1300px;
+	@include mq(sm){
+
+	}
 
 	.arrow {
 		display: inline-block;
@@ -423,8 +437,12 @@ nav {
 		vertical-align: middle;
 		z-index: 10;
 		img{
-			height: 150px;
-			width: 150px;
+			height: 75px;
+			width: 75px;
+			@include mq(md){
+				height: 150px;
+				width: 150px;
+			}
 		}
 		&.left {
 			float: left;
@@ -508,8 +526,12 @@ nav {
 
 .conf-header {
 	color: $brand-yellow;
+	display: block;
 	padding-right: 15px;
 	text-transform: uppercase;
+	@include mq(sm){
+		display: inline;
+	}
 }
 .conf-copy {
 	color: $brand-cream;
@@ -527,6 +549,8 @@ nav {
 		padding-right: 10px;
 	}
 }
+
+// Speaker section
 
 .section.speakers {
 	padding-top: 10px;
@@ -619,6 +643,9 @@ nav {
 		margin-bottom: 18px;
 	}
 }
+
+// Location section
+
 .location-col {
 	padding-bottom: 20px;
 }
@@ -626,6 +653,24 @@ nav {
 	display: block;
 	margin: 0 auto 15px;
 	max-width: 100%;
+}
+
+.read-more {
+	background-image: url('../img/read-more-arrow.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	height: 185px;
+	margin-bottom: -2px;
+	margin-left: 8px;
+	opacity: 0.6;
+	transition: all 0.2s;
+	width: 18px;
+	@include ir();
+	&:hover {
+		opacity: 1;
+	}
 }
 
 footer {

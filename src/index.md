@@ -108,12 +108,12 @@ layout: layout.html
     <div class="location-col col-xs-12 col-sm-6">
       <img src="img/hyatt.jpg" class="location-img" />
       <h2 class="section-subheader">Grand Hyatt</h2>
-      <p class="copy">The conference will be hosted in the incredible Pinnacle Club of the Grand Hyatt Denver, a luxury event venue located on the 38th floor and overlooking the entire Rocky Mountain Front Range. <a href="location/">Read more...</a></p>
+      <p class="copy">The conference will be hosted in the incredible Pinnacle Club of the Grand Hyatt Denver, a luxury event venue located on the 38th floor and overlooking the entire Rocky Mountain Front Range.&nbsp;<a class="read-more" href="location/">Read more...</a></p>
     </div>
     <div class="location-col col-xs-12 col-sm-6">
       <img src="img/denver.jpg" class="location-img" />
       <h2 class="section-subheader">Denver, Colorado</h2>
-      <p class="copy">Welcome to Denver, where 300 days of sunshine, a thriving cultural scene, diverse neighborhoods, and natural beauty combine for the world's most spectacular playground. <a href="location/">Read more...</a></p>
+      <p class="copy">Welcome to Denver, where 300 days of sunshine, a thriving cultural scene, diverse neighborhoods, and natural beauty combine for the world's most spectacular playground. <a class="read-more" href="location/">Read more...</a></p>
     </div>
   </div>
 </div>

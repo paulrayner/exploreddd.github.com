@@ -16,5 +16,18 @@
     $('.submenu-toggle').on('click', function(e){
       var parent = $(e.currentTarget).parent();
       parent.toggleClass('open');
-      console.log(parent);
+    });
+
+    $('.nav-list-item.submenu').mouseover(function(e){
+      if ($(window).width() > 618) {
+        $('.nav-list-item').removeClass('open');
+        $(e.currentTarget).addClass('open');
+      }
+    });
+
+    $('.nav-submenu').mouseout(function(e){
+      var parent = $(e.currentTarget).parent();
+      if ($(window).width() > 618) {
+        $(parent).removeClass('open');
+      }
     });
