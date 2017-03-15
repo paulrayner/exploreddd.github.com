@@ -89,6 +89,12 @@ layout: layout.html
       <h3 class="speaker-name">Vaughn Vernon</h3>
       <p class="speaker-details">Author of “Implementing Domain-Driven Design”</p>
     </div>
+    <div class="speaker-container">
+      <div class="speaker-img rebecca-wirfs-brock">
+      </div>
+      <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
+      <p class="speaker-details">Object Design Pioneer</p>
+    </div>
   </div>
 </div>
 
