@@ -636,6 +636,14 @@ nav {
 			background-image: url('../img/speakers/Vaughn-Vernon-ON.png');
 		}
 	}
+
+	&.rebecca-wirfs-brock {
+		background-image: url('../img/speakers/Rebecca-Wirfs-Brock-OFF.png');
+
+		&:hover {
+			background-image: url('../img/speakers/Rebecca-Wirfs-Brock-ON.png');
+		}
+	}
 }
 
 .speaker-details {
