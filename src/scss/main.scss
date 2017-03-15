@@ -26,7 +26,7 @@ $dark-text: #452e26;
 	src: url(fonts/NunitoSans-Regular.ttf);
 }
 @font-face { 
-	font-family: NunitoSansBold; 
+	font-family: NunitoSansBold;
 	src: url(fonts/NunitoSans-Bold.ttf);
 }
 @font-face { 
@@ -312,7 +312,10 @@ nav {
 }
 
 .slide.hyatt {
-	background-image: url('../img/slider-hyatt-1600x400-2.png');
+	background-image: url('../img/slider-Hyatt-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/slider-hyatt-1600x400-2.png');
+	}
 }
 
 .hyatt-copy {
@@ -409,7 +412,10 @@ nav {
 }
 
 .slide.denver {
-	background-image: url('../img/slider-denver.jpg');
+	background-image: url('../img/slider-Denver700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/slider-denver.jpg');
+	}
 }
 
 .custom-navigation-container {
@@ -664,7 +670,6 @@ nav {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	display: inline-block;
-	height: 185px;
 	margin-bottom: -2px;
 	margin-left: 8px;
 	opacity: 0.6;
