@@ -72,11 +72,19 @@ layout: layout.html
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
     </div>
     <div class="speaker-container">
+      <a href="rebecca-wirfs-brock.html"><div class="speaker-img rebecca-wirfs-brock">
+      </div></a>
+      <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
+      <p class="speaker-details">Object Design Pioneer</p>
+    </div>
+    <div class="speaker-container">
       <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
       </div></a>
       <h3 class="speaker-name">Alberto Brandolini</h3>
       <p class="speaker-details">Inventor of EventStorming</p>
     </div>
+  </div>
+  <div class="row">
     <div class="speaker-container">
       <a href="julie-lerman.html"><div class="speaker-img julie-lerman">
       </div></a>
@@ -89,19 +97,11 @@ layout: layout.html
       <h3 class="speaker-name">Mathias Verraes</h3>
       <p class="speaker-details">Student of Systems</p>
     </div>
-  </div>
-  <div class="row">
     <div class="speaker-container">
       <a href="vaughn-vernon.html"><div class="speaker-img vaughn-vernon">
       </div></a>
       <h3 class="speaker-name">Vaughn Vernon</h3>
       <p class="speaker-details">Author of “Implementing DDD”</p>
-    </div>
-    <div class="speaker-container">
-      <a href="rebecca-wirfs-brock.html"><div class="speaker-img rebecca-wirfs-brock">
-      </div></a>
-      <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
-      <p class="speaker-details">Object Design Pioneer</p>
     </div>
   </div>
 </div>

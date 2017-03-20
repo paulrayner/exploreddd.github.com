@@ -10,7 +10,7 @@ layout: layout-speaker.html
   <div class="col-xs-12 col-sm-10 copy-container">
     <h1 class="speaker-header">Rebecca Wirfs-Brock</h1>
     <h2 class="speaker-subtitle">Object Design Pioneer</h2>
-    <p class="copy"><a class="speaker-handle" href="https://twitter.com/vaughnvernon">@rebeccawb</a></p>
+    <p class="copy"><a class="speaker-handle" href="https://twitter.com/rebeccawb">@rebeccawb</a></p>
 
     <h2 class="speaker-subheader">biography</h2>
     <p class="copy">Rebecca is an object design pioneer who invented the set of design practices known as Responsibility-Driven Design (RDD) and by accident started the x-Driven Design meme. Along the way she authored two popular object design books that are still in print.</p>

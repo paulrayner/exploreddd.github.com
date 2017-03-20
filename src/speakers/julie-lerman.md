@@ -9,7 +9,7 @@ layout: layout-speaker.html
   </div>
   <div class="col-xs-12 col-sm-10 copy-container">
     <h1 class="speaker-header">Julie Lerman</h1>
-    <h2 class="speaker-subtitle">Object Design Pioneer</h2>
+    <h2 class="speaker-subtitle">Microsoft MVP</h2>
     <p class="copy"><a class="speaker-handle" href="https://twitter.com/julielerman">@julielerman</a></p>
 
     <h2 class="speaker-subheader">biography</h2>
