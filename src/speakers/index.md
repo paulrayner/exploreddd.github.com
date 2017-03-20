@@ -12,6 +12,12 @@ layout: layout-tier2.html
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
     </div>
     <div class="speaker-container">
+      <a href="rebecca-wirfs-brock.html"><div class="speaker-img rebecca-wirfs-brock">
+      </div></a>
+      <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
+      <p class="speaker-details">Object Design Pioneer</p>
+    </div>
+    <div class="speaker-container">
       <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
       </div></a>
       <h3 class="speaker-name">Alberto Brandolini</h3>
