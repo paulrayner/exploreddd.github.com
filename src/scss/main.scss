@@ -644,6 +644,14 @@ nav {
 			background-image: url('../img/speakers/Rebecca-Wirfs-Brock-ON.png');
 		}
 	}
+
+	&.julie-lerman {
+		background-image: url('../img/speakers/Julie-Lerman-OFF.png');
+
+		&:hover {
+			background-image: url('../img/speakers/Julie-Lerman-ON.png');
+		}
+	}
 }
 
 .speaker-details {

@@ -23,6 +23,14 @@ layout: layout-tier2.html
       <h3 class="speaker-name">Alberto Brandolini</h3>
       <p class="speaker-details">Inventor of Event Storming</p>
     </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="julie-lerman.html"><div class="speaker-img julie-lerman">
+      </div></a>
+      <h3 class="speaker-name">Julie Lerman</h3>
+      <p class="speaker-details">Microsoft Regional Director</p>
+    </div>
     <div class="speaker-container">
       <a href="mathias-verraes.html"><div class="speaker-img mathias-verraes">
       </div></a>
