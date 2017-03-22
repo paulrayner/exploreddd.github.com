@@ -1,3 +1,5 @@
+// Variables
+
 $brand-brown: #452e26;
 $brand-yellow: #c49524;
 $rollover-yellow: #fdc33c;
@@ -45,6 +47,8 @@ $dark-text: #452e26;
 	text-indent: -9999px;
 }
 
+// General
+
 html, body {
 	width: 100%;
 }
@@ -64,6 +68,8 @@ body {
 		padding-top: 100px;
 	}
 }
+
+// Navigation
 
 nav {
 	border: 0;
@@ -288,6 +294,8 @@ nav {
 	}
 }
 
+// Sliders
+
 .slider {
 	margin-bottom: 0;
 	height: 500px;
@@ -312,9 +320,9 @@ nav {
 }
 
 .slide.hyatt {
-	background-image: url('../img/slider-Hyatt-700x600.jpg');
+	background-image: url('../img/sliders/slider-Hyatt-700x600.jpg');
 	@include mq(sm){
-		background-image: url('../img/slider-hyatt-1600x400-2.png');
+		background-image: url('../img/sliders/slider-hyatt-1600x400-2.png');
 	}
 }
 
@@ -352,28 +360,31 @@ nav {
 	}
 }
 
-.slide.eric-evans {
+.slide.speaker {
 	background-color: $brand-cream;
-	background-image: url('../img/eric-mobile.png');
 	background-position: 33% 0%;
 	background-repeat: no-repeat;
 	background-size: contain;
 	@include mq(sm) {
-		background-image: url('../img/slider-eric-evans.jpg');
-		background-size: contain;
+		background-position: 43%;
+		background-size: cover;
 	}
+
 	.container {
 		bottom: 0;
 		display: block;
+		padding-bottom: 20px;
 		position: absolute;
 		@include mq(sm) {
 			display: inline-block;
 			float: right;
+			padding-bottom: 0px;
 			padding-top: 50px;
 			position: static;
 			width: 50%;
 		}
 	}
+
 	h1 {
 		color: $brand-yellow;
 		font-family: NunitoSansBold, sans-serif;
@@ -383,6 +394,7 @@ nav {
 			font-size: 40px;
 		}
 	}
+
 	h2 {
 		color: $dark-text;
 		font-family: NunitoSansLight, sans-serif;
@@ -396,6 +408,7 @@ nav {
 			text-transform: uppercase;
 		}
 	}
+
 	a {
 		color: $brand-yellow;
 		font-family: NunitoSansBold, sans-serif;
@@ -409,12 +422,24 @@ nav {
 		}
 	}
 
+	&.eric-evans {
+		background-image: url('../img/sliders/slider-eric-mobile.png');
+		@include mq(sm) {
+			background-image: url('../img/sliders/slider-eric-evans.jpg');
+		}
+	}
+	&.rebecca-wirfs-brock {
+		background-image: url('../img/sliders/slider-Rebecca-Wirfs-Brock-700x600.jpg');
+		@include mq(sm) {
+			background-image: url('../img/sliders/slider-Rebecca-Wirfs-Brock-1600x400.jpg');
+		}
+	}
 }
 
 .slide.denver {
-	background-image: url('../img/slider-Denver700x600.jpg');
+	background-image: url('../img/sliders/slider-Denver700x600.jpg');
 	@include mq(sm){
-		background-image: url('../img/slider-denver.jpg');
+		background-image: url('../img/sliders/slider-denver.jpg');
 	}
 }
 

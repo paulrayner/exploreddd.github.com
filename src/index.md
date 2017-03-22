@@ -9,6 +9,13 @@ layout: layout.html
         <div class="container">
         </div>
       </li>
+      <li class="slide speaker rebecca-wirfs-brock">
+        <div class="container">
+          <h1>Featured Speaker</h1>
+          <h2>We are delighted to have <span>Rebecca Wirfs-Brock</span> as our Second Keynote Speaker.</h2>
+          <a href="speakers/rebecca-wirfs-brock.html">About Rebecca</a>
+        </div>
+      </li>
       <li class="slide hyatt">
         <div class="container">
           <div class="hyatt-copy">
@@ -18,9 +25,9 @@ layout: layout.html
           </div>
         </div>
       </li>
-      <li class="slide eric-evans">
+      <li class="slide speaker eric-evans">
         <div class="container">
-          <h1>Announcement</h1>
+          <h1>Featured Speaker</h1>
           <h2>We are delighted to announce <span>Eric Evans</span> as our First Keynote Speaker!</h2>
           <a href="speakers/eric-evans.html">About Eric Evans</a>
         </div>
