@@ -18,6 +18,12 @@ layout: layout-tier2.html
       <p class="speaker-details">Object Design Pioneer</p>
     </div>
     <div class="speaker-container">
+      <a href="ward-cunningham.html"><div class="speaker-img ward-cunningham">
+      </div></a>
+      <h3 class="speaker-name">Ward Cunningham</h3>
+      <p class="speaker-details">Creator of Wiki</p>
+    </div>
+    <div class="speaker-container">
       <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
       </div></a>
       <h3 class="speaker-name">Alberto Brandolini</h3>

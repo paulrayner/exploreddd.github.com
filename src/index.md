@@ -5,6 +5,13 @@ layout: layout.html
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
+      <li class="slide speaker ward-cunningham">
+        <div class="container">
+          <h1>Featured Speaker</h1>
+          <h2>We are delighted to have <span>Ward Cunningham</span> as our Second Keynote Speaker.</h2>
+          <a href="speakers/ward-cunningham.html">About Ward</a>
+        </div>
+      </li>
       <li class="slide denver">
         <div class="container">
         </div>
@@ -83,6 +90,12 @@ layout: layout.html
       </div></a>
       <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
       <p class="speaker-details">Object Design Pioneer</p>
+    </div>
+    <div class="speaker-container">
+      <a href="ward-cunningham.html"><div class="speaker-img ward-cunningham">
+      </div></a>
+      <h3 class="speaker-name">Ward Cunningham</h3>
+      <p class="speaker-details">Creator of Wiki</p>
     </div>
     <div class="speaker-container">
       <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">

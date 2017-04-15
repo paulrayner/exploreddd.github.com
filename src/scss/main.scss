@@ -434,6 +434,12 @@ nav {
 			background-image: url('../img/sliders/slider-Rebecca-Wirfs-Brock-1600x400.jpg');
 		}
 	}
+	&.ward-cunningham {
+		background-image: url('../img/sliders/slider-Ward-Cunningham-700x600.jpg');
+		@include mq(sm) {
+			background-image: url('../img/sliders/slider-Ward-Cunningham-1600x400.jpg');
+		}
+	}
 }
 
 .slide.denver {
@@ -675,6 +681,14 @@ nav {
 
 		&:hover {
 			background-image: url('../img/speakers/Julie-Lerman-ON.png');
+		}
+	}
+
+	&.ward-cunningham {
+		background-image: url('../img/speakers/Ward-Cunningham-OFF.png');
+
+		&:hover {
+			background-image: url('../img/speakers/Ward-Cunningham-ON.png');
 		}
 	}
 }
