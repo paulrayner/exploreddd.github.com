@@ -24,13 +24,19 @@ layout: layout-tier2.html
       <p class="speaker-details">Creator of Wiki</p>
     </div>
     <div class="speaker-container">
+      <a href="vaughn-vernon.html"><div class="speaker-img vaughn-vernon">
+      </div></a>
+      <h3 class="speaker-name">Vaughn Vernon</h3>
+      <p class="speaker-details">Author of “Implementing DDD”</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
       <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
       </div></a>
       <h3 class="speaker-name">Alberto Brandolini</h3>
       <p class="speaker-details">Inventor of Event Storming</p>
     </div>
-  </div>
-  <div class="row">
     <div class="speaker-container">
       <a href="julie-lerman.html"><div class="speaker-img julie-lerman">
       </div></a>
@@ -42,12 +48,6 @@ layout: layout-tier2.html
       </div></a>
       <h3 class="speaker-name">Mathias Verraes</h3>
       <p class="speaker-details">Student of Systems</p>
-    </div>
-    <div class="speaker-container">
-      <a href="vaughn-vernon.html"><div class="speaker-img vaughn-vernon">
-      </div></a>
-      <h3 class="speaker-name">Vaughn Vernon</h3>
-      <p class="speaker-details">Author of “Implementing DDD”</p>
     </div>
   </div>
 </div>
