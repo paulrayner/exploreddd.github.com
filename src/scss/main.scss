@@ -447,6 +447,15 @@ nav {
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-denver.jpg');
 	}
+
+	.mobile-copy {
+		color: $white-text;
+		display: none;
+		text-align: center;
+		text-transform: uppercase;
+		@include mq(sm){
+		}
+	}
 }
 
 .custom-navigation-container {

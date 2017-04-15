@@ -14,6 +14,11 @@ layout: layout.html
       </li>
       <li class="slide denver">
         <div class="container">
+          <h1 class="mobile-copy">
+            Conference opening keynote
+            by Eric Evans on Wed evening,
+            Sept. 20, followed by two
+            full days of exploring and learning.
         </div>
       </li>
       <li class="slide speaker rebecca-wirfs-brock">
