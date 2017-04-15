@@ -8,7 +8,7 @@ layout: layout.html
       <li class="slide speaker ward-cunningham">
         <div class="container">
           <h1>Featured Speaker</h1>
-          <h2>We are delighted to have <span>Ward Cunningham</span> as our Second Keynote Speaker.</h2>
+          <h2>We are delighted to have <span>Ward Cunningham</span> as our Opening Keynote Speaker.</h2>
           <a href="speakers/ward-cunningham.html">About Ward</a>
         </div>
       </li>
@@ -19,7 +19,7 @@ layout: layout.html
       <li class="slide speaker rebecca-wirfs-brock">
         <div class="container">
           <h1>Featured Speaker</h1>
-          <h2>We are delighted to have <span>Rebecca Wirfs-Brock</span> as our Second Keynote Speaker.</h2>
+          <h2>We are delighted to have <span>Rebecca Wirfs-Brock</span> as our Opening Keynote Speaker.</h2>
           <a href="speakers/rebecca-wirfs-brock.html">About Rebecca</a>
         </div>
       </li>
@@ -35,7 +35,7 @@ layout: layout.html
       <li class="slide speaker eric-evans">
         <div class="container">
           <h1>Featured Speaker</h1>
-          <h2>We are delighted to announce <span>Eric Evans</span> as our First Keynote Speaker!</h2>
+          <h2>We are delighted to have <span>Eric Evans</span> as our Opening Keynote Speaker!</h2>
           <a href="speakers/eric-evans.html">About Eric Evans</a>
         </div>
       </li>
