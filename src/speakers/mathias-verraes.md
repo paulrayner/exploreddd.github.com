@@ -10,7 +10,7 @@ layout: layout-speaker.html
   <div class="col-xs-12 col-sm-10 copy-container">
     <h1 class="speaker-header">Mathias Verraes</h1>
     <h2 class="speaker-subtitle">Student of Systems</h2>
-      <p class="copy"><a class="speaker-handle" href="https://twitter.com/mathiasverraes">@mathiasverraes</a></p>
+      <p class="copy"><a class="speaker-handle" href="https://twitter.com/mathiasverraes" target="_blank">@mathiasverraes</a></p>
 
     <h2 class="speaker-subheader">Abstract</h2>
     <p class="copy">Mathias Verraes advises companies on building software for complex environments. This involves primarily analysis and modelling, but also code, architecture, testing, and refactoring “unmaintainable” systems. He has worked with clients in Finance, Automotive, Government, Logistics, E-Commerce, and more. He teaches Domain-Driven Design courses and co-organises the DDD Europe conference. When he’s not working, he’s at home in Kortrijk, Belgium, helping his two sons build crazy Lego train tracks.</p>

@@ -10,7 +10,7 @@ layout: layout-speaker.html
     <div class="col-xs-12 col-sm-10 copy-container">
       <h1 class="speaker-header">Ward Cunninhgam</h1>
       <h2 class="speaker-subtitle">Creator of Wiki</h2>
-      <p class="copy"><a class="speaker-handle" href="https://twitter.com/WardCunningham">@WardCunningham</a></p>
+      <p class="copy"><a class="speaker-handle" href="https://twitter.com/WardCunningham" target="_blank">@WardCunningham</a></p>
 
 
       <h2 class="speaker-subheader">biography</h2>

@@ -10,7 +10,7 @@ layout: layout-speaker.html
   <div class="col-xs-12 col-sm-10 copy-container">
     <h1 class="speaker-header">Julie Lerman</h1>
     <h2 class="speaker-subtitle">Microsoft MVP</h2>
-    <p class="copy"><a class="speaker-handle" href="https://twitter.com/julielerman">@julielerman</a></p>
+    <p class="copy"><a class="speaker-handle" href="https://twitter.com/julielerman" target="_blank">@julielerman</a></p>
 
     <h2 class="speaker-subheader">biography</h2>
     <p class="copy">Julie Lerman is a Microsoft Regional director and a long-time Microsoft MVP. She makes her living as a mentor and consultant to software teams around the world.</p>

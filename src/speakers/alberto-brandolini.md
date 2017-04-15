@@ -10,7 +10,7 @@ layout: layout-speaker.html
     <div class="col-xs-12 col-sm-10 copy-container">
       <h1 class="speaker-header">Alberto Brandolini</h1>
       <h2 class="speaker-subtitle">Inventor of EventStorming</h2>
-      <p class="copy"><a class="speaker-handle" href="https://twitter.com/ziobrando">@ziobrando</a></p>
+      <p class="copy"><a class="speaker-handle" href="https://twitter.com/ziobrando" target="_blank">@ziobrando</a></p>
 
 
       <h2 class="speaker-subheader">biography</h2>
