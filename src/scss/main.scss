@@ -19,24 +19,24 @@ $dark-text: #452e26;
   }
 }
 
-@font-face { 
-	font-family: NunitoSansLight; 
+@font-face {
+	font-family: NunitoSansLight;
 	src: url(fonts/NunitoSans-Light.ttf);
 }
-@font-face { 
-	font-family: NunitoSans; 
+@font-face {
+	font-family: NunitoSans;
 	src: url(fonts/NunitoSans-Regular.ttf);
 }
-@font-face { 
+@font-face {
 	font-family: NunitoSansBold;
 	src: url(fonts/NunitoSans-Bold.ttf);
 }
-@font-face { 
-	font-family: NunitoSansSemiBold; 
+@font-face {
+	font-family: NunitoSansSemiBold;
 	src: url(fonts/NunitoSans-SemiBold.ttf);
 }
-@font-face { 
-	font-family: NunitoSansExtraBold; 
+@font-face {
+	font-family: NunitoSansExtraBold;
 	src: url(fonts/NunitoSans-ExtraBold.ttf);
 }
 
@@ -512,7 +512,7 @@ nav {
 
 .section-header {
 	color: $dark-text;
-	font-family: NunitoSansBold, sans-serif; 
+	font-family: NunitoSansBold, sans-serif;
 	font-size: 24px;
 	text-align: center;
 	text-transform: uppercase;
@@ -521,7 +521,7 @@ nav {
 
 .section-subheader {
 	color: $brand-yellow;
-	font-family: NunitoSansBold, sans-serif; 
+	font-family: NunitoSansBold, sans-serif;
 	font-size: 18px;
 	margin: 0;
 	text-align: center;
@@ -628,7 +628,7 @@ nav {
 
 .speaker-name {
 	color: $brand-yellow;
-	font-family: NunitoSansBold, sans-serif; 
+	font-family: NunitoSansBold, sans-serif;
 	font-size: 20px;
 	margin-bottom: 0;
 	text-transform: uppercase;
@@ -704,7 +704,7 @@ nav {
 
 .speaker-details {
 	color: $dark-text;
-	font-family: NunitoSansLight, sans-serif; 
+	font-family: NunitoSansLight, sans-serif;
 	font-size: 16px;
 }
 
@@ -793,7 +793,7 @@ footer {
 
 .page-subheader {
 	color: $dark-text;
-	font-family: NunitoSansSemiBold, sans-serif; 
+	font-family: NunitoSansSemiBold, sans-serif;
 	font-size: 18px;
 	margin: 0 0 4px 0;
 }
@@ -885,7 +885,7 @@ footer {
 }
 
 
-// Location page 
+// Location page
 .location.hero {
 	background-image: url('../img/hyatt-panorama.jpg');
 	background-size: cover;
@@ -893,8 +893,8 @@ footer {
 	height: 400px;
 }
 
-//Sponsorship
-.container.sponsorship {
+//Sponsors
+.container.sponsors {
 	padding-top: 50px;
 	padding-bottom: 150px;
 }

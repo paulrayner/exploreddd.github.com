@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section short sponsorship">
+<div class="container section short sponsors">
 	<h1 class="section-header">Sponsors</h1>
 	<p class="copy">The Explore DDD Conference is the perfect opportunity to raise your brand awareness amongst key technical influencers and top software development professionals while demonstrating your commitment to technical excellence and support of the software development community.</p>
 
