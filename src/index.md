@@ -128,6 +128,20 @@ layout: layout.html
       <h3 class="speaker-name">Mathias Verraes</h3>
       <p class="speaker-details">Student of Systems</p>
     </div>
+    <div class="speaker-container">
+      <a href="speakers/chris-richardson.html"><div class="speaker-img chris-richardson">
+      </div></a>
+      <h3 class="speaker-name">Chris Richardson</h3>
+      <p class="speaker-details">Java Champion and Author of POJOs in Action</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/paul-rayner.html"><div class="speaker-img paul-rayner">
+      </div></a>
+      <h3 class="speaker-name">Paul Rayner</h3>
+      <p class="speaker-details">Domain Remodeler</p>
+    </div>
   </div>
 </div>
 
@@ -156,4 +170,3 @@ layout: layout.html
     </div>
   </div>
 </div>
-

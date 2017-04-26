@@ -18,7 +18,7 @@ layout: layout-speaker.html
     <p class="copy">Since the early 1990s, he has worked on many projects developing large business systems with objects with many different approaches and many different outcomes. The book is a synthesis of that experience. It presents a system of modeling and design techniques that successful teams have used to align complex software systems with business needs and to keep projects agile as systems grow large.</p>
 
     <p class="copy">Eric now leads “Domain Language”, a consulting group which coaches and trains teams applying domain-driven design, helping them to make their development work more productive and more valuable to their business.</p>
-
+      <a name="conference-section"></a>
       <h2 class="speaker-subheader">Two day pre-conference workshop, Sept. 19-20 2017</h2>
 
       <h2 class="speaker-subheader"><strong>Strategic DDD</strong></h2>

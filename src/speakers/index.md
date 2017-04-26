@@ -49,5 +49,11 @@ layout: layout-tier2.html
       <h3 class="speaker-name">Mathias Verraes</h3>
       <p class="speaker-details">Student of Systems</p>
     </div>
+    <div class="speaker-container">
+      <a href="chris-richardson.html"><div class="speaker-img chris-richardson">
+      </div></a>
+      <h3 class="speaker-name">Chris Richardson</h3>
+      <p class="speaker-details">Java Champion and Author of POJOs in Action</p>
+    </div>
   </div>
 </div>

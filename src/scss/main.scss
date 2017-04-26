@@ -700,6 +700,20 @@ nav {
 			background-image: url('../img/speakers/Ward-Cunningham-ON.png');
 		}
 	}
+  &.chris-richardson {
+		background-image: url('../img/speakers/Chris-Richardson-OFF.png');
+
+		&:hover {
+			background-image: url('../img/speakers/Chris-Richardson-ON.png');
+		}
+	}
+  &.paul-rayner {
+		background-image: url('../img/speakers/Paul-Rayner-OFF.png');
+
+		&:hover {
+			background-image: url('../img/speakers/Paul-Rayner-ON.png');
+		}
+	}
 }
 
 .speaker-details {
@@ -910,6 +924,36 @@ footer {
 	padding-top: 50px;
 	padding-bottom: 150px;
 }
+
+//Workshops
+.workshop-list {
+  padding-top: 30px;
+  padding-left: 37px;
+  padding-bottom: 3em;
+  h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    a {
+      color: $brand-yellow;
+      transition: color 0.2s ease 0s;
+      &:hover {
+        text-decoration: none;
+        color: $rollover-yellow;
+      }
+    }
+  }
+  .workshops--speaker-name {
+    display: block;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: auto;
+  }
+  .workshops--speaker-title {
+    font-style: italic;
+  }
+}
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
