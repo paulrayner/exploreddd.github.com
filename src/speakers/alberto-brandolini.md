@@ -23,8 +23,8 @@ layout: layout-speaker.html
 <!--       <h2 class="speaker-subheader">talk</h2>
       <p class="copy">To be determined.</p>
  -->
-<a name="conference-section"></a>
-      <h2 class="speaker-subheader">Two day pre-conference workshop, Sept. 19-20 2017
+
+      <h2 class="conference-emphasis">Two day pre-conference workshop, Sept. 19-20 2017
       <h2 class="speaker-subheader"><strong>EventStorming Master Class</strong></h2>
 
       <p class="copy">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way.</p>

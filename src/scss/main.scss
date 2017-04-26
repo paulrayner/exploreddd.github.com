@@ -731,6 +731,13 @@ nav {
 	}
 }
 
+h2.conference-emphasis {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 24px;
+  font-family: NunitoSansBold,sans-serif;
+}
+
 // Location section
 
 .location-col {
@@ -925,7 +932,6 @@ footer {
 	padding-bottom: 150px;
 }
 
-<<<<<<< HEAD
 //Workshops
 .workshop-list {
   padding-top: 30px;
@@ -956,7 +962,7 @@ footer {
 }
 
 
-=======
+
 // CFP
 .cfp-cta {
   font-family: NunitoSansExtraBold, sans-serif;
@@ -967,7 +973,6 @@ footer {
   	}
 }
 
->>>>>>> 92c2bcc4617b15f54958aea7e93eb03b50bad71c
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
