@@ -911,6 +911,16 @@ footer {
 	padding-bottom: 150px;
 }
 
+// CFP
+.cfp-cta {
+  font-family: NunitoSansExtraBold, sans-serif;
+  font-size: 18px;
+  margin: 0 0 4px 0;
+  	a {
+  		color: $brand-yellow;
+  	}
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
