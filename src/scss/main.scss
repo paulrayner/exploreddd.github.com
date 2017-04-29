@@ -934,13 +934,16 @@ footer {
 }
 
 //Workshops
-.workshops {
-  color: $brand-brown;
+.workshops {  
+  p {
+    text-align: left;
+  }
 }
 .workshop-list {
   padding-top: 30px;
   padding-left: 37px;
   padding-bottom: 3em;
+  max-width: 640px;
   h2 {
     text-transform: uppercase;
     font-size: 24px;
@@ -955,7 +958,7 @@ footer {
   }
   .workshops--speaker-name {
     display: block;
-    color: #000;
+    color: $brand-brown;
     font-weight: bold;
     text-transform: uppercase;
     font-size: auto;
