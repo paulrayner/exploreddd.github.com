@@ -793,8 +793,8 @@ footer {
 		justify-content: space-between;
 	}
 }
-
-.sponsor-logo {
+/* we need to change this class name to benefactor so adblockers don't hide the images */
+.benefactor-logo {
 	display: block;
 	margin: 10px auto;
 	max-width: 80%;
@@ -934,7 +934,7 @@ footer {
 }
 
 //Workshops
-.workshops {  
+.workshops {
   p {
     text-align: left;
   }
