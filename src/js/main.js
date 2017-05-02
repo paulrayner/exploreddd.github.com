@@ -24,6 +24,13 @@
         $(e.currentTarget).addClass('open');
       }
     });
+    
+    $('.nav-list-item.submenu').mouseout(function(e){
+      if ($(window).width() > 618) {
+        //$('.nav-list-item').removeClass('open');
+        $(e.currentTarget).removeClass('open');
+      }
+    });
 
     $('.nav-submenu').mouseout(function(e){
       var parent = $(e.currentTarget).parent();

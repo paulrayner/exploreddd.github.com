@@ -238,7 +238,7 @@ nav {
 	transition: all 0.2s;
 	@include mq(sm) {
 		// display: none;
-		left: 5px;
+		left: 15px;
 		position: absolute;
 		top: 75px;
 		white-space: nowrap;
@@ -275,6 +275,12 @@ nav {
 		opacity: 1;
 		transform: rotate(90deg);
 	}
+}
+
+.nav-list-item:not(:first-child) {
+  .nav-submenu {
+    margin-left: 0;
+  }
 }
 
 .submenu-item {
