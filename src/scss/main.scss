@@ -269,7 +269,7 @@ nav {
 .nav-list-item.open {
 	.nav-submenu {
 		max-height: 300px;
-		padding: 10px;
+		padding: 10px 20px 10px 20px;
 	}
 	.submenu-toggle {
 		opacity: 1;
@@ -279,7 +279,7 @@ nav {
 
 .nav-list-item:not(:first-child) {
   .nav-submenu {
-    margin-left: 0;
+    margin-left: -10px;
   }
 }
 
