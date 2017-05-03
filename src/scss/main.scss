@@ -157,10 +157,14 @@ nav {
 }
 
 .nav-list-item:not(:first-child) {
+  .nav-submenu {
+    //margin-left: -30px;
+  }
 	@include mq(sm){
 		padding-left: 16px;
 	}
 }
+
 
 .nav-btn {
 	background: $white-text;
@@ -222,6 +226,8 @@ nav {
 	}
 }
 
+/* begin submenu stuff */
+
 .nav-submenu {
 	background-color: $brand-cream;
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
@@ -237,16 +243,32 @@ nav {
 	text-align: left;
 	transition: all 0.2s;
 	@include mq(sm) {
-		// display: none;
-		left: 15px;
+		left: -5px;
+		position: absolute;
+		top: 50px;
+		white-space: nowrap;
+	}
+  @include mq(md) {
+		position: absolute;
+		top: 60px;
+		white-space: nowrap;
+	}
+  @include mq(lg) {
 		position: absolute;
 		top: 75px;
 		white-space: nowrap;
 	}
-
 	a {
 		color: $dark-text;
 	}
+}
+
+.nav-list-item:not(:first-child) {
+  .nav-submenu {
+    @include mq(sm) {
+      left: 10px;      
+    }
+  }
 }
 
 .submenu-toggle {
@@ -275,12 +297,6 @@ nav {
 		opacity: 1;
 		transform: rotate(90deg);
 	}
-}
-
-.nav-list-item:not(:first-child) {
-  .nav-submenu {
-    margin-left: -10px;
-  }
 }
 
 .submenu-item {
