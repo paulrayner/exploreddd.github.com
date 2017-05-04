@@ -9,7 +9,7 @@ layout: layout-tier2.html
 
   <p class="copy">The main conference will be hosted in the incredible Pinnacle Club of the Grand Hyatt Denver, a luxury event venue located on the 38th floor and overlooking the entire Rocky Mountain Front Range. The pre-conference workshops will be located on the 2nd floor of the Grand Hyatt Denver.</p>
 
-  <iframe width="552" height="312" 
+  <iframe width="552" height="312"
     src="https://www.youtube.com/embed/CzZdojjuMm0">
   </iframe>
 
@@ -31,7 +31,7 @@ layout: layout-tier2.html
 
   <p class="copy">Welcome to Denver, where 300 days of sunshine, a thriving cultural scene, diverse neighborhoods, and natural beauty combine for the world's most spectacular playground. For more information, see <a href="http://www.denver.org">www.denver.org.</a></p>
 
-  <iframe width="552" height="312" 
+  <iframe width="552" height="312"
     src="https://www.youtube.com/embed/26RxUbH8HnU">
   </iframe>
 
@@ -40,7 +40,7 @@ layout: layout-tier2.html
   <h2 class="page-subheader">Accommodation</h2>
 
   <p class="copy"><i>Hotel room availability at this time of year in Denver is extremely limited, so we strongly recommend that attendees traveling from out of town reserve their rooms at the Grand Hyatt as early as possible.</i> </p>
-  <p class="copy">We have reserved a room block at the Grand Hyatt, and negotiated a low conference discounted room rate of $199/night. Enter your contact details to <a href="https://virtualgenius.typeform.com/to/tZlftR">stay updated</a>, and be the first to know when hotel room bookings become available. </p>
+  <p class="copy">We have reserved a room block at the Grand Hyatt, and negotiated a low conference discounted room rate of $199/night. Enter your contact details to <a href="http://eepurl.com/cGAHQT">stay updated</a> with our conference newsletter.</p>
 
 <!--   Contact the hotel directly to make your room booking, and mention the conference to receive the discounted rate.</p>
  -->
