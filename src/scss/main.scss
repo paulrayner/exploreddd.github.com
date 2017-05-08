@@ -266,7 +266,7 @@ nav {
 .nav-list-item:not(:first-child) {
   .nav-submenu {
     @include mq(sm) {
-      left: 10px;      
+      left: 10px;
     }
   }
 }
@@ -883,7 +883,7 @@ footer {
 
 .featured-speaker {
 	.copy-container {
-		padding-left: 37px;
+		//padding-left: 37px; //ZJ not sure why this was set 
 	    padding-top: 95px;
 	}
 	.img-container {
@@ -1000,6 +1000,30 @@ footer {
   	a {
   		color: $brand-yellow;
   	}
+}
+
+// 'BUY TICKETS' button styles
+.btn {
+  background: #452E26;
+  background-image: -webkit-linear-gradient(top, #452E26, #917c51);
+  background-image: -moz-linear-gradient(top, #452E26, #917c51);
+  background-image: -ms-linear-gradient(top, #452E26, #917c51);
+  background-image: -o-linear-gradient(top, #452E26, #917c51);
+  background-image: linear-gradient(to bottom, #452E26, #917c51);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: $white-text;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  border: 0;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: $rollover-yellow;
 }
 
 /* Extra small devices (phones, less than 768px) */

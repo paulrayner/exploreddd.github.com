@@ -33,6 +33,8 @@ layout: layout-speaker.html
       <li>Manage diverse styles of design, development process and quality within a large system, and still maintain the ability to innovate around your core domain</li>
       <li>Develop multiple strategies for setting up a fresh project that can break with the past, even when the organization is tied to legacy systems.</li>
       </ul>
+
+      <a class="btn" href="#">Buy Tickets</a>
   </div>
 </div>
 </div>
