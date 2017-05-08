@@ -61,6 +61,7 @@ layout: layout-speaker.html
       <li>Triggering bullet-proof design with visible state. The transaction illusion.</li>
       <li>From sticky notes to working software. When to go for a sophisticated architecture.</li>
       </ul>
+      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
     </div>
   </div>
 </div>

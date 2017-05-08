@@ -40,6 +40,8 @@ layout: layout-speaker.html
     </ul>
     <p class="copy">The workshop is very hands-on and interactive, will help you connect everything in DDD together and see how it fits and what's most important, and give you practical tools to take away and try on your project. We will be doing some pairing exercises which will require laptops. We will be reading code, but no coding experience is necessary. </p>
 
+    <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+
   </div>
 </div>
 </div>

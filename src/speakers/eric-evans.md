@@ -34,7 +34,7 @@ layout: layout-speaker.html
       <li>Develop multiple strategies for setting up a fresh project that can break with the past, even when the organization is tied to legacy systems.</li>
       </ul>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017" target="_blank">Buy Tickets</a>
+      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
   </div>
 </div>
 </div>
