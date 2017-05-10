@@ -8,6 +8,9 @@ $white-text: #ffebc1;
 $dark-text: #452e26;
 
 @mixin mq($size) {
+  @if $size == xs {
+    @media (max-width: 767px) { @content; }
+  }
   @if $size == sm {
     @media (min-width: 768px) { @content; }
   }
@@ -626,8 +629,15 @@ nav {
 .section.speakers {
 	padding-top: 10px;
 	.row {
-		margin-bottom: 8px;
-		margin-top: 32px;
+		&:first-child {
+      margin-top: 32px;
+    }
+    &:last-child {
+      margin-bottom: 15px;
+    }
+    @include mq(xs) {
+
+    }
 		@include mq(sm) {
 			display: flex;
 			flex-wrap: wrap;
@@ -666,6 +676,9 @@ nav {
 	margin: 0 auto;
 	transition: all 0.2s;
 	width: 150px;
+  @include mq(xs) {
+    margin-top: 15px;
+  }
 
 	&.eric-evans {
 		background-image: url('../img/speakers/Eric-Evans-OFF.png');
@@ -885,7 +898,14 @@ footer {
 .featured-speaker {
 	.copy-container {
 		//padding-left: 37px; //ZJ not sure why this was set
-	    padding-top: 95px;
+      padding-top: 25px;
+      @include mq(sm){
+    		display: inline;
+        padding-top: 95px;
+    	}
+      @include mq(md){
+
+      }
 	}
 	.img-container {
 		padding-left: 17px;
