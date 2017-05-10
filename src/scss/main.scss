@@ -983,8 +983,13 @@ footer {
   }
 }
 .workshop-list {
-  padding-top: 30px;
-  //padding-left: 37px;
+  @include mq(sm) {
+    padding-top: 30px;
+    padding-left: 65px;
+  }
+  @include mq(md) {
+    padding-left: 35px;
+  }
   padding-bottom: 3em;
   max-width: 640px;
   h2 {
