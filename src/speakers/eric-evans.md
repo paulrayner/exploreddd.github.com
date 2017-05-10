@@ -7,7 +7,7 @@ layout: layout-speaker.html
   <div class="col-xs-12 col-sm-2 img-container">
     <img class="speaker-page-img" src="../img/speakers/Eric-Evans-ON.png" />
   </div>
-  <div class="col-xs-12 col-sm-10 copy-container">
+  <div class="col-xs-12 col-sm-9 copy-container">
     <h1 class="speaker-header">Eric Evans</h1>
     <h2 class="speaker-subtitle">Author of “Domain-Driven Design”</h2>
     <p class="copy"><a class="speaker-handle" href="https://twitter.com/ericevans0" target="_blank">@ericevans0</a></p>

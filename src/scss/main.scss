@@ -861,6 +861,7 @@ footer {
 		max-width: 640px;
 		@include mq(sm) {
 			display: inline-block;
+      padding-left: 75px;
 		}
 	}
 
