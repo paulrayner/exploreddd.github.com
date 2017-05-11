@@ -393,19 +393,22 @@ nav {
 
 .slide.speaker {
 	background-color: $brand-cream;
-	background-position: 33% 0%;
+	background-position: right 80%;
 	background-repeat: no-repeat;
 	background-size: contain;
-	@include mq(sm) {
+  @include mq(sm) {
 		background-position: 53%;
 		background-size: cover;
 	}
 
 	.container {
-		bottom: 0;
+		bottom: 0; //start fixing here
 		display: block;
 		padding-bottom: 20px;
 		position: absolute;
+    @include mq(xs) {
+      top: 0;
+    }
 		@include mq(sm) {
 			display: inline-block;
 			float: right;
@@ -465,7 +468,7 @@ nav {
 	}
 
 	&.eric-evans {
-		background-image: url('../img/sliders/slider-eric-mobile.png');
+		background-image: url('../img/sliders/slider-Eric-Evans-700x600.jpg');
 		@include mq(sm) {
 			background-image: url('../img/sliders/slider-eric-evans.jpg');
 		}
