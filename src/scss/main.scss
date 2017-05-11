@@ -354,8 +354,14 @@ nav {
 .hyatt-copy {
 	background-color: #fff8e9;
 	display: inline-block;
-	margin-top: 100px;
+	margin-top: 85px;
 	padding: 30px;
+  @include mq(sm) {
+    margin-left: 60px;
+  }
+  @include mq(md) {
+    margin-left: 100px;
+  }
 	h1 {
 		color: $brand-yellow;
 		font-family: NunitoSansExtraBold, sans-serif;
@@ -391,7 +397,7 @@ nav {
 	background-repeat: no-repeat;
 	background-size: contain;
 	@include mq(sm) {
-		background-position: 43%;
+		background-position: 53%;
 		background-size: cover;
 	}
 
@@ -404,10 +410,15 @@ nav {
 			display: inline-block;
 			float: right;
 			padding-bottom: 0px;
-			padding-top: 50px;
+			padding-top: 100px;
 			position: static;
 			width: 50%;
+      margin-right: 40px;
 		}
+    @include mq(md) {
+      width: 48%;
+      margin-right: 45px;
+    }
 	}
 
 	h1 {
@@ -416,6 +427,9 @@ nav {
 		font-size: 30px;
 		text-transform: uppercase;
 		@include mq(sm){
+			font-size: 30px;
+		}
+    @include mq(md){
 			font-size: 40px;
 		}
 	}
@@ -426,6 +440,9 @@ nav {
 		font-size: 20px;
 		max-width: 410px;
 		@include mq(sm){
+			font-size: 25px;
+		}
+    @include mq(md){
 			font-size: 30px;
 		}
 		span {
