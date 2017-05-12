@@ -691,82 +691,85 @@ nav {
 }
 
 .speaker-img {
-	background-size: contain;
+	//background-size: contain;
+  background-size:312px;
+  background-position: -156px;
 	height: 150px;
 	margin: 0 auto;
-	transition: all 0.2s;
+	//transition: all 0.2s;
 	width: 150px;
+  border-radius: 120px;
   @include mq(xs) {
     margin-top: 15px;
   }
 
 	&.eric-evans {
-		background-image: url('../img/speakers/Eric-Evans-OFF.png');
+		background-image: url('../img/speakers/sprite-eric-evans.jpg');
 
 		&:hover {
-			background-image: url('../img/speakers/Eric-Evans-ON.png');
+			background-position: 0;
 		}
 	}
 
 	&.alberto-brandolini {
-		background-image: url('../img/speakers/Alberto-Brandolini-OFF.png');
+		background-image: url('../img/speakers/sprite-alberto-brandolini.jpg');
 
 		&:hover {
-			background-image: url('../img/speakers/Alberto-Brandolini-ON.png');
+			background-position: 0;
 		}
 	}
 
 	&.mathias-verraes {
-		background-image: url('../img/speakers/Mathias-Verraes-OFF.png');
+		background-image: url('../img/speakers/sprite-mathias-verraes.jpg');
 
 		&:hover {
-			background-image: url('../img/speakers/Mathias-Verraes-ON.png');
+			background-position: 0;
 		}
 	}
 
 	&.vaughn-vernon {
-		background-image: url('../img/speakers/Vaughn-Vernon-OFF.png');
+		background-image: url('../img/speakers/sprite-vaughn-vernon.jpg');
 
 		&:hover {
-			background-image: url('../img/speakers/Vaughn-Vernon-ON.png');
+			background-position: 0;
 		}
 	}
 
 	&.rebecca-wirfs-brock {
-		background-image: url('../img/speakers/Rebecca-Wirfs-Brock-OFF.png');
+		background-image: url('../img/speakers/sprite-rebecca-wirfs-brock.jpg');
 
 		&:hover {
-			background-image: url('../img/speakers/Rebecca-Wirfs-Brock-ON.png');
+			background-position: 0;
 		}
 	}
 
 	&.julie-lerman {
-		background-image: url('../img/speakers/Julie-Lerman-OFF.png');
+		background-image: url('../img/speakers/sprite-julie-lerman.jpg');
 
 		&:hover {
-			background-image: url('../img/speakers/Julie-Lerman-ON.png');
+			background-position: 0;
 		}
 	}
 
 	&.ward-cunningham {
-		background-image: url('../img/speakers/Ward-Cunningham-OFF.png');
+		background-image: url('../img/speakers/sprite-ward-cunningham.jpg');
 
 		&:hover {
-			background-image: url('../img/speakers/Ward-Cunningham-ON.png');
+			background-position: 0;
 		}
 	}
   &.chris-richardson {
-		background-image: url('../img/speakers/Chris-Richardson-OFF.png');
+		background-image: url('../img/speakers/sprite-chris-richardson.jpg');
 
 		&:hover {
-			background-image: url('../img/speakers/Chris-Richardson-ON.png');
+			background-position: 0;
 		}
 	}
   &.paul-rayner {
-		background-image: url('../img/speakers/Paul-Rayner-OFF.png');
+		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
 
 		&:hover {
-			background-image: url('../img/speakers/Paul-Rayner-ON.png');
+			background-position: 0;
 		}
 	}
 }
