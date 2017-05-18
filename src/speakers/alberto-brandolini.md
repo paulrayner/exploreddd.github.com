@@ -13,7 +13,7 @@ layout: layout-speaker.html
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/ziobrando" target="_blank">@ziobrando</a></p>
 
 
-      <h2 class="speaker-subheader">biography</h2>
+      <h2 class="speaker-subheader"><strong>biography</strong></h2>
       <p class="copy">Alberto Brandolini can model every business domain, given enough space, a paper roll and an unlimited source of colored sticky notes (with a larger stock of orange ones). His contributions to the community include EventStorming, Model Storming and, more notably, the Bullshit Asymmetry Principle.</p>
 
       <p class="copy">Alberto Brandolini is an IT Professional that gets bored doing things in the same old way. This led him into unexplored areas of Domain-Driven Design, Lean and Agile Software Development, learning and change management, where he likes to bring apparent chaotic fuzziness and a comic-like visual touch. An active consultant in software product development, he also runs his company Avanscoperta.</p>

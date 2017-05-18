@@ -54,6 +54,7 @@ $dark-text: #452e26;
 
 html, body {
 	width: 100%;
+  font-family: NunitoSansLight, sans-serif;
 }
 
 body {
@@ -70,6 +71,10 @@ body {
 	@include mq(lg){
 		padding-top: 100px;
 	}
+}
+
+strong {
+  font-family: NunitoSansSemiBold, sans-serif;
 }
 
 // Navigation
@@ -530,7 +535,7 @@ nav {
 		transition: all 0.2s;
 		vertical-align: middle;
 		z-index: 10;
-		img{
+		img {
 			height: 75px;
 			width: 75px;
 			@include mq(md){
@@ -561,14 +566,14 @@ nav {
 	font-size: 24px;
 	text-align: center;
 	text-transform: uppercase;
-
+  margin: 20px 0 20px 0;
 }
 
 .section-subheader {
 	color: $brand-yellow;
 	font-family: NunitoSansBold, sans-serif;
 	font-size: 18px;
-	margin: 0;
+	//margin: 0;
 	text-align: center;
 	text-transform: uppercase;
 	transition: color 0.2s;
@@ -599,6 +604,7 @@ nav {
 	font-size: 18px;
 	line-height: 1.22em;
 	margin: 0 auto 23px;
+  padding-left: 25px;
 	max-width: 700px;
 	text-align: left;
 
@@ -687,6 +693,7 @@ nav {
 	transition: color 0.2s;
 	&:hover {
 		color: $rollover-yellow;
+    text-decoration: none;
 	}
 }
 
@@ -780,9 +787,19 @@ nav {
 	font-size: 16px;
 }
 
+.container.page {
+	margin: 0 auto;
+	max-width: 600px;
+	padding-bottom: 3em;
+
+	.copy {
+		text-align: left;
+	}
+}
+
 .section.location {
 	padding-bottom: 50px;
-	padding-top: 10px;
+	margin-top: 25px;
 
 	.section-header {
 		margin-bottom: 18px;
@@ -861,16 +878,6 @@ footer {
 	}
 }
 
-.container.page {
-	margin: 0 auto;
-	max-width: 600px;
-	padding-bottom: 3em;
-
-	.copy {
-		text-align: left;
-	}
-}
-
 .page-subheader {
 	color: $dark-text;
 	font-family: NunitoSansSemiBold, sans-serif;
@@ -909,7 +916,7 @@ footer {
 	}
 	.speaker-subheader {
 		color: $dark-text;
-    font-family: NunitoSansSemiBold, sans-serif;
+    //font-family: NunitoSansSemiBold, sans-serif;
 		text-align: left;
 		text-transform: uppercase;
 	}
@@ -971,9 +978,9 @@ footer {
 	text-align: left;
 }
 .speaker-subheader {
-	font-family: NunitoSans, sans-serif;
+	font-family: NunitoSansBold, sans-serif;
 	font-size: 18px;
-	margin: 24px 0 2px 0;
+	margin: 25px 0 25px 0;
 }
 
 
@@ -992,7 +999,7 @@ footer {
 }
 
 .container.short {
-	padding-top: 50px;
+	padding-top: 25px;
 	padding-bottom: 150px;
 }
 
@@ -1066,6 +1073,7 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
   border: 0;
+  margin-bottom: 25px;
 }
 
 .btn:hover {
