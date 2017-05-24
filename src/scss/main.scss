@@ -1051,6 +1051,65 @@ footer {
   }
 }
 
+//Schedule page
+.schedule {
+
+}
+.title-row {
+
+  .title-row-inner {
+    text-align: left;
+    display: inline-block;
+  }
+  h2 {
+    font-size: 28px;
+    font-family: NunitoSansBold, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  h3 {
+    margin-top: 0;
+  }
+}
+.time-row {
+  div {
+    border-bottom: 1px solid $brand-brown;
+  }
+  text-align: left;
+  //padding-top: 10px;
+}
+.details {
+  a {
+    color: #c49524;
+    &:hover {
+      color: #fdc33c;
+      text-decoration: none;
+    }
+  }
+}
+.details-colored {
+  color: #fff9ec;
+  h4 {
+    text-transform: uppercase;
+  }
+}
+.details-gold {
+  background-color: #e6a62d;
+  border-bottom: 1px solid #A2C7C6;
+}
+.details-green {
+  background-color: #008653;
+  border-bottom: 1px solid #A2C7C6;
+}
+.details-purple {
+  background-color: #49338f;
+  border-bottom: 1px solid #A2C7C6;
+}
+.details-blue {
+  background-color: #008da7;
+  border-bottom: 1px solid #A2C7C6;
+}
+
 
 
 // CFP
@@ -1063,7 +1122,7 @@ footer {
   	}
 }
 
-// 'BUY TICKETS' button styles
+//button styles
 .btn {
   background: $brand-brown;
   font-family: NunitoSansLight, sans-serif !important;
@@ -1081,6 +1140,30 @@ footer {
   text-decoration: none;
   color: $rollover-yellow;
 }
+.buttons {
+  text-align: center;
+  .schedule-btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px 10px 8px 10px;
+    min-width: 180px;
+    span {
+      display: block;
+    }
+    .btn-title {
+      color: #fdc33c;
+      font-family: NunitoSansBold, sans-serif;
+      font-size: 18px;
+    }
+    .btn-date {
+      font-size: 16px;
+      font-family: NunitoSansSemiBold, sans-serif;
+      text-transform: none;
+      color: #ffebc1;
+    }
+  }
+}
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
