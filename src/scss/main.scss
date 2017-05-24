@@ -7,6 +7,8 @@ $brand-cream: #fff8e9;
 $white-text: #ffebc1;
 $dark-text: #452e26;
 
+
+
 @mixin mq($size) {
   @if $size == xs {
     @media (max-width: 767px) { @content; }
@@ -1064,9 +1066,8 @@ footer {
 // 'BUY TICKETS' button styles
 .btn {
   background: $brand-brown;
-  font-family: NunitoSansLight, sans-serif;
+  font-family: NunitoSansLight, sans-serif !important;
   border-radius: 0;
-  font-family: Arial;
   color: $white-text;
   font-size: 20px;
   padding: 20px 30px 20px 30px;
