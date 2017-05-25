@@ -1110,6 +1110,22 @@ footer {
   border-bottom: 1px solid #A2C7C6;
 }
 
+//full height columns
+//only apply to non mobile viewports since this flex fix will break responsiveness below 768
+@include mq(sm) {
+  .time-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+  .time-row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 
 // CFP
