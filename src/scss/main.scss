@@ -24,7 +24,7 @@ $dark-text: #452e26;
   }
 }
 
-@font-face {
+/*@font-face {
 	font-family: NunitoSansLight;
 	src: url(fonts/NunitoSans-Light.ttf);
 }
@@ -43,7 +43,55 @@ $dark-text: #452e26;
 @font-face {
 	font-family: NunitoSansExtraBold;
 	src: url(fonts/NunitoSans-ExtraBold.ttf);
+}*/
+
+@font-face {
+	font-family: 'NunitoSansSemiBold';
+	src: url('fonts/NunitoSans-SemiBold.eot');
+	src: url('fonts/NunitoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-SemiBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
 }
+@font-face {
+	font-family: 'NunitoSansLight';
+	src: url('fonts/NunitoSans-Light.eot');
+	src: url('fonts/NunitoSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Light.woff2') format('woff2'),
+		url('fonts/NunitoSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansExtraBold';
+	src: url('fonts/NunitoSans-ExtraBold.eot');
+	src: url('fonts/NunitoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-ExtraBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('fonts/NunitoSans-Regular.eot');
+	src: url('fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Regular.woff2') format('woff2'),
+		url('fonts/NunitoSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansBold';
+	src: url('fonts/NunitoSans-Bold.eot');
+	src: url('fonts/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Bold.woff2') format('woff2'),
+		url('fonts/NunitoSans-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
 
 @mixin ir() {
 	background-position: top left;
@@ -1055,8 +1103,17 @@ footer {
 .schedule {
 
 }
+.final-row {
+  margin-bottom: 30px;
+}
 .title-row {
-
+  //this column doesn't have content, but it needs this name hook so I can give it a bottom border
+  .title-cell-left {
+    //border-bottom: 1px solid #452e26;
+  }
+  .title-cell {
+    //border-bottom: 1px solid #452e26;
+  }
   .title-row-inner {
     text-align: left;
     display: inline-block;
@@ -1071,14 +1128,32 @@ footer {
     margin-top: 0;
   }
 }
+.title-row + .time-row div {
+  border-top: 1px solid #452e26;
+}
 .time-row {
   div {
-    border-bottom: 1px solid $brand-brown;
+  //  border-bottom: 1px solid $brand-brown;
   }
   text-align: left;
   //padding-top: 10px;
 }
+.time-cell {
+  padding-top: 10px;
+  border-bottom: 1px solid #452e26;
+  font-size: 16px;
+  font-family: NunitoSans, sans-serif;
+
+}
 .details {
+  padding-top: 10px;
+  border-bottom: 1px solid #452e26;
+  p {
+    font-size: 18px;
+    em {
+      font-size: 16px;
+    }
+  }
   a {
     color: #c49524;
     &:hover {
@@ -1089,25 +1164,33 @@ footer {
 }
 .details-colored {
   color: #fff9ec;
+  border-top: 0 !important; //we need to override the top border here since colored divs have a different border requirement
   h4 {
+    font-family: NunitoSansBold, sans-serif;
     text-transform: uppercase;
   }
 }
 .details-gold {
   background-color: #e6a62d;
-  border-bottom: 1px solid #A2C7C6;
+  border-bottom: 1px solid #fff9ec;
 }
 .details-green {
   background-color: #008653;
-  border-bottom: 1px solid #A2C7C6;
+  border-bottom: 1px solid #fff9ec;
 }
 .details-purple {
   background-color: #49338f;
-  border-bottom: 1px solid #A2C7C6;
+  border-bottom: 1px solid #fff9ec;
 }
 .details-blue {
   background-color: #008da7;
-  border-bottom: 1px solid #A2C7C6;
+  border-bottom: 1px solid #fff9ec;
+}
+.talk-title {
+  font-size: 18px;
+  em {
+    font-size: 16px;
+  }
 }
 
 //full height columns
@@ -1124,9 +1207,19 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  //this repeats but I'll clean this up later
+  .title-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+  .title-row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
-
 
 // CFP
 .cfp-cta {
