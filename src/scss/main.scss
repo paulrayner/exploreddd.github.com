@@ -1128,8 +1128,22 @@ footer {
     margin-top: 0;
   }
 }
-.title-row + .time-row div {
-  border-top: 1px solid #452e26;
+@include mq(sm) {
+  .title-row + .time-row div {
+    border-top: 1px solid #452e26;
+  }
+}
+@include mq(sm) {
+  .custom-grid-column-widths {
+
+    .time-cell {
+      width: 7.6%;
+    }
+    .details {
+      width: 21%;
+    }
+
+  }
 }
 .time-row {
   div {
