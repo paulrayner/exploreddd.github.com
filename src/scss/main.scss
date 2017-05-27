@@ -1123,26 +1123,16 @@ footer {
     font-family: NunitoSansBold, sans-serif;
     text-transform: uppercase;
     margin-bottom: 0;
+    @include mq(xs) {
+      text-align: center;
+      margin-bottom: 20px;
+    }
   }
   h3 {
     margin-top: 0;
-  }
-}
-@include mq(sm) {
-  .title-row + .time-row div {
-    border-top: 1px solid #452e26;
-  }
-}
-@include mq(sm) {
-  .custom-grid-column-widths {
-
-    .time-cell {
-      width: 7.6%;
+    @include mq(xs) {
+      text-align: center;
     }
-    .details {
-      width: 21%;
-    }
-
   }
 }
 .time-row {
@@ -1157,7 +1147,15 @@ footer {
   border-bottom: 1px solid #452e26;
   font-size: 16px;
   font-family: NunitoSans, sans-serif;
+  @include mq(xs) {
+    text-align: center;
+  }
+}
 
+@include mq(xs) {
+  .day-div .time-cell {
+    border: 0;
+  }
 }
 .details {
   padding-top: 10px;
@@ -1206,7 +1204,31 @@ footer {
     font-size: 16px;
   }
 }
-
+@include mq(sm) {
+  .title-row + .time-row div {
+    border-top: 1px solid #452e26;
+  }
+}
+@include mq(sm) {
+  .custom-grid-column-widths {
+    .time-cell {
+      width: 10%;
+    }
+    .details {
+      width: 22.4%;
+    }
+  }
+}
+@include mq(md) {
+  .custom-grid-column-widths {
+    .time-cell {
+      width: 7.6%;
+    }
+    .details {
+      width: 21%;
+    }
+  }
+}
 //full height columns
 //only apply to non mobile viewports since this flex fix will break responsiveness below 768
 @include mq(sm) {

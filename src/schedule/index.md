@@ -26,7 +26,7 @@ layout: layout-tier2.html
 			</div>
 			<!-- END BUTTONS -->
 			<!-- BEGIN WORKSHOPS CONTENT SECTION -->
-			<div id="div1" class="targetDiv">
+			<div id="div1" class="targetDiv workshop-div">
 				<div class="row title-row">
 					<div class="col-sm-1 title-cell-left">
 					</div>
@@ -94,7 +94,7 @@ layout: layout-tier2.html
 				</div> <!-- time-row -->
 			</div> <!-- END WORKSHOP CONTENT -->
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
-			<div id="div2" class="targetDiv">
+			<div id="div2" class="targetDiv kickoff-div">
 				<div class="row title-row">
 					<div class="col-sm-1 title-cell-left">
 					</div>
@@ -138,7 +138,7 @@ layout: layout-tier2.html
 			</div>
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<!-- BEGIN Day 2 CONTENT -->
-			<div id="div3" class="targetDiv">
+			<div id="div3" class="targetDiv day-div">
 					<div class="row title-row">
 						<div class="col-sm-1 title-cell-left">
 						</div>
@@ -258,7 +258,7 @@ layout: layout-tier2.html
 				</div>
 				<!-- END DAY 2 CONTENT -->
 				<!-- BEGIN DAY 3 CONTENT -->
-				<div id="div4" class="targetDiv">
+				<div id="div4" class="targetDiv day-div">
 					<div class="row title-row">
 						<div class="col-sm-1 title-cell-left">
 						</div>
