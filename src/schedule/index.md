@@ -16,11 +16,11 @@ layout: layout-tier2.html
 					<span class="btn-date">September 20</span>
 				</a>
 				<a class="showSingle btn schedule-btn" target="3">
-					<span class="btn-title">Day 2</span>
+					<span class="btn-title">Day 1</span>
 					<span class="btn-date">September 21</span>
 				</a>
 				<a class="showSingle btn schedule-btn" target="4">
-					<span class="btn-title">Day 3</span>
+					<span class="btn-title">Day 2</span>
 					<span class="btn-date">September 22</span>
 				</a>
 			</div>
@@ -137,13 +137,13 @@ layout: layout-tier2.html
 				</div> <!-- time-row -->
 			</div>
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
-			<!-- BEGIN Day 2 CONTENT -->
+			<!-- BEGIN Day 1 CONTENT -->
 			<div id="div3" class="targetDiv day-div">
 					<div class="row title-row">
 						<div class="col-sm-1 title-cell-left">
 						</div>
 						<div class="col-sm-10 title-cell">
-								<h2>Main Conference Day 2</h2>
+								<h2>Main Conference Day 1</h2>
 								<h3>Thursday, September 21</h3>
 							</div> <!--col-sm -->
 					</div> <!-- title-row -->
@@ -256,14 +256,14 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 					</div> <!-- time-row -->			
 				</div>
-				<!-- END DAY 2 CONTENT -->
-				<!-- BEGIN DAY 3 CONTENT -->
+				<!-- END DAY 1 CONTENT -->
+				<!-- BEGIN DAY 2 CONTENT -->
 				<div id="div4" class="targetDiv day-div">
 					<div class="row title-row">
 						<div class="col-sm-1 title-cell-left">
 						</div>
 						<div class="col-sm-10 title-cell">
-								<h2>Main Conference Day 3</h2>
+								<h2>Main Conference Day 2</h2>
 								<h3>Friday, September 22</h3>
 							</div> <!--col-sm -->
 					</div> <!-- title-row -->
