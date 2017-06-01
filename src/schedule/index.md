@@ -28,7 +28,7 @@ layout: layout-tier2.html
 			<!-- BEGIN WORKSHOPS CONTENT SECTION -->
 			<div id="div1" class="targetDiv workshop-div">
 				<div class="row title-row">
-					<div class="col-sm-1">
+					<div class="col-sm-1 time-cell-empty">
 					</div>
 					<div class="col-sm-10 title-cell-uncolored-cells">				
 							<h2>2-Day Pre Conference Workshops</h2>
@@ -96,7 +96,7 @@ layout: layout-tier2.html
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<div id="div2" class="targetDiv kickoff-div">
 				<div class="row title-row">
-					<div class="col-sm-1">
+					<div class="col-sm-1 time-cell-empty">
 					</div>
 					<div class="col-sm-10 title-cell-uncolored-cells">				
 							<h2>Main Conference Kickoff Evening</h2>

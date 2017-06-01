@@ -1077,6 +1077,7 @@ footer {
   max-width: 640px;
   h2 {
     text-transform: uppercase;
+    font-family: NunitoSansSemiBold, sans-serif;
     font-size: 24px;
     a {
       color: $brand-yellow;
@@ -1101,26 +1102,22 @@ footer {
 
 //Schedule page
 .schedule {
-
+  width: 100%;
 }
 .final-row {
   margin-bottom: 30px;
 }
 .title-row {
-  //this column doesn't have content, but it needs this name hook so I can give it a bottom border
-  .title-cell-left {
-
-  }
   .title-cell-uncolored-cells {
+    border-bottom: 1px solid #452e26;
     @include mq(sm) {
-      padding-left: 20px;
+      padding-left: 0px;
     }
     @include mq(md) {
       padding-left: 0px;
     }
   }
   .title-cell-colored-cells {
-    //border-bottom: 1px solid #452e26;
     @include mq(sm) {
       padding-left: 20px;
     }
@@ -1150,20 +1147,22 @@ footer {
 }
 .time-cell {
   padding-top: 10px;
-  @include mq(sm) {
+  //@include mq(sm) {
     border-bottom: 1px solid #452e26;
-  }
-
+  //}
   font-size: 16px;
   font-family: NunitoSans, sans-serif;
   @include mq(xs) {
     text-align: center;
   }
 }
+.time-cell-empty {
+  border-bottom: 1px solid #452e26;
+}
 
 @include mq(xs) {
   .day-div .time-cell {
-    border: 0;
+    //border: 0;
   }
 }
 .details {
@@ -1183,6 +1182,9 @@ footer {
       text-decoration: none;
     }
   }
+  /*@include mq(sm) {
+    padding:
+  }*/
 }
 //remove bottom row from time rows that have colored "talk detail" rows directly below them
 .time-cell-followed-by-colored-row, .followed-by-colored-row {
@@ -1236,9 +1238,14 @@ footer {
     font-size: 16px;
   }
 }
-@include mq(sm) {
+@include mq(xs) {
   .title-row + .time-row div {
     border-top: 1px solid #452e26;
+  }
+}
+@include mq(xs) {
+  .title-row + .time-row div {
+    border-top: 0;
   }
 }
 @include mq(sm) {
