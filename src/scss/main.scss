@@ -1113,6 +1113,12 @@ footer {
   }
   .title-cell {
     //border-bottom: 1px solid #452e26;
+    @include mq(sm) {
+      padding-left: 20px;
+    }
+    @include mq(md) {
+      padding-left: 5px;
+    }
   }
   .title-row-inner {
     text-align: left;
@@ -1140,7 +1146,10 @@ footer {
 }
 .time-cell {
   padding-top: 10px;
-  border-bottom: 1px solid #452e26;
+  @include mq(sm) {
+    border-bottom: 1px solid #452e26;
+  }
+
   font-size: 16px;
   font-family: NunitoSans, sans-serif;
   @include mq(xs) {
@@ -1164,6 +1173,7 @@ footer {
   }
   a {
     color: #c49524;
+    text-transform: uppercase;
     &:hover {
       color: #fdc33c;
       text-decoration: none;
@@ -1183,9 +1193,23 @@ footer {
     text-transform: uppercase;
   }
 }
-.custom-grid-column-widths + .custom-grid-column-widths {
-  border-top: 0;
+.custom-grid-column-widths .time-cell {
+  border-top: 1px solid #452e26;
+  border-bottom: 0;
+  @include mq(xs) {
+    border-top: 0;
+  }
 }
+//since we can't target using :nth-last-match(selector) until css4 is accepted and implemented. must use a class injection in the html here
+.last-colored-row .time-cell {
+  @include mq(xs) {
+    border-bottom: 0;
+  }
+  @include mq(sm) {
+    border-bottom: 1px solid #452e26;
+  }
+}
+
 .details-gold {
   background-color: #e6a62d;
   border-bottom: 1px solid #fff9ec;
@@ -1217,7 +1241,6 @@ footer {
   .custom-grid-column-widths {
     .time-cell {
       width: 10%;
-      //border-top: 1px solid #452e26;
     }
     .details {
       width: 22.4%;
