@@ -1136,11 +1136,7 @@ footer {
   }
 }
 .time-row {
-  div {
-  //  border-bottom: 1px solid $brand-brown;
-  }
-  text-align: left;
-  //padding-top: 10px;
+
 }
 .time-cell {
   padding-top: 10px;
@@ -1158,8 +1154,8 @@ footer {
   }
 }
 .details {
-  padding-top: 10px;
-  //border-bottom: 1px solid #452e26; 
+  padding: 10px 5px 10px 5px;
+  border-bottom: 1px solid #452e26;
   p {
     font-size: 18px;
     em {
@@ -1174,13 +1170,21 @@ footer {
     }
   }
 }
+//remove bottom row from time rows that have colored "talk detail" rows directly below them
+.time-cell-followed-by-colored-row, .followed-by-colored-row {
+  border: 0 !important;
+}
 .details-colored {
   color: #fff9ec;
+  padding: 5px 13px 5px 13px;
   border-top: 0 !important; //we need to override the top border here since colored divs have a different border requirement
   h4 {
     font-family: NunitoSansBold, sans-serif;
     text-transform: uppercase;
   }
+}
+.custom-grid-column-widths + .custom-grid-column-widths {
+  border-top: 0;
 }
 .details-gold {
   background-color: #e6a62d;
@@ -1213,6 +1217,7 @@ footer {
   .custom-grid-column-widths {
     .time-cell {
       width: 10%;
+      //border-top: 1px solid #452e26;
     }
     .details {
       width: 22.4%;

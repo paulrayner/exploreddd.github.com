@@ -190,14 +190,14 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
-						<div class="col-sm-1 time-cell">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>13:00 - 14:30</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-8 details">
+						<div class="col-sm-10 details followed-by-colored-row">
 							<p><strong>Lunch</strong><br><em>Hotel Lobby</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row custom-grid-column-widths">
+					<div class="row time-row custom-grid-column-widths colored-cell-row">
 						<div class="col-sm-1 time-cell">
 							<p>14:30 - 15:30</p>
 						</div> <!-- col-sm -->
