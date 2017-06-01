@@ -372,7 +372,7 @@ layout: layout-tier2.html
 							<p>17:30 - 18:30</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Keyote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebeca-Wirfs-Brock</a></strong><br><em>Capitol Peak A &amp; B</em></p>
+							<p><strong>Keyote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebecca-Wirfs-Brock</a></strong><br><em>Capitol Peak A &amp; B</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 				</div>
@@ -381,3 +381,4 @@ layout: layout-tier2.html
 		<div class="row"></div>
 		<div class="final-row"></div> <!-- this is just here for spacing -->
 </div> <!-- container -->
+</div>
