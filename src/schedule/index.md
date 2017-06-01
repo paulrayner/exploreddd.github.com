@@ -28,9 +28,9 @@ layout: layout-tier2.html
 			<!-- BEGIN WORKSHOPS CONTENT SECTION -->
 			<div id="div1" class="targetDiv workshop-div">
 				<div class="row title-row">
-					<div class="col-sm-1 title-cell-left">
+					<div class="col-sm-1">
 					</div>
-					<div class="col-sm-10 title-cell">				
+					<div class="col-sm-10 title-cell-uncolored-cells">				
 							<h2>2-Day Pre Conference Workshops</h2>
 							<h3>September 19 &amp; 20 - same schedule both days</h3>
 						</div> <!--col-xs -->
@@ -96,9 +96,9 @@ layout: layout-tier2.html
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<div id="div2" class="targetDiv kickoff-div">
 				<div class="row title-row">
-					<div class="col-sm-1 title-cell-left">
+					<div class="col-sm-1">
 					</div>
-					<div class="col-sm-10 title-cell">				
+					<div class="col-sm-10 title-cell-uncolored-cells">				
 							<h2>Main Conference Kickoff Evening</h2>
 							<h3>Wednesday, September 20</h3>
 						</div> <!--col-xs -->
@@ -140,9 +140,9 @@ layout: layout-tier2.html
 			<!-- BEGIN Day 1 CONTENT -->
 			<div id="div3" class="targetDiv day-div">
 					<div class="row title-row">
-						<div class="col-sm-1 title-cell-left">
+						<div class="col-sm-1">
 						</div>
-						<div class="col-sm-10 title-cell">
+						<div class="col-sm-10 title-cell-colored-cells">
 								<h2>Main Conference Day 1</h2>
 								<h3>Thursday, September 21</h3>
 							</div> <!--col-sm -->
@@ -260,9 +260,9 @@ layout: layout-tier2.html
 				<!-- BEGIN DAY 2 CONTENT -->
 				<div id="div4" class="targetDiv day-div">
 					<div class="row title-row">
-						<div class="col-sm-1 title-cell-left">
+						<div class="col-sm-1 ">
 						</div>
-						<div class="col-sm-10 title-cell">
+						<div class="col-sm-10 title-cell-colored-cells">
 								<h2>Main Conference Day 2</h2>
 								<h3>Friday, September 22</h3>
 							</div> <!--col-sm -->

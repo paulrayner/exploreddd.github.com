@@ -1109,9 +1109,17 @@ footer {
 .title-row {
   //this column doesn't have content, but it needs this name hook so I can give it a bottom border
   .title-cell-left {
-    //border-bottom: 1px solid #452e26;
+
   }
-  .title-cell {
+  .title-cell-uncolored-cells {
+    @include mq(sm) {
+      padding-left: 20px;
+    }
+    @include mq(md) {
+      padding-left: 0px;
+    }
+  }
+  .title-cell-colored-cells {
     //border-bottom: 1px solid #452e26;
     @include mq(sm) {
       padding-left: 20px;
@@ -1119,10 +1127,6 @@ footer {
     @include mq(md) {
       padding-left: 5px;
     }
-  }
-  .title-row-inner {
-    text-align: left;
-    display: inline-block;
   }
   h2 {
     font-size: 28px;
