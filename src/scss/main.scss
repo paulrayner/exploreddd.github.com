@@ -1156,9 +1156,12 @@ footer {
     text-align: center;
   }
 }
-.time-cell-empty {
-  border-bottom: 1px solid #452e26;
+@include mq(sm) {
+  .time-cell-empty {
+    border-bottom: 1px solid #452e26;
+  }
 }
+
 
 @include mq(xs) {
   .day-div .time-cell {
@@ -1182,9 +1185,9 @@ footer {
       text-decoration: none;
     }
   }
-  /*@include mq(sm) {
-    padding:
-  }*/
+  @include mq(xs) {
+    text-align: center;
+  }
 }
 //remove bottom row from time rows that have colored "talk detail" rows directly below them
 .time-cell-followed-by-colored-row, .followed-by-colored-row {
