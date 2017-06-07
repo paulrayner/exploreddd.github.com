@@ -153,19 +153,19 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>Mathias Verraes</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Rebecca Wirfs-Brock</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Vaughn Vernon</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
@@ -174,19 +174,19 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>Mathias Verraes</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Rebecca Wirfs-Brock</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Vaughn Vernon</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -203,19 +203,19 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>Mathias Verraes</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Rebecca Wirfs-Brock</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Vaughn Vernon</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
@@ -224,19 +224,19 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>Mathias Verraes</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Rebecca Wirfs-Brock</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Vaughn Vernon</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -273,19 +273,19 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>Mathias Verraes</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Rebecca Wirfs-Brock</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Vaughn Vernon</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
@@ -294,19 +294,19 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>Mathias Verraes</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Rebecca Wirfs-Brock</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Vaughn Vernon</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -323,19 +323,19 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>Mathias Verraes</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B</em></p>
+							<h4>Speaker TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Rebecca Wirfs-Brock</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Vaughn Vernon</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
@@ -344,19 +344,19 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>Mathias Verraes</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B</em></p>
+							<h4>Speaker TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Rebecca Wirfs-Brock</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Vaughn Vernon</h4>
-							<p class="talk-title">Title of talk<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
