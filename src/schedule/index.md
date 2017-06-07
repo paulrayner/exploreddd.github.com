@@ -152,7 +152,7 @@ layout: layout-tier2.html
 							<p>11:00 - 12:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Ward Cunningham</h4>
+							<h4>Speaker TBD</h4>
 							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
@@ -173,7 +173,7 @@ layout: layout-tier2.html
 							<p>11:00 - 13:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Ward Cunningham</h4>
+							<h4>Speaker TBD</h4>
 							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
@@ -202,7 +202,7 @@ layout: layout-tier2.html
 							<p>14:30 - 15:30</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Ward Cunningham</h4>
+							<h4>Speaker TBD</h4>
 							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
@@ -223,7 +223,7 @@ layout: layout-tier2.html
 							<p>15:30 - 16:30</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Ward Cunningham</h4>
+							<h4>Speaker TBD</h4>
 							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
@@ -272,7 +272,7 @@ layout: layout-tier2.html
 							<p>11:00 - 12:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Ward Cunningham</h4>
+							<h4>Speaker TBD</h4>
 							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
@@ -293,7 +293,7 @@ layout: layout-tier2.html
 							<p>11:00 - 13:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Ward Cunningham</h4>
+							<h4>Speaker TBD</h4>
 							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
@@ -322,7 +322,7 @@ layout: layout-tier2.html
 							<p>14:30 - 15:30</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Ward Cunningham</h4>
+							<h4>Speaker TBD</h4>
 							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
@@ -343,7 +343,7 @@ layout: layout-tier2.html
 							<p>15:30 - 16:30</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Ward Cunningham</h4>
+							<h4>Speaker TBD</h4>
 							<p class="talk-title">Title of talk<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
