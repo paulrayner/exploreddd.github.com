@@ -1354,9 +1354,54 @@ footer {
 /* mailchimp embedded signup form styling */
 .footer--newsletter-signup {
   text-align: center;
+  margin: 0 auto;
+  max-width: 960px;
+  margin-bottom: 40px;
   h2 {
     font-size: 24px;
     font-family: NunitoSansBold, sans-serif;
     color: $brand-brown;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .email-row, .button-row {
+    //text-align: left;
+  }
+  //these two classes apparently do something in the mailchimp code snippet, but lets make them work with our layout
+  .mc-field-group, .clear {
+    @include mq(xs) {
+      display: block;
+    }
+    @include mq(sm) {
+      display: inline-block;
+    }
+  }
+  input[type=email] {
+   background-color: $brand-cream;
+   border: 1px solid $brand-brown;
+   font-size: 18px;
+   padding: 15px;
+   margin-right: 10px;
+   @include mq(xs) {
+     width: 80%;
+     margin-bottom: 30px;
+   }
+   @include mq(sm) {
+     width: 350px;
+   }
+   @include mq(md) {
+     width: 470px;
+   }
+  }
+  input[type=submit] {
+    color: $white-text;
+    font-family: NunitoSansSemiBold, sans-serif;
+    background-color: $brand-brown;
+    border: 0;
+    font-size: 18px;
+    padding: 15px;
+    &:hover {
+      color: $rollover-yellow;
+    }
   }
 }
