@@ -48,13 +48,13 @@ Metalsmith(__dirname)
   // .use(metadata({
   //   ericEvans: 'data/eric-evans.json'
   // }))
-  .use(watch({
-     paths: {
-       "${source}/**/*": true,
-       "templates/**/*": "**/*.md",
-     },
-     livereload: true,
-   }))
+  //.use(watch({
+     //paths: {
+       //"${source}/**/*": true,
+       //"templates/**/*": "**/*.md",
+     //},
+     //livereload: true,
+   //}))
   .build(function(err, files) {
     if (err) { throw err; }
   });
