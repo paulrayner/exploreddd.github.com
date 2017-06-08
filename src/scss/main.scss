@@ -1352,3 +1352,11 @@ footer {
 }
 
 /* mailchimp embedded signup form styling */
+.footer--newsletter-signup {
+  text-align: center;
+  h2 {
+    font-size: 24px;
+    font-family: NunitoSansBold, sans-serif;
+    color: $brand-brown;
+  }
+}
