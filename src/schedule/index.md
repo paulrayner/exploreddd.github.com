@@ -164,8 +164,7 @@ layout: layout-tier2.html
 							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
@@ -185,8 +184,7 @@ layout: layout-tier2.html
 							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -214,8 +212,7 @@ layout: layout-tier2.html
 							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
@@ -235,8 +232,7 @@ layout: layout-tier2.html
 							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -284,8 +280,7 @@ layout: layout-tier2.html
 							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
@@ -305,8 +300,7 @@ layout: layout-tier2.html
 							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -334,8 +328,7 @@ layout: layout-tier2.html
 							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
@@ -355,8 +348,7 @@ layout: layout-tier2.html
 							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B &amp; C</em></p>
+							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
