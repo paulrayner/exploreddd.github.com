@@ -7,6 +7,8 @@ $brand-cream: #fff8e9;
 $white-text: #ffebc1;
 $dark-text: #452e26;
 
+
+
 @mixin mq($size) {
   @if $size == xs {
     @media (max-width: 767px) { @content; }
@@ -22,7 +24,7 @@ $dark-text: #452e26;
   }
 }
 
-@font-face {
+/*@font-face {
 	font-family: NunitoSansLight;
 	src: url(fonts/NunitoSans-Light.ttf);
 }
@@ -41,7 +43,55 @@ $dark-text: #452e26;
 @font-face {
 	font-family: NunitoSansExtraBold;
 	src: url(fonts/NunitoSans-ExtraBold.ttf);
+}*/
+
+@font-face {
+	font-family: 'NunitoSansSemiBold';
+	src: url('fonts/NunitoSans-SemiBold.eot');
+	src: url('fonts/NunitoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-SemiBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
 }
+@font-face {
+	font-family: 'NunitoSansLight';
+	src: url('fonts/NunitoSans-Light.eot');
+	src: url('fonts/NunitoSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Light.woff2') format('woff2'),
+		url('fonts/NunitoSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansExtraBold';
+	src: url('fonts/NunitoSans-ExtraBold.eot');
+	src: url('fonts/NunitoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-ExtraBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('fonts/NunitoSans-Regular.eot');
+	src: url('fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Regular.woff2') format('woff2'),
+		url('fonts/NunitoSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansBold';
+	src: url('fonts/NunitoSans-Bold.eot');
+	src: url('fonts/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Bold.woff2') format('woff2'),
+		url('fonts/NunitoSans-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
 
 @mixin ir() {
 	background-position: top left;
@@ -1027,6 +1077,7 @@ footer {
   max-width: 640px;
   h2 {
     text-transform: uppercase;
+    font-family: NunitoSansSemiBold, sans-serif;
     font-size: 24px;
     a {
       color: $brand-yellow;
@@ -1049,7 +1100,204 @@ footer {
   }
 }
 
+//Schedule page
+.schedule {
+  width: 100%;
+}
+.final-row {
+  margin-bottom: 30px;
+}
+.title-row {
+  .title-cell-uncolored-cells {
+    border-bottom: 1px solid #452e26;
+    @include mq(sm) {
+      padding-left: 0px;
+    }
+    @include mq(md) {
+      padding-left: 0px;
+    }
+  }
+  .title-cell-colored-cells {
+    @include mq(sm) {
+      padding-left: 20px;
+    }
+    @include mq(md) {
+      padding-left: 5px;
+    }
+  }
+  h2 {
+    font-size: 28px;
+    font-family: NunitoSansBold, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    @include mq(xs) {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  h3 {
+    margin-top: 0;
+    @include mq(xs) {
+      text-align: center;
+    }
+  }
+}
+.time-row {
 
+}
+.time-cell {
+  padding-top: 10px;
+  //@include mq(sm) {
+    border-bottom: 1px solid #452e26;
+  //}
+  font-size: 16px;
+  font-family: NunitoSans, sans-serif;
+  @include mq(xs) {
+    text-align: center;
+  }
+}
+@include mq(sm) {
+  .time-cell-empty {
+    border-bottom: 1px solid #452e26;
+  }
+}
+
+
+@include mq(xs) {
+  .day-div .time-cell {
+    //border: 0;
+  }
+}
+.details {
+  padding: 10px 5px 10px 5px;
+  border-bottom: 1px solid #452e26;
+  p {
+    font-size: 18px;
+    em {
+      font-size: 16px;
+    }
+  }
+  a {
+    color: #c49524;
+    text-transform: uppercase;
+    &:hover {
+      color: #fdc33c;
+      text-decoration: none;
+    }
+  }
+  @include mq(xs) {
+    text-align: center;
+  }
+}
+//remove bottom row from time rows that have colored "talk detail" rows directly below them
+.time-cell-followed-by-colored-row, .followed-by-colored-row {
+  border: 0 !important;
+}
+.details-colored {
+  color: #fff9ec;
+  padding: 5px 13px 5px 13px;
+  border-top: 0 !important; //we need to override the top border here since colored divs have a different border requirement
+  h4 {
+    font-family: NunitoSansBold, sans-serif;
+    text-transform: uppercase;
+  }
+}
+.custom-grid-column-widths .time-cell {
+  border-top: 1px solid #452e26;
+  border-bottom: 0;
+  @include mq(xs) {
+    border-top: 0;
+  }
+}
+//since we can't target using :nth-last-match(selector) until css4 is accepted and implemented. must use a class injection in the html here
+.last-colored-row .time-cell {
+  @include mq(xs) {
+    border-bottom: 0;
+  }
+  @include mq(sm) {
+    border-bottom: 1px solid #452e26;
+  }
+}
+
+.details-gold {
+  background-color: #e6a62d;
+  border-bottom: 1px solid #fff9ec;
+}
+.details-green {
+  background-color: #008653;
+  border-bottom: 1px solid #fff9ec;
+}
+.details-purple {
+  background-color: #49338f;
+  border-bottom: 1px solid #fff9ec;
+}
+.details-blue {
+  background-color: #008da7;
+  border-bottom: 1px solid #fff9ec;
+}
+.talk-title {
+  font-size: 18px;
+  em {
+    font-size: 16px;
+  }
+}
+@include mq(xs) {
+  .title-row + .time-row div {
+    border-top: 1px solid #452e26;
+  }
+}
+@include mq(xs) {
+  .title-row + .time-row div {
+    border-top: 0;
+  }
+}
+@include mq(sm) {
+  .custom-grid-column-widths {
+    .time-cell {
+      width: 10%;
+    }
+    .details {
+      width: 22.4%;
+    }
+  }
+}
+@include mq(md) {
+  .custom-grid-column-widths {
+    .time-cell {
+      width: 7.6%;
+    }
+    .details {
+      width: 21%;
+    }
+  }
+}
+//full height columns
+//only apply to non mobile viewports since this flex fix will break responsiveness below 768
+@include mq(sm) {
+  .time-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+  .time-row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  //this repeats but I'll clean this up later
+  .title-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+  .title-row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 // CFP
 .cfp-cta {
@@ -1061,12 +1309,11 @@ footer {
   	}
 }
 
-// 'BUY TICKETS' button styles
+//button styles
 .btn {
   background: $brand-brown;
-  font-family: NunitoSansLight, sans-serif;
+  font-family: NunitoSansLight, sans-serif !important;
   border-radius: 0;
-  font-family: Arial;
   color: $white-text;
   font-size: 20px;
   padding: 20px 30px 20px 30px;
@@ -1080,15 +1327,81 @@ footer {
   text-decoration: none;
   color: $rollover-yellow;
 }
+.buttons {
+  text-align: center;
+  .schedule-btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px 10px 8px 10px;
+    min-width: 180px;
+    span {
+      display: block;
+    }
+    .btn-title {
+      color: #fdc33c;
+      font-family: NunitoSansBold, sans-serif;
+      font-size: 18px;
+    }
+    .btn-date {
+      font-size: 16px;
+      font-family: NunitoSansSemiBold, sans-serif;
+      text-transform: none;
+      color: #ffebc1;
+    }
+  }
+}
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+/* mailchimp embedded signup form styling */
+.footer--newsletter-signup {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 960px;
+  margin-bottom: 40px;
+  h2 {
+    font-size: 24px;
+    font-family: NunitoSansBold, sans-serif;
+    color: $brand-brown;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .email-row, .button-row {
+    //text-align: left;
+  }
+  //these two classes apparently do something in the mailchimp code snippet, but lets make them work with our layout
+  .mc-field-group, .clear {
+    @include mq(xs) {
+      display: block;
+    }
+    @include mq(sm) {
+      display: inline-block;
+    }
+  }
+  input[type=email] {
+   background-color: $brand-cream;
+   border: 1px solid $brand-brown;
+   font-size: 18px;
+   padding: 15px;
+   margin-right: 10px;
+   @include mq(xs) {
+     width: 80%;
+     margin-bottom: 30px;
+   }
+   @include mq(sm) {
+     width: 350px;
+   }
+   @include mq(md) {
+     width: 470px;
+   }
+  }
+  input[type=submit] {
+    color: $white-text;
+    font-family: NunitoSansSemiBold, sans-serif;
+    background-color: $brand-brown;
+    border: 0;
+    font-size: 18px;
+    padding: 15px;
+    &:hover {
+      color: $rollover-yellow;
+    }
+  }
+}
