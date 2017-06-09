@@ -1404,4 +1404,8 @@ footer {
       color: $rollover-yellow;
     }
   }
+  #mce-error-response, #mce-success-response {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
