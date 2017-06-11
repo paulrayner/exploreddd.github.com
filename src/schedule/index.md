@@ -147,29 +147,9 @@ layout: layout-tier2.html
 								<h3>Thursday, September 21</h3>
 							</div> <!--col-sm -->
 					</div> <!-- title-row -->
-					<div class="row time-row custom-grid-column-widths">
-						<div class="col-sm-1 time-cell">
-							<p>11:00 - 12:00</p>
-						</div> <!-- col-sm -->
-						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
-						</div> <!-- details -->
-					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
 						<div class="col-sm-1 time-cell">
-							<p>11:00 - 13:00</p>
+							<p>9:00 - 9:50</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
@@ -189,15 +169,15 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
-							<p>13:00 - 14:30</p>
+							<p>9:50 - 10:20</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details followed-by-colored-row">
-							<p><strong>Lunch</strong><br><em>Hotel Lobby</em></p>
+							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row custom-grid-column-widths colored-cell-row">
+					<div class="row time-row custom-grid-column-widths">
 						<div class="col-sm-1 time-cell">
-							<p>14:30 - 15:30</p>
+							<p>10:20 - 11:10</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
@@ -217,7 +197,103 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
 						<div class="col-sm-1 time-cell">
-							<p>15:30 - 16:30</p>
+							<p>11:20 - 12:10</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-2 details details-colored details-gold">
+							<h4>Speaker TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-purple">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Creative Space</h4>							
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
+							<p>12:10 - 1:10</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details followed-by-colored-row">
+							<p><strong>Lunch</strong><br><em>Reception Area</em></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row custom-grid-column-widths colored-cell-row">
+						<div class="col-sm-1 time-cell">
+							<p>1:10 - 2:00</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-2 details details-colored details-gold">
+							<h4>Speaker TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-purple">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Creative Space</h4>							
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row custom-grid-column-widths colored-cell-row last-colored-row">
+						<div class="col-sm-1 time-cell">
+							<p>2:10 - 3:00</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-2 details details-colored details-gold">
+							<h4>Speaker TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-purple">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Creative Space</h4>							
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
+							<p>3:00 - 3:30</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details followed-by-colored-row">
+							<p><strong>Break</strong><br><em>Reception Area</em></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row custom-grid-column-widths colored-cell-row">
+						<div class="col-sm-1 time-cell">
+							<p>3:30 - 4:20</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-2 details details-colored details-gold">
+							<h4>Speaker TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-purple">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Creative Space</h4>							
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row custom-grid-column-widths last-colored-row">
+						<div class="col-sm-1 time-cell">
+							<p>4:30 - 5:20</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
@@ -237,15 +313,15 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
-							<p>16:30 - 17:30</p>
+							<p>5:20 - 5:35</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Coffee Break</strong><br><em>Crystal Peak B &amp; C</em></p>
+							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
-							<p>17:30 - 18:30</p>
+							<p>5:35 - 6:35</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
 							<p><strong>Keyote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebeca-Wirfs-Brock</a></strong><br><em>Capitol Peak A &amp; B</em></p>
@@ -263,29 +339,9 @@ layout: layout-tier2.html
 								<h3>Friday, September 22</h3>
 							</div> <!--col-sm -->
 					</div> <!-- title-row -->
-					<div class="row time-row custom-grid-column-widths">
-						<div class="col-sm-1 time-cell">
-							<p>11:00 - 12:00</p>
-						</div> <!-- col-sm -->
-						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
-						</div> <!-- details -->
-					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
 						<div class="col-sm-1 time-cell">
-							<p>11:00 - 13:00</p>
+							<p>9:00 - 9:50</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
@@ -305,35 +361,51 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
-							<p>13:00 - 14:30</p>
+							<p>9:50 - 10:20</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details followed-by-colored-row">
-							<p><strong>Lunch</strong><br><em>Hotel Lobby</em></p>
-						</div> <!-- details -->
-					</div> <!-- time-row -->
-					<div class="row time-row custom-grid-column-widths">
-						<div class="col-sm-1 time-cell">
-							<p>14:30 - 15:30</p>
-						</div> <!-- col-sm -->
-						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
+							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
 						<div class="col-sm-1 time-cell">
-							<p>15:30 - 16:30</p>
+							<p>10:20 - 11:10</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-2 details details-colored details-gold">
+							<h4>Speaker TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-purple">
+							<h4>SPEAKER TBD</h4>
+							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Creative Space</h4>							
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell">
+							<p>11:20 - 12:10</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details">
+							<p><strong>Keyote &#8212; <a href="../speakers/ward-cunningham.html">Ward Cunningham</a></strong><br><em>Capitol Peak A &amp; B</em></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
+							<p>12:10 - 1:10</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details followed-by-colored-row">
+							<p><strong>Lunch</strong><br><em>Reception Area</em></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row custom-grid-column-widths last-colored-row">
+						<div class="col-sm-1 time-cell">
+							<p>1:10 - 3:10</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
@@ -353,20 +425,28 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
-							<p>16:30 - 17:30</p>
+							<p>3:10 - 3:40</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Coffee Break</strong><br><em>Crystal Peak B &amp; C</em></p>
+							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
-							<p>17:30 - 18:30</p>
+							<p>3:40 - 4:20</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Keyote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebecca-Wirfs-Brock</a></strong><br><em>Capitol Peak A &amp; B</em></p>
+							<p><strong>Open Space/Lightning Talks</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell">
+							<p>4:30 - 5:00</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details">
+							<p><strong>Conference Close</strong><br><em>Reception Area</em></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->			
 				</div>
 				<!-- END OF DAY 3 CONTENT -->		
 	  </div>
