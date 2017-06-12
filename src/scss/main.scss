@@ -829,6 +829,13 @@ nav {
 			background-position: 0;
 		}
 	}
+  &.allard-buijze {
+		background-image: url('../img/speakers/sprite-allard-buijze.jpg');
+
+		&:hover {
+			background-position: 0;
+		}
+	}
 }
 
 .speaker-details {
