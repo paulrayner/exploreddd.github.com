@@ -148,6 +148,135 @@ layout: layout.html
       <h3><a class="speaker-name" href="speakers/allard-buijze.html">Allard Buijze</a></h3>
       <p class="speaker-details">Creator of Axon Framework</p>
     </div>
+    <div class="speaker-container">
+      <a href="speakers/anita-kvamme.html"><div class="speaker-img anita-kvamme">
+      </div></a>
+      <h3><a class="anita-kvamme" href="speakers/anita-kvamme.html">Anita Kvamme</a></h3>
+      <p class="speaker-details">UX expert, business analyst, software developer, wife and mother of 3 with cross country skiing as her favourite hobby.</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/bernd-rucker.html"><div class="speaker-img bernd-rucker">
+      </div></a>
+      <h3><a class="bernd-rucker" href="speakers/bernd-rucker.html">Bernd Rücker</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="row">
+      <div class="speaker-container">
+        <a href="speakers/dan-bergh-jonsson.html"><div class="speaker-img dan-bergh-jonsson">
+        </div></a>
+        <h3><a class="dan-bergh-jonsson" href="speakers/dan-bergh-jonsson.html">Dan Bergh Jonsson</a></h3>
+        <p class="speaker-details"></p>
+      </div>
+      <div class="speaker-container">
+        <a href="speakers/dan-sharp.html"><div class="speaker-img dan-sharp">
+        </div></a>
+        <h3><a class="dan-sharp" href="speakers/dan-sharp.html">Dan Sharp</a></h3>
+        <p class="speaker-details"></p>
+      </div>
+      <div class="speaker-container">
+        <a href="speakers/daniel-deogun.html"><div class="speaker-img daniel-deogun">
+        </div></a>
+        <h3><a class="daniel-deogun" href="speakers/daniel-deogun.html">Daniel Deogun</a></h3>
+        <p class="speaker-details"></p>
+      </div>
+      <div class="speaker-container">
+        <a href="speakers/david-gofferje.html"><div class="speaker-img david-gofferje">
+        </div></a>
+        <h3><a class="david-gofferje" href="speakers/david-gofferje.html">David Gofferje</a></h3>
+        <p class="speaker-details"></p>
+      </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/david-graunke.html"><div class="speaker-img david-graunke">
+      </div></a>
+      <h3><a class="david-graunke" href="speakers/david-graunke.html">David Graunke</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/david-laribee.html"><div class="speaker-img david-laribee">
+      </div></a>
+      <h3><a class="david-laribee" href="speakers/david-laribee.html">David Laribee</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/derek-comartin.html"><div class="speaker-img derek-comartin">
+      </div></a>
+      <h3><a class="derek-comartin" href="speakers/derek-comartin.html">Derek Comartin</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/ellen-lippe.html"><div class="speaker-img ellen-lippe">
+      </div></a>
+      <h3><a class="ellen-lippe" href="speakers/ellen-lippe.html">Ellen Lippe</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/javier-fernandez.html"><div class="speaker-img javier-fernandez">
+      </div></a>
+      <h3><a class="javier-fernandez" href="speakers/javier-fernandez.html">Javier Fernandez</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/jeroen-soeters.html"><div class="speaker-img jeroen-soeters">
+      </div></a>
+      <h3><a class="jeroen-soeters" href="speakers/jeroen-soeters.html">Jeroen-Soeters</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/jimmy-bogard.html"><div class="speaker-img jimmy-bogard">
+      </div></a>
+      <h3><a class="jimmy-bogard" href="speakers/jimmy-bogard.html">Jimmy Bogard</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/martin-schimak.html"><div class="speaker-img martin-schimak">
+      </div></a>
+      <h3><a class="martin-schimak" href="speakers/martin-schimak.html">Martin Schimak</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/nicolo-pignatelli.html"><div class="speaker-img nicolo-pignatelli">
+      </div></a>
+      <h3><a class="nicolo-pignatelli" href="speakers/nicolo-pignatelli.html">Nicolo-Pignatelli</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/scott-bellware.html"><div class="speaker-img scott-bellware">
+      </div></a>
+      <h3><a class="scott-bellware" href="speakers/scott-bellware.html">Scott Bellware</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/steven-lowe.html"><div class="speaker-img steven-lowe">
+      </div></a>
+      <h3><a class="steven-lowe" href="speakers/steven-lowe.html">Steven Lowe</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/thomas-pierrain.html"><div class="speaker-img thomas-pierrain">
+      </div></a>
+      <h3><a class="thomas-pierrain" href="speakers/thomas-pierrain.html">Thomas Pierrain</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/vladik-khononov.html"><div class="speaker-img vladik-khononov">
+      </div></a>
+      <h3><a class="vladik-khononov" href="speakers/vladik-khononov.html">Vladik Khononov</a></h3>
+      <p class="speaker-details"></p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/yves-reynout.html"><div class="speaker-img yves-reynout">
+      </div></a>
+      <h3><a class="yves-reynout" href="speakers/yves-reynout.html">Yves Reynout</a></h3>
+      <p class="speaker-details"></p>
+    </div>
   </div>
 </div>
 
