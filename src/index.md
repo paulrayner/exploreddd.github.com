@@ -272,9 +272,9 @@ layout: layout.html
       <p class="speaker-details"></p>
     </div>
     <div class="speaker-container">
-      <a href="speakers/yves-reynout.html"><div class="speaker-img yves-reynout">
+      <a href="speakers/yves-reynhout.html"><div class="speaker-img yves-reynhout">
       </div></a>
-      <h3><a class="yves-reynout" href="speakers/yves-reynout.html">Yves Reynout</a></h3>
+      <h3><a class="yves-reynhout" href="speakers/yves-reynhout.html">Yves Reynhout</a></h3>
       <p class="speaker-details"></p>
     </div>
   </div>
