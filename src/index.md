@@ -274,9 +274,9 @@ layout: layout.html
     <p class="speaker-details">I model business domains for fun.</p>
   </div>
   <div class="speaker-container">
-    <a href="speakers/yves-reynout.html"><div class="speaker-img yves-reynout">
+    <a href="speakers/yves-reynhout.html"><div class="speaker-img yves-reynhout">
     </div></a>
-    <h3><a class="speaker-name" href="speakers/yves-reynout.html">Yves Reynhout</a></h3>
+    <h3><a class="speaker-name" href="speakers/yves-reynhout.html">Yves Reynhout</a></h3>
     <p class="speaker-details">The Journeylist</p>
   </div>
   </div>
