@@ -143,9 +143,9 @@ layout: layout.html
       <p class="speaker-details">Domain Remodeler</p>
     </div>
     <div class="speaker-container">
-      <a href="allard-buijze.html"><div class="speaker-img allard-buijze">
+      <a href="speakers/allard-buijze.html"><div class="speaker-img allard-buijze">
       </div></a>
-      <h3><a class="speaker-name" href="allard-buijze.html">Allard Buijze</a></h3>
+      <h3><a class="speaker-name" href="speakers/allard-buijze.html">Allard Buijze</a></h3>
       <p class="speaker-details">Creator of Axon Framework</p>
     </div>
   </div>
