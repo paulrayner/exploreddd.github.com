@@ -248,7 +248,7 @@ layout: layout.html
     <p class="speaker-details">Domain Bard</p>
   </div>
   <div class="speaker-container">
-    <a href="speakers/scott-bellspeaker-containerware.html"><div class="speaker-img scott-bellware">
+    <a href="speakers/scott-bellware.html"><div class="speaker-img scott-bellware">
     </div></a>
     <h3><a class="speaker-name" href="speakers/scott-bellware.html">Scott Bellware</a></h3>
     <p class="speaker-details">Asker of Inconvenient Questions</p>
