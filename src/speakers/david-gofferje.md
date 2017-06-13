@@ -5,37 +5,30 @@ layout: layout-speaker.html
 <div class="container section featured-speaker">
   <div class="row">
     <div class="col-xs-12 col-sm-2 img-container">
-      <img class="speaker-page-img" src="../img/speakers/Eric-Evans-ON.png" />
+      <img class="speaker-page-img" src="../img/speakers/David-Gofferje-ON.png" />
       </div>
     <div class="col-xs-12 col-sm-10 copy-container">
-      <h1 class="speaker-header">Eric Evans</h1>
-      <h2 class="speaker-subtitle">Author of “Domain-Driven Design”</h2>
-      <p class="copy"><a class="speaker-handle" href="https://twitter.com/ericevans0" target="_blank">@ericevans0</a></p>
+      <h1 class="speaker-header">David Gofferje</h1>
+      <h2 class="speaker-subtitle">Coding Architect</h2>
+      <p class="copy"><a class="speaker-handle" href="https://twitter.com/@david_gofferje
+" target="_blank">@david_gofferjep</a></p>
 
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
-      <p class="copy">Eric Evans is the author of “Domain-Driven Design: Tackling Complexity in Software,” Addison-Wesley 2004.</p>
 
-      <p class="copy">Since the early 1990s, he has worked on many projects developing large business systems with objects with many different approaches and many different outcomes. The book is a synthesis of that experience. It presents a system of modeling and design techniques that successful teams have used to align complex software systems with business needs and to keep projects agile as systems grow large.</p>
+      <p class="copy">Many internal talks in customer contexts about lots of different subjects (object orientation, DDD, Java, design) over the last 15 years.</p>
+      <p class="copy">Instructed about 60 students in a 2-day DDD-introduction in 2015 / 2016.</p>
+      <p class="copy">Really looking forward to broaden the horizon and speak in front of a enthusiastic larger audience!</p>
 
-      <p class="copy">Eric now leads “Domain Language”, a consulting group which coaches and trains teams applying domain-driven design, helping them to make their development work more productive and more valuable to their business.</p>
+      <h2 class="speaker-subheader"><strong>Domainify Your Code: Next-level Ubiquitous language</strong></h2>
 
-        <h2 class="conference-emphasis">Two day pre-conference workshop, Sept. 19-20</h2>
+      <p class="copy">Domain-driven design tells us to name the aggregates, entities and value objects according to the concepts within the domain we are modeling. Also, the behavior expressed by method names of their interfaces and classes should adhere to and comprise the ubiquitous language. This is usually as far as we go, polluting (the direct surroundings of) our domain with a lot of technical and non-domain related naming: Implemented patterns are reflected within class names, so are events and their handlers, as well as exceptions.</p>
 
-        <h2 class="speaker-subheader"><strong>Strategic DDD</strong></h2>
+      <p class="copy">Why not take domainifying even further, and really adopt the ubiquitous language by expelling technical and non-domain filth? I'll show how to not lose technical intent in the process while doing so. This way, we're creating a more much natural and domain-like language, that is also easier for the business to understand and is directly reflected in the code that implements it in the system. Shared, well-defined concepts throughout both design and code prevent misinterpretation, promote traceability and enable pair programming together with the domain experts!</p>
 
-        <p class="copy">Some design decisions have an impact on the trajectory of the whole project. Modeling is most needed in complex circumstances, yet the typical dynamics of large projects too often derail it or disconnect it from the real design. This course delves into principles for clarifying the big picture, getting effort focused on the core, and coordinating multi-team development.</p>
+      <p class="copy">In this talk, I'll introduce a series of guidelines, illustrate the value they provide and show their application by small, yet meaningful changes, that will help you make your code more expressive, closer to its domain's design and easier to reason about with your domain expert. Using a lot of examples, we’ll make baby-step refactorings into a breakthrough and turn our Java code into a Domain-Specific Language (DSL)!</p>
 
-        <p class="copy">The target audience is IT Leaders, Development Managers, Enterprise Architects, Software Architects, Senior Developers and Development Leads. We recommend attendees have experience with large systems multi-team development. In this class you will learn how to:</p>
-
-        <ul class="copy-list">
-        <li>Get a big-picture of multi-team development as it pertains to design success.</li>
-        <li>Make most effective use of off-the-shelf components in a mixture with in-house development.</li>
-        <li>Manage diverse styles of design, development process and quality within a large system, and still maintain the ability to innovate around your core domain</li>
-        <li>Develop multiple strategies for setting up a fresh project that can break with the past, even when the organization is tied to legacy systems.</li>
-        </ul>      
-    </div>
-    <div class="row">
       <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+
     </div>
 </div>
 </div>
