@@ -8,25 +8,25 @@ layout: layout-tier2.html
     <div class="speaker-container">
       <a href="eric-evans.html"><div class="speaker-img eric-evans">
       </div></a>
-      <h3 class="speaker-name">Eric Evans</h3>
+      <h3><a class="speaker-name" href="eric-evans.html">Eric Evans</a></h3>
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
     </div>
     <div class="speaker-container">
       <a href="rebecca-wirfs-brock.html"><div class="speaker-img rebecca-wirfs-brock">
       </div></a>
-      <h3 class="speaker-name">Rebecca Wirfs-Brock</h3>
+      <h3><a class="speaker-name" href="rebecca-wirfs-brock.html">Rebecca Wirfs-Brock</a></h3>
       <p class="speaker-details">Object Design Pioneer</p>
     </div>
     <div class="speaker-container">
       <a href="ward-cunningham.html"><div class="speaker-img ward-cunningham">
       </div></a>
-      <h3 class="speaker-name">Ward Cunningham</h3>
-      <p class="speaker-details">Creator of Wiki</p>
+      <h3><a class="speaker-name" href="ward-cunningham.html">Ward Cunningham</a></h3>
+      <p class="speaker-details">Inventor of Wiki</p>
     </div>
     <div class="speaker-container">
       <a href="vaughn-vernon.html"><div class="speaker-img vaughn-vernon">
       </div></a>
-      <h3 class="speaker-name">Vaughn Vernon</h3>
+      <h3><a class="speaker-name" href="vaughn-vernon.html">Vaughn Vernon</a></h3>
       <p class="speaker-details">Author of “Implementing DDD”</p>
     </div>
   </div>
@@ -34,25 +34,25 @@ layout: layout-tier2.html
     <div class="speaker-container">
       <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
       </div></a>
-      <h3 class="speaker-name">Alberto Brandolini</h3>
-      <p class="speaker-details">Inventor of Event Storming</p>
+      <h3><a class="speaker-name" href="alberto-brandolini.html">Alberto Brandolini</a></h3>
+      <p class="speaker-details">Inventor of EventStorming</p>
     </div>
     <div class="speaker-container">
       <a href="julie-lerman.html"><div class="speaker-img julie-lerman">
       </div></a>
-      <h3 class="speaker-name">Julie Lerman</h3>
+      <h3><a class="speaker-name" href="julie-lerman.html">Julie Lerman</a></h3>
       <p class="speaker-details">Microsoft Regional Director</p>
     </div>
     <div class="speaker-container">
       <a href="mathias-verraes.html"><div class="speaker-img mathias-verraes">
       </div></a>
-      <h3 class="speaker-name">Mathias Verraes</h3>
+      <h3><a class="speaker-name" href="mathias-verraes.html">Mathias Verraes</a></h3>
       <p class="speaker-details">Student of Systems</p>
     </div>
     <div class="speaker-container">
       <a href="chris-richardson.html"><div class="speaker-img chris-richardson">
       </div></a>
-      <h3 class="speaker-name">Chris Richardson</h3>
+      <h3><a class="speaker-name" href="chris-richardson.html">Chris Richardson</a></h3>
       <p class="speaker-details">Java Champion and Author of POJOs in Action</p>
     </div>
   </div>
@@ -60,8 +60,145 @@ layout: layout-tier2.html
     <div class="speaker-container">
       <a href="paul-rayner.html"><div class="speaker-img paul-rayner">
       </div></a>
-      <h3 class="speaker-name">Paul Rayner</h3>
+      <h3><a class="speaker-name" href="paul-rayner.html">Paul Rayner</a></h3>
       <p class="speaker-details">Domain Remodeler</p>
+    </div>
+    <div class="speaker-container">
+      <a href="allard-buijze.html"><div class="speaker-img allard-buijze">
+      </div></a>
+      <h3><a class="speaker-name" href="allard-buijze.html">Allard Buijze</a></h3>
+      <p class="speaker-details">Creator of Axon Framework</p>
+    </div>
+    <div class="speaker-container">
+      <a href="anita-kvamme.html"><div class="speaker-img anita-kvamme">
+      </div></a>
+      <h3><a class="speaker-name" href="anita-kvamme.html">Anita Kvamme</a></h3>
+      <p class="speaker-details">UX Expert, Business Analyst and Software Developer</p>
+    </div>
+    <div class="speaker-container">
+      <a href="bernd-rucker.html"><div class="speaker-img bernd-rucker">
+      </div></a>
+      <h3><a class="speaker-name" href="bernd-rucker.html">Bernd Rücker</a></h3>
+      <p class="speaker-details">Flow Enthusiast</p>
+    </div>
+  </div>
+    <div class="row">
+      <div class="speaker-container">
+        <a href="dan-bergh-jonsson.html"><div class="speaker-img dan-bergh-jonsson">
+        </div></a>
+        <h3><a class="speaker-name" href="dan-bergh-jonsson.html">Dan Bergh Jonsson</a></h3>
+        <p class="speaker-details">Secure Domain Philosopher</p>
+      </div>
+      <div class="speaker-container">
+        <a href="dan-sharp.html"><div class="speaker-img dan-sharp">
+        </div></a>
+        <h3><a class="speaker-name" href="dan-sharp.html">Dan Sharp</a></h3>
+        <p class="speaker-details">Solutions Architect</p>
+      </div>
+      <div class="speaker-container">
+        <a href="daniel-deogun.html"><div class="speaker-img daniel-deogun">
+        </div></a>
+        <h3><a class="speaker-name" href="daniel-deogun.html">Daniel Deogun</a></h3>
+        <p class="speaker-details">Author of Secure by Design, DDD Enthusiast, Coder and Quality Defender</p>
+      </div>
+      <div class="speaker-container">
+        <a href="david-gofferje.html"><div class="speaker-img david-gofferje">
+        </div></a>
+        <h3><a class="speaker-name" href="david-gofferje.html">David Gofferje</a></h3>
+        <p class="speaker-details">Coding Architect</p>
+      </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="david-graunke.html"><div class="speaker-img david-graunke">
+      </div></a>
+      <h3><a class="speaker-name" href="david-graunke.html">David Graunke</a></h3>
+      <p class="speaker-details">Developer and Client Wrangler</p>
+    </div>
+    <div class="speaker-container">
+      <a href="david-laribee.html"><div class="speaker-img david-laribee">
+      </div></a>
+      <h3><a class="speaker-name" href="david-laribee.html">David Laribee</a></h3>
+      <p class="speaker-details">Designer or Engineer? Yes!</p>
+    </div>
+    <div class="speaker-container">
+      <a href="derek-comartin.html"><div class="speaker-img derek-comartin">
+      </div></a>
+      <h3><a class="speaker-name" href="derek-comartin.html">Derek Comartin</a></h3>
+      <p class="speaker-details">Domain Junkie</p>
+    </div>
+    <div class="speaker-container">
+      <a href="ellen-lippe.html"><div class="speaker-img ellen-lippe">
+      </div></a>
+      <h3><a class="speaker-name" href="ellen-lippe.html">Ellen Lippe</a></h3>
+      <p class="speaker-details">Intense perfectionist with a passion for DDD and BDD
+</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="javier-fernandez.html"><div class="speaker-img javier-fernandez">
+      </div></a>
+      <h3><a class="speaker-name" href="javier-fernandez.html">Javier Fernandez</a></h3>
+      <p class="speaker-details">Software Development Manager. Full-Stack Developer. @dddmadrid Organizer.</p>
+    </div>
+    <div class="speaker-container">
+      <a href="jeroen-soeters.html"><div class="speaker-img jeroen-soeters">
+      </div></a>
+      <h3><a class="speaker-name" href="jeroen-soeters.html">Jeroen-Soeters</a></h3>
+      <p class="speaker-details">DDD Practitioner and FP aficionado</p>
+    </div>
+    <div class="speaker-container">
+      <a href="jimmy-bogard.html"><div class="speaker-img jimmy-bogard">
+      </div></a>
+      <h3><a class="speaker-name" href="jimmy-bogard.html">Jimmy Bogard</a></h3>
+      <p class="speaker-details">Shipper of Things</p>
+    </div>
+    <div class="speaker-container">
+      <a href="martin-schimak.html"><div class="speaker-img martin-schimak">
+      </div></a>
+      <h3><a class="speaker-name" href="martin-schimak.html">Martin Schimak</a></h3>
+      <p class="speaker-details">Domain (De)Coder</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="nicolo-pignatelli.html"><div class="speaker-img nicolo-pignatelli">
+      </div></a>
+      <h3><a class="speaker-name" href="nicolo-pignatelli.html">Nicolò Pignatelli</a></h3>
+      <p class="speaker-details">Domain Bard</p>
+    </div>
+    <div class="speaker-container">
+      <a href="scott-bellware.html"><div class="speaker-img scott-bellware">
+      </div></a>
+      <h3><a class="speaker-name" href="scott-bellware.html">Scott Bellware</a></h3>
+      <p class="speaker-details">Asker of Inconvenient Questions</p>
+    </div>
+    <div class="speaker-container">
+      <a href="steven-lowe.html"><div class="speaker-img steven-lowe">
+      </div></a>
+      <h3><a class="speaker-name" href="steven-lowe.html">Steven Lowe</a></h3>
+      <p class="speaker-details">Author of "Head-First Domain-Driven Design" O'Reilly 2018?</p>
+    </div>
+    <div class="speaker-container">
+      <a href="thomas-pierrain.html"><div class="speaker-img thomas-pierrain">
+      </div></a>
+      <h3><a class="speaker-name" href="thomas-pierrain.html">Thomas Pierrain</a></h3>
+      <p class="speaker-details">Use-case driven</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="vladik-khononov.html"><div class="speaker-img vladik-khononov">
+      </div></a>
+      <h3><a class="speaker-name" href="vladik-khononov.html">Vladik Khononov</a></h3>
+      <p class="speaker-details">I model business domains for fun.</p>
+    </div>
+    <div class="speaker-container">
+      <a href="yves-reynhout.html"><div class="speaker-img yves-reynhout">
+      </div></a>
+      <h3><a class="speaker-name" href="yves-reynhout.html">Yves Reynhout</a></h3>
+      <p class="speaker-details">The Journeylist</p>
     </div>
   </div>
 </div>
