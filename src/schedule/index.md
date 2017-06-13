@@ -324,7 +324,7 @@ layout: layout-tier2.html
 							<p>5:35 - 6:35</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Keyote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebeca-Wirfs-Brock</a></strong><br><em>Capitol Peak A &amp; B</em></p>
+							<p><strong>Keynote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebecca Wirfs Brock</a></strong><br><em>Capitol Peak A &amp; B</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->			
 				</div>
@@ -392,7 +392,7 @@ layout: layout-tier2.html
 							<p>11:20 - 12:10</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Keyote &#8212; <a href="../speakers/ward-cunningham.html">Ward Cunningham</a></strong><br><em>Capitol Peak A &amp; B</em></p>
+							<p><strong>Keynote &#8212; <a href="../speakers/ward-cunningham.html">Ward Cunningham</a></strong><br><em>Capitol Peak A &amp; B</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
