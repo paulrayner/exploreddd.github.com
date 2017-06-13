@@ -152,7 +152,7 @@ layout: layout.html
     <a href="speakers/anita-kvamme.html"><div class="speaker-img anita-kvamme">
     </div></a>
     <h3><a class="speaker-name" href="speakers/anita-kvamme.html">Anita Kvamme</a></h3>
-    <p class="speaker-details">UX expert, business analyst, software developer, wife and mother of 3 with cross country skiing as her favourite hobby.</p>
+    <p class="speaker-details">UX Expert, Business Analyst and Software Developer</p>
   </div>
   <div class="speaker-container">
     <a href="speakers/bernd-rucker.html"><div class="speaker-img bernd-rucker">
@@ -219,7 +219,7 @@ layout: layout.html
     <a href="speakers/javier-fernandez.html"><div class="speaker-img javier-fernandez">
     </div></a>
     <h3><a class="speaker-name" href="speakers/javier-fernandez.html">Javier Fernandez</a></h3>
-    <p class="speaker-details">Dad. Entrepreneur. Software Development Manager. Full-stack developer. @dddmadrid organiser. Generic geek. Amateur cook.</p>
+    <p class="speaker-details">Software Development Manager. Full-Stack Developer. @dddmadrid Organizer.</p>
   </div>
   <div class="speaker-container">
     <a href="speakers/jeroen-soeters.html"><div class="speaker-img jeroen-soeters">
