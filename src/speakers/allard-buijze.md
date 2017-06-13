@@ -20,8 +20,6 @@ layout: layout-speaker.html
 
       <p class="copy">Allard brings a vast amount of knowledge and experience to this role. As a former software architect specializing within the field of "scalability" and "performance", he has worked on several small and large projects, where performance is often a recurring theme. Allard is convinced that a good domain model is the beginning of contributing to the overall performance of an application. From this conviction, he has developed the Axon Framework. He regularly gives workshops and trainings in frameworks, best practices and architecture. He also regularly speaks at conferences, seminars and meet-ups.</p>
 
-        <h2 class="conference-emphasis">Two day pre-conference workshop, Sept. 19-20</h2>
-
         <h2 class="speaker-subheader"><strong>Bringing your model to life with Axon Framework</strong></h2>
 
         <p class="copy">Putting thought in models is important and, to some extent, inevitable. However, modelling brings no value if it doesn't make it to production.</p>
