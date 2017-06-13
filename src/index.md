@@ -181,10 +181,10 @@ layout: layout.html
       <p class="speaker-details">Author of Secure by Design, DDD Enthusiast, Coder and Quality Defender</p>
     </div>
     <div class="speaker-container">
-      <a href="speakers/david-gofferje.html"><div class="speaker-img david-gofferje">
+      <a href="speakers/yves-reynhout.html"><div class="speaker-img yves-reynhout">
       </div></a>
-      <h3><a class="speaker-name" href="speakers/david-gofferje.html">David Gofferje</a></h3>
-      <p class="speaker-details">Coding Architect</p>
+      <h3><a class="speaker-name" href="speakers/yves-reynhout.html">Yves Reynhout</a></h3>
+      <p class="speaker-details">The Journeylist</p>
     </div>
   </div>
   <div class="row">
@@ -272,12 +272,6 @@ layout: layout.html
     </div></a>
     <h3><a class="speaker-name" href="speakers/vladik-khononov.html">Vladik Khononov</a></h3>
     <p class="speaker-details">I model business domains for fun.</p>
-  </div>
-  <div class="speaker-container">
-    <a href="speakers/yves-reynhout.html"><div class="speaker-img yves-reynhout">
-    </div></a>
-    <h3><a class="speaker-name" href="speakers/yves-reynhout.html">Yves Reynhout</a></h3>
-    <p class="speaker-details">The Journeylist</p>
   </div>
   </div>
 </div>
