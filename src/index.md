@@ -244,7 +244,7 @@ layout: layout.html
   <div class="speaker-container">
     <a href="speakers/nicolo-pignatelli.html"><div class="speaker-img nicolo-pignatelli">
     </div></a>
-    <h3><a class="speaker-name" href="speakers/nicolo-pignatelli.html">Nicolo-Pignatelli</a></h3>
+    <h3><a class="speaker-name" href="speakers/nicolo-pignatelli.html">Nicolò Pignatelli</a></h3>
     <p class="speaker-details">Domain Bard</p>
   </div>
   <div class="speaker-container">

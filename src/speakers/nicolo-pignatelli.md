@@ -8,7 +8,7 @@ layout: layout-speaker.html
       <img class="speaker-page-img" src="../img/speakers/Nicolo-Pignatelli-ON.png" />
       </div>
     <div class="col-xs-12 col-sm-10 copy-container">
-      <h1 class="speaker-header">Nicolo Pignatelli</h1>
+      <h1 class="speaker-header">Nicolò Pignatelli</h1>
       <h2 class="speaker-subtitle">Domain Bard</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@nicolopigna" target="_blank">@nicolopigna</a></p>
 
