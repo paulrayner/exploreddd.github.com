@@ -24,3 +24,4 @@ layout: layout-speaker.html
 
     </div>
 </div>
+</div>
