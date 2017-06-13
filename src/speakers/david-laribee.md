@@ -5,37 +5,39 @@ layout: layout-speaker.html
 <div class="container section featured-speaker">
   <div class="row">
     <div class="col-xs-12 col-sm-2 img-container">
-      <img class="speaker-page-img" src="../img/speakers/Eric-Evans-ON.png" />
+      <img class="speaker-page-img" src="../img/speakers/David-Laribee-ON.png" />
       </div>
     <div class="col-xs-12 col-sm-10 copy-container">
-      <h1 class="speaker-header">Eric Evans</h1>
-      <h2 class="speaker-subtitle">Author of “Domain-Driven Design”</h2>
-      <p class="copy"><a class="speaker-handle" href="https://twitter.com/ericevans0" target="_blank">@ericevans0</a></p>
+      <h1 class="speaker-header">David Laribee</h1>
+      <h2 class="speaker-subtitle">Designer or Engineer? Yes!</h2>
+      <p class="copy"><a class="speaker-handle" href="https://twitter.com/@laribee" target="_blank">@laribee</a></p>
 
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
-      <p class="copy">Eric Evans is the author of “Domain-Driven Design: Tackling Complexity in Software,” Addison-Wesley 2004.</p>
 
-      <p class="copy">Since the early 1990s, he has worked on many projects developing large business systems with objects with many different approaches and many different outcomes. The book is a synthesis of that experience. It presents a system of modeling and design techniques that successful teams have used to align complex software systems with business needs and to keep projects agile as systems grow large.</p>
+      <p class="copy">David Laribee is a coach, trainer, speaker, and co-founder of Nerd/Noir. He believes in the power of collaboration, simplicity, and feedback.
 
-      <p class="copy">Eric now leads “Domain Language”, a consulting group which coaches and trains teams applying domain-driven design, helping them to make their development work more productive and more valuable to their business.</p>
+      <p class="copy">Over the last 20 years, David has built teams and products for companies of all shapes and sizes. He’s founded startups and consulted for Fortune 50 enterprises. He’s developed digital products in a wide variety of domains: banking, retail, technology, insurance, beverage distribution, and higher education (to name a few). David is a two-time Microsoft MVP in C# and Solutions Architecture and co-founder of the ALT.NET movement, which spawned dozens of user groups across the globe dedicated to open source and modern engineering practices.</p>
 
-        <h2 class="conference-emphasis">Two day pre-conference workshop, Sept. 19-20</h2>
+      <p class="copy">Before founding Nerd/Noir, David coached the product development team at VersionOne, a market leader in agile project management tools.</p>
 
-        <h2 class="speaker-subheader"><strong>Strategic DDD</strong></h2>
+      <p class="copy">David started work life at the early age of five on a farm in Upstate NY — an upbringing that accounts for his lead-from-the-front approach, appreciation for small/cross-disciplinary teams and disdain for fake maple syrup.</p>
 
-        <p class="copy">Some design decisions have an impact on the trajectory of the whole project. Modeling is most needed in complex circumstances, yet the typical dynamics of large projects too often derail it or disconnect it from the real design. This course delves into principles for clarifying the big picture, getting effort focused on the core, and coordinating multi-team development.</p>
+      <h2 class="speaker-subheader"><strong>Legendary Adventures in Legacy Code</strong></h2>
 
-        <p class="copy">The target audience is IT Leaders, Development Managers, Enterprise Architects, Software Architects, Senior Developers and Development Leads. We recommend attendees have experience with large systems multi-team development. In this class you will learn how to:</p>
+      <p class="copy">We begin with a story: a story about a legendary monster (15,000+ line class) I recently engaged in mortal combat. No spoilers. It wasn't pretty, but here I stand to tell the tale, at the ready to enter the fray once again.</p>
 
-        <ul class="copy-list">
-        <li>Get a big-picture of multi-team development as it pertains to design success.</li>
-        <li>Make most effective use of off-the-shelf components in a mixture with in-house development.</li>
-        <li>Manage diverse styles of design, development process and quality within a large system, and still maintain the ability to innovate around your core domain</li>
-        <li>Develop multiple strategies for setting up a fresh project that can break with the past, even when the organization is tied to legacy systems.</li>
-        </ul>      
-    </div>
-    <div class="row">
+      <p class="copy">Throughout our campaign we’ll take a few side quests and journeys into the three realms of technical debt: </p>
+
+      <ol class="copy-list">
+        <li>The alignments - Or, what does it take to engage in battle with demonic code?</li>
+        <li>The armory - Or, what weapons are available to you and when do you brandish them?</li>
+        <li>The lore and landscape - Or, where did these damned dragons come from in the first place?</li>
+      </ol>
+
+      <p class="copy">While this talk employs a nerdy, fantastical, and fun system metaphor to explore this world, all the essential facts are true. In addition to images of Cthulhu, Chromatic Dragons and Vampyres, expect a lot of code examples, technical deep dives, and practical lessons learned.</p>
+
       <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+
     </div>
 </div>
 </div>
