@@ -110,10 +110,10 @@ layout: layout-tier2.html
   </div>
   <div class="row">
     <div class="speaker-container">
-      <a href="david-graunke.html"><div class="speaker-img david-graunke">
+      <a href="vladik-khononov.html"><div class="speaker-img vladik-khononov">
       </div></a>
-      <h3><a class="speaker-name" href="david-graunke.html">David Graunke</a></h3>
-      <p class="speaker-details">Developer and Client Wrangler</p>
+      <h3><a class="speaker-name" href="vladik-khononov.html">Vladik Khononov</a></h3>
+      <p class="speaker-details">I model business domains for fun.</p>
     </div>
     <div class="speaker-container">
       <a href="david-laribee.html"><div class="speaker-img david-laribee">
@@ -185,14 +185,6 @@ layout: layout-tier2.html
       </div></a>
       <h3><a class="speaker-name" href="thomas-pierrain.html">Thomas Pierrain</a></h3>
       <p class="speaker-details">Use-case driven</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="speaker-container">
-      <a href="vladik-khononov.html"><div class="speaker-img vladik-khononov">
-      </div></a>
-      <h3><a class="speaker-name" href="vladik-khononov.html">Vladik Khononov</a></h3>
-      <p class="speaker-details">I model business domains for fun.</p>
     </div>
   </div>
 </div>
