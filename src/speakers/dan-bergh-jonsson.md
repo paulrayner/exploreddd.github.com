@@ -14,19 +14,19 @@ layout: layout-speaker.html
 
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
-      <p class="copy">Agile aficionado; Domain Driven Design enthusiast; code quality craftsman, with a long time interest in security. The combination made Dan use quality practices from DDD to adress application security issues - thus being one of the founders of the field Domain Driven Security around 2009. Partner at Swedish consultancy Omegapoint.</p>
+      <p class="copy">Agile aficionado, Domain Driven Design enthusiast and code quality craftsman with a long time interest in security. The combination made Dan use quality practices from DDD to address application security issues - thus being one of the founders in the field of Domain Driven Security circa 2009. I am also a partner at Swedish consultancy Omegapoint.</p>
 
-      <p class="copy">Numerous presentation over the last fifteen years including internationally renowned conferences such as JavaPolis, QCon, Jfokus, OPKoKo, Devoxx, and JavaZone.</p>
+      <p class="copy">I have also given numerous presentations over the last fifteen years including internationally renowned conferences such as JavaPolis, QCon, Jfokus, OPKoKo, Devoxx, and JavaZone.</p>
 
-      <p class="copy">Co-authoring upcoming book Secure by Design together with Daniel Deogun and Daniel Sawano.</p>
+      <p class="copy">I am Co-authoring the upcoming book "Secure by Design" together with <a href="daniel-deogun.html">Daniel Deogun</a> and Daniel Sawano.</p>
 
       <h2 class="speaker-subheader"><strong>Domain Primitives in Action - Making it Secure by Design</strong></h2>
 
-      <p class="copy">What are the basic blocks of which you build a domain? It is probably not integers, strings, and floats. Instead it might be things such as “room number,” “track,” or “time slot.” They might be simple, they might be complex, but they are the simplest things that still makes sense in your domain - these are your domain primitives.</p>
+      <p class="copy">What are the basic blocks with which you build a domain? It is probably not integers, strings and floats. Instead it might be things such as “room number,” “track,” or “time slot.” They might be simple; they might be complex, but they are the simplest things that still makes sense in your domain. These are your domain primitives.</p>
 
-      <p class="copy">Obviously, value objects are a feasible way of implementing many domain primitives. But certainly not all value objects are primitives. In this session, we’ll dive into what domain primitives are and how they enable solutions that make your code secure by design. In addition, we’ll show how domain primitives in combination with context mapping gives a powerful way to clean up legacy code. We cover some concrete patterns that you can start using immediately.</p>
+      <p class="copy">Obviously, value objects are a feasible way of implementing many domain primitives, however, not all value objects are primitives. In this session, we will dive into what domain primitives are and how they enable solutions that make your code secure by design. In addition, we will show how domain primitives in combination with context mapping yields a powerful way to clean up legacy code. We cover some concrete patterns that you can start using immediately.</p>
 
-      <p class="copy">This presentation is partly based on material from upcoming book Secure by Design by Dan Bergh Johnsson, Daniel Deogun, and Daniel Sawano.</p>
+      <p class="copy">This presentation is partly based on material from our upcoming book, "Secure by Design", by <a href="dan-bergh-jonsson.html">Dan Bergh Johnsson</a>, <a href="daniel-deogun.html">Daniel Deogun</a>, and Daniel Sawano.</p>
 
 </p>
 
