@@ -241,29 +241,43 @@ layout: layout.html
   </div>
   </div>
   <div class="row">
-  <div class="speaker-container">
-    <a href="speakers/nicolo-pignatelli.html"><div class="speaker-img nicolo-pignatelli">
-    </div></a>
-    <h3><a class="speaker-name" href="speakers/nicolo-pignatelli.html">Nicolò Pignatelli</a></h3>
-    <p class="speaker-details">Domain Bard</p>
-  </div>
-  <!--<div class="speaker-container">
-    <a href="speakers/scott-bellware.html"><div class="speaker-img scott-bellware">
-    </div></a>
-    <h3><a class="speaker-name" href="speakers/scott-bellware.html">Scott Bellware</a></h3>
-    <p class="speaker-details">Asker of Inconvenient Questions</p>
-  </div>-->
-  <div class="speaker-container">
-    <a href="speakers/steven-lowe.html"><div class="speaker-img steven-lowe">
-    </div></a>
-    <h3><a class="speaker-name" href="speakers/steven-lowe.html">Steven Lowe</a></h3>
-    <p class="speaker-details">Author of "Head-First Domain-Driven Design" O'Reilly 2018?</p>
-  </div>
-  <div class="speaker-container">
-    <a href="speakers/thomas-pierrain.html"><div class="speaker-img thomas-pierrain">
-    </div></a>
-    <h3><a class="speaker-name" href="speakers/thomas-pierrain.html">Thomas Pierrain</a></h3>
-    <p class="speaker-details">Use-case driven</p>
-  </div>
+    <div class="speaker-container">
+      <a href="speakers/nicolo-pignatelli.html"><div class="speaker-img nicolo-pignatelli">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/nicolo-pignatelli.html">Nicolò Pignatelli</a></h3>
+      <p class="speaker-details">Domain Bard</p>
+    </div>
+    <!--<div class="speaker-container">
+      <a href="speakers/scott-bellware.html"><div class="speaker-img scott-bellware">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/scott-bellware.html">Scott Bellware</a></h3>
+      <p class="speaker-details">Asker of Inconvenient Questions</p>
+    </div>-->
+    <div class="speaker-container">
+      <a href="speakers/steven-lowe.html"><div class="speaker-img steven-lowe">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/steven-lowe.html">Steven Lowe</a></h3>
+      <p class="speaker-details">Author of "Head-First Domain-Driven Design" O'Reilly 2018?</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/thomas-pierrain.html"><div class="speaker-img thomas-pierrain">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/thomas-pierrain.html">Thomas Pierrain</a></h3>
+      <p class="speaker-details">Use-case driven</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h3>
+      <p class="speaker-details">Developer</p>
+    </div>
   </div>  
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/jean-francois-cloutier.html"><div class="speaker-img jean-francois-cloutier">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/jean-francois-cloutier.html">Jean-François Cloutier</a></h3>
+      <p class="speaker-details">Accidental DDDer</p>
+    </div>
+  </div>
 </div>

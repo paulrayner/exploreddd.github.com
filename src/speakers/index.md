@@ -186,5 +186,19 @@ layout: layout-tier2.html
       <h3><a class="speaker-name" href="thomas-pierrain.html">Thomas Pierrain</a></h3>
       <p class="speaker-details">Use-case driven</p>
     </div>
+    <div class="speaker-container">
+      <a href="indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
+      </div></a>
+      <h3><a class="speaker-name" href="indu-alagarsamy.html">Indu Alagarsamy</a></h3>
+      <p class="speaker-details">Use-case driven</p>
+    </div>    
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="jean-francois-cloutier.html"><div class="speaker-img jean-francois-cloutier">
+      </div></a>
+      <h3><a class="speaker-name" href="jean-francois-cloutier.html">Jean-François Cloutier</a></h3>
+      <p class="speaker-details">Accidental DDDer</p>
+    </div>
   </div>
 </div>
