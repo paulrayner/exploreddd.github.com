@@ -37,7 +37,7 @@ layout: layout-speaker.html
 
     <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
 
-    <h2 class="conference-emphasis">Speaking Session</h2>
+    <h2 class="conference-emphasis">Talk Session</h2>
 
     <h2 class="speaker-subheader"><strong>Reactive DDD - Modeling Uncertainty</strong></h2>
 

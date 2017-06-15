@@ -22,6 +22,14 @@ layout: layout-speaker.html
 
     <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
 
+    <h2 class="conference-emphasis">Talk Session</h2>
+
+    <h2 class="speaker-subheader"><strong>There is no such thing as a microservice!</strong></h2>
+
+    <p class="copy">The microservice architecture is becoming increasingly popular. However, frequent references to using “a microservice to solve a problem” suggest that the concept is not universally well understood. In this talk, I define the microservice architecture as an architectural style and explain what that actually means. I also describe how the primary goal of the microservice architecture is to enable continuous delivery and deployment, and how it achieves that. You will learn why the architecture that you pick for your application matters. And you will learn how to solve key challenges with decomposing an application into microservices. This talk explains why there is no such thing as a microservice!</p>
+
+    <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+
   </div>
 </div>
 </div>
