@@ -16,6 +16,8 @@ layout: layout-speaker.html
 
       <p class="copy">Ellen has 15 years of experience as a developer/lead at Statoil, a major energy company in Norway. She has been a driving force behind several architectural remakes in various projects. Now co-founder of and lead developer in Headshed, a startup company creating software for the telemarketing industry. Ellen is passionate about the software design process, both the architectural part, but even more so the people part. She has a crush on Domain Driven Design and Behavour Driven Development, for which she advocates, mentors and trains others.</p>
 
+      <h2 class="conference-emphasis">Talk Session</h2>
+
       <h2 class="speaker-subheader"><strong>From legacy chaos to the Promised Land of DDD</strong></h2>
 
       <p class="copy"><strong>Co-presented with <a href="anita-kvamme.html">Anita Kvamme</a></strong></p>
