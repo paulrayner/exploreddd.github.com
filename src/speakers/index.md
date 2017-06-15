@@ -190,7 +190,7 @@ layout: layout-tier2.html
       <a href="indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
       </div></a>
       <h3><a class="speaker-name" href="indu-alagarsamy.html">Indu Alagarsamy</a></h3>
-      <p class="speaker-details">Use-case driven</p>
+      <p class="speaker-details">Developer</p>
     </div>    
   </div>
   <div class="row">
