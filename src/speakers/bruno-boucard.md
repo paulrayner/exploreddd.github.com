@@ -10,13 +10,14 @@ layout: layout-speaker.html
     <div class="col-xs-12 col-sm-10 copy-container">
       <h1 class="speaker-header">Bruno Boucard</h1>
       <h2 class="speaker-subtitle">Tagline</h2>
-      <p class="copy"><a class="speaker-handle" href="https://twitter.com/@" target="_blank">@</a></p>
+      <p class="copy"><a class="speaker-handle" href="https://twitter.com/@brunoboucard" target="_blank">@brunoboucard</a></p>
 
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
-      <p class="copy"></p>
+      <p class="copy">Bruno Boucard is developer, trainer, agile coach and speaker. He loves to explain with concrete examples with live-coding, if needed. He is a long-time Microsoft MVP, but he still is coding java with a C# accent ;-)</p>
 
-      <h2 class="speaker-subheader"><strong>DDD in the Real World: Building a Data Pipeline in Ruby.</strong></h2>
+      <p class="copy">His company 42skillz which aims to help organizations to make software and to work differently, he provides trainings, coaching, consulting about TDD, BDD, legacy code refactoring techniques and DDD with an extra soul.
+      </p>      
 
       <h2 class="speaker-subheader"><strong>How to distill the core domain from your legacy app</strong></h2>
 
