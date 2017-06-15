@@ -20,6 +20,8 @@ layout: layout-speaker.html
 
       <h2 class="speaker-subheader"><strong>Autonomy & Asynchrony: The Key to Designing Reliable Systems</strong></h2>
 
+      <p class="copy">The real world, with all its complexity, can at the same time be simple, elegant and beautiful. It thrives on autonomy and asynchrony, the two most important things that bring order to chaos. The real world does not pause for something to complete before moving on. And yet, when we write software, “Command and Control” is the norm. We find clever ways of doing this while keeping up with all the new technologies and the languages in fashion, all the while ignoring the realities of life.</p>
+
       <p class="copy">In this session, explore an alternate universe in which Event Driven Architecture can power even the most complex mission-critical systems. Learn how communicating asynchronously via events leads to building systems that are autonomous and much more reliable. Embrace asynchrony and autonomy. Make the complex simple.<p>
 
       <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>

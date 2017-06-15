@@ -35,8 +35,6 @@ layout: layout-speaker.html
 
     <p class="copy">Understand that the better part of two days will be spent implementing using Java or C#. This is not a workshop for juniors, and at least 5-10 years of programming experience is recommended. You are required to supply your own computer, programming environment with build and test facilities that you use regularly, and your thinking cap.</p>
 
-    <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
-
     <h2 class="conference-emphasis">Talk Session</h2>
 
     <h2 class="speaker-subheader"><strong>Reactive DDD - Modeling Uncertainty</strong></h2>
