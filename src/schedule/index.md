@@ -279,7 +279,7 @@ layout: layout-tier2.html
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row custom-grid-column-widths colored-cell-row">
+					<div class="row time-row custom-grid-column-widths colored-cell-row last-colored-row">
 						<div class="col-sm-1 time-cell">
 							<p>3:30 - 4:20</p>
 						</div> <!-- col-sm -->
@@ -299,29 +299,9 @@ layout: layout-tier2.html
 							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row custom-grid-column-widths last-colored-row">
-						<div class="col-sm-1 time-cell">
-							<p>4:30 - 5:20</p>
-						</div> <!-- col-sm -->
-						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
-						</div> <!-- details -->
-					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
-							<p>5:20 - 5:35</p>
+							<p>4:20 - 4:35</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
@@ -329,12 +309,28 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
-							<p>5:35 - 6:35</p>
+							<p>4:35 - 5:35</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
 							<p><strong>Keynote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebecca Wirfs-Brock</a></strong><br><em>Capitol Peak A &amp; B</em></p>
 						</div> <!-- details -->
-					</div> <!-- time-row -->			
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell">
+							<p>5:35 - 5:40</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details">
+							<p><strong>Announcements</strong></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell">
+							<p>6:30 - 10:0</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details">
+							<p><strong>Speakers Dinner</strong></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
 				</div>
 				<!-- END DAY 1 CONTENT -->
 				<!-- BEGIN DAY 2 CONTENT -->
