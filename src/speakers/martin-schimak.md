@@ -20,7 +20,7 @@ layout: layout-speaker.html
 
       <h2 class="speaker-subheader"><strong>Tackling Complex Event Flows</strong></h2>
 
-      <p class="copy"><strong>Co-presented with <a href="bernd-rucker.html">Bernd Rücker</a></strong></p>
+      <p class="copy"><strong>Co-presented with <a href="bernd-rücker.html">Bernd Rücker</a></strong></p>
 
       <p class="copy">With patterns like Saga and Process Manager we control a flow of domain events across transactional aggregate boundaries and context boundaries. But how do we anchor the flow logic in the ubiquitous language, make it transparent to domain experts and maintainable for developers? In this talk we demonstrate how end-to-end views on business processes contribute to strategic DDD and how we model them in harmony with principles like the bounded context. In the space of tactical DDD we discuss how to deal with services which need hours, days or weeks to deliver results. The logic needed to support "long running" behaviour represents important domain knowledge, including business strategies needed to react to problems, to handle timeouts or to apply compensating actions. Backed by real-life stories and concrete code examples we show how we leverage lightweight and embeddable state machines, illustrate alternatives and discuss pros and cons in the context of DDD.</p>
 
