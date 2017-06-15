@@ -17,9 +17,13 @@ layout: layout-speaker.html
       <p class="copy">Bruno Boucard is developer, trainer, agile coach and speaker. He loves to explain with concrete examples with live-coding, if needed. He is a long-time Microsoft MVP, but he still is coding java with a C# accent ;-)</p>
 
       <p class="copy">His company 42skillz which aims to help organizations to make software and to work differently, he provides trainings, coaching, consulting about TDD, BDD, legacy code refactoring techniques and DDD with an extra soul.
-      </p>      
+      </p>
+
+      <h2 class="conference-emphasis">Hands On Session</h2>      
 
       <h2 class="speaker-subheader"><strong>How to distill the core domain from your legacy app</strong></h2>
+
+      <p class="copy"><strong>Co-facilitated with <a href="thomas-pierrain.html">Thomas Pierrain</a></strong></p>
 
       <p class="copy">Let's take a very common legacy application: procedural code everywhere, anemic domain logic fully entangled with technical concerns and code. Nothing but classical stuff, right? Our mission for this truly interactive live-coding session will be to identify and extract the core domain logic out of this tar pit in order to add a new feature that has been desperately asked by our business since months.</p>
 
