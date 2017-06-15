@@ -113,10 +113,18 @@ layout: layout-tier2.html
 				</div> <!-- time-row -->
 				<div class="row time-row">
 					<div class="col-sm-1 time-cell">
+						<p>5:00 - 6:30</p>
+					</div> <!-- col-xs -->
+					<div class="col-sm-10 details">
+						<p><strong>Drinks Reception</strong><br><em>Reception Area - Pinnacle Club</em></p>
+					</div> <!-- details -->
+				</div> <!-- time-row -->
+				<div class="row time-row">
+					<div class="col-sm-1 time-cell">
 						<p>6:30 - 6:45</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details">
-						<p><strong>Welcome &#8212; <a href="../speakers/paul-rayner.html">PAUL RAYNER</a></strong> (Conference Chair)<br><em>Capitol Peak A & B</em></p>
+						<p><strong>Welcome &#8212; <a href="../speakers/paul-rayner.html">PAUL RAYNER</a></strong> (Conference Chair)<br><em>Capitol Peak A & B - Pinnacle Club</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 				<div class="row time-row">
