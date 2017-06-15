@@ -18,7 +18,11 @@ layout: layout-speaker.html
 
       <h2 class="speaker-subheader"><strong>DDD in the Real World: Building a Data Pipeline in Ruby.</strong></h2>
 
-      <p class="copy"><p>
+      <h2 class="speaker-subheader"><strong>How to distill the core domain from your legacy app</strong></h2>
+
+      <p class="copy">Let's take a very common legacy application: procedural code everywhere, anemic domain logic fully entangled with technical concerns and code. Nothing but classical stuff, right? Our mission for this truly interactive live-coding session will be to identify and extract the core domain logic out of this tar pit in order to add a new feature that has been desperately asked by our business since months.</p>
+
+      <p class="copy">Last but not least, we will clean the situation for the years to come by properly splitting the domain code from the technical one using the Hexagonal Architecture pattern. Ready to help us in that journey?</p>
 
       <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
 
