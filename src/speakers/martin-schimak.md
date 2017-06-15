@@ -16,7 +16,7 @@ layout: layout-speaker.html
 
       <p class="copy">For over 15 years I have primarily been involved in implementing complex business processes, e.g. energy trading at E.ON, wind tunnel organization at BMW, or contract management for Telefonica - getting to know the inner workings of many companies. :-) As a coder, I have a soft spot for readable APIs and testable specs and made manifold open source contributions on GitHub. And as a curious domain “decoder”, I am on a first name basis with Domain-Driven Design as well as BPMN, DMN and CMMN. I am also an editorial member of the well-read German software magazine OBJEKTspektrum and write about topics such as Agile, Microservices and the particularly exciting field of “long running” behavior. In my spare time, I organize several meetup groups in my hometown Vienna, Austria.</p>
 
-      <h2 class="conference-emphasis">Hands On Session</h2>
+      <h2 class="conference-emphasis">Talk Session</h2>
 
       <h2 class="speaker-subheader"><strong>Tackling Complex Event Flows</strong></h2>
 
