@@ -9,7 +9,7 @@ layout: layout-speaker.html
       </div>
     <div class="col-xs-12 col-sm-10 copy-container">
       <h1 class="speaker-header">Bruno Boucard</h1>
-      <h2 class="speaker-subtitle">Tagline</h2>
+      <h2 class="speaker-subtitle">Fostering a Business-Value Mindset</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@brunoboucard" target="_blank">@brunoboucard</a></p>
 
       <h2 class="speaker-subheader"><strong>biography</strong></h2>

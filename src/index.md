@@ -283,7 +283,7 @@ layout: layout.html
       <a href="speakers/bruno-boucard.html"><div class="speaker-img bruno-boucard">
       </div></a>
       <h3><a class="speaker-name" href="speakers/bruno-boucard.html">Bruno Boucard</a></h3>
-      <p class="speaker-details">tagline</p>
+      <p class="speaker-details">Fostering a Business-Value Mindset</p>
     </div>
   </div>
 </div>
