@@ -990,6 +990,13 @@ nav {
 			background-position: 0;
 		}
 	}
+  &.bruno-boucard {
+		background-image: url('../img/speakers/sprite-bruno-boucard.jpg');
+
+		&:hover {
+			background-position: 0;
+		}
+	}
 }
 
 .speaker-details {
