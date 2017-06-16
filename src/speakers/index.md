@@ -41,7 +41,7 @@ layout: layout-tier2.html
       <a href="julie-lerman.html"><div class="speaker-img julie-lerman">
       </div></a>
       <h3 class="speaker-name">Julie Lerman</h3>
-      <p class="speaker-details">Microsoft Regional Director</p>
+      <p class="speaker-details">Serial DDD Advocate</p>
     </div>
     <div class="speaker-container">
       <a href="mathias-verraes.html"><div class="speaker-img mathias-verraes">
