@@ -192,8 +192,8 @@ layout: layout-tier2.html
 							<p class="talk-title">domain primitives in action - making it secure by design</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/.html">TBA</a></h4>
-							<p class="talk-title">Talk TBD</p>
+							<h4></h4>
+							<p class="talk-title"></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/dan-sharp.html">Dan Sharp</a></h4>
@@ -256,7 +256,7 @@ layout: layout-tier2.html
 							<p>2:10 - 3:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a><</h4>
+							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a></h4>
 							<p class="talk-title">pragmatic event-driven (micro)services</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
@@ -284,8 +284,8 @@ layout: layout-tier2.html
 							<p>3:30 - 4:20</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD</p>
+							<h4></h4>
+							<p class="talk-title"></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/mathias-verraes.html">Mathias Verraes</a></h4>
@@ -426,7 +426,7 @@ layout: layout-tier2.html
 							<p class="talk-title">domain discovery using the business model canvas</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-							<h4><a href="../speakers/.html>TBA</a></h4>							
+							<h4>Creative Space</h4>							
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
