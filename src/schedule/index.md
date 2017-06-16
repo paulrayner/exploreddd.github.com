@@ -134,15 +134,7 @@ layout: layout-tier2.html
 					<div class="col-sm-10 details">
 						<p><strong>Keynote &#8212; <a href="../speakers/eric-evans.html">ERIC EVANS</a></strong> <br><em>Capitol Peak A & B</em></p>
 					</div> <!-- details -->
-				</div> <!-- time-row -->
-				<div class="row time-row">
-					<div class="col-sm-1 time-cell">
-						<p>6:45 - 8:15</p>
-					</div> <!-- col-xs -->
-					<div class="col-sm-10 details">
-						<p><strong>Connection, Cohorts, Craft Beer Reception</strong><br><em>38th Floor ?</em></p>
-					</div> <!-- details -->
-				</div> <!-- time-row -->
+				</div> <!-- time-row -->				
 			</div>
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<!-- BEGIN Day 1 CONTENT -->
