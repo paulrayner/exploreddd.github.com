@@ -120,7 +120,7 @@ layout: layout.html
     <a href="speakers/julie-lerman.html"><div class="speaker-img julie-lerman">
     </div></a>
     <h3><a class="speaker-name" href="speakers/julie-lerman.html">Julie Lerman</a></h3>
-    <p class="speaker-details">Microsoft Regional Director</p>
+    <p class="speaker-details">Serial DDD Advocate</p>
   </div>
   <div class="speaker-container">
     <a href="speakers/mathias-verraes.html"><div class="speaker-img mathias-verraes">
