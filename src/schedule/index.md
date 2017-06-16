@@ -197,7 +197,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/dan-sharp.html">Dan Sharp</a></h4>
-							<p class="talk-title">ddd in the real world: building a real estate aggregation data pipeline</p>
+							<p class="talk-title">DDD in the real world: building a real estate aggregation data pipeline</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -236,8 +236,8 @@ layout: layout-tier2.html
 							<p>1:10 - 2:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD</p>
+							<h4><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</h4>
+							<p class="talk-title">Implementing Event-Oriented DDD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/.html"></a></h4>
