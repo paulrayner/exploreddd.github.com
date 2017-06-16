@@ -164,7 +164,7 @@ layout: layout-tier2.html
 							<p class="talk-title">Tackling Complex Event Flows</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/steven-lowe">Steven A. Lowe</a></h4>
+							<h4><a href="../speakers/steven-lowe.html">Steven A. Lowe</a></h4>
 							<p class="talk-title">Three Rules For Domain-Driven Design</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
