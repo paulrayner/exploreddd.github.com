@@ -55,7 +55,7 @@ layout: layout-tier2.html
 						<p><strong>EventStorming Master Class<br><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></strong><br><em>Pikes Peak</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>Essential DDD<br><a href="../speakers/Paul Rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
+						<p><strong>Essential DDD<br><a href="../speakers/paul-rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
 						<p><strong>Actor Model and Reactive<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
@@ -83,7 +83,7 @@ layout: layout-tier2.html
 						<p><strong>EventStorming Master Class<br><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></strong><br><em>Pikes Peak</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>Essential DDD<br><a href="../speakers/Paul Rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
+						<p><strong>Essential DDD<br><a href="../speakers/paul-rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
 						<p><strong>Actor Model and Reactive<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
@@ -462,5 +462,4 @@ layout: layout-tier2.html
 		<div class="row"></div>
 		<div class="final-row"></div> <!-- this is just here for spacing -->
 </div> <!-- container -->
->>>>>>> development-schedule-page
 </div>
