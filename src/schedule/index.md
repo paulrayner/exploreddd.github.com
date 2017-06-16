@@ -256,16 +256,16 @@ layout: layout-tier2.html
 							<p>2:10 - 3:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD</p>
+							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a><</h4>
+							<p class="talk-title">pragmatic event-driven (micro)services</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/.html"></a></h4>
-							<p class="talk-title">Talk TBD</p>
+							<h4><a href="../speakers/eric-evans.html">Eric Evans</a></h4>
+							<p class="talk-title">Tempus Fugit: Explorations in Modeling Time</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/.html"></a></h4>
-							<p class="talk-title">Talk TBD</p>
+							<h4><a href="../speakers/vladik-khononov.html">Vladik Khononov</a></h4>
+							<p class="talk-title">tackling complexity in large-scale marketing systems</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
