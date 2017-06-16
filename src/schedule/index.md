@@ -414,15 +414,18 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a></h4>
+							<h5>Hands on Workshop:</h5>
 							<p class="talk-title">DDD and CQRS with axon framework</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/thomas-pierrain.html">Thomas Pierrain</a> &amp; <a href="../speakers/bruno-boucard.html">Bruno Boucard</a></h4>
+						<h4><a href="../speakers/thomas-pierrain.html">Thomas Pierrain</a> &amp; <a href="../speakers/bruno-boucard.html">Bruno Boucard</a></h4>
+							<h5>Hands on Workshop:</h5>
 							<p class="talk-title">how to distill the core domain from your legacy app</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/javier-fernandez.html">Javier Fernández
 </a></h4>
+							<h5>Hands on Workshop:</h5>
 							<p class="talk-title">domain discovery using the business model canvas</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
