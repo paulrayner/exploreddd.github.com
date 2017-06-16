@@ -1201,6 +1201,9 @@ footer {
     font-family: NunitoSansBold, sans-serif;
     text-transform: uppercase;
   }
+  a {
+    color: #fff9ec;
+  }
 }
 .custom-grid-column-widths .time-cell {
   border-top: 1px solid #452e26;
@@ -1237,6 +1240,7 @@ footer {
 }
 .talk-title {
   font-size: 18px;
+  text-transform: capitalize;
   em {
     font-size: 16px;
   }

@@ -160,16 +160,16 @@ layout: layout-tier2.html
 							<p>9:00 - 9:50</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/bernd-rücker.html">Bernd Rücker</a> &amp; <a href="../speakers/martin-schimak.html">Martin Schimak</a></h4>
+							<p class="talk-title">Tackling Complex Event Flows</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+							<h4><a href="../speakers/steven-lowe">Steven A. Lowe</a></h4>
+							<p class="talk-title">Three Rules For Domain-Driven Design</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/yves-reynhout.html">Yves Reynhout</a></h4>
+							<p class="talk-title">Trench Talk: Evolving A Model</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -188,16 +188,16 @@ layout: layout-tier2.html
 							<p>10:20 - 11:10</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/dan-bergh-jonsson.html">Dan Bergh Johnsson</a> &amp; <a href="../speakers/daniel-deogun.html">Daniel Deogun</a></h4>
+							<p class="talk-title">domain primitives in action - making it secure by design</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -209,15 +209,15 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -237,15 +237,15 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -257,15 +257,15 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -285,15 +285,15 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -312,7 +312,7 @@ layout: layout-tier2.html
 							<p>4:35 - 5:35</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Keynote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebecca Wirfs-Brock</a></strong><br><em>Capitol Peak A &amp; B</em></p>
+							<p><strong>Keynote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebecca Wirfs-Brock</a></strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -349,15 +349,15 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -377,15 +377,15 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -396,7 +396,7 @@ layout: layout-tier2.html
 							<p>11:20 - 12:10</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Keynote &#8212; <a href="../speakers/ward-cunningham.html">Ward Cunningham</a></strong><br><em>Capitol Peak A &amp; B</em></p>
+							<p><strong>Keynote &#8212; <a href="../speakers/ward-cunningham.html">Ward Cunningham</a></strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -413,15 +413,15 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4>Speaker TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak B</em></p>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>SPEAKER TBD</h4>
-							<p class="talk-title">Talk TBD<br><em>Capitol Peak A</em></p>
+							<h4><a href="../speakers/.html"></a></h4>
+							<p class="talk-title">Talk TBD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
