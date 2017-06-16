@@ -8,7 +8,7 @@ layout: layout-speaker.html
       <img class="speaker-page-img" src="../img/speakers/Javier-Fernandez-ON.png" />
       </div>
     <div class="col-xs-12 col-sm-10 copy-container">
-      <h1 class="speaker-header">Javier Fernandez</h1>
+      <h1 class="speaker-header">Javier Fernández</h1>
       <h2 class="speaker-subtitle">Software Development Manager. Full-stack developer. @dddmadrid Organizer.</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@javierfdezg" target="_blank">@javierfdezg</a></p>
 

@@ -218,7 +218,7 @@ layout: layout.html
   <div class="speaker-container">
     <a href="speakers/javier-fernandez.html"><div class="speaker-img javier-fernandez">
     </div></a>
-    <h3><a class="speaker-name" href="speakers/javier-fernandez.html">Javier Fernandez</a></h3>
+    <h3><a class="speaker-name" href="speakers/javier-fernandez.html">Javier Fernández</a></h3>
     <p class="speaker-details">Software Development Manager. Full-Stack Developer. @dddmadrid Organizer.</p>
   </div>
   <div class="speaker-container">
