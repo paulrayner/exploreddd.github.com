@@ -188,7 +188,7 @@ layout: layout-tier2.html
 							<p>10:20 - 11:10</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/dan-bergh-jonsson.html">Dan Bergh Johnsson</a> &amp; <a href="../speakers/daniel-deogun.html">Daniel Deogun</a></h4>
+							<h4><a href="../speakers/dan-bergh-johnsson.html">Dan Bergh Johnsson</a> &amp; <a href="../speakers/daniel-deogun.html">Daniel Deogun</a></h4>
 							<p class="talk-title">domain primitives in action - making it secure by design</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
