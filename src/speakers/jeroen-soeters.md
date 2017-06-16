@@ -20,6 +20,8 @@ layout: layout-speaker.html
 
       <p class="copy">Currently he is based out of NYC where there is a high likelihood of finding him in bars that serve proper Belgian beer.</p>
 
+      <h2 class="conference-emphasis">Talk Session</h2>
+
       <h2 class="speaker-subheader"><strong>Fast Data in Supply Chain Planning</strong></h2>
 
       <p class="copy">In this talk I will explain how we are currently migrating one of the top 3 consumer packaged goods companies from a batch oriented systems architecture to a streaming platform. We will discuss the business benefits of streaming in supply chain planning, how concepts from domain driven design enable our strangler approach to developing the new platform in parallel to the existing solution. We talk about how Kafka and it's four main API's play a central role in this architecture, what we learned from integrating with legacy systems using CDC (Change Data Capture) and finally a key insight we gained during the project namely that streams <3 enterprise integration patterns.<p>

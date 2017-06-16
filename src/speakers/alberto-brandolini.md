@@ -60,7 +60,7 @@ layout: layout-speaker.html
       <li>A different perspective on software design: the picture that explains everything. Make policies explicit. Discover aggregates. Design around the bottleneck. Blending User Experience Design and Service design into software design.</li>
       <li>Triggering bullet-proof design with visible state. The transaction illusion.</li>
       <li>From sticky notes to working software. When to go for a sophisticated architecture.</li>
-      </ul>      
+      </ul>
 
       <h2 class="conference-emphasis">Talk Session</h2>
 

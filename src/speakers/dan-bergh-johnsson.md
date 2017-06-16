@@ -20,6 +20,8 @@ layout: layout-speaker.html
 
       <p class="copy">I am Co-authoring the upcoming book "Secure by Design" together with <a href="daniel-deogun.html">Daniel Deogun</a> and Daniel Sawano.</p>
 
+      <h2 class="conference-emphasis">Talk Session</h2>
+
       <h2 class="speaker-subheader"><strong>Domain Primitives in Action - Making it Secure by Design</strong></h2>
 
       <p class="copy">What are the basic blocks with which you build a domain? It is probably not integers, strings and floats. Instead it might be things such as “room number,” “track,” or “time slot.” They might be simple; they might be complex, but they are the simplest things that still makes sense in your domain. These are your domain primitives.</p>

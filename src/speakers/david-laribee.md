@@ -22,6 +22,8 @@ layout: layout-speaker.html
 
       <p class="copy">David started work life at the early age of five on a farm in Upstate NY — an upbringing that accounts for his lead-from-the-front approach, appreciation for small/cross-disciplinary teams and disdain for fake maple syrup.</p>
 
+      <h2 class="conference-emphasis">Talk Session</h2>
+
       <h2 class="speaker-subheader"><strong>Legendary Adventures in Legacy Code</strong></h2>
 
       <p class="copy">We begin with a story: a story about a legendary monster (15,000+ line class) I recently engaged in mortal combat. No spoilers. It wasn't pretty, but here I stand to tell the tale, at the ready to enter the fray once again.</p>

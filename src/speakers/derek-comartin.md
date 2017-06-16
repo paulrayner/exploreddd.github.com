@@ -24,6 +24,8 @@ layout: layout-speaker.html
 
       <p class="copy">Derek has a very active blog @ codeopinion.com, that focuses on CQRS, Event Sourcing, HTTP API's and Hypermedia.</p>
 
+      <h2 class="conference-emphasis">Talk Session</h2>
+
       <h2 class="speaker-subheader"><strong>Fat Controller CQRS Diet</strong></h2>
 
       <p class="copy">Do your controllers need to go on a diet?  Fat controllers can quickly lead to tight coupling by the abundance validation, business logic, and data access.</p>

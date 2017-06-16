@@ -18,6 +18,8 @@ layout: layout-speaker.html
 
       <p class="copy">Indu is also passionate about diversity and inclusiveness in the tech industry. When not programming, she is either rock climbing in sunny Southern California or having fun with her kids!</p>
 
+      <h2 class="conference-emphasis">Talk Session</h2>
+
       <h2 class="speaker-subheader"><strong>Autonomy & Asynchrony: The Key to Designing Reliable Systems</strong></h2>
 
       <p class="copy">The real world, with all its complexity, can at the same time be simple, elegant and beautiful. It thrives on autonomy and asynchrony, the two most important things that bring order to chaos. The real world does not pause for something to complete before moving on. And yet, when we write software, “Command and Control” is the norm. We find clever ways of doing this while keeping up with all the new technologies and the languages in fashion, all the while ignoring the realities of life.</p>

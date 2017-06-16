@@ -20,6 +20,8 @@ layout: layout-speaker.html
 
       <p class="copy">In my spare time, I train obsessively at Aikido of Maine, organize the local Erlang/Elixir and Elm meetups, and dabble in robotics with the Lego Robotics sets I bought "for my son".</p>
 
+      <h2 class="conference-emphasis">Talk Session</h2>
+
       <h2 class="speaker-subheader"><strong>Modeling the mind of an autonomous robot</strong></h2>
 
       <p class="copy">A couple of years ago, I found out I could program a Lego EV3 robot using my favorite concurrent programming language (Elixir). Way back in the 80s, I had read Marvin Minsky's "Society of Mind". Now was my chance to implement a simplified version of it, just enough to give a Lego robot interesting autonomous behaviors. Minsky's Society of Mind calls for many agents doing simple things and interacting in simple ways, causing emergent behaviors we perceive as intelligent. So I set out to design and implement a simple model of the mind, with concurrent agents responsible for perception, memory, motivation, attention, behavior and actuation.</p>
