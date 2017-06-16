@@ -244,8 +244,8 @@ layout: layout-tier2.html
 							<p class="talk-title">black ops DDD using the business model canvas</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/.html"></a></h4>
-							<p class="talk-title">Talk TBD</p>
+							<h4><a href="../speakers/ellen-lippe.html">Ellen Lippe</a> &amp; <a href="../speakers/anita-kvamme.html">Anita Kvamme</a></h4>
+							<p class="talk-title">from legacy chaos to the promised land of DDD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
