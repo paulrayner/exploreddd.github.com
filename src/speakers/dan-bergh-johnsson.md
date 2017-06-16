@@ -5,10 +5,10 @@ layout: layout-speaker.html
 <div class="container section featured-speaker">
   <div class="row">
     <div class="col-xs-12 col-sm-2 img-container">
-      <img class="speaker-page-img" src="../img/speakers/Dan-Bergh-Jonsson-ON.png" />
+      <img class="speaker-page-img" src="../img/speakers/Dan-Bergh-Johnsson-ON.png" />
       </div>
     <div class="col-xs-12 col-sm-10 copy-container">
-      <h1 class="speaker-header">Dan Bergh Jonsson</h1>
+      <h1 class="speaker-header">Dan Bergh Johnsson</h1>
       <h2 class="speaker-subtitle">Secure Domain Philosopher</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@danbjson" target="_blank">@danbjson</a></p>
 
