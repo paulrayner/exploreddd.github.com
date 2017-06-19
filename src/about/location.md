@@ -40,7 +40,7 @@ layout: layout-tier2.html
   <h2 class="page-subheader">Accommodation</h2>
 
   <p class="copy"><i>Hotel room availability at this time of year in Denver is extremely limited, so we strongly recommend that attendees traveling from out of town reserve their rooms at the Grand Hyatt as early as possible.</i> </p>
-  <p class="copy">We have reserved a room block at the Grand Hyatt, and negotiated a low conference discounted room rate of $199/night. Enter your contact details to <a href="http://eepurl.com/cGAHQT">stay updated</a> with our conference newsletter.</p>
+  <p class="copy">We have reserved a room block at the Grand Hyatt and negotiated a low conference discounted room rate. <a href="https://aws.passkey.com/go/ExploreDDD">Reserve your room</a> at the Grand Hyatt.</p>
 
 <!--   Contact the hotel directly to make your room booking, and mention the conference to receive the discounted rate.</p>
  -->
