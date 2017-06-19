@@ -31,7 +31,7 @@ layout: layout-tier2.html
 	<p class="copy">Yes. We’ll be recording the talks and publishing them online after the conference. The workshops and unconference types of activities will not be recorded.</p>
 
 	<h2 class="page-subheader">What does this conference cost?</h2>
-	<p class="copy">Conference ticket prices are $995 for earlybird, and $1,295 for full price. The two-day workshops are $1,500 for both days. For accommodation, we highly recommend booking early at the Grand Hyatt Denver conference hotel, since hotel room availability at this time of year in Denver is extremely limited and we have reserved a block of rooms with a discounted conference room rate of $199/night.</p>
+	<p class="copy">See our <a href="https://ti.to/explore-ddd-conference/2017">registration page</a> for conference and pre-conference workshops pricing. For accommodation, we highly recommend <a href="https://aws.passkey.com/go/ExploreDDD">booking early at the Grand Hyatt Denver conference hotel</a>, since hotel room availability at this time of year in Denver is extremely limited and we have reserved a block of rooms with a discounted conference room rate.</p>
 
 	<h2 class="page-subheader">What is included in the ticket prices?</h2>
 	<p class="copy">The conference ticket gives you access to the main event conference sessions. You'll be able to attend all the talks. To attend the workshops, you need a separate ticket. All tickets include lunch and beverages. Not included in the ticket price are accommodation, travel, social events, dinners, or any other costs, unless specifically indicated.</p>
