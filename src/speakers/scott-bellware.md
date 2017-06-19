@@ -9,7 +9,7 @@ layout: layout-speaker.html
       </div>
     <div class="col-xs-12 col-sm-10 copy-container">
       <h1 class="speaker-header">Scott Bellware</h1>
-      <h2 class="speaker-subtitle">Asker of inconvenient questions</h2>
+      <h2 class="speaker-subtitle">Asker of Inconvenient Questions</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@sbellware" target="_blank">@sbellware</a></p>
 
       <h2 class="speaker-subheader"><strong>biography</strong></h2>

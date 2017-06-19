@@ -168,12 +168,6 @@ layout: layout-tier2.html
       <h3><a class="speaker-name" href="nicolo-pignatelli.html">Nicolò Pignatelli</a></h3>
       <p class="speaker-details">Domain Bard</p>
     </div>
-    <!--<div class="speaker-container">
-      <a href="scott-bellware.html"><div class="speaker-img scott-bellware">
-      </div></a>
-      <h3><a class="speaker-name" href="scott-bellware.html">Scott Bellware</a></h3>
-      <p class="speaker-details">Asker of Inconvenient Questions</p>
-    </div>-->
     <div class="speaker-container">
       <a href="steven-lowe.html"><div class="speaker-img steven-lowe">
       </div></a>
@@ -205,6 +199,12 @@ layout: layout-tier2.html
       </div></a>
       <h3><a class="speaker-name" href="bruno-boucard.html">Bruno Boucard</a></h3>
       <p class="speaker-details">Emancipating Developers</p>
+    </div>
+    <div class="speaker-container">
+      <a href="scott-bellware.html"><div class="speaker-img scott-bellware">
+      </div></a>
+      <h3><a class="speaker-name" href="scott-bellware.html">Scott Bellware</a></h3>
+      <p class="speaker-details">Asker of Inconvenient Questions</p>
     </div>
   </div>
 </div>
