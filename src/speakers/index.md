@@ -184,7 +184,7 @@ layout: layout-tier2.html
       <a href="thomas-pierrain.html"><div class="speaker-img thomas-pierrain">
       </div></a>
       <h3><a class="speaker-name" href="thomas-pierrain.html">Thomas Pierrain</a></h3>
-      <p class="speaker-details">Use-case driven</p>
+      <p class="speaker-details">Use-case Driven</p>
     </div>
     <div class="speaker-container">
       <a href="indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">

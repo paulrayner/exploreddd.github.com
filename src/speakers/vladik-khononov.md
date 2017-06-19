@@ -9,7 +9,7 @@ layout: layout-speaker.html
       </div>
     <div class="col-xs-12 col-sm-10 copy-container">
       <h1 class="speaker-header">Vladik Khononov</h1>
-      <h2 class="speaker-subtitle">I Do Business Domains For Fun</h2>
+      <h2 class="speaker-subtitle">I Model Business Domains For Fun</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@vladikk
 " target="_blank">@vladikk</a></p>
 
