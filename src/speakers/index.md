@@ -113,7 +113,7 @@ layout: layout-tier2.html
       <a href="vladik-khononov.html"><div class="speaker-img vladik-khononov">
       </div></a>
       <h3><a class="speaker-name" href="vladik-khononov.html">Vladik Khononov</a></h3>
-      <p class="speaker-details">I model business domains for fun.</p>
+      <p class="speaker-details">I Model Business Domains For Fun.</p>
     </div>
     <div class="speaker-container">
       <a href="david-laribee.html"><div class="speaker-img david-laribee">
