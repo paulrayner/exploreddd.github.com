@@ -14,6 +14,10 @@ layout: layout-tier2.html
 	<p class="copy">Are you a Senior Developer, team lead, or Software Architect with several years of experience building software systems for complex domains? Are you a DDD explorer, enthusiast, or expert? If so, then this conference is for you.</p>
 	<p class="copy">Gain deep insights on your software system questions from your peers and industry experts. You could solve your nagging software problems during the conference with help from other attendees. What would that be worth to you and your company?</p>
 
+	<h2 class="page-subheader">Who is Behind the Conference?</h2>
+	<p class="copy">The Explore DDD Conference is new for 2017! It is designed and founded by Paul Rayner, software design and DDD expert. Paul is best known as the founder and lead consultant for Virtual Genius LLC, a Denver-based software consultancy which specializes in teaching and coaching teams in DDD and the EventStorming collaborative modeling and design technique.</p>
+	<p class="copy">The Explore DDD Conference is being organized by Paul Rayner, assisted by a team of staff and volunteers. Paul’s mission with Explore DDD is to encourage excellence, sharing, and innovation within the DDD community, and build awareness of DDD amongst the broader software development community.</p>
+
 	<h2 class="page-subheader">What is Domain-Driven Design?</h2>
 	<p class="copy">Domain-driven design (DDD) is an approach to developing software for complex needs by deeply connecting the implementation to an evolving model of the core business concepts.</p>
 	<ul class="copy list">
