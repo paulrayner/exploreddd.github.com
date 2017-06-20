@@ -180,7 +180,7 @@ nav {
 	padding: 0;
 	@include mq(sm) {
 		display: inline-block;
-		padding: 0 0 0 55px;
+		padding: 0 0 0 25px;
 	}
 }
 
@@ -329,7 +329,7 @@ nav {
   }
 }
 
-.submenu-toggle {
+/*.submenu-toggle {
 	background-image: url('../img/read-more-arrow.png');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -344,7 +344,7 @@ nav {
 	@include mq(sm) {
 		display: none;
 	}
-}
+}*/
 
 .nav-list-item.open {
 	.nav-submenu {
