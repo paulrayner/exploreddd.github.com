@@ -37,7 +37,7 @@ layout: layout-speaker.html
 
     <h2 class="conference-emphasis">Talk Session</h2>
 
-    <h2 class="speaker-subheader"><strong>Reactive DDD - Modeling Uncertainty</strong></h2>
+    <h2 class="speaker-subheader"><strong>Reactive DDD--Modeling Uncertainty</strong></h2>
 
     <p class="copy">Using the foundational ideals provided by Eric Evans, including the Bounded Context, Ubiquitous Language, Context Mapping, and business-driven modeling, this talk explores modeling uncertainty. Systems today are far more likely to be distributed, especially due to the ever increasing popularity of the cloud and microservices. Systems are also increasingly asynchronous, event-driven, and reactive. In the face of these and other influencing conditions, a pertinent question is, how can DDD be even more relevant today than when it was first explained? This talk addresses the current industry competing forces, and how the uncertainty introduced by vastly distributed systems can be finessed into highly functioning, business-centric systems, that teams can design, develop, and reason about.</p>
 
