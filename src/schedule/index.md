@@ -58,7 +58,7 @@ layout: layout-tier2.html
 						<p><strong>Essential DDD<br><a href="../speakers/paul-rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>Actor Model and Reactive<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
+						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
 						<p><strong>Developing Applicatons with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Mount Elbert A</em></p>				
@@ -86,7 +86,7 @@ layout: layout-tier2.html
 						<p><strong>Essential DDD<br><a href="../speakers/paul-rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>Actor Model and Reactive<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
+						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
 						<p><strong>Developing Applicatons with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Mount Elbert A</em></p>				
@@ -229,7 +229,7 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</h4>
-							<p class="talk-title">Implementing Event-Oriented DDD</p>
+							<p class="talk-title">Reactive DDD: Modeling Uncertainty</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/javier-fernandez.html">Javier Fernández</a></h4>

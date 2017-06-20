@@ -13,7 +13,7 @@ layout: layout-speaker.html
     <p class="copy"><a class="speaker-handle" href="https://twitter.com/vaughnvernon" target="_blank">@vaughnvernon</a></p>
 
     <h2 class="speaker-subheader"><strong>biography</strong></h2>
-    <p class="copy">Vaughn is a veteran software craftsman, with more than 30 years of experience in software design, development, and architecture. He is a thought leader in simplifying software design and implementation using innovative methods. Vaughn is the author of the books "Implementing Domain-Driven Design" and "Reactive Messaging Patterns with the Actor Model", both published by Addison-Wesley. He has been applying the tenets of Domain-Driven Design since his Smalltalk domain modeling days in the early 1990s. Vaughn speaks and presents at conferences internationally, he consults, and has taught his IDDD Workshop around the globe to hundreds of developers. He is also the founder of for comprehension, an online training website.</p>
+    <p class="copy">Vaughn Vernon is a software developer and architect with more than 30 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design and a thought leader in software simplification. He consults and teaches around Domain-Driven Design and reactive software development, helping teams and organizations realize the potential of business-driven and reactive systems as they transition from technology-driven legacy web implementation approaches. As he does so, he puts strong emphasis on embracing simplicity whenever possible. Vaughn is the author of three books: Implementing Domain-Driven Design, Reactive Messaging Patterns with the Actor Model, and Domain-Driven Design Distilled, all published by Addison-Wesley. Vaughn is also the founder of <a href="http://forcomprehension.com">for {comprehension}</a> providing consulting, live training, and online learning.</p>
 
     <h2 class="conference-emphasis">Two day pre-conference workshop, Sept. 19-20</h2>
 
@@ -37,7 +37,7 @@ layout: layout-speaker.html
 
     <h2 class="conference-emphasis">Talk Session</h2>
 
-    <h2 class="speaker-subheader"><strong>Reactive DDD--Modeling Uncertainty</strong></h2>
+    <h2 class="speaker-subheader"><strong>Reactive DDD: Modeling Uncertainty</strong></h2>
 
     <p class="copy">Using the foundational ideals provided by Eric Evans, including the Bounded Context, Ubiquitous Language, Context Mapping, and business-driven modeling, this talk explores modeling uncertainty. Systems today are far more likely to be distributed, especially due to the ever increasing popularity of the cloud and microservices. Systems are also increasingly asynchronous, event-driven, and reactive. In the face of these and other influencing conditions, a pertinent question is, how can DDD be even more relevant today than when it was first explained? This talk addresses the current industry competing forces, and how the uncertainty introduced by vastly distributed systems can be finessed into highly functioning, business-centric systems, that teams can design, develop, and reason about.</p>
 
