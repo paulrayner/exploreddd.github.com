@@ -20,7 +20,9 @@ layout: layout-speaker.html
 
       <p class="copy">I also love to teach, especially business tools such as the Business Model Canvas and the Value Proposition Design and their applications in the software development field.</p>
 
-      <p class="copy">I recently kickstarted a Domain-Driven Design meetup in Madrid where I give talks and I also started giving talks at proper conferences such as DDD eXchange in London.</p>
+      <p class="copy">I recently kickstarted a Domain-Driven Design meetup in Madrid where I give talks and I also started giving talks at proper conferences such as DDD eXchange in London, Explore DDD in Denver and KanDDDinsky in Berlin.</p>
+
+      <p class="copy">You can follow me on twitter and medium: <a href="https://twitter.com/@javierfdezg">@javierfdezg</a></p>
 
       <h2 class="conference-emphasis">Talk Session</h2>
 
