@@ -28,15 +28,13 @@ layout: layout-speaker.html
 
       <h2 class="speaker-subheader"><strong>Black Ops DDD using the Business Model Canvas</strong></h2>
 
-      <p class="copy">If you are trying to adopt Domain-Driven Design within your organisation you will need to drag the business people into it and yes, you should expect resistance. You will have to use unconventional techniques to make this happen... In this talk you will learn how Javier gained buy-in from both business and IT in a corporate organisation after they took part in a sneaky experiment involving the Business Model Canvas.
+      <p class="copy">In my talk "Black Ops DDD using the Business Model Canvas" you will find out what this is and how can it be used to achieve some DDD goals. If you want to know more about this wonderful tool, don't miss this workshop where you will take away:</p>
 
-      <p class="copy">The adoption of Domain-Driven Design will require a mindset revamp across your whole company. However, convincing people they should commit to change is probably the greatest challenge an organisation can face.</p>
-
-      <p class="copy">Making changes is not easy and you will need to leverage this in order to succeed. You'll be required to think out of the box and look out there for new tools. Only then you will be able to truly involve the rest of the organisation, especially your business fellows.
-
-      <p class="copy">Fortunately you can make use of the Business Model Canvas: a popular tool designed to generate business models. This tool will help business to perceive Domain-Driven Design practices in a less shocking way. By making your counterparts feel more comfortable you will build a good atmosphere and your peers will be open for changes.</p>
-
-      <p class="copy">Get to know what the Business Model Canvas is and how you can tweak it to help you gain buy-in from your organisation to adopt Domain-Driven Design. In addition you will get some real world tips Javier learned while putting this handy tool into practice.</p>
+      <ul class="copy-list">
+        <li>Have a deeper understanding of what the Business Model Canvas is and how to use it to generate business models</li>.
+        <li>Experiment with the generated business models and test hypothesis.</li>
+        <li>Apply the learnings of the business model into Domain Discovery using the Business Model Canvas.</li>
+      </ul>
 
       <h2 class="conference-emphasis">Hands On Session</h2>
 
