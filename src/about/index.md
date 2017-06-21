@@ -1,6 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
+
 <div class="container section page about">
 	<h1 class="section-header">About</h1>
 
