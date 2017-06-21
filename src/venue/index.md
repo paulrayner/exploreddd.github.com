@@ -2,7 +2,7 @@
 layout: layout-tier2.html
 ---
 <div class="section hero venue">
-<img src="../img/Explore DDD-website-Location page-Header-image.png" />
+<img class="venue--page" src="../img/Explore DDD-website-Location page-Header-image.png" />
 </div>
 <div class="container section page">
 	<h1 class="section-header">Venue</h1>

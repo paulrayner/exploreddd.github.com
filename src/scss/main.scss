@@ -1021,6 +1021,12 @@ nav {
   padding-left: 0;
   padding-right: 0;
 
+  @include mq(sm) {
+    .venue--page-header {
+      //make the header image a bg of a div and make it center on smaller widths later?
+    }
+  }
+
 	.section-header {
 		margin-bottom: 18px;
 	}
