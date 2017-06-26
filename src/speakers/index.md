@@ -76,10 +76,10 @@ layout: layout-tier2.html
       <p class="speaker-details">UX Expert, Business Analyst and Software Developer</p>
     </div>
     <div class="speaker-container">
-      <a href="bernd-rücker.html"><div class="speaker-img bernd-rücker">
+      <a href="scott-bellware.html"><div class="speaker-img scott-bellware">
       </div></a>
-      <h3><a class="speaker-name" href="bernd-rücker.html">Bernd Rücker</a></h3>
-      <p class="speaker-details">Flow Enthusiast</p>
+      <h3><a class="speaker-name" href="scott-bellware.html">Scott Bellware</a></h3>
+      <p class="speaker-details">Asker of Inconvenient Questions</p>
     </div>
   </div>
     <div class="row">
@@ -199,12 +199,6 @@ layout: layout-tier2.html
       </div></a>
       <h3><a class="speaker-name" href="bruno-boucard.html">Bruno Boucard</a></h3>
       <p class="speaker-details">Emancipating Developers</p>
-    </div>
-    <div class="speaker-container">
-      <a href="scott-bellware.html"><div class="speaker-img scott-bellware">
-      </div></a>
-      <h3><a class="speaker-name" href="scott-bellware.html">Scott Bellware</a></h3>
-      <p class="speaker-details">Asker of Inconvenient Questions</p>
     </div>
   </div>
 </div>

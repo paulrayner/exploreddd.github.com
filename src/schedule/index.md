@@ -152,7 +152,7 @@ layout: layout-tier2.html
 							<p>9:00 - 9:50</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/bernd-rücker.html">Bernd Rücker</a> &amp; <a href="../speakers/martin-schimak.html">Martin Schimak</a></h4>
+							<h4><a href="../speakers/martin-schimak.html">Martin Schimak</a></h4>
 							<p class="talk-title">Tackling Complex Event Flows</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
