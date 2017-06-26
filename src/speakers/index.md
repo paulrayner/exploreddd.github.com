@@ -185,7 +185,7 @@ layout: layout-tier2.html
       </div></a>
       <h3><a class="speaker-name" href="indu-alagarsamy.html">Indu Alagarsamy</a></h3>
       <p class="speaker-details">Developer</p>
-    </div>    
+    </div>
   </div>
   <div class="row">
     <div class="speaker-container">
