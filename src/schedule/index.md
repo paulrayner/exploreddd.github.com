@@ -61,7 +61,7 @@ layout: layout-tier2.html
 						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>Developing Applicatons with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Mount Elbert A</em></p>				
+						<p><strong>Developing Applications with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Mount Elbert A</em></p>				
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 				<div class="row time-row">
