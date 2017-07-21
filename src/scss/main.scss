@@ -399,6 +399,13 @@ nav {
 	}
 }
 
+.slide.dia {
+	background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-DIA-1600x400.jpg');
+	}
+}
+
 .slide.hyatt {
 	background-image: url('../img/sliders/slider-Hyatt-700x600.jpg');
 	@include mq(sm){
@@ -406,7 +413,7 @@ nav {
 	}
 }
 
-.hyatt-copy {
+.hyatt-copy, .dia-copy {
 	background-color: #fff8e9;
 	display: inline-block;
 	margin-top: 85px;
@@ -416,7 +423,7 @@ nav {
   }
   @include mq(md) {
     margin-left: 100px;
-  }
+	}
 	h1 {
 		color: $brand-yellow;
 		font-family: NunitoSansExtraBold, sans-serif;
@@ -444,6 +451,10 @@ nav {
 		margin: 0;
 		text-transform: uppercase;
 	}
+}
+
+.dia-copy {
+	float: right;
 }
 
 .slide.speaker {

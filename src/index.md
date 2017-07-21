@@ -5,6 +5,14 @@ layout: layout.html
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
+      <li class="slide dia">
+        <div class="container">
+          <div class="dia-copy">
+            <h1>GET READY TO<br>EXPLORE DDD</h1>            
+            <a href="https://ti.to/explore-ddd-conference/2017">REGISTER TODAY</a>
+          </div>
+        </div>
+      </li>
       <li class="slide speaker ward-cunningham">
         <div class="container">
           <h1>Featured Speaker</h1>
