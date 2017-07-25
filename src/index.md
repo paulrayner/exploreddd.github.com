@@ -20,15 +20,6 @@ layout: layout.html
           <a href="speakers/ward-cunningham.html">About Ward</a>
         </div>
       </li>
-      <li class="slide denver">
-        <div class="container">
-          <h1 class="mobile-copy">
-            Conference opening keynote
-            by Eric Evans on Wed evening,
-            Sept. 20, followed by two
-            full days of exploring and learning.
-        </div>
-      </li>
       <li class="slide speaker rebecca-wirfs-brock">
         <div class="container">
           <h1>Featured Speaker</h1>
