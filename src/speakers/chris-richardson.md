@@ -18,7 +18,7 @@ layout: layout-speaker.html
     <h2 class="conference-emphasis">Two day pre-conference workshop, Sept. 19-20</h2>
 
     <h2 class="speaker-subheader"><strong>Developing Applications with the Microservice Architecture</strong></h2>
-    <p class="copy">In this class you will learn a modern approach for building scalable, highly available and easily maintainable applications. We will describe the microservices architecture and show how it enables the agile development and deployment of applications. You will learn about the benefits and drawbacks of the microservice architecture and when they make sense. We will describe key topics including decomposition, service discovery, monitoring, testing, and deployment. By the end of the class you will have built a couple of microservices and deployed them using Docker.</p>
+    <p class="copy">In this class you will learn a modern approach for building scalable, highly available and easily maintainable applications. We will describe the microservices architecture and show how it enables the agile development and deployment of applications. You will learn about the benefits and drawbacks of the microservice architecture and when they make sense. We will describe key topics including decomposition, service discovery, monitoring, testing, and deployment. By the end of the class you will have built a couple of microservices in Java and deployed them using Docker. You will need to supply your own computer and Java programming environment with build and test facilities.</p>
 
     <h2 class="conference-emphasis">Talk Session</h2>
 
