@@ -1010,6 +1010,13 @@ nav {
 	}
 }
 
+//workshop images 
+
+.speaker--workshop-content-img {
+	width: 100%;
+	height: auto;
+}
+
 .speaker-details {
 	color: $dark-text;
 	font-family: NunitoSansLight, sans-serif;
@@ -1023,6 +1030,9 @@ nav {
 
 	.copy {
 		text-align: left;
+	}
+	.copy-top-padding {
+		margin-top: 25px !important;
 	}
 }
 

@@ -26,8 +26,8 @@ layout: layout-speaker.html
 
       <h2 class="conference-emphasis">Two day pre-conference workshop, Sept. 19-20</h2>
       <h2 class="speaker-subheader"><strong>EventStorming Master Class</strong></h2>
-
-      <p class="copy">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way.</p>
+      <img src="../img/workshop/Workshop-Alberto-Brandolini.png" class="speaker--workshop-content-img" alt="" />
+      <p class="copy" style="margin-top: 25px">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way.</p>
 
       <p class="copy">In this two day format we’ll experience the different formats, working around real business problems.
       We’ll take into account the different perspectives (including the facilitator) in a process that spans large scale discovery, to leverage collaborative design.
