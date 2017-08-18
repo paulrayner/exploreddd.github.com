@@ -421,7 +421,7 @@ layout: layout-tier2.html
 							<p class="talk-title">domain discovery using the business model canvas</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-blue">
-						<h4><a href="../speakers/scott-bellware.html">Scott Bellware</a></h4>
+						<h4><a href="../speakers/scott-bellware.html">Scott Bellware</a> &amp; <a href="../speakers/nathan-ladd.html">Nathan Ladd</a></h4>
 							<h5>Hands on Workshop:</h5>
 							<p class="talk-title">Hands-On Event-Sourced Autonomous Services</p>						
 						</div> <!-- details -->
