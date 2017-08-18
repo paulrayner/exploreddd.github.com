@@ -20,6 +20,8 @@ layout: layout-speaker.html
 
       <h2 class="speaker-subheader"><strong>The Aggregate, The Cohesion, and The Cargo Cult: Rise and Fall of Critical Thinking in DDD</strong></h2>
 
+      <p class="copy"><strong>Co-presented with <a href="nathan-ladd.html">Nathan Ladd</a></strong></p>
+
       <p class="copy">Since its introduction in 2003, Domain-Driven Design patterns have had a history of cargo-cult implementations, from DDD Light to implementing an entire bounded context as a single class. This presentation isn’t a definitive history of all of the questionable things that have been done in the name of DDD, but it points out particular characteristics and causes of cargo cult thinking in geek culture, and recasts “geek” as a chief cause of long-lived software mistakes, rather than an identity to be venerated.</p>
 
       <h2 class="conference-emphasis">Hands On Session</h2>
