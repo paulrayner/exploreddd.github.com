@@ -184,7 +184,7 @@ layout: layout-tier2.html
 							<p class="talk-title">domain primitives in action - making it secure by design</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/scott-bellware.html">Scott Bellware</a></h4>
+							<h4><a href="../speakers/scott-bellware.html">Scott Bellware</a> &amp; <a href="../speakers/nathan-ladd.html">Nathan Ladd</a></h4>
 							<p class="talk-title">The Aggregate, The Cohesion, and the Cargo Cult: Rise and Fall of Critical Thinking in DDD</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
