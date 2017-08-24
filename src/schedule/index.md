@@ -49,7 +49,7 @@ layout: layout-tier2.html
 						<p>9:00 - 12:00</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-2 details">
-						<p><strong>Strategic Domain-Driven Design<br><a href="../speakers/eric-evans.html">Eric Evans</a></strong><br><em>Grays Peak A</em></p>				
+						<p><strong>Strategic Domain-Driven Design<br><a href="../speakers/eric-evans.html">Eric Evans</a></strong><br><em>Mountt Elbert A</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
 						<p><strong>EventStorming Master Class<br><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></strong><br><em>Pikes Peak</em></p>				
@@ -61,7 +61,7 @@ layout: layout-tier2.html
 						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>Developing Applications with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Mount Elbert A</em></p>				
+						<p><strong>Developing Applications with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Grays Peak A</em></p>				
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 				<div class="row time-row">
