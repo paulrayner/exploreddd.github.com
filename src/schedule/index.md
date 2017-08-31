@@ -49,16 +49,16 @@ layout: layout-tier2.html
 						<p>9:00 - 12:00</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-2 details">
-						<p><strong>Strategic Domain-Driven Design<br><a href="../speakers/eric-evans.html">Eric Evans</a></strong><br><em>Mount Elbert A</em></p>				
+						<p><strong>Strategic Domain-Driven Design<br><a href="../speakers/eric-evans.html">Eric Evans</a></strong><br><em>Pikes Peak</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>EventStorming Master Class<br><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></strong><br><em>Pikes Peak</em></p>				
+						<p><strong>EventStorming Master Class<br><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></strong><br><em>Mount Evans</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
 						<p><strong>Essential DDD<br><a href="../speakers/paul-rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
+						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Elbert A</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
 						<p><strong>Developing Applications with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Grays Peak A</em></p>				
@@ -77,19 +77,19 @@ layout: layout-tier2.html
 						<p>13:00 - 16:00</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-2 details">
-						<p><strong>Strategic Domain-Driven Design<br><a href="../speakers/eric-evans.html">Eric Evans</a></strong><br><em>Grays Peak A</em></p>				
+						<p><strong>Strategic Domain-Driven Design<br><a href="../speakers/eric-evans.html">Eric Evans</a></strong><br><em>Pikes Peak</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>EventStorming Master Class<br><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></strong><br><em>Pikes Peak</em></p>				
+						<p><strong>EventStorming Master Class<br><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></strong><br><em>Mount Evans</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
 						<p><strong>Essential DDD<br><a href="../speakers/paul-rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Evans</em></p>				
+						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Elbert A</em></p>				
 					</div> <!-- details -->
 					<div class="col-sm-2 details">
-						<p><strong>Developing Applicatons with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Mount Elbert A</em></p>				
+						<p><strong>Developing Applicatons with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Grays Peak A</em></p>				
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 			</div> <!-- END WORKSHOP CONTENT -->
