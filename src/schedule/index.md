@@ -374,7 +374,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></h4>
-							<p class="talk-title">optimized for what? delivery is not the real goal</p>
+							<p class="talk-title">50,000 Orange Stickies Later</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h4>
@@ -405,26 +405,26 @@ layout: layout-tier2.html
 							<p>1:10 - 3:10</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a></h4>
-							<h5>Hands on Workshop:</h5>
-							<p class="talk-title">DDD and CQRS with axon framework</p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
 						<h4><a href="../speakers/thomas-pierrain.html">Thomas Pierrain</a> &amp; <a href="../speakers/bruno-boucard.html">Bruno Boucard</a></h4>
 							<h5>Hands on Workshop:</h5>
 							<p class="talk-title">how to distill the core domain from your legacy app</p>
 						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a></h4>
+							<h5>Hands on Workshop:</h5>
+							<p class="talk-title">DDD and CQRS with axon framework</p>
+						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
+						<h4><a href="../speakers/scott-bellware.html">Scott Bellware</a> &amp; <a href="../speakers/nathan-ladd.html">Nathan Ladd</a></h4>
+							<h5>Hands on Workshop:</h5>
+							<p class="talk-title">Hands-On Event-Sourced Autonomous Services</p>						
+						</div> <!-- details -->					
+						<div class="col-sm-2 details details-colored details-blue">
 							<h4><a href="../speakers/javier-fernandez.html">Javier Fernández
 </a></h4>
 							<h5>Hands on Workshop:</h5>
 							<p class="talk-title">domain discovery using the business model canvas</p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
-						<h4><a href="../speakers/scott-bellware.html">Scott Bellware</a> &amp; <a href="../speakers/nathan-ladd.html">Nathan Ladd</a></h4>
-							<h5>Hands on Workshop:</h5>
-							<p class="talk-title">Hands-On Event-Sourced Autonomous Services</p>						
-						</div> <!-- details -->
+						</div> <!-- details -->					
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">

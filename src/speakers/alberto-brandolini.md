@@ -64,11 +64,11 @@ layout: layout-speaker.html
 
       <h2 class="conference-emphasis">Talk Session</h2>
 
-      <h2 class="speaker-subheader"><strong>Optimized for what? Delivery is not the real goal</strong></h2>
+      <h2 class="speaker-subheader"><strong>50,000 Orange Stickies Later</strong></h2>
 
-      <p class="copy">We spent years sharpening our tools, pretending to improve the way we deliver software, but we didn’t realize that at a given moment we crossed a line, and entered buzzword-land.</p>
+      <p class="copy">It started like a tool for discovering Aggregates, then became a teaching tool for the DDD-illiterates. Now EventStorming is a platform for collaborative modeling whose depth spans from business and organizational design to implementation level software design.</p>
 
-      <p class="copy">But if we take a different approach, almost every single action can be seen in a different light. And, yes, there are endless grasslands available for improvements.</p>
+      <p class="copy">In this talk you’ll understand how different recipes can be leveraged for different goals and different audiences. And how those weird human brains behave, when we take them in unexplored places.</p>
 
       <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
 
