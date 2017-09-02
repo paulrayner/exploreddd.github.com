@@ -1129,11 +1129,24 @@ footer {
 }
 
 .sponsor-container {
+	display: flex;
+	align-items: center;
+	.item {
+		width: 200px;
+		margin: auto;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+/*.sponsor-container {
 	@include mq(sm) {
 		display: flex;
 		justify-content: space-between;
 	}
-}
+}*/
 .sponsor-logo {
 	width: 50%;
 	height: auto;
@@ -1142,14 +1155,14 @@ footer {
 	margin: 0 auto 30px auto;
 }
 /* we need to change this class name to benefactor so adblockers don't hide the images */
-.benefactor-logo {
+/*.benefactor-logo {
 	display: block;
 	margin: 10px auto;
 	max-width: 80%;
 	@include mq(sm) {
 		display: inline-block;
 	}
-}
+}*/
 
 .page-subheader {
 	color: $dark-text;
