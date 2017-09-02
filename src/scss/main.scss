@@ -1131,12 +1131,15 @@ footer {
 .sponsor-container {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
+	
 	.item {
 		width: 200px;
 		margin: auto;
 		img {
-			width: 100%;
+			width: 95%;
 			height: auto;
+			margin-bottom: 30px;
 		}
 	}
 }
@@ -1280,8 +1283,7 @@ footer {
 
 //Sponsors
 .container.sponsors {
-	padding-top: 50px;
-	//padding-bottom: 150px;
+	padding-top: 50px;	
 }
 
 .container.short {
