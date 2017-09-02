@@ -132,7 +132,7 @@ layout: layout-tier2.html
 						<p>6:45 - 7:45</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details">
-						<p><strong>Keynote &#8212; <a href="../speakers/eric-evans.html">ERIC EVANS</a></strong> <br><em>Capitol Peak A & B</em></p>
+						<p><strong>Keynote: Tackling Complexity in the Heart of Software &#8212; <a href="../speakers/eric-evans.html">ERIC EVANS</a></strong> <br><em>Capitol Peak A & B</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->				
 			</div>
@@ -252,7 +252,7 @@ layout: layout-tier2.html
 							<p class="talk-title">pragmatic event-driven (micro)services</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/eric-evans.html">Eric Evans</a></h4>
+							<h4><a href="../speakers/eric-evans.html">Exploring Time</a></h4>
 							<p class="talk-title">Title TBA</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
@@ -304,7 +304,7 @@ layout: layout-tier2.html
 							<p>4:35 - 5:35</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Keynote &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebecca Wirfs-Brock</a></strong></p>
+							<p><strong>Keynote: Cultivating Your Design Heuristics &#8212; <a href="../speakers/rebecca-wirfs-brock.html">Rebecca Wirfs-Brock</a></strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -389,7 +389,7 @@ layout: layout-tier2.html
 							<p>11:20 - 12:10</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Keynote &#8212; <a href="../speakers/ward-cunningham.html">Ward Cunningham</a></strong></p>
+							<p><strong>Keynote: Observation of Emergent Schema in Organized Development &#8212; <a href="../speakers/ward-cunningham.html">Ward Cunningham</a></strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
