@@ -276,8 +276,8 @@ layout: layout-tier2.html
 							<p>3:30 - 4:20</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Paul Rayner</h4>
-							<p class="talk-title">Refactoring a Deeper Model</p>
+							<h4><a href="../speakers/paul-rayner.html">Paul Rayner</a></h4>
+							<p class="talk-title">Refactoring to a Deeper Model</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/mathias-verraes.html">Mathias Verraes</a></h4>
