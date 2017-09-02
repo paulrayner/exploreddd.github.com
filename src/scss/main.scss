@@ -677,6 +677,15 @@ nav {
 .copy:last-child {
 	margin-bottom: 0;
 }
+/* sponsor page content formatting */
+figure {
+ figcaption {
+	font-family: NunitoSansLight, sans-serif;
+	font-size: 18px;
+	line-height: 1.22em;
+	margin: 0 auto 23px;
+ }
+}
 
 .section.conf-dates {
 	background-color: $brand-brown;
@@ -1122,6 +1131,13 @@ footer {
 		justify-content: space-between;
 	}
 }
+.sponsor-logo {
+	width: 100%;
+	height: auto;
+	display: block;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
 /* we need to change this class name to benefactor so adblockers don't hide the images */
 .benefactor-logo {
 	display: block;
@@ -1249,7 +1265,7 @@ footer {
 //Sponsors
 .container.sponsors {
 	padding-top: 50px;
-	padding-bottom: 150px;
+	//padding-bottom: 150px;
 }
 
 .container.short {
