@@ -478,6 +478,9 @@ nav {
 				height: 60px;
 				margin-top: 25px;
 				width: auto;
+				@include mq(xs){
+					height: 40px;
+				}
 			}
 		}
 	}
