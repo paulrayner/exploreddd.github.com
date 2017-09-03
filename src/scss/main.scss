@@ -1166,14 +1166,17 @@ footer {
 	align-items: center;
 	flex-wrap: wrap;
 	
-	.item {
+	.item, .organized-by-item {
 		width: 200px;
 		margin: auto;
 		img {
 			width: 95%;
 			height: auto;
-			margin-bottom: 30px;
+			margin-bottom: 15px;
 		}
+	}
+	.organized-by-item {
+		width: 300px;
 	}
 }
 
@@ -1187,8 +1190,8 @@ footer {
 	width: 50%;
 	height: auto;
 	display: block;
-	padding-top: 30px;
-	margin: 0 auto 30px auto;
+	padding-top: 15px;
+	margin: 0 auto 15px auto;
 }
 /* we need to change this class name to benefactor so adblockers don't hide the images */
 /*.benefactor-logo {
