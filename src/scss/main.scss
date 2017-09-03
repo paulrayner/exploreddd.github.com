@@ -1165,10 +1165,10 @@ footer {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	
+	justify-content: space-evenly;
 	.item, .organized-by-item {
 		width: 200px;
-		margin: auto;
+		//margin: auto;
 		img {
 			width: 95%;
 			height: auto;
