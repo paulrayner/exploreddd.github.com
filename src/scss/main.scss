@@ -412,9 +412,18 @@ nav {
 		background-image: url('../img/sliders/Explore-DDD-website-Slider-Hyatt.jpg');
 	}
 }
+.slide.alteryx {
+	/*background-image: url('../img/sliders/slider-Hyatt-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-alteryx.jpg');
+	}*/
+	background-image: url('../img/sliders/slider-Denver700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-denver.jpg');
+	}
+}
 
-.hyatt-copy, .dia-copy {
-	background-color: #fff8e9;
+.hyatt-copy, .dia-copy, .alteryx-copy {
 	display: inline-block;
 	margin-top: 85px;
 	padding: 30px;
@@ -450,6 +459,27 @@ nav {
 		font-size: 20px;
 		margin: 0;
 		text-transform: uppercase;
+	}
+}
+
+.hyatt-copy, .dia-copy, .alteryx-copy {
+	background-color: #fff8e9;
+}
+.alteryx-copy {
+	@include mq(sm) {
+		width: 500px;
+	}
+	h1 {
+		//color: #000;
+		a {
+			font-size: 40px;
+			color: #0082CD;
+			.slider-alteryx-link-logo {
+				height: 60px;
+				margin-top: 25px;
+				width: auto;
+			}
+		}
 	}
 }
 

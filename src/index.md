@@ -20,6 +20,12 @@ layout: layout.html
           <a href="speakers/ward-cunningham.html">About Ward</a>
         </div>
       </li>
+      <li class="slide alteryx">
+        <div class="container">
+          <div class="alteryx-copy">            
+            <h1>Thank you to our Platinum Sponsor <a href="https://www.alteryx.com"><img src="img/logos/alteryx-link-logo.png" class="slider-alteryx-link-logo" alt="alteryx"></a></h1>            
+          </div>
+        </div>
       <li class="slide speaker rebecca-wirfs-brock">
         <div class="container">
           <h1>Featured Speaker</h1>
