@@ -413,10 +413,10 @@ nav {
 	}
 }
 .slide.alteryx {
-	background-image: url('../img/sliders/slider-alteryx-700x600.jpg');
+	/*background-image: url('../img/sliders/slider-alteryx-700x600.jpg');
 	@include mq(sm){
-		background-image: url('../img/sliders/slider-alteryx-1600-400.jpg');
-	}
+		background-image: url('../img/sliders/slider-alteryx-1600x400.jpg');
+	}*/
 }
 
 .hyatt-copy, .dia-copy, .alteryx-copy {
@@ -581,9 +581,9 @@ nav {
 		}
 	}
 	&.alteryx-slide-version-2 {
-		background-image: url('../img/sliders/slider-Alteryx-700x600.jpg');
+	background-image: url('../img/sliders/slider-alteryx-700x600.jpg');
 		@include mq(sm) {
-			background-image: url('../img/sliders/slider-Alteryx-1600x400.jpg');
+			background-image: url('../img/sliders/slider-alteryx-1600x400.jpg');
 		}
 	}
 }
