@@ -427,20 +427,28 @@ layout: layout-tier2.html
 						</div> <!-- details -->					
 					</div> <!-- time-row -->
 					<div class="row time-row">
-						<div class="col-sm-1 time-cell">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>3:10 - 3:40</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details">
+						<div class="col-sm-10 details followed-by-colored-row">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
+					<div class="row time-row custom-grid-column-widths last-colored-row">
 						<div class="col-sm-1 time-cell">
 							<p>3:40 - 4:20</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details">
-							<p><strong>Open Space/Lightning Talks</strong><br><em>Reception Area</em></p>
+						<div class="col-sm-2 details details-colored details-gold">				<h5>Open Space/Lightning Talks</h5>
 						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h5>Open Space/Lightning Talks</h5>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-purple">
+							<h5>Open Space/Lightning Talks</h5>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h5>Open Space/Lightning Talks</h5>
+						</div> <!-- details -->					
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
