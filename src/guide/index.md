@@ -1,0 +1,7 @@
+hihi
+
+<script>
+
+        window.location.replace('http://www.exploreddd.com/speakers/guide.pdf');
+
+</script>
