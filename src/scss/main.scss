@@ -1,6 +1,6 @@
 // Variables
 
-$brand-brown: #452e26;
+$brand-brown: #452e26; //TODO: this is hard valued in a lot below. replace with references to this variable name
 $brand-yellow: #c49524;
 $rollover-yellow: #fdc33c;
 $brand-cream: #fff8e9;
@@ -109,6 +109,8 @@ html, body {
 
 body {
 	background-color: $brand-cream;
+	font-family: NunitoSansSemiBold, sans-serif;
+	color: $brand-brown; 
 	overflow-x: hidden;
 	padding-top: 51px;
 	padding-bottom: 0;
@@ -123,9 +125,9 @@ body {
 	}
 }
 
-strong {
-  font-family: NunitoSansSemiBold, sans-serif;
-}
+//.details em, .details strong, .title-row h2, .title-row h3, .time-cell p {
+	//color: #452e26;
+//}
 
 // Navigation
 
