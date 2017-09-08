@@ -1166,15 +1166,13 @@ footer {
 }
 
 .sponsor-container {
-	display: -webkit-flex;
-	-flex-wrap: wrap;
-	-webkit-align-items: center;
+	display: -webkit-flex; /* Safari */
+	-webkit-justify-content: space-around; // Safari 6.1+
 	display: flex;
+	justify-content: space-around; //for chrome, firefox, etc
 	align-items: center;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	.item, .organized-by-item {
-		width: 200px;
+	.item, .organized-by-item {		
+		width: 300px;
 		//margin: auto;
 		img {
 			width: 95%;
@@ -1190,7 +1188,7 @@ footer {
 	width: 50%;
 	height: auto;
 	display: block;
-	padding-top: 15px;
+	//padding-top: 15px;
 	margin: 0 auto 15px auto;
 }
 
