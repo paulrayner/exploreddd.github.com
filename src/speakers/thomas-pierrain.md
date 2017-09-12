@@ -22,9 +22,9 @@ layout: layout-speaker.html
 
       <p class="copy"><strong>Co-facilitated with <a href="bruno-boucard.html">Bruno Boucard</a></strong></p>
 
-      <p class="copy">Let's take a very common legacy application: procedural code everywhere, anemic domain logic fully entangled with technical concerns and code. Nothing but classical stuff, right? Our mission for this truly interactive live-coding session will be to identify and extract the core domain logic out of this tar pit in order to add a new feature that has been desperately asked by our business since months.</p>
+      <p class="copy">Let’s take a very common legacy application: procedural code everywhere, anemic domain logic fully entangled with technical concerns and code. Nothing but classical stuff, right? Our mission for this session will be to identify and extract the core domain logic out of this tar pit in order to fix a bug that has cost our business money for months. While we will live-code, we will focus and explain some of the DDD tactical patterns we will use in the process.</p>
 
-      <p class="copy">Last but not least, we will clean the situation for the years to come by properly splitting the domain code from the technical one using the Hexagonal Architecture pattern. Ready to help us in that journey?</p>
+      <p class="copy">Last but not least, we will clean the situation for the years to come by properly splitting the domain code from the technical using the Hexagonal Architecture pattern.</p>
 
       <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
 
