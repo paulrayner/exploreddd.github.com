@@ -15,6 +15,15 @@ layout: layout-speaker.html
     <h2 class="speaker-subheader"><strong>biography</strong></h2>
     <p class="copy">Paul Rayner is one of the world’s leading Domain-Driven Design (DDD) practitioners. He is a developer, instructor, coach and popular conference speaker. He co-founded <a href="https://www.meetup.com/ddd-denver" target="_blank">DDD Denver</a> and is founder and chairman of the <a href="https://github.com/paulrayner/exploreddd.github.com/issues/exploreddd.com" target="_blank">Explore DDD Conference</a>. His company <a href="https://www.virtualgenius.com/" target="_blank">Virtual Genius LLC</a>, provides training and coaching in DDD for agile teams. Paul is from Perth, Australia, but chooses to live, work and play with his wife and two children, in Denver, Colorado. He (occasionally) blogs at thepaulrayner.com and tweets with an Australian accent at <a href="https://twitter.com/thepaulrayner" target="_blank">@ThePaulRayner</a>.</p>
 
+    <h2 class="conference-emphasis">Talk Session</h2>
+
+      <h2 class="speaker-subheader"><strong>Refactoring to a Deeper Model</strong></h2>
+
+      <p class="copy">There are different refactoring reagents, each with different effort, frequency and potency. Combined with domain-driven discovery and exploration process catalysts, these refactoring reagents provide code chemistry reactions that transform code towards a rich domain model. This presentation shows the code chemistry of a redesign of the video camera support in Nexia Home Intelligence. Nexia is a large-scale Ruby on Rails application with a customer base using tens of thousands of video cameras.</p>
+
+      <p class="copy">We’ll walk through examples of obscure production code, and show key code chemistry reactions that transformed the video camera code towards ubiquitous language, a richer domain model, better performance and scalability, and cleaner module boundaries to improve deployment and troubleshooting. Learn how the intersection of Domain-Driven Design (DDD), pair-programming, and TDD enabled us to make significant improvements to the performance and maintainability of the Nexia codebase, while continuing to deliver new customer features.</p>
+
+
     <h2 class="conference-emphasis">Two day pre-conference workshop, Sept. 19-20</h2>
     <h2 class="speaker-subheader"><strong>Essential Domain–Driven Design</strong></h2>
     <img src="../img/workshop/Workshop-Paul-Rayner.png" class="speaker--workshop-content-img" alt="" />
@@ -40,14 +49,6 @@ layout: layout-speaker.html
     <li>Architectural patterns to support DDD.</li>
     </ul>
     <p class="copy">The workshop is very hands-on and interactive, will help you connect everything in DDD together and see how it fits and what's most important, and give you practical tools to take away and try on your project. We will be doing some pairing exercises which will require laptops. We will be reading code, but no coding experience is necessary. </p>
-
-    <h2 class="conference-emphasis">Talk Session</h2>
-
-      <h2 class="speaker-subheader"><strong>Refactoring to a Deeper Model</strong></h2>
-
-      <p class="copy">There are different refactoring reagents, each with different effort, frequency and potency. Combined with domain-driven discovery and exploration process catalysts, these refactoring reagents provide code chemistry reactions that transform code towards a rich domain model. This presentation shows the code chemistry of a redesign of the video camera support in Nexia Home Intelligence. Nexia is a large-scale Ruby on Rails application with a customer base using tens of thousands of video cameras.</p>
-
-      <p class="copy">We’ll walk through examples of obscure production code, and show key code chemistry reactions that transformed the video camera code towards ubiquitous language, a richer domain model, better performance and scalability, and cleaner module boundaries to improve deployment and troubleshooting. Learn how the intersection of Domain-Driven Design (DDD), pair-programming, and TDD enabled us to make significant improvements to the performance and maintainability of the Nexia codebase, while continuing to deliver new customer features.</p>
 
     <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
 
