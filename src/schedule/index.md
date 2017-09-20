@@ -417,7 +417,7 @@ layout: layout-tier2.html
 						<div class="col-sm-2 details details-colored details-purple">
 						<h4><a href="../speakers/scott-bellware.html">Scott Bellware</a> &amp; <a href="../speakers/nathan-ladd.html">Nathan Ladd</a></h4>
 							<h5>Hands-on Session:</h5>
-							<p class="talk-title">Hands-On Event-Sourced Autonomous Services</p>						
+							<p class="talk-title">The Aggregate, The Cohesion, and The Cargo Cult: Rise and Fall of Critical Thinking in DDD</p>						
 						</div> <!-- details -->					
 						<div class="col-sm-2 details details-colored details-blue">
 							<h4><a href="../speakers/javier-fernandez.html">Javier Fernández
