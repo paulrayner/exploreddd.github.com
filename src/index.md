@@ -69,6 +69,28 @@ layout: layout.html
   </div>
 </div>
 
+<div class="container section home-videos">
+  <div class="row">
+    <h1 class="section-header">About Explore DDD</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/mZzPwt9vhHM" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/mZzPwt9vhHM" frameborder="0" allowfullscreen></iframe>
+      </div></div>
+    <div class="col-sm-12 col-md-4">
+    <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/mZzPwt9vhHM" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container section about">
   <div class="row">
     <h1 class="section-header">About Explore DDD</h1>
