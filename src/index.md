@@ -69,6 +69,28 @@ layout: layout.html
   </div>
 </div>
 
+<div class="container section home-videos">
+  <div class="row">
+    <h1 class="section-header">Videos</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="http://www.youtube.com/embed/kIKwPNKXaLU" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="http://www.youtube.com/embed/fWCt5KWfTuo" frameborder="0" allowfullscreen></iframe>
+      </div></div>
+    <div class="col-sm-12 col-md-4">
+    <div class="video-responsive">
+        <iframe  src="http://www.youtube.com/embed/oPJIXPC_vn8" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container section about">
   <div class="row">
     <h1 class="section-header">About Explore DDD</h1>
@@ -290,28 +312,6 @@ layout: layout.html
       </div></a>
       <h3><a class="speaker-name" href="speakers/nathan-ladd.html">Nathan Ladd</a></h3>
       <p class="speaker-details"></p>
-    </div>
-  </div>
-</div>
-
-<div class="container section home-videos">
-  <div class="row">
-    <h1 class="section-header">Videos</h1>
-  </div>
-  <div class="row">
-    <div class="col-sm-12 col-md-4">
-      <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/kIKwPNKXaLU" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-4">
-      <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/fWCt5KWfTuo" frameborder="0" allowfullscreen></iframe>
-      </div></div>
-    <div class="col-sm-12 col-md-4">
-    <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/oPJIXPC_vn8" frameborder="0" allowfullscreen></iframe>
-      </div>
     </div>
   </div>
 </div>
