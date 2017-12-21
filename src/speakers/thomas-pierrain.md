@@ -11,9 +11,9 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Thomas Pierrain</h1>
       <h2 class="speaker-subtitle">Use-case Driven</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@tpierrain" target="_blank">@tpierrain</a></p>
-
-      <object class="youtube-video" data="https://www.youtube.com/watch?v=mZzPwt9vhHM"></object>
-
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/mZzPwt9vhHM" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
       <p class="copy">Co-organizer of the DDD Paris user group, Thomas is an eXtreme Programmer & technical architect obsessed by use cases (Vs. solution-driven approaches). He likes using DDD & TDD to boost his efficiency at work. Advocating the advantages of the Hexagonal architecture since many years (talks, blogposts...), Thomas has recently live-coded with Alistair Cockburn on that topic.</p>

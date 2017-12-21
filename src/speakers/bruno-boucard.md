@@ -11,7 +11,9 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Bruno Boucard</h1>
       <h2 class="speaker-subtitle">Fostering a Business-Value Mindset</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@brunoboucard" target="_blank">@brunoboucard</a></p>
-
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/mZzPwt9vhHM" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
       <p class="copy">Bruno Boucard is developer, trainer, agile coach and speaker. He loves to explain with concrete examples with live-coding, if needed. He is a long-time Microsoft MVP, but he still is coding java with a C# accent ;-)</p>
