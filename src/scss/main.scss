@@ -1236,14 +1236,14 @@ footer {
     padding-bottom:56.25%;
     position:relative;
     height:0;
-}
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+	}
+	.video-responsive iframe{
+		left:0;
+		top:0;
+		height:100%;
+		width:100%;
+		position:absolute;
+	}
 	.copy {
 		text-align: left;
 	}
@@ -1709,4 +1709,10 @@ footer {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+}
+
+.home-videos {
+	.video-responsive {
+		border: 1px solid red;
+	}
 }
