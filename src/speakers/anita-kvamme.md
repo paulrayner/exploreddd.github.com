@@ -15,7 +15,6 @@ layout: layout-speaker.html
       <div class="video-responsive">
         <iframe width="420" height="315" src="http://www.youtube.com/embed/ShMUiCWQYIQ" frameborder="0" allowfullscreen></iframe>
       </div>
-
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
       <p class="copy">Anita is a UX passionate software developer. She has more than 20 years of experience with creating business critical applications, mainly for Statoil ASA, a huge Norwegian oil and gas company. Anita has experience from all parts of the software design process, lately focusing more and more on Domain Driven Design and Behaviour Driven Development. Anita enjoys spending her workdays with her team while using her knowledge of the users and their domain and applying this insight toward the utilization of Domain Driven Design principles in the solutions process.</p>
