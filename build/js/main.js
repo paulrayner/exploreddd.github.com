@@ -2,7 +2,8 @@
 // $(function(){
 //   SyntaxHighlighter.all();
 // });
-$(window).load(function(){
+//$(window).load(function(){ //I commented this out since the top banner slide bg wouldn't load until after youtube video grid was fully loaded. document.ready() fires earlier, so I went with that
+$( document ).ready(function() {
   $('.flexslider').flexslider({
     animation: "fade",
     animationLoop: "true",

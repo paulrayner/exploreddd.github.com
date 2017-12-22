@@ -11,7 +11,9 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Eric Evans</h1>
       <h2 class="speaker-subtitle">Author of “Domain-Driven Design”</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/ericevans0" target="_blank">@ericevans0</a></p>
-
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/Zm95cYAtAa8" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
       <p class="copy">Eric Evans is the author of “Domain-Driven Design: Tackling Complexity in Software,” Addison-Wesley 2004.</p>
 
@@ -21,6 +23,9 @@ layout: layout-speaker.html
 
       <h2 class="speaker-keynote"><strong>Keynote - Wednesday, Sept. 20</strong></h2>
 
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/kIKwPNKXaLU" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>Tackling Complexity in the Heart of Software</strong></h2>
 
       <p class="copy">What does Domain-Driven Design look like in 2017? We have more experience now. We have better tools now. We have an architectural environment better suited to DDD than the typical 2003 architecture. Certainly, some people are getting a lot out of DDD -- but not so very many. DDD has always been difficult, and it still is. And we might be held back by some dogmatic notions of what it should look like.</p>

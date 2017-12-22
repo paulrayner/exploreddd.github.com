@@ -11,7 +11,9 @@ layout: layout-speaker.html
     <h1 class="speaker-header">Rebecca Wirfs-Brock</h1>
     <h2 class="speaker-subtitle">Object Design Pioneer</h2>
     <p class="copy"><a class="speaker-handle" href="https://twitter.com/rebeccawb" target="_blank">@rebeccawb</a></p>
-
+    <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/fWCt5KWfTuo" frameborder="0" allowfullscreen></iframe>
+      </div>
     <h2 class="speaker-subheader"><strong>biography</strong></h2>
     <p class="copy">Rebecca is an object design pioneer who invented the set of design practices known as Responsibility-Driven Design (RDD) and by accident started the x-Driven Design meme. Along the way she authored two popular object design books that are still in print.</p>
     <p class="copy">In her work, Rebecca’s helps teams hone their design and architecture skills, manage and reduce technical debt, refactor their code, and address architecture risks. In addition to coaching and personal mentoring, she teaches and conducts workshops on Responsibility-Driven Design, Pragmatic TDD, enterprise application design, agile design skills and thinking, being agile about system qualities, and Agile Architecture. In her spare time she jogs (even in the rain).</p>

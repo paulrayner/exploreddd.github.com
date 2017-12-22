@@ -11,7 +11,9 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Jean-François Cloutier</h1>
       <h2 class="speaker-subtitle">Accidental DDDer</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@jfcloutier" target="_blank">@jfcloutier</a></p>
-
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/AKMV8OW9R50" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
       <p class="copy">An avid programmer since the mid-80s, I have used and abused Prolog, LISP, Smalltalk, Java, Erlang and Elixir. Years spent in corporate IT departments and with startups have me convinced that lack of conceptual clarity is the death of software projects, which makes me a friend of Domain Driven Design.</p>

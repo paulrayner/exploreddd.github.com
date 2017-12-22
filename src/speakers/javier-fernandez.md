@@ -11,7 +11,9 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Javier Fernández</h1>
       <h2 class="speaker-subtitle">Full-stack developer. @dddmadrid Organizer</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@javierfdezg" target="_blank">@javierfdezg</a></p>
-
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/M5CbbWmdsFU" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
       <p class="copy">I’m a software developer, I love to code. It’s my hobby, my job, my passion. I'm a passionate entrepreneur: founder member of Why Not Soluciones, S.L. and associate at Visualbox.</p>

@@ -11,7 +11,9 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Ellen Lippe</h1>
       <h2 class="speaker-subtitle">Intense perfectionist with a passion for DDD and BDD</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@ellenlippe" target="_blank">@ellenlippe</a></p>
-
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/ShMUiCWQYIQ" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
       <p class="copy">Ellen has 15 years of experience as a developer/lead at Statoil, a major energy company in Norway. She has been a driving force behind several architectural remakes in various projects. Now co-founder of and lead developer in Headshed, a startup company creating software for the telemarketing industry. Ellen is passionate about the software design process, both the architectural part, but even more so the people part. She has a crush on Domain Driven Design and Behavour Driven Development, for which she advocates, mentors and trains others.</p>

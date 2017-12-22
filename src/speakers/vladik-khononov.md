@@ -12,7 +12,9 @@ layout: layout-speaker.html
       <h2 class="speaker-subtitle">I Model Business Domains For Fun</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@vladikk
 " target="_blank">@vladikk</a></p>
-
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/k2LazT39-8Y" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
       <p class="copy">Having over 15 years of experience in the software industry, Vladik has worked across multiple business domains, including advertisement, healthcare, telecommunications, and customer acquisition.  Currently Vladik serves as the Chief Architect for Internovus, where he is in charge of large-scale projects, and an international developers team.</p>

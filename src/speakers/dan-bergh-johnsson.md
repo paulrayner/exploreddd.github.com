@@ -11,7 +11,9 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Dan Bergh Johnsson</h1>
       <h2 class="speaker-subtitle">Secure Domain Philosopher</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@danbjson" target="_blank">@danbjson</a></p>
-
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/ogjOKlXHi08" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 
       <p class="copy">Agile aficionado, Domain Driven Design enthusiast and code quality craftsman with a long time interest in security. The combination made Dan use quality practices from DDD to address application security issues - thus being one of the founders in the field of Domain Driven Security circa 2009. I am also a partner at Swedish consultancy Omegapoint.</p>

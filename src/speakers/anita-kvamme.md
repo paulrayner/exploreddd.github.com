@@ -12,6 +12,9 @@ layout: layout-speaker.html
       <h2 class="speaker-subtitle">UX expert, business analyst, software developer</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/@anitakvamme
 " target="_blank">@anitakvamme</a></p>
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/ShMUiCWQYIQ" frameborder="0" allowfullscreen></iframe>
+      </div>
 
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
 

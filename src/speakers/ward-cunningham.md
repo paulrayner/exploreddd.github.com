@@ -11,7 +11,9 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Ward Cunninhgam</h1>
       <h2 class="speaker-subtitle">Creator of Wiki</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/WardCunningham" target="_blank">@WardCunningham</a></p>
-
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/oPJIXPC_vn8" frameborder="0" allowfullscreen></iframe>
+      </div>
       <h2 class="speaker-subheader"><strong>biography</strong></h2>
       <p class="copy">Ward Cunningham has worked for and consulted to daring startups and huge corporations. He has served as CTO, Director, Fellow, Principal Engineer and Inventor. He is best known for creating wiki. He leads an open-source project rebuilding wiki to solve more complex sharing situations addressing some of societies toughest problems. Ward founded movements in object-oriented, agile software, extreme programming and pattern languages. Ward lives in Portland, Oregon and works for New Relic, Inc.</p>
 
