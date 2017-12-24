@@ -8,8 +8,8 @@ layout: layout.html
       <li class="slide dia">
         <div class="container">
           <div class="dia-copy">
-            <h1>GET READY TO<br>EXPLORE DDD</h1>            
-            <a href="https://ti.to/explore-ddd-conference/2017">REGISTER TODAY</a>
+            <h1>CONFERENCE<br>VIDEOS AVAILABLE</h1>            
+            <a href="https://ti.to/explore-ddd-conference/2017">VIEW THEM HERE</a>
           </div>
         </div>
       </li>
