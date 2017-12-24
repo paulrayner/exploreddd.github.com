@@ -52,7 +52,7 @@ layout: layout-speaker.html
         <li>Apply the learnings of the business model into Domain Discovery using the Business Model Canvas.</li>
       </ul>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

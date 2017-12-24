@@ -23,7 +23,7 @@ layout: layout-speaker.html
 
       <p class="copy">Domain-Driven Design (DDD) can help focus and guide software development efforts, but learning DDD can be a daunting task. While DDD is deep and its implications extensive, there are three simple philosophical rules which guide both understanding and application: Capture the domain model, Embed it in the code, and Protect it from corruption. Come learn how these rules guide DDD at all scales.</p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

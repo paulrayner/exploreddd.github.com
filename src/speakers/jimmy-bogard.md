@@ -28,7 +28,7 @@ layout: layout-speaker.html
 
       <p class="copy">A few years later, we got the opportunity to embark on a new multi-year effort in a nearly identical domain with nearly identical constraints. In this talk, we'll explore where we went wrong in the first project and how we righted our wrongs in the second, using concepts and techniques from both DDD and microservices, to a solution that we could finally say we were completely happy with.</p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

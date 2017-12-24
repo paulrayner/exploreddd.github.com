@@ -24,7 +24,7 @@ layout: layout-speaker.html
 
     <p class="copy">As a DDD practitioner, you have a lot of tools to help guide teams to gain new perspective on their problem domain, learn how to break down problems and organize software flow. But often you are faced with team members who are fearful of the new and reluctant to let go of what's worked for them for years. To best help everyone on the team you need to be kind, leave your ego at the door, be able to read people and figure out, on the fly, what's going to work. Julie has had great success working with teams that are replacing legacy software and helping even the most legacy minds get excited about new beginnings. She'll share her techniques and experiences so that you can help your own teams and clients grow and benefit from DDD thinking.</p>
 
-    <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+    <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
   </div>
 </div>
 </div>

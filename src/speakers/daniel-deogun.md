@@ -29,7 +29,7 @@ layout: layout-speaker.html
 
       <p class="copy">This presentation is partly based on material from upcoming book Secure by Design by Dan Bergh Johnsson, Daniel Deogun, and Daniel Sawano.</p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

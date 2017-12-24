@@ -27,7 +27,7 @@ layout: layout-speaker.html
 
     <p class="copy">Over time, we consciously and unconsciously build up our personal toolkit of design heuristics. Because I’ve seen so many workable solutions, I am hesitant to say any one is “best.” Yet, some are aesthetically more pleasing to me.  I have my own style and distinct design preferences because of my background, that is, the collected set of heuristics and experiences I have assimilated. To grow as designers, we need to do more than simply design and implement working software. We need to examine and reflect on our work, put our own spin on the advice of experts, and continue to learn better ways of designing.</p>
 
-    <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+    <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
   </div>
 </div>

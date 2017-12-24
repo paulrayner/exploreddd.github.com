@@ -24,7 +24,7 @@ layout: layout-speaker.html
 
       <p class="copy">Come learn how a real estate aggregation company leveraged DDD concepts via the flexibility of Ruby to build a multi-tier/multi-stage Data Transformation Pipeline that increased system flexibility while decreasing processing time. This talk will include architecture, code samples, solutions, and lessons learned from the trenches when applying DDD concepts to a complex, real-world problem.<p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

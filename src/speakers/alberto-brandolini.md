@@ -71,7 +71,7 @@ layout: layout-speaker.html
 
       <p class="copy">In this talk you’ll understand how different recipes can be leveraged for different goals and different audiences. And how those weird human brains behave, when we take them in unexplored places.</p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
 
     </div>

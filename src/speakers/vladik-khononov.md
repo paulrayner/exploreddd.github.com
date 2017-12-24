@@ -31,7 +31,7 @@ layout: layout-speaker.html
 
       <p class="copy">I will show how DDD allowed us to manage complexities, talk on different strategies for defining context boundaries that we’ve used, and of course, the things that we have learned the hard way - by making our own mistakes.<p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

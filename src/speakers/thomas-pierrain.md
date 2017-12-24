@@ -28,7 +28,7 @@ layout: layout-speaker.html
 
       <p class="copy">Last but not least, we will clean the situation for the years to come by properly splitting the domain code from the technical using the Hexagonal Architecture pattern.</p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

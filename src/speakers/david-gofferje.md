@@ -27,7 +27,7 @@ layout: layout-speaker.html
 
       <p class="copy">In this talk, I'll introduce a series of guidelines, illustrate the value they provide and show their application by small, yet meaningful changes, that will help you make your code more expressive, closer to its domain's design and easier to reason about with your domain expert. Using a lot of examples, we’ll make baby-step refactorings into a breakthrough and turn our Java code into a Domain-Specific Language (DSL)!</p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

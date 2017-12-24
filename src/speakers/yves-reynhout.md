@@ -32,7 +32,7 @@ layout: layout-speaker.html
 
       <p class="copy">This talk brings a unique and practical perspective on what it is like, this experience of building up models, fleshing out designs and growing a common understanding of the various problem domains at play. Guided by a real example, an appointment scheduling product for healthcare, we'll explore how language, invariants, domain expertise and deliberate boundaries can influence the models we come up with.</p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

@@ -38,7 +38,7 @@ layout: layout-speaker.html
 
       <p class="copy">In this workshop, we're going hands-on with Axon Framework, a framework for building event driven microservices on the JVM, to build Event Driven microservices based on the principles of DDD and CQRS. You will learn how to quickly set up an application and get started with the domain logic immediately. We will implement some fun domain logic and run our applications in a clustered setup together (if network allows).<p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

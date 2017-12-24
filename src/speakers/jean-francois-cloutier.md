@@ -30,7 +30,7 @@ layout: layout-speaker.html
 
       <p class="copy">It worked! My robot could "feel" hunger, fear or curiosity and act accordingly, always "aware" of its environment. I then extended my model to encompass simple social interactions between robots, such as greed and panic. It was all great fun. Stepping back, I now realize that the most engrossing aspect of this project was coming up with a working domain model for the mind, and defining a domain language for cognition. I will share my journey with you.<p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

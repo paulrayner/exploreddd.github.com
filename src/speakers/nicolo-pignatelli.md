@@ -29,7 +29,7 @@ layout: layout-speaker.html
 
       <p class="copy">By the way, did you notice? This description contains not less than 13 metaphors.</p>
 
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
 
     </div>
 </div>

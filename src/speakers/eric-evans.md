@@ -57,7 +57,7 @@ layout: layout-speaker.html
       <p class="copy">The code is in Clojure, but you don’t need to know Clojure to understand the talk.</p>
     </div>
     <div class="row">
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
     </div>
 </div>
 </div>

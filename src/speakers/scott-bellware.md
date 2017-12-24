@@ -49,9 +49,7 @@ layout: layout-speaker.html
         <li>Concurrency</li>
         <li>Testing</li>
       </ul>
-
-      <a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>
-
+      <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
     </div>
 </div>
 </div>
