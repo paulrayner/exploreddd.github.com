@@ -399,6 +399,18 @@ nav {
 			width: 955px;
 		}
 	}
+	a {
+		color: $brand-yellow;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 20px;
+		position: relative;
+		text-transform: uppercase;
+		transition: all 0.2s;
+		&:hover {
+			color: $rollover-yellow;
+			text-decoration: none;
+		}
+	}
 }
 
 .slide.dia {
@@ -551,7 +563,7 @@ nav {
 		}
 	}
 
-	a {
+	/*a {
 		color: $brand-yellow;
 		font-family: NunitoSansBold, sans-serif;
 		font-size: 20px;
@@ -562,7 +574,7 @@ nav {
 			color: $rollover-yellow;
 			text-decoration: none;
 		}
-	}
+	}*/
 
 	&.eric-evans {
 		background-image: url('../img/sliders/slider-Eric-Evans-700x600.jpg');

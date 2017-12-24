@@ -9,7 +9,7 @@ layout: layout.html
         <div class="container">
           <div class="dia-copy">
             <h1>CONFERENCE<br>VIDEOS AVAILABLE</h1>            
-            <a href="https://ti.to/explore-ddd-conference/2017">VIEW THEM HERE</a>
+            <a href="#" class="view-videos">VIEW VIDEOS</a>
           </div>
         </div>
       </li>
@@ -71,6 +71,7 @@ layout: layout.html
 
 <div class="container section home-videos">
   <div class="row">
+    <a name="videos"></a>
     <h1 class="section-header">Videos</h1>
   </div>
   <div class="row">
