@@ -77,16 +77,16 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/kIKwPNKXaLU" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/kIKwPNKXaLU" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/fWCt5KWfTuo" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/fWCt5KWfTuo" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/oPJIXPC_vn8" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/oPJIXPC_vn8" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -94,16 +94,16 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/_pJGwvVRwpg" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/_pJGwvVRwpg" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/NXDCkpD74mE" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/NXDCkpD74mE" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/7StN-vNjRSw" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/7StN-vNjRSw" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -111,16 +111,16 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/ogjOKlXHi08" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/ogjOKlXHi08" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/sb-WO-KcODE" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/sb-WO-KcODE" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/9FC_0WMmgKk" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/9FC_0WMmgKk" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -128,16 +128,16 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/FXCLLsCGY0s" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/FXCLLsCGY0s" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/_H4Db0GJGgY" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/_H4Db0GJGgY" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/_HkCMrbw1cA" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/_HkCMrbw1cA" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -145,16 +145,16 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/TPctjavH_Zw" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/TPctjavH_Zw" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/M5CbbWmdsFU" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/M5CbbWmdsFU" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/ShMUiCWQYIQ" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/ShMUiCWQYIQ" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -162,16 +162,16 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/Amcv06xxSD8" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/Amcv06xxSD8" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/Zm95cYAtAa8" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/Zm95cYAtAa8" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/k2LazT39-8Y" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/k2LazT39-8Y" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -179,16 +179,16 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/vO86vdkv0wM" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/vO86vdkv0wM" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/ECM1rPYxvD4" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/ECM1rPYxvD4" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/UaugV0hyYbY" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/UaugV0hyYbY" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -196,16 +196,16 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/OlcWDZN99w4" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/OlcWDZN99w4" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/W48jCt2fImY" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/W48jCt2fImY" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/IlAxebJ4E7c" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/IlAxebJ4E7c" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -213,16 +213,16 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/AKMV8OW9R50" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/AKMV8OW9R50" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/1i6QYvYhlYQ" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/1i6QYvYhlYQ" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/v-7RevY6No4" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/v-7RevY6No4" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -230,7 +230,7 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="http://www.youtube.com/embed/mZzPwt9vhHM" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/mZzPwt9vhHM" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
