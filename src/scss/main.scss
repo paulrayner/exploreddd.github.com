@@ -1,13 +1,27 @@
-// Variables
+//variables
 
-$brand-brown: #452e26; //TODO: this is hard valued in a lot below. replace with references to this variable name
-$brand-yellow: #c49524;
-$rollover-yellow: #fdc33c;
-$brand-cream: #fff8e9;
-$white-text: #ffebc1;
-$dark-text: #452e26;
+$brand-blue: #0082c8;
+$brand-white: #fff;
+$brand-body: #000;
 
+$brand-body-link: #f0b310;
+$brand-body-link-hover: #ffc423;
 
+$brand-reverse-link: #ffc423;
+$brand-reverse-link-hover: #f0b310;
+
+$brand-button-link: #fff;
+$brand-button-link-hover: #ffc423;
+//sort out these different button color names/conventions
+$brand-nav-button-text: #0082c8;
+$brand-nav-button-text-hover: #2e9bd3;
+$brand-nav-button-background: #ace0f0;
+$brand-nav-button-background-hover: #9bd7ec;
+
+$brand-subheader: #ffc423;
+
+$brand-nav-hover: #ffc423;
+$brand-background: #e5f2f9;
 
 @mixin mq($size) {
   @if $size == xs {
@@ -23,27 +37,6 @@ $dark-text: #452e26;
     @media (min-width: 1200px)  { @content; }
   }
 }
-
-/*@font-face {
-	font-family: NunitoSansLight;
-	src: url(fonts/NunitoSans-Light.ttf);
-}
-@font-face {
-	font-family: NunitoSans;
-	src: url(fonts/NunitoSans-Regular.ttf);
-}
-@font-face {
-	font-family: NunitoSansBold;
-	src: url(fonts/NunitoSans-Bold.ttf);
-}
-@font-face {
-	font-family: NunitoSansSemiBold;
-	src: url(fonts/NunitoSans-SemiBold.ttf);
-}
-@font-face {
-	font-family: NunitoSansExtraBold;
-	src: url(fonts/NunitoSans-ExtraBold.ttf);
-}*/
 
 @font-face {
 	font-family: 'NunitoSansSemiBold';
@@ -91,8 +84,6 @@ $dark-text: #452e26;
 	font-style: normal;
 }
 
-
-
 @mixin ir() {
 	background-position: top left;
 	background-repeat: no-repeat;
@@ -108,9 +99,9 @@ html, body {
 }
 
 body {
-	background-color: $brand-cream;
+	background-color: $brand-background;
 	font-family: NunitoSansSemiBold, sans-serif;
-	color: $brand-brown; 
+	color: $brand-body; 
 	overflow-x: hidden;
 	padding-top: 51px;
 	padding-bottom: 0;
@@ -123,18 +114,22 @@ body {
 	@include mq(lg){
 		padding-top: 100px;
 	}
+	a {
+		color: $brand-body-link;
+		text-decoration: none;
+		&:hover {
+			color: $brand-body-link-hover;
+			text-decoration: none;
+		}
+	}
 }
-
-//.details em, .details strong, .title-row h2, .title-row h3, .time-cell p {
-	//color: #452e26;
-//}
 
 // Navigation
 
 nav {
 	border: 0;
 }
-
+s
 .navbar {
 	@include mq(lg) {
 		.container {
@@ -148,7 +143,7 @@ nav {
 }
 
 .icon-bar {
-	background-color: $brand-cream;
+	background-color: #fff8e9;
 }
 
 .nav-logo {
@@ -206,12 +201,12 @@ nav {
 	}
 
 	a {
-		color: $white-text;
+		color: $brand-white;
 		cursor: pointer;
 		text-decoration: none;
 
 		&:hover {
-			color: $rollover-yellow;
+			color: $brand-nav-hover;
 		}
 	}
 }
@@ -221,14 +216,14 @@ nav {
     //margin-left: -30px;
   }
 	@include mq(sm){
-		padding-left: 16px;
+		padding-left: 12px;
 	}
 }
 
 
 .nav-btn {
-	background: $white-text;
-	color: $brand-brown;
+	background: $brand-nav-button-background;
+	color: $brand-nav-button-text;
 	display: block;
 	line-height: 30px;
 	margin: -1px -15px;
@@ -252,19 +247,19 @@ nav {
 	}
 
 	&:hover {
-		background: $brand-yellow;
-		color: $brand-brown;
+		background: $brand-nav-button-background-hover;
+		color: $brand-nav-button-text-hover;
 		text-decoration: none;
 	}
 }
 
 .navbar {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$brand-brown+0,452e26+50,573c27+100 */
-	background: $brand-brown; /* Old browsers */
-	background: -moz-linear-gradient(top,  $brand-brown 0%, $brand-brown 50%, #573c27 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  $brand-brown 0%,$brand-brown 50%,#573c27 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  $brand-brown 0%,$brand-brown 50%,#573c27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$brand-brown, endColorstr='#573c27',GradientType=0 ); /* IE6-9 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#452e26+0,452e26+50,573c27+100 */
+	background: #0082c8; /* Old browsers */
+	//background: -moz-linear-gradient(top,  #452e26 0%, #452e26 50%, #573c27 100%); /* FF3.6-15 */
+	//background: -webkit-linear-gradient(top,  #452e26 0%,#452e26 50%,#573c27 100%); /* Chrome10-25,Safari5.1-6 */
+	//background: linear-gradient(to bottom,  #452e26 0%,#452e26 50%,#573c27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#452e26, endColorstr='#573c27',GradientType=0 ); /* IE6-9 */
 
 	font-family: NunitoSansSemiBold, sans-serif;
 	@include mq(sm){
@@ -289,11 +284,11 @@ nav {
 /* begin submenu stuff */
 
 .nav-submenu {
-	background-color: $brand-cream;
+	background-color: #fff8e9;
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
 	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
 	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
-	color: $dark-text;
+	color: #452e26;
 	display: block;
 	list-style-type: none;
 	margin: 0 -15px;
@@ -319,7 +314,7 @@ nav {
 		white-space: nowrap;
 	}
 	a {
-		color: $dark-text;
+		color: #452e26;
 	}
 }
 
@@ -330,23 +325,6 @@ nav {
     }
   }
 }
-
-/*.submenu-toggle {
-	background-image: url('../img/read-more-arrow.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	display: inline-block;
-	height: 15px;
-	margin-bottom: -2px;
-	margin-left: 8px;
-	opacity: 0.8;
-	transition: all 0.2s;
-	width: 15px;
-	@include mq(sm) {
-		display: none;
-	}
-}*/
 
 .nav-list-item.open {
 	.nav-submenu {
@@ -400,23 +378,23 @@ nav {
 		}
 	}
 	a {
-		color: $brand-yellow;
+		color: $brand-reverse-link;
 		font-family: NunitoSansBold, sans-serif;
 		font-size: 20px;
 		position: relative;
 		text-transform: uppercase;
 		transition: all 0.2s;
 		&:hover {
-			color: $rollover-yellow;
+			color: $brand-reverse-link-hover;
 			text-decoration: none;
 		}
 	}
 }
 
-.slide.dia {
-	background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+.slide.register {
+	background-image: url('../img/sliders/slider-register-700x600.jpg');
 	@include mq(sm){
-		background-image: url('../img/sliders/slider-DIA-1600x400.jpg');
+		background-image: url('../img/sliders/slider-register-1600x400.jpg');
 	}
 }
 
@@ -426,14 +404,8 @@ nav {
 		background-image: url('../img/sliders/Explore-DDD-website-Slider-Hyatt.jpg');
 	}
 }
-.slide.alteryx {
-	/*background-image: url('../img/sliders/slider-alteryx-700x600.jpg');
-	@include mq(sm){
-		background-image: url('../img/sliders/slider-alteryx-1600x400.jpg');
-	}*/
-}
 
-.hyatt-copy, .dia-copy, .alteryx-copy {
+.hyatt-copy, .register-copy, .alteryx-copy {
 	display: inline-block;
 	margin-top: 85px;
 	padding: 30px;
@@ -444,7 +416,7 @@ nav {
     margin-left: 100px;
 	}
 	h1 {
-		color: $brand-yellow;
+		color: $brand-white;
 		font-family: NunitoSansExtraBold, sans-serif;
 		font-size: 30px;
 		margin: 0;
@@ -463,17 +435,10 @@ nav {
 			font-size: 30px;
 		}
 	}
-	a {
-		color: $brand-yellow;
-		font-family: NunitoSansBold, sans-serif;
-		font-size: 20px;
-		margin: 0;
-		text-transform: uppercase;
-	}
 }
 
-.hyatt-copy, .dia-copy, .alteryx-copy {
-	background-color: #fff8e9;
+.hyatt-copy, .register-copy, .alteryx-copy {
+	background-color: rgba(0,164,228, 0.75);
 }
 .alteryx-copy {
 	@include mq(sm) {
@@ -496,12 +461,12 @@ nav {
 	}
 }
 
-.dia-copy {
-	float: right;
+.register-copy {
+	float: left;
 }
 
 .slide.speaker {
-	background-color: $brand-cream;
+	background-color: $brand-white;
 	background-position: right 80%;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -534,7 +499,7 @@ nav {
 	}
 
 	h1 {
-		color: $brand-yellow;
+		color: #fdc33c;
 		font-family: NunitoSansBold, sans-serif;
 		font-size: 30px;
 		text-transform: uppercase;
@@ -547,7 +512,7 @@ nav {
 	}
 
 	h2 {
-		color: $dark-text;
+		color: $brand-body;
 		font-family: NunitoSansLight, sans-serif;
 		font-size: 20px;
 		max-width: 410px;
@@ -562,19 +527,6 @@ nav {
 			text-transform: uppercase;
 		}
 	}
-
-	/*a {
-		color: $brand-yellow;
-		font-family: NunitoSansBold, sans-serif;
-		font-size: 20px;
-		position: relative;
-		text-transform: uppercase;
-		transition: all 0.2s;
-		&:hover {
-			color: $rollover-yellow;
-			text-decoration: none;
-		}
-	}*/
 
 	&.eric-evans {
 		background-image: url('../img/sliders/slider-Eric-Evans-700x600.jpg');
@@ -609,7 +561,7 @@ nav {
 	}
 
 	.mobile-copy {
-		color: $white-text;
+		color: #ffebc1;
 		display: none;
 		text-align: center;
 		text-transform: uppercase;
@@ -665,13 +617,12 @@ nav {
 	}
 }
 
-
 .section.about {
 	padding-top: 18px;
 }
 
 .section-header {
-	color: $dark-text;
+	color: $brand-blue;
 	font-family: NunitoSansBold, sans-serif;
 	font-size: 24px;
 	text-align: center;
@@ -680,7 +631,7 @@ nav {
 }
 
 .section-subheader {
-	color: $brand-yellow;
+	color: $brand-subheader;
 	font-family: NunitoSansBold, sans-serif;
 	font-size: 18px;
 	//margin: 0;
@@ -688,12 +639,12 @@ nav {
 	text-transform: uppercase;
 	transition: color 0.2s;
 	&:hover {
-		color: $rollover-yellow;
+		color: $brand-reverse-link;
 	}
 }
 
 .copy {
-	color: $brand-brown;
+	color: $brand-body;
 	display: block;
 	font-family: NunitoSansLight, sans-serif;
 	font-size: 18px;
@@ -703,12 +654,12 @@ nav {
 	text-align: center;
 
 	a {
-		color: $brand-yellow;
-		text-decoration: none;
+		//color: #fdc33c;
+		//text-decoration: none;
 	}
 }
 .copy-list {
-	color: $brand-brown;
+	color: $brand-body;
 	display: block;
 	font-family: NunitoSansLight, sans-serif;
 	font-size: 18px;
@@ -740,14 +691,14 @@ figure {
 }
 
 .section.conf-dates {
-	background-color: $brand-brown;
+	background-color: $brand-blue;
 	font-family: NunitoSans, sans-serif;
 	padding-top: 22px;
 	text-align: center;
 }
 
 .conf-header {
-	color: $brand-yellow;
+	color: $brand-subheader;
 	display: block;
 	padding-right: 15px;
 	text-transform: uppercase;
@@ -756,7 +707,7 @@ figure {
 	}
 }
 .conf-copy {
-	color: $brand-cream;
+	color: $brand-white;
 	font-size: 24px;
 	margin-bottom: 2px;
 }
@@ -767,8 +718,12 @@ figure {
 	padding: 13px 0 15px;
 
 	a {
-		color: $brand-yellow;
+		color: $brand-reverse-link;
 		padding-right: 10px;
+		&:hover {
+			color: $brand-reverse-link-hover;
+			text-decoration: none;
+		}
 	}
 }
 
@@ -807,34 +762,31 @@ figure {
 }
 
 .speaker-name {
-	color: $brand-yellow;
+	color: $brand-blue;
 	font-family: NunitoSansBold, sans-serif;
 	font-size: 20px;
 	margin-bottom: 0;
 	text-transform: uppercase;
 	transition: color 0.2s;
 	&:hover {
-		color: $rollover-yellow;
+		color: $brand-body-link-hover;
     text-decoration: none;
 	}
 }
 
 .speaker-img {
-	//background-size: contain;
   background-size:312px;
   background-position: -156px;
 	height: 150px;
 	margin: 0 auto;
-	//transition: all 0.2s;
 	width: 150px;
-  border-radius: 120px;
+	border-radius: 120px;
   @include mq(xs) {
     margin-top: 15px;
   }
 
 	&.eric-evans {
 		background-image: url('../img/speakers/sprite-eric-evans.jpg');
-
 		&:hover {
 			background-position: 0;
 		}
@@ -1093,7 +1045,7 @@ figure {
 }
 
 .speaker-details {
-	color: $dark-text;
+	color: #452e26;
 	font-family: NunitoSansLight, sans-serif;
 	font-size: 16px;
 }
@@ -1112,8 +1064,6 @@ figure {
 }
 
 .section.venue {
-	//padding-bottom: 50px;
-	//margin-top: 25px;
   padding-left: 0;
   padding-right: 0;
 
@@ -1165,22 +1115,31 @@ h2.conference-emphasis {
 }
 
 footer {
-	background-color: $brand-brown;
-	color: $white-text;
+	background-color: $brand-blue;
+	color: $brand-white;
 	font-family: NunitoSans, sans-serif;
 	padding-top: 15px;
 	text-align: center;
 
 	.container {
-		background-image: url('../img/footer-maze.png');
+		//background-image: url('../img/footer-maze.png');
 		background-repeat: no-repeat;
 		background-position: bottom center;
 		background-size: contain;
 	}
 
 	.section-header {
-		color: $white-text;
+		color: $brand-white;
 		padding-bottom: 15px;
+	}
+
+	.copyright {
+		a {
+			color: $brand-reverse-link;
+			&:hover {
+				color: $brand-reverse-link-hover;
+			}
+		}
 	}
 }
 
@@ -1192,7 +1151,6 @@ footer {
 	align-items: center;
 	.item, .organized-by-item {		
 		width: 300px;
-		//margin: auto;
 		img {
 			width: 95%;
 			height: auto;
@@ -1207,12 +1165,11 @@ footer {
 	width: 50%;
 	height: auto;
 	display: block;
-	//padding-top: 15px;
 	margin: 0 auto 15px auto;
 }
 
 .page-subheader {
-	color: $dark-text;
+	color: #452e26;
 	font-family: NunitoSansSemiBold, sans-serif;
 	font-size: 18px;
 	margin: 0 0 4px 0;
@@ -1260,8 +1217,7 @@ footer {
 		text-align: left;
 	}
 	.speaker-subheader {
-		color: $dark-text;
-    //font-family: NunitoSansSemiBold, sans-serif;
+		color: #452e26;
 		text-align: left;
 		text-transform: uppercase;
 	}
@@ -1280,7 +1236,6 @@ footer {
 
 .featured-speaker {
 	.copy-container {
-		//padding-left: 37px; //ZJ not sure why this was set
       padding-top: 25px;
       @include mq(sm){
     		display: inline;
@@ -1297,7 +1252,6 @@ footer {
 	.copy {
 		max-width: none;
 	}
-
 }
 
 .speaker-page-img {
@@ -1306,7 +1260,7 @@ footer {
 }
 
 .speaker-header {
-	color: $dark-text;
+	color: $brand-blue;
 	font-family: NunitoSansBold, sans-serif;
 	font-size: 24px;
 	margin: 0 0 2px 0;
@@ -1314,14 +1268,14 @@ footer {
 	text-transform: uppercase;
 }
 .speaker-subtitle {
-	color: $dark-text;
+	//color: $brand-subheader;
 	font-family: NunitoSansLight, sans-serif;
 	font-size: 18px;
 	margin: 0 0 2px 0;
 	text-align: left;
 }
 .speaker-handle {
-	color: $brand-yellow;
+	//color: $brand-body-link;
 	font-family: NunitoSans, sans-serif;
 	font-size: 18px;
 	margin: 0;
@@ -1385,17 +1339,17 @@ footer {
     font-family: NunitoSansSemiBold, sans-serif;
     font-size: 24px;
     a {
-      color: $brand-yellow;
+      color: #fdc33c;
       transition: color 0.2s ease 0s;
       &:hover {
         text-decoration: none;
-        color: $rollover-yellow;
+        color: #fdc33c;
       }
     }
   }
   .workshops--speaker-name {
     display: block;
-    color: $brand-brown;
+    color: #452e26;
     font-weight: bold;
     text-transform: uppercase;
     font-size: auto;
@@ -1452,9 +1406,7 @@ footer {
 }
 .time-cell {
   padding-top: 10px;
-  //@include mq(sm) {
-    border-bottom: 1px solid #452e26;
-  //}
+  border-bottom: 1px solid #452e26;
   font-size: 16px;
   font-family: NunitoSans, sans-serif;
   @include mq(xs) {
@@ -1467,12 +1419,6 @@ footer {
   }
 }
 
-
-@include mq(xs) {
-  .day-div .time-cell {
-    //border: 0;
-  }
-}
 .details {
   padding: 10px 5px 10px 5px;
   border-bottom: 1px solid #452e26;
@@ -1618,16 +1564,16 @@ footer {
   font-size: 18px;
   margin: 0 0 4px 0;
   	a {
-  		color: $brand-yellow;
+  		color: #fdc33c;
   	}
 }
 
 //button styles
 .btn {
-  background: $brand-brown;
+  background: #452e26;
   font-family: NunitoSansLight, sans-serif !important;
   border-radius: 0;
-  color: $white-text;
+  color: #ffebc1;
   font-size: 20px;
   padding: 20px 30px 20px 30px;
   text-decoration: none;
@@ -1638,7 +1584,7 @@ footer {
 
 .btn:hover {
   text-decoration: none;
-  color: $rollover-yellow;
+  color: #fdc33c;
 }
 .buttons {
   text-align: center;
@@ -1673,13 +1619,11 @@ footer {
   h2 {
     font-size: 24px;
     font-family: NunitoSansBold, sans-serif;
-    color: $brand-brown;
+    color: $brand-body;
     margin-top: 0;
     margin-bottom: 30px;
-  }
-  .email-row, .button-row {
-    //text-align: left;
-  }
+	}
+
   //these two classes apparently do something in the mailchimp code snippet, but lets make them work with our layout
   .mc-field-group, .clear {
     @include mq(xs) {
@@ -1690,8 +1634,8 @@ footer {
     }
   }
   input[type=email] {
-   background-color: $brand-cream;
-   border: 1px solid $brand-brown;
+	 background-color: $brand-background;
+   border: 1px solid $brand-body;
    font-size: 18px;
    padding: 15px;
    margin-right: 10px;
@@ -1707,14 +1651,14 @@ footer {
    }
   }
   input[type=submit] {
-    color: $white-text;
+    color: $brand-white;
     font-family: NunitoSansSemiBold, sans-serif;
-    background-color: $brand-brown;
+    background-color: $brand-blue;
     border: 0;
     font-size: 18px;
     padding: 15px;
     &:hover {
-      color: $rollover-yellow;
+      color: $brand-button-link-hover;
     }
   }
   #mce-error-response, #mce-success-response {
@@ -1740,4 +1684,8 @@ footer {
 		width:100%;
 		position:absolute;
 	}
+}
+
+strong {
+	font-family: NunitoSansBold, sans-serif;
 }

@@ -97,4 +97,9 @@ $('.showSingle').click(function(){
   });
 });
 
+//speaker name and background image hover functionality
+$(function(){
+  
+});
+
 
