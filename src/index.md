@@ -9,7 +9,7 @@ layout: layout.html
         <div class="container">
           <div class="dia-copy">
             <h1>CONFERENCE<br>VIDEOS AVAILABLE</h1>            
-            <a href="#" class="view-videos">VIEW VIDEOS</a>
+            <a href="#" class="view-videos">VIEW VIDEOS </a>
           </div>
         </div>
       </li>
