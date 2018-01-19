@@ -148,7 +148,7 @@ s
 
 .nav-logo {
 	background-image: url('../img/ddd-logo.svg');
-	display: block;
+	//display: inline-block;
 	margin: 3px auto;
 	height: 46px;
 	width: 160px;
@@ -177,7 +177,7 @@ s
 	padding: 0;
 	@include mq(sm) {
 		display: inline-block;
-		padding: 0 0 0 25px;
+		//padding: 0 0 0 25px;
 	}
 }
 
@@ -226,9 +226,9 @@ s
 	color: $brand-nav-button-text;
 	display: block;
 	line-height: 30px;
-	margin: -1px -15px;
+	//margin: -1px -15px;
 	padding: 0 10px;
-	text-align: left;
+	text-align: center;
 	text-transform: uppercase;
 	transition: background 0.2s;
 	@include mq(sm) {
@@ -236,6 +236,7 @@ s
 		font-size: 14px;
 		line-height: 60px;
 		margin-left: 20px;
+		float: right;
 	}
 	@include mq(md) {
 		font-size: 18px;
@@ -272,12 +273,18 @@ s
 		max-height: 100px;
 	}
 }
+.navbar .container {
 
+}
+.nav-container {
+	
+	
+}
 .navbar-collapse {
 	text-align: center;
 	@include mq(sm) {
 		background: transparent;
-		text-align: left;
+		text-align: center;
 	}
 }
 
@@ -317,7 +324,12 @@ s
 		color: #452e26;
 	}
 }
-
+.nav-list {
+	@include mq(md) {
+		margin-left: -78px;
+	}
+	
+}
 .nav-list-item:not(:first-child) {
   .nav-submenu {
     @include mq(sm) {
@@ -1688,8 +1700,4 @@ footer {
 
 strong {
 	font-family: NunitoSansBold, sans-serif;
-}
-
-.nav-container {
-	border: 1px solid red;
 }
