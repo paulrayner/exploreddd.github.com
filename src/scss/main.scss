@@ -179,6 +179,12 @@ s
 		display: inline-block;
 		//padding: 0 0 0 25px;
 	}
+	@include mq(md) { 
+		padding-left: 78px;
+	}
+	@include mq(lg) { 
+		padding-left: 25px;
+	}
 }
 
 .nav-list-item {
