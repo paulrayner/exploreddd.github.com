@@ -552,16 +552,10 @@ s
 			background-image: url('../img/sliders/slider-eric-evans.jpg');
 		}
 	}
-	&.rebecca-wirfs-brock {
-		background-image: url('../img/sliders/slider-Rebecca-Wirfs-Brock-700x600.jpg');
+	&.michael-feathers {
+		background-image: url('../img/sliders/slider-Michael-Feathers-700x600.jpg');
 		@include mq(sm) {
-			background-image: url('../img/sliders/slider-Rebecca-Wirfs-Brock-1600x400.jpg');
-		}
-	}
-	&.ward-cunningham {
-		background-image: url('../img/sliders/slider-Ward-Cunningham-700x600.jpg');
-		@include mq(sm) {
-			background-image: url('../img/sliders/slider-Ward-Cunningham-1600x400.jpg');
+			background-image: url('../img/sliders/slider-Michael-Feathers.jpg');
 		}
 	}
 	&.alteryx-slide-version-2 {
@@ -809,250 +803,21 @@ figure {
 			background-position: 0;
 		}
 	}
-
-	&.alberto-brandolini {
-		background-image: url('../img/speakers/sprite-alberto-brandolini.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-
-	&.mathias-verraes {
-		background-image: url('../img/speakers/sprite-mathias-verraes.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-
-	&.vaughn-vernon {
-		background-image: url('../img/speakers/sprite-vaughn-vernon.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-
-	&.rebecca-wirfs-brock {
-		background-image: url('../img/speakers/sprite-rebecca-wirfs-brock.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-
-	&.julie-lerman {
-		background-image: url('../img/speakers/sprite-julie-lerman.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-
-	&.ward-cunningham {
-		background-image: url('../img/speakers/sprite-ward-cunningham.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.chris-richardson {
-		background-image: url('../img/speakers/sprite-chris-richardson.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.paul-rayner {
+	&.paul-rayner {
 		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
 
 		&:hover {
 			background-position: 0;
 		}
 	}
-  &.allard-buijze {
-		background-image: url('../img/speakers/sprite-allard-buijze.jpg');
+	&.michael-feathers {
+		background-image: url('../img/speakers/sprite-michael-feathers.jpg');
 
 		&:hover {
 			background-position: 0;
 		}
 	}
-  &.anita-kvamme {
-		background-image: url('../img/speakers/sprite-anita-kvamme.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.bernd-rücker {
-		background-image: url('../img/speakers/sprite-bernd-rücker.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.dan-bergh-johnsson {
-		background-image: url('../img/speakers/sprite-dan-bergh-johnsson.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.dan-sharp {
-		background-image: url('../img/speakers/sprite-dan-sharp.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.daniel-deogun {
-		background-image: url('../img/speakers/sprite-daniel-deogun.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.david-gofferje {
-		background-image: url('../img/speakers/sprite-david-gofferje.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.david-graunke {
-		background-image: url('../img/speakers/sprite-david-graunke.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.david-laribee {
-		background-image: url('../img/speakers/sprite-david-laribee.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.derek-comartin {
-		background-image: url('../img/speakers/sprite-derek-comartin.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.ellen-lippe {
-		background-image: url('../img/speakers/sprite-ellen-lippe.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.javier-fernandez {
-		background-image: url('../img/speakers/sprite-javier-fernandez.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.jeroen-soeters {
-		background-image: url('../img/speakers/sprite-jeroen-soeters.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.jimmy-bogard {
-		background-image: url('../img/speakers/sprite-jimmy-bogard.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.martin-schimak {
-		background-image: url('../img/speakers/sprite-martin-schimak.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.nicolo-pignatelli {
-		background-image: url('../img/speakers/sprite-nicolo-pignatelli.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.scott-bellware {
-		background-image: url('../img/speakers/sprite-scott-bellware.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.steven-lowe {
-		background-image: url('../img/speakers/sprite-steven-lowe.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.thomas-pierrain {
-		background-image: url('../img/speakers/sprite-thomas-pierrain.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.vladik-khononov {
-		background-image: url('../img/speakers/sprite-vladik-khononov.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.yves-reynhout {
-		background-image: url('../img/speakers/sprite-yves-reynhout.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.indu-alagarsamy {
-		background-image: url('../img/speakers/sprite-indu-alagarsamy.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.jean-francois-cloutier {
-		background-image: url('../img/speakers/sprite-jean-francois-cloutier.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-  &.bruno-boucard {
-		background-image: url('../img/speakers/sprite-bruno-boucard.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-	&.nathan-ladd {
-		background-image: url('../img/speakers/sprite-nathan-ladd.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
-	&.david-gofferje {
-		background-image: url('../img/speakers/sprite-david-gofferje.jpg');
-
-		&:hover {
-			background-position: 0;
-		}
-	}
+	
 }
 
 //workshop images 

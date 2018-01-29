@@ -8,8 +8,8 @@ layout: layout.html
       <li class="slide register">
         <div class="container">
           <div class="register-copy">
-            <h1>GET READY TO<br>EXPLORE DDD</h1>            
-            <a href="http://virtual-genius.us10.list-manage.com/subscribe?u=02e9770492ac1e4d472b7e3c6&id=500ef72890" target-"_blank">STAY UPDATED</a>
+            <h1>EXPLORE DDD 2018<br>SEPT 11-14</h1>            
+            <a href="cfp/">CFP NOW OPEN</a>
           </div>
         </div>
       </li>
@@ -69,6 +69,7 @@ layout: layout.html
       <li>A smaller (~200 attendees) conference with a real sense of community/family.</li>
       <li>Incredible, inspiring venue - entire 38th floor provides uninterrupted majestic views of the Rocky Mountains, downtown Denver, and city surrounds.</li>
       <li>Conference hotel accommodation at AAA Four Diamond Grand Hyatt Denver.</li>
+      <li>Registration opens mid/late February.</li>
     </ul>
   </div>
 </div>
@@ -82,6 +83,12 @@ layout: layout.html
       </div></a>
       <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
       <p class="speaker-details">Author of “Domain-Driven Design”</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/michael-feathers.html"><div class="speaker-img michael-feathers">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/michael-feathers.html">Michael Feathers</a></h3>
+      <p class="speaker-details">Discerner of the Code</p>
     </div>
     <!-- 2018 speakers will replace these comments as they come in. Keep it to 4 per row -->
     <!--<div class="speaker-container">
