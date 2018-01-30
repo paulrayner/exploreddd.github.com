@@ -6,7 +6,7 @@ layout: layout-tier2.html
 	<p class="copy">The Explore DDD Conference is the perfect opportunity to raise your brand awareness amongst key technical influencers and top software development professionals while demonstrating your commitment to technical excellence and support of the software development community.</p>
 	<p class="copy">A variety of <a href="explore-ddd-2018-sponsorship-opportunities.pdf">sponsorship opportunities</a> are available. We can also develop tailored sponsorship packages based on your needs and interests.</p>
 	<p class="copy">Contact us to request a copy of our sponsorship package or for more details on how we can tailor a specific package for your needs.</p>
-	<h2 class="page-subheader">Platinum Sponsor</h2>
+	<h2 class="page-subheader">Bronze Sponsors</h2>
 	<br>
 	<figure>
         <a href="https://pivotal.io/"><img src="../img/logos/sponsor-pivotal.png" class="benefactor-logo"></a>

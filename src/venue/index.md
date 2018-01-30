@@ -39,7 +39,7 @@ layout: layout-tier2.html
   <h2 class="page-subheader">Accommodation</h2>
 
   <p class="copy"><i>Hotel room availability at this time of year in Denver is extremely limited, so we strongly recommend that attendees traveling from out of town reserve their rooms at the Grand Hyatt as early as possible.</i> </p>
-  <p class="copy">We have reserved a room block at the Grand Hyatt and negotiated a low conference discounted room rate. Reserve your room at the Grand Hyatt.</p>
+  <p class="copy">We have reserved a room block at the Grand Hyatt and negotiated a low conference discounted room rate. Reserve your room at the Grand Hyatt when you register for the conference/workshop.</p>
 
 <!--   Contact the hotel directly to make your room booking, and mention the conference to receive the discounted rate.</p>
  -->

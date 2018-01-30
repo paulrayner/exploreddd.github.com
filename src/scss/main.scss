@@ -940,6 +940,10 @@ footer {
 			margin-bottom: 15px;
 		}
 	}
+	//bronze sponsor logos appear smaller
+	.bronze-logo {
+		max-width: 160px;
+	}
 	.organized-by-item {
 		width: 300px;
 	}
@@ -983,19 +987,6 @@ footer {
       padding-left: 45px;
     }
 	}
-	.video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-	}
-	.video-responsive iframe{
-		left:0;
-		top:0;
-		height:100%;
-		width:100%;
-		position:absolute;
-	}
 	.copy {
 		text-align: left;
 	}
@@ -1009,6 +1000,21 @@ footer {
 		text-transform: uppercase;
 		font-size: 25px;
 	}
+}
+
+.video-responsive {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+
+.video-responsive iframe {
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
 }
 
 .about {
@@ -1471,4 +1477,9 @@ footer {
 
 strong {
 	font-family: NunitoSansBold, sans-serif;
+}
+
+.homepage-video {
+	max-width: 750px;
+	margin: 50px auto 0 auto;
 }

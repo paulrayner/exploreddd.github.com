@@ -57,12 +57,18 @@ layout: layout.html
     <p class="conf-contact">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a>    Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
   </div>
 </div>
-
+<div class="container section homepage-video">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="video-responsive">
+        <iframe width="640" height="360" src="http://www.youtube.com/embed/hIORppbgcRM" 
+        frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div> <!-- col-xs-12 -->
+  </div> <!-- row -->
+</div>
 <div class="container section about">
   <div class="row">
-    <div class="video-responsive">
-        <iframe width="420" height="315" src="https://youtu.be/hIORppbgcRM" frameborder="0" allowfullscreen></iframe>
-      </div>
     <h1 class="section-header">About Explore DDD</h1>
     <p class="copy">The Explore DDD Conference sets the perfect stage to discover how industry peers and leaders are using DDD to build better software:</p>
     <ul class="copy-list">
@@ -72,8 +78,8 @@ layout: layout.html
       <li>A smaller (~200 attendees) conference with a real sense of community/family.</li>
       <li>Incredible, inspiring venue - entire 38th floor provides uninterrupted majestic views of the Rocky Mountains, downtown Denver, and city surrounds.</li>
       <li>Conference hotel accommodation at AAA Four Diamond Grand Hyatt Denver.</li>
-      <li>Registration opens mid/late February.</li>
     </ul>
+    <p class="copy">Registration opens mid/late February.</p>
   </div>
 </div>
 
