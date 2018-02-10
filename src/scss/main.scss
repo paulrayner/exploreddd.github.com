@@ -1483,6 +1483,52 @@ strong {
 	margin: 50px auto 0 auto;
 }
 
+/* sponsor subfooter section on homepage and second level pages */
 .sponsor-section {
 	background-color: #fff;
+	padding: 30px 0 30px 0;
+	text-align: center;
+	.item {
+		display: inline-block;
+		a {
+			img {
+				width: auto;
+				height: 100%;
+			}
+		}
+		@include mq(sm) {
+		}
+		@include mq(md) {
+		}
+		@include mq(lg) {
+		}
+	}
+	.platinum-sponsors {
+		.item {
+			width: 265px;
+			height: 140px;
+			margin: 0 28px 0 28px;
+		}
+	}
+	.gold-sponsors {
+		.item {
+			width: 212px;
+			height: 112px;
+			margin: 0 20px 0 20px;
+		}
+	}
+	.silver-sponsors {
+		.item {
+			width: 170px;
+			height: 90px;
+			margin: 0 15px 0 15px;
+		}
+	}
+	.bronze-sponsors {
+		.item {
+			width: 136px;
+			height: 72px;
+			margin: 0 10px 0 10px;
+		}
+	}
 }
