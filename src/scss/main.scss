@@ -913,6 +913,7 @@ footer {
 	.section-header {
 		color: $brand-white;
 		padding-bottom: 15px;
+		font-size: 18px;
 	}
 
 	.copyright {
@@ -1489,7 +1490,7 @@ strong {
 	padding: 30px 0 30px 0;
 	text-align: center;
 	.section-header {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.item {
 		@include mq(xs) {
@@ -1544,6 +1545,17 @@ strong {
 			@include mq(md) {
 				margin: 0 10px 0 10px;
 			}
+		}
+	}
+	.platinum-sponsors, .gold-sponsors, .silver-sponsors, .bronze-sponsors {
+		@include mq(xs) {
+			padding-bottom: 30px;
+		}
+		@include mq(sm) {
+			padding-bottom: 50px;
+		}
+		@include mq(md) {
+			padding-bottom: 0;
 		}
 	}
 }
