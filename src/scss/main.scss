@@ -301,7 +301,7 @@ s
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
 	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
 	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
-	color: #452e26;
+	color: $brand-body;
 	display: block;
 	list-style-type: none;
 	margin: 0 -15px;
@@ -327,7 +327,7 @@ s
 		white-space: nowrap;
 	}
 	a {
-		color: #452e26;
+		color: $brand-body;
 	}
 }
 .nav-list {
@@ -828,7 +828,7 @@ figure {
 }
 
 .speaker-details {
-	color: #452e26;
+	color: $brand-body;
 	font-family: NunitoSansLight, sans-serif;
 	font-size: 16px;
 }
@@ -957,7 +957,7 @@ footer {
 }
 
 .page-subheader {
-	color: #452e26;
+	color: $brand-body;
 	font-family: NunitoSansSemiBold, sans-serif;
 	font-size: 18px;
 	margin: 0 0 4px 0;
@@ -992,7 +992,7 @@ footer {
 		text-align: left;
 	}
 	.speaker-subheader {
-		color: #452e26;
+		color: $brand-body;
 		text-align: left;
 		text-transform: uppercase;
 	}
@@ -1139,7 +1139,7 @@ footer {
   }
   .workshops--speaker-name {
     display: block;
-    color: #452e26;
+    color: $brand-body;
     font-weight: bold;
     text-transform: uppercase;
     font-size: auto;
@@ -1158,7 +1158,7 @@ footer {
 }
 .title-row {
   .title-cell-uncolored-cells {
-    border-bottom: 1px solid #452e26;
+    border-bottom: 1px solid $brand-body;
     @include mq(sm) {
       padding-left: 0px;
     }
@@ -1196,7 +1196,7 @@ footer {
 }
 .time-cell {
   padding-top: 10px;
-  border-bottom: 1px solid #452e26;
+  border-bottom: 1px solid $brand-body;
   font-size: 16px;
   font-family: NunitoSans, sans-serif;
   @include mq(xs) {
@@ -1205,13 +1205,13 @@ footer {
 }
 @include mq(sm) {
   .time-cell-empty {
-    border-bottom: 1px solid #452e26;
+    border-bottom: 1px solid $brand-body;
   }
 }
 
 .details {
   padding: 10px 5px 10px 5px;
-  border-bottom: 1px solid #452e26;
+  border-bottom: 1px solid $brand-body;
   p {
     font-size: 18px;
     em {
@@ -1251,7 +1251,7 @@ footer {
   }
 }
 .custom-grid-column-widths .time-cell {
-  border-top: 1px solid #452e26;
+  border-top: 1px solid $brand-body;
   border-bottom: 0;
   @include mq(xs) {
     border-top: 0;
@@ -1263,7 +1263,7 @@ footer {
     border-bottom: 0;
   }
   @include mq(sm) {
-    border-bottom: 1px solid #452e26;
+    border-bottom: 1px solid $brand-body;
   }
 }
 
@@ -1292,7 +1292,7 @@ footer {
 }
 @include mq(xs) {
   .title-row + .time-row div {
-    border-top: 1px solid #452e26;
+    border-top: 1px solid $brand-body;
   }
 }
 @include mq(xs) {
@@ -1360,7 +1360,7 @@ footer {
 
 //button styles
 .btn {
-  background: #452e26;
+  background: $brand-body;
   font-family: NunitoSansLight, sans-serif !important;
   border-radius: 0;
   color: #ffebc1;
