@@ -99,24 +99,18 @@ layout: layout.html
       <h3><a class="speaker-name" href="speakers/michael-feathers.html">Michael Feathers</a></h3>
       <p class="speaker-details">Discerner of the Code</p>
     </div>
+    <div class="speaker-container">
+      <a href="speakers/paul-rayner.html"><div class="speaker-img paul-rayner">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/paul-rayner.html">Paul Rayner</a></h3>
+      <p class="speaker-details">Domain Remodeler</p>
+    </div>
+    <div class="speaker-container">
+          <a href="speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
+          </div></a>
+          <h3><a class="speaker-name" href="speakers/alberto-brandolini.html">Alberto Brandolini</a></h3>
+          <p class="speaker-details">Inventor of EventStorming</p>
+    </div>
     <!-- 2018 speakers will replace these comments as they come in. Keep it to 4 per row -->
-    <!--<div class="speaker-container">
-      <a href="speakers/eric-evans.html"><div class="speaker-img eric-evans">
-      </div></a>
-      <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
-      <p class="speaker-details">Author of “Domain-Driven Design”</p>
-    </div>-->
-    <!--<div class="speaker-container">
-      <a href="speakers/eric-evans.html"><div class="speaker-img eric-evans">
-      </div></a>
-      <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
-      <p class="speaker-details">Author of “Domain-Driven Design”</p>
-    </div>-->
-    <!--<div class="speaker-container">
-      <a href="speakers/eric-evans.html"><div class="speaker-img eric-evans">
-      </div></a>
-      <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
-      <p class="speaker-details">Author of “Domain-Driven Design”</p>
-    </div>-->
   </div>
 </div>

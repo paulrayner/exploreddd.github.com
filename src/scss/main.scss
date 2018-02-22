@@ -810,6 +810,13 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.alberto-brandolini {
+		background-image: url('../img/speakers/sprite-alberto-brandolini.jpg');
+
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.michael-feathers {
 		background-image: url('../img/speakers/sprite-michael-feathers.jpg');
 
@@ -1129,7 +1136,7 @@ footer {
     font-family: NunitoSansSemiBold, sans-serif;
     font-size: 24px;
     a {
-      color: #fdc33c;
+      color: #f0b310;
       transition: color 0.2s ease 0s;
       &:hover {
         text-decoration: none;
