@@ -79,7 +79,7 @@ layout: layout.html
       <li>Incredible, inspiring venue - entire 38th floor provides uninterrupted majestic views of the Rocky Mountains, downtown Denver, and city surrounds.</li>
       <li>Conference hotel accommodation at AAA Four Diamond Grand Hyatt Denver.</li>
     </ul>
-    <p class="copy">Registration opens mid/late February.</p>
+    <p class="copy">Registration opens March 21, 2018</p>
   </div>
 </div>
 
