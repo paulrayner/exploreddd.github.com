@@ -6,7 +6,7 @@ layout: layout-tier2.html
 </div>
 <div class="container section page">
 	<h1 class="section-header">Venue</h1>
-  <p class="copy" style="text-align: center;"><a href="https://aws.passkey.com/go/exploreddd2018">Grand Hyatt Denver</a><br>1750 Wellton Street,<br>Denver, CO 80202 USA</p>
+  <p class="copy" style="text-align: center;"><a href="https://aws.passkey.com/go/exploreddd2018">Grand Hyatt Denver</a><br>1750 Wellton Street<br>Denver, CO 80202 USA</p>
 	<p class="copy">The main conference will be hosted in the incredible Pinnacle Club of the Grand Hyatt Denver, a luxury event venue located on the 38th floor and overlooking the entire Rocky Mountain Front Range. The pre-conference workshops will be located on the 2nd floor of the Grand Hyatt Denver.</p>
 
   <iframe width="552" height="312"
