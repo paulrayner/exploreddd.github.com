@@ -16,6 +16,7 @@ layout: layout-tier2.html
       <div class="col-xs-12 col-sm-10 workshop-list">
         <h2><a href="../speakers/paul-rayner.html">Essential DDD</a></h2>
             <p class="copy">
+                <span class="workshops--duration">2-Day Workshop</span>
                 <span class="workshops--speaker-name">Paul Rayner</span>
                 <span class="workshops--speaker-title">Domain Remodeler</span>
             </p>
@@ -32,6 +33,7 @@ layout: layout-tier2.html
       <div class="col-xs-12 col-sm-10 workshop-list">
         <h2><a href="../speakers/alberto-brandolini.html">EventStorming Masterclass</a></h2>
             <p class="copy">
+                <span class="workshops--duration">2-Day Workshop</span>
                 <span class="workshops--speaker-name">Alberto Brandolini</span>
                 <span class="workshops--speaker-title">Inventor of EventStorming</span>
             </p>

@@ -1147,7 +1147,14 @@ footer {
         color: #fdc33c;
       }
     }
-  }
+	}
+	.workshops--duration {
+		display: block;
+		color: $brand-blue;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-bottom: 7px;
+	}
   .workshops--speaker-name {
     display: block;
     color: $brand-body;
