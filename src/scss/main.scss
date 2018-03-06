@@ -1579,6 +1579,14 @@ strong {
 	}
 }
 
+//venue specific styles
+// Location page
+.venue.hero {
+	background-image: url('../img/Explore DDD-website-Location page-Header-image.png');
+	background-size: cover;
+	background-position: bottom center;
+	height: 400px;
+}
 .venue--address--reserve-btn-row {
 	.venue--address {
 		width: 50%;
