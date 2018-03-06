@@ -6,12 +6,20 @@ layout: layout-tier2.html
 </div>
 <div class="container section page">
 	<h1 class="section-header">Venue</h1>
-  <p class="copy" style="text-align: center;"><a href="https://aws.passkey.com/go/exploreddd2018">Grand Hyatt Denver</a><br>1750 Wellton Street<br>Denver, CO 80202 USA</p>
-	<p class="copy">The main conference will be hosted in the incredible Pinnacle Club of the Grand Hyatt Denver, a luxury event venue located on the 38th floor and overlooking the entire Rocky Mountain Front Range. The pre-conference workshops will be located on the 2nd floor of the Grand Hyatt Denver.</p>
+  
+  <div class="row venue--address--reserve-btn-row">
+    <div class="col-xs-12 col-md-6">
+      <p class="copy" style="text-align: center;"><a href="https://aws.passkey.com/go/exploreddd2018">Grand Hyatt Denver</a><br>1750 Wellton Street<br>Denver, CO 80202 USA</p>
+    </div>
+    <div class="col-xs-12 col-md-6">
+    <a class="venue--reserve-room-btn" href="https://aws.passkey.com/go/exploreddd2018">Reserve Your Room</a>
+    </div>
+  </div>
 
-  <iframe width="552" height="312"
-    src="https://www.youtube.com/embed/CzZdojjuMm0">
-  </iframe>
+  <p class="copy">The main conference will be hosted in the incredible Pinnacle Club of the Grand Hyatt Denver, a luxury event venue located on the 38th floor and overlooking the entire Rocky Mountain Front Range. The pre-conference workshops will be located on the 2nd floor of the Grand Hyatt Denver.</p>
+  <div class="video-responsive">
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/CzZdojjuMm0" frameborder="0" allowfullscreen></iframe>
+  </div>
 
   <p class="copy">The Grand Hyatt Denver hotel has the following features:</p>
 
@@ -36,9 +44,9 @@ layout: layout-tier2.html
 
   <p class="copy">Welcome to Denver, where 300 days of sunshine, a thriving cultural scene, diverse neighborhoods, and natural beauty combine for the world's most spectacular playground. For more information, see <a href="http://www.denver.org">www.denver.org.</a></p>
 
-  <iframe width="552" height="312"
-    src="https://www.youtube.com/embed/26RxUbH8HnU">
-  </iframe>
+  <div class="video-responsive">
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/26RxUbH8HnU" frameborder="0" allowfullscreen></iframe>
+  </div>
 
   <p class="copy">September in Denver is typically a beautiful time of year in Colorado, with the leaves changing into Fall colors in the mountains and pleasant warm weather to enjoy in the city and surrounds.</p>
 

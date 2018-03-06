@@ -1458,7 +1458,7 @@ footer {
      width: 470px;
    }
   }
-  input[type=submit] {
+  input[type=submit], .venue--reserve-room-btn {
     color: $brand-white;
     font-family: NunitoSansSemiBold, sans-serif;
     background-color: $brand-blue;
@@ -1468,7 +1468,20 @@ footer {
     &:hover {
       color: $brand-button-link-hover;
     }
-  }
+	}
+	/* get these to work for venue "book now button" */
+	.venue--reserve-room-btn {
+		color: $brand-white;
+    font-family: NunitoSansSemiBold, sans-serif;
+    background-color: $brand-blue;
+    border: 0;
+    font-size: 18px;
+		padding: 15px;
+		border: 1px solid red;
+    &:hover {
+      color: $brand-button-link-hover;
+    }
+	}
   #mce-error-response, #mce-success-response {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1577,4 +1590,8 @@ strong {
 			padding-bottom: 0;
 		}
 	}
+}
+
+.venue--address--reserve-btn-row {
+	padding-bottom: 25px;
 }
