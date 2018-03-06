@@ -1378,10 +1378,10 @@ footer {
 
 //button styles
 .btn {
-  background: $brand-body;
-  font-family: NunitoSansLight, sans-serif !important;
+  background: $brand-blue;
+  font-family: NunitoSansSemiBold, sans-serif !important;
   border-radius: 0;
-  color: #ffebc1;
+  color: $brand-white;
   font-size: 20px;
   padding: 20px 30px 20px 30px;
   text-decoration: none;
@@ -1458,26 +1458,13 @@ footer {
      width: 470px;
    }
   }
-  input[type=submit], .venue--reserve-room-btn {
+  input[type=submit] {
     color: $brand-white;
     font-family: NunitoSansSemiBold, sans-serif;
     background-color: $brand-blue;
     border: 0;
     font-size: 18px;
     padding: 15px;
-    &:hover {
-      color: $brand-button-link-hover;
-    }
-	}
-	/* get these to work for venue "book now button" */
-	.venue--reserve-room-btn {
-		color: $brand-white;
-    font-family: NunitoSansSemiBold, sans-serif;
-    background-color: $brand-blue;
-    border: 0;
-    font-size: 18px;
-		padding: 15px;
-		border: 1px solid red;
     &:hover {
       color: $brand-button-link-hover;
     }
@@ -1593,5 +1580,22 @@ strong {
 }
 
 .venue--address--reserve-btn-row {
-	padding-bottom: 25px;
+	.venue--address {
+		width: 50%;
+		float: left;
+	}
+	.venue--reserve-btn {
+		width: 50%;
+		float: right;
+	}
+	.btn {
+		display: block;
+		margin: 0 auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		@include mq(md) {
+			margin-top: 0;
+			padding: 20px;
+		}
+	}
 }
