@@ -1588,22 +1588,11 @@ strong {
 	height: 400px;
 }
 .venue--address--reserve-btn-row {
-	.venue--address {
-		width: 50%;
-		float: left;
-	}
-	.venue--reserve-btn {
-		width: 50%;
-		float: right;
-	}
+	text-align: center;
 	.btn {
-		display: block;
-		margin: 0 auto;
-		margin-top: 25px;
+		display: inline-block;
+		//margin-top: 25px;
 		margin-bottom: 25px;
-		@include mq(md) {
-			margin-top: 0;
-			padding: 20px;
-		}
+		padding: 15px;
 	}
 }
