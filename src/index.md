@@ -9,7 +9,7 @@ layout: layout.html
         <div class="container">
           <div class="register-copy">
             <h1>EXPLORE DDD 2018<br>SEPT 11-14</h1>            
-            <a href="cfp/">CFP NOW OPEN</a>
+            <p>REGISTRATION OPENS MARCH 21</a>
           </div>
         </div>
       </li>
