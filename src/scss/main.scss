@@ -1128,7 +1128,7 @@ footer {
 }
 .workshop-list {
   @include mq(sm) {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 65px;
   }
   @include mq(md) {
@@ -1154,14 +1154,15 @@ footer {
 		color: $brand-blue;
 		font-weight: 500;
 		text-transform: uppercase;
-		margin-bottom: 7px;
+		margin-bottom: 8px;
 	}
   .workshops--speaker-name {
     display: block;
     color: $brand-body;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: auto;
+		font-size: auto;
+		margin-bottom: 7px
   }
   .workshops--speaker-title {
     font-style: italic;

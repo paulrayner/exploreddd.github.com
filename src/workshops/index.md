@@ -17,7 +17,6 @@ layout: layout-tier2.html
             <h2><a href="essential-ddd.html">Essential DDD</a></h2>
             <p class="copy">
                 <span class="workshops--speaker-name">Paul Rayner</span>
-                <span class="workshops--duration">2-Day Workshop</span>
             </p>            
       </div>
     </div>
@@ -31,8 +30,7 @@ layout: layout-tier2.html
         <div class="col-xs-12 col-sm-10 workshop-list">
         <h2><a href="eventstorming-masterclass.html">EventStorming Masterclass</a></h2>
             <p class="copy">
-                <span class="workshops--speaker-name">Alberto Brandolini</span>
-                <span class="workshops--duration">2-Day Workshop</span>                
+                <span class="workshops--speaker-name">Alberto Brandolini</span>                
             </p>            
       </div>
     </div>
