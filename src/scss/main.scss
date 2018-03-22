@@ -1159,6 +1159,10 @@ footer {
 		font-weight: 500;
 		text-transform: uppercase;
 		margin-bottom: 8px;
+		@include mq(xs) {
+			text-align: center;
+			padding-bottom: 0;
+		}
 	}
   .workshops--speaker-name {
     display: block;
