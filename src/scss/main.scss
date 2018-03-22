@@ -1127,19 +1127,23 @@ footer {
   }
 }
 .workshop-list {
+	max-width: 640px;
+	@include mq(xs) {
+		text-align: center;
+		padding-bottom: 0;
+	}
   @include mq(sm) {
     padding-top: 20px;
-    padding-left: 65px;
+		padding-left: 65px;
+		padding-bottom: 80px;
   }
   @include mq(md) {
     padding-left: 35px;
   }
-  padding-bottom: 3em;
-  max-width: 640px;
   h2 {
     text-transform: uppercase;
     font-family: NunitoSansSemiBold, sans-serif;
-    font-size: 24px;
+		font-size: 24px;
     a {
       color: #f0b310;
       transition: color 0.2s ease 0s;
@@ -1162,7 +1166,10 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
 		font-size: auto;
-		margin-bottom: 7px
+		margin-bottom: 7px;
+		@include mq(xs) {
+			text-align: center; 
+		}
   }
   .workshops--speaker-title {
     font-style: italic;

@@ -17,8 +17,8 @@ layout: layout-tier2.html
             <h2><a href="essential-ddd.html">Essential DDD</a></h2>
             <p class="copy">
                 <span class="workshops--speaker-name">Paul Rayner</span>
-            </p>            
-      </div>
+            </p>
+        </div>
     </div>
 	<!-- begin workshop element -->
 	<div class="row">
@@ -31,7 +31,12 @@ layout: layout-tier2.html
         <h2><a href="eventstorming-masterclass.html">EventStorming Masterclass</a></h2>
             <p class="copy">
                 <span class="workshops--speaker-name">Alberto Brandolini</span>                
-            </p>            
-      </div>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12" align="center">
+            <a class="btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
+        </div>
     </div>
 </div> <!-- container -->

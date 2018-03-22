@@ -12,8 +12,8 @@ layout: layout-tier2.html
             <div class="speaker-container">
                 <a href="../speakers/paul-rayner.html"><div class="speaker-img paul-rayner"></div></a>
                 </div>
-          </div>
-      <div class="col-xs-12 col-sm-10 workshop-list">
+            </div>
+        <div class="col-xs-12 col-sm-10 workshop-list">
         <!--<h2><a href="../speakers/paul-rayner.html">Essential DDD</a></h2>-->
             <p class="copy">            
                 <span class="workshops--speaker-name"><a href="../speakers/paul-rayner.html">Paul Rayner</a></span>
@@ -43,6 +43,6 @@ layout: layout-tier2.html
             <li>Architectural patterns to support DDD.</li>
             </ul>
             <p class="copy">The workshop is very hands-on and interactive, will help you connect everything in DDD together and see how it fits and what's most important, and give you practical tools to take away and try on your project. We will be doing some pairing exercises which will require laptops. We will be reading code, but no coding experience is necessary. </p>
-            </div>
-            </div>
-        </div> <!-- container -->
+        </div>
+    </div>
+</div> <!-- container -->
