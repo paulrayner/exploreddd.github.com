@@ -7,6 +7,19 @@ layout: layout-tier2.html
 		Want to maximize your learning by really digging into a topic and getting hands-on experience with an expert instructor? We will be offering full-day (9am-5pm) pre-conference workshops prior to the Wednesday evening conference kickoff on Tuesday and Wednesday, September 11 &amp; 12, 2018.
 	</p>
 	<!-- begin workshop element -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-2">
+            <div class="speaker-container">
+                <a href="strategic-ddd.html"><div class="speaker-img eric-evans"></div></a>
+            </div>
+          </div>
+        <div class="col-xs-12 col-sm-10 workshop-list">
+            <h2><a href="strategic-ddd.html">Strategic DDD</a></h2>
+            <p class="copy">
+                <span class="workshops--speaker-name">Eric Evans</span>
+            </p>
+        </div>
+    </div>
 	<div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">

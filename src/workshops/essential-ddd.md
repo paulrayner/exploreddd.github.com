@@ -20,7 +20,9 @@ layout: layout-tier2.html
                 <span class="workshops--duration">2-Day Workshop</span>
             </p>
             <h2 class="speaker-subheader"><strong>Essential Domain–Driven Design</strong></h2>
-            <img src="../img/workshop/Workshop-Paul-Rayner.png" class="speaker--workshop-content-img" alt="" />
+            <div class="col-xs-12" align="center">
+                <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
+            </div>
             <h2 class="speaker-subheader">Reasons to attend...</h2>
             <p></p>
             <ul class="copy-list">
@@ -29,6 +31,7 @@ layout: layout-tier2.html
             <li>Feeling overwhelmed by the vast amount of DDD material/advice available?</li>
             <li>Or maybe you’re unsure how to apply DDD on your project work?</li>
             </ul>
+            <img src="../img/workshop/Workshop-Paul-Rayner.png" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
             <p class="copy">If you fit into one of these categories, then this workshop is for you – It’s easy to get lost in the patterns and acronyms and miss the essence of DDD. This workshop will provide you with a solid grounding in the foundational ideas, techniques and skills for doing DDD well in your own project context.</p>
             <h2 class="speaker-subheader">This is what you learn</h2>
             <ul class="copy-list">

@@ -1600,7 +1600,7 @@ strong {
 	background-position: bottom center;
 	height: 400px;
 }
-.venue--address--reserve-btn-row {
+.venue--address--reserve-btn-row, .get-ticket-btn {
 	text-align: center;
 	.btn {
 		display: inline-block;
@@ -1608,4 +1608,10 @@ strong {
 		margin-bottom: 25px;
 		padding: 15px;
 	}
+}
+.get-ticket-btn { //same style as reserve button on venue page above.
+		display: inline-block;
+		//margin-top: 25px;
+		margin-bottom: 25px;
+		padding: 15px;
 }
