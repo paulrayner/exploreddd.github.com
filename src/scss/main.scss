@@ -1004,7 +1004,7 @@ footer {
 		text-align: left;
 	}
 	.speaker-subheader {
-		color: $brand-body;
+		color: $brand-blue;
 		text-align: left;
 		text-transform: uppercase;
 	}
@@ -1086,6 +1086,7 @@ footer {
 .speaker-subheader {
 	font-family: NunitoSansBold, sans-serif;
 	font-size: 18px;
+	color: $brand-blue;
 	margin: 25px 0 25px 0;
 }
 
@@ -1139,7 +1140,11 @@ footer {
   }
   @include mq(md) {
     padding-left: 35px;
-  }
+	}
+	.section-header {
+		text-align: left;
+		
+	}
   h2 {
     text-transform: uppercase;
     font-family: NunitoSansSemiBold, sans-serif;
@@ -1178,6 +1183,22 @@ footer {
   .workshops--speaker-title {
     font-style: italic;
   }
+}
+
+//Workshop page (individual)
+.workshop-page {
+	margin-top: 30px;
+	.workshop-list {
+		margin-top: 0;
+		p.copy {
+			margin-top: 0;
+		}
+		.section-header {
+			margin-top: 0;
+			margin-bottom: 10px;
+		}	
+	}
+	
 }
 
 //Schedule page
@@ -1605,13 +1626,15 @@ strong {
 	.btn {
 		display: inline-block;
 		//margin-top: 25px;
-		margin-bottom: 25px;
 		padding: 15px;
 	}
 }
 .get-ticket-btn { //same style as reserve button on venue page above.
 		display: inline-block;
 		//margin-top: 25px;
-		margin-bottom: 25px;
+		margin-bottom: 0;
 		padding: 15px;
+}
+.spacer {
+	margin-top: 30px;
 }

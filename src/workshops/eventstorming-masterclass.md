@@ -1,11 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section workshops">
-	<h1 class="section-header">Eventstorming Masterclass</h1>
-	<!--<p class="copy">
-		Want to maximize your learning by really digging into a topic and getting hands-on experience with an expert instructor? We will be offering full-day (9am-5pm) pre-conference workshops prior to the Wednesday evening conference kickoff on Tuesday and Wednesday, September 11 &amp; 12, 2018.
-	</p>-->
+<div class="container section workshop-page">
 	<!-- begin workshop element -->
 	<div class="row">
       <div class="col-xs-12 col-sm-2">
@@ -14,15 +10,11 @@ layout: layout-tier2.html
                 </div>
           </div>
       <div class="col-xs-12 col-sm-10 workshop-list">
-            <p class="copy">            
-                <span class="workshops--speaker-name">
-                <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></span>
-                <span class="workshops--duration">2-Day Workshop</span>
-            </p>
-            <!--<h2 class="speaker-subheader"><strong>Eventstorming Masterclass</strong></h2>-->
-            <div class="col-xs-12" align="center">
+        <h1 class="section-header">Eventstorming Masterclass</h1>
+        <span class="workshops--speaker-name">
+        <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></span>
+        <span class="workshops--duration">2-Day Workshop</span>
                 <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
-            </div>
             <p class="copy" style="margin-top: 25px">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way.</p>
             <p class="copy">In this two day format we’ll experience the different formats, working around real business problems.
             We’ll take into account the different perspectives (including the facilitator) in a process that spans large scale discovery, to leverage collaborative design.
