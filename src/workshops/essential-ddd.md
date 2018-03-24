@@ -19,7 +19,7 @@ layout: layout-tier2.html
                 <span class="workshops--speaker-name"><a href="../speakers/paul-rayner.html">Paul Rayner</a></span>
                 <span class="workshops--duration">2-Day Workshop</span>
             </p>
-            <h2 class="speaker-subheader"><strong>Essential Domain–Driven Design</strong></h2>
+            <!--<h2 class="speaker-subheader"><strong>Essential Domain–Driven Design</strong></h2>-->
             <div class="col-xs-12" align="center">
                 <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
             </div>
@@ -47,7 +47,7 @@ layout: layout-tier2.html
             </ul>
             <p class="copy">The workshop is very hands-on and interactive, will help you connect everything in DDD together and see how it fits and what's most important, and give you practical tools to take away and try on your project. We will be doing some pairing exercises which will require laptops. We will be reading code, but no coding experience is necessary. </p>
             <div class="col-xs-12" align="center">
-                <a class="btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
+                <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
             </div>
         </div>
     </div>
