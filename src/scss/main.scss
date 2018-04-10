@@ -1129,14 +1129,13 @@ footer {
 }
 .workshop-list {
 	max-width: 640px;
+	padding-bottom: 30px;
 	@include mq(xs) {
 		text-align: center;
-		padding-bottom: 0;
 	}
   @include mq(sm) {
     padding-top: 20px;
 		padding-left: 65px;
-		padding-bottom: 80px;
   }
   @include mq(md) {
     padding-left: 35px;

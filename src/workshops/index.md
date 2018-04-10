@@ -6,6 +6,11 @@ layout: layout-tier2.html
 	<p class="copy">
 		Want to maximize your learning by really digging into a topic and getting hands-on experience with an expert instructor? We will be offering full-day (9am-5pm) pre-conference workshops prior to the Wednesday evening conference kickoff on Tuesday and Wednesday, September 11 &amp; 12, 2018.
 	</p>
+    <div class="row">
+        <div class="col-xs-12" align="center">
+            <a class="btn" style="margin-bottom: 0;" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
+        </div>
+    </div>
 	<!-- begin workshop element -->
     <div class="row">
         <div class="col-xs-12 col-sm-2">
@@ -52,7 +57,7 @@ layout: layout-tier2.html
     </div>
     <div class="row">
         <div class="col-xs-12" align="center">
-            <a class="btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
+            <a class="btn" style="margin-top: 0;" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
         </div>
     </div>
 </div> <!-- container -->
