@@ -113,4 +113,56 @@ layout: layout.html
     </div>
     <!-- 2018 speakers will replace these comments as they come in. Keep it to 4 per row -->
   </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/allard-buijze.html"><div class="speaker-img allard-buijze">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/allard-buijze.html">Allard Buijze</a></h3>
+      <p class="speaker-details">Creator of Axon Framework</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/andrew-cassell.html"><div class="speaker-img andrew-cassell">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/andrew-cassell.html">Andrew Cassell</a></h3>
+      <p class="speaker-details">Web App Developer & Designer</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/david-boike.html"><div class="speaker-img david-boike">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/david-boike.html">David Boike</a></h3>
+      <p class="speaker-details">Distributed Systems and Stuff</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h3>
+      <p class="speaker-details">Event-Driven Model Enthusiast</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/julie-lerman.html"><div class="speaker-img julie-lerman">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/julie-lerman.html">Julie Lerman</a></h3>
+      <p class="speaker-details">Serial DDD Advocate</p>
+    </div>
+    <!--<div class="speaker-container">
+      <a href="speaker-name.html"><div class="speaker-img speaker-name">
+      </div></a>
+      <h3><a class="speaker-name" href="speaker-name.html">Speaker Name</a></h3>
+      <p class="speaker-details">Tagline</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speaker-name.html"><div class="speaker-img speaker-name">
+      </div></a>
+      <h3><a class="speaker-name" href="speaker-name.html">Speaker Name</a></h3>
+      <p class="speaker-details">Tagline</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speaker-name.html"><div class="speaker-img speaker-name">
+      </div></a>
+      <h3><a class="speaker-name" href="speaker-name.html">Speaker Name</a></h3>
+      <p class="speaker-details">Tagline</p>
+    </div>-->
+  </div>
 </div>

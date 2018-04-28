@@ -790,7 +790,23 @@ figure {
     text-decoration: none;
 	}
 }
-
+//sprite rules for workshops hosted by two speakers.
+.co-workshop-img {
+	background-size: 315px;
+	background-position: -160px;
+	height: 150px;
+	width: 150px;
+	&.indu-and-david {
+		background-image: url('../img/speakers/sprite-indu-and-david.png');
+	}
+	&:hover {
+		background-position: 1px;
+	}
+	&.no-hover { 
+		background-position: -160px; //stop hover since link was removed for co-workshop page
+	}
+}
+//sprites for individual speaker images
 .speaker-img {
   background-size:312px;
   background-position: -156px;
@@ -810,21 +826,48 @@ figure {
 	}
 	&.paul-rayner {
 		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
-
 		&:hover {
 			background-position: 0;
 		}
 	}
 	&.alberto-brandolini {
 		background-image: url('../img/speakers/sprite-alberto-brandolini.jpg');
-
 		&:hover {
 			background-position: 0;
 		}
 	}
 	&.michael-feathers {
 		background-image: url('../img/speakers/sprite-michael-feathers.jpg');
-
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.allard-buijze {
+		background-image: url('../img/speakers/sprite-allard-buijze.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.andrew-cassell {
+		background-image: url('../img/speakers/sprite-andrew-cassell.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.david-boike {
+		background-image: url('../img/speakers/sprite-david-boike.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.indu-alagarsamy {
+		background-image: url('../img/speakers/sprite-indu-alagarsamy.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.julie-lerman {
+		background-image: url('../img/speakers/sprite-julie-lerman.jpg');
 		&:hover {
 			background-position: 0;
 		}
