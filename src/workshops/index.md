@@ -22,7 +22,7 @@ layout: layout-tier2.html
             <h2><a href="strategic-ddd.html">Strategic DDD</a></h2>
             <p class="copy">
                 <span class="workshops--speaker-name">Eric Evans</span>
-                <span class="workshops--duration">2-Day Workshop<br>Tues-Weds Sept 11-12</span>
+                <span class="workshops--duration">2-Day Workshop<br>Tues,Weds Sept 11-12</span>
             </p>
             <p class="copy">Some design decisions have an impact on the trajectory of the whole project. Modeling is most needed in complex circumstances, yet the typical dynamics of large projects too often derail it or disconnect it from the real design. This course delves into principles for clarifying the big picture, getting effort focused on the core, and coordinating multi-team development. <a href="strategic-ddd.html">Read more...</a></p>
         </div>
@@ -37,7 +37,7 @@ layout: layout-tier2.html
             <h2><a href="essential-ddd.html">Essential DDD</a></h2>
             <p class="copy">
                 <span class="workshops--speaker-name">Paul Rayner</span>
-                <span class="workshops--duration">2-Day Workshop<br>Tues-Weds Sept 11-12</span>
+                <span class="workshops--duration">2-Day Workshop<br>Tues,Weds Sept 11-12</span>
             </p>
             <p class="copy">It’s easy to get lost in the patterns and acronyms and miss the essence of DDD. This workshop will provide you with a solid grounding in the foundational ideas, techniques and skills for doing DDD well in your own project context. The workshop is very hands-on and interactive, will help you connect everything in DDD together and see how it fits and what's most important, and give you practical tools to take away and try on your project. <a href="essential-ddd.html">Read more...</a></p>
         </div>
@@ -53,7 +53,7 @@ layout: layout-tier2.html
         <h2><a href="eventstorming-masterclass.html">EventStorming Masterclass</a></h2>
         <p class="copy">
             <span class="workshops--speaker-name">Alberto Brandolini</span>
-            <span class="workshops--duration">2-Day Workshop<br>Tues-Weds Sept 11-12</span>
+            <span class="workshops--duration">2-Day Workshop<br>Tues,Weds Sept 11-12</span>
         </p>
         <p class="copy">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way. In this two day format we’ll experience the different formats, working around real business problems. We’ll take into account the different perspectives (including the facilitator) in a process that spans large scale discovery, to leverage collaborative design. We’ll experience the how, and we’ll discuss the why. <a href="eventstorming-masterclass.html">Read more...</a></p>
         </div>
@@ -69,7 +69,7 @@ layout: layout-tier2.html
         <h2><a href="event-driven-microservices-with-axon-framework.html">Event Driven Microservices With Axon Framework</a></h2>
         <p class="copy">
             <span class="workshops--speaker-name">Allard Buijze</span>
-            <span class="workshops--duration">2-Day Workshop<br>Tues-Weds Sept 11-12</span>
+            <span class="workshops--duration">2-Day Workshop<br>Tues,Weds Sept 11-12</span>
         </p>
         <p class="copy">Strategic design does not stop at defining boundaries around business capabilities - it should reach out for truly smart endpoints, emphasize autonomy and the need for more coarse-grained and asynchronous APIs. The long-running services behind such APIs feel responsible for their business and sort out most problems without leaking internal troubles and bothering their clients. While long-running services will leverage domain events for decoupling, they will often expose their core functions as commands - in order to minimise overall coupling! Extracting the customer-facing core processes of companies into dedicated, long-running services allows to keep sight of larger-scale flows - without violating bounded contexts or introducing god services. In this talk, Martin not only explores strategic design in the light of understanding the long-running nature of delivering many real-life business capabilities. He will also show the practical side of the equation: implementing long-running behaviour of services, requiring proper reactions on failures, timeouts and the compensating actions sagas are known for. A new generation of lightweight, embeddable and scalable saga managers and flow engines assist in that endeavour. Expect real-life experience and many examples! <a href="event-driven-microservices-with-axon-framework.html">Read more...</a></p>
         </div>
@@ -100,7 +100,7 @@ layout: layout-tier2.html
         <h2><a href="soa-done-right.html">SOA Done Right (with examples in ASP.NET and NServiceBus)</a></h2>
         <p class="copy">
             <span class="workshops--speaker-name">Indu Alagarsamy and David Boike</span>
-            <span class="workshops--duration">2-Day Workshop<br>Tues-Weds Sept 11-12</span>
+            <span class="workshops--duration">2-Day Workshop<br>Tues,Weds Sept 11-12</span>
         </p>
         <p class="copy">We’ll understand service oriented architecture concepts, and DDD concepts such as bounded contexts and data ownership. We’ll apply those concepts to build a simple, yet fully functional, order management system sample with a service-oriented architecture, using patterns such as command processing, pub/sub, and long-running sagas. <a href="soa-done-right.html">Read more...</a></p>
         </div>
