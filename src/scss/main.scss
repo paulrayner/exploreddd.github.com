@@ -796,11 +796,14 @@ figure {
 	background-position: -160px;
 	height: 150px;
 	width: 150px;
+	margin: 0 auto;
 	&.indu-and-david {
 		background-image: url('../img/speakers/sprite-indu-and-david.png');
+		background-position: 1px; //keep it coloured even when not during hover state
 	}
 	&:hover {
-		background-position: 1px;
+		cursor: pointer;
+    cursor: hand;
 	}
 	&.no-hover { 
 		background-position: -160px; //stop hover since link was removed for co-workshop page
@@ -816,8 +819,11 @@ figure {
 	border-radius: 120px;
   @include mq(xs) {
     margin-top: 15px;
-  }
-
+	}
+	&:hover {
+		cursor: pointer;
+		cursor: hand;
+	}
 	&.eric-evans {
 		background-image: url('../img/speakers/sprite-eric-evans.jpg');
 		&:hover {
@@ -872,7 +878,9 @@ figure {
 			background-position: 0;
 		}
 	}
-	
+	&.keep-color { 
+		background-position: 0; //stop hover since link was removed for co-workshop page
+	}
 }
 
 //workshop images 

@@ -6,14 +6,14 @@ layout: layout-tier2.html
 	<div class="row">
       <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <a href="../speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini"></div></a>
+                <a href="../speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini keep-color"></div></a>
                 </div>
           </div>
       <div class="col-xs-12 col-sm-10 workshop-list">
         <h1 class="section-header">Eventstorming Masterclass</h1>
         <span class="workshops--speaker-name">
         <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></span>
-        <span class="workshops--duration">2-Day Workshop<br>Tues-Weds Sept 11-12</span>
+        <span class="workshops--duration">2-Day Workshop<br>Tues,Weds Sept 11-12</span>
                 <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
             <p class="copy" style="margin-top: 25px">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way.</p>
             <p class="copy">In this two day format we’ll experience the different formats, working around real business problems.
