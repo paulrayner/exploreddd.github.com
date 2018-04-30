@@ -799,14 +799,15 @@ figure {
 	margin: 0 auto;
 	&.indu-and-david {
 		background-image: url('../img/speakers/sprite-indu-and-david.png');
-		background-position: 1px; //keep it coloured even when not during hover state
-	}
-	&:hover {
-		cursor: pointer;
-    cursor: hand;
+		background-position: -160px; //keep it coloured even when not during hover state
+		&:hover {
+			cursor: pointer;
+			cursor: hand;
+			background-position: 1px;
+		}
 	}
 	&.no-hover { 
-		background-position: -160px; //stop hover since link was removed for co-workshop page
+		background-position: 1px; //stop hover since link was removed for co-workshop page
 	}
 }
 //sprites for individual speaker images

@@ -62,7 +62,7 @@ layout: layout-tier2.html
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <a href="soa-done-right.html"><div class="co-workshop-img indu-and-david no-hover"></div></a>
+                <a href="soa-done-right.html"><div class="co-workshop-img indu-and-david"></div></a>
                 </div>
             </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
