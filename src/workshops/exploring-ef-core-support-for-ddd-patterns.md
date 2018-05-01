@@ -12,7 +12,7 @@ layout: layout-tier2.html
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h1 class="section-header">Exploring EF Core Support for DDD Patterns</h1>
             <span class="workshops--speaker-name"><a href="../speakers/julie-lerman.html">Julie Lerman</a></span>
-            <span class="workshops--duration">1-Day Workshop<br>Tues, Sept 11</span>
+            <span class="workshops--duration">1-Day Workshop<br>Tue Sept 11</span>
             <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
             <p class="copy" style="margin-top: 25px">Entity Framework half-heartedly supported DDD patterns. But the new-from-scratch EF Core has brought new hope for DDD practitioners to be able to map their DDD designed domain classes to a database without making so many concessions that a separate data model was needed. EF Core 2 is very DDD friendly even supporting things like fully encapsulated collections, backing fields and the return of support for value objects. In this hands on workshop you’ll work with well-designed aggregates and explore how far EF Core 2 goes to act as the data model between your domain classes and your data store.</p>
             <img src="../img/workshop/Workshop-Julie-Lerman.png" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
