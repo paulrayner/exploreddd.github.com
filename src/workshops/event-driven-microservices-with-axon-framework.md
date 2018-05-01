@@ -6,7 +6,7 @@ layout: layout-tier2.html
 	<div class="row">
       <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <a href="../speakers/allard-buijze.html"><div class="speaker-img allard-buijze"></div></a>
+                <a href="../speakers/allard-buijze.html"><div class="speaker-img allard-buijze keep-color"></div></a>
                 </div>
             </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
