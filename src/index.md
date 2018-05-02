@@ -115,10 +115,10 @@ layout: layout.html
   </div>
   <div class="row">
     <div class="speaker-container">
-      <a href="speakers/allard-buijze.html"><div class="speaker-img allard-buijze">
+      <a href="speakers/julie-lerman.html"><div class="speaker-img julie-lerman">
       </div></a>
-      <h3><a class="speaker-name" href="speakers/allard-buijze.html">Allard Buijze</a></h3>
-      <p class="speaker-details">Creator of Axon Framework</p>
+      <h3><a class="speaker-name" href="speakers/julie-lerman.html">Julie Lerman</a></h3>
+      <p class="speaker-details">Serial DDD Advocate</p>
     </div>
     <div class="speaker-container">
       <a href="speakers/andrew-cassell.html"><div class="speaker-img andrew-cassell">
@@ -141,10 +141,10 @@ layout: layout.html
   </div>
   <div class="row">
     <div class="speaker-container">
-      <a href="speakers/julie-lerman.html"><div class="speaker-img julie-lerman">
+      <a href="speakers/allard-buijze.html"><div class="speaker-img allard-buijze">
       </div></a>
-      <h3><a class="speaker-name" href="speakers/julie-lerman.html">Julie Lerman</a></h3>
-      <p class="speaker-details">Serial DDD Advocate</p>
+      <h3><a class="speaker-name" href="speakers/allard-buijze.html">Allard Buijze</a></h3>
+      <p class="speaker-details">Creator of Axon Framework</p>
     </div>
     <!--<div class="speaker-container">
       <a href="speaker-name.html"><div class="speaker-img speaker-name">
