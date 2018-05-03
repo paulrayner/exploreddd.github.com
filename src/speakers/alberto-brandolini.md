@@ -17,7 +17,7 @@ layout: layout-speaker.html
       <p class="copy">Alberto Brandolini is an IT Professional that gets bored doing things in the same old way. This led him into unexplored areas of Domain-Driven Design, Lean and Agile Software Development, learning and change management, where he likes to bring apparent chaotic fuzziness and a comic-like visual touch. An active consultant in software product development, he also runs his company Avanscoperta.</p>
       <p class="copy">He’s frequently invited as a speaker in many conferences in Italy (where he’s based) and around Europe.</p>
 
-      <h2 class="conference-emphasis">Two day pre-conference workshop, Tue-Wed Sept. 11-12</h2>
+      <h2 class="speaker-subheader">Two day pre-conference workshop, Tue-Wed, Sept. 11-12</h2>
       <h2 class="speaker-subheader"><a href="../workshops/eventstorming-masterclass.html">EventStorming Master Class</a></h2>
       <p class="copy">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way. In this two day format we’ll experience the different formats, working around real business problems.
       We’ll take into account the different perspectives (including the facilitator) in a process that spans large scale discovery, to leverage collaborative design.
