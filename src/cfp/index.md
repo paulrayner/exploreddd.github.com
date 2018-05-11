@@ -13,8 +13,8 @@ layout: layout-tier2.html
 
   <p class="copy">We are dedicated to creating a safe, welcoming environment for everyone. As part of submitting a proposal, you agree to comply with the conference [Code of Conduct](../about).</p>
 
-  <p class="cfp-cta">Ready to submit? Go to our online form to <a href="https://virtualgenius.typeform.com/to/J6fHKP" >Submit Your Proposal(s)</a></p>
-  <p><p>
+  <!--<p class="cfp-cta">Ready to submit? Go to our online form to <a href="https://virtualgenius.typeform.com/to/J6fHKP" >Submit Your Proposal(s)</a></p>
+  <p><p>-->
 
   <p class="copy"><em>To maximize your chances of being on the conference program, please read and follow the CFP guidelines below carefully.</em></p>
 
