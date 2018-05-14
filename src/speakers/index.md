@@ -63,5 +63,11 @@ layout: layout-tier2.html
       <h3><a class="speaker-name" href="allard-buijze.html">Allard Buijze</a></h3>
       <p class="speaker-details">Creator of Axon Framework</p>
     </div>
+    <div class="speaker-container">
+      <a href="mathias-verraes.html"><div class="speaker-img mathias-verraes">
+      </div></a>
+      <h3><a class="speaker-name" href="mathias-verraes.html">mathias-verraes</a></h3>
+      <p class="speaker-details">Student of Systems</p>
+    </div>
   </div>
 </div>

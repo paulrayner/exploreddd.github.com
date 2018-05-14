@@ -656,7 +656,7 @@ s
 	}
 }
 
-.copy {
+.copy, blockquote {
 	color: $brand-body;
 	display: block;
 	font-family: NunitoSansLight, sans-serif;
@@ -875,6 +875,12 @@ figure {
 	}
 	&.julie-lerman {
 		background-image: url('../img/speakers/sprite-julie-lerman.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.mathias-verraes {
+		background-image: url('../img/speakers/sprite-mathias-verraes.jpg');
 		&:hover {
 			background-position: 0;
 		}
@@ -1693,4 +1699,38 @@ strong {
 }
 .spacer {
 	margin-top: 30px;
+}
+
+//blockquote styling
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid $brand-blue;
+  //margin: 1.5em 10px;
+  padding: 15px;
+	quotes: "\201C""\201D""\2018""\2019";
+	text-align: left;
+}
+blockquote:before {
+  color: $brand-blue;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p:first-child:after {
+		color: $brand-blue;
+		content: close-quote;
+		display: block;
+		font-size: 4em;
+		line-height: 0.1em;
+		margin-top: 0.6em;
+		//vertical-align: -0.4em;
+}
+blockquote p:first-child {
+	margin-bottom: 0;
+}
+blockquote p {
+  display: inline;
 }

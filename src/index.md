@@ -146,23 +146,11 @@ layout: layout.html
       <h3><a class="speaker-name" href="speakers/allard-buijze.html">Allard Buijze</a></h3>
       <p class="speaker-details">Creator of Axon Framework</p>
     </div>
-    <!--<div class="speaker-container">
-      <a href="speaker-name.html"><div class="speaker-img speaker-name">
-      </div></a>
-      <h3><a class="speaker-name" href="speaker-name.html">Speaker Name</a></h3>
-      <p class="speaker-details">Tagline</p>
-    </div>
     <div class="speaker-container">
-      <a href="speaker-name.html"><div class="speaker-img speaker-name">
+      <a href="speakers/mathias-verraes.html"><div class="speaker-img mathias-verraes">
       </div></a>
-      <h3><a class="speaker-name" href="speaker-name.html">Speaker Name</a></h3>
-      <p class="speaker-details">Tagline</p>
+      <h3><a class="speaker-name" href="speakers/mathias-verraes.html">Mathias Verraes</a></h3>
+      <p class="speaker-details">Student of Systems</p>
     </div>
-    <div class="speaker-container">
-      <a href="speaker-name.html"><div class="speaker-img speaker-name">
-      </div></a>
-      <h3><a class="speaker-name" href="speaker-name.html">Speaker Name</a></h3>
-      <p class="speaker-details">Tagline</p>
-    </div>-->
   </div>
 </div>
