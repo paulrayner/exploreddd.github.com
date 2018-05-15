@@ -10,9 +10,9 @@ layout: layout-tier2.html
                 </div>
             </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
-            <h1 class="section-header">DDD For Messaging Architectures</h1>
+            <h1 class="section-header">Strategic Autonomous Design Applied</h1>
             <span class="workshops--speaker-name"><a href="../speakers/nick-tune.html">Nick Tune</a> &amp; <!--<a href="../speakers/zsofia-Herendi.html">-->Zsofia Herendi<!--</a>--></span>
-            <span class="workshops--duration">3-Day Workshop<br>Mon-Wed, Sept 10-12</span>
+            <span class="workshops--duration">1-Day Workshop<br>Wed, Sept 12</span>
             <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
             <p class="copy" style="margin-top: 25px">Learn how to model a complex system and break it down into cohesive bounded contexts through hands-on group activities. This session will teach you skills you can immediately begin applying in your organisation to improve the autonomy of your software services and the teams that build and run them.</p>
             <img src="../img/workshop/Workshop-Nick-Tune-3.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
