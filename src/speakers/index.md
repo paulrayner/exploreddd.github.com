@@ -66,8 +66,19 @@ layout: layout-tier2.html
     <div class="speaker-container">
       <a href="mathias-verraes.html"><div class="speaker-img mathias-verraes">
       </div></a>
-      <h3><a class="speaker-name" href="mathias-verraes.html">mathias-verraes</a></h3>
+      <h3><a class="speaker-name" href="mathias-verraes.html">Mathias Verraes</a></h3>
       <p class="speaker-details">Student of Systems</p>
     </div>
+    <div class="speaker-container">
+      <a href="nick-tune.html"><div class="speaker-img nick-tune">
+      </div></a>
+      <h3><a class="speaker-name" href="nick-tune.html">Nick Tune</a></h3>
+      <p class="speaker-details">Strategic Design Specialist</p>
+    <!--</div>
+      <a href="zsofia-herendi.html"><div class="speaker-img zsofia-herendi">
+      </div></a>
+      <h3><a class="speaker-name" href="zsofia-herendi.html">Zsofia Herendi</a></h3>
+      <p class="speaker-details">tagline</p>
+    </div>-->
   </div>
 </div>

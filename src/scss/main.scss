@@ -688,6 +688,9 @@ figcaption a {
 
 	li {
 		margin-bottom: 10px;
+		ul {
+			margin-top: 10px;
+		}
 	}
 }
 
@@ -881,6 +884,24 @@ figure {
 	}
 	&.mathias-verraes {
 		background-image: url('../img/speakers/sprite-mathias-verraes.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.nick-tune {
+		background-image: url('../img/speakers/sprite-nick-tune.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.zsofia-herendi {
+		background-image: url('../img/speakers/sprite-zsofia-herendi.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.nick-and-zsofia {
+		background-image: url('../img/speakers/sprite-nick-and-zsofia.jpg');
 		&:hover {
 			background-position: 0;
 		}
