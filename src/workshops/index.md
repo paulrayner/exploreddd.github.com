@@ -22,7 +22,7 @@ layout: layout-tier2.html
         <h2><a href="ddd-for-messaging-architectures.html">DDD For Messaging Architectures</a></h2>
         <p class="copy">
             <span class="workshops--speaker-name">Mathias Verraes</span>
-            <span class="workshops--duration">3-Day Workshop<br>Mon-Wed, Sept 10-12</span>
+            <span class="workshops--duration">3-Day Workshop<br>Mon, Tues, Wed, Sept 10-12</span>
         </p>
         <p class="copy">Software design can have a very slow feedback loop: by the time you find out if the architectural and design decisions you made were the right ones, it may be too late for drastic changes. As developers, we tend to phrase all problems as technical problems, which can be sufficiently challenging in their own right. We tend to lose sight of the underlying business concerns. <a href="ddd-for-messaging-architectures.html">Read more...</a></p>
         </div>
