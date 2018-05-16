@@ -74,11 +74,11 @@ layout: layout-tier2.html
       </div></a>
       <h3><a class="speaker-name" href="nick-tune.html">Nick Tune</a></h3>
       <p class="speaker-details">Strategic Design Specialist</p>
-    <!--</div>
-      <a href="zsofia-herendi.html"><div class="speaker-img zsofia-herendi">
+    </div>
+      <a href="zsófia-herendi.html"><div class="speaker-img zsófia-herendi">
       </div></a>
-      <h3><a class="speaker-name" href="zsofia-herendi.html">Zsofia Herendi</a></h3>
-      <p class="speaker-details">tagline</p>
-    </div>-->
+      <h3><a class="speaker-name" href="zsófia-herendi.html">Zsófia Herendi</a></h3>
+      <p class="speaker-details">Flow Addict</p>
+    </div>
   </div>
 </div>
