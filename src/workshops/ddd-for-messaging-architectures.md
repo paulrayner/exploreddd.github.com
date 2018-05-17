@@ -14,33 +14,27 @@ layout: layout-tier2.html
             <span class="workshops--speaker-name"><a href="../speakers/mathias-verraes.html">mathias Verraes</a></span>
             <span class="workshops--duration">3-Day Workshop<br>Mon, Tues, Wed, Sept 10-12</span>
             <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
-            <p class="copy" style="margin-top: 25px">Software design can have a very slow feedback loop: by the time you find out if the architectural and design decisions you made were the right ones, it may be too late for drastic changes. As developers, we tend to phrase all problems as technical problems, which can be sufficiently challenging in their own right. We tend to lose sight of the underlying business concerns.</p>
-            <p class="copy">Domain–Driven Design is total approach to building software for complex domains. It’s a way of thinking that helps you decide how to tackle complexity, and where to focus your efforts. By putting the business at the heart of our software, and keeping our domain model closely tied to our understanding of the business, we can create value at a much deeper level.</p>
+            <p class="copy" style="margin-top: 25px">The software industry keeps moving towards more message-oriented architectures. These require different ways of reasoning about system design, domain modelling, evolutionary architectures.</p>
+            <p class="copy">Domain-Driven Design is exceptionally suitable for this: its fundamental principles are universal to software design, and apply well to all kinds of architectures: focus on domain language and collaborative modelling, Bounded Contexts, and mapping the relationships between Contexts.</p>
             <img src="../img/workshop/Workshop-Mathias-Verraes-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px" />
+            <p class="copy">What has changed, are the techniques to achieve those goals. This workshop takes a highly practical approach to improve your toolkit for reasoning about message architectures.</p>
             <blockquote>
                 <p class="copy">I spent three days immersed in the Domain–Driven Design world with Mathias. It was a great experience where I learned a lot about DDD. Mathias created an environment where we could interact all together experimenting with DDD. Furthermore Mathias adapted the workshop content dynamically to our needs and our concerns. It is a recommended experience!</p>
                 <p class="copy quote-source">— JORDI LLONCH, TECHNICAL LEAD, AKAMON ENTERTAINMENT (SPAIN)</p>
             </blockquote>
-            <h2 class="speaker-subheader">This is what you learn:</h2>
-            <p class="copy">In this workshop, we’ll explore this central premise of Domain–Driven Design. We’ll take a practical approach: participants will be working on real–world problems. There will be no easy answers. Instead, you’ll learn how to ask the right questions, and how to evaluate different models.</p>
+            <h2 class="speaker-subheader">What You'll Learn</h2>
             <ul class="copy-list">
-                <li>Discovering the domain and the Ubiquitous Language</li>
-                <li>Event Storming, conversations with Domain Experts</li>
-                <li>Creating a model to share insights between both technical and non–technical shareholders</li>
-                <li>Applying Systems Thinking and problem–solving techniques</li>
-                <li>Visualizing strategic design using Bounded Contexts and Context Mapping</li>
-                <li>Integrating with legacy systems</li>
-                <li>CQRS, Event Sourcing, temporal modelling</li>
-                <li>Modelling exercises</li>
-                <li>Distilling Design Heuristics</li>
+                <li>Event Storming, a collaborative exploration and modelling technique to help you map out a complex business domain.</li>
+                <li>Temporal Modelling, a modelling style that moves away from traditional structural models and ERDs, in favour of promoting events, processes, behaviours, and dependencies between business logic, to first class.</li>
+                <li>CQRS, an architectural model for better decoupling between different responsibilities.</li>
+                <li>Evolving message architectures when the business changes.</li>
+                <li>AStrategic Design, mapping Bounded Contexts, and reasoning about the relationships between services.</li>
             </ul>
-            <p class="copy">By keeping the group small, everyone’s questions can properly be addressed.</p>
-            <h2 class="speaker-subheader">Participation Requirements</h2>
+            <h2 class="speaker-subheader">Prerequisites</h2>
             <ul class="copy-list">
-                <li>You are a Software Developer with some years of experience in working with complex domains. You’re familiar with object–oriented programming.</li>
-                <li>It’s recommended to read “Domain–Driven Design” (Evans, 2004), but not essential.</li>
-                <li>Laptops or other devices are not required, but useful for taking notes.</li>
-                <li>The course is programming language agnostic.</li>
+                <li>Senior devs &amp; architects</li>
+                <li>Language-agnostic</li>
+                <li>No devices required</li>
             </ul>
             <img src="../img/workshop/Workshop-Mathias-Verraes-2.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
             <blockquote>
