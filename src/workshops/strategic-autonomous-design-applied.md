@@ -17,6 +17,10 @@ layout: layout-tier2.html
             <p class="copy" style="margin-top: 25px">Learn how to model a complex system and break it down into cohesive bounded contexts through hands-on group activities. This session will teach you skills you can immediately begin applying in your organisation to improve the autonomy of your software services and the teams that build and run them.</p>
             <img src="../img/workshop/Workshop-Nick-Tune-3.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
             <p class="copy">This session will involve modelling a complex domain with Event Storming and then applying strategic modelling heuristics to various scenarios involving a variety of challenging business, organisational, and technical goals and constraints.</p> 
+            <blockquote>
+                <p class="copy">It was an excellent session. The practical session was very useful as it forced us to think about the expressing different levels of the system in ways everyone could understand. I will be using this in the future to see if it helps our team. </p>
+                <p class="copy quote-source">-- Siso</p>
+            </blockquote>
             <p class="copy">Lots of curve balls will be thrown at you, and you’ll learn how to apply strategic modelling heuristics and find the best bounded contexts whatever the business goals, organisational realities and technical constraints may be. Along the way you will also learn about theoretical concepts, drawing on ideas from DDD, Systems Thinking, Promise Theory, Theory of Constraints, and more.</p>
             <img src="../img/workshop/Workshop-Zsófia-Herendi-2.jpg" class="speaker--workshop-content-img" alt=""/>
             <h2 class="speaker-subheader">Learning Outcomes</h2>
@@ -54,13 +58,10 @@ layout: layout-tier2.html
                 </li>
                 <li>How to use event storming, context maps, and domain storytelling to model the boundaries in sociotechnical systems</li>
             </ul>
+            <img src="../img/workshop/Workshop-Nick-Zsofia-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;" />
             <blockquote>
                 <p class="copy">I have only been able to be part of Nick’s and Zsofia’s workshop as an observer simply because of its popularity. Despite this, I have clearly seen the overwhelming level of energy and engagement. Being sparkled by facilitators, people went completely overboard and opened their mind to anything they could imagine, feeling free to find unexplored parts of humanity and challenge existing business models hardly. The level of satisfaction was very high, and I have clearly seen it by looking at people faces around me as the workshop closed with awesome demos.</p>
                 <p class="copy quote-source">-- Alexey Zimarev</p>
-            </blockquote>
-            <blockquote>
-                <p class="copy">It was an excellent session. The practical session was very useful as it forced us to think about the expressing different levels of the system in ways everyone could understand. I will be using this in the future to see if it helps our team. </p>
-                <p class="copy quote-source">-- Siso</p>
             </blockquote>
             <div class="col-xs-12" align="center">
                 <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
