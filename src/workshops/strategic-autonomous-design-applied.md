@@ -54,6 +54,14 @@ layout: layout-tier2.html
                 </li>
                 <li>How to use event storming, context maps, and domain storytelling to model the boundaries in sociotechnical systems</li>
             </ul>
+            <blockquote>
+                <p class="copy">I have only been able to be part of Nick’s and Zsofia’s workshop as an observer simply because of its popularity. Despite this, I have clearly seen the overwhelming level of energy and engagement. Being sparkled by facilitators, people went completely overboard and opened their mind to anything they could imagine, feeling free to find unexplored parts of humanity and challenge existing business models hardly. The level of satisfaction was very high, and I have clearly seen it by looking at people faces around me as the workshop closed with awesome demos.</p>
+                <p class="copy quote-source">-- Alexey Zimarev</p>
+            </blockquote>
+            <blockquote>
+                <p class="copy">It was an excellent session. The practical session was very useful as it forced us to think about the expressing different levels of the system in ways everyone could understand. I will be using this in the future to see if it helps our team. </p>
+                <p class="copy quote-source">-- Siso</p>
+            </blockquote>
             <div class="col-xs-12" align="center">
                 <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
             </div>
