@@ -17,6 +17,7 @@ layout: layout-tier2.html
             <p class="copy" style="margin-top: 25px">
             <p class="copy">The architectural patterns of Domain Driven Design, Command Query Segregation Responsibility and Event Sourcing have proven to be important ingredients for building high performing, scalable applications. Audit requirements and the use of data analytics are also important reasons for choosing these patterns. Axon Framework builds on top of these concepts, helping developers build applications that evolve along with the domain.</p>
             <p class="copy">This training is a very practical introduction to building evolutionary message-driven microservices systems using Axon Framework. The course starts with a general introduction into Axon Framework and its building blocks. On the second day, these components are scaled out, and we elaborate on dealing with several aspects that are important for distributed systems.</p>
+            <img src="../img/workshop/Workshop-Allard-Buijze-1.jpg" class="speaker--workshop-content-img" alt="" />
             <h2 class="speaker-subheader">What the attendee will learn:</h2>
             <ul class="copy-list">
                 <li>Thoroughly understand the fundamentals of CQRS and Event Sourcing in relation to Domain Driven Design</li>
@@ -49,6 +50,7 @@ layout: layout-tier2.html
                     </ul>
                 </li>
             </ul>
+            <img src="../img/workshop/Workshop-Allard-Buijze-2.jpg" class="speaker--workshop-content-img" alt="" />
             <h2 class="speaker-subheader">Target Audience</h2>
             <p class="copy">This training is for Software Architects, Software Developers, Technical Team Leads and Enterprise Architects. The labs and examples use Java (and a bit of Kotlin). While the concepts are applicable to other languages as well, the labs expect some proficiency in Java.</p>
             <h2 class="speaker-subheader">Audience Requirements</h2>
