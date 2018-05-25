@@ -96,10 +96,10 @@ layout: layout-tier2.html
       <p class="speaker-details">Accidental DDDer</p>
     </div>
     <div class="speaker-container">
-      <a href="speaker-name.html"><div class="speaker-img speaker-name">
+      <a href="david-j-glaubman.html"><div class="speaker-img david-j-glaubman">
       </div></a>
-      <h3><a class="speaker-name" href="speaker-name.html">speaker name</a></h3>
-      <p class="speaker-details">tagline</p>
+      <h3><a class="speaker-name" href="david-j-glaubman.html">David J Glaubman</a></h3>
+      <p class="speaker-details">Grizzled Optimist</p>
     </div>
     <div class="speaker-container">
       <a href="speaker-name.html"><div class="speaker-img speaker-name">
