@@ -173,10 +173,10 @@ layout: layout.html
       <p class="speaker-details">Jedi Mind-Tricked Softwarist</p>
     </div>
     <div class="speaker-container">
-      <a href="speakers/speaker-name.html"><div class="speaker-img speaker-name">
+      <a href="speakers/jean-françois-cloutier.html"><div class="speaker-img jean-françois-cloutier">
       </div></a>
-      <h3><a class="speaker-name" href="speakers/mathias-verraes.html">speaker name</a></h3>
-      <p class="speaker-details">tagline</p>
+      <h3><a class="speaker-name" href="speakers/jean-françois-cloutier.html">Jean-François-Cloutier</a></h3>
+      <p class="speaker-details">Accidental DDDer</p>
     </div>
     <div class="speaker-container">
       <a href="speakers/speaker-name.html"><div class="speaker-img speaker-name">
