@@ -165,4 +165,30 @@ layout: layout.html
       <p class="speaker-details">Flow Addict</p>
     </div>
   </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/harry-brumleve.html"><div class="speaker-img harry-brumleve">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/harry-brumleve.html">Harry Brumleve</a></h3>
+      <p class="speaker-details">Jedi Mind-Tricked Softwarist</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/speaker-name.html"><div class="speaker-img speaker-name">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/mathias-verraes.html">speaker name</a></h3>
+      <p class="speaker-details">tagline</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/speaker-name.html"><div class="speaker-img speaker-name">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/speaker-na,e.html">speaker name</a></h3>
+      <p class="speaker-details">tagline</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/speaker-name.html"><div class="speaker-img speaker-na,e">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/speaker-name.html">speaker name</a></h3>
+      <p class="speaker-details">tagline</p>
+    </div>
+  </div>
 </div>
