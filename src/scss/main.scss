@@ -906,6 +906,12 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.mauro-servienti {
+		background-image: url('../img/speakers/sprite-mauro-servienti.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.zsófia-herendi {
 		background-image: url('../img/speakers/sprite-zsófia-herendi.jpg');
 		&:hover {
