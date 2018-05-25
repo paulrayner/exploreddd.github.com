@@ -191,4 +191,12 @@ layout: layout.html
       <p class="speaker-details">Passionate</p>
     </div>
   </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="speakers/rinat-shagisultanov.html"><div class="speaker-img rinat-shagisultanov">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/rinat-shagisultanov.html">Rinat Shagisultanov</a></h3>
+      <p class="speaker-details">Better by Design, Excel by Build</p>
+    </div>
+  </div>
 </div>
