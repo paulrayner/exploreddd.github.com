@@ -918,6 +918,12 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.dave-buchanan {
+		background-image: url('../img/speakers/sprite-dave-buchanan.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.zsófia-herendi {
 		background-image: url('../img/speakers/sprite-zsófia-herendi.jpg');
 		&:hover {
