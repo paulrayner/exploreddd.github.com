@@ -930,6 +930,12 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.martin-schimak {
+		background-image: url('../img/speakers/sprite-martin-schimak.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.zsófia-herendi {
 		background-image: url('../img/speakers/sprite-zsófia-herendi.jpg');
 		&:hover {

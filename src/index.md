@@ -210,5 +210,11 @@ layout: layout.html
       <h3><a class="speaker-name" href="speakers/jimmy-bogard.html">Jimmy Bogard</a></h3>
       <p class="speaker-details">Monolith Masochist</p>
     </div>
+    <div class="speaker-container">
+      <a href="speakers/martin-schimak.html"><div class="speaker-img martin-schimak">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/martin-schimak.html">Martin Schimak</a></h3>
+      <p class="speaker-details">Domain (de)coder</p>
+    </div>
   </div>
 </div>
