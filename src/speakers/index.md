@@ -121,5 +121,11 @@ layout: layout-tier2.html
       <h3><a class="speaker-name" href="dave-buchanan.html">Dave Buchanan</a></h3>
       <p class="speaker-details">Software Architect</p>
     </div>
+    <div class="speaker-container">
+      <a href="jimmy-bogard.html"><div class="speaker-img jimmy-bogard">
+      </div></a>
+      <h3><a class="speaker-name" href="jimmy-bogard.html">Jimmy Bogard</a></h3>
+      <p class="speaker-details">Software Architect</p>
+    </div>
   </div>
 </div>
