@@ -16,6 +16,10 @@ layout: layout-speaker.html
       <h2 class="speaker-subheader">Two day pre-conference workshop, Tue-Wed, Sept 11-12</h2>
       <h2 class="speaker-subheader"><a href="../workshops/event-driven-microservices-with-axon-framework.html">Event-Driven Microservices with Axon Framework</a></h2>
       <p class="copy">The architectural patterns of Domain Driven Design, Command Query Segregation Responsibility and Event Sourcing have proven to be important ingredients for building high performing, scalable applications. Audit requirements and the use of data analytics are also important reasons for choosing these patterns. Axon Framework builds on top of these concepts, helping developers build applications that evolve along with the domain. <a href="../workshops/event-driven-microservices-with-axon-framework.html">Read more...</a></p>
+      <h2 class="speaker-subheader">Talk Session</h2>
+      <h2 class="speaker-subheader gold">The Inconveniences of Event Sourcing</h2>
+      <p class="copy">Event Sourcing is a powerful technique to unlock a lot of potential in a domain. It also provides for a lot more modelling freedom than some of the more 'traditional' approaches of storing state. However, it also brings a lot of small inconveniences that we aren't used to dealing with from an Event Sourcing perspective.</p>
+      <p class="copy">In this session, Allard will iterate over the most commonly encountered challenges of Event Sourcing and discuss how to prevent or overcome them.</p>
       <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
     </div>
   </div>

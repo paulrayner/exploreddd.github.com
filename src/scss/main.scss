@@ -1211,7 +1211,6 @@ footer {
 	margin: 25px 0 25px 0;
 }
 
-
 // Location page
 .location.hero {
 	background-image: url('../img/hyatt-panorama.jpg');
@@ -1799,4 +1798,8 @@ blockquote p {
 }
 blockquote .quote-source {
 	font-size: .75em;
+}
+//make talk session titles same colour as h2 workshop titles that are also links
+.gold {
+	color: $brand-body-link !important;
 }

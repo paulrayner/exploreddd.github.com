@@ -13,8 +13,8 @@ layout: layout-speaker.html
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/jbogard" target="_blank">@jbogard</a></p>
         <h2 class="speaker-subheader"><strong>biography</strong></h2>
         <p class="copy">Blogger, author, OSS wrangler, and destroyer of legacy systems.</p>
-        <h2 class="speaker-subheader">Hands On Session</h2>
-        <h2 class="speaker-subheader">CQRS and REST - The Perfect Match</h2>
+        <h2 class="speaker-subheader">Talk Session</h2>
+        <h2 class="speaker-subheader  gold">CQRS and REST - The Perfect Match</h2>
         <p class="copy">Typical RESTful APIs in the wild are nothing more than mapping CRUD operations to HTTP. It's an anemic domain model exposed as an API. With such anemic APIs, REST has received criticism.</p>
         <p class="copy">But as DDD should not be judged on poor domain models, neither should REST on poor APIs. In this session we'll see how REST can fit perfectly with DDD and CQRS, modeling complex interactions and domains. We'll transform an anemic API into a rich API, with DDD techniques as our guide.</p>
         <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
