@@ -11,7 +11,6 @@ layout: layout-speaker.html
     <h1 class="speaker-header">Zsófia Herendi</h1>
     <h2 class="speaker-subtitle">Flow Addict</h2>
     <p class="copy"><a class="speaker-handle" href="https://twitter.com/zherendi" target="_blank">@zherendi</a></p>
-    <h2 class="speaker-subheader"><strong>biography</strong></h2>
     <p class="copy">Zsófia is a product owner who has spent more than 10 years bringing developers and business people together to build world class digital products and services. She is a skilled modeller with a passion for diagramming and an addiction to optimising flow. Zsófia brings new products to market for Dealogic, a global leader in Fintech, where she also coaches teams in BDD and DDD. She recently founded Hungary's first DDD community.</p>
     <h2 class="speaker-subheader">One day pre-conference workshop, Wed, Sept. 12</h2>
     <h2 class="speaker-subheader"><a href="../workshops/strategic-autonomous-design-applied.html">Strategic Autonomous Design Applied</a></h2>

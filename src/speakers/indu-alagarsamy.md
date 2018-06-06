@@ -11,7 +11,6 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Indu Alagarsamy</h1>
       <h2 class="speaker-subtitle">Event-Driven Model Enthusiast</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/indu_alagarsamy" target="_blank">@indu_alagarsamy</a></p>
-      <h2 class="speaker-subheader"><strong>biography</strong></h2>
       <p class="copy">Indu Alagarsamy has been programming for over 15 years. She is currently part of the development team at Particular Software, the makers of NServiceBus, practicing her passion.</p>
       <p class="copy">Indu is also passionate about diversity and inclusiveness in the tech industry. When not programming, she is either rock climbing in sunny Southern California or spending time with her kids!</p>
       <h2 class="speaker-subheader">Two day pre-conference workshop, Tue-Wed, Sept 11-12</h2>

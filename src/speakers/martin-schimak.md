@@ -11,7 +11,6 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Martin Schimak</h1>
         <h2 class="speaker-subtitle">Domain (de)coder</h2>
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/martinschimak" target="_blank">@martinschimak</a></p>
-        <h2 class="speaker-subheader"><strong>biography</strong></h2>
         <p class="copy">At the age of ten Martin fell in love with coding. And focused on it by studying business and law! It turned out to be awesome: for programming business software! All those energy traders, telecom people and wind tunnel experts he talked to formed a domain coder with now 15+ years of hands-on experience and a soft spot for lean saga managers and flow engines. Martin is a trainer with experience in 50+ companies and 10+ countries. He regularly speaks at meetups and conferences across the world.</p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader gold">Know the Flow! Events, Commands and Long-Running Services.</h2>

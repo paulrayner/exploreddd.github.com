@@ -11,7 +11,6 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Andrew Cassell</h1>
       <h2 class="speaker-subtitle">Web App Developer &amp; Designer</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/alc277" target="_blank">@alc277</a></p>
-      <h2 class="speaker-subheader"><strong>biography</strong></h2>
       <p class="copy">Andrew Cassell is a full-stack web application developer in Herndon, Virginia. Andrew is an employee of the non-profit Marine Spill Response Corporation, the largest dedicated oil spill and emergency response organization.</p>
       <h2 class="speaker-subheader">One day pre-conference workshop, Tue, Sept 11</h2>
       <h2 class="speaker-subheader"><a href="../workshops/ddd-in-php.html">DDD in PHP</a></h2>

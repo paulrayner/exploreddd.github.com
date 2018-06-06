@@ -11,7 +11,6 @@ layout: layout-speaker.html
     <h1 class="speaker-header">Michael Feathers</h1>
     <h2 class="speaker-subtitle">Discerner of the Code</h2>
     <p class="copy"><a class="speaker-handle" href="https://twitter.com/mfeathers" target="_blank">@mfeathers</a></p>
-    <h2 class="speaker-subheader"><strong>biography</strong></h2>
     <p class="copy">Michael Feathers is the Founder and Director of R7K Research &amp; Conveyance, a company specializing in software and organization design. Over the years, Michael has spent a great deal of time helping teams after design over time in code bases. Michael is also the uathor of the book Working Effectively with Legacy Code.</p>
     <h2 class="speaker-keynote"><strong>Keynote</strong></h2>
       <h2 class="speaker-subheader"><strong>Error Elimination as a Design Driver</strong></h2>

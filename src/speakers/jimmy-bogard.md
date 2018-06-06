@@ -11,7 +11,6 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Jimmy Bogard</h1>
         <h2 class="speaker-subtitle">Monolith Masochist</h2>
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/jbogard" target="_blank">@jbogard</a></p>
-        <h2 class="speaker-subheader"><strong>biography</strong></h2>
         <p class="copy">Blogger, author, OSS wrangler, and destroyer of legacy systems.</p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader  gold">CQRS and REST - The Perfect Match</h2>

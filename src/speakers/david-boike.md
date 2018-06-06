@@ -11,7 +11,6 @@ layout: layout-speaker.html
       <h1 class="speaker-header">David Boike</h1>
       <h2 class="speaker-subtitle">Distributed Systems and Stuff</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/DavidBoike" target="_blank">@DavidBoike</a></p>
-      <h2 class="speaker-subheader"><strong>biography</strong></h2>
       <p class="copy">David Boike is a Solution Architect at Particular Software, the makers of the NServiceBus platform, and the author of Learning NServiceBus, Second Edition. He is also a husband, father of two, craft beer homebrewer, and all-around nerd.</p>
       <h2 class="speaker-subheader">Two day pre-conference workshop, Tue-Wed, Sept 11-12</h2>
       <h2 class="speaker-subheader"><a href="../workshops/microservices-done-right.html">Microservices Done Right (with examples in ASP.NET and NServiceBus)</a></h2>

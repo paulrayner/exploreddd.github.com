@@ -210,11 +210,11 @@ layout: layout.html
       <h3><a class="speaker-name" href="speakers/dave-buchanan.html">Dave Buchanan</a></h3>
       <p class="speaker-details">Software Architect</p>
     </div>
-    <div class="speaker-container">
+    <!--<div class="speaker-container">
       <a href="speakers/jimmy-bogard.html"><div class="speaker-img jimmy-bogard">
       </div></a>
       <h3><a class="speaker-name" href="speakers/jimmy-bogard.html">Jimmy Bogard</a></h3>
       <p class="speaker-details">Monolith Masochist</p>
-    </div>
+    </div>-->
   </div>
 </div>

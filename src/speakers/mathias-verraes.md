@@ -11,7 +11,6 @@ layout: layout-speaker.html
     <h1 class="speaker-header">Mathias Verraes</h1>
     <h2 class="speaker-subtitle">Student of Systems</h2>
     <p class="copy"><a class="speaker-handle" href="https://twitter.com/mathiasverraes" target="_blank">@mathiasverraes</a></p>
-    <h2 class="speaker-subheader"><strong>biography</strong></h2>
     <p class="copy">Mathias Verraes advises companies on building software for complex environments. This involves primarily analysis and modelling, but also code, architecture, testing, and refactoring “unmaintainable” systems. He has worked with clients in Finance, Automotive, Government, Logistics, E-Commerce, and more. He teaches Domain-Driven Design courses and co-organises the DDD Europe conference. When he’s not working, he’s at home in Kortrijk, Belgium, helping his two sons build crazy Lego train tracks.</p>
     <h2 class="speaker-subheader">Three day pre-conference workshop, Mon - Wed, Sept 10-12</h2>
     <h2 class="speaker-subheader"><a href="../workshops/ddd-for-messaging-architectures.html">DDD For Messaging Architectures</a></h2>

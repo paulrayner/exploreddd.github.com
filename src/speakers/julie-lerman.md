@@ -11,7 +11,6 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Julie Lerman</h1>
       <h2 class="speaker-subtitle">Serial DDD Advocate</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/julielerman" target="_blank">@julielerman</a></p>
-      <h2 class="speaker-subheader"><strong>biography</strong></h2>
       <p class="copy">Julie Lerman is a Microsoft Regional Director and a long-time Microsoft MVP. She makes her living as a software coach and consultant to software teams around the world.</p>
       <p class="copy">You can find Julie presenting on Entity Framework, Domain-Driven Design and other fun topics at user groups and conferences around the world. Julie blogs at <a href="http://www.thedatafarm.com/blog">thedatafarm.com/blog</a>, is the author of the highly acclaimed “Programming Entity Framework” books, the MSDN Magazine Data Points column and popular videos on Pluralsight.com.</p>
       <h2 class="speaker-subheader">One day pre-conference workshop, Tue, Sept 11</h2>
