@@ -942,6 +942,12 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.david-j-glaubman {
+		background-image: url('../img/speakers/sprite-no-photo.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.nick-and-zsófia {
 		background-image: url('../img/speakers/sprite-nick-and-zsófia.jpg');
 		&:hover {

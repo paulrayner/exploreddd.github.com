@@ -178,12 +178,6 @@ layout: layout.html
       <h3><a class="speaker-name" href="speakers/jean-françois-cloutier.html">Jean-François-Cloutier</a></h3>
       <p class="speaker-details">Accidental DDDer</p>
     </div>
-    <!--<div class="speaker-container">
-      <a href="speakers/david-j-glaubman.html"><div class="speaker-img david-j-glaubman">
-      </div></a>
-      <h3><a class="speaker-name" href="speakers/david-j-glaubman.html">David J Glaubman</a></h3>
-      <p class="speaker-details">Grizzled Optimist</p>
-    </div>-->
     <div class="speaker-container">
       <a href="speakers/martin-schimak.html"><div class="speaker-img martin-schimak">
       </div></a>
@@ -209,6 +203,12 @@ layout: layout.html
       </div></a>
       <h3><a class="speaker-name" href="speakers/dave-buchanan.html">Dave Buchanan</a></h3>
       <p class="speaker-details">Software Architect</p>
+    </div>
+    <div class="speaker-container">
+      <a href="speakers/david-j-glaubman.html"><div class="speaker-img david-j-glaubman">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/david-j-glaubman.html">David J Glaubman</a></h3>
+      <p class="speaker-details">Grizzled Optimist</p>
     </div>
     <!--<div class="speaker-container">
       <a href="speakers/jimmy-bogard.html"><div class="speaker-img jimmy-bogard">
