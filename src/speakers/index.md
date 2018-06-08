@@ -18,10 +18,10 @@ layout: layout-tier2.html
       <p class="speaker-details">Discerner of the Code</p>
     </div>
     <div class="speaker-container">
-      <a href="paul-rayner.html"><div class="speaker-img paul-rayner">
+      <a href="jessica-kerr.html"><div class="speaker-img jessica-kerr">
       </div></a>
-      <h3><a class="speaker-name" href="paul-rayner.html">Paul Rayner</a></h3>
-      <p class="speaker-details">Domain Remodeler</p>
+      <h3><a class="speaker-name" href="jessica-kerr.html">Jessica Kerr</a></h3>
+      <p class="speaker-details">Tagline</p>
     </div>
     <div class="speaker-container">
       <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
@@ -109,6 +109,12 @@ layout: layout-tier2.html
     </div>
   </div>
   <div class="row">
+    <div class="speaker-container">
+      <a href="paul-rayner.html"><div class="speaker-img paul-rayner">
+      </div></a>
+      <h3><a class="speaker-name" href="paul-rayner.html">Paul Rayner</a></h3>
+      <p class="speaker-details">Domain Remodeler</p>
+    </div>
     <div class="speaker-container">
       <a href="rinat-shagisultanov.html"><div class="speaker-img rinat-shagisultanov">
       </div></a>
