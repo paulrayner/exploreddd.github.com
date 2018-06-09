@@ -87,7 +87,7 @@ layout: layout-tier2.html
       <a href="harry-brumleve.html"><div class="speaker-img harry-brumleve">
       </div></a>
       <h3><a class="speaker-name" href="harry-brumleve.html">Harry Brumleve</a></h3>
-      <p class="speaker-details">Jedi Mind-Tricked Softwarist</p>
+      <p class="speaker-details">Emerging Human, Recovering Engineer</p>
     </div>
     <div class="speaker-container">
       <a href="jean-françois-cloutier.html"><div class="speaker-img jean-françois-cloutier">
