@@ -263,6 +263,12 @@ layout: layout.html
       <p class="speaker-details">Organiser of KanDDDinsky</p>
     </div>
     <div class="speaker-container">
+      <a href="speakers/yves-reynhout.html"><div class="speaker-img yves-reynhout">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/yves-reynhout.html">Yves Reynhout</a></h3>
+      <p class="speaker-details">The Journeylist</p>
+    </div>
+    <div class="speaker-container">
       <a href="speakers/trevor-conn.html"><div class="speaker-img trevor-conn">
       </div></a>
       <h3><a class="speaker-name" href="speakers/trevor-conn.html">Trevor Conn</a></h3>
@@ -271,9 +277,9 @@ layout: layout.html
   </div>
   <div class="row">
     <div class="speaker-container">
-      <a href="speakers/wassel-halazhar.html"><div class="speaker-img wassel-halazhar">
+      <a href="speakers/wassel-alazhar.html"><div class="speaker-img wassel-alazhar">
       </div></a>
-      <h3><a class="speaker-name" href="speakers/wassel-halazhar.html">Wassel Halazhar</a></h3>
+      <h3><a class="speaker-name" href="speakers/wassel-alazhar.html">Wassel Alazhar</a></h3>
       <p class="speaker-details">Passionate software craftsman</p>
     </div>
   </div>
