@@ -8,7 +8,7 @@ layout: layout-speaker.html
       <img class="speaker-page-img" src="../img/speakers/Wassel-Alazhar-ON.png">
     </div>
     <div class="col-xs-12 col-sm-10 copy-container">
-        <h1 class="speaker-header">Wassel Halazar</h1>
+        <h1 class="speaker-header">Wassel Alazar</h1>
         <h2 class="speaker-subtitle">Passionate Software Craftsman</h2>
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/wasselovski" target="_blank">@wasselovski</a></p>
         <p class="copy">Wassel Alazhar is a consultant at Octo Technology and an active member of the software craftsmanship community in Paris. In the business for 10 years, he helps his clients to sustainably deliver value through better quality software.</p>
