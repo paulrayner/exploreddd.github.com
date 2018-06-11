@@ -17,8 +17,8 @@ layout: layout-speaker.html
         <p class="copy">Namasté...Come and meet BeauForma, the company you wished you worked for. While you're at it, get an introduction in how to design, author and test projections for your next DDD/CQRS/ES project, hands-on. Bring a computer and pair up with a buddy.
         <h2 class="speaker-subheader">Things you should bring</h2>
          <ul class="copy-list">
-          <li>a portable computer with your programming environment of choice</li> 
-          <li>a sense of curiosity and an open mind</li>
+          <li>a portable computer with your programming environment of choice.</li> 
+          <li>a sense of curiosity and an open mind.</li>
          </ul>
       <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
     </div>
