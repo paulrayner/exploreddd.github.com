@@ -14,8 +14,8 @@ layout: layout-speaker.html
       <p class="copy">Co-organizer of the DDD Paris user group, Thomas is an eXtreme Programmer &amp; technical architect obsessed by use cases (Vs. solution-driven approaches). He likes using DDD &amp; TDD to boost his efficiency at work. Advocating the advantages of the Hexagonal architecture since many years (talks, blogposts...), Thomas has also live-coded with Alistair Cockburn on that topic.</p>
       <h2 class="speaker-subheader">Talk Session</h2>
       <h2 class="speaker-subheader gold">Communication is everything; especially while pairing (survival guide)</h2>
-      <p class="copy">Co-presented with <a href="speakers/bruno-boucard.html">Bruno Boucard</a></p>
-      <p class="copy">Since the very beginning, Domain Driven Design put emphasis on the domain languages involved in various contexts. Through live-coded pair programming playlets, we will illustrate the power -and the challenges- of the pair programming technique to become truly efficient at work in different contexts.</p>
+      <p class="copy">Co-presented with <a href="bruno-boucard.html">Bruno Boucard</a></p>
+      <p class="copy">Since the very beginning, Domain Driven Design put emphasis on the domain languages involved in various contexts. Through live-coded pair programming playlets, we will illustrate the power, and the challenges, of the pair programming technique to become truly efficient at work in different contexts.</p>
       <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
     </div>
   </div>
