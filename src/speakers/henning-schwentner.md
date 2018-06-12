@@ -11,7 +11,7 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Henning Schwentner</h1>
       <h2 class="speaker-subtitle">Domain Storyteller</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/hschwentner" target="_blank">@hschwentner</a></p>
-      <p class="copy">Henning loves to code. He follows this passion as a software architect and consultant at WPS – Workplace Solutions in Hamburg, Germany. His projects are domain-driven designed, agile and in programming languages like Java, C# and even ABAP. Henning is interested in the evolution of programming languages, long-living software architectures and big refactorings. Recently he translated »Domain-Driven Design distilled« into german. Henning is married and has children.</p>
+      <p class="copy">Henning loves to code. He follows this passion as a software architect and consultant at WPS – Workplace Solutions in Hamburg, Germany. His projects are domain-driven designed, agile and in programming languages like Java, C# and even ABAP. Henning is interested in the evolution of programming languages, long-living software architectures and big refactorings. Recently he translated <em>Domain-Driven Design Distilled</em> into german. Henning is married and has children.</p>
       <h2 class="speaker-subheader">Talk Session</h2>
       <h2 class="speaker-subheader gold">How Domain Storytelling shaped our view of bounded contexts</h2>
       <p class="copy">Co-presented with <a href="Stefan-Hofer.html">Stefan Hofer</a></p>
