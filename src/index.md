@@ -282,5 +282,11 @@ layout: layout.html
       <h3><a class="speaker-name" href="speakers/wassel-alazhar.html">Wassel Alazhar</a></h3>
       <p class="speaker-details">Passionate software craftsman</p>
     </div>
+    <div class="speaker-container">
+      <a href="speakers/laura-savino.html"><div class="speaker-img laura-savino">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/laura-savino.html">Laura Savino</a></h3>
+      <p class="speaker-details">Tagline</p>
+    </div>
   </div>
 </div>
