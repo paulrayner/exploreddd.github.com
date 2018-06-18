@@ -140,4 +140,64 @@ layout: layout-tier2.html
       <p class="speaker-details">Software Architect</p>
     </div>-->
   </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="henning-schwentner.html"><div class="speaker-img henning-schwentner">
+      </div></a>
+      <h3><a class="speaker-name" href="henning-schwentner.html">Henning Schwentner</a></h3>
+      <p class="speaker-details">Domain Storyteller</p>
+    </div>
+    <div class="speaker-container">
+      <a href="bruno-boucard.html"><div class="speaker-img bruno-boucard">
+      </div></a>
+      <h3><a class="speaker-name" href="bruno-boucard.html">Bruno Boucard</a></h3>
+      <p class="speaker-details">Emancipating Developers</p>
+    </div>
+    <div class="speaker-container">
+      <a href="justin-holmes.html"><div class="speaker-img justin-holmes">
+      </div></a>
+      <h3><a class="speaker-name" href="justin-holmes.html">Justin Holmes</a></h3>
+      <p class="speaker-details">Event Stormer</p>
+    </div>
+    <div class="speaker-container">
+      <a href="stefan-hofer.html"><div class="speaker-img stefan-hofer">
+      </div></a>
+      <h3><a class="speaker-name" href="stefan-hofer.html">Stefan Hofer</a></h3>
+      <p class="speaker-details">domainstorytelling.org</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="thomas-pierrain.html"><div class="speaker-img thomas-pierrain">
+      </div></a>
+      <h3><a class="speaker-name" href="thomas-pierrain.html">Thomas Pierrain</a></h3>
+      <p class="speaker-details">Use Case Driven</p>
+    </div>
+    <div class="speaker-container">
+      <a href="marco-heimeshoff.html"><div class="speaker-img marco-heimeshoff">
+      </div></a>
+      <h3><a class="speaker-name" href="marco-heimeshoff.html">Marco Heimeshoff</a></h3>
+      <p class="speaker-details">Organiser of KanDDDinsky</p>
+    </div>
+    <div class="speaker-container">
+      <a href="yves-reynhout.html"><div class="speaker-img yves-reynhout">
+      </div></a>
+      <h3><a class="speaker-name" href="yves-reynhout.html">Yves Reynhout</a></h3>
+      <p class="speaker-details">The Journeylist</p>
+    </div>
+    <div class="speaker-container">
+      <a href="trevor-conn.html"><div class="speaker-img trevor-conn">
+      </div></a>
+      <h3><a class="speaker-name" href="trevor-conn.html">Trevor Conn</a></h3>
+      <p class="speaker-details">Principal Software Engineer</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="speaker-container">
+      <a href="wassel-alazhar.html"><div class="speaker-img wassel-alazhar">
+      </div></a>
+      <h3><a class="speaker-name" href="wassel-alazhar.html">Wassel Alazhar</a></h3>
+      <p class="speaker-details">Passionate software craftsman</p>
+    </div>
+  </div>
 </div>

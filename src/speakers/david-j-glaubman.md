@@ -5,7 +5,7 @@ layout: layout-speaker.html
 <div class="container section featured-speaker">
   <div class="row">
     <div class="col-xs-12 col-sm-2 img-container">
-      <img class="speaker-page-img" src="../img/speakers/No-Photo-ON.png">
+      <img class="speaker-page-img" src="../img/speakers/David-J-Glaubman-ON.png">
     </div>
     <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">David J Glaubman</h1>
