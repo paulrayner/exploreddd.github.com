@@ -199,5 +199,11 @@ layout: layout-tier2.html
       <h3><a class="speaker-name" href="wassel-alazhar.html">Wassel Alazhar</a></h3>
       <p class="speaker-details">Passionate software craftsman</p>
     </div>
+    <div class="speaker-container">
+      <a href="laura-savino.html"><div class="speaker-img laura-savino">
+      </div></a>
+      <h3><a class="speaker-name" href="laura-savino.html">Laura Savino</a></h3>
+      <p class="speaker-details">Readable Code</p>
+    </div>
   </div>
 </div>
