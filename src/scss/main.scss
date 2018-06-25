@@ -1810,12 +1810,6 @@ strong {
 		@include mq(xs) {
 			padding-bottom: 0px;
 		}
-		@include mq(sm) {
-			padding-bottom: 50px;
-		}
-		@include mq(md) {
-			padding-bottom: 0;
-		}
 	}
 }
 
