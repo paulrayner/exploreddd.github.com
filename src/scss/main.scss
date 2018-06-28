@@ -1158,7 +1158,7 @@ footer {
 	width: 50%;
 	height: auto;
 	display: block;
-	margin: 0 auto 15px auto;
+	margin: 0 auto 30px auto;
 }
 
 .page-subheader {
@@ -1789,22 +1789,26 @@ strong {
 	}
 	.bronze-sponsors {
 		.item {
-			width: 136px;
-			height: 72px;
-			@include mq(md) {
-				margin: 0 10px 0 10px;
+			margin: 30px 10px 30px 10px;
+		}
+		//adjust the footer sponsor image sizes manually so they all carry similar visual weights per tier level
+		.pivotal {
+			img {
+				height: 30px;
+				width: auto;
+			}
+			
+		}
+		.inspirato {
+			img {
+				height: 30px;
+				width: auto;
 			}
 		}
 	}
 	.platinum-sponsors, .gold-sponsors, .silver-sponsors, .bronze-sponsors {
 		@include mq(xs) {
-			padding-bottom: 30px;
-		}
-		@include mq(sm) {
-			padding-bottom: 50px;
-		}
-		@include mq(md) {
-			padding-bottom: 0;
+			padding-bottom: 0px;
 		}
 	}
 }
