@@ -8,7 +8,7 @@ layout: layout.html
       <li class="slide register">
         <div class="container">
           <div class="register-copy">
-            <h1>EXPLORE DDD 2018<br>SEPT 11-14</h1>            
+            <h1>EXPLORE DDD 2018<br>SEPT 10-14</h1>            
             <a href="https://ti.to/explore-ddd-conference/explore-ddd-2018">REGISTRATION NOW OPEN</a>
           </div>
         </div>
@@ -52,7 +52,7 @@ layout: layout.html
 <div class="container-fluid section conf-dates">
   <div class="row">
     <p class="conf-copy"><span class="conf-header">Conference</span> September 12 - 14, 2018</p>
-    <p class="conf-copy"><span class="conf-header">Workshops</span> September 11 - 12, 2018</p>
+    <p class="conf-copy"><span class="conf-header">Workshops</span> September 10 - 12, 2018</p>
     <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>
     <p class="conf-contact">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a>    Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
   </div>
@@ -73,7 +73,7 @@ layout: layout.html
     <p class="copy">The Explore DDD Conference sets the perfect stage to discover how industry peers and leaders are using DDD to build better software:</p>
     <ul class="copy-list">
       <li>World-class talks from DDD practitioners and experts.</li>
-      <li>Two days of pre-conference full-day workshops with expert instructors.</li>
+      <li>Three days of pre-conference full-day workshops with expert instructors.</li>
       <li>Blue track is dedicated to emergent exploration - unconference sessions such as impromptu modeling and coding sessions, lightning talks, and problem-solving with peers are encouraged and expected.</li>
       <li>A smaller (~200 attendees) conference with a real sense of community/family.</li>
       <li>Incredible, inspiring venue - entire 38th floor provides uninterrupted majestic views of the Rocky Mountains, downtown Denver, and city surrounds.</li>
