@@ -1468,7 +1468,7 @@ footer {
   }
   a {
     color: #c49524;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     &:hover {
       color: #fdc33c;
       text-decoration: none;
@@ -1488,7 +1488,7 @@ footer {
   border-top: 0 !important; //we need to override the top border here since colored divs have a different border requirement
   h4 {
     font-family: NunitoSansBold, sans-serif;
-    text-transform: uppercase;
+    //text-transform: uppercase;
   }
   h5 {
     font-size: 18px;
@@ -1533,7 +1533,7 @@ footer {
 }
 .talk-title {
   font-size: 18px;
-  text-transform: capitalize;
+  //text-transform: capitalize;
   em {
     font-size: 16px;
   }

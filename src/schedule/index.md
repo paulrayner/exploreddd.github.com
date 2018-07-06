@@ -9,19 +9,19 @@ layout: layout-tier2.html
 			<div class="buttons">
 				<a class="showSingle btn schedule-btn" target="1">
 					<span class="btn-title">Workshops</span>
-					<span class="btn-date">September 19 &amp; 20</span>
+					<span class="btn-date">September 10 &dash; 12</span>
 				</a>
 				<a class="showSingle btn schedule-btn" target="2">
 					<span class="btn-title">Kickoff Evening</span>
-					<span class="btn-date">September 20</span>
+					<span class="btn-date">September 12</span>
 				</a>
 				<a class="showSingle btn schedule-btn" target="3">
 					<span class="btn-title">Day 1</span>
-					<span class="btn-date">September 21</span>
+					<span class="btn-date">September 13</span>
 				</a>
 				<a class="showSingle btn schedule-btn" target="4">
 					<span class="btn-title">Day 2</span>
-					<span class="btn-date">September 22</span>
+					<span class="btn-date">September 14</span>
 				</a>
 			</div>
 			<!-- END BUTTONS -->
@@ -100,12 +100,12 @@ layout: layout-tier2.html
 					</div>
 					<div class="col-sm-10 title-cell-uncolored-cells">				
 							<h2>Main Conference Kickoff Evening</h2>
-							<h3>Wednesday, September 20</h3>
+							<h3>Wednesday, September 12</h3>
 						</div> <!--col-xs -->
 				</div> <!-- title-row -->
 				<div class="row time-row">
 					<div class="col-sm-1 time-cell">
-						<p>4:00 - 6:00</p>
+						<p>4:00 - 7:15</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details">
 						<p><strong>Registration</strong><br><em>Hotel Lobby</em></p>
@@ -113,15 +113,7 @@ layout: layout-tier2.html
 				</div> <!-- time-row -->
 				<div class="row time-row">
 					<div class="col-sm-1 time-cell">
-						<p>5:00 - 6:30</p>
-					</div> <!-- col-xs -->
-					<div class="col-sm-10 details">
-						<p><strong>Drinks Reception</strong><br><em>Reception Area - Pinnacle Club</em></p>
-					</div> <!-- details -->
-				</div> <!-- time-row -->
-				<div class="row time-row">
-					<div class="col-sm-1 time-cell">
-						<p>6:30 - 6:45</p>
+						<p>7:30 - 7:45</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details">
 						<p><strong>Welcome &#8212; <a href="../speakers/paul-rayner.html">PAUL RAYNER</a></strong> (Conference Chair)<br><em>Capitol Peak A & B - Pinnacle Club</em></p>
@@ -129,10 +121,18 @@ layout: layout-tier2.html
 				</div> <!-- time-row -->
 				<div class="row time-row">
 					<div class="col-sm-1 time-cell">
-						<p>6:45 - 7:45</p>
+						<p>7:45 - 8:45</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details">
-						<p><strong>Keynote: Tackling Complexity in the Heart of Software &#8212; <a href="../speakers/eric-evans.html">ERIC EVANS</a></strong> <br><em>Capitol Peak A & B</em></p>
+						<p><strong>Keynote: Title &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></strong> <br><em>Capitol Peak A & B</em></p>
+					</div> <!-- details -->
+				</div> <!-- time-row -->
+				<div class="row time-row">
+					<div class="col-sm-1 time-cell">
+						<p>8:45 - 10:00</p>
+					</div> <!-- col-xs -->
+					<div class="col-sm-10 details">
+						<p><strong>Drinks Reception</strong><br><em>Reception Area - Pinnacle Club</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->				
 			</div>
@@ -144,128 +144,115 @@ layout: layout-tier2.html
 						</div>
 						<div class="col-sm-10 title-cell-colored-cells">
 								<h2>Main Conference Day 1</h2>
-								<h3>Thursday, September 21</h3>
+								<h3>Thursday, September 13</h3>
 							</div> <!--col-sm -->
 					</div> <!-- title-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
 						<div class="col-sm-1 time-cell">
-							<p>9:00 - 9:50</p>
+							<p>9:00 - 9:45</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/martin-schimak.html">Martin Schimak</a></h4>
-							<p class="talk-title">Tackling Complex Event Flows</p>
+							<h4><a href="../speakers/david-boike.html">David Boike</a></h4>
+							<p class="talk-title">Microservices and Distributed Monoliths</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/steven-lowe.html">Steven A. Lowe</a></h4>
-							<p class="talk-title">Three Rules For Domain-Driven Design</p>
+							<h4><a href="../speakers/marco-heimeshoff.html">Marco Heimeshoff</a></h4>
+							<p class="talk-title">Software Development is Not About Software</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/yves-reynhout.html">Yves Reynhout</a></h4>
-							<p class="talk-title">Trench Talk: Evolving A Model</p>
+							<h4><a href="../speakers/wassel-alazhar.html">Wassel Alazhar</a></h4>
+							<p class="talk-title">Real World Evolutionary Design</p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
+						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
-						</div> <!-- details -->
+						</div>--> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
-							<p>9:50 - 10:20</p>
+							<p>9:45 - 10:15</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details followed-by-colored-row">
+							<p><strong>Morning Coffee</strong><br><em>Reception Area</em></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row custom-grid-column-widths last-colored-row">
+						<div class="col-sm-1 time-cell">
+							<p>10:15 - 11:00</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-2 details details-colored details-gold">
+							<h4><a href="../speakers/jean-françois-cloutier.html">Jean François Cloutier</a></h4>
+							<p class="talk-title">Rethinking How My Robots Think: Adventures in DDD and Robotics Part Two</p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h4><a href="../speakers/nick-tune.html">Nick Tune</a></a></h4>
+							<p class="talk-title">Strategic Autonomous Design: Patterns and Heuristics</p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-purple">
+							<h4><a href="../speakers/wassel-alazhar.html">Wassel Alazhar</a></h4>
+							<p class="talk-title">Real World Evolutionary Design</p>
+						</div> <!-- details -->
+						<!--<div class="col-sm-2 details details-colored details-blue">
+							<h4>Creative Space</h4>							
+						</div>--> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
+							<p>11:00 - 11:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details followed-by-colored-row">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row custom-grid-column-widths">
-						<div class="col-sm-1 time-cell">
-							<p>10:20 - 11:10</p>
-						</div> <!-- col-sm -->
-						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/dan-bergh-johnsson.html">Dan Bergh Johnsson</a> &amp; <a href="../speakers/daniel-deogun.html">Daniel Deogun</a></h4>
-							<p class="talk-title">domain primitives in action - making it secure by design</p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/scott-bellware.html">Scott Bellware</a> &amp; <a href="../speakers/nathan-ladd.html">Nathan Ladd</a></h4>
-							<p class="talk-title">The Aggregate, The Cohesion, and the Cargo Cult: Rise and Fall of Critical Thinking in DDD</p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/dan-sharp.html">Dan Sharp</a></h4>
-							<p class="talk-title">DDD in the real world: building a real estate aggregation data pipeline</p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
-						</div> <!-- details -->
-					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
 						<div class="col-sm-1 time-cell">
-							<p>11:20 - 12:10</p>
+							<p>11:15 - 12:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/chris-richardson.html">Chris Richardson</a></h4>
-							<p class="talk-title">There is no such thing as a microservice!</p>
+							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a></h4>
+							<p class="talk-title">The Invconveniences of Event Sourcing</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/david-laribee.html">David Laribee</a></h4>
-							<p class="talk-title">legendary adventures in legacy code</p>
+							<h4><a href="../speakers/dave-buchanan.html">Dave Buchanan</a></h4>
+							<p class="talk-title">How to Get Started with DDD: A Case Study Breaking Away From a Legacy MVC App</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/jimmy-bogard.html">Jimmy Bogard</a></h4>
-							<p class="talk-title">The DDD Do-Over</p>
+							<h4>Open Space</h4>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
+						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
-						</div> <!-- details -->
+						</div>--> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
-							<p>12:10 - 1:10</p>
+							<p>12:00 - 1:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details followed-by-colored-row">
 							<p><strong>Lunch</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row custom-grid-column-widths colored-cell-row">
-						<div class="col-sm-1 time-cell">
-							<p>1:10 - 2:00</p>
-						</div> <!-- col-sm -->
-						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</h4>
-							<p class="talk-title">Reactive DDD: Modeling Uncertainty</p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/javier-fernandez.html">Javier Fernández</a></h4>
-							<p class="talk-title">black ops DDD using the business model canvas</p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/ellen-lippe.html">Ellen Lippe</a> &amp; <a href="../speakers/anita-kvamme.html">Anita Kvamme</a></h4>
-							<p class="talk-title">from legacy chaos to the promised land of DDD</p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
-						</div> <!-- details -->
-					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths colored-cell-row last-colored-row">
 						<div class="col-sm-1 time-cell">
-							<p>2:10 - 3:00</p>
+							<p>1:00 - 1:45</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a></h4>
-							<p class="talk-title">pragmatic event-driven (micro)services</p>
+							<h4><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h4>
+							<p class="talk-title">Evolving with the Changing Requirements: The DDD Dream</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/eric-evans.html">Eric Evans</a></h4>
-							<p class="talk-title">Exploring Time</p>
+							<h4><a href="../speakers/harry-brumleve.html">Harry Brumleve</a></h4>
+							<p class="talk-title">Refactoring For DDD Without Microservicing Your Monolith</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/vladik-khononov.html">Vladik Khononov</a></h4>
-							<p class="talk-title">tackling complexity in large-scale marketing systems</p>
+							<h4><a href="../speakers/stefan-hofer.html">Stefan Hofer</a> &amp; <a href="../speakers/henning-schwentner.html">Henning Schwentner</a></h4>
+							<p class="talk-title">Master Your Domain with Domain Storytelling</p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
+						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
-						</div> <!-- details -->
+						</div>--> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
-							<p>3:00 - 3:30</p>
+							<p>1:45 - 2:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details followed-by-colored-row">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
@@ -273,27 +260,27 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths colored-cell-row last-colored-row">
 						<div class="col-sm-1 time-cell">
-							<p>3:30 - 4:20</p>
+							<p>2:00 - 2:45</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/paul-rayner.html">Paul Rayner</a></h4>
-							<p class="talk-title">Refactoring to a Deeper Model</p>
+							<h4><a href="../speakers/trevor-conn.html">Trevor Conn</a></h4>
+							<p class="talk-title">DDDecomposing the Monolith: A Personal Anecdote</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/mathias-verraes.html">Mathias Verraes</a></h4>
-							<p class="talk-title">Emergent Boundaries</p>
+							<h4><a href="../speakers/david-j-glaubman.html">David J Glaubman</a></h4>
+							<p class="talk-title">Encapsulating Complexity in a DSL</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/jeroen-soeters.html">Jeroen Soeters</a></h4>
-							<p class="talk-title">fast data in supply chain planning</p>
+							<h4><a href="../speakers/stefan-hofer.html">Stefan Hofer</a> &amp; <a href="../speakers/henning-schwentner.html">Henning Schwentner</a></h4>
+							<p class="talk-title">Master Your Domain with Domain Storytelling</p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
+						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
-						</div> <!-- details -->
+						</div>--> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
-							<p>4:20 - 4:35</p>
+							<p>2:45 - 3:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
@@ -332,7 +319,7 @@ layout: layout-tier2.html
 						</div>
 						<div class="col-sm-10 title-cell-colored-cells">
 								<h2>Main Conference Day 2</h2>
-								<h3>Friday, September 22</h3>
+								<h3>Friday, September 14</h3>
 							</div> <!--col-sm -->
 					</div> <!-- title-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
@@ -352,9 +339,9 @@ layout: layout-tier2.html
 							<h4><a href="../speakers/julie-lerman.html">Julie Lerman</a></h4>
 							<p class="talk-title">DDD with TLC: evolving legacy software and legacy minds</p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
+						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
-						</div> <!-- details -->
+						</div>--> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
@@ -380,9 +367,9 @@ layout: layout-tier2.html
 							<h4><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h4>
 							<p class="talk-title">autonomy & asynchrony: the key to designing reliable systems</p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-blue">
+						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
-						</div> <!-- details -->
+						</div>--> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">

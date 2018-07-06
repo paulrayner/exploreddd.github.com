@@ -92,7 +92,7 @@ layout: layout-tier2.html
     <div class="speaker-container">
       <a href="jean-françois-cloutier.html"><div class="speaker-img jean-françois-cloutier">
       </div></a>
-      <h3><a class="speaker-name" href="jean-françois-cloutier.html">Jean-François-Cloutier</a></h3>
+      <h3><a class="speaker-name" href="jean-françois-cloutier.html">Jean François Cloutier</a></h3>
       <p class="speaker-details">Accidental DDDer</p>
     </div>
     <div class="speaker-container">
