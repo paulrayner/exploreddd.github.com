@@ -438,7 +438,7 @@ layout: layout-tier2.html
 						<div class="col-sm-1 time-cell">
 							<p>12:15 - 1:15</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details followed-by-colored-row">
+						<div class="col-sm-10 details">
 							<p><strong>Lunch</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -451,10 +451,10 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
-						<div class="col-sm-1 time-cell">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>2:00 - 2:30</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details">
+						<div class="col-sm-10 details followed-by-colored-row">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
