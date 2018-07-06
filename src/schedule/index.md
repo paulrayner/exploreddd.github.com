@@ -116,15 +116,15 @@ layout: layout-tier2.html
 						<p>7:30 - 7:45</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details">
-						<p><strong>Welcome &#8212; <a href="../speakers/paul-rayner.html">PAUL RAYNER</a></strong> (Conference Chair)<br><em>Capitol Peak A & B - Pinnacle Club</em></p>
+						<p><strong>Welcome &#8212; <a href="../speakers/paul-rayner.html">Paul Rayner</a></strong> (Conference Chair)<br><em>Capitol Peak A & B - Pinnacle Club</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 				<div class="row time-row">
 					<div class="col-sm-1 time-cell">
 						<p>7:45 - 8:45</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details">
-						<p><strong>Keynote: <span style="color: red;">Title</span> &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></strong> <br><em>Capitol Peak A & B</em></p>
+					<div class="col-sm-10 details details-colored details-gold">
+						<p><strong>Keynote: The Origins of Opera and the Future of Programming &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></strong> <br><em>Capitol Peak A & B</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 				<div class="row time-row">
@@ -296,11 +296,10 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/laura-savino.html">Laura Savino</a></h4>
-							<p class="talk-title"><span style="color: red">Reading in Code</span></p>
+							<p class="talk-title"></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/laura-savino.html"><span style="color: red;">Speaker Name</span></a></h4>
-							<p class="talk-title">Hands-On Modeling: EventStorming for Everyone</p>
+							<p class="talk-title" style="margin-top: 8px;">Hands-On Modeling: EventStorming for Everyone</p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -327,8 +326,7 @@ layout: layout-tier2.html
 							<p class="talk-title"><span>Kicking Over Monoliths for Fun and Profit: How DDD Drives Digital Transformation</span></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4><a href="../speakers/laura-savino.html"><span style="color: red;">Speaker Name</span></a></h4>
-							<p class="talk-title">Hands-On Modeling: EventStorming for Everyone</p>
+							<p class="talk-title" style="margin-top: 8px;">Hands-On Modeling: EventStorming for Everyone</p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -346,7 +344,7 @@ layout: layout-tier2.html
 						<div class="col-sm-1 time-cell">
 							<p>5:15 - 6:15</p>
 						</div> <!-- col-xs -->
-						<div class="col-sm-10 details">
+						<div class="col-sm-10 details details-colored details-gold">
 							<p><strong>Keynote: Error Elimination as a Design Driver &#8212; <a href="../speakers/michael-feathers.html">Michael Feathers</a></strong> <br><em>Capitol Peak A & B</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -430,8 +428,8 @@ layout: layout-tier2.html
 						<div class="col-sm-1 time-cell">
 							<p>11:15 - 12:15</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details">
-							<p><strong>Keynote: <span style="color: red;">Title</span> &#8212; <a href="../speakers/eric-evans.html">Eric Evans</a></strong></p>
+						<div class="col-sm-10 details details-colored details-gold">
+							<p><strong>Keynote: &#8212; <a href="../speakers/eric-evans.html">Eric Evans</a></strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -444,10 +442,10 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
-							<p>1:15 - 2:00</p>
+							<p>12:15 - 1:15</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details">
-							<p><strong>Panel Discussion: The Challenge of Legacy Systems</strong><br><em><span style="color: red;">Location</span></em></p>
+						<div class="col-sm-10 details details-colored details-gold">
+							<h4>Panel Discussion: The Challenge of Legacy Systems</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
