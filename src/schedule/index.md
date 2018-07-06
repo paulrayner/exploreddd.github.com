@@ -124,7 +124,7 @@ layout: layout-tier2.html
 						<p>7:45 - 8:45</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details">
-						<p><strong>Keynote: Title &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></strong> <br><em>Capitol Peak A & B</em></p>
+						<p><strong>Keynote: <span style="color: red;">Title</span> &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></strong> <br><em>Capitol Peak A & B</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 				<div class="row time-row">
