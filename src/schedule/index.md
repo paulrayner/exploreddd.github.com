@@ -7,7 +7,11 @@ layout: layout-tier2.html
 	  <div class="col-xs-12">
 	    <h1 class="section-header">Schedule</h1>
 			<div class="buttons">
-				<a class="showSingle btn schedule-btn" target="1">
+				<!--<a class="showSingle btn schedule-btn" target="1">
+					<span class="btn-title">Workshops</span>
+					<span class="btn-date">September 10 &dash; 12</span>
+				</a>-->
+				<a href="../workshops" class="showSingle btn schedule-btn">
 					<span class="btn-title">Workshops</span>
 					<span class="btn-date">September 10 &dash; 12</span>
 				</a>
@@ -26,7 +30,7 @@ layout: layout-tier2.html
 			</div>
 			<!-- END BUTTONS -->
 			<!-- BEGIN WORKSHOPS CONTENT SECTION -->
-			<div id="div1" class="targetDiv workshop-div">
+			<!--<div id="div1" class="targetDiv workshop-div">
 				<div class="row title-row">
 					<div class="col-sm-1 time-cell-empty">
 					</div>
@@ -34,65 +38,65 @@ layout: layout-tier2.html
 							<h2>2-Day Pre Conference Workshops</h2>
 							<h3>September 19 &amp; 20 - same schedule both days</h3>
 						</div> <!--col-xs -->
-				</div> <!-- title-row -->
-				<div class="row time-row">
+				<!--</div> <!-- title-row -->
+				<!--<div class="row time-row">
 					<div class="col-sm-1 time-cell">
 						<p>8:00 - 9:00</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details">
+					<!--<div class="col-sm-10 details">
 						<p><strong>Registration</strong> <em>(Hotel Lobby)</em><br>
 						<strong>Coffee</strong> <em>(2nd Floor)</em></p>
 					</div> <!-- details -->
-				</div> <!-- time-row -->
-				<div class="row time-row">
+				<!--</div> <!-- time-row -->
+				<!--<div class="row time-row">
 					<div class="col-sm-1 time-cell">
 						<p>9:00 - 12:00</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>Strategic Domain-Driven Design<br><a href="../speakers/eric-evans.html">Eric Evans</a></strong><br><em>Pikes Peak</em></p>				
 					</div> <!-- details -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>EventStorming Master Class<br><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></strong><br><em>Mount Evans</em></p>				
 					</div> <!-- details -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>Essential DDD<br><a href="../speakers/paul-rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
 					</div> <!-- details -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Elbert A</em></p>				
 					</div> <!-- details -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>Developing Applications with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Grays Peak A</em></p>				
 					</div> <!-- details -->
-				</div> <!-- time-row -->
-				<div class="row time-row">
+				<!--</div> <!-- time-row -->
+				<!--<div class="row time-row">
 					<div class="col-sm-1 time-cell">
 						<p>12:00 - 1:00</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details">
+					<!--<div class="col-sm-10 details">
 						<p><strong>Lunch</strong> <em>(2nd Floor)</em></p>
 					</div> <!-- details -->
-				</div> <!-- time-row -->
-				<div class="row time-row">
+				<!--</div> <!-- time-row -->
+				<!--<div class="row time-row">
 					<div class="col-sm-1 time-cell">
 						<p>1:00 - 4:00</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>Strategic Domain-Driven Design<br><a href="../speakers/eric-evans.html">Eric Evans</a></strong><br><em>Pikes Peak</em></p>				
 					</div> <!-- details -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>EventStorming Master Class<br><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></strong><br><em>Mount Evans</em></p>				
 					</div> <!-- details -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>Essential DDD<br><a href="../speakers/paul-rayner.html">Paul Rayner</a></strong><br><em>Mount Elbert B</em></p>				
 					</div> <!-- details -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>Implementing Event-Oriented DDD<br><a href="../speakers/vaughn-vernon.html">Vaughn Vernon</a></strong><br><em>Mount Elbert A</em></p>				
 					</div> <!-- details -->
-					<div class="col-sm-2 details">
+					<!--<div class="col-sm-2 details">
 						<p><strong>Developing Applicatons with the Microservice Architecture<br><a href="../speakers/chris-richardson.html">Chris Richardson</a></strong><br><em>Grays Peak A</em></p>				
 					</div> <!-- details -->
-				</div> <!-- time-row -->
-			</div> <!-- END WORKSHOP CONTENT -->
+				<!--</div> <!-- time-row -->
+			<!--</div> <!-- END WORKSHOP CONTENT -->
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<div id="div2" class="targetDiv kickoff-div">
 				<div class="row title-row">
