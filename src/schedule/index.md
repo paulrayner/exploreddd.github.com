@@ -165,7 +165,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/wassel-alazhar.html">Wassel Alazhar</a></h4>
-							<p class="talk-title"><a href="../speakers/wassel-alazhar.html">Real World Evolutionary Design</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/wassel-alazhar.html">Real World Evolutionary Design</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -193,7 +193,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/wassel-alazhar.html">Wassel Alazhar</a></h4>
-							<p class="talk-title"><a href="../speakers/wassel-alazhar.html">Real World Evolutionary Design</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/wassel-alazhar.html">Real World Evolutionary Design</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -248,7 +248,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/stefan-hofer.html">Stefan Hofer</a> &amp; <a href="../speakers/henning-schwentner.html">Henning Schwentner</a></h4>
-							<p class="talk-title"><a href="../speakers/stefan-hofer.html">Master Your Domain with Domain Storytelling</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/stefan-hofer.html">Master Your Domain with Domain Storytelling</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -276,7 +276,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/stefan-hofer.html">Stefan Hofer</a> &amp; <a href="../speakers/henning-schwentner.html">Henning Schwentner</a></h4>
-							<p class="talk-title"><a href="../speakers/stefan-hofer.html">Master Your Domain with Domain Storytelling</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/stefan-hofer.html">Master Your Domain with Domain Storytelling</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -303,7 +303,7 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/laura-savino.html">Readable Code</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<p class="talk-title" style="margin-top: 8px;">Hands-On Modeling: EventStorming for Everyone</a></p>
+							<p class="talk-title" style="margin-top: 8px;"><strong>Hands-On Modeling:</strong> EventStorming for Everyone</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -330,7 +330,7 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/rinat-shagisultanov.html">Kicking Over Monoliths for Fun and Profit: How DDD Drives Digital Transformation</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<p class="talk-title" style="margin-top: 8px;">Hands-On Modeling: EventStorming for Everyone</p>
+							<p class="talk-title" style="margin-top: 8px;"><strong>Hands-On Modeling:</strong> EventStorming for Everyone</p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -386,7 +386,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/yves-reynhout.html">Yves Reynhout</a></h4>
-							<p class="talk-title"><a href="../speakers/yves-reynhout.html">Projections Explained</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/yves-reynhout.html">Projections Explained</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -414,7 +414,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/yves-reynhout.html">Yves Reynhout</a></h4>
-							<p class="talk-title"><a href="../speakers/yves-reynhout.html">Projections Explained</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/yves-reynhout.html">Projections Explained</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
