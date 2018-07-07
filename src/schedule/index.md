@@ -136,7 +136,7 @@ layout: layout-tier2.html
 						<p>8:45 - 10:00</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details details-wide bottom-border">
-						<p><strong>Drinks Reception</strong><br><em>Reception Area - Pinnacle Club</em></p>
+						<p><strong>Drinks Reception</strong></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->				
 			</div>
@@ -176,7 +176,7 @@ layout: layout-tier2.html
 							<p>9:45 - 10:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
-							<p><strong>Morning Coffee</strong><br><em>Reception Area</em></p>
+							<p><strong>Morning Coffee</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
@@ -231,7 +231,7 @@ layout: layout-tier2.html
 							<p>12:00 - 1:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
-							<p><strong>Lunch</strong><br><em>Reception Area</em></p>
+							<p><strong>Lunch</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
@@ -397,7 +397,7 @@ layout: layout-tier2.html
 							<p>9:45 - 10:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details ">
-							<p><strong>Morning Coffee</strong><br><em>Reception Area</em></p>
+							<p><strong>Morning Coffee</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
@@ -441,7 +441,7 @@ layout: layout-tier2.html
 							<p>12:15 - 1:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Lunch</strong><br><em>Reception Area</em></p>
+							<p><strong>Lunch</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
