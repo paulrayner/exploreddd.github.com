@@ -481,7 +481,7 @@ layout: layout-tier2.html
 						<div class="col-sm-1 time-cell bottom-border">
 							<p>3:30 - 4:00</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details details-wide bottom-border">
+						<div class="col-sm-10 details details-wide">
 							<p><strong>Break</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -489,7 +489,7 @@ layout: layout-tier2.html
 						<div class="col-sm-1 time-cell bottom-border">
 							<p>4:00 - 5:00</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details details-wide bottom-border">
+						<div class="col-sm-10 details details-colored details-gold details-wide">
 							<p><strong>Conference Closing Circle</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
