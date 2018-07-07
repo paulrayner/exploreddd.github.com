@@ -248,7 +248,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/stefan-hofer.html">Stefan Hofer</a> &amp; <a href="../speakers/henning-schwentner.html">Henning Schwentner</a></h4>
-							<p class="talk-title"><a href="">Master Your Domain with Domain Storytelling</a></p>
+							<p class="talk-title"><a href="../speakers/stefan-hofer.html">Master Your Domain with Domain Storytelling</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -276,7 +276,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/stefan-hofer.html">Stefan Hofer</a> &amp; <a href="../speakers/henning-schwentner.html">Henning Schwentner</a></h4>
-							<p class="talk-title"><a href="">Master Your Domain with Domain Storytelling</a></p>
+							<p class="talk-title"><a href="../speakers/stefan-hofer.html">Master Your Domain with Domain Storytelling</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -330,7 +330,7 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/rinat-shagisultanov.html">Kicking Over Monoliths for Fun and Profit: How DDD Drives Digital Transformation</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<p class="talk-title" style="margin-top: 8px;"><a href="">Hands-On Modeling: EventStorming for Everyone</a></p>
+							<p class="talk-title" style="margin-top: 8px;">Hands-On Modeling: EventStorming for Everyone</p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -378,15 +378,15 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/mauro-servienti.html">Mauro Servienti</a></h4>
-							<p class="talk-title"><a href="">All Our Aggregates Are Wrong</a></p>
+							<p class="talk-title"><a href="../speakers/mauro-servienti.html">All Our Aggregates Are Wrong</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/stefan-hofer.html">Stefan Hofer</a> &amp; <a href="../speakers/henning-schwentner.html">Henning Schwentner</a></h4>
-							<p class="talk-title"><a href="">How Domain Storytelling Shaped Our View of Bounded Contexts</a></p>
+							<p class="talk-title"><a href="../speakers/stefan-hofer.html">How Domain Storytelling Shaped Our View of Bounded Contexts</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/yves-reynhout.html">Yves Reynhout</a></h4>
-							<p class="talk-title"><a href="">Projections Explained</a></p>
+							<p class="talk-title"><a href="../speakers/yves-reynhout.html">Projections Explained</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -406,15 +406,15 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/bruno-boucard.html">Bruno Boucard</a> &amp; <a href="../speakers/thomas-pierrain.html">Thomas Pierrain</a></h4>
-							<p class="talk-title"><a href="">Communication is Everyting; Especially While Pairing (Survival Guide)</a></p>
+							<p class="talk-title"><a href="../speakers/bruno-boucard.html">Communication is Everyting; Especially While Pairing (Survival Guide)</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/paul-rayner.html">Paul Rayner</a></h4>
-							<p class="talk-title"><a href="">Modeling Team Flow</a></p>
+							<p class="talk-title"><a href="../speakers/paul-rayner.html">Modeling Team Flow</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/yves-reynhout.html">Yves Reynhout</a></h4>
-							<p class="talk-title"><a href="">Projections Explained</a></p>
+							<p class="talk-title"><a href="../speakers/yves-reynhout.html">Projections Explained</a></p>
 						</div> <!-- details -->
 						<!--<div class="col-sm-2 details details-colored details-blue">
 							<h4>Creative Space</h4>							
@@ -446,7 +446,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>12:15 - 1:15</p>
+							<p>1:15 - 2:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-colored details-gold details-wide">
 							<h4>Panel Discussion: The Challenge of Legacy Systems</h4>
