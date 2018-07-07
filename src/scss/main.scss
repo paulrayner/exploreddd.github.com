@@ -1406,7 +1406,7 @@ footer {
 }
 .title-row {
   .title-cell-uncolored-cells {
-    border-bottom: 1px solid $brand-body;
+    //border-bottom: 1px solid $brand-body;
     @include mq(sm) {
       padding-left: 0px;
     }
@@ -1444,7 +1444,7 @@ footer {
 }
 .time-cell {
   padding-top: 10px;
-  border-bottom: 1px solid $brand-body;
+  //border-bottom: 1px solid $brand-body;
   font-size: 16px;
   font-family: NunitoSans, sans-serif;
   @include mq(xs) {
@@ -1453,16 +1453,18 @@ footer {
 }
 @include mq(sm) {
   .time-cell-empty {
-    border-bottom: 1px solid $brand-body;
+		//border-bottom: 1px solid $brand-body;
+		//border-bottom: 0;
 	}
 	.time-cell-no-top-border {
-		border-top: 0 !important;
+		//border-top: 0 !important;
+		//border-bottom: 0;
 	}
 }
 
 .details {
   padding: 10px 5px 10px 5px;
-  border-bottom: 1px solid $brand-body;
+  //border-bottom: 1px solid $brand-body;
   p {
     font-size: 18px;
     em {
@@ -1483,12 +1485,12 @@ footer {
 }
 //remove bottom row from time rows that have colored "talk detail" rows directly below them
 .time-cell-followed-by-colored-row, .followed-by-colored-row {
-  border: 0 !important;
+  //border: 0 !important;
 }
 .details-colored {
   color: #fff9ec;
   padding: 5px 13px 5px 13px;
-  border-top: 0 !important; //we need to override the top border here since colored divs have a different border requirement
+  //border-top: 0 !important; //we need to override the top border here since colored divs have a different border requirement
   h4 {
     font-family: NunitoSansBold, sans-serif;
     //text-transform: uppercase;
@@ -1499,22 +1501,6 @@ footer {
   }
   a {
     color: #fff9ec;
-  }
-}
-.custom-grid-column-widths .time-cell {
-  border-top: 1px solid $brand-body;
-  border-bottom: 0;
-  @include mq(xs) {
-    border-top: 0;
-  }
-}
-//since we can't target using :nth-last-match(selector) until css4 is accepted and implemented. must use a class injection in the html here
-.last-colored-row .time-cell {
-  @include mq(xs) {
-    border-bottom: 0;
-  }
-  @include mq(sm) {
-    border-bottom: 1px solid $brand-body;
   }
 }
 
@@ -1543,16 +1529,16 @@ footer {
 }
 @include mq(xs) {
   .title-row + .time-row div {
-    border-top: 1px solid $brand-body;
+    //border-top: 1px solid $brand-body;
   }
 }
 @include mq(xs) {
   .title-row + .time-row div {
-    border-top: 0;
+    //border-top: 0;
   }
 }
 @include mq(sm) {
-  .custom-grid-column-widths {
+  //.custom-grid-column-widths {
     .time-cell {
       width: 10%;
     }
@@ -1563,10 +1549,10 @@ footer {
 		.details-wide {
 			width: 87.75%;
 		}
-  }
+  //}
 }
 @include mq(md) {
-  .custom-grid-column-widths {
+  //.custom-grid-column-widths {
     .time-cell {
       width: 15.6%;
     }
@@ -1577,8 +1563,22 @@ footer {
 		.details-wide {
 			width: 84%;
 		}
-  }
+  //}
 }
+
+//I give up on the row styling logic. Time to do it old school
+.top-border {
+	@include mq(sm) {
+		border-top: 1px solid black;
+	}
+}
+.bottom-border {
+	@include mq(sm) {
+		border-bottom: 1px solid black;
+	}
+}
+
+
 //full height columns
 //only apply to non mobile viewports since this flex fix will break responsiveness below 768
 @include mq(sm) {
