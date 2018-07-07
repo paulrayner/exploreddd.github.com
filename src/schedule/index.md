@@ -99,43 +99,43 @@ layout: layout-tier2.html
 			<!--</div> <!-- END WORKSHOP CONTENT -->
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<div id="div2" class="targetDiv kickoff-div">
-				<div class="row title-row">
-					<div class="col-sm-1 time-cell-empty">
-					</div>
-					<div class="col-sm-10 title-cell-uncolored-cells">				
+				<div class="row title-row custom-grid-column-widths">
+						<div class="col-sm-1 time-cell time-cell-no-top-border">
+						</div>
+						<div class="col-sm-10 title-cell-colored-cells">				
 							<h2>Main Conference Kickoff Evening</h2>
 							<h3>Wednesday, September 12</h3>
 						</div> <!--col-xs -->
 				</div> <!-- title-row -->
-				<div class="row time-row">
+				<div class="row time-row custom-grid-column-widths">
 					<div class="col-sm-1 time-cell">
 						<p>4:00 - 7:15</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details">
+					<div class="col-sm-10 details details-wide followed-by-colored-row">
 						<p><strong>Registration</strong><br><em>Hotel Lobby</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
-				<div class="row time-row">
+				<div class="row time-row custom-grid-column-widths">
 					<div class="col-sm-1 time-cell">
 						<p>7:30 - 7:45</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details">
+					<div class="col-sm-10 details details-colored details-gold details-wide">
 						<p><strong>Welcome &#8212; <a href="../speakers/paul-rayner.html">Paul Rayner</a></strong> (Conference Chair)<br><em>Capitol Peak A & B - Pinnacle Club</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
-				<div class="row time-row">
+				<div class="row time-row custom-grid-column-widths">
 					<div class="col-sm-1 time-cell">
 						<p>7:45 - 8:45</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details details-colored details-gold">
-						<p><strong>Keynote: The Origins of Opera and the Future of Programming &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></strong> <br><em>Capitol Peak A & B</em></p>
+					<div class="col-sm-10 details details-colored details-gold details-wide">
+						<h4>Keynote: The Origins of Opera and the Future of Programming &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a><h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
-				<div class="row time-row">
+				<div class="row time-row custom-grid-column-widths">
 					<div class="col-sm-1 time-cell">
 						<p>8:45 - 10:00</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details">
+					<div class="col-sm-10 details details-wide">
 						<p><strong>Drinks Reception</strong><br><em>Reception Area - Pinnacle Club</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->				
@@ -143,13 +143,13 @@ layout: layout-tier2.html
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<!-- BEGIN Day 1 CONTENT -->
 			<div id="div3" class="targetDiv day-div">
-					<div class="row title-row">
-						<div class="col-sm-1">
+					<div class="row title-row custom-grid-column-widths">
+						<div class="col-sm-1 time-cell time-cell-no-top-border">
 						</div>
 						<div class="col-sm-10 title-cell-colored-cells">
-								<h2>Main Conference Day 1</h2>
-								<h3>Thursday, September 13</h3>
-							</div> <!--col-sm -->
+							<h2>Main Conference Day 1</h2>
+							<h3>Thursday, September 13</h3>
+						</div> <!--col-sm -->
 					</div> <!-- title-row -->
 					<div class="row time-row custom-grid-column-widths last-colored-row">
 						<div class="col-sm-1 time-cell">
@@ -171,11 +171,11 @@ layout: layout-tier2.html
 							<h4>Creative Space</h4>							
 						</div>--> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
+					<div class="row time-row custom-grid-column-widths">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>9:45 - 10:15</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details followed-by-colored-row">
+						<div class="col-sm-10 details details-wide followed-by-colored-row">
 							<p><strong>Morning Coffee</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -199,11 +199,11 @@ layout: layout-tier2.html
 							<h4>Creative Space</h4>							
 						</div>--> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
+					<div class="row time-row custom-grid-column-widths">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>11:00 - 11:15</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details followed-by-colored-row">
+						<div class="col-sm-10 details details-wide followed-by-colored-row">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -226,11 +226,11 @@ layout: layout-tier2.html
 							<h4>Creative Space</h4>							
 						</div>--> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
+					<div class="row time-row custom-grid-column-widths">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>12:00 - 1:00</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details followed-by-colored-row">
+						<div class="col-sm-10 details details-wide followed-by-colored-row">
 							<p><strong>Lunch</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -254,11 +254,11 @@ layout: layout-tier2.html
 							<h4>Creative Space</h4>							
 						</div>--> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
+					<div class="row time-row custom-grid-column-widths">
 						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>1:45 - 2:00</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details followed-by-colored-row">
+						<div class="col-sm-10 details details-wide followed-by-colored-row">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -282,16 +282,16 @@ layout: layout-tier2.html
 							<h4>Creative Space</h4>							
 						</div>--> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
-						<div class="col-sm-1 time-cell">
+					<div class="row time-row custom-grid-column-widths">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>2:45 - 3:15</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details">
+						<div class="col-sm-10 details details-wide followed-by-colored-row">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths colored-cell-row last-colored-row">
-						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
+						<div class="col-sm-1 time-cell">
 							<p>3:15 - 4:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
@@ -300,7 +300,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/laura-savino.html">Laura Savino</a></h4>
-							<p class="talk-title"></p>
+							<p class="talk-title">Readable Code</p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<p class="talk-title" style="margin-top: 8px;">Hands-On Modeling: EventStorming for Everyone</p>
@@ -309,16 +309,16 @@ layout: layout-tier2.html
 							<h4>Creative Space</h4>							
 						</div>--> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
-						<div class="col-sm-1 time-cell">
+					<div class="row time-row custom-grid-column-widths colored-cell-row last-colored-row">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>4:00 - 4:15</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details">
+						<div class="col-sm-10 details details-wide followed-by-colored-row">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row custom-grid-column-widths colored-cell-row last-colored-row">
-						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
+						<div class="col-sm-1 time-cell">
 							<p>4:15 - 5:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
@@ -336,28 +336,28 @@ layout: layout-tier2.html
 							<h4>Creative Space</h4>							
 						</div>--> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
-						<div class="col-sm-1 time-cell">
+					<div class="row time-row custom-grid-column-widths">
+						<div class="col-sm-1 time-cell time-cell-followed-by-colored-row">
 							<p>5:00 - 5:15</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details">
+						<div class="col-sm-10 details details-wide followed-by-colored-row">
 							<p><strong>Break</strong><br><em>Reception Area</em></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
+					<div class="row time-row custom-grid-column-widths">
 						<div class="col-sm-1 time-cell">
 							<p>5:15 - 6:15</p>
 						</div> <!-- col-xs -->
-						<div class="col-sm-10 details details-colored details-gold">
-							<p><strong>Keynote: Error Elimination as a Design Driver &#8212; <a href="../speakers/michael-feathers.html">Michael Feathers</a></strong> <br><em>Capitol Peak A & B</em></p>
+						<div class="col-sm-10 details details-colored details-gold details-wide">
+							<h4>Keynote: Error Elimination as a Design Driver &#8212; <a href="../speakers/michael-feathers.html">Michael Feathers</a></h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row">
+					<div class="row time-row custom-grid-column-widths">
 						<div class="col-sm-1 time-cell">
 							<p>6:15 - Late</p>
 						</div> <!-- col-xs -->
-						<div class="col-sm-10 details">
-							<p><strong>Explore Downtown Denver Dining</p>
+						<div class="col-sm-10 details followed-by-colored-row details-wide">
+							<p><strong>Explore Downtown Denver Dining</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 				</div>

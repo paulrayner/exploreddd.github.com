@@ -1416,7 +1416,7 @@ footer {
   }
   .title-cell-colored-cells {
     @include mq(sm) {
-      padding-left: 20px;
+      padding-left: 10px;
     }
     @include mq(md) {
       padding-left: 5px;
@@ -1454,7 +1454,10 @@ footer {
 @include mq(sm) {
   .time-cell-empty {
     border-bottom: 1px solid $brand-body;
-  }
+	}
+	.time-cell-no-top-border {
+		border-top: 0 !important;
+	}
 }
 
 .details {
@@ -1554,18 +1557,26 @@ footer {
       width: 10%;
     }
     .details {
-      width: 22.4%;
-    }
+			//width: 22.4%; //this was foour 2017 with 4 colour track
+			width: 27.25%; //3 colour track
+		}
+		.details-wide {
+			width: 81.7%;
+		}
   }
 }
 @include mq(md) {
   .custom-grid-column-widths {
     .time-cell {
-      width: 7.6%;
+      width: 15.6%;
     }
     .details {
-      width: 21%;
-    }
+			//width: 21%; //this was foour 2017 with 4 colour track
+			width: 28%; //3 colour track
+		}
+		.details-wide {
+			width: 83.75%;
+		}
   }
 }
 //full height columns
