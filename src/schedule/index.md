@@ -128,7 +128,7 @@ layout: layout-tier2.html
 						<p>7:45 - 8:45</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details details-colored details-gold details-wide">
-						<h4>Keynote: The Origins of Opera and the Future of Programming &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a><h4>
+						<h4>Keynote: The Origins of Opera and the Future of Programming &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 				<div class="row time-row ">
