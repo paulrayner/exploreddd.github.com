@@ -1439,14 +1439,12 @@ footer {
     }
   }
 }
-.time-row {
 
-}
 .time-cell {
   padding-top: 10px;
   //border-bottom: 1px solid $brand-body;
   font-size: 16px;
-  font-family: NunitoSans, sans-serif;
+	font-family: NunitoSans, sans-serif;
   @include mq(xs) {
     text-align: center;
   }
@@ -1526,6 +1524,14 @@ footer {
   em {
     font-size: 16px;
   }
+}
+
+.details-wide {
+		p {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
 }
 @include mq(xs) {
   .title-row + .time-row div {
