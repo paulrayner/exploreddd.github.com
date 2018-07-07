@@ -204,7 +204,7 @@ layout: layout-tier2.html
 							<p>11:00 - 11:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
-							<p><strong>Break</strong><br><em>Reception Area</em></p>
+							<p><strong>Break</strong><br></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
@@ -259,7 +259,7 @@ layout: layout-tier2.html
 							<p>1:45 - 2:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
-							<p><strong>Break</strong><br><em>Reception Area</em></p>
+							<p><strong>Break</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
@@ -287,7 +287,7 @@ layout: layout-tier2.html
 							<p>2:45 - 3:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
-							<p><strong>Break</strong><br><em>Reception Area</em></p>
+							<p><strong>Break</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
@@ -341,7 +341,7 @@ layout: layout-tier2.html
 							<p>5:00 - 5:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
-							<p><strong>Break</strong><br><em>Reception Area</em></p>
+							<p><strong>Break</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row ">
@@ -425,7 +425,7 @@ layout: layout-tier2.html
 							<p>11:00 - 11:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Break</strong><br><em>Reception Area</em></p>
+							<p><strong>Break</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -457,7 +457,7 @@ layout: layout-tier2.html
 							<p>2:00 - 2:30</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
-							<p><strong>Break</strong><br><em>Reception Area</em></p>
+							<p><strong>Break</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
@@ -482,7 +482,7 @@ layout: layout-tier2.html
 							<p>3:30 - 4:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide bottom-border">
-							<p><strong>Break</strong><br><em>Reception Area</em></p>
+							<p><strong>Break</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
