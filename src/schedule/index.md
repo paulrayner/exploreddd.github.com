@@ -490,7 +490,7 @@ layout: layout-tier2.html
 							<p>4:00 - 5:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-colored details-gold details-wide">
-							<p><strong>Conference Closing Circle</strong></p>
+							<h4>Conference Closing Circle</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
