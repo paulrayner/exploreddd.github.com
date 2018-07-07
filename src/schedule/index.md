@@ -314,7 +314,7 @@ layout: layout-tier2.html
 							<p>4:00 - 4:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
-							<p><strong>Break</strong><br><em>Reception Area</em></p>
+							<p><strong>Break</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
