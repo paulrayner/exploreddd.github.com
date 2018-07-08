@@ -288,6 +288,7 @@ s
 }
 .navbar-collapse {
 	text-align: center;
+	padding-bottom: 10px;
 	@include mq(sm) {
 		background: transparent;
 		text-align: center;
