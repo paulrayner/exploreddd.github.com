@@ -1406,7 +1406,6 @@ footer {
 }
 .title-row {
   .title-cell-uncolored-cells {
-    //border-bottom: 1px solid $brand-body;
     @include mq(sm) {
       padding-left: 0px;
     }
@@ -1441,28 +1440,23 @@ footer {
 }
 
 .time-cell {
-  padding-top: 10px;
-  //border-bottom: 1px solid $brand-body;
+	text-align: center;
   font-size: 16px;
 	font-family: NunitoSans, sans-serif;
   @include mq(xs) {
-    text-align: center;
-  }
-}
-@include mq(sm) {
-  .time-cell-empty {
-		//border-bottom: 1px solid $brand-body;
-		//border-bottom: 0;
+		text-align: center;
+		margin-top: 10px;
 	}
-	.time-cell-no-top-border {
-		//border-top: 0 !important;
-		//border-bottom: 0;
+	@include mq(sm) {
+		p {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
 	}
 }
 
 .details {
-  padding: 10px 5px 10px 5px;
-  //border-bottom: 1px solid $brand-body;
   p {
     font-size: 18px;
     em {
@@ -1478,20 +1472,19 @@ footer {
     }
   }
   @include mq(xs) {
-    text-align: center;
-  }
+		text-align: center;
+		margin-bottom: 0;
+	}
+	@include mq(sm) {
+		padding: 10px 13px 10px 13px;
+	}
 }
-//remove bottom row from time rows that have colored "talk detail" rows directly below them
-.time-cell-followed-by-colored-row, .followed-by-colored-row {
-  //border: 0 !important;
-}
+
 .details-colored {
   color: #fff9ec;
   padding: 5px 13px 5px 13px;
-  //border-top: 0 !important; //we need to override the top border here since colored divs have a different border requirement
   h4 {
     font-family: NunitoSansBold, sans-serif;
-    //text-transform: uppercase;
   }
   h5 {
     font-size: 18px;
@@ -1520,59 +1513,47 @@ footer {
 }
 .talk-title {
   font-size: 18px;
-  //text-transform: capitalize;
   em {
     font-size: 16px;
   }
 }
 
 .details-wide {
+	@include mq(sm) {
 		p {
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%);
+			margin-bottom: 0;
 		}
+	}
 }
 @include mq(xs) {
-  .title-row + .time-row div {
-    //border-top: 1px solid $brand-body;
-  }
-}
-@include mq(xs) {
-  .title-row + .time-row div {
-    //border-top: 0;
-  }
+
 }
 @include mq(sm) {
-  //.custom-grid-column-widths {
     .time-cell {
       width: 10%;
     }
     .details {
-			//width: 22.4%; //this was foour 2017 with 4 colour track
-			width: 29.25%; //3 colour track
+			width: 29.25%;
 		}
 		.details-wide {
 			width: 87.75%;
 		}
-  //}
 }
 @include mq(md) {
-  //.custom-grid-column-widths {
-    .time-cell {
-      width: 15.6%;
-    }
-    .details {
-			//width: 21%; //this was foour 2017 with 4 colour track
-			width: 28%; //3 colour track
-		}
-		.details-wide {
-			width: 84%;
-		}
-  //}
+	.time-cell {
+		width: 15.6%;
+	}
+	.details {
+		width: 28%;
+	}
+	.details-wide {
+		width: 84%;
+	}
 }
 
-//I give up on the row styling logic. Time to do it old school
 .top-border {
 	@include mq(sm) {
 		border-top: 1px solid black;
@@ -1583,7 +1564,6 @@ footer {
 		border-bottom: 1px solid black;
 	}
 }
-
 
 //full height columns
 //only apply to non mobile viewports since this flex fix will break responsiveness below 768
