@@ -152,7 +152,7 @@ layout: layout-tier2.html
 						</div> <!--col-sm -->
 					</div> <!-- title-row -->
 					<div class="row time-row ">
-						<div class="col-sm-1 time-cell bottom-border">
+						<div class="col-sm-1 time-cell top-border bottom-border">
 							<p>8:00 - 8:45</p>
 						</div> <!-- col-xs -->
 						<div class="col-sm-10 details details-colored details-gold details-wide">
