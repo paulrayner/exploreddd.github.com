@@ -151,6 +151,22 @@ layout: layout-tier2.html
 							<h3>Thursday, September 13</h3>
 						</div> <!--col-sm -->
 					</div> <!-- title-row -->
+					<div class="row time-row ">
+						<div class="col-sm-1 time-cell bottom-border">
+							<p>8:00 - 8:45</p>
+						</div> <!-- col-xs -->
+						<div class="col-sm-10 details details-colored details-gold details-wide">
+							<h4>Open Space Planning - Theme: Domain Modeling for Everyone</h4>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row ">
+						<div class="col-sm-1 time-cell time-cell-">
+							<p>8:45 - 9:00</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details details-wide ">
+							<p><strong>Break</strong><br></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
 						<div class="col-sm-1 time-cell top-border bottom-border">
 							<p>9:00 - 9:45</p>
