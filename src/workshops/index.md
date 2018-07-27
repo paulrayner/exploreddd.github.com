@@ -109,38 +109,6 @@ layout: layout-tier2.html
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <a href="exploring-ef-core-support-for-ddd-patterns.html"><div class="speaker-img julie-lerman"></div></a>
-                </div>
-            </div>
-        <div class="col-xs-12 col-sm-10 workshop-list">
-        <h2><a href="exploring-ef-core-support-for-ddd-patterns.html">Exploring EF Core Support for DDD Patterns</a></h2>
-        <p class="copy">
-            <span class="workshops--speaker-name">Julie Lerman</span>
-            <span class="workshops--duration">1-Day Workshop<br>Tue, Sept 11</span>
-        </p>
-        <p class="copy">Entity Framework half-heartedly supported DDD patterns. But the new-from-scratch EF Core has brought new hope for DDD practitioners to be able to map their DDD designed domain classes to a database without making so many concessions that a separate data model was needed. EF Core 2 is very DDD friendly even supporting things like fully encapsulated collections, backing fields and the return of support for value objects. In this hands on workshop you’ll work with well-designed aggregates and explore how far EF Core 2 goes to act as the data model between your domain classes and your data store. <a href="exploring-ef-core-support-for-ddd-patterns.html">Read more...</a></p>
-        </div>
-    </div>
-    <!-- begin workshop element -->
-	<div class="row">
-        <div class="col-xs-12 col-sm-2">
-            <div class="speaker-container">
-                <a href="ddd-in-php.html"><div class="speaker-img andrew-cassell"></div></a>
-                </div>
-            </div>
-        <div class="col-xs-12 col-sm-10 workshop-list">
-        <h2><a href="ddd-in-php.html">DDD in PHP</a></h2>
-        <p class="copy">
-            <span class="workshops--speaker-name">Andrew Cassell</span>
-            <span class="workshops--duration">1-Day Workshop<br>Tue, Sept 11</span>
-        </p>
-        <p class="copy">Building PHP applications using Domain-driven design techniques results in code that is easier to modify, maintain, and test, and a better user experience. In this tutorial, we will start by establishing a ubiquitous language. Then, we will learn the benefits of encapsulating business logic in PHP value objects using test-driven development. <a href="ddd-in-php.html">Read more...</a></p>
-        </div>
-    </div>
-    <!-- begin workshop element -->
-    <div class="row">
-        <div class="col-xs-12 col-sm-2">
-            <div class="speaker-container">
                 <a href="strategic-autonomous-design-applied.html"><div class="speaker-img nick-and-zsófia"></div></a>
                 </div>
             </div>
