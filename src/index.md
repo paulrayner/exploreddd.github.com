@@ -115,16 +115,16 @@ layout: layout.html
   </div>
   <div class="row">
     <div class="speaker-container">
-      <a href="speakers/julie-lerman.html"><div class="speaker-img julie-lerman">
+      <a href="speakers/wassel-alazhar.html"><div class="speaker-img wassel-alazhar">
       </div></a>
-      <h3><a class="speaker-name" href="speakers/julie-lerman.html">Julie Lerman</a></h3>
-      <p class="speaker-details">Serial DDD Advocate</p>
+      <h3><a class="speaker-name" href="speakers/wassel-alazhar.html">Wassel Alazhar</a></h3>
+      <p class="speaker-details">Passionate software craftsman</p>
     </div>
     <div class="speaker-container">
-      <a href="speakers/andrew-cassell.html"><div class="speaker-img andrew-cassell">
+      <a href="speakers/laura-savino.html"><div class="speaker-img laura-savino">
       </div></a>
-      <h3><a class="speaker-name" href="speakers/andrew-cassell.html">Andrew Cassell</a></h3>
-      <p class="speaker-details">Web App Developer & Designer</p>
+      <h3><a class="speaker-name" href="speakers/laura-savino.html">Laura Savino</a></h3>
+      <p class="speaker-details">Mobile Developer &amp; Mentor</p>
     </div>
     <div class="speaker-container">
       <a href="speakers/david-boike.html"><div class="speaker-img david-boike">
@@ -273,20 +273,6 @@ layout: layout.html
       </div></a>
       <h3><a class="speaker-name" href="speakers/trevor-conn.html">Trevor Conn</a></h3>
       <p class="speaker-details">Principal Software Engineer</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="speaker-container">
-      <a href="speakers/wassel-alazhar.html"><div class="speaker-img wassel-alazhar">
-      </div></a>
-      <h3><a class="speaker-name" href="speakers/wassel-alazhar.html">Wassel Alazhar</a></h3>
-      <p class="speaker-details">Passionate software craftsman</p>
-    </div>
-    <div class="speaker-container">
-      <a href="speakers/laura-savino.html"><div class="speaker-img laura-savino">
-      </div></a>
-      <h3><a class="speaker-name" href="speakers/laura-savino.html">Laura Savino</a></h3>
-      <p class="speaker-details">Mobile Developer &amp; Mentor</p>
     </div>
   </div>
 </div>
