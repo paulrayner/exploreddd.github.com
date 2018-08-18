@@ -159,10 +159,10 @@ layout: layout.html
       <p class="speaker-details">Strategic Design Specialist</p>
     </div>
     <div class="speaker-container">
-      <a href="speakers/zsófia-herendi.html"><div class="speaker-img zsófia-herendi">
+      <a href="speakers/trevor-conn.html"><div class="speaker-img trevor-conn">
       </div></a>
-      <h3><a class="speaker-name" href="speakers/zsófia-herendi.html">Zsófia Herendi</a></h3>
-      <p class="speaker-details">Flow Addict</p>
+      <h3><a class="speaker-name" href="speakers/trevor-conn.html">Trevor Conn</a></h3>
+      <p class="speaker-details">Principal Software Engineer</p>
     </div>
   </div>
   <div class="row">
@@ -267,12 +267,6 @@ layout: layout.html
       </div></a>
       <h3><a class="speaker-name" href="speakers/yves-reynhout.html">Yves Reynhout</a></h3>
       <p class="speaker-details">The Journeylist</p>
-    </div>
-    <div class="speaker-container">
-      <a href="speakers/trevor-conn.html"><div class="speaker-img trevor-conn">
-      </div></a>
-      <h3><a class="speaker-name" href="speakers/trevor-conn.html">Trevor Conn</a></h3>
-      <p class="speaker-details">Principal Software Engineer</p>
     </div>
   </div>
 </div>
