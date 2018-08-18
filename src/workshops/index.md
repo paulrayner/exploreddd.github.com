@@ -109,22 +109,6 @@ layout: layout-tier2.html
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <a href="strategic-autonomous-design-applied.html"><div class="speaker-img nick-and-zsófia"></div></a>
-                </div>
-            </div>
-        <div class="col-xs-12 col-sm-10 workshop-list">
-        <h2><a href="strategic-autonomous-design-applied.html">Strategic Autonomous Design Applied</a></h2>
-        <p class="copy">
-            <span class="workshops--speaker-name">Nick Tune and Zsófia Herendi</span>
-            <span class="workshops--duration">1-Day Workshop<br>Wed, Sept 12</span>
-        </p>
-        <p class="copy">Learn how to model a complex system and break it down into cohesive bounded contexts through hands-on group activities. This session will teach you skills you can immediately begin applying in your organisation to improve the autonomy of your software services and the teams that build and run them.  <a href="strategic-autonomous-design-applied.html">Read more...</a></p>
-        </div>
-    </div>
-    <!-- begin workshop element -->
-    <div class="row">
-        <div class="col-xs-12 col-sm-2">
-            <div class="speaker-container">
                 <a href="working-effectively-with-legacy-code.html"><div class="speaker-img michael-feathers"></div></a>
                 </div>
             </div>
