@@ -105,25 +105,4 @@ layout: layout-tier2.html
         <p class="copy">The architectural patterns of Domain Driven Design, Command Query Segregation Responsibility and Event Sourcing have proven to be important ingredients for building high performing, scalable applications. Audit requirements and the use of data analytics are also important reasons for choosing these patterns. Axon Framework builds on top of these concepts, helping developers build applications that evolve along with the domain. <a href="event-driven-microservices-with-axon-framework.html">Read more...</a></p>
         </div>
     </div>
-    <!-- begin workshop element -->
-    <div class="row">
-        <div class="col-xs-12 col-sm-2">
-            <div class="speaker-container">
-                <a href="working-effectively-with-legacy-code.html"><div class="speaker-img michael-feathers"></div></a>
-                </div>
-            </div>
-        <div class="col-xs-12 col-sm-10 workshop-list">
-        <h2><a href="working-effectively-with-legacy-code.html">Working Effectively with Legacy Code</a></h2>
-        <p class="copy">
-            <span class="workshops--speaker-name">Michael Feathers</span>
-            <span class="workshops--duration">1-Day Workshop<br>Wed, Sept 12</span>
-        </p>
-        <p class="copy">Test Driven Development and Refactoring are powerful tools. With them you can add new code to systems and make existing code more maintainable. However, refactoring code without having tests in place can be hazardous. This class presents a collection of dependency breaking and test writing techniques that can be used to get existing code safely under test for refactoring. These techniques can be used in conjunction with Test Driven Development to breathe new life into large existing code bases. This class is structured as a set of lectures, discussions, and hands on exercises.  <a href="working-effectively-with-legacy-code.html">Read more...</a></p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12" align="center">
-            <a class="btn" style="margin-top: 0;" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
-        </div>
-    </div>
 </div> <!-- container -->
