@@ -102,7 +102,7 @@ layout: layout-tier2.html
 				<div class="row title-row ">
 						<div class="col-sm-1 time-cell ">
 						</div>
-						<div class="col-sm-10 title-cell-colored-cells">				
+						<div class="col-sm-10 title-cell-colored-cells">
 							<h2>Main Conference Kickoff Evening</h2>
 							<h3>Wednesday, September 12</h3>
 						</div> <!--col-xs -->
@@ -123,12 +123,12 @@ layout: layout-tier2.html
 						<h4>Welcome &#8212; <a href="../speakers/paul-rayner.html">Paul Rayner</a></strong> (Conference Chair)</h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
-				<div class="row time-row ">
+				<div class="row time-row">
 					<div class="col-sm-1 time-cell bottom-border">
 						<p>7:45 - 8:45</p>
-					</div> <!-- col-xs -->
+					</div> <!-- col-sm -->
 					<div class="col-sm-10 details details-colored details-gold details-wide">
-						<h4><a href="../speakers/jessica-kerr.html">Keynote: The Origins of Opera and the Future of Programming</a> &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></h4>
+						<h4>Keynote: &#8212; <a href="../speakers/eric-evans.html">Eric Evans</a></h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 				<div class="row time-row ">
@@ -203,9 +203,13 @@ layout: layout-tier2.html
 							<h4><a href="../speakers/jean-françois-cloutier.html">Jean François Cloutier</a></h4>
 							<p class="talk-title"><a href="../speakers/jean-françois-cloutier.html">Rethinking How My Robots Think: Adventures in DDD and Robotics Part Two</a></p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
+						<!--<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/nick-tune.html">Nick Tune</a></a></h4>
 							<p class="talk-title"><a href="../speakers/nick-tune.html">Strategic Autonomous Design: Patterns and Heuristics</a></p>
+						</div> --><!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h4><a href="../speakers/dave-buchanan.html">Dave Buchanan</a></h4>
+							<p class="talk-title"><a href="../speakers/dave-buchanan.html">How to Get Started with DDD: A Case Study Breaking Away From a Legacy MVC App</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/wassel-alazhar.html">Wassel Alazhar</a></h4>
@@ -223,28 +227,17 @@ layout: layout-tier2.html
 							<p><strong>Break</strong><br></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row  last-colored-row">
+					<div class="row time-row ">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>11:15 - 12:00</p>
-						</div> <!-- col-sm -->
-						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a></h4>
-							<p class="talk-title"><a href="../speakers/allard-buijze.html">The Inconveniences of Event Sourcing</a></p>
+							<p>11:15 - 12:15</p>
+						</div> <!-- col-xs -->
+						<div class="col-sm-10 details details-colored details-gold details-wide">
+							<h4><a href="../speakers/jessica-kerr.html">Keynote: The Origins of Opera and the Future of Programming</a> &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></h4>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/dave-buchanan.html">Dave Buchanan</a></h4>
-							<p class="talk-title"><a href="../speakers/dave-buchanan.html">How to Get Started with DDD: A Case Study Breaking Away From a Legacy MVC App</a></p>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Open Space</h4>
-						</div> <!-- details -->
-						<!--<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
-						</div>--> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row ">
-						<div class="col-sm-1 time-cell  bottom-border time-cell-">
-							<p>12:00 - 1:00</p>
+						<div class="col-sm-1 time-cell bottom-border time-cell-">
+							<p>12:15 - 1:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
 							<p><strong>Lunch</strong></p>
@@ -252,7 +245,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>1:00 - 1:45</p>
+							<p>1:15 - 2:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h4>
@@ -272,7 +265,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row ">
 						<div class="col-sm-1 time-cell  bottom-border time-cell-">
-							<p>1:45 - 2:00</p>
+							<p>2:00 - 2:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
 							<p><strong>Break</strong></p>
@@ -280,7 +273,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>2:00 - 2:45</p>
+							<p>2:15 - 3:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/trevor-conn.html">Trevor Conn</a></h4>
@@ -300,15 +293,15 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row ">
 						<div class="col-sm-1 time-cell  bottom-border time-cell-">
-							<p>2:45 - 3:15</p>
+							<p>3:00 - 3:30</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
-							<p><strong>Break</strong></p>
+							<p><strong>Afternoon Break</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>3:15 - 4:00</p>
+							<p>3:30 - 4:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/martin-schimak.html">Martin Schimak</a></h4>
@@ -327,7 +320,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
 						<div class="col-sm-1 time-cell  bottom-border time-cell-">
-							<p>4:00 - 4:15</p>
+							<p>4:15 - 4:30-</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
 							<p><strong>Break</strong></p>
@@ -335,7 +328,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>4:15 - 5:00</p>
+							<p>4:30 - 5:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/justin-holmes.html">Justin Holmes</a></h4>
@@ -348,13 +341,10 @@ layout: layout-tier2.html
 						<div class="col-sm-2 details details-colored details-purple">
 							<p class="talk-title" style="margin-top: 8px;"><strong>Hands-On Modeling:</strong> EventStorming for Everyone</p>
 						</div> <!-- details -->
-						<!--<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
-						</div>--> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row ">
 						<div class="col-sm-1 time-cell  bottom-border time-cell-">
-							<p>5:00 - 5:15</p>
+							<p>5:15 - 5:30</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide ">
 							<p><strong>Break</strong></p>
@@ -362,7 +352,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row ">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>5:15 - 6:15</p>
+							<p>5:30 - 6:30</p>
 						</div> <!-- col-xs -->
 						<div class="col-sm-10 details details-colored details-gold details-wide">
 							<h4><a href="../speakers/michael-feathers.html">Keynote: Error Elimination as a Design Driver</a> &#8212; <a href="../speakers/michael-feathers.html">Michael Feathers</a></h4>
@@ -370,7 +360,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row ">
 						<div class="col-sm-1 time-cell bottom-border no-top-border">
-							<p>6:15 - Late</p>
+							<p>6:30 - Late</p>
 						</div> <!-- col-xs -->
 						<div class="col-sm-10 details bottom-border  details-wide">
 							<p><strong>Explore Downtown Denver Dining</strong></p>
@@ -416,7 +406,7 @@ layout: layout-tier2.html
 							<p><strong>Morning Coffee</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
-					<div class="row time-row  last-colored-row">
+					<div class="row time-row last-colored-row">
 						<div class="col-sm-1 time-cell bottom-border">
 							<p>10:15 - 11:00</p>
 						</div> <!-- col-sm -->
@@ -425,16 +415,13 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/bruno-boucard.html">Communication is Everyting; Especially While Pairing (Survival Guide)</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/paul-rayner.html">Paul Rayner</a></h4>
-							<p class="talk-title"><a href="../speakers/paul-rayner.html">Modeling Team Flow</a></p>
+							<h4><a href="../speakers/nick-tune.html">Nick Tune</a></a></h4>
+							<p class="talk-title"><a href="../speakers/nick-tune.html">Strategic Autonomous Design: Patterns and Heuristics</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/yves-reynhout.html">Yves Reynhout</a></h4>
 							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/yves-reynhout.html">Projections Explained</a></p>
 						</div> <!-- details -->
-						<!--<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
-						</div>--> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell bottom-border">
@@ -446,15 +433,23 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>11:15 - 12:15</p>
+							<p>11:15 - 12:00</p>
 						</div> <!-- col-sm -->
-						<div class="col-sm-10 details details-colored details-gold details-wide">
-							<h4>Keynote: &#8212; <a href="../speakers/eric-evans.html">Eric Evans</a></h4>
+						<div class="col-sm-2 details details-colored details-gold">
+							<h4><a href="../speakers/allard-buijze.html">Allard Buijze</a></h4>
+							<p class="talk-title"><a href="../speakers/allard-buijze.html">The Inconveniences of Event Sourcing</a></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-green">
+							<h4><a href="../speakers/paul-rayner.html">Paul Rayner</a></h4>
+							<p class="talk-title"><a href="../speakers/paul-rayner.html">Modeling Team Flow</a></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-purple">
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>12:15 - 1:15</p>
+							<p>12:00 - 1:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details">
 							<p><strong>Lunch</strong></p>
@@ -462,7 +457,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>1:15 - 2:00</p>
+							<p>1:00 - 1:45</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-colored details-gold details-wide">
 							<h4>Panel Discussion: The Challenge of Legacy Systems</h4>
@@ -470,32 +465,7 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell bottom-border time-cell bottom-border-">
-							<p>2:00 - 2:30</p>
-						</div> <!-- col-sm -->
-						<div class="col-sm-10 details details-wide">
-							<p><strong>Break</strong></p>
-						</div> <!-- details -->
-					</div> <!-- time-row -->
-					<div class="row time-row  last-colored-row">
-						<div class="col-sm-1 time-cell bottom-border">
-							<p>2:30 - 3:30</p>
-						</div> <!-- col-sm -->
-						<div class="col-sm-2 details details-colored details-gold">
-							<h4>Lightning Talks (Ignite Format)</h4>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-green">
-							<h4>Lightning Talks (Ignite Format)</h4>
-						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Open Space</h4>
-						</div> <!-- details -->
-						<!--<div class="col-sm-2 details details-colored details-blue">
-							<h4>Creative Space</h4>							
-						</div>--> <!-- details -->
-					</div> <!-- time-row -->
-					<div class="row time-row">
-						<div class="col-sm-1 time-cell bottom-border">
-							<p>3:30 - 4:00</p>
+							<p>1:45 - 2:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide">
 							<p><strong>Break</strong></p>
@@ -503,15 +473,31 @@ layout: layout-tier2.html
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>4:00 - 5:00</p>
+							<p>2:00 - 3:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-colored details-gold details-wide">
+							<h4>Lightning Talks</h4>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell bottom-border">
+							<p>3:00 - 3:30</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details details-wide">
+							<p><strong>Afternoon Break</strong></p>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell bottom-border">
+							<p>3:30 - 4:15</p>
+						</div> <!-- col-sm -->
+						<div class="col-sm-10 details details-colored details-green details-wide">
 							<h4>Conference Closing Circle</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell bottom-border">
-							<p>5:00 - Late</p>
+							<p>4:15 - Late</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide bottom-border">
 							<p><strong>Explore Downtown Denver Dining</strong></p>
