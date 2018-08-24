@@ -1527,6 +1527,11 @@ footer {
 }
 
 .details-wide {
+	@include mq(xs) {
+		p {
+			margin-bottom: -10px;
+		}
+	}
 	@include mq(sm) {
 		p {
 			position: relative;
