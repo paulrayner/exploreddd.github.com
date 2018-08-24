@@ -1147,6 +1147,10 @@ footer {
 			margin-bottom: 15px;
 		}
 	}
+	//platinum sponsor logo appears largest
+	.platinum-logo {
+		max-width: 300px;
+	}
 	//bronze sponsor logos appear smaller
 	.bronze-logo {
 		max-width: 160px;
@@ -1771,11 +1775,22 @@ strong {
 		}
 	}
 	.platinum-sponsors {
-		.item {
-			width: 265px;
-			height: 140px;
-			@include mq(md) {
-				margin: 0 28px 0 28px;
+		@include mq(xs) {	
+			.homeadvisor {
+				img {
+					width: 80%;
+				} 
+			}
+		}
+		@include mq(sm) {	
+			.item {
+				margin: 10px 10px 10px 10px;
+			}
+			.homeadvisor {
+				img {
+					height: 100px;
+					width: auto;
+				}
 			}
 		}
 	}
@@ -1807,7 +1822,6 @@ strong {
 				height: 30px;
 				width: auto;
 			}
-			
 		}
 		.inspirato {
 			img {
