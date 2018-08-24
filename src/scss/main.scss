@@ -1444,7 +1444,8 @@ footer {
 }
 
 .time-cell {
-	text-align: center;
+	text-align: left;
+	padding-top: 12px;
   font-size: 16px;
 	font-family: NunitoSans, sans-serif;
   @include mq(xs) {
@@ -1452,11 +1453,12 @@ footer {
 		margin-top: 10px;
 	}
 	@include mq(sm) {
-		p {
+		p {}
+		/*p {
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%);
-		}
+		}*/
 	}
 }
 
@@ -1498,22 +1500,24 @@ footer {
     color: #fff9ec;
   }
 }
+//for those rare occaisons wherein the same coloured details boxes are stacked directly on top of one another
+.details-color-collision-gap {
+	@include mq(sm) {
+		margin-bottom: 1px;
+	}
+}
 
 .details-gold {
   background-color: #e6a62d;
-  border-bottom: 1px solid #fff9ec;
 }
 .details-green {
-  background-color: #008653;
-  border-bottom: 1px solid #fff9ec;
+  background-color: #2ea165;
 }
 .details-purple {
-  background-color: #49338f;
-  border-bottom: 1px solid #fff9ec;
+  background-color: #682c89;
 }
 .details-blue {
   background-color: #008da7;
-  border-bottom: 1px solid #fff9ec;
 }
 .talk-title {
   font-size: 18px;
