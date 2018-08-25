@@ -1830,7 +1830,28 @@ strong {
 			}
 		}
 	}
-	.platinum-sponsors, .gold-sponsors, .silver-sponsors, .bronze-sponsors {
+	.reception-sponsor {
+		.agile-denver {
+			img {
+				height: 100px;
+				width: auto;
+			}
+		}
+	}
+	.video-sponsor {
+		.red-hat {
+			img {
+				height: 70px;
+				width: auto;
+			}
+		}
+	}
+	.platinum-sponsors,
+	.gold-sponsors,
+	.silver-sponsors,
+	.bronze-sponsors,
+	.reception-sponsor,
+	.video-sponsor {
 		@include mq(xs) {
 			padding-bottom: 0px;
 		}
