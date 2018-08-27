@@ -90,7 +90,7 @@ layout: layout-tier2.html
 							<p>8:00 - 8:45</p>
 						</div> <!-- col-xs -->
 						<div class="col-sm-10 details details-colored details-gold details-wide">
-							<h4>Open Space Planning - Theme: Domain Modeling For Everyone</h4>
+							<h4>Open Space Planning - Theme: Domain Modeling for Everyone</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -136,7 +136,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/dave-buchanan.html">Dave Buchanan</a></h4>
-							<p class="talk-title"><a href="../speakers/dave-buchanan.html">How to Get Started with DDD: A Case Study Breaking Away From A Legacy MVC App</a></p>
+							<p class="talk-title"><a href="../speakers/dave-buchanan.html">How to Get Started with DDD: A Case Study Breaking Away from a Legacy MVC App</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/wassel-alazhar.html">Wassel Alazhar</a></h4>
@@ -156,7 +156,7 @@ layout: layout-tier2.html
 							<p>11:15 - 12:15</p>
 						</div> <!-- col-xs -->
 						<div class="col-sm-10 details details-colored details-gold details-wide">
-							<h4><a href="../speakers/jessica-kerr.html">Keynote: The Origins of Opera &amp; The Future of Programming</a> &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></h4>
+							<h4><a href="../speakers/jessica-kerr.html">Keynote: The Origins of Opera &amp; the Future of Programming</a> &#8212; <a href="../speakers/jessica-kerr.html">Jessica Kerr</a></h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -177,7 +177,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/harry-brumleve.html">Harry Brumleve</a></h4>
-							<p class="talk-title"><a href="../speakers/harry-brumleve.html">Refactoring For DDD Without Microservicing Your Monolith</a></p>
+							<p class="talk-title"><a href="../speakers/harry-brumleve.html">Refactoring for DDD Without Microservicing Your Monolith</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/stefan-hofer.html">Stefan Hofer</a> &amp; <a href="../speakers/henning-schwentner.html">Henning Schwentner</a></h4>
@@ -223,14 +223,14 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/martin-schimak.html">Martin Schimak</a></h4>
-							<p class="talk-title"><a href="../speakers/martin-schimak.html">Know The Flow! Events, Commands &amp; Long-Running Services.</a></p>
+							<p class="talk-title"><a href="../speakers/martin-schimak.html">Know the Flow! Events, Commands &amp; Long-Running Services</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/laura-savino.html">Laura Savino</a></h4>
 							<p class="talk-title"><a href="../speakers/laura-savino.html">Readable Code</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<p class="talk-title" style="margin-top: 8px;"><strong>Hands-On Modeling:</strong> EventStorming For Everyone</a></p>
+							<p class="talk-title" style="margin-top: 8px;"><strong>Hands-On Modeling:</strong> EventStorming for Everyone</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
@@ -247,14 +247,14 @@ layout: layout-tier2.html
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
 							<h4><a href="../speakers/justin-holmes.html">Justin Holmes</a></h4>
-							<p class="talk-title"><a href="../speakers/justin-holmes.html">Visualizing Your Event Storm In New Ways</a></p>
+							<p class="talk-title"><a href="../speakers/justin-holmes.html">Visualizing Your Event Storm in New Ways</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/rinat-shagisultanov.html">Rinat Shagisultanov</a></h4>
 							<p class="talk-title"><a href="../speakers/rinat-shagisultanov.html">Kicking Over Monoliths for Fun &amp; Profit: How DDD Drives Digital Transformation</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<p class="talk-title" style="margin-top: 8px;"><strong>Hands-On Modeling:</strong> EventStorming For Everyone</p>
+							<p class="talk-title" style="margin-top: 8px;"><strong>Hands-On Modeling:</strong> EventStorming for Everyone</p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -270,7 +270,7 @@ layout: layout-tier2.html
 							<p>5:30 - 6:30</p>
 						</div> <!-- col-xs -->
 						<div class="col-sm-10 details details-colored details-gold details-wide">
-							<h4><a href="../speakers/michael-feathers.html">Keynote: Error Elimination As A Design Driver</a> &#8212; <a href="../speakers/michael-feathers.html">Michael Feathers</a></h4>
+							<h4><a href="../speakers/michael-feathers.html">Keynote: Error Elimination as a Design Driver</a> &#8212; <a href="../speakers/michael-feathers.html">Michael Feathers</a></h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
