@@ -1762,7 +1762,7 @@ strong {
 		}
 		@include mq(sm) {
 			display: block;
-			margin: 10px auto;
+			margin: 20px auto;
 		}
 		@include mq(md) {
 			display: inline-block;
@@ -1794,55 +1794,54 @@ strong {
 			}
 		}
 	}
-	.gold-sponsors {
-		.item {
-			width: 212px;
-			height: 112px;
-			@include mq(md) {
-				margin: 0 20px 0 20px;
-			}
-		}
-	}
-	.silver-sponsors {
-		.item {
-			width: 170px;
-			height: 90px;
-			@include mq(md) {
-				margin: 0 15px 0 15px;
-			}
-		}
-	}
+	
 	.bronze-sponsors {
 		.item {
-			margin: 30px 10px 30px 10px;
+			margin: 25px 10px 25px 10px;
 		}
 		//adjust the footer sponsor image sizes manually so they all carry similar visual weights per tier level
 		.pivotal {
 			img {
 				height: 30px;
 				width: auto;
+				@include mq(xs) {
+					height: 25px;
+				}
 			}
 		}
 		.inspirato {
 			img {
-				height: 30px;
+				height: 25px;
 				width: auto;
+				@include mq(xs) {
+					height: 20px;
+				}
 			}
 		}
 	}
+	
 	.reception-sponsor {
 		.agile-denver {
 			img {
-				height: 100px;
+				height: 90px;
 				width: auto;
+				@include mq(xs) {
+					height: 60px;
+				}
+				@include mq(sm) {
+					margin-bottom: 15px;
+				}
 			}
 		}
 	}
 	.video-sponsor {
 		.red-hat {
 			img {
-				height: 70px;
+				height: 65px;
 				width: auto;
+				@include mq(xs) {
+					height: 40px;
+				}
 			}
 		}
 	}
