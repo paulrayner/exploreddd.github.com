@@ -55,6 +55,7 @@ layout: layout.html
     <p class="conf-copy"><span class="conf-header">Workshops</span> September 10 - 12, 2018</p>
     <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>
     <p class="conf-contact">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a>    Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
+    <p class="conf-last-year">View last year's conference: <a href="2017">2017</a></p>
   </div>
 </div>
 <div class="container section homepage-video">

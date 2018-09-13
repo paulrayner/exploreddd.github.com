@@ -733,7 +733,7 @@ figure {
 	margin-bottom: 2px;
 }
 
-.conf-contact {
+.conf-contact, .conf-last-year {
 	@extend .conf-copy;
 	font-size: 18px;
 	padding: 13px 0 15px;
@@ -746,6 +746,9 @@ figure {
 			text-decoration: none;
 		}
 	}
+}
+.conf-last-year {
+	padding-top: 0;
 }
 
 // Speaker section
