@@ -13,7 +13,7 @@ layout: layout-tier2.html
             <h1 class="section-header">DDD For Messaging Architectures</h1>
             <span class="workshops--speaker-name"><a href="../speakers/mathias-verraes.html">mathias Verraes</a></span>
             <span class="workshops--duration">3-Day Workshop<br>Mon - Wed, Sept 10-12</span>
-            <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
+            <!--<a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>-->
             <p class="copy" style="margin-top: 25px">The software industry keeps moving towards more message-oriented architectures. These require different ways of reasoning about system design, domain modelling, evolutionary architectures.</p>
             <p class="copy">Domain-Driven Design is exceptionally suitable for this: its fundamental principles are universal to software design, and apply well to all kinds of architectures: focus on domain language and collaborative modelling, Bounded Contexts, and mapping the relationships between Contexts.</p>
             <img src="../img/workshop/Workshop-Mathias-Verraes-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px" />
@@ -42,9 +42,9 @@ layout: layout-tier2.html
                 <p class="copy">Mathias made Domain–Driven Design very real and practical. He managed to find a good balance between practical workshop, theory, and sharing experiences. This workshop really gave me the keys to use DDD in our projects and showed me new perspectives like Event Sourcing. It is definitely a must have complement to the usual books by Eric Evans and Vaughn Vernon. I would definitely recommend this workshop to any developer or architect who is keen to learn a different way to model software.</p> 
                 <p class="copy quote-source">– SÉBASTIEN ABRAS, SENIOR SOFTWARE ARCHITECT, EVS BROADCAST (BELGIUM)</p>
             </blockquote>
-            <div class="col-xs-12" align="center">
+            <!--<div class="col-xs-12" align="center">
                 <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
-            </div>
+            </div>-->
         </div>
     </div>
 </div> <!-- container -->

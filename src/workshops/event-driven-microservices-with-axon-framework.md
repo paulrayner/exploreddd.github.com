@@ -13,7 +13,7 @@ layout: layout-tier2.html
             <h1 class="section-header">Event-Driven Microservices with Axon Framework</h1>
             <span class="workshops--speaker-name"><a href="../speakers/allard-buijze.html">Allard Buijze</a></span>
             <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 11-12</span>
-            <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
+            <!--<a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2019">GET YOUR TICKET</a>-->
             <p class="copy" style="margin-top: 25px">
             <p class="copy">The architectural patterns of Domain Driven Design, Command Query Segregation Responsibility and Event Sourcing have proven to be important ingredients for building high performing, scalable applications. Audit requirements and the use of data analytics are also important reasons for choosing these patterns. Axon Framework builds on top of these concepts, helping developers build applications that evolve along with the domain.</p>
             <p class="copy">This training is a very practical introduction to building evolutionary message-driven microservices systems using Axon Framework. The course starts with a general introduction into Axon Framework and its building blocks. On the second day, these components are scaled out, and we elaborate on dealing with several aspects that are important for distributed systems.</p>
@@ -69,9 +69,9 @@ layout: layout-tier2.html
             <p class="copy">Allard Buijze is founder and chief technology officer at AxonIQ. A former software architect within the fields of scalability and performance, he has worked on several projects where performance is often a recurring theme. Allard is convinced that a good domain model is the beginning of
             contributing to the overall performance of an application and developed the Axon Framework out of this conviction.</p>
             <p class="copy">Allard is a regular speaker at conferences and a seasoned trainer. He is passionate about sharing knowledge, often going off the beaten path to explore new possibilities.</p>
-            <div class="col-xs-12" align="center">
+            <!--<div class="col-xs-12" align="center">
                 <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
-            </div>
+            </div>-->
         </div>
     </div>
 </div> <!-- container -->
