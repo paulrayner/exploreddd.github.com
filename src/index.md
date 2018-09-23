@@ -8,8 +8,8 @@ layout: layout.html
       <li class="slide register">
         <div class="container">
           <div class="register-copy">
-            <h1>EXPLORE DDD 2018<br>SEPT 10-14</h1>            
-            <a href="https://ti.to/explore-ddd-conference/explore-ddd-2018">REGISTRATION NOW OPEN</a>
+            <h1>EXPLORE DDD 2019<br>SEPT 18-20</h1>            
+            <a href="https://ti.to/explore-ddd-conference/explore-ddd-2019">Super Early Bird Tickets For Explore DDD 2019 Conference On Sale NOW</a>
           </div>
         </div>
       </li>
@@ -49,7 +49,7 @@ layout: layout.html
   </div>
 </section>
 
-<div class="container-fluid section conf-dates">
+<div class="container-fluid section conf-dates">   
   <div class="row">
     <p class="conf-copy"><span class="conf-header">Conference</span> September 12 - 14, 2018</p>
     <p class="conf-copy"><span class="conf-header">Workshops</span> September 10 - 12, 2018</p>
