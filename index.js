@@ -14,7 +14,7 @@ var dir = {
   base:   __dirname + '/',
   lib:    __dirname + '/lib/',
   source: './src/',
-  dest:   './build/'
+  dest:   './docs/'
 };
 
 Metalsmith(__dirname)
@@ -25,7 +25,7 @@ Metalsmith(__dirname)
     url: "http://www.exploreddd.com"
   })
   .source('./src')
-  .destination('./build')
+  .destination('./docs')
   .clean(false)
   .use(markdown())
   // .use(permalinks())
