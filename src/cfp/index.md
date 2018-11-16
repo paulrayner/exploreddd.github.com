@@ -66,7 +66,7 @@ layout: layout-tier2.html
     <td>16 hours</td>
   </tr>
   <tr>
-  <td>1-Day Pre-Conference Workshop (Wednesday only)</td>
+  <td>1-Day Pre-Conference Workshop</td>
   <td>8 hours</td>
   </tr>
   </tbody>
