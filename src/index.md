@@ -8,48 +8,21 @@ layout: layout.html
       <li class="slide register">
         <div class="container">
           <div class="register-copy">
-            <h1>CONFERENCE VIDEOS AVAILABLE</h1>            
+            <h1>CONFERENCE VIDEOS AVAILABLE</h1>  
             <a href="#" class="view-videos">VIEW VIDEOS</a>
           </div>
         </div>
       </li>
-      <!-- example code for a 2019 speaker slide -->
-      <!--<li class="slide speaker ward-cunningham">
-        <div class="container">
-          <h1>Featured Speaker</h1>
-          <h2><span>Ward Cunningham</span> is our Friday Keynote Speaker.</h2>
-          <a href="speakers/ward-cunningham.html">About Ward</a>
-        </div>
-      </li>-->
-      <!-- example code for a 2019 sponsor slide -->
-      <!--<li class="slide speaker alteryx-slide-version-2">
-        <div class="container">
-          <h1>Platinum Sponsor</h1>
-          <h2><span>Special Thanks</span> to Alteryx for sponsoring Explore DDD</h2>
-          <a href="https://www.alteryx.com">Visit Alteryx</a>
-        </div>
-      </li>-->
-      <!-- in case the hyatt slide comes back in 2019 -->
-      <!--<li class="slide hyatt">
-        <div class="container">
-          <div class="hyatt-copy">
-            <h1>Grand Hyatt</h1>
-            <p>Explore our incredible conference venue in Denver, Colorado.</p>
-            <a href="location/">About the venue</a>
-          </div>
-        </div>
-      </li>-->
     </ul>
   </div>
   <div class="custom-navigation-container">
-  <div class="custom-navigation">
-    <a class="arrow left"><img src="img/slider-arrow-left.svg" /></a>
-    <a class="arrow right"><img src="img/slider-arrow-right.svg" /></a>
-  </div>
+    <div class="custom-navigation">
+      <a class="arrow left"><img src="img/slider-arrow-left.svg" /></a>
+      <a class="arrow right"><img src="img/slider-arrow-right.svg" /></a>
+    </div>
   </div>
 </section>
-
-<div class="container-fluid section conf-dates">   
+<div class="container-fluid section conf-dates">
   <div class="row">
     <p class="conf-copy"><span class="conf-header">Conference</span> September 18 - 20, 2019</p>
     <p class="conf-copy"><span class="conf-header">Workshops</span> September 17 - 18, 2019</p>
