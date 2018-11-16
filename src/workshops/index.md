@@ -27,4 +27,20 @@ layout: layout-tier2.html
         <p class="copy">Software design can have a very slow feedback loop: by the time you find out if the architectural and design decisions you made were the right ones, it may be too late for drastic changes. As developers, we tend to phrase all problems as technical problems, which can be sufficiently challenging in their own right. We tend to lose sight of the underlying business concerns. <a href="ddd-for-messaging-architectures.html">Read more...</a></p>
         </div>
     </div>-->
+    <!-- begin workshop element -->
+    <!--<div class="row">
+        <div class="col-xs-12 col-sm-2">
+            <div class="speaker-container">
+                <a href="microservices-done-right.html"><div class="co-workshop-img indu-and-david"></div></a>
+                </div>
+            </div>
+        <div class="col-xs-12 col-sm-10 workshop-list">
+        <h2><a href="microservices-done-right.html">Microservices Done Right (with examples in ASP.NET Core and NServiceBus)</a></h2>
+        <p class="copy">
+            <span class="workshops--speaker-name">David Boike and Indu Alagarsamy</span>
+            <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 11-12</span>
+        </p>
+        <p class="copy">We’ll understand service oriented architecture concepts, and DDD concepts such as bounded contexts and data ownership. We’ll apply those concepts to build a simple, yet fully functional, order management system sample with a service-oriented architecture, using patterns such as command processing, pub/sub, and long-running sagas. <a href="microservices-done-right.html">Read more...</a></p>
+        </div>
+    </div>-->
 </div> <!-- container -->
