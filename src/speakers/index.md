@@ -4,7 +4,9 @@ layout: layout-tier2.html
 
 <div class="container section speakers">
   <h1 class="section-header">Speakers</h1>
-  <div class="row">
+  <p class="copy">2019 Speakers TBD</p>
+  <p class="copy"></p>
+  <!--<div class="row">
     <div class="speaker-container">
       <a href="eric-evans.html"><div class="speaker-img eric-evans">
       </div></a>
@@ -139,7 +141,7 @@ layout: layout-tier2.html
       <h3><a class="speaker-name" href="jimmy-bogard.html">Jimmy Bogard</a></h3>
       <p class="speaker-details">Software Architect</p>
     </div>-->
-  </div>
+  <!--</div>
   <div class="row">
     <div class="speaker-container">
       <a href="henning-schwentner.html"><div class="speaker-img henning-schwentner">
@@ -185,5 +187,5 @@ layout: layout-tier2.html
       <h3><a class="speaker-name" href="yves-reynhout.html">Yves Reynhout</a></h3>
       <p class="speaker-details">The Journeylist</p>
     </div>
-  </div>
+  </div>-->
 </div>
