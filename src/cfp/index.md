@@ -55,7 +55,7 @@ layout: layout-tier2.html
   <tbody>
   <tr>
     <td>Regular talk</td>
-    <td>50 min</td>
+    <td>45 min</td>
   </tr>
   <tr>
     <td>Hands-on session</td>
