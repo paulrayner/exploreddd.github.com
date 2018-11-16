@@ -1,7 +1,6 @@
 ---
 layout: layout.html
 ---
-
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
