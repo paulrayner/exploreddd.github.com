@@ -8,7 +8,7 @@ layout: layout.html
         <div class="container">
           <div class="register-copy">
             <h1>EXPLORE DDD 2019<br>SEPT 18-20</h1>
-            <a href="https://ti.to/explore-ddd-conference/explore-ddd-2019">SUPER EARLY BIRD TICKETS ON SALE NOW</a>
+            <a href="https://ti.to/explore-ddd-conference/explore-ddd-2019">EARLY BIRD TICKETS ON SALE NOW</a>
           </div>
         </div>
       </li>
