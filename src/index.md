@@ -58,9 +58,16 @@ layout: layout.html
     <p class="conf-last-year">View previous conferences: <a href="2018">2018</a> | <a href="2017">2017</a></p>
   </div>
 </div>
-
-<!-- add feature video section back in here -->
-
+<div class="container section homepage-video">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="video-responsive">
+        <iframe width="640" height="360" src="http://www.youtube.com/embed/hIORppbgcRM" 
+        frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div> <!-- col-xs-12 -->
+  </div> <!-- row -->
+</div>
 <div class="container section about">
   <div class="row">
     <h1 class="section-header">About Explore DDD</h1>
