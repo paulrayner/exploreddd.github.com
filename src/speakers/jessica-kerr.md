@@ -11,6 +11,10 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Jessica Kerr</h1>
       <h2 class="speaker-subtitle">Jessitron</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/jessitron" target="_blank">@jessitron</a></p>
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/nVRUv30coyA" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
       <p class="copy">Jessica Kerr makes software to help others write software to help themselves build software. She lives in St. Louis, Missouri and works remotely for Atomist. Her adventures include advocating for functional programming and systems thinking at software conferences around the world, keeping two children alive (so far), and podcasting on Greater Than Code. Find her on twitter and Medium as <a href="https://twitter.com/jessitron">@jessitron</a>.</p>
       <h2 class="speaker-subheader">Keynote</h2>
       <h2 class="speaker-subheader gold">The Origins of Opera and the Future of Programming</h2>

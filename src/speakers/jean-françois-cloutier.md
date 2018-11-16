@@ -11,6 +11,10 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Jean François Cloutier</h1>
         <h2 class="speaker-subtitle">Accidental DDDer</h2>
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/jfcloutier" target="_blank">@jfcloutier</a></p>
+        <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/v9xDUO_vp8M" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
         <p class="copy">An avid programmer since the mid-80s, I have used and abused Prolog, LISP, Smalltalk, Java, Erlang and Elixir. Years spent in corporate IT departments and with startups have taught me that strong domain models are the beating hearts of successful software projects.</p>
         <p class="copy">I am currently software architect at Starlit Software. I live and work in Portland, Maine.</p>
         <p class="copy">In my spare time, I train obsessively at Aikido of Maine, and organize the local Erlang/Elixir and Elm meetups.</p>

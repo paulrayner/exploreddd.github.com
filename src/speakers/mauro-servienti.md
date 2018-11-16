@@ -11,6 +11,10 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Mauro Servienti</h1>
         <h2 class="speaker-subtitle">Passionate</h2>
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/mauroservienti" target="_blank">@mauroservienti</a></p>
+        <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/KkzvQSuYd5I" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
         <p class="copy">Mauro is a Solution Architect in Particular Software, the makers of NServiceBus, and former Microsoft MVP. He spends his time helping developers build better .NET systems, leveraging Service Oriented Architecture (SOA) principles and message based architectures. In addition to technology, Mauro writes on his <a href="http://milestone.topics.it">English blog</a> and his <a href="http://blogs.ugidotnet.org/topics">Italian blog</a>. He is also passionate about skiing, classical dance and music.</p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader gold">All Our Aggregates Are Wrong</h2>

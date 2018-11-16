@@ -11,6 +11,10 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Marco Heimeshoff</h1>
       <h2 class="speaker-subtitle">Organiser of KanDDDinsky</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/heimeshoff" target="_blank">@heimeshoff</a></p>
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/5AcYKhB4hu4" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
       <p class="copy">Marco Heimeshoff is a trainer, coach and software developer from Germany. He co-organizes KanDDDinsky, a conference about the art of business software and founded the German DDD community in 2013.  Marco Heimeshoff has an unhealty relationship with Domain Driven Design, and won't leave any stone unturned once you lend him an ear and sticky notes.</p>
       <p class="copy">He believes that life long learning, focus on language and empathy are the three pillars of quality development. Frustration about the same old methods of working together and developing solutions lead him to Domain Driven Design, agile software development, functional programming and CQRS with event sourcing. With ten years of experience in these topics he helps teams to change and learn in all things from code to culture.</p>
       <h2 class="speaker-subheader">Talk Session</h2>

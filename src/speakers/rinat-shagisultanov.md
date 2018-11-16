@@ -11,6 +11,10 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Rinat Shagisultanov</h1>
         <h2 class="speaker-subtitle">Better by Design, Excel by Build</h2>
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/rinatsh" target="_blank">@rinatsh</a></p>
+        <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/Qwn55wbpFVc" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
         <p class="copy">Creative and Innovative technology strategy advisor with 25+ years of experience envisioning, implementing, and communicating products, services and processes to business and IT stakeholders while leading, inspiring and building trust.</p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader gold">Kicking Over Monoliths for Fun and Profit: How DDD Drives Digital Transformation</h2>

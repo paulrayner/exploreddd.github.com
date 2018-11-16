@@ -11,6 +11,10 @@ layout: layout-speaker.html
     <h1 class="speaker-header">Paul Rayner</h1>
     <h2 class="speaker-subtitle">Domain Remodeler</h2>
     <p class="copy"><a class="speaker-handle" href="https://twitter.com/thepaulrayner" target="_blank">@thepaulrayner</a></p>
+    <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/q80FiugsO1Q" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
     <p class="copy">Paul Rayner is one of the world’s leading Domain-Driven Design (DDD) practitioners. He is a developer, instructor, coach and popular conference speaker. He co-founded <a href="https://www.meetup.com/ddd-denver" target="_blank">DDD Denver</a> and is founder and chairman of the <a href="https://github.com/paulrayner/exploreddd.github.com/issues/exploreddd.com" target="_blank">Explore DDD Conference</a>. His company <a href="https://www.virtualgenius.com/" target="_blank">Virtual Genius LLC</a>, provides training and coaching in DDD for agile teams. Paul is from Perth, Australia, but chooses to live, work and play with his wife and two children, in Denver, Colorado. He (occasionally) blogs at thepaulrayner.com and tweets with an Australian accent at <a href="https://twitter.com/thepaulrayner" target="_blank">@ThePaulRayner</a>.</p>
     <h2 class="speaker-subheader"><strong>Two day pre-conference workshop, Tue-Wed, Sept 11-12</strong></h2>
     <h2 class="speaker-subheader gold"><a href="../workshops/essential-ddd.html">ESSENTIAL DDD</a></h2>

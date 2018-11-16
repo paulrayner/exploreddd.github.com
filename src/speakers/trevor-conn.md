@@ -11,6 +11,10 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Trevor Conn</h1>
       <h2 class="speaker-subtitle">Principal Software Engineer</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/tsconn23" target="_blank">@tsconn23</a></p>
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/vEXkpcy31EY" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
       <p class="copy">Trevor has been developing internet-related software for over 20 years; mostly in the e-commerce space. More recently, his projects have included distributed, reactive systems. Where possible, he strives to use DDD principles to create and extend these systems which frequently requires untangling anti-patterns both within the code and the organization.</p>
       <h2 class="speaker-subheader">Talk Session</h2>
       <h2 class="speaker-subheader gold">DDDecomposing the Monolith -- A personal anecdote.</h2>

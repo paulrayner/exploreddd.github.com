@@ -11,6 +11,10 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Stefan Hofer</h1>
       <h2 class="speaker-subtitle">domainstorytelling.org</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/hofstef" target="_blank">@hofstef</a></p>
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/MPQfb7fsw3I" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
       <p class="copy">Stefan is bad at drawing stuff. However, he thinks he can acquire domain knowledge by drawing Domain Stories. Stefan studied Software Engineering in Austria and has a PhD in computer science. Since 2005, he has been working for WPS – Workplace Solutions Ltd. In Hamburg. Stefan hops from one domain to the next, assisting people to figure out how software can help them to get their job done.</p>
       <h2 class="speaker-subheader">Talk Session</h2>
       <h2 class="speaker-subheader gold">How Domain Storytelling shaped our view of bounded contexts</h2>

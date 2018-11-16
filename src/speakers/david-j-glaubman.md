@@ -11,6 +11,10 @@ layout: layout-speaker.html
         <h1 class="speaker-header">David J Glaubman</h1>
         <h2 class="speaker-subtitle">Grizzled Optimist</h2>
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/dglaubman" target="_blank">@dglaubman</a></p>
+        <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/woMybx3gRIs" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
         <p class="copy">With over 30 years of experience as a professional software developer, I have worked with a number of complex domains, which include: technical document management, computer aided design, and ad-hoc workflow systems.</p>
         <p class="copy">In 2007, I attended a half day seminar on DDD conducted by Eric Evans. The seminar, and the blue book that came with it, scratched an itch I had barely been aware of.</p>
         <p class="copy">For the last ten years, my focus has been building tools to model massive re/insurance structures.</p>

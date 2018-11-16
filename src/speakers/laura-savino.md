@@ -11,6 +11,10 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Laura Savino</h1>
         <h2 class="speaker-subtitle">Mobile Developer &amp; Mentor</h2>
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/savinola" target="_blank">@savinola</a></p>
+        <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/IbOp_e9yh0k" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
         <p class="copy">Laura is a well-rounded mobile developer who's coded a range of projects, from Khan Academy's large-scale education app to business-to-business custom project management solutions. She draws on her formal background in human languages and pedagogy to bring a fresh perspective to her teams and codebases, and maintains an active community presence by teaching and mentoring programmers around the world.</p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader gold">Readable Code</h2>

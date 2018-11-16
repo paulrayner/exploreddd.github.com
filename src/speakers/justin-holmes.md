@@ -11,6 +11,10 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Justin Holmes</h1>
         <h2 class="speaker-subtitle">Event Stormer</h2>
         <p class="copy"></p>
+        <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/MHLFW0VAaS0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <p class="copy"></p>
         <p class="copy">Justin Holmes is a passionate consultant who helps teams deliver better software products, faster. He is a fan of methods that lead delivery teams towards shared understanding and technologies that capture that understanding in software. Justin is active in the Behavior Driven Development, Domain Driven Design and Lean Product Development communities. You can also find him helping customers accelerate their innovative ideas with k8s & OpenShift at Red Hat’s Open Innovation Labs.</p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader gold">Visualizing Your Event Storm in New Ways</h2>

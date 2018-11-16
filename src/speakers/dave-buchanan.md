@@ -11,6 +11,10 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Dave Buchanan</h1>
         <h2 class="speaker-subtitle">Software Architect</h2>
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/dave_r_buchanan" target="_blank">@dave_r_buchanan</a></p>
+        <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/b8aXE6l8q8U" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
         <p class="copy">It all started with summer school and a Texas Instruments computer in 1984! Since then Dave has 19 professional years experience in web development, architecture, management, and mentoring others. His expertise is in integrating new technologies, leveraging open source for the enterprise, and team building. Dave has presented in the past at MadisionPHP 2016, OpenWest 2016, MinneBar 2016, and WordCampMSP in 2014 and 2013.</p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader gold">How to Get Started with DDD, a Case Study Breaking Away From a Legacy MVC App</h2>

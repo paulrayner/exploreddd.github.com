@@ -11,6 +11,10 @@ layout: layout-speaker.html
     <h1 class="speaker-header">Nick Tune</h1>
     <h2 class="speaker-subtitle">Strategic Design Specialist</h2>
     <p class="copy"><a class="speaker-handle" href="https://twitter.com/ntcoding" target="_blank">@ntcoding</a></p>
+    <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/mEFbjt_87TU" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
     <p class="copy">Nick is a product-focused technical leader. He has helped teams in a variety of organisations to achieve continuous delivery and high alignment, including the UK government, Salesforce, and 7digital. He is the co-author of Designing Autonomous Teams and Services (O’Reilly) and Patterns, Principles and Practices of Domain-Driven Design (Wrox), and blogs from <a href="http://ntcoding.co.uk">ntcoding.co.uk</a>.</p>
     <h2 class="speaker-subheader">Talk Session</h2>
     <h2 class="speaker-subheader gold">Strategic Autonomous Design: Patterns and Heuristics</h2>

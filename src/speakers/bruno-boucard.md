@@ -11,6 +11,10 @@ layout: layout-speaker.html
       <h1 class="speaker-header">Bruno Boucard</h1>
       <h2 class="speaker-subtitle">Emancipating Developers</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/brunoboucard" target="_blank">@brunoboucard</a></p>
+      <div class="video-responsive">
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/e1yLmYN0hXk" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="copy"></p>
       <p class="copy">Bruno Boucard is developer, trainer, agile coach, speaker and organizer of the BDD Paris user group. He loves to explain with concrete examples with live-coding, if needed. He is a long-time Microsoft MVP, but he is still coding java with a C# accent ;-) His company is 42skillz which aims to help organizations to make software and to work differently, he provides trainings, coaching, consulting about TDD, BDD, legacy code refactoring techniques and DDD with an extra soul.</p>
       <h2 class="speaker-subheader">Talk Session</h2>
       <h2 class="speaker-subheader gold">Communication is everything; especially while pairing (survival guide)</h2>

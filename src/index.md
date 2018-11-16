@@ -8,8 +8,8 @@ layout: layout.html
       <li class="slide register">
         <div class="container">
           <div class="register-copy">
-            <h1>EXPLORE DDD 2019<br>SEPT 18-20</h1>            
-            <a href="https://ti.to/explore-ddd-conference/explore-ddd-2019">SUPER EARLY BIRD TICKETS ON SALE NOW</a>
+            <h1>CONFERENCE VIDEOS AVAILABLE</h1>            
+            <a href="#" class="view-videos">VIEW VIDEOS</a>
           </div>
         </div>
       </li>
@@ -67,16 +67,112 @@ layout: layout.html
   <div class="row">
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="https://www.youtube.com/embed/kIKwPNKXaLU" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/nVRUv30coyA" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe  src="https://www.youtube.com/embed/fWCt5KWfTuo" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/3RtLCav0Bp4" frameborder="0" allowfullscreen></iframe>
       </div></div>
     <div class="col-sm-12 col-md-4">
     <div class="video-responsive">
-        <iframe  src="https://www.youtube.com/embed/oPJIXPC_vn8" frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/R2IAgnpkBck" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/e1yLmYN0hXk" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/q80FiugsO1Q" frameborder="0" allowfullscreen></iframe>
+      </div></div>
+    <div class="col-sm-12 col-md-4">
+    <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/n_IM3omQUyg" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/mEFbjt_87TU" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/MPQfb7fsw3I" frameborder="0" allowfullscreen></iframe>
+      </div></div>
+    <div class="col-sm-12 col-md-4">
+    <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/KkzvQSuYd5I" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/Qwn55wbpFVc" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/MHLFW0VAaS0" frameborder="0" allowfullscreen></iframe>
+      </div></div>
+    <div class="col-sm-12 col-md-4">
+    <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/IbOp_e9yh0k" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/uSF5hyfez60" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/woMybx3gRIs" frameborder="0" allowfullscreen></iframe>
+      </div></div>
+    <div class="col-sm-12 col-md-4">
+    <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/vEXkpcy31EY" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/y2mL-6CcYBw" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/pk4GrmWtjMk" frameborder="0" allowfullscreen></iframe>
+      </div></div>
+    <div class="col-sm-12 col-md-4">
+    <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/v9xDUO_vp8M" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/b8aXE6l8q8U" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/5AcYKhB4hu4" frameborder="0" allowfullscreen></iframe>
+      </div></div>
+    <div class="col-sm-12 col-md-4">
+    <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/aE-p0cfwTVU" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
