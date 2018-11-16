@@ -13,7 +13,7 @@ layout: layout.html
           </div>
         </div>
       </li>
-      <!-- example code for a 2018 speaker slide -->
+      <!-- example code for a 2019 speaker slide -->
       <!--<li class="slide speaker ward-cunningham">
         <div class="container">
           <h1>Featured Speaker</h1>
@@ -21,7 +21,7 @@ layout: layout.html
           <a href="speakers/ward-cunningham.html">About Ward</a>
         </div>
       </li>-->
-      <!-- example code for a 2018 sponsor slide -->
+      <!-- example code for a 2019 sponsor slide -->
       <!--<li class="slide speaker alteryx-slide-version-2">
         <div class="container">
           <h1>Platinum Sponsor</h1>
@@ -29,7 +29,7 @@ layout: layout.html
           <a href="https://www.alteryx.com">Visit Alteryx</a>
         </div>
       </li>-->
-      <!-- in case the hyatt slide comes back in 2018 -->
+      <!-- in case the hyatt slide comes back in 2019 -->
       <!--<li class="slide hyatt">
         <div class="container">
           <div class="hyatt-copy">
@@ -58,16 +58,30 @@ layout: layout.html
     <p class="conf-last-year">View last year's conference: <a href="2017">2017</a></p>
   </div>
 </div>
-<div class="container section homepage-video">
+
+<div class="container section home-videos">
   <div class="row">
-    <div class="col-xs-12">
+    <a name="videos"></a>
+    <h1 class="section-header">Videos</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
       <div class="video-responsive">
-        <iframe width="640" height="360" src="http://www.youtube.com/embed/hIORppbgcRM" 
-        frameborder="0" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/kIKwPNKXaLU" frameborder="0" allowfullscreen></iframe>
       </div>
-    </div> <!-- col-xs-12 -->
-  </div> <!-- row -->
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/fWCt5KWfTuo" frameborder="0" allowfullscreen></iframe>
+      </div></div>
+    <div class="col-sm-12 col-md-4">
+    <div class="video-responsive">
+        <iframe  src="https://www.youtube.com/embed/oPJIXPC_vn8" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
 </div>
+
 <div class="container section about">
   <div class="row">
     <h1 class="section-header">About Explore DDD</h1>
