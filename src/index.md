@@ -7,6 +7,11 @@ layout: layout.html
         <source src="video/sany19.mp4" type="video/mp4">
         <!--<source src="video/sany19.ogv" type="video/ogg">-->
     </video>
+    <div class="video-overlay"></div>
+    <ul id="homepage--hero-video-buttons">
+        <li><a href="#">Early Bird Tickets</a></li>
+        <li><a href="#">Sponsorship Opportunities</a></li>
+    </ul>
     <div class="conf-dates">
         <p class="conf-copy"><span class="conf-header">Conference</span> September 18 - 20, 2019</p>
         <p class="conf-copy"><span class="conf-header">Workshops</span> September 17 - 18, 2019</p>
