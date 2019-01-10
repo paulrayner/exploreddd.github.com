@@ -373,57 +373,6 @@ s
 	}
 }
 
-// Sliders
-
-.slider {
-	margin-bottom: 0;
-	height: 500px;
-	position: relative;
-	@include mq(sm){
-		height: 400px;
-	}
-}
-
-.slide {
-	background-position: bottom center;
-	background-size: cover;
-	height: 500px;
-	@include mq(sm){
-		height: 400px;
-	}
-	@include mq(lg) {
-		.container {
-			width: 955px;
-		}
-	}
-	a {
-		color: $brand-reverse-link;
-		font-family: NunitoSansBold, sans-serif;
-		font-size: 20px;
-		position: relative;
-		text-transform: uppercase;
-		transition: all 0.2s;
-		&:hover {
-			color: $brand-reverse-link-hover;
-			text-decoration: none;
-		}
-	}
-}
-
-.slide.register {
-	background-image: url('../img/sliders/slider-register-700x600.jpg');
-	@include mq(sm){
-		background-image: url('../img/sliders/slider-register-1600x400.jpg');
-	}
-}
-
-.slide.hyatt {
-	background-image: url('../img/sliders/slider-Hyatt-700x600.jpg');
-	@include mq(sm){
-		background-image: url('../img/sliders/Explore-DDD-website-Slider-Hyatt.jpg');
-	}
-}
-
 .hyatt-copy, .register-copy, .alteryx-copy {
 	display: inline-block;
 	margin-top: 85px;
@@ -469,14 +418,6 @@ s
 		a {
 			font-size: 40px;
 			color: #0082CD;
-			.slider-alteryx-link-logo {
-				height: 60px;
-				margin-top: 25px;
-				width: auto;
-				@include mq(xs){
-					height: 40px;
-				}
-			}
 		}
 	}
 }
@@ -484,105 +425,6 @@ s
 .register-copy {
 	float: left;
 	max-width: 474px;
-}
-
-.slide.speaker {
-	background-color: $brand-white;
-	background-position: right 80%;
-	background-repeat: no-repeat;
-	background-size: contain;
-  @include mq(sm) {
-		background-position: 53%;
-		background-size: cover;
-	}
-
-	.container {
-		bottom: 0; //start fixing here
-		display: block;
-		padding-bottom: 20px;
-		position: absolute;
-    @include mq(xs) {
-      top: 0;
-    }
-		@include mq(sm) {
-			display: inline-block;
-			float: right;
-			padding-bottom: 0px;
-			padding-top: 100px;
-			position: static;
-			width: 50%;
-      margin-right: 40px;
-		}
-    @include mq(md) {
-      width: 48%;
-      margin-right: 45px;
-    }
-	}
-
-	h1 {
-		color: #fdc33c;
-		font-family: NunitoSansBold, sans-serif;
-		font-size: 30px;
-		text-transform: uppercase;
-		@include mq(sm){
-			font-size: 30px;
-		}
-    @include mq(md){
-			font-size: 40px;
-		}
-	}
-
-	h2 {
-		color: $brand-body;
-		font-family: NunitoSansLight, sans-serif;
-		font-size: 20px;
-		max-width: 410px;
-		@include mq(sm){
-			font-size: 25px;
-		}
-    @include mq(md){
-			font-size: 30px;
-		}
-		span {
-			font-family: NunitoSansBold, sans-serif;
-			text-transform: uppercase;
-		}
-	}
-
-	&.eric-evans {
-		background-image: url('../img/sliders/slider-Eric-Evans-700x600.jpg');
-		@include mq(sm) {
-			background-image: url('../img/sliders/slider-eric-evans.jpg');
-		}
-	}
-	&.michael-feathers {
-		background-image: url('../img/sliders/slider-Michael-Feathers-700x600.jpg');
-		@include mq(sm) {
-			background-image: url('../img/sliders/slider-Michael-Feathers.jpg');
-		}
-	}
-	&.alteryx-slide-version-2 {
-	background-image: url('../img/sliders/slider-alteryx-700x600.jpg');
-		@include mq(sm) {
-			background-image: url('../img/sliders/slider-alteryx-1600x400.jpg');
-		}
-	}
-}
-
-.slide.denver {
-	background-image: url('../img/sliders/slider-Denver700x600.jpg');
-	@include mq(sm){
-		background-image: url('../img/sliders/slider-denver.jpg');
-	}
-
-	.mobile-copy {
-		color: #ffebc1;
-		display: none;
-		text-align: center;
-		text-transform: uppercase;
-		@include mq(sm){
-		}
-	}
 }
 
 .custom-navigation-container {
@@ -713,44 +555,68 @@ figure {
  }
 }
 
-.section.conf-dates {
-	background-color: $brand-blue;
-	font-family: NunitoSans, sans-serif;
-	padding-top: 22px;
-	text-align: center;
-}
-
-.conf-header {
-	color: $brand-subheader;
-	display: block;
-	padding-right: 15px;
-	text-transform: uppercase;
-	@include mq(sm){
-		display: inline;
+.homepage--hero-video-container {
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+	padding-left: 0;
+	padding-right: 0;
+	background-image: url('../video/video-poster.jpg');
+	background-size: cover;
+	.video-item {
+		width: 100%;
+		height: auto;
+		z-index: 0;
 	}
-}
-.conf-copy {
-	color: $brand-white;
-	font-size: 24px;
-	margin-bottom: 2px;
-}
-
-.conf-contact, .conf-last-year {
-	@extend .conf-copy;
-	font-size: 18px;
-	padding: 13px 0 15px;
-
-	a {
-		color: $brand-reverse-link;
-		//padding-right: 10px;
-		&:hover {
-			color: $brand-reverse-link-hover;
-			text-decoration: none;
+	@media only screen and (max-width: 1068px) {
+		.video-item {
+			width: auto;
+			height: 100%;
 		}
 	}
-}
-.conf-last-year {
-	padding-top: 0;
+	.conf-dates {
+		width: 100%;
+		background-color: transparentize($brand-blue, .3);
+		font-family: NunitoSans, sans-serif;
+		padding-top: 22px;
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+		z-index: 1;
+	}
+
+	.conf-header {
+		color: $brand-subheader;
+		display: block;
+		padding-right: 15px;
+		text-transform: uppercase;
+		@include mq(sm){
+			display: inline;
+		}
+	}
+	.conf-copy {
+		color: $brand-white;
+		font-size: 24px;
+		margin-bottom: 2px;
+	}
+
+	.conf-contact, .conf-last-year {
+		@extend .conf-copy;
+		font-size: 18px;
+		padding: 13px 0 15px;
+
+		a {
+			color: $brand-reverse-link;
+			//padding-right: 10px;
+			&:hover {
+				color: $brand-reverse-link-hover;
+				text-decoration: none;
+			}
+		}
+	}
+	.conf-last-year {
+		padding-top: 0;
+	}
 }
 
 // Speaker section
@@ -1221,6 +1087,7 @@ footer {
 	}
 }
 
+//homepage video before featured speakers
 .video-responsive {
 	overflow:hidden;
 	padding-bottom:56.25%;
@@ -1927,4 +1794,8 @@ blockquote .quote-source {
 //make talk session titles same colour as h2 workshop titles that are also links
 .gold {
 	color: $brand-body-link !important;
+}
+
+.video-hero {
+
 }
