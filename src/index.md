@@ -8,16 +8,18 @@ layout: layout.html
         <!--<source src="video/sany19.ogv" type="video/ogg">-->
     </video>
     <div class="video-overlay"></div>
-    <ul id="homepage--hero-video-buttons">
-        <li><a href="#">Early Bird Tickets</a></li>
-        <li><a href="#">Sponsorship Opportunities</a></li>
-    </ul>
-    <div class="conf-dates">
-        <p class="conf-copy"><span class="conf-header">Conference</span> September 18 - 20, 2019</p>
-        <p class="conf-copy"><span class="conf-header">Workshops</span> September 17 - 18, 2019</p>
-        <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>
-        <p class="conf-contact">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a> Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
-        <p class="conf-last-year">View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
+    <div class="homepage--hero-content">
+        <div class="homepage--hero-video-buttons">
+            <a class="btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2019">Early Bird Tickets</a>
+            <a class="btn" href="sponsors">Sponsorship Opportunities</a>
+        </div>
+        <div class="conf-dates">
+            <p class="conf-copy"><span class="conf-header">Conference</span> September 18 - 20, 2019</p>
+            <p class="conf-copy"><span class="conf-header">Workshops</span> September 17 - 18, 2019</p>
+            <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>
+            <p class="conf-contact">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a> Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
+            <p class="conf-last-year">View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
+        </div>
     </div>
 </div>
 <div class="container section homepage-video">

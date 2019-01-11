@@ -563,6 +563,9 @@ figure {
 	padding-right: 0;
 	background-image: url('../video/video-poster.jpg');
 	background-size: cover;
+	@include mq(xs){
+		background-position-x: 40%; //get background video poster/loading/mobile background more centrall
+	}
 	.video-overlay {
 		position: absolute;
 		top: 0;
@@ -576,6 +579,10 @@ figure {
 		width: 100%;
 		height: auto;
 		z-index: 0;
+		@include mq(xs){
+			//maybe hide the video here
+			display: none;
+		}
 	}
 	@media only screen and (max-width: 1068px) {
 		.video-item {
@@ -583,48 +590,73 @@ figure {
 			height: 100%;
 		}
 	}
-	.conf-dates {
-		width: 100%;
-		background-color: transparentize($brand-blue, .3);
-		font-family: NunitoSans, sans-serif;
-		padding-top: 22px;
-		text-align: center;
+	.homepage--hero-content {
 		position: absolute;
 		bottom: 0;
-		z-index: 2;
-	}
-
-	.conf-header {
-		color: $brand-subheader;
-		display: block;
-		padding-right: 15px;
-		text-transform: uppercase;
-		@include mq(sm){
-			display: inline;
-		}
-	}
-	.conf-copy {
-		color: $brand-white;
-		font-size: 24px;
-		margin-bottom: 2px;
-	}
-
-	.conf-contact, .conf-last-year {
-		@extend .conf-copy;
-		font-size: 18px;
-		padding: 13px 0 15px;
-
-		a {
-			color: $brand-reverse-link;
-			//padding-right: 10px;
-			&:hover {
-				color: $brand-reverse-link-hover;
+		width: 100%;
+		z-index: 4;
+		.homepage--hero-video-buttons {
+			text-align: center;
+			width: 100%;
+			.btn {
+				display: inline-block;
+				background-color: $brand-nav-button-background;
+				font-family: NunitoSansSemiBold, sans-serif !important;
+				border-radius: 0;
+				color: $brand-nav-button-text;
+				font-size: 15px;
+				padding: 10px 15px 10px 15px;
 				text-decoration: none;
+				text-transform: uppercase;
+				border: 0;
+				margin: 0 7px 15px 7px;
+				&:hover {
+					background-color: $brand-nav-button-background-hover;
+					color: $brand-nav-button-text-hover;
+				}
 			}
 		}
-	}
-	.conf-last-year {
-		padding-top: 0;
+		.conf-dates {
+			width: 100%;
+			background-color: transparentize($brand-blue, .3);
+			font-family: NunitoSans, sans-serif;
+			padding-top: 22px;
+			text-align: center;
+			z-index: 2;
+		}
+
+		.conf-header {
+			color: $brand-subheader;
+			display: block;
+			padding-right: 15px;
+			text-transform: uppercase;
+			@include mq(sm){
+				display: inline;
+			}
+		}
+		.conf-copy {
+			color: $brand-white;
+			font-size: 24px;
+			margin-bottom: 2px;
+		}
+
+		.conf-contact, .conf-last-year {
+			@extend .conf-copy;
+			font-size: 18px;
+			padding: 13px 0 15px;
+
+			a {
+				color: $brand-reverse-link;
+				//padding-right: 10px;
+				&:hover {
+					color: $brand-reverse-link-hover;
+					text-decoration: none;
+				}
+			}
+		}
+		.conf-last-year {
+			padding-top: 0;
+		}
 	}
 }
 
@@ -1501,18 +1533,7 @@ footer {
   	}
 }
 
-//button styles
-#homepage--hero-video-buttons {
-	//$brand-nav-button-text: #0082c8;
-	//$brand-nav-button-text-hover: #2e9bd3;
-	//$brand-nav-button-background: #ace0f0;
-	//$brand-nav-button-background-hover: #9bd7ec;
-	ul {
-		li {
-
-		}
-	}
-}
+//some button styles
 .btn {
   background: $brand-blue;
   font-family: NunitoSansSemiBold, sans-serif !important;
