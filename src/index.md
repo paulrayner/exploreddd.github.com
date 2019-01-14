@@ -4,7 +4,7 @@ layout: layout.html
 <div class="container-fluid homepage--hero-video-container">
     <video loop muted autoplay class="video-item">
         <!--<source src="video/sany19.webm" type="video/webm">-->
-        <source src="video/sany19.mp4" type="video/mp4">
+        <source src="video/background-video.mp4" type="video/mp4">
         <!--<source src="video/sany19.ogv" type="video/ogg">-->
     </video>
     <div class="video-overlay"></div>
