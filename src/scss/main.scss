@@ -574,6 +574,9 @@ figure {
 		height: 100%;
 		background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0) 100%);
 		z-index: 1;
+		@include mq(xs){
+			display: none;
+		}
 	}
 	.video-item {
 		width: 100%;
