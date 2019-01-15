@@ -1,6 +1,9 @@
 {
   "name": "static-site-example",
   "private": true,
+  "scripts": {
+    "build": "node index.js"
+  },
   "dependencies": {
     "handlebars": "^4.0.5",
     "metalsmith": "^2.3.0",
