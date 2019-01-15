@@ -22,21 +22,10 @@ layout: layout.html
         </div>
     </div>
 </div>
-<div class="container section homepage-video">
+<div class="container home section about">
     <div class="row">
-        <div class="col-xs-12">
-            <div class="video-responsive">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/QEXI684bGVo" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        <!-- col-xs-12 -->
-    </div>
-    <!-- row -->
-</div>
-<div class="container section about">
-    <div class="row">
-        <h1 class="section-header">About Explore DDD</h1>
         <p class="copy">The Explore DDD Conference sets the perfect stage to discover how industry peers and leaders are using DDD to build better software:</p>
+        <h1 class="section-header">About Explore DDD</h1>
         <ul class="copy-list">
             <li>World-class talks from DDD practitioners and experts.</li>
             <li>Two days of pre-conference full-day workshops with expert instructors.</li>
@@ -47,4 +36,15 @@ layout: layout.html
         </ul>
         <p class="copy">Conference registration is capped at 225 attendees.</p>
     </div>
+</div>
+<div class="container section homepage-video">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="video-responsive">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/QEXI684bGVo" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- col-xs-12 -->
+    </div>
+    <!-- row -->
 </div>
