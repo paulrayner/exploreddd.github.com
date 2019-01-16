@@ -641,6 +641,9 @@ figure {
 			color: $brand-white;
 			font-size: 24px;
 			margin-bottom: 2px;
+			&:last-child {
+				padding-bottom: 25px;
+			} 
 		}
 
 		.conf-contact, .conf-last-year {
