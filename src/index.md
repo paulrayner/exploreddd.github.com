@@ -17,8 +17,6 @@ layout: layout.html
             <p class="conf-copy"><span class="conf-header">Conference</span> September 18 - 20, 2019</p>
             <p class="conf-copy"><span class="conf-header">Workshops</span> September 17 - 18, 2019</p>
             <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>
-            <!--<p class="conf-contact">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a> Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
-            <p class="conf-last-year">View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>-->
         </div>
     </div>
 </div>
@@ -35,6 +33,8 @@ layout: layout.html
             <li>Conference hotel accommodation at AAA Four Diamond Grand Hyatt Denver.</li>
         </ul>
         <p class="copy">Conference registration is capped at 225 attendees.</p>
+        <p class="copy">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a> Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
+        <p class="copy">View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
     </div>
 </div>
 <div class="container section homepage-video">
