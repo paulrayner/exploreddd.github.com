@@ -564,7 +564,7 @@ figure {
 	background-image: url('../video/video-poster.jpg');
 	background-size: cover;
 	@include mq(xs){
-		background-position-x: 40%; //get background video poster/loading/mobile background more centrall
+		background-position-x: 80%; //get background video poster/loading/mobile background more centrall
 	}
 	.video-overlay {
 		position: absolute;
@@ -621,11 +621,14 @@ figure {
 		}
 		.conf-dates {
 			width: 100%;
-			background-color: transparentize($brand-blue, .5);
+			background-color: transparentize($brand-blue, 0.5);
 			font-family: NunitoSans, sans-serif;
 			padding-top: 22px;
 			text-align: center;
 			z-index: 2;
+			@include mq(xs) {
+				background-color: transparentize($brand-blue, 0.3);
+			}
 		}
 
 		.conf-header {
