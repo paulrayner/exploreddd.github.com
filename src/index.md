@@ -46,3 +46,13 @@ layout: layout.html
         </div>
     </div>
 </div>
+<div class="container home section code-of-conduct">
+    <div class="row">
+        <h2 class="page-subheader">Code of Conduct</h2>
+        <p class="copy">We aim to provide a safe learning experience for all conference participants, and thus expect them to be kind and respectful towards others. We embrace diversity of human experience and the strength it brings to our communities and relationships.</p>
+        <p class="copy">We care deeply about making Explore DDD a safe and welcoming space for everyone. In light of this, all attendees, speakers, sponsors and volunteers at our conference are required to agree with the code of conduct. Organizers will model and reinforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.</p>
+        <p class="copy">If you have any questions, or are harassed in any way, please notify a conference staff member. All reports are confidential. If you want more details then read the full Code of Conduct on the <a href="about">about page</a>.</p>
+        <h2 class="page-subheader">The Quick Version</h2>
+        <p class="copy">Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.</p>
+    </div>
+</div>
