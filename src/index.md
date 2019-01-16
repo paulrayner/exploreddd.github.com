@@ -44,7 +44,5 @@ layout: layout.html
                 <iframe width="640" height="360" src="https://www.youtube.com/embed/QEXI684bGVo" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <!-- col-xs-12 -->
     </div>
-    <!-- row -->
 </div>
