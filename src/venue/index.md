@@ -9,7 +9,7 @@ layout: layout-tier2.html
   <div class="row venue--address--reserve-btn-row">
       <p class="copy" style="text-align: center;"><a href="https://aws.passkey.com/go/exploreddd2018">Grand Hyatt Denver</a><br>1750 Wellton Street<br>Denver, CO 80202 USA</p>
       <br>
-    <!--<a class="btn" href="https://aws.passkey.com/go/exploreddd2018">Reserve Your Room</a>-->
+      <a class="btn" href="https://www.hyatt.com/en-US/group-booking/DENRD/G-VIGE">Reserve Your Room</a>
   </div>
 
   <p class="copy">The main conference will be hosted in the incredible Pinnacle Club of the Grand Hyatt Denver, a luxury event venue located on the 38th floor and overlooking the entire Rocky Mountain Front Range. The pre-conference workshops will be located on the 2nd floor of the Grand Hyatt Denver.</p>
@@ -34,7 +34,7 @@ layout: layout-tier2.html
   <h2 class="page-subheader">Accommodation</h2>
 
   <p class="copy"><i>Hotel room availability at this time of year in Denver is extremely limited, so we strongly recommend that attendees traveling from out of town reserve their rooms at the Grand Hyatt as early as possible.</i> </p>
-  <p class="copy">We have reserved a room block at the Grand Hyatt and negotiated a low conference discounted room rate. <a href="https://aws.passkey.com/go/exploreddd2018">Reserve your room</a> at the Grand Hyatt.</p>
+  <p class="copy">We have reserved a room block at the Grand Hyatt and negotiated a low conference discounted room rate. <a href="https://www.hyatt.com/en-US/group-booking/DENRD/G-VIGE">Reserve your room</a> at the Grand Hyatt.</p>
 
   <h2 class="page-subheader">About Denver</h2>
 
