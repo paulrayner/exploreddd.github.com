@@ -3,9 +3,8 @@ layout: layout-tier2.html
 ---
 <div class="container section page about">
   <h1 class="section-header">Call for Proposals</h1>
-  <center><a class="btn" style="margin-bottom: 30px;" href="https://virtualgenius.typeform.com/to/JfFvxZ">Submit Your Proposal</a></center>
 
-  <p class="copy" style="text-align: center;"><strong>Deadline: February 15, 2019</strong></p>
+  <p class="copy" style="text-align: center;"><strong>CFP NOW CLOSED</strong></p>
 
   <p class="copy"><!--The Call for Proposals (CFP) for Explore DDD 2018 is now open.-->Should you submit your talk, workshop, or hands-on session idea?</p>
 
