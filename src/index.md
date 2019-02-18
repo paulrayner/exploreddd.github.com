@@ -11,7 +11,7 @@ layout: layout.html
     <div class="homepage--hero-content">
         <div class="homepage--hero-video-buttons">
             <a class="btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2019">Early Bird Tickets</a>
-            <a class="btn" href="sponsors">Sponsorship Opportunities</a>
+            <a class="btn" href="sponsors/Explore%20DDD%202019%20Sponsorship%20Opportunities.pdf">Sponsorship Opportunities</a>
         </div>
         <div class="conf-dates">
             <p class="conf-copy"><span class="conf-header">Conference</span> September 18 - 20, 2019</p>
