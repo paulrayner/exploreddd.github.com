@@ -14,7 +14,7 @@ layout: layout-tier2.html
         <span class="workshops--speaker-name">
         <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></span>
         <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
-        <!--<a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>-->
+        <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
         <p class="copy" style="margin-top: 25px">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way.</p>
         <p class="copy">In this two day format we’ll experience the different formats, working around real business problems.
         We’ll take into account the different perspectives (including the facilitator) in a process that spans large scale discovery, to leverage collaborative design.
