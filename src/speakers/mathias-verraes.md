@@ -1,5 +1,5 @@
 ---
-layout: layout-tier2.html
+layout: layout-speaker.html
 ---
 <div class="container section featured-speaker">
   <div class="row">
