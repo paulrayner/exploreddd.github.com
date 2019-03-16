@@ -78,5 +78,11 @@ layout: layout.html
       <h3><a class="speaker-name" href="speakers/mathias-verraes.html">Mathias Verraes</a></h3>
       <p class="speaker-details">Student of Systems</p>
     </div>
+    <div class="speaker-container">
+      <a href="speakers/anita-kvamme.html"><div class="speaker-img anita-kvamme">
+      </div></a>
+      <h3><a class="speaker-name" href="speakers/anita-kvamme.html">Anita Kvamme</a></h3>
+      <p class="speaker-details">UX Person in Love with DDD</p>
+    </div>
   </div>
 </div>
