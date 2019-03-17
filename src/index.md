@@ -202,5 +202,37 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/kacper-gunia.html">Kacper Gunia</a></h3>
             <p class="speaker-details">Domain Explorer</p>
         </div>
+        <div class="speaker-container">
+            <a href="speakers/marijn-huizendveld.html"><div class="speaker-img marijn-huizendveld">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/marijn-huizendveld.html">Marijn Huizendveld</a></h3>
+            <p class="speaker-details">Engage and Embrace</p>
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/matt-stine.html"><div class="speaker-img matt-stine">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/matt-stine.html">Matt Stine</a></h3>
+            <p class="speaker-details">Renaissance Polymath and Memeplexer</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="speaker-container">
+            <a href="speakers/mauro-servienti.html"><div class="speaker-img mauro-servienti">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/mauro-servienti.html">Mauro Servienti</a></h3>
+            <p class="speaker-details">Wannabe Architect</p>
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/michel-grootjans.html"><div class="speaker-img michel-grootjans">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/michel-grootjans.html">Michel Grootjans</a></h3>
+            <p class="speaker-details">Code Monkey</p>
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/thomas-coopman.html"><div class="speaker-img thomas-coopman">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/thomas-coopman.html">Thomas Coopman</a></h3>
+            <p class="speaker-details">Projectionist</p>
+        </div>
     </div>
 </div>
