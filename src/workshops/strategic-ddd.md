@@ -24,7 +24,7 @@ layout: layout-tier2.html
             <li>Develop multiple strategies for setting up a fresh project that can break with the past, even when the organization is tied to legacy systems.</li>
             </ul>
             <!--<div class="col-xs-12" align="center">
-                <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
+                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>
             </div>-->
             </div>
         </div>

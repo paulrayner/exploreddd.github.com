@@ -731,8 +731,8 @@ figure {
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
-	&.indu-and-david {
-		background-image: url('../img/speakers/sprite-indu-and-david.png');
+	&.bruno-and-thomas {
+		background-image: url('../img/speakers/sprite-bruno-and-thomas.png');
 		background-position: -160px; //keep it coloured even when not during hover state
 		&:hover {
 			cursor: pointer;
@@ -977,6 +977,12 @@ figure {
 	}
 	&.zsófia-herendi {
 		background-image: url('../img/speakers/sprite-zsófia-herendi.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.adam-tornhill {
+		background-image: url('../img/speakers/sprite-adam-tornhill.jpg');
 		&:hover {
 			background-position: 0;
 		}

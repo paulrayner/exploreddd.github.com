@@ -293,4 +293,12 @@ layout: layout.html
             <p class="speaker-details">Flow addict PO</p>
         </div>
     </div>
+    <div class="row">
+        <div class="speaker-container">
+            <a href="speakers/adam-tornhill.html"><div class="speaker-img adam-tornhill">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/adam-tornhill.html">Adam Tornhill</a></h3>
+            <p class="speaker-details">Technical Debt Detective</p>
+        </div>
+    </div>
 </div>

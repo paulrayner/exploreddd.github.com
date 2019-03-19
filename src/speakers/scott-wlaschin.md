@@ -12,6 +12,9 @@ layout: layout-speaker.html
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/ScottWlaschin" target="_blank">@ScottWlaschin</a></p>
         <p class="copy">Scott Wlaschin is a developer, architect and author. He is the author of the popular F# site fsharpforfunandprofit.com, and the book "Domain Modeling Made Functional", published by Pragmatic Bookshelf.</p>
         <p class="copy">Known for his non-academic approach to functional programming, Scott is a popular speaker and has given talks at NDC, F# Exchange, DDD Europe, and other conferences around the world.</p>
+        <h2 class="speaker-subheader">Two day pre-conference workshop, Tue-Wed, Sept. 17-18</h2>
+        <h2 class="speaker-subheader"><a href="../workshops/domain-modeling-made-functional.html">Domain Modeilng Made Functional</a></h2>
+        <p class="copy">Functional programming and domain-driven design might not seem to be a good match, but in fact functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why. <a href="../workshops/domain-modeling-made-functional.html">Read more...</a></p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader gold">Domain Modeling Made Functional</h2>
         <p class="copy">Statically typed functional programming languages encourage a very different way of thinking about types. The type system is your friend, not an annoyance, and can be used in many ways that might not be familiar to OO programmers.</p>
