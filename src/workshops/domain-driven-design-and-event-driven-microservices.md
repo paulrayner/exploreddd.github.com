@@ -17,6 +17,7 @@ layout: layout-tier2.html
             <div class="spacer"></div>
             <p class="copy">New architectural paradigms like microservices and evolutionary architecture, as well as the challenges associated with managing data and transactional contexts in distributed systems, have generated a renewed interest in disciplined software design and modular decomposition strategies. We know that the secret to obtaining the benefits of these architectures is getting the boundaries right, both at the team and the component/service level, and then keeping them right as the software continues to evolve! A key reason for getting the boundaries right is that it allows us to create a unified and ubiquitous language within the bounded contexts those boundaries enclose, allowing the business and engineers to have productive and coherent conversations.</p>
             <p class="copy">Fortunately, there is a mature, battle-tested approach to domain modeling and system decomposition that is a perfect compliment to these architectures: Domain-Driven Design (DDD). In this course, we’ll leverage an exemplar business domain, that of a pizza delivery store, to illustrate DDD-based decomposition strategies, data architecture patterns, and implementations.</p>
+            <img src="../img/workshop/Workshop-Matt-Stine-3.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 10px">
             <h2 class="speaker-subheader">What You'll Learn and How You Can Apply It</h2>
             <p class="copy">By the end of this two-day training course, attendees will understand:</p>
             <ul class="copy-list">
@@ -36,6 +37,7 @@ layout: layout-tier2.html
                 <li>Apply stepwise refactorings to evolve from a modular monolith to component-based to service-based architectures.</li>
                 <li>Apply automated fitness functions to ensure that architectural qualities are maintained throughout the architecture’s evolution.</li>
             </ul>
+            <img src="../img/workshop/Workshop-Matt-Stine-2.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 10px">
             <h2 class="speaker-subheader">COURSE OUTLINE</h2>
             <p class="copy"><strong>Day One</strong></p>
             <p class="copy">Class Introduction (10 minutes)<br>
@@ -89,6 +91,7 @@ layout: layout-tier2.html
             <p class="copy">Student Activity: Lab 9: Evolutionary Refactoring - Move from Components to Microservices, Externalize Eventing (20 minutes)</p>
             <p class="copy">Lecture: Lab 9 Solution (10 minutes)</p>
             <p class="copy">Conclude</p>
+            <img src="../img/workshop/Workshop-Matt-Stine-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 10px">
             <h2 class="speaker-subheader">PREREQUISITES</h2>
             <p class="copy">Basic familiarity with Domain-Driven Design concepts can ease your understanding of the course material. I recommend reading Domain-Driven Design Distilled by Vaughn Vernon to get a quick, 101-level overview.</p>
             <p class="copy">We will be leveraging multiple technical architecture concepts in this course. Vaughn Vernon provides a great overview of them in Chapter 4 of Implementing Domain-Driven Design.</p>
