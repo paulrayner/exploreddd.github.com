@@ -1496,8 +1496,7 @@ footer {
     font-size: 16px;
   }
 }
-
-.details-wide {
+.details-wide, .details-two-thirds {
 	@include mq(xs) {
 		p {
 			margin-bottom: -10px;
@@ -1535,6 +1534,9 @@ footer {
 	}
 	.details-wide {
 		width: 84%;
+	}
+	.details-two-thirds {
+		width: 56%;
 	}
 }
 

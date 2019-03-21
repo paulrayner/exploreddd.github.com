@@ -7,7 +7,7 @@ layout: layout-speaker.html
       <img class="speaker-page-img" src="../img/speakers/Nick-Tune-ON.png">
     </div>
     <div class="col-xs-12 col-sm-10 copy-container">
-        <h1 class="speaker-header">Nick-Tune</h1>
+        <h1 class="speaker-header">Nick Tune</h1>
       <h2 class="speaker-subtitle">Junior Master Strategist</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/ntcoding" target="_blank">@ntcoding</a></p>
         <p class="copy">Nick is a strategic technical leader at Navico and the co-author of two books: Designing Autonomous Team and Services (O’Reilly) and Patterns, Principles, and Practices of Domain-Driven Design (Wrox).</p>
