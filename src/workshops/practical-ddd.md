@@ -14,8 +14,7 @@ layout: layout-tier2.html
             <span class="workshops--speaker-name"><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></span>
             <span class="workshops--duration">1-Day Workshop<br>Wed, Sept 18</span>
             <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
-            <img src="../img/workshop/Workshop-Indu-Alagarsamy.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 10px">
-            <div class="spacer"></div>
+            <img src="../img/workshop/Workshop-Indu-Alagarsamy.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px">
             <p class="copy">Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled.</p> 
             <p class="copy">Gain practical knowledge on dealing with existing code bases, how to reliably integrate with 3rd party services and how to model your code using .NET, C# and NServiceBus to align with the ever changing business processes.</p>
             <p class="copy">Pair up and work on code exercises that will help you get a solid understanding of these concepts so you can take this to your company and start applying these practices right away.</p>
