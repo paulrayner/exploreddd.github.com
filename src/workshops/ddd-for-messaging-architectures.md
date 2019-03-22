@@ -5,10 +5,10 @@ layout: layout-tier2.html
     <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
-            <div class="speaker-container">
-                <a href="../speakers/mathias-verraes.html"><div class="speaker-img mathias-verraes keep-color"></div></a>
-                </div>
+        <div class="speaker-container">
+            <a href="../speakers/mathias-verraes.html"><div class="speaker-img mathias-verraes keep-color"></div></a>
             </div>
+        </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h1 class="section-header">DDD For Messaging Architectures</h1>
             <span class="workshops--speaker-name"><a href="../speakers/mathias-verraes.html">Mathias Verraes</a></span>
