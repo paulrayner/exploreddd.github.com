@@ -149,7 +149,7 @@ layout: layout-tier2.html
 						<div class="col-sm-10 details details-two-thirds">
 							<p><strong>Break</strong><br></p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
+						<div class="col-sm-2 details details-colored details-purple double-session-shim">
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
@@ -165,6 +165,10 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/emily-stamey.html">Hey Boss, Event Sourcing Could Fix That!</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
+							<span class="long-session-part-2-copy">
+								<h4>Continued: <a href="../speakers/dion-stewart.html">Dion Stewart</a></h4>
+								<p class="talk-title"><a href="../speakers/dion-stewart.html">Driving Domain-Driven Design with User Story Mapping</a></p>
+							</span>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -199,7 +203,7 @@ layout: layout-tier2.html
 						<div class="col-sm-10 details details-two-thirds">
 							<p><strong>Break</strong></p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
+						<div class="col-sm-2 details details-colored details-purple double-session-shim">
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
@@ -215,6 +219,10 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/jean-françois-cloutier.html">Robots Modeling the Minds of Robots</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
+							<span class="long-session-part-2-copy">
+								<h4>Continued: <a href="../speakers/gien-verschatse.html">Gien Verschatse</a> &amp; <a href="../speakers/nick-tune.html">Nick Tune</a></h4>
+								<p class="talk-title"><a href="../speakers/gien-verschatse.html">Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue</a></p>
+							</span>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -238,7 +246,7 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/jérémie-chassaing.html">Ukulele Tabs in F#</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-						<h4><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></h4>
+							<h4><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></h4>
 							<p class="talk-title" style="margin-top: 8px;"><a href="../speakers/alberto-brandolini.html">Eventstorming Hands On</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -249,7 +257,7 @@ layout: layout-tier2.html
 						<div class="col-sm-10 details details-two-thirds">
 							<p><strong>Break</strong></p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
+						<div class="col-sm-2 details details-colored details-purple double-session-shim">
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
@@ -264,7 +272,11 @@ layout: layout-tier2.html
 							<h4><a href="../speakers/josh-maletz.html">Josh Maletz</a> &amp; James Brayton</h4>
 							<p class="talk-title"><a href="../speakers/josh-maletz.html">Accelerated Learning with Rapid Prototypes and DSLs</a></p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">							
+						<div class="col-sm-2 details details-colored details-purple">
+							<span class="long-session-part-2-copy">
+								<h4>Continued: <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></h4>
+								<p class="talk-title" style="margin-top: 8px;"><a href="../speakers/alberto-brandolini.html">Eventstorming Hands On</a></p>
+							</span>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -287,7 +299,7 @@ layout: layout-tier2.html
 						<div class="col-sm-1 time-cell">
 							<p>6:00 - Late</p>
 						</div> <!-- col-xs -->
-						<div class="col-sm-10 details  details-wide">
+						<div class="col-sm-10 details details-wide">
 							<p><strong>Explore Downtown Denver Dining</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -342,7 +354,7 @@ layout: layout-tier2.html
 						<div class="col-sm-10 details details-two-thirds">
 							<p><strong>Break</strong><br></p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
+						<div class="col-sm-2 details details-colored details-purple double-session-shim">
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
@@ -358,6 +370,10 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/sandi-metz.html">Polly Want a Message</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
+							<span class="long-session-part-2-copy">
+								<h4>Continued: <a href="../speakers/zsófia-herendi.html">Zsófia Herendi</a></h4>
+								<p class="talk-title"><a href="../speakers/zsófia-herendi.html">Modeling Investment Banking</a></p>
+							</span>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -392,7 +408,7 @@ layout: layout-tier2.html
 						<div class="col-sm-10 details details-two-thirds">
 							<p><strong>Break</strong></p>
 						</div> <!-- details -->
-						<div class="col-sm-2 details details-colored details-purple">
+						<div class="col-sm-2 details details-colored details-purple double-session-shim">
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
@@ -408,6 +424,10 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/szymon-pobiega.html">Messages on the Outside, Messages on the Inside</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
+							<span class="long-session-part-2-copy">
+								<h4>Continued: <a href="../speakers/thomas-coopman.html">Thomas Coopman</a> &amp; <a href="../speakers/michel-grootjans.html">Michel Grootjans</a></h4>
+								<p class="talk-title"><a href="../speakers/thomas-coopman.html">Playing with Projections</a></p>
+							</span>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">

@@ -1521,6 +1521,9 @@ footer {
     .details {
 			width: 29.25%;
 		}
+		.details-two-thirds {
+			width: 58.5%;
+		}
 		.details-wide {
 			width: 87.75%;
 		}
@@ -1539,6 +1542,18 @@ footer {
 		width: 56%;
 	}
 }
+//styles that apply to structure/content for long form or "double length" talks/sessions
+@include mq(xs) {
+	.double-session-shim {
+		display: none;
+	}
+}
+@include mq(sm) {
+	.long-session-part-2-copy {
+		display: none;
+	}
+}
+
 
 .top-border {
 	@include mq(sm) {
