@@ -13,7 +13,7 @@ layout: layout-speaker.html
         <p class="copy">Marijn teaches people of different backgrounds the skill of doing the things that matter in environments that are critical to performance.</p>
         <p class="copy">Often his work involves organizations, software and customers. He brings these worlds together while teaching you and your colleagues how to do so.</p>
         <p class="copy">Judge him on added value, it's the only metric that matters. You may call him a consultant, coach, trainer and entrepreneur, because that's what he is.</p>
-        <h2 class="speaker-subheader">Two day pre-conference workshop, Tue-Wed, Sept. 17-18</h2>
+        <h2 class="speaker-subheader">2-day pre-conference workshop, Tue-Wed, Sept 17-18</h2>
         <h2 class="speaker-subheader"><a href="../workshops/diy-event-sourcing-tooling.html">DIY Event Sourcing Tooling</a></h2>
         <p class="copy">In this workshop you will learn that with little effort you can improve your workflow by building your own set of tools made specifically for *your* context. Scaling applications, refactoring models, testing the solution, debugging problems, proving what happened, or deploying to production; CQRS and event sourcing make it easier. But all these advantages come at a cost. <a href="../workshops/diy-event-sourcing-tooling.html">Read more...</a></p>
     </div>

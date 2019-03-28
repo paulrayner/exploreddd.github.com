@@ -10,7 +10,7 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Nick Tune</h1>
       <h2 class="speaker-subtitle">Junior Master Strategist</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/ntcoding" target="_blank">@ntcoding</a></p>
-        <p class="copy">Nick is a strategic technical leader at Navico and the co-author of two books: Designing Autonomous Team and Services (O’Reilly) and Patterns, Principles, and Practices of Domain-Driven Design (Wrox).</p>
+        <p class="copy">Nick is a strategic technical leader at Navico and the co-author of two books: "Designing Autonomous Team and Services" (O’Reilly) and "Patterns, Principles, and Practices of Domain-Driven Design" (Wrox).</p>
         <h2 class="speaker-subheader">Hands-On Session</h2>
         <h2 class="speaker-subheader gold">Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue</h2>
         <p class="copy">Co-presented with <a href="gien-verschatse.html">Gien Verschatse</a></p>

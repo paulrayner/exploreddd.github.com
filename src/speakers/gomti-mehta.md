@@ -9,7 +9,7 @@ layout: layout-speaker.html
     <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Gomti Mehta</h1>
       <h2 class="speaker-subtitle">DDD Enthusiast</h2>
-      <p class="copy"><a class="speaker-handle" href="https://twitter.com/gomtimehta1" target="_blank">@gomtimehta1</a></p>
+      <p class="copy"><a class="speaker-handle" href="https://twitter.com/GomtiMehta" target="_blank">@GomtiMehta</a></p>
         <p class="copy">Gomti has been developing software for 10 years. She is in love with domain driven design and principles from agile manifesto. She loves breaking communication barriers. She coaches her team on software development fundamentals, TDD and importance of learning the domain. She is equally passionate about work and workout so if she is not in her office or at home, she is probably in the gym.</p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader gold">Agile and DDD - Two wheels of the same cart</h2>

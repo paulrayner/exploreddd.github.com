@@ -8,7 +8,7 @@ layout: layout-speaker.html
     </div>
     <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Emily Stamey</h1>
-      <h2 class="speaker-subtitle"></h2>
+      <h2 class="speaker-subtitle">Developer, Crafty Person, and Eater of Legacy Spaghetti</h2>
       <p class="copy"><a class="speaker-handle" href="https://twitter.com/elstamey" target="_blank">@elstamey</a></p>
         <p class="copy">Emily is a Software Engineer in North Carolina and works at InQuest, a network security monitoring company. Her experience includes supporting and modernizing legacy applications, DDD, CQRS, and Event Sourcing practices. She is a Director for Women Who Code Raleigh-Durham and a Co-Organizer of Triangle PHP. She enjoys sharing her experiences with others who are maintaining large, legacy applications.</p>
         <h2 class="speaker-subheader">Talk Session</h2>

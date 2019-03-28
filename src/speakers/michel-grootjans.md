@@ -12,8 +12,7 @@ layout: layout-speaker.html
         <p class="copy"><a class="speaker-handle" href="https://twitter.com/michelgrootjans" target="_blank">@michelgrootjans</a></p>
         <p class="copy">Michel Grootjans has been programming since the age of 12, on strange machines like the TI 99-4A, the Atari 2600, Mac128, HP28, Apple II, Siemens PLC's using languages like Basic, Pascal, C, HyperTalk, Assembler, ... along the way.</p>
         <p class="copy">He's worked on applications for government, chemical plants, telecom, HR, insurance companies, ... in Java, C# and Ruby.</p>
- <p class="copy">He focuses on the principles of flow to improve software delivery.</p> 
-        <p class="copy">He is also passionate about skiing, classical dance and music, in general.</p>
+        <p class="copy">He focuses on the principles of flow to improve software delivery.</p>
         <h2 class="speaker-subheader">Hands-On Session</h2>
         <h2 class="speaker-subheader gold">Playing With Projections</h2>
         <p class="copy">Co-presented with <a href="thomas-coopman.html">Thomas Coopman</a></p>

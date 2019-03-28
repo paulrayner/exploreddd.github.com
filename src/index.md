@@ -134,7 +134,7 @@ layout: layout.html
             <a href="speakers/emily-stamey.html"><div class="speaker-img emily-stamey">
             </div></a>
             <h3><a class="speaker-name" href="speakers/emily-stamey.html">Emily Stamey</a></h3>
-            <p class="speaker-details"></p>
+            <p class="speaker-details">Developer, Crafty Person, and Eater of Legacy Spaghetti</p>
         </div>
     </div>
     <div class="row">
@@ -142,7 +142,7 @@ layout: layout.html
             <a href="speakers/gien-verschatse.html"><div class="speaker-img gien-verschatse">
             </div></a>
             <h3><a class="speaker-name" href="speakers/gien-verschatse.html">Gien Verschatse</a></h3>
-            <p class="speaker-details">BlunderingGoddess</p>
+            <p class="speaker-details">BlunderingGoddess<'T></p>
         </div>
         <div class="speaker-container">
             <a href="speakers/nick-tune.html"><div class="speaker-img nick-tune">

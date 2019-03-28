@@ -93,16 +93,16 @@ layout: layout-tier2.html
             <p class="copy">Conclude</p>
             <img src="../img/workshop/Workshop-Matt-Stine-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 10px">
             <h2 class="speaker-subheader">PREREQUISITES</h2>
-            <p class="copy">Basic familiarity with Domain-Driven Design concepts can ease your understanding of the course material. I recommend reading Domain-Driven Design Distilled by Vaughn Vernon to get a quick, 101-level overview.</p>
-            <p class="copy">We will be leveraging multiple technical architecture concepts in this course. Vaughn Vernon provides a great overview of them in Chapter 4 of Implementing Domain-Driven Design.</p>
-            <p class="copy">Understanding Test-Driven Development is key to programming exercises we’ll complete. Test-Driven Development: By Example is a classic treatment of these concepts. You may also find Growing Object-Oriented Software, Guided by Tests a nice contextual treatment of TDD, mock objects, and object-oriented design.</p>
+            <p class="copy">Basic familiarity with Domain-Driven Design concepts can ease your understanding of the course material. I recommend reading "Domain-Driven Design Distilled" by Vaughn Vernon to get a quick, 101-level overview.</p>
+            <p class="copy">We will be leveraging multiple technical architecture concepts in this course. Vaughn Vernon provides a great overview of them in Chapter 4 of "Implementing Domain-Driven Design".</p>
+            <p class="copy">Understanding Test-Driven Development is key to programming exercises we’ll complete. "Test-Driven Development: By Example" is a classic treatment of these concepts. You may also find "Growing Object-Oriented Software, Guided by Tests" a nice contextual treatment of TDD, mock objects, and object-oriented design.</p>
             <p class="copy">We will use the Java programming language, as well as testing libraries such as JUnit, Mockito, and AssertJ. You should be comfortable with Java programming and automated testing libraries. Familiarity with Git and GitHub will be required. If you need to brush up your Git(Hub) skills, this Complete Git and GitHub Masterclass can be helpful.</p>
             <p class="copy">We will leverage Docker to run some services like databases and message queues. If you’re not familiar with Docker, this book can help you get started.</p>
             <p class="copy"><strong>Similarly, are any materials or downloads required in advance of the course?</strong></p>
-            <p class="copy">A GitHub account<br>
-            Course Materials from GitHub (TBD)<br>
-            Your computer should be set up with the following capabilities:</p>
             <ul class="copy-list">
+                <li>A GitHub account</li>
+                <li>Course Materials from GitHub (TBD)</li>
+                <li>Your computer should be set up with the following capabilities:</li>
                 <li>Java 8</li>
                 <li>Maven (recent)</li>
                 <li>Git</li>

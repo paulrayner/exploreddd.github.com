@@ -21,7 +21,7 @@ layout: layout-tier2.html
             <h2 class="speaker-subheader">What You'll Learn</h2>
             <ul class="copy-list">
                 <li>Useful message based architecture patterns that can help to solve temporal coupling and provide other useful benefits such as reliability and scalability especially when interacting with third party web services. </li>
-                <li>How to effectively communicate between bounded contexts using events to establish business processes.  Learn how to use messages and events to help drive the business process rather than the more traditional models bas          ed on data structures and how they help evolve changing business requirements using Domain-Driven design disciplines and the saga messaging pattern.</li>
+                <li>How to effectively communicate between bounded contexts using events to establish business processes.  Learn how to use messages and events to help drive the business process rather than the more traditional models based on data structures and how they help evolve changing business requirements using Domain-Driven design disciplines and the saga messaging pattern.</li>
                 <li>Strategies for dealing with existing codebases.</li>            
             </ul>
             <h2 class="speaker-subheader">Who Should Attend?</h2>
