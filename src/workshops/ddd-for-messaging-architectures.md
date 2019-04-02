@@ -5,15 +5,15 @@ layout: layout-tier2.html
     <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
-            <div class="speaker-container">
-                <a href="../speakers/mathias-verraes.html"><div class="speaker-img mathias-verraes keep-color"></div></a>
-                </div>
+        <div class="speaker-container">
+            <a href="../speakers/mathias-verraes.html"><div class="speaker-img mathias-verraes keep-color"></div></a>
             </div>
+        </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h1 class="section-header">DDD For Messaging Architectures</h1>
             <span class="workshops--speaker-name"><a href="../speakers/mathias-verraes.html">Mathias Verraes</a></span>
             <span class="workshops--duration">3-Day Workshop<br>Mon-Wed, Sept 16-18</span>
-            <!--<a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>-->
+            <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
             <p class="copy" style="margin-top: 25px">The software industry keeps moving towards more message-oriented architectures. These require different ways of reasoning about system design, domain modelling, evolutionary architectures.</p>
             <p class="copy">Domain-Driven Design is exceptionally suitable for this: its fundamental principles are universal to software design, and apply well to all kinds of architectures: focus on domain language and collaborative modelling, Bounded Contexts, and mapping the relationships between Contexts.</p>
             <img src="../img/workshop/Workshop-Mathias-Verraes-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px" />
@@ -43,7 +43,7 @@ layout: layout-tier2.html
                 <p class="copy quote-source">– SÉBASTIEN ABRAS, SENIOR SOFTWARE ARCHITECT, EVS BROADCAST (BELGIUM)</p>
             </blockquote>
             <!--<div class="col-xs-12" align="center">
-                <a class="btn get-ticket-btn" href="https://ti.to/explore-ddd-conference/explore-ddd-2018">GET YOUR TICKET</a>
+                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>
             </div>-->
         </div>
     </div>
