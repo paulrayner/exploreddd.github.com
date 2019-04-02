@@ -247,7 +247,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></h4>
-							<p class="talk-title" style="margin-top: 8px;"><a href="../speakers/alberto-brandolini.html">Eventstorming Hands On</a></p>
+							<p class="talk-title" style="margin-top: 8px;"><a href="../speakers/alberto-brandolini.html">Hands-On EventStorming Race</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">

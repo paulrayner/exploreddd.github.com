@@ -13,7 +13,7 @@ layout: layout-speaker.html
         <p class="copy">Jérémie Chassaing has been practicing Domain-Driven Design and Continuous Improvement for 10 years as an architect at Availpro, a channel manager for independent hotels, to increase scalability and reliability to match its rapid growth. He's an active member of the F# community. You can also see his blog thinkbeforecoding, a blog dedicated to Domain-Driven Design, CQRS and Event Sourcing.</p>
         <h2 class="speaker-subheader">Talk Session</h2>
         <h2 class="speaker-subheader gold">Ukulele Tabs in F#</h2>
-        <p class="copy">A Fun(ctional) music DSL - Domain Specific Languages - to compute Ukulele tabs from chords: Share the chords with Jérémie and he will show you where to place your fingers! With IRL ukulele songs.</p>
+        <p class="copy">A Fun(ctional) music DSL - Domain Specific Language - to compute Ukulele tabs from chords: Share the chords with Jérémie and he will show you where to place your fingers! With IRL ukulele songs.</p>
     </div>
   </div>
 </div>
