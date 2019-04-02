@@ -13,7 +13,7 @@ layout: layout-tier2.html
 				</a>-->
 				<a href="../workshops" class="showSingle btn schedule-btn">
 					<span class="btn-title">Workshops</span>
-					<span class="btn-date">September 17 &dash; 18</span>
+					<span class="btn-date">September 1 &dash; 18</span>
 				</a>
 				<a class="showSingle btn schedule-btn" target="2">
 					<span class="btn-title">Kickoff Evening</span>
@@ -39,7 +39,7 @@ layout: layout-tier2.html
 						<div class="col-sm-10 title-cell-colored-cells">
 							<h2>Main Conference Kickoff Evening</h2>
 							<h3>Wednesday, September 18</h3>
-						</div> <!--col-xs -->
+						</div> <!--col-xs -->f
 				</div> <!-- title-row -->
 				<div class="row time-row">
 					<div class="col-sm-1 time-cell">
@@ -122,7 +122,7 @@ layout: layout-tier2.html
 							<p>9:45 - 10:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-wide">
-							<p><strong>Morning Coffee</strong></p>
+							<p><strong>MORNING COFFEE</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
@@ -230,7 +230,7 @@ layout: layout-tier2.html
 							<p>2:45 - 3:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-two-thirds">
-							<p><strong>Afternoon Break</strong></p>
+							<p><strong>AFTERNOON BREAK</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  colored-cell-row last-colored-row">
@@ -327,7 +327,7 @@ layout: layout-tier2.html
 						<p>9:45 - 10:15</p>
 					</div> <!-- col-xs -->
 					<div class="col-sm-10 details details wide">
-						<h4><strong>Morning Coffee</strong></h4>
+						<h4><strong>MORNING COFFEE</strong></h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
@@ -435,7 +435,7 @@ layout: layout-tier2.html
 							<p>2:45 - 3:15</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-10 details details-two-thirds">
-							<p><strong>Afternoon Break</strong></p>
+							<p><strong>AFTERNOON BREAK</strong></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
