@@ -96,7 +96,7 @@ layout: layout.html
         <div class="speaker-container">
             <a href="speakers/dave-buchanan.html"><div class="speaker-img dave-buchanan">
             </div></a>
-            <h3><a class="speaker-name" href="speakers/dave-somerfield.html">Dave Buchanan</a></h3>
+            <h3><a class="speaker-name" href="speakers/dave-buchanan.html">Dave Buchanan</a></h3>
             <p class="speaker-details">Development Manager and Architect</p>
         </div>
     </div>
