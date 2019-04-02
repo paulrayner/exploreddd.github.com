@@ -269,7 +269,7 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/janelle-klein.html">Anatomy of Communication</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
-							<h4><a href="../speakers/josh-maletz.html">Josh Maletz</a> &amp; James Brayton</h4>
+							<h4><a href="../speakers/josh-maletz.html">Josh Maletz</a> &amp; <a href="../speakers/james-brayton.html">James Brayton</a></h4>
 							<p class="talk-title"><a href="../speakers/josh-maletz.html">Accelerated Learning with Rapid Prototypes and DSLs</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">

@@ -18,6 +18,11 @@ layout: layout-speaker.html
       <p class="copy">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way. In this two day format we’ll experience the different formats, working around real business problems.
       We’ll take into account the different perspectives (including the facilitator) in a process that spans large scale discovery, to leverage collaborative design.
       We’ll experience the how, and we’ll discuss the why. <a href="../workshops/eventstorming-masterclass.html">Read more...</a></p>
+      <h2 class="speaker-subheader">Hands-On Session</h2>
+      <h2 class="speaker-subheader gold">EventStorming Race</h2>
+      <p class="copy">Co-presented with <a href="paul-rayner.html">Paul Rayner</a></p>
+      <p class="copy">Experience the dynamics of a Big Picture EventStorming by modeling a real-world complexity system, team vs team.</p>
+      <p class="copy">It will be messy, loud, chaotic and entertaining. And addictive too!</p>
       <!--<a class="btn" href="https://ti.to/explore-ddd-conference/2017">Buy Tickets</a>-->
     </div>
   </div>

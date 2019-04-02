@@ -24,6 +24,9 @@ layout: layout-tier2.html
                 <li>How to effectively communicate between bounded contexts using events to establish business processes.  Learn how to use messages and events to help drive the business process rather than the more traditional models based on data structures and how they help evolve changing business requirements using Domain-Driven design disciplines and the saga messaging pattern.</li>
                 <li>Strategies for dealing with existing codebases.</li>            
             </ul>
+            <blockquote>
+                <p class="copy">Highly Informative; Excellent Exercises; Great content...Extremely valuable for teams that are designing distributed systems.</p>
+            </blockquote>
             <h2 class="speaker-subheader">Who Should Attend?</h2>
             <p class="copy">Developers, Tech leads or Architects</p>
             <h2 class="speaker-subheader">Prerequisites</h2>

@@ -244,5 +244,17 @@ layout: layout-tier2.html
         <h3><a class="speaker-name" href="adam-tornhill.html">Adam Tornhill</a></h3>
         <p class="speaker-details">Technical Debt Detective</p>
     </div>
+    <div class="speaker-container">
+        <a href="paul-rayner.html"><div class="speaker-img paul-rayner">
+        </div></a>
+        <h3><a class="speaker-name" href="paul-rayner.html">Paul Rayner</a></h3>
+        <p class="speaker-details">Domain Remodeler</p>
+    </div>
+    <div class="speaker-container">
+        <a href="james-brayton.html"><div class="speaker-img james-brayton">
+        </div></a>
+        <h3><a class="speaker-name" href="james-brayton.html">James Brayton</a></h3>
+        <p class="speaker-details">Code Incompletist</p>
+    </div>
   </div>
 </div>

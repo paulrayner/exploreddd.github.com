@@ -987,6 +987,18 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.paul-rayner {
+		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.james-brayton {
+		background-image: url('../img/speakers/sprite-james-brayton.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.keep-color { 
 		background-position: 0; //stop hover since link was removed for co-workshop page
 	}
