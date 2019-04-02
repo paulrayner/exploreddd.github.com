@@ -448,7 +448,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/mauro-servienti.html">Mauro Servienti</a></h4>
-							<p class="talk-title"><a href="../speakers/mauro-servienti.html">Welcome to the (State) Machie</a></p>
+							<p class="talk-title"><a href="../speakers/mauro-servienti.html">Welcome to the (State) Machine</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4>Open Space</h4>							
