@@ -190,7 +190,7 @@ layout: layout-tier2.html
         <a href="nataliya-remez.html"><div class="speaker-img nataliya-remez">
         </div></a>
         <h3><a class="speaker-name" href="nataliya-remez.html">Nataliya Remez</a></h3>
-        <p class="speaker-details">Engineering Excellence Geek</p>
+        <p class="speaker-details">Engineering Excellence Evangelist</p>
     </div>
     <div class="speaker-container">
       <a href="sara-pellegrini.html"><div class="speaker-img sara-pellegrini">
