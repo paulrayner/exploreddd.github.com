@@ -148,7 +148,6 @@ s
 
 .nav-logo {
 	background-image: url('../img/ddd-logo.svg');
-	//display: inline-block;
 	margin: 3px auto;
 	height: 46px;
 	width: 160px;
@@ -177,7 +176,6 @@ s
 	padding: 0;
 	@include mq(sm) {
 		display: inline-block;
-		//padding: 0 0 0 25px;
 	}
 	@include mq(md) { 
 		padding-left: 78px;
@@ -218,9 +216,6 @@ s
 }
 
 .nav-list-item:not(:first-child) {
-  .nav-submenu {
-    //margin-left: -30px;
-  }
 	@include mq(sm){
 		padding-left: 12px;
 	}
@@ -232,7 +227,6 @@ s
 	color: $brand-nav-button-text;
 	display: block;
 	line-height: 30px;
-	//margin: -1px -15px;
 	padding: 0 10px;
 	text-align: center;
 	text-transform: uppercase;
@@ -279,13 +273,7 @@ s
 		max-height: 100px;
 	}
 }
-.navbar .container {
 
-}
-.nav-container {
-	
-	
-}
 .navbar-collapse {
 	text-align: center;
 	padding-bottom: 10px;
@@ -414,7 +402,6 @@ s
 		width: 500px;
 	}
 	h1 {
-		//color: #000;
 		a {
 			font-size: 40px;
 			color: #0082CD;
@@ -446,7 +433,6 @@ s
 	@include mq(sm){
 
 	}
-
 	.arrow {
 		display: inline-block;
 		opacity: 0.4;
@@ -491,7 +477,6 @@ s
 	color: $brand-subheader;
 	font-family: NunitoSansBold, sans-serif;
 	font-size: 18px;
-	//margin: 0;
 	text-align: center;
 	text-transform: uppercase;
 	transition: color 0.2s;
@@ -509,12 +494,6 @@ s
 	margin: 0 auto 23px;
 	max-width: 700px;
 	text-align: center;
-
-	a {
-		//color: #fdc33c;
-		//text-decoration: none;
-		//font-family: 'NunitoSansSemiBold' !important;
-	}
 }
 figcaption a {
 	font-family: 'NunitoSansSemiBold' !important;
@@ -529,7 +508,6 @@ figcaption a {
   padding-left: 25px;
 	max-width: 700px;
 	text-align: left;
-
 	li {
 		margin-bottom: 10px;
 		ul {
@@ -582,7 +560,6 @@ figure {
 		height: auto;
 		z-index: 0;
 		@include mq(xs){
-			//maybe hide the video here
 			display: none;
 		}
 	}
@@ -655,7 +632,6 @@ figure {
 
 			a {
 				color: $brand-reverse-link;
-				//padding-right: 10px;
 				&:hover {
 					color: $brand-reverse-link-hover;
 					text-decoration: none;
@@ -1032,13 +1008,6 @@ figure {
 .section.venue {
   padding-left: 0;
   padding-right: 0;
-
-  @include mq(sm) {
-    .venue--page-header {
-      //make the header image a bg of a div and make it center on smaller widths later?
-    }
-  }
-
 	.section-header {
 		margin-bottom: 18px;
 	}
@@ -1088,7 +1057,6 @@ footer {
 	padding-bottom: 30px;
 	text-align: center;
 	.container {
-		//background-image: url('../img/footer-maze.png');
 		background-repeat: no-repeat;
 		background-position: bottom center;
 		background-size: contain;
@@ -1158,7 +1126,6 @@ footer {
 
 	.img-container {
 		display: block;
-		vertical-align: top;
 		@include mq(sm) {
 			display: inline-block;
 		}
@@ -1249,14 +1216,12 @@ footer {
 	text-transform: uppercase;
 }
 .speaker-subtitle {
-	//color: $brand-subheader;
 	font-family: NunitoSansLight, sans-serif;
 	font-size: 18px;
 	margin: 0 0 2px 0;
 	text-align: left;
 }
 .speaker-handle {
-	//color: $brand-body-link;
 	font-family: NunitoSans, sans-serif;
 	font-size: 18px;
 	margin: 0;
@@ -1434,14 +1399,6 @@ footer {
 		text-align: center;
 		margin-top: 10px;
 	}
-	@include mq(sm) {
-		p {}
-		/*p {
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
-		}*/
-	}
 }
 
 .details {
@@ -1453,7 +1410,6 @@ footer {
   }
   a {
     color: #c49524;
-    //text-transform: uppercase;
     &:hover {
       color: #fdc33c;
       text-decoration: none;
@@ -1864,13 +1820,11 @@ strong {
 	text-align: center;
 	.btn {
 		display: inline-block;
-		//margin-top: 25px;
 		padding: 15px;
 	}
 }
 .get-ticket-btn { //same style as reserve button on venue page above.
 		display: inline-block;
-		//margin-top: 25px;
 		margin-bottom: 0;
 		padding: 15px;
 }
@@ -1883,7 +1837,6 @@ strong {
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid $brand-blue;
-  //margin: 1.5em 10px;
   padding: 15px;
 	quotes: "\201C""\201D""\2018""\2019";
 	text-align: left;
@@ -1903,7 +1856,6 @@ blockquote p:first-child:after {
 		font-size: 4em;
 		line-height: 0.1em;
 		margin-top: 0.6em;
-		//vertical-align: -0.4em;
 }
 blockquote p:first-child {
 	margin-bottom: 0;
