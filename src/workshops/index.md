@@ -3,10 +3,10 @@ layout: layout-tier2.html
 ---
 <div class="container section workshops">
 	<h1 class="section-header">Workshops</h1>
-    <!--<p class="copy" style="text-align: center;"><strong>Registration will be on Monday from 8am - 9am and Tuesday from 7am - 9am</strong></p>
-    <p class="copy" style="text-align: center;"><strong>Workshops will run from 9am - 5pm</strong></p>-->
-	<p class="copy">Want to maximize your learning by really digging into a topic and getting hands-on experience with an expert instructor? We will be offering full-day (9am-5pm) pre-conference workshops prior to the Wednesday evening conference kickoff on Monday, Tuesday and Wednesday, September 16, 17 & 18, 2019.</p>
-    <p class="copy"></p>
+    <!--<p style="text-align: center;"><strong>Registration will be on Monday from 8am - 9am and Tuesday from 7am - 9am</strong></p>
+    <p style="text-align: center;"><strong>Workshops will run from 9am - 5pm</strong></p>-->
+	<p>Want to maximize your learning by really digging into a topic and getting hands-on experience with an expert instructor? We will be offering full-day (9am-5pm) pre-conference workshops prior to the Wednesday evening conference kickoff on Monday, Tuesday and Wednesday, September 16, 17 & 18, 2019.</p>
+    <p></p>
     <!--<div class="row">
         <div class="col-xs-12" align="center">
             <a class="btn" style="margin-bottom: 0;" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>
@@ -21,11 +21,11 @@ layout: layout-tier2.html
             </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
         <h2><a href="eventstorming-masterclass.html">EventStorming Masterclass</a></h2>
-        <p class="copy">
+        <p>
             <span class="workshops--speaker-name">Alberto Brandolini</span>
             <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
         </p>
-        <p class="copy">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way. In this two day format we’ll experience the different formats, working around real business problems. <a href="eventstorming-masterclass.html">Read more...</a></p>
+        <p>EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way. In this two day format we’ll experience the different formats, working around real business problems. <a href="eventstorming-masterclass.html">Read more...</a></p>
         </div>
     </div>
     <!-- begin workshop element -->
@@ -37,11 +37,11 @@ layout: layout-tier2.html
             </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
         <h2><a href="ddd-for-messaging-architectures.html">DDD For Messaging Architectures</a></h2>
-        <p class="copy">
+        <p>
             <span class="workshops--speaker-name">Mathias Verraes</span>
             <span class="workshops--duration">3-Day Workshop<br>Mon-Wed, Sept 16-18</span>
         </p>
-        <p class="copy">The software industry keeps moving towards more message-oriented architectures. These require different ways of reasoning about system design, domain modelling, evolutionary architectures. Domain-Driven Design is exceptionally suitable for <a href="ddd-for-messaging-architectures.html">Read more...</a></p>
+        <p>The software industry keeps moving towards more message-oriented architectures. These require different ways of reasoning about system design, domain modelling, evolutionary architectures. Domain-Driven Design is exceptionally suitable for <a href="ddd-for-messaging-architectures.html">Read more...</a></p>
         </div>
     </div>
     <!-- begin workshop element -->
@@ -53,11 +53,11 @@ layout: layout-tier2.html
           </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h2><a href="strategic-ddd.html">Strategic DDD</a></h2>
-            <p class="copy">
+            <p>
                 <span class="workshops--speaker-name">Eric Evans</span>
                 <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             </p>
-            <p class="copy">Some design decisions have an impact on the trajectory of the whole project. Modeling is most needed in complex circumstances, yet the typical dynamics of large projects too often derail it or disconnect it from the real design. This course delves into principles <a href="strategic-ddd.html">Read more...</a></p>
+            <p>Some design decisions have an impact on the trajectory of the whole project. Modeling is most needed in complex circumstances, yet the typical dynamics of large projects too often derail it or disconnect it from the real design. This course delves into principles <a href="strategic-ddd.html">Read more...</a></p>
         </div>
     </div>
     <!-- begin workshop element -->
@@ -69,11 +69,11 @@ layout: layout-tier2.html
           </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h2><a href="product-discovery-product-framing-and-product-delivery.html">Product Discovery, Product Framing and Product Delivery</a></h2>
-            <p class="copy">
+            <p>
                 <span class="workshops--speaker-name">Dion Stewart</span>
                 <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             </p>
-            <p class="copy">This workshop immerses the students in the practices of Product Discovery, Product Framing, and Product Delivery. The content is based on fifteen years of practice with roots in agile and lean methods and Domain-Driven Design. It also covers modern <a href="product-discovery-product-framing-and-product-delivery.html">Read more...</a></p>
+            <p>This workshop immerses the students in the practices of Product Discovery, Product Framing, and Product Delivery. The content is based on fifteen years of practice with roots in agile and lean methods and Domain-Driven Design. It also covers modern <a href="product-discovery-product-framing-and-product-delivery.html">Read more...</a></p>
         </div>
     </div>
     <!-- begin workshop element -->
@@ -85,11 +85,11 @@ layout: layout-tier2.html
           </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h2><a href="domain-modeling-made-functional.html">Domain Modeling Made Functional</a></h2>
-            <p class="copy">
+            <p>
                 <span class="workshops--speaker-name">Scott Wlaschin</span>
                 <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             </p>
-            <p class="copy">Functional programming and domain-driven design might not seem to be a good match, but in fact functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why. <a href="domain-modeling-made-functional.html">Read more...</a></p>
+            <p>Functional programming and domain-driven design might not seem to be a good match, but in fact functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why. <a href="domain-modeling-made-functional.html">Read more...</a></p>
         </div>
     </div>
     <!-- begin workshop element -->
@@ -101,11 +101,11 @@ layout: layout-tier2.html
           </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h2><a href="domain-driven-design-and-event-driven-microservices.html">Domain-Driven Design and Event-Driven Microservices</a></h2>
-            <p class="copy">
+            <p>
                 <span class="workshops--speaker-name">Matt Stine</span>
                 <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             </p>
-            <p class="copy">New architectural paradigms like microservices and evolutionary architecture, as well as the challenges associated with managing data and transactional contexts in distributed systems, have generated a renewed interest in disciplined software design and <a href="domain-driven-design-and-event-driven-microservices.html">Read more...</a></p>
+            <p>New architectural paradigms like microservices and evolutionary architecture, as well as the challenges associated with managing data and transactional contexts in distributed systems, have generated a renewed interest in disciplined software design and <a href="domain-driven-design-and-event-driven-microservices.html">Read more...</a></p>
         </div>
     </div>
     <!-- begin workshop element -->
@@ -117,11 +117,11 @@ layout: layout-tier2.html
           </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h2><a href="eventstorming-and-example-mapping-from-problem-space-to-solution-space.html">Eventstorming and Example Mapping From Problem Space to Solution Space</a></h2>
-            <p class="copy">
+            <p>
                 <span class="workshops--speaker-name">Bruno Boucard &amp; Thomas Pierrain</span>
                 <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             </p>
-            <p class="copy">Creating multiple models for the same problem is one of the more important lessons that Domain Driven Design teaches us. It is a lot cheaper to quickly iterate over them and throw away less useful prototypes before we even <a href="eventstorming-and-example-mapping-from-problem-space-to-solution-space.html">Read more...</a></p>
+            <p>Creating multiple models for the same problem is one of the more important lessons that Domain Driven Design teaches us. It is a lot cheaper to quickly iterate over them and throw away less useful prototypes before we even <a href="eventstorming-and-example-mapping-from-problem-space-to-solution-space.html">Read more...</a></p>
         </div>
     </div>
     <!-- begin workshop element -->
@@ -133,11 +133,11 @@ layout: layout-tier2.html
           </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h2><a href="diy-event-sourcing-tooling.html">DIY Event Sourcing Tooling</a></h2>
-            <p class="copy">
+            <p>
                 <span class="workshops--speaker-name">Marijn Huizendveld</span>
                 <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             </p>
-            <p class="copy">In this workshop you will learn that with little effort you can improve your workflow by building your own set of tools made specifically for *your* context. Scaling applications, refactoring models, testing the solution, debugging problems, proving what happened, or deploying to production; CQRS and event sourcing make it easier. <a href="diy-event-sourcing-tooling.html">Read more...</a></p>
+            <p>In this workshop you will learn that with little effort you can improve your workflow by building your own set of tools made specifically for *your* context. Scaling applications, refactoring models, testing the solution, debugging problems, proving what happened, or deploying to production; CQRS and event sourcing make it easier. <a href="diy-event-sourcing-tooling.html">Read more...</a></p>
         </div>
     </div>
     <!-- begin workshop element -->
@@ -149,11 +149,11 @@ layout: layout-tier2.html
           </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h2><a href="code-as-a-crime-scene.html">Code as a Crime Scene: Fix Technical Debt With Behavioral Code Analysis</a></h2>
-            <p class="copy">
+            <p>
                 <span class="workshops--speaker-name">Adam Tornhill</span>
                 <span class="workshops--duration">1-Day Workshop<br>Wed, Sept 18</span>
             </p>
-            <p class="copy">In this workshop you learn novel analysis techniques that support both technical and organizational decisions around your codebase. The techniques use data from the most underused informational source that we have in our industry: our version-control system. Combined with metaphors from forensic psychology <a href="code-as-a-crime-scene.html">Read more...</a></p>
+            <p>In this workshop you learn novel analysis techniques that support both technical and organizational decisions around your codebase. The techniques use data from the most underused informational source that we have in our industry: our version-control system. Combined with metaphors from forensic psychology <a href="code-as-a-crime-scene.html">Read more...</a></p>
         </div>
     </div>
     <!-- begin workshop element -->
@@ -165,11 +165,11 @@ layout: layout-tier2.html
           </div>
         <div class="col-xs-12 col-sm-10 workshop-list">
             <h2><a href="practical-ddd.html">Practical DDD: Make Your Software Systems Reliable Using NServiceBus</a></h2>
-            <p class="copy">
+            <p>
                 <span class="workshops--speaker-name">Indu Alagarsamy</span>
                 <span class="workshops--duration">1-Day Workshop<br>Wed, Sept 18</span>
             </p>
-            <p class="copy">Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled. <a href="practical-ddd.html">Read more...</a></p> 
+            <p>Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled. <a href="practical-ddd.html">Read more...</a></p> 
         </div>
     </div>
 </div> <!-- container -->
