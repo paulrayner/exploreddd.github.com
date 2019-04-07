@@ -154,7 +154,6 @@ s
 		text-align: center;
 	}
 	@include mq(md) {
-		font-size: 18px;
 		line-height: 75px;
 	}
 	@include mq(lg) {
@@ -196,11 +195,9 @@ s
 		float: right;
 	}
 	@include mq(md) {
-		font-size: 18px;
 		line-height: 75px;
 	}
 	@include mq(lg) {
-		font-size: 18px;
 		line-height: 100px;
 	}
 
@@ -428,7 +425,6 @@ s
 .section-subheader {
 	color: $brand-subheader;
 	font-family: NunitoSansBold, sans-serif;
-	font-size: 18px;
 	text-align: center;
 	text-transform: uppercase;
 	transition: color 0.2s;
@@ -439,8 +435,6 @@ s
 
 .copy, blockquote {
 	display: block;
-	font-size: 18px;
-	line-height: 1.22em;
 	margin: 0 auto 23px;
 	max-width: 700px;
 	text-align: center;
@@ -471,8 +465,6 @@ figure {
 	text-align: center;
 	margin-bottom: 30px;
  figcaption {
-	font-size: 18px;
-	line-height: 1.22em;
 	margin: 0 auto 0px;
 	text-align: left;
  }
@@ -573,7 +565,6 @@ figure {
 
 		.conf-contact, .conf-last-year {
 			@extend .conf-copy;
-			font-size: 18px;
 			padding: 13px 0 15px;
 
 			a {
@@ -1010,7 +1001,6 @@ footer {
 	.section-header {
 		color: $brand-white;
 		padding-bottom: 15px;
-		font-size: 18px;
 	}
 
 	.copyright {
@@ -1062,7 +1052,6 @@ footer {
 .page-subheader {
 	color: $brand-body;
 	font-family: NunitoSansBold, sans-serif;
-	font-size: 18px;
 	margin: 0 0 4px 0;
 }
 
@@ -1161,19 +1150,16 @@ footer {
 	text-transform: uppercase;
 }
 .speaker-subtitle {
-	font-size: 18px;
 	margin: 0 0 2px 0;
 	text-align: left;
 }
 .speaker-handle {
 	font-family: NunitoSans, sans-serif;
-	font-size: 18px;
 	margin: 0;
 	text-align: left;
 }
 .speaker-subheader {
 	font-family: NunitoSansBold, sans-serif;
-	font-size: 18px;
 	color: $brand-blue;
 	margin: 25px 0 25px 0;
 }
@@ -1347,7 +1333,6 @@ footer {
 
 .details {
   p {
-    font-size: 18px;
     em {
       font-size: 16px;
     }
@@ -1375,7 +1360,6 @@ footer {
     font-family: NunitoSansBold, sans-serif;
   }
   h5 {
-    font-size: 18px;
     font-family: NunitoSansSemiBold, sans-serif;
   }
   a {
@@ -1402,7 +1386,6 @@ footer {
   background-color: #008da7;
 }
 .talk-title {
-  font-size: 18px;
   em {
     font-size: 16px;
   }
@@ -1508,7 +1491,6 @@ footer {
 // CFP
 .cfp-cta {
   font-family: NunitoSansExtraBold, sans-serif;
-  font-size: 18px;
   margin: 0 0 4px 0;
   	a {
   		color: #fdc33c;
@@ -1546,7 +1528,6 @@ footer {
     .btn-title {
       color: #fdc33c;
       font-family: NunitoSansBold, sans-serif;
-      font-size: 18px;
     }
     .btn-date {
       font-size: 16px;
@@ -1583,7 +1564,6 @@ footer {
   input[type=email] {
 	 background-color: $brand-background;
    border: 1px solid $brand-body;
-   font-size: 18px;
    padding: 15px;
    margin-right: 10px;
    @include mq(xs) {
@@ -1602,7 +1582,6 @@ footer {
     font-family: NunitoSansSemiBold, sans-serif;
     background-color: $brand-blue;
     border: 0;
-    font-size: 18px;
     padding: 15px;
     &:hover {
       color: $brand-button-link-hover;
@@ -1647,9 +1626,6 @@ strong {
 	background-color: #fff;
 	padding: 30px 0 30px 0;
 	text-align: center;
-	.section-header {
-		font-size: 18px;
-	}
 	.item {
 		@include mq(xs) {
 			display: block;
