@@ -1,4 +1,5 @@
 @import 'typography';
+
 //variables
 
 $brand-blue: #0082c8;
@@ -442,9 +443,7 @@ s
 }
 
 .copy, blockquote {
-	color: $brand-body;
 	display: block;
-	font-family: NunitoSansLight, sans-serif;
 	font-size: 18px;
 	line-height: 1.22em;
 	margin: 0 auto 23px;
@@ -477,7 +476,6 @@ figure {
 	text-align: center;
 	margin-bottom: 30px;
  figcaption {
-	font-family: NunitoSansLight, sans-serif;
 	font-size: 18px;
 	line-height: 1.22em;
 	margin: 0 auto 0px;
@@ -941,7 +939,6 @@ figure {
 
 .speaker-details {
 	color: $brand-body;
-	font-family: NunitoSansLight, sans-serif;
 	font-size: 16px;
 }
 
@@ -1169,7 +1166,6 @@ footer {
 	text-transform: uppercase;
 }
 .speaker-subtitle {
-	font-family: NunitoSansLight, sans-serif;
 	font-size: 18px;
 	margin: 0 0 2px 0;
 	text-align: left;
