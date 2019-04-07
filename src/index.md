@@ -32,18 +32,18 @@ layout: layout.html
 <div class="container home section about">
     <div class="row">
         <h1 class="section-header">WHY YOU SHOULD ATTEND</h1>
-        <ul class="copy-list">
+        <ul>
             <li>Explore DDD brings together an international community of practicing software architects, industry experts, developers, and technical leaders.</li>
-           <li>World-class talks and hands-on sessions in software modeling and design from pioneers, practitioners and innovators.</li>
-           <li>Optimize your conference experience with expert training by also attending a pre-conference workshop.</li>
+            <li>World-class talks and hands-on sessions in software modeling and design from pioneers, practitioners and innovators.</li>
+            <li>Optimize your conference experience with expert training by also attending a pre-conference workshop.</li>
         </ul>
-        <p class="copy">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a> Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
-        <p class="copy">View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
+        <p>Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a> Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
+        <p>View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
     </div>
 </div>
 <div class="container home section code-of-conduct">
     <div class="row">
-        <p class="copy">Explore DDD is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). Read the full Code of Conduct on the <a href=“about”>about page</a>.</p>
+        <p>Explore DDD is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). Read the full Code of Conduct on the <a href=“about”>about page</a>.</p>
     </div>
 </div>
 <div class="container section speakers">
