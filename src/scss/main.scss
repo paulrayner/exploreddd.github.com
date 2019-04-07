@@ -2,6 +2,8 @@
 
 //variables
 
+$body-size: 18px;
+
 $brand-blue: #0082c8;
 $brand-white: #fff;
 $brand-body: #000;
@@ -56,7 +58,7 @@ html, body {
 body {
 	background-color: $brand-background;
 	font-family: NunitoSansLight, sans-serif;
-	font-size: 18px;
+	font-size: $body-size;
 	line-height: 1.22em;
 	color: $brand-body; 
 	overflow-x: hidden;
@@ -154,6 +156,7 @@ s
 		text-align: center;
 	}
 	@include mq(md) {
+		font-size: $body-size; 
 		line-height: 75px;
 	}
 	@include mq(lg) {
@@ -195,6 +198,7 @@ s
 		float: right;
 	}
 	@include mq(md) {
+		font-size: $body-size;
 		line-height: 75px;
 	}
 	@include mq(lg) {
