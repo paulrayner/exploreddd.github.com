@@ -1,3 +1,4 @@
+@import 'typography';
 //variables
 
 $brand-blue: #0082c8;
@@ -38,52 +39,6 @@ $brand-background: #e5f2f9;
   }
 }
 
-@font-face {
-	font-family: 'NunitoSansSemiBold';
-	src: url('fonts/NunitoSans-SemiBold.eot');
-	src: url('fonts/NunitoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/NunitoSans-SemiBold.woff2') format('woff2'),
-		url('fonts/NunitoSans-SemiBold.woff') format('woff');
-	font-weight: 600;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'NunitoSansLight';
-	src: url('fonts/NunitoSans-Light.eot');
-	src: url('fonts/NunitoSans-Light.eot?#iefix') format('embedded-opentype'),
-		url('fonts/NunitoSans-Light.woff2') format('woff2'),
-		url('fonts/NunitoSans-Light.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'NunitoSansExtraBold';
-	src: url('fonts/NunitoSans-ExtraBold.eot');
-	src: url('fonts/NunitoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/NunitoSans-ExtraBold.woff2') format('woff2'),
-		url('fonts/NunitoSans-ExtraBold.woff') format('woff');
-	font-weight: 800;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'NunitoSans';
-	src: url('fonts/NunitoSans-Regular.eot');
-	src: url('fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
-		url('fonts/NunitoSans-Regular.woff2') format('woff2'),
-		url('fonts/NunitoSans-Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'NunitoSansBold';
-	src: url('fonts/NunitoSans-Bold.eot');
-	src: url('fonts/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/NunitoSans-Bold.woff2') format('woff2'),
-		url('fonts/NunitoSans-Bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
-}
-
 @mixin ir() {
 	background-position: top left;
 	background-repeat: no-repeat;
@@ -95,12 +50,13 @@ $brand-background: #e5f2f9;
 
 html, body {
 	width: 100%;
-  font-family: NunitoSansLight, sans-serif;
 }
 
 body {
 	background-color: $brand-background;
-	font-family: NunitoSansSemiBold, sans-serif;
+	font-family: NunitoSansLight, sans-serif;
+	font-size: 18px;
+	line-height: 1.22em;
 	color: $brand-body; 
 	overflow-x: hidden;
 	padding-top: 51px;
@@ -499,11 +455,7 @@ figcaption a {
 	font-family: 'NunitoSansSemiBold' !important;
 }
 .copy-list {
-	color: $brand-body;
 	display: block;
-	font-family: NunitoSansLight, sans-serif;
-	font-size: 18px;
-	line-height: 1.22em;
 	margin: 0 auto 23px;
   padding-left: 25px;
 	max-width: 700px;
