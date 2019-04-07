@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<p><div class="container section workshop-page">
+<div class="container section workshop-page">
     <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
@@ -20,7 +20,7 @@ layout: layout-tier2.html
             <img src="../img/workshop/Workshop-Matt-Stine-3.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 10px">
             <h2 class="speaker-subheader">What You'll Learn and How You Can Apply It</h2>
             <p class="copy">By the end of this two-day training course, attendees will understand:</p>
-            <ul class="copy-list">
+            <ul>
                 <li>Why DDD is an effective tool for designing evolutionary architectures.</li>
                 <li>The basic concepts of DDD (DDD 101).</li>
                 <li>The importance of the Ubiquitous Language.</li>
@@ -29,7 +29,7 @@ layout: layout-tier2.html
                 <li>The tradeoffs that must be negotiated with each major evolutionary change to an architecture.</li>
             </ul>
             <p class="copy">And they’ll be able to:</p>
-            <ul class="copy-list">
+            <ul>
                 <li>Leverage Event Storming to arrive at a candidate domain model.</li>
                 <li>Translate an Event Storm into User Stories.</li>
                 <li>Effectively apply DDD patterns such as Bounded Context, Aggregate, and Domain Event to design modules that can be evolved into event-driven microservices.</li>
@@ -99,7 +99,7 @@ layout: layout-tier2.html
             <p class="copy">We will use the Java programming language, as well as testing libraries such as JUnit, Mockito, and AssertJ. You should be comfortable with Java programming and automated testing libraries. Familiarity with Git and GitHub will be required. If you need to brush up your Git(Hub) skills, this Complete Git and GitHub Masterclass can be helpful.</p>
             <p class="copy">We will leverage Docker to run some services like databases and message queues. If you’re not familiar with Docker, this book can help you get started.</p>
             <p class="copy"><strong>Similarly, are any materials or downloads required in advance of the course?</strong></p>
-            <ul class="copy-list">
+            <ul>
                 <li>A GitHub account</li>
                 <li>Course Materials from GitHub (TBD)</li>
                 <li>Your computer should be set up with the following capabilities:</li>
@@ -116,4 +116,4 @@ layout: layout-tier2.html
             </div>
         </div>
     </div>
-</div> <!-- container --></p>
+</div> <!-- container -->

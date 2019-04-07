@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<p><div class="container section workshop-page">
+<div class="container section workshop-page">
     <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
@@ -15,9 +15,9 @@ layout: layout-tier2.html
             <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
             <div class="spacer"></div>
-            <p class="copy">This workshop immerses the students in the practices of Product Discovery, Product Framing, and Product Delivery. The content is based on fifteen years of practice with roots in agile and lean methods and Domain-Driven Design. It also covers modern practices in the areas of product discovery, design sprints, and OKRs (outcomes and key results).</p>
+            <p>This workshop immerses the students in the practices of Product Discovery, Product Framing, and Product Delivery. The content is based on fifteen years of practice with roots in agile and lean methods and Domain-Driven Design. It also covers modern practices in the areas of product discovery, design sprints, and OKRs (outcomes and key results).</p>
             <h2 class="speaker-subheader">What You'll Learn</h2>
-            <ul class="copy-list">
+            <ul>
                 <li>Overview of the Product Discovery, Framing, and Delivery Value Stream</li>
                 <li>Product Readiness: Defining Products and Services and Setting the Context for Product Teams</li>
                 <li>Product Discovery
@@ -37,11 +37,11 @@ layout: layout-tier2.html
                 <li>Blending Product Discovery and Product Delivery</li>
             </ul>
             <h2 class="speaker-subheader">PREREQUISITES</h2>
-            <p class="copy">None.</p>
+            <p>None.</p>
             <!--<div class="col-xs-12" align="center">
                 <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>
             </div>-->
             </div>
         </div>
     </div>
-</div> <!-- container --></p>
+</div> <!-- container -->
