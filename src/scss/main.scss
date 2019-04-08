@@ -153,6 +153,15 @@ p, ul, ol, blockquote, h1, h2, h3, .video-responsive {
 	margin-bottom: $standard-margin;
 }
 
+ul {
+	li {
+		margin-bottom: 10px;
+	}
+	li:last-child {
+		margin-bottom: 0; 
+	}
+}
+
 // Navigation
 
 nav {
@@ -389,6 +398,10 @@ s
 	}
 }
 
+.speakers {
+	text-align: center;
+}
+
 .hyatt-copy, .register-copy, .alteryx-copy {
 	display: inline-block;
 	margin-top: 85px;
@@ -517,10 +530,6 @@ figcaption a {
 	}
 }
 
-.copy:last-child {
-	margin-bottom: 0;
-}
-
 /* sponsor page content formatting */
 figure {
 	text-align: center;
@@ -624,7 +633,7 @@ figure {
 			} 
 		}
 
-		.conf-contact, .conf-last-year {
+		.conf-contact {
 			@extend .conf-copy;
 			padding: 13px 0 15px;
 
@@ -635,9 +644,6 @@ figure {
 					text-decoration: none;
 				}
 			}
-		}
-		.conf-last-year {
-			padding-top: 0;
 		}
 	}
 }
@@ -1191,12 +1197,7 @@ footer {
 }
 
 .speaker-header {
-	color: $brand-blue;
-	font-family: NunitoSansBold, sans-serif;
-	font-size: 24px;
 	margin: 0 0 2px 0;
-	text-align: left;
-	text-transform: uppercase;
 }
 .speaker-subtitle {
 	margin: 0 0 2px 0;

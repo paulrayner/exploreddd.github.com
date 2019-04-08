@@ -8,13 +8,13 @@ layout: layout-speaker.html
     </div> 
     <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Gien Verschatse</h1>
-      <h2 class="speaker-subtitle">BlunderingGoddess<'T></h2>
-      <p><a class="speaker-handle" href="https://twitter.com/selketjah" target="_blank">@selketjah</a></p>
+        <span class="speaker-subtitle">BlunderingGoddess<'T></span>
+        <p><a class="speaker-handle" href="https://twitter.com/selketjah" target="_blank">@selketjah</a></p>
         <p>Gien is a software developer with 9 years of experience, mainly in a .NET environment, who likes to start her day with coffee.</p>
         <p>She is a strong believer of continuously learning by deliberate practice and knowledge sharing, which is why she takes part in the organization of two Belgian communities. She is a member of the F# Foundation Board, where she is responsible for running the Mentorship Program and she helps out with the SoCraTes BE unconference and Open FSharp.When she is not busy with</p>
         <p>When she is not busy with all of the above, you will find her on the sofa, reading a book (yes, with coffee).</p>
-        <h2 class="speaker-subheader">Hands-On Session</h2>
-        <h2 class="speaker-subheader gold">Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue</h2>
+        <h2>Hands-On Session</h2>
+        <h2 class="gold">Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue</h2>
         <p>Co-presented with <a href="nick-tune.html">Nick Tune</a></p>
         <p>Coffee or tea? One sugar or two? Should we use Event Sourcing or does CRUD seem good to you?</p>
         <p>Our brains are designed for making quick decisions, but quick does not always mean good… We make thousands of decisions each day but never stop to wonder: how did we come to this conclusion? Were there more choices than we realised? Did we focus on the right thing? Did we pick the right option? Are there other methods we can use to reach a better outcome?

@@ -8,11 +8,11 @@ layout: layout-speaker.html
     </div>
     <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Wei Wang</h1>
-        <h2 class="speaker-subtitle">DDDChina Co-founder</h2>
+        <span class="speaker-subtitle">DDDChina Co-founder</span>
         <p><a class="speaker-handle" href="https://twitter.com/weiwangdavid" target="_blank">@weiwangdavid</a></p>
         <p>Wei is an experienced organizational transition coach in ThoughtWorks, has rich experiences not only including agile practices and DDD adoption, but also crossing product development process, organization transformation, and setting up the self-organized team. In 2017, Wei and his colleagues created the DDDChina conference and community, whose vision is to introduce DDD concepts and practices into the Chinese tech community.</p>
-        <h2 class="speaker-subheader">Talk Session</h2>
-        <h2 class="speaker-subheader gold">DDD in China, with large scale legacy systems</h2>
+        <h2>Talk Session</h2>
+        <h2 class="gold">DDD in China, with large scale legacy systems</h2>
         <p>With the digital transformation has been started in a lot of Chinese enterprises, organizations have to aim their traditional legacy core systems, such as core banking systems, core insurancing systems, core retail systems and so on, to transform towards microservices or platform-like architecture. DDD has been valued as a modern architecture design methodology in this journey in many enterprises.</p>
         <p>In this session, Wei will introduce a case study from China of transforming a legacy system, with 5 millions lines of Java codes and 1 million lines of PL/SQL codes, towards DDD and clean architecture. The team is not only focusing on refactoring the existing codes, but taking different approaches to distill domain models and ubiquitous languages.</p>
     </div>

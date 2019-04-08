@@ -8,11 +8,11 @@ layout: layout-speaker.html
     </div>
     <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Jérémie Chassaing</h1>
-        <h2 class="speaker-subtitle">Software Gardener</h2>
+        <span class="speaker-subtitle">Software Gardener</span>
         <p><a class="speaker-handle" href="https://twitter.com/thinkb4coding" target="_blank">@thinkb4coding</a></p>
         <p>Jérémie Chassaing has been practicing Domain-Driven Design and Continuous Improvement for 10 years as an architect at Availpro, a channel manager for independent hotels, to increase scalability and reliability to match its rapid growth. He's an active member of the F# community. You can also see his blog thinkbeforecoding, a blog dedicated to Domain-Driven Design, CQRS and Event Sourcing.</p>
-        <h2 class="speaker-subheader">Talk Session</h2>
-        <h2 class="speaker-subheader gold">Ukulele Tabs in F#</h2>
+        <h2>Talk Session</h2>
+        <h2 class="gold">Ukulele Tabs in F#</h2>
         <p>A Fun(ctional) music DSL - Domain Specific Language - to compute Ukulele tabs from chords: Share the chords with Jérémie and he will show you where to place your fingers! With IRL ukulele songs.</p>
     </div>
   </div>
