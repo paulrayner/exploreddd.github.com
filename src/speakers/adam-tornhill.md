@@ -8,7 +8,7 @@ layout: layout-speaker.html
     </div>
     <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Adam Tornhill</h1>
-        <h2 class="speaker-subtitle">Technical Debt Detective</h2>
+        <span class="speaker-subtitle">Technical Debt Detective</span>
         <p><a class="speaker-handle" href="https://twitter.com/AdamTornhill" target="_blank">@AdamTornhill</a></p>
         <p>Adam Tornhill is a programmer who combines degrees in engineering and psychology. He’s the founder of Empear where he designs the CodeScene tool. He’s also the author of Software Design X-Rays, Your Code as a Crime Scene, Lisp for the Web, and Patterns in C. Adam’s other interests include modern history, music, and martial arts.</p>
         <h2>1-Day pre-conference workshop, Wed, Sept 18</h2>
