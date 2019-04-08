@@ -1,12 +1,11 @@
-@import 'typography';
-
 //variables
 
 $body-size: 18px;
+$standard-margin: 30px;
 
 $brand-blue: #0082c8;
 $brand-white: #fff;
-$brand-body: #000;
+$brand-body: #000000;
 
 $brand-body-link: #f0b310;
 $brand-body-link-hover: #ffc423;
@@ -26,6 +25,73 @@ $brand-subheader: #ffc423;
 
 $brand-nav-hover: #ffc423;
 $brand-background: #e5f2f9;
+
+@font-face {
+	font-family: 'NunitoSansSemiBold';
+	src: url('fonts/NunitoSans-SemiBold.eot');
+	src: url('fonts/NunitoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-SemiBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansLight';
+	src: url('fonts/NunitoSans-Light.eot');
+	src: url('fonts/NunitoSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Light.woff2') format('woff2'),
+		url('fonts/NunitoSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansExtraBold';
+	src: url('fonts/NunitoSans-ExtraBold.eot');
+	src: url('fonts/NunitoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-ExtraBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('fonts/NunitoSans-Regular.eot');
+	src: url('fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Regular.woff2') format('woff2'),
+		url('fonts/NunitoSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansBold';
+	src: url('fonts/NunitoSans-Bold.eot');
+	src: url('fonts/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Bold.woff2') format('woff2'),
+		url('fonts/NunitoSans-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	font-size: 24px;
+	text-transform: uppercase;
+  margin-top: $standard-margin;
+}
+h2 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	font-size: $body-size;
+	text-transform: uppercase;
+	margin-top: $standard-margin;
+}
+h3 {
+	font-family: NunitoSansSemiBold, sans-serif;
+	color: $brand-body;
+	font-size: $body-size !important; //need to determine why important is required here
+	margin-top: $standard-margin;
+}
 
 @mixin mq($size) {
   @if $size == xs {
@@ -81,6 +147,10 @@ body {
 			text-decoration: none;
 		}
 	}
+}
+
+p, ul, ol, blockquote, h1, h2, h3, .video-responsive {
+	margin-bottom: $standard-margin;
 }
 
 // Navigation
@@ -411,19 +481,6 @@ s
 			opacity: 1;
 		}
 	}
-}
-
-.home.section.about {
-	padding-bottom: 18px;
-}
-
-.section-header {
-	color: $brand-blue;
-	font-family: NunitoSansBold, sans-serif;
-	font-size: 24px;
-	text-align: center;
-	text-transform: uppercase;
-  margin: 20px 0 20px 0;
 }
 
 .section-subheader {
@@ -945,14 +1002,6 @@ figure {
 	}
 }
 
-.section.venue {
-  padding-left: 0;
-  padding-right: 0;
-	.section-header {
-		margin-bottom: 18px;
-	}
-}
-
 h2.conference-emphasis {
   text-transform: uppercase;
   font-style: italic;
@@ -1060,8 +1109,6 @@ footer {
 }
 
 .featured-speaker.container {
-	text-align: center;
-
 	.img-container {
 		display: block;
 		@include mq(sm) {
@@ -1112,12 +1159,6 @@ footer {
 	height:100%;
 	width:100%;
 	position:absolute;
-}
-
-.about {
-	.section-header {
-		margin: 30px 0 30px 0;
-	}
 }
 
 .featured-speaker {
@@ -1194,16 +1235,12 @@ footer {
 
 //Venue
 .container.venue {
-	padding-top: 50px;
-	padding-bottom: 150px;
+	//padding-top: 50px;
+	//padding-bottom: 150px;
 }
 
 //Workshops
-.workshops {
-  p {
-    text-align: left;
-  }
-}
+
 .workshop-list {
 	max-width: 640px;
 	padding-bottom: 30px;
@@ -1512,7 +1549,7 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
   border: 0;
-  margin-bottom: 25px;
+  margin-bottom: $standard-margin;
 }
 
 .btn:hover {
@@ -1793,4 +1830,8 @@ blockquote .quote-source {
 //make talk session titles same colour as h2 workshop titles that are also links
 .gold {
 	color: $brand-body-link !important;
+}
+
+.styleguide--label {
+	border-bottom: 1px solid #cdcdcd;
 }
