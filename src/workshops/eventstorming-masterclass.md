@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section workshop-page">
+<div class="container section workshop-single-page">
     <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
@@ -9,18 +9,18 @@ layout: layout-tier2.html
                 <a href="../speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini keep-color"></div></a>
                 </div>
           </div>
-      <div class="col-xs-12 col-sm-10 workshop-list">
-        <h1 class="section-header">Eventstorming Masterclass</h1>
-        <span class="workshops--speaker-name">
+      <div class="col-xs-12 col-sm-8 content">
+        <h1>Eventstorming Masterclass</h1>
+        <p><span class="speaker-name">
         <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></span>
-        <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
+        <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span></p>
         <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
-        <p class="copy" style="margin-top: 25px">EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way.</p>
+        <p>EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way.</p>
         <p>In this two day format we’ll experience the different formats, working around real business problems.
         We’ll take into account the different perspectives (including the facilitator) in a process that spans large scale discovery, to leverage collaborative design.
         We’ll experience the how, and we’ll discuss the why.</p>
         <img src="../img/workshop/Workshop-Alberto-Brandolini.png" class="speaker--workshop-content-img" alt="">
-        <h2 class="speaker-subheader">Agenda</h2>
+        <h2>Agenda</h2>
         <p><strong>Day 1</strong></p>
         <p>EventStorming as a discovery tool.</p>
         <ul>

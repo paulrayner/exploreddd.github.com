@@ -82,9 +82,10 @@ h1 {
 h2 {
 	font-family: NunitoSansBold, sans-serif;
 	color: $brand-blue;
-	font-size: $body-size;
+	font-size: 24px;
 	text-transform: uppercase;
-	margin-top: $standard-margin;
+	//margin-top: $standard-margin;
+	margin-top: 0;
 }
 h3 {
 	font-family: NunitoSansSemiBold, sans-serif;
@@ -579,7 +580,7 @@ figure {
 	}
 	.homepage--hero-content {
 		position: absolute;
-		bottom: -2px;
+		bottom: -15px;
 		width: 100%;
 		z-index: 4;
 		.homepage--hero-video-buttons {
@@ -607,7 +608,7 @@ figure {
 			width: 100%;
 			background-color: transparentize($brand-blue, 0.5);
 			font-family: NunitoSans, sans-serif;
-			padding-top: 22px;
+			padding-top: 24px;
 			text-align: center;
 			z-index: 2;
 			@include mq(xs) {
@@ -618,6 +619,7 @@ figure {
 		.conf-header {
 			color: $brand-subheader;
 			display: block;
+			margin-bottom: 12px;
 			padding-right: 15px;
 			text-transform: uppercase;
 			@include mq(sm){
@@ -627,7 +629,7 @@ figure {
 		.conf-copy {
 			color: $brand-white;
 			font-size: 24px;
-			margin-bottom: 2px;
+			margin-bottom: 15px;
 			&:last-child {
 				padding-bottom: 25px;
 			} 
@@ -692,18 +694,17 @@ figure {
 	h3 {
 		margin-bottom: 10px;
 	}
-}
-
-.speaker-name {
-	color: $brand-blue;
-	font-family: NunitoSansBold, sans-serif;
-	font-size: 20px;
-	margin-bottom: 0;
-	text-transform: uppercase;
-	transition: color 0.2s;
-	&:hover {
-		color: $brand-body-link-hover;
-    text-decoration: none;
+	.speaker-name {
+		color: $brand-blue;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 20px;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		transition: color 0.2s;
+		&:hover {
+			color: $brand-body-link-hover;
+			text-decoration: none;
+		}
 	}
 }
 //sprite rules for workshops hosted by two speakers.
@@ -991,6 +992,7 @@ figure {
 .speaker--workshop-content-img {
 	width: 100%;
 	height: auto;
+	margin-bottom: $standard-margin;
 }
 
 .speaker-details {
@@ -1051,8 +1053,8 @@ footer {
 	background-color: $brand-blue;
 	color: $brand-white;
 	font-family: NunitoSans, sans-serif;
-	padding-top: 15px;
-	padding-bottom: 30px;
+	padding-top: $standard-margin;
+	padding-bottom: $standard-margin;
 	text-align: center;
 	.container {
 		background-repeat: no-repeat;
@@ -1061,11 +1063,17 @@ footer {
 	}
 
 	.section-header {
+		display: block;
 		color: $brand-white;
-		padding-bottom: 15px;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 18px;
+		text-transform: uppercase;
+		margin-bottom: $standard-margin;
 	}
 
-	.copyright {
+	.copyright, .conf-contact {
+		font-size: 14px;
+		margin-bottom: 10px;
 		a {
 			color: $brand-reverse-link;
 			&:hover {
@@ -1239,89 +1247,90 @@ footer {
 }
 
 //Venue
-.container.venue {
-	//padding-top: 50px;
-	//padding-bottom: 150px;
-}
 
 //Workshops
 
-.workshop-list {
-	max-width: 640px;
-	padding-bottom: 30px;
-	@include mq(xs) {
-		text-align: center;
-	}
-  @include mq(sm) {
-    padding-top: 20px;
-		padding-left: 65px;
-  }
-  @include mq(md) {
-    padding-left: 35px;
-	}
-	.section-header {
-		@include mq(xs) { 
-			text-align: center;
-			margin-top: 20px !important;
-		}
-		text-align: left;
-		
-	}
-  h2 {
-    text-transform: uppercase;
-    font-family: NunitoSansSemiBold, sans-serif;
-		font-size: 24px;
-    a {
-      color: #f0b310;
-      transition: color 0.2s ease 0s;
-      &:hover {
-        text-decoration: none;
-        color: #fdc33c;
-      }
-    }
-	}
-	.workshops--duration {
+.workshops-index-page, .workshop-single-page {
+	.duration {
 		display: block;
 		color: $brand-blue;
 		font-weight: 500;
 		text-transform: uppercase;
-		margin-bottom: 8px;
+		//margin-bottom: 8px;
 		@include mq(xs) {
 			text-align: center;
 			padding-bottom: 0;
 		}
 	}
-  .workshops--speaker-name {
-    display: block;
-    color: $brand-body;
-    font-weight: bold;
-    text-transform: uppercase;
-		font-size: auto;
+	.speaker-name {
+		display: block;
+		color: $brand-body;
+		font-weight: bold;
+		text-transform: uppercase;
 		margin-bottom: 7px;
 		@include mq(xs) {
 			text-align: center; 
 		}
-  }
-  .workshops--speaker-title {
-    font-style: italic;
-  }
+	}
+}
+
+.workshops-index-page {	
+	.workshops-index-page--item {
+		max-width: 640px;
+		padding-bottom: 30px;
+		@include mq(xs) {
+			text-align: center;
+		}
+		@include mq(sm) {
+			padding-top: 20px;
+			padding-left: 65px;
+		}
+		@include mq(md) {
+			padding-left: 35px;
+		}
+		h1 {
+			@include mq(xs) { 
+				text-align: center;
+				margin-top: 20px !important;
+			}
+			text-align: left;
+		}
+		h2 {
+			text-transform: uppercase;
+			font-family: NunitoSansSemiBold, sans-serif;
+			margin-bottom: 10px;
+			a {
+				color: #f0b310;
+				transition: color 0.2s ease 0s;
+				&:hover {
+					text-decoration: none;
+					color: #fdc33c;
+				}
+			}
+		}
+	}
 }
 
 //Workshop page (individual)
-.workshop-page {
+.workshop-single-page {
 	margin-top: 30px;
-	.workshop-list {
-		margin-top: 0;
-		p.copy {
-			margin-top: 0;
-			text-align: left;
+	.content {
+		@include mq(sm){
+			margin-left: 45px;
 		}
-		.section-header {
-			margin-top: 0;
+		@include mq(md){
+			margin-left: 20px;
+		}
+		h1 {
 			margin-bottom: 10px;
-		}	
+			@include mq(xs){
+				text-align: center;
+			}
+			@include mq(sm){
+				text-align: left;
+			}
+		}
 	}
-	
 }
 
 //Schedule page
@@ -1590,12 +1599,13 @@ footer {
   margin: 0 auto;
   max-width: 960px;
   margin-bottom: 40px;
-  h2 {
+  .header {
+		display: block;
     font-size: 24px;
     font-family: NunitoSansBold, sans-serif;
     color: $brand-body;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: $standard-margin;
 	}
 
   //these two classes apparently do something in the mailchimp code snippet, but lets make them work with our layout

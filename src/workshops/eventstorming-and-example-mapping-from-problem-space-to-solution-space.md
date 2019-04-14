@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section workshop-page">
+<div class="container section workshop-single-page">
     <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
@@ -9,10 +9,10 @@ layout: layout-tier2.html
                 <div class="co-workshop-img bruno-and-thomas no-hover"></div>
                 </div>
             </div>
-        <div class="col-xs-12 col-sm-10 workshop-list"> 
+        <div class="col-xs-12 col-sm-8 content"> 
             <h1 class="section-header">Eventstorming and Example Mapping from Problem Space to Solution Space</h1>
-            <span class="workshops--speaker-name"><a href="../speakers/bruno-boucard.html">Bruno Boucard</a> &amp; <a href="../speakers/thomas-pierrain.html">Thomas Pierrain</a></span>
-            <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
+            <span class="speaker-name"><a href="../speakers/bruno-boucard.html">Bruno Boucard</a> &amp; <a href="../speakers/thomas-pierrain.html">Thomas Pierrain</a></span>
+            <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
             <div class="spacer"></div>
             <p>Creating multiple models for the same problem is one of the more important lessons that Domain Driven Design teaches us. It is a lot cheaper to quickly iterate over them and throw away less useful prototypes before we even start coding. However, creating multiple models can be hard. When we begin gaining insight from our domain, we suffer a lot from cognitive biases that get in our way to gain new insights. We need these insights before we even start thinking about modelling. Tools like event storming and example mapping can help us to deliberate, discover, and battle these biases. They help you quickly gain insight into the problem space. But the fallacy here is that we can get locked into the tool, and get stuck again.</p>

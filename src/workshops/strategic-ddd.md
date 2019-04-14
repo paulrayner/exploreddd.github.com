@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section workshop-page">
+<div class="container section workshop-single-page">
     <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
@@ -9,10 +9,10 @@ layout: layout-tier2.html
                 <a href="../speakers/eric-evans.html"><div class="speaker-img eric-evans keep-color"></div></a>
                 </div>
             </div>
-        <div class="col-xs-12 col-sm-10 workshop-list"> 
+        <div class="col-xs-12 col-sm-8 content"> 
             <h1 class="section-header">Strategic DDD</h1>
-            <span class="workshops--speaker-name"><a href="../speakers/eric-evans.html">Eric Evans</a></span>
-            <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
+            <span class="speaker-name"><a href="../speakers/eric-evans.html">Eric Evans</a></span>
+            <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
             <div class="spacer"></div>
             <p>Some design decisions have an impact on the trajectory of the whole project. Modeling is most needed in complex circumstances, yet the typical dynamics of large projects too often derail it or disconnect it from the real design. This course delves into principles for clarifying the big picture, getting effort focused on the core, and coordinating multi-team development.</p>

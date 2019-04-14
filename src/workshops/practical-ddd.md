@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section workshop-page">
+<div class="container section workshop-single-page">
     <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
@@ -9,10 +9,10 @@ layout: layout-tier2.html
             <a href="../speakers/indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy keep-color"></div></a>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-10 workshop-list"> 
+        <div class="col-xs-12 col-sm-8 content"> 
             <h1 class="section-header">Practical DDD: Make Your Software Systems Reliable Using NServiceBus</h1>
-            <span class="workshops--speaker-name"><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></span>
-            <span class="workshops--duration">1-Day Workshop<br>Wed, Sept 18</span>
+            <span class="speaker-name"><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></span>
+            <span class="duration">1-Day Workshop<br>Wed, Sept 18</span>
             <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
             <img src="../img/workshop/Workshop-Indu-Alagarsamy.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px">
             <p>Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled.</p> 

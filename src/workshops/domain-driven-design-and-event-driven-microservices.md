@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section workshop-page">
+<div class="container section workshop-single-page">
     <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
@@ -9,10 +9,10 @@ layout: layout-tier2.html
                 <a href="../speakers/matt-stine.html"><div class="speaker-img matt-stine keep-color"></div></a>
                 </div>
             </div>
-        <div class="col-xs-12 col-sm-10 workshop-list"> 
+        <div class="col-xs-12 col-sm-8 content"> 
             <h1 class="section-header">Domain-Driven Design and Event-Driven Microservices</h1>
-            <span class="workshops--speaker-name"><a href="../speakers/matt-stine.html">Matt Stine</a></span>
-            <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
+            <span class="speaker-name"><a href="../speakers/matt-stine.html">Matt Stine</a></span>
+            <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
             <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
             <div class="spacer"></div>
             <p class="copy">New architectural paradigms like microservices and evolutionary architecture, as well as the challenges associated with managing data and transactional contexts in distributed systems, have generated a renewed interest in disciplined software design and modular decomposition strategies. We know that the secret to obtaining the benefits of these architectures is getting the boundaries right, both at the team and the component/service level, and then keeping them right as the software continues to evolve! A key reason for getting the boundaries right is that it allows us to create a unified and ubiquitous language within the bounded contexts those boundaries enclose, allowing the business and engineers to have productive and coherent conversations.</p>
