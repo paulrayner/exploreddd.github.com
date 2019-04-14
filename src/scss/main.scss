@@ -2,6 +2,7 @@
 
 $body-size: 18px;
 $standard-margin: 30px;
+$half-margin: 15px;
 
 $brand-blue: #0082c8;
 $brand-white: #fff;
@@ -86,6 +87,7 @@ h2 {
 	text-transform: uppercase;
 	//margin-top: $standard-margin;
 	margin-top: 0;
+	margin-bottom: $standard-margin;
 }
 h3 {
 	font-family: NunitoSansSemiBold, sans-serif;
@@ -406,7 +408,7 @@ s
 .hyatt-copy, .register-copy, .alteryx-copy {
 	display: inline-block;
 	margin-top: 85px;
-	padding: 30px;
+	padding: $standard-margin;
   @include mq(sm) {
     margin-left: 60px;
   }
@@ -534,7 +536,7 @@ figcaption a {
 /* sponsor page content formatting */
 figure {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: $standard-margin;
 	figcaption {
 		margin: 0 auto 0px;
 		text-align: left;
@@ -650,19 +652,14 @@ figure {
 	}
 }
 
-//homepage code of conduct
-.home.section.code-of-conduct {
-	text-align: center;
-	margin-bottom: 25px;
-	.page-subheader {
-		margin-bottom: 20px;
-	}
+.homepage--why-you-should-attend {
+	width: 700px;
+	margin: 0 auto;
 }
 
 // Speaker section
 
 .section.speakers {
-	padding-top: 10px;
 	.row {
 		&:first-child {
       margin-top: 32px;
@@ -1068,7 +1065,7 @@ footer {
 		font-family: NunitoSansBold, sans-serif;
 		font-size: 18px;
 		text-transform: uppercase;
-		margin-bottom: $standard-margin;
+		margin-bottom: $half-margin;
 	}
 
 	.copyright, .conf-contact {
@@ -1094,7 +1091,7 @@ footer {
 		img {
 			width: 95%;
 			height: auto;
-			margin-bottom: 15px;
+			margin-bottom: $half-margin;
 		}
 	}
 	//platinum sponsor logo appears largest
@@ -1113,7 +1110,7 @@ footer {
 	width: 50%;
 	height: auto;
 	display: block;
-	margin: 0 auto 30px auto;
+	margin: 0 auto $standard-margin auto;
 }
 .sponsor-logo-platinum {
 	width: 100%;
@@ -1277,7 +1274,7 @@ footer {
 .workshops-index-page {	
 	.workshops-index-page--item {
 		max-width: 640px;
-		padding-bottom: 30px;
+		padding-bottom: $standard-margin;
 		@include mq(xs) {
 			text-align: center;
 		}
@@ -1313,7 +1310,7 @@ footer {
 
 //Workshop page (individual)
 .workshop-single-page {
-	margin-top: 30px;
+	margin-top: $standard-margin;
 	.content {
 		@include mq(sm){
 			margin-left: 45px;
@@ -1338,7 +1335,7 @@ footer {
   width: 100%;
 }
 .final-row {
-  margin-bottom: 30px;
+  margin-bottom: $standard-margin;
 }
 .title-row {
   .title-cell-uncolored-cells {
@@ -1559,7 +1556,7 @@ footer {
   border-radius: 0;
   color: $brand-white;
   font-size: 20px;
-  padding: 20px 30px 20px 30px;
+  padding: 20px $standard-margin 20px $standard-margin;
   text-decoration: none;
   text-transform: uppercase;
   border: 0;
@@ -1624,7 +1621,7 @@ footer {
    margin-right: 10px;
    @include mq(xs) {
      width: 80%;
-     margin-bottom: 30px;
+     margin-bottom: $standard-margin;
    }
    @include mq(sm) {
      width: 350px;
@@ -1644,8 +1641,8 @@ footer {
     }
 	}
   #mce-error-response, #mce-success-response {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: $standard-margin;
+    margin-bottom: $standard-margin;
   }
 }
 .section.home-videos {
@@ -1673,14 +1670,14 @@ strong {
 }
 
 .homepage-video {
-	max-width: 750px;
-	margin: 50px auto 0 auto;
+	max-width: 750px; 
+	margin: $standard-margin auto 0 auto;
 }
 
 /* sponsor subfooter section on homepage and second level pages */
 .sponsor-section {
 	background-color: #fff;
-	padding: 30px 0 30px 0;
+	padding: $standard-margin 0 $standard-margin 0;
 	text-align: center;
 	.item {
 		@include mq(xs) {
@@ -1803,9 +1800,6 @@ strong {
 		display: inline-block;
 		margin-bottom: 0;
 		padding: 15px;
-}
-.spacer {
-	margin-top: 30px;
 }
 
 //blockquote styling
