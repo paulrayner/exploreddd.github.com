@@ -5,7 +5,7 @@ layout: layout-tier2.html
 	<!-- BEGIN BUTTONS -->
 	<div class="row">
 	  <div class="col-xs-12">
-	    <h1 class="section-header">Schedule</h1>
+	    <h1 class="text-center">Schedule</h1>
 			<div class="buttons">
 				<!--<a class="showSingle btn schedule-btn" target="1">
 					<span class="btn-title">Workshops</span>
@@ -39,7 +39,7 @@ layout: layout-tier2.html
 						<div class="col-sm-10 title-cell-colored-cells">
 							<h2>Main Conference Kickoff Evening</h2>
 							<h3>Wednesday, September 18</h3>
-						</div> <!--col-xs -->f
+						</div> <!--col-xs -->
 				</div> <!-- title-row -->
 				<div class="row time-row">
 					<div class="col-sm-1 time-cell">

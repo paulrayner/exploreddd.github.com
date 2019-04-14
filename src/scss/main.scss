@@ -653,8 +653,11 @@ figure {
 }
 
 .homepage--why-you-should-attend {
-	width: 700px;
-	margin: 0 auto;
+	max-width: 700px;
+	margin: 0 $half-margin;
+	@include mq(sm) {
+		margin: 0 auto;
+	}
 }
 
 // Speaker section
