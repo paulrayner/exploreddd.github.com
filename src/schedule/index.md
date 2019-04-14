@@ -39,7 +39,7 @@ layout: layout-tier2.html
 						<div class="col-sm-10 title-cell-colored-cells">
 							<h2>Main Conference Kickoff Evening</h2>
 							<h3>Wednesday, September 18</h3>
-						</div> <!--col-xs -->f
+						</div> <!--col-xs -->
 				</div> <!-- title-row -->
 				<div class="row time-row">
 					<div class="col-sm-1 time-cell">
