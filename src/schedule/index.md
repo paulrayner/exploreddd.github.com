@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section schedule">
+<div class="container schedule">
 	<!-- BEGIN BUTTONS -->
 	<div class="row">
 	  <div class="col-xs-12">
@@ -88,7 +88,7 @@ layout: layout-tier2.html
 					<div class="col-sm-10 details details-wide">
 						<p><strong>Explore Downtown Denver Dining</strong></p>
 					</div> <!-- details -->
-				</div> <!-- time-row -->				
+				</div> <!-- time-row -->		
 			</div>
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<!-- BEGIN Day 1 CONTENT -->
@@ -469,7 +469,7 @@ layout: layout-tier2.html
 						<div class="col-sm-10 details details-colored details-gold details-wide">
 							<h4>Conference Closing Circle</h4>
 						</div> <!-- details -->
-					</div> <!-- time-row -->		
+					</div> <!-- time-row -->	
 				</div>
 			</div>
 			<!-- END OF DAY 2 CONTENT -->		

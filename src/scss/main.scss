@@ -92,7 +92,7 @@ h2 {
 h3 {
 	font-family: NunitoSansSemiBold, sans-serif;
 	color: $brand-body;
-	font-size: $body-size !important; //need to determine why important is required here
+	font-size: $body-size;
 	margin-top: $standard-margin;
 }
 
@@ -1335,7 +1335,11 @@ footer {
 
 //Schedule page
 .schedule {
-  width: 100%;
+	width: 100%;
+	.row {
+		margin: 0 auto;
+		max-width: 960px;
+	}
 }
 .final-row {
   margin-bottom: $standard-margin;
@@ -1359,7 +1363,8 @@ footer {
   }
   h2 {
     font-size: 28px;
-    font-family: NunitoSansBold, sans-serif;
+		font-family: NunitoSansBold, sans-serif;
+		color: #000;
     text-transform: uppercase;
     margin-bottom: 0;
     @include mq(xs) {
@@ -1368,6 +1373,7 @@ footer {
     }
   }
   h3 {
+		font-size: 24px;
     margin-top: 0;
     @include mq(xs) {
       text-align: center;
@@ -1441,6 +1447,10 @@ footer {
   background-color: #008da7;
 }
 .talk-title {
+	margin-bottom: $half-margin;
+	a {
+		font-family: NunitoSansSemiBold, sans-serif;
+	}
   em {
     font-size: 16px;
   }
@@ -1582,7 +1592,8 @@ footer {
     }
     .btn-title {
       color: #fdc33c;
-      font-family: NunitoSansBold, sans-serif;
+			font-family: NunitoSansBold, sans-serif;
+			font-size: 18px;
     }
     .btn-date {
       font-size: 16px;
