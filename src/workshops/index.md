@@ -7,11 +7,11 @@ layout: layout-tier2.html
     <p class="copy" style="text-align: center;"><strong>Workshops will run from 9am - 5pm</strong></p>-->
 	<p class="copy">Want to maximize your learning by really digging into a topic and getting hands-on experience with an expert instructor? We will be offering full-day (9am-5pm) pre-conference workshops prior to the Wednesday evening conference kickoff on Monday, Tuesday and Wednesday, September 16, 17 & 18, 2019.</p>
     <p class="copy"></p>
-    <!--<div class="row">
+    <div class="row">
         <div class="col-xs-12" align="center">
-            <a class="btn" style="margin-bottom: 0;" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>
+            <a class="btn" style="margin-bottom: 0;" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
         </div>
-    </div>-->
+    </div>
     <!-- begin workshop element -->
     <div class="row">
         <div class="col-xs-12 col-sm-2">
@@ -169,7 +169,7 @@ layout: layout-tier2.html
                 <span class="workshops--speaker-name">Indu Alagarsamy</span>
                 <span class="workshops--duration">1-Day Workshop<br>Wed, Sept 18</span>
             </p>
-            <p class="copy">Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled. <a href="practical-ddd.html">Read more...</a></p> 
+            <p class="copy">Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled. <a href="practical-ddd.html">Read more...</a></p>
         </div>
     </div>
 </div> <!-- container -->
