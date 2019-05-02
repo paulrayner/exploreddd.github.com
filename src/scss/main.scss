@@ -1830,7 +1830,7 @@ strong {
 		}
 	}
 	.video-sponsor {
-		.red-hat {
+		/* .red-hat {
 			img {
 				height: 65px;
 				width: auto;
@@ -1838,17 +1838,18 @@ strong {
 					height: 40px;
 				}
 			}
-		}
-		.lunch-sponsor {
-			.patient-pop {
-				img {
-					height: 65px;
-					width: auto;
-					@include mq(xs) {
-						height: 40px;
-					}
+		} */
+	}
+	.lunch-sponsor {
+		.patient-pop {
+			img {
+				height: 45px;
+				width: auto;
+				@include mq(xs) {
+					height: 45px;
 				}
 			}
+		}
 	}
 	.platinum-sponsors,
 	.gold-sponsors,
