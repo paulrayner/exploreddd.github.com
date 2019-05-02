@@ -9,7 +9,7 @@ layout: layout-tier2.html
                 <a href="../speakers/eric-evans.html"><div class="speaker-img eric-evans keep-color"></div></a>
                 </div>
             </div>
-        <div class="col-xs-12 col-sm-10 workshop-list"> 
+        <div class="col-xs-12 col-sm-10 workshop-list">
             <h1 class="section-header">Strategic DDD</h1>
             <span class="workshops--speaker-name"><a href="../speakers/eric-evans.html">Eric Evans</a></span>
             <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
@@ -23,9 +23,9 @@ layout: layout-tier2.html
             <li>Manage diverse styles of design, development process and quality within a large system, and still maintain the ability to innovate around your core domain</li>
             <li>Develop multiple strategies for setting up a fresh project that can break with the past, even when the organization is tied to legacy systems.</li>
             </ul>
-            <!--<div class="col-xs-12" align="center">
-                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>
-            </div>-->
+                <div class="col-xs-12" align="center">
+                    <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+                </div>
             </div>
         </div>
     </div>

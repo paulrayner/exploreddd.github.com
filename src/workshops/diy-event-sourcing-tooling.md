@@ -9,7 +9,7 @@ layout: layout-tier2.html
                 <a href="../speakers/marijn-huizendveld.html"><div class="speaker-img marijn-huizendveld keep-color"></div></a>
                 </div>
             </div>
-        <div class="col-xs-12 col-sm-10 workshop-list"> 
+        <div class="col-xs-12 col-sm-10 workshop-list">
             <h1 class="section-header">DIY Event Sourcing Tooling</h1>
             <span class="workshops--speaker-name"><a href="../speakers/marijn-huizendveld.html">Marijn Huizendveld</a></span>
             <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
@@ -51,9 +51,9 @@ layout: layout-tier2.html
                 <li>Setup of a testing framework that can run integration tests against your “Hello world” app.</li>
                 <li>Optionally you can bring your own event sourced applications.</li>
             <ul>
-            <!--<div class="col-xs-12" align="center">
-                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>
-            </div>-->
+                <div class="col-xs-12" align="center">
+                    <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+                </div>
             </div>
         </div>
     </div>

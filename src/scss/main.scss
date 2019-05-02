@@ -101,7 +101,7 @@ html, body {
 body {
 	background-color: $brand-background;
 	font-family: NunitoSansSemiBold, sans-serif;
-	color: $brand-body; 
+	color: $brand-body;
 	overflow-x: hidden;
 	padding-top: 51px;
 	padding-bottom: 0;
@@ -179,10 +179,10 @@ s
 		display: inline-block;
 		//padding: 0 0 0 25px;
 	}
-	@include mq(md) { 
+	@include mq(md) {
 		padding-left: 78px;
 	}
-	@include mq(lg) { 
+	@include mq(lg) {
 		padding-left: 25px;
 	}
 }
@@ -283,8 +283,8 @@ s
 
 }
 .nav-container {
-	
-	
+
+
 }
 .navbar-collapse {
 	text-align: center;
@@ -335,7 +335,7 @@ s
 	@include mq(md) {
 		margin-left: -78px;
 	}
-	
+
 }
 .nav-list-item:not(:first-child) {
   .nav-submenu {
@@ -645,7 +645,7 @@ figure {
 			margin-bottom: 2px;
 			&:last-child {
 				padding-bottom: 25px;
-			} 
+			}
 		}
 
 		.conf-contact, .conf-last-year {
@@ -739,7 +739,7 @@ figure {
 			background-position: 1px;
 		}
 	}
-	&.no-hover { 
+	&.no-hover {
 		background-position: 1px; //stop hover since link was removed for co-workshop page
 	}
 }
@@ -998,12 +998,12 @@ figure {
 			background-position: 0;
 		}
 	}
-	&.keep-color { 
+	&.keep-color {
 		background-position: 0; //stop hover since link was removed for co-workshop page
 	}
 }
 
-//workshop images 
+//workshop images
 
 .speaker--workshop-content-img {
 	width: 100%;
@@ -1116,7 +1116,7 @@ footer {
 	display: flex;
 	justify-content: space-around; //for chrome, firefox, etc
 	align-items: center;
-	.item, .organized-by-item {		
+	.item, .organized-by-item {
 		width: 300px;
 		img {
 			width: 95%;
@@ -1279,7 +1279,7 @@ footer {
 
 //Sponsors
 .container.sponsors {
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 
 .container.short {
@@ -1319,12 +1319,12 @@ footer {
     padding-left: 35px;
 	}
 	.section-header {
-		@include mq(xs) { 
+		@include mq(xs) {
 			text-align: center;
 			margin-top: 20px !important;
 		}
 		text-align: left;
-		
+
 	}
   h2 {
     text-transform: uppercase;
@@ -1358,7 +1358,7 @@ footer {
 		font-size: auto;
 		margin-bottom: 7px;
 		@include mq(xs) {
-			text-align: center; 
+			text-align: center;
 		}
   }
   .workshops--speaker-title {
@@ -1378,9 +1378,9 @@ footer {
 		.section-header {
 			margin-top: 0;
 			margin-bottom: 10px;
-		}	
+		}
 	}
-	
+
 }
 
 //Schedule page
@@ -1621,8 +1621,8 @@ footer {
   font-family: NunitoSansSemiBold, sans-serif !important;
   border-radius: 0;
   color: $brand-white;
-  font-size: 20px;
-  padding: 20px 30px 20px 30px;
+  font-size: 18px;
+  padding: 15;
   text-decoration: none;
   text-transform: uppercase;
   border: 0;
@@ -1770,14 +1770,14 @@ strong {
 		}
 	}
 	.platinum-sponsors {
-		@include mq(xs) {	
+		@include mq(xs) {
 			.homeadvisor {
 				img {
 					width: 80%;
-				} 
+				}
 			}
 		}
-		@include mq(sm) {	
+		@include mq(sm) {
 			.item {
 				margin: 10px 10px 10px 10px;
 			}
@@ -1789,7 +1789,7 @@ strong {
 			}
 		}
 	}
-	
+
 	.bronze-sponsors {
 		.item {
 			margin: 25px 10px 25px 10px;
@@ -1814,7 +1814,7 @@ strong {
 			}
 		}
 	}
-	
+
 	.reception-sponsor {
 		.agile-denver {
 			img {
