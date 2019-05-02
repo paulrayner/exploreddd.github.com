@@ -1839,13 +1839,24 @@ strong {
 				}
 			}
 		}
+		.lunch-sponsor {
+			.patient-pop {
+				img {
+					height: 65px;
+					width: auto;
+					@include mq(xs) {
+						height: 40px;
+					}
+				}
+			}
 	}
 	.platinum-sponsors,
 	.gold-sponsors,
 	.silver-sponsors,
 	.bronze-sponsors,
 	.reception-sponsor,
-	.video-sponsor {
+	.video-sponsor,
+	.lunch-sponsor {
 		@include mq(xs) {
 			padding-bottom: 0px;
 		}
