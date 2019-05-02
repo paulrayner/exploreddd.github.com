@@ -9,7 +9,9 @@ layout: layout-tier2.html
 	<h2 class="page-subheader">Lunch Sponsor</h2>
 	<br>
 	<figure>
-		<a href="https://www.patientpop.com"><img src="../img/logos/sponsor-patient-pop.png" class="sponsor-logo"></a>
+		<a href="https://www.patientpop.com">
+			<img src="../img/logos/sponsor-patient-pop.png" class="sponsor-logo">
+		</a>
         <figcaption><a href="https://www.patientpop.com">PatientPop</a> delivers an all-in-one technology solution empowering healthcare providers to promote their practices online, attract new patients, and retain more patients for life. With PatientPop, providers can enhance and automate each touchpoint in the patient journey — from first impressions online to online appointment scheduling to post-visit follow-ups — helping to improve the overall patient experience and reduce tedious front-office tasks. PatientPop’s R&D department empowers responsible, autonomous teams to use the right technologies to solve the right problems, while leveraging Event Storming and DDD to evolve the entire PatientPop system. For more product information and career opportunities, visit <a href="https://www.patientpop.com">patientpop.com</a>.</figcaption>
     </figure>
 </div>
