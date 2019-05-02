@@ -13,7 +13,6 @@ layout: layout-tier2.html
             <h1 class="section-header">DIY Event Sourcing Tooling</h1>
             <span class="workshops--speaker-name"><a href="../speakers/marijn-huizendveld.html">Marijn Huizendveld</a></span>
             <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
-            <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
             <div class="spacer"></div>
             <p class="copy">In this workshop you will learn that with little effort you can improve your workflow by building your own set of tools made specifically for *your* context.</p>
             <h2 class="speaker-subheader">The "WHY?" Behind This Workshop</h2>

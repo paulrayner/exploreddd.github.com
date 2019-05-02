@@ -13,7 +13,6 @@ layout: layout-tier2.html
             <h1 class="section-header">Product Discovery, Product Framing and Product Delivery</h1>
             <span class="workshops--speaker-name"><a href="../speakers/dion-stewart.html">Dion Stewart</a></span>
             <span class="workshops--duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
-            <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
             <div class="spacer"></div>
             <p class="copy">This workshop immerses the students in the practices of Product Discovery, Product Framing, and Product Delivery. The content is based on fifteen years of practice with roots in agile and lean methods and Domain-Driven Design. It also covers modern practices in the areas of product discovery, design sprints, and OKRs (outcomes and key results).</p>
             <h2 class="speaker-subheader">What You'll Learn</h2>
