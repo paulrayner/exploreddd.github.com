@@ -1622,7 +1622,7 @@ footer {
   border-radius: 0;
   color: $brand-white;
   font-size: 18px;
-  padding: 15;
+  // padding: 15;
   text-decoration: none;
   text-transform: uppercase;
   border: 0;
@@ -1876,15 +1876,13 @@ strong {
 	text-align: center;
 	.btn {
 		display: inline-block;
-		//margin-top: 25px;
-		padding: 15px;
+		padding: 15px 20px 15px 20px;
 	}
 }
 .get-ticket-btn { //same style as reserve button on venue page above.
 		display: inline-block;
-		//margin-top: 25px;
 		margin-bottom: 0;
-		padding: 15px;
+		padding: 15px 20px 15px 20px;
 }
 .spacer {
 	margin-top: 30px;
