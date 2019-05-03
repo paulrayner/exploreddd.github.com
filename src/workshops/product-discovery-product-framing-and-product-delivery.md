@@ -2,19 +2,16 @@
 layout: layout-tier2.html
 ---
 <div class="container section workshop-single-page">
-    <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
                 <a href="../speakers/dion-stewart.html"><div class="speaker-img dion-stewart keep-color"></div></a>
                 </div>
             </div>
-        <div class="col-xs-12 col-sm-8 content"> 
+        <div class="col-xs-12 col-sm-8 content">
             <h1 class="section-header">Product Discovery, Product Framing and Product Delivery</h1>
             <span class="speaker-name"><a href="../speakers/dion-stewart.html">Dion Stewart</a></span>
             <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
-            <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
-            <div class="spacer"></div>
             <p>This workshop immerses the students in the practices of Product Discovery, Product Framing, and Product Delivery. The content is based on fifteen years of practice with roots in agile and lean methods and Domain-Driven Design. It also covers modern practices in the areas of product discovery, design sprints, and OKRs (outcomes and key results).</p>
             <h2 class="speaker-subheader">What You'll Learn</h2>
             <ul>
@@ -38,10 +35,10 @@ layout: layout-tier2.html
             </ul>
             <h2 class="speaker-subheader">PREREQUISITES</h2>
             <p>None.</p>
-            <!--<div class="col-xs-12" align="center">
-                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>
-            </div>-->
+            <div class="col-xs-12" align="center">
+                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+            </div>
             </div>
         </div>
     </div>
-</div> <!-- container -->
+</div>

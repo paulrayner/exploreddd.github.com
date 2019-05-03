@@ -13,7 +13,6 @@ layout: layout-tier2.html
             <h1 class="section-header">DDD For Messaging Architectures</h1>
             <span class="speaker-name"><a href="../speakers/mathias-verraes.html">Mathias Verraes</a></span>
             <span class="duration">3-Day Workshop<br>Mon-Wed, Sept 16-18</span>
-            <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
             <p class="copy" style="margin-top: 25px">The software industry keeps moving towards more message-oriented architectures. These require different ways of reasoning about system design, domain modelling, evolutionary architectures.</p>
             <p>Domain-Driven Design is exceptionally suitable for this: its fundamental principles are universal to software design, and apply well to all kinds of architectures: focus on domain language and collaborative modelling, Bounded Contexts, and mapping the relationships between Contexts.</p>
             <img src="../img/workshop/Workshop-Mathias-Verraes-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px" />
@@ -39,12 +38,12 @@ layout: layout-tier2.html
             </ul>
             <img src="../img/workshop/Workshop-Mathias-Verraes-2.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
             <blockquote>
-                <p>Mathias made Domain–Driven Design very real and practical. He managed to find a good balance between practical workshop, theory, and sharing experiences. This workshop really gave me the keys to use DDD in our projects and showed me new perspectives like Event Sourcing. It is definitely a must have complement to the usual books by Eric Evans and Vaughn Vernon. I would definitely recommend this workshop to any developer or architect who is keen to learn a different way to model software.</p> 
+                <p>Mathias made Domain–Driven Design very real and practical. He managed to find a good balance between practical workshop, theory, and sharing experiences. This workshop really gave me the keys to use DDD in our projects and showed me new perspectives like Event Sourcing. It is definitely a must have complement to the usual books by Eric Evans and Vaughn Vernon. I would definitely recommend this workshop to any developer or architect who is keen to learn a different way to model software.</p>
                 <p class="copy quote-source">– SÉBASTIEN ABRAS, SENIOR SOFTWARE ARCHITECT, EVS BROADCAST (BELGIUM)</p>
             </blockquote>
-            <!--<div class="col-xs-12" align="center">
-                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>
-            </div>-->
+            <div class="col-xs-12" align="center">
+                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+            </div>
         </div>
     </div>
-</div> <!-- container -->
+</div>
