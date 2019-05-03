@@ -129,7 +129,7 @@ body {
 	font-family: NunitoSansLight, sans-serif;
 	font-size: $body-size;
 	line-height: 1.22em;
-	color: $brand-body; 
+	color: $brand-body;
 	overflow-x: hidden;
 	padding-top: 51px;
 	padding-bottom: 0;
@@ -161,7 +161,7 @@ ul {
 		margin-bottom: 10px;
 	}
 	li:last-child {
-		margin-bottom: 0; 
+		margin-bottom: 0;
 	}
 }
 
@@ -218,10 +218,10 @@ s
 	@include mq(sm) {
 		display: inline-block;
 	}
-	@include mq(md) { 
+	@include mq(md) {
 		padding-left: 78px;
 	}
-	@include mq(lg) { 
+	@include mq(lg) {
 		padding-left: 25px;
 	}
 }
@@ -238,7 +238,7 @@ s
 		text-align: center;
 	}
 	@include mq(md) {
-		font-size: $body-size; 
+		font-size: $body-size;
 		line-height: 75px;
 	}
 	@include mq(lg) {
@@ -363,7 +363,7 @@ s
 	@include mq(md) {
 		margin-left: -78px;
 	}
-	
+
 }
 .nav-list-item:not(:first-child) {
   .nav-submenu {
@@ -634,7 +634,7 @@ figure {
 			margin-bottom: 15px;
 			&:last-child {
 				padding-bottom: 25px;
-			} 
+			}
 		}
 
 		.conf-contact {
@@ -723,7 +723,7 @@ figure {
 			background-position: 1px;
 		}
 	}
-	&.no-hover { 
+	&.no-hover {
 		background-position: 1px; //stop hover since link was removed for co-workshop page
 	}
 }
@@ -982,12 +982,12 @@ figure {
 			background-position: 0;
 		}
 	}
-	&.keep-color { 
+	&.keep-color {
 		background-position: 0; //stop hover since link was removed for co-workshop page
 	}
 }
 
-//workshop images 
+//workshop images
 
 .speaker--workshop-content-img {
 	width: 100%;
@@ -1089,7 +1089,7 @@ footer {
 	display: flex;
 	justify-content: space-around; //for chrome, firefox, etc
 	align-items: center;
-	.item, .organized-by-item {		
+	.item, .organized-by-item {
 		width: 300px;
 		img {
 			width: 95%;
@@ -1232,7 +1232,7 @@ footer {
 
 //Sponsors
 .container.sponsors {
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 
 .container.short {
@@ -1269,12 +1269,12 @@ footer {
 		text-transform: uppercase;
 		margin-bottom: 7px;
 		@include mq(xs) {
-			text-align: center; 
+			text-align: center;
 		}
 	}
 }
 
-.workshops-index-page {	
+.workshops-index-page {
 	.workshops-index-page--item {
 		max-width: 640px;
 		padding-bottom: $standard-margin;
@@ -1289,7 +1289,7 @@ footer {
 			padding-left: 35px;
 		}
 		h1 {
-			@include mq(xs) { 
+			@include mq(xs) {
 				text-align: center;
 				margin-top: 20px !important;
 			}
@@ -1684,7 +1684,7 @@ strong {
 }
 
 .homepage-video {
-	max-width: 750px; 
+	max-width: 750px;
 	margin: $standard-margin auto 0 auto;
 }
 
@@ -1713,14 +1713,14 @@ strong {
 		}
 	}
 	.platinum-sponsors {
-		@include mq(xs) {	
+		@include mq(xs) {
 			.homeadvisor {
 				img {
 					width: 80%;
-				} 
+				}
 			}
 		}
-		@include mq(sm) {	
+		@include mq(sm) {
 			.item {
 				margin: 10px 10px 10px 10px;
 			}
@@ -1732,7 +1732,7 @@ strong {
 			}
 		}
 	}
-	
+
 	.bronze-sponsors {
 		.item {
 			margin: 25px 10px 25px 10px;
@@ -1757,7 +1757,7 @@ strong {
 			}
 		}
 	}
-	
+
 	.reception-sponsor {
 		.agile-denver {
 			img {
@@ -1783,12 +1783,24 @@ strong {
 			}
 		}
 	}
+	.lunch-sponsor {
+		.patient-pop {
+			img {
+				height: 45px;
+				width: auto;
+				@include mq(xs) {
+					height: 45px;
+				}
+			}
+		}
+	}
 	.platinum-sponsors,
 	.gold-sponsors,
 	.silver-sponsors,
 	.bronze-sponsors,
 	.reception-sponsor,
-	.video-sponsor {
+	.video-sponsor,
+	.lunch-sponsor {
 		@include mq(xs) {
 			padding-bottom: 0px;
 		}
