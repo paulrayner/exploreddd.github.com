@@ -88,7 +88,7 @@ layout: layout-tier2.html
 					<div class="col-sm-10 details details-wide">
 						<p><strong>Explore Downtown Denver Dining</strong></p>
 					</div> <!-- details -->
-				</div> <!-- time-row -->				
+				</div> <!-- time-row -->
 			</div>
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<!-- BEGIN Day 1 CONTENT -->
@@ -114,7 +114,7 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/daniel-somerfield.html">Domain-Driven Design in Data Engineering: a Journey of Application, Adaption, and Invention</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Open Space</h4>							
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -344,7 +344,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/zsófia-herendi.html">Zsófia Herendi</a></h4>
-							<p class="talk-title"><a href="../speakers/zsófia-herendi.html">Modeling Investment Banking</a></p>
+							<p class="talk-title"><a href="../speakers/zsófia-herendi.html">Find the Common Language Between Business and IT!</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -451,7 +451,7 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/mauro-servienti.html">Welcome to the (State) Machine</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
-							<h4>Open Space</h4>							
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -469,10 +469,10 @@ layout: layout-tier2.html
 						<div class="col-sm-10 details details-colored details-gold details-wide">
 							<h4>Conference Closing Circle</h4>
 						</div> <!-- details -->
-					</div> <!-- time-row -->		
+					</div> <!-- time-row -->
 				</div>
 			</div>
-			<!-- END OF DAY 2 CONTENT -->		
+			<!-- END OF DAY 2 CONTENT -->
 			<div class="row"></div>
 			<div class="final-row"></div> <!-- this is just here for spacing -->
 	</div> <!-- container -->
