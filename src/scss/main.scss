@@ -234,6 +234,9 @@ s
 	position: relative;
 	text-align: left;
 	transition: color 0.2s;
+	@include mq(xs) {
+		font-size: 14px;
+	}
 	@include mq(sm) {
 		display: inline-block;
 		font-size: 14px;
@@ -275,6 +278,10 @@ s
 	text-align: center;
 	text-transform: uppercase;
 	transition: background 0.2s;
+	@include mq(xs) {
+		margin-top: $half-margin;
+		font-size: 14px;
+	}
 	@include mq(sm) {
 		display: inline-block;
 		font-size: 14px;
@@ -319,7 +326,7 @@ s
 
 .navbar-collapse {
 	text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: $half-margin;
 	@include mq(sm) {
 		background: transparent;
 		text-align: center;
@@ -363,6 +370,12 @@ s
 	}
 }
 .nav-list {
+	@include mq(xs) {
+		margin-top: $half-margin;
+	}
+	@include mq(sm) {
+		margin-top: 0;
+	}
 	@include mq(md) {
 		margin-left: -78px;
 	}
