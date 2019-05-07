@@ -1,11 +1,11 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section schedule">
+<div class="container schedule">
 	<!-- BEGIN BUTTONS -->
 	<div class="row">
 	  <div class="col-xs-12">
-	    <h1 class="section-header">Schedule</h1>
+	    <h1 class="text-center">Schedule</h1>
 			<div class="buttons">
 				<!--<a class="showSingle btn schedule-btn" target="1">
 					<span class="btn-title">Workshops</span>

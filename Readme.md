@@ -1,6 +1,4 @@
+# Explore DDD Website
 
-# static-site
-
-This example uses Metalsmith to make a static site. To test it out yourself just run:
-
-    $ make build
+`npm install` to get project dependenciesgit status
+`npm run build` to run tasks and watch for file changes

@@ -13,8 +13,8 @@ layout: layout.html
             <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">Register Now</a>
         </div>
         <div class="conf-dates">
-            <p class="conf-copy"><span class="conf-header">Conference</span> September 18 - 20, 2019</p>
-            <p class="conf-copy"><span class="conf-header">Workshops</span> September 16 - 18, 2019</p>
+            <p class="conf-copy"><span class="conf-header">Conference</span>September 18 - 20, 2019</p>
+            <p class="conf-copy"><span class="conf-header">Workshops</span>September 16 - 18, 2019</p>
             <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>
         </div>
     </div>
@@ -28,25 +28,21 @@ layout: layout.html
         </div>
     </div>
 </div>
-<div class="container home section about">
+<div class="container homepage--why-you-should-attend">
     <div class="row">
-        <h1 class="section-header">WHY YOU SHOULD ATTEND</h1>
-        <ul class="copy-list">
+        <h2 class="text-center">WHY YOU SHOULD ATTEND</h2>
+        <ul>
             <li>Explore DDD brings together an international community of practicing software architects, industry experts, developers, and technical leaders.</li>
-           <li>World-class talks and hands-on sessions in software modeling and design from pioneers, practitioners and innovators.</li>
-           <li>Optimize your conference experience with expert training by also attending a pre-conference workshop.</li>
+            <li>World-class talks and hands-on sessions in software modeling and design from pioneers, practitioners and innovators.</li>
+            <li>Optimize your conference experience with expert training by also attending a pre-conference workshop.</li>
         </ul>
-        <p class="copy">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a> Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
-        <p class="copy">View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
-    </div>
-</div>
-<div class="container home section code-of-conduct">
-    <div class="row">
-        <p class="copy">Explore DDD is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). Read the full Code of Conduct on the <a href=“about”>about page</a>.</p>
+        <p class="text-center">Follow us <a href="http://twitter.com/ExploreDDD">@ExploreDDD</a> Contact us <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
+        <p class="text-center">View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
+        <p class="text-center">Explore DDD is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). Read the full Code of Conduct on the <a href=“about”>about page</a>.</p>
     </div>
 </div>
 <div class="container section speakers">
-  <h1 class="section-header">Meet Your 2019 Speakers</h1>
+  <h2 class="text-center">Meet Your 2019 Speakers</h2>
     <div class="row">
         <div class="speaker-container">
             <a href="speakers/eric-evans.html"><div class="speaker-img eric-evans">

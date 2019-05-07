@@ -1,8 +1,12 @@
 //variables
 
+$body-size: 18px;
+$standard-margin: 30px;
+$half-margin: 15px;
+
 $brand-blue: #0082c8;
 $brand-white: #fff;
-$brand-body: #000;
+$brand-body: #000000;
 
 $brand-body-link: #f0b310;
 $brand-body-link-hover: #ffc423;
@@ -22,21 +26,6 @@ $brand-subheader: #ffc423;
 
 $brand-nav-hover: #ffc423;
 $brand-background: #e5f2f9;
-
-@mixin mq($size) {
-  @if $size == xs {
-    @media (max-width: 767px) { @content; }
-  }
-  @if $size == sm {
-    @media (min-width: 768px) { @content; }
-  }
-  @else if $size == md {
-    @media (min-width: 992px) { @content; }
-  }
-  @else if $size == lg {
-    @media (min-width: 1200px)  { @content; }
-  }
-}
 
 @font-face {
 	font-family: 'NunitoSansSemiBold';
@@ -84,6 +73,44 @@ $brand-background: #e5f2f9;
 	font-style: normal;
 }
 
+h1 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	font-size: 24px;
+	text-transform: uppercase;
+  margin-top: $standard-margin;
+}
+h2 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	font-size: 24px;
+	text-transform: uppercase;
+	//margin-top: $standard-margin;
+	margin-top: 0;
+	margin-bottom: $standard-margin;
+}
+h3 {
+	font-family: NunitoSansSemiBold, sans-serif;
+	color: $brand-body;
+	font-size: $body-size;
+	margin-top: $standard-margin;
+}
+
+@mixin mq($size) {
+  @if $size == xs {
+    @media (max-width: 767px) { @content; }
+  }
+  @if $size == sm {
+    @media (min-width: 768px) { @content; }
+  }
+  @else if $size == md {
+    @media (min-width: 992px) { @content; }
+  }
+  @else if $size == lg {
+    @media (min-width: 1200px)  { @content; }
+  }
+}
+
 @mixin ir() {
 	background-position: top left;
 	background-repeat: no-repeat;
@@ -95,12 +122,17 @@ $brand-background: #e5f2f9;
 
 html, body {
 	width: 100%;
-  font-family: NunitoSansLight, sans-serif;
 }
 
 body {
 	background-color: $brand-background;
+<<<<<<< HEAD
 	font-family: NunitoSansSemiBold, sans-serif;
+=======
+	font-family: NunitoSansLight, sans-serif;
+	font-size: $body-size;
+	line-height: 1.22em;
+>>>>>>> code-cleanup
 	color: $brand-body;
 	overflow-x: hidden;
 	padding-top: 51px;
@@ -121,6 +153,19 @@ body {
 			color: $brand-body-link-hover;
 			text-decoration: none;
 		}
+	}
+}
+
+p, ul, ol, blockquote, h1, h2, h3, .video-responsive {
+	margin-bottom: $standard-margin;
+}
+
+ul {
+	li {
+		margin-bottom: 10px;
+	}
+	li:last-child {
+		margin-bottom: 0;
 	}
 }
 
@@ -148,7 +193,6 @@ s
 
 .nav-logo {
 	background-image: url('../img/ddd-logo.svg');
-	//display: inline-block;
 	margin: 3px auto;
 	height: 46px;
 	width: 160px;
@@ -177,7 +221,6 @@ s
 	padding: 0;
 	@include mq(sm) {
 		display: inline-block;
-		//padding: 0 0 0 25px;
 	}
 	@include mq(md) {
 		padding-left: 78px;
@@ -199,7 +242,7 @@ s
 		text-align: center;
 	}
 	@include mq(md) {
-		font-size: 18px;
+		font-size: $body-size;
 		line-height: 75px;
 	}
 	@include mq(lg) {
@@ -218,9 +261,6 @@ s
 }
 
 .nav-list-item:not(:first-child) {
-  .nav-submenu {
-    //margin-left: -30px;
-  }
 	@include mq(sm){
 		padding-left: 12px;
 	}
@@ -232,7 +272,6 @@ s
 	color: $brand-nav-button-text;
 	display: block;
 	line-height: 30px;
-	//margin: -1px -15px;
 	padding: 0 10px;
 	text-align: center;
 	text-transform: uppercase;
@@ -245,11 +284,10 @@ s
 		float: right;
 	}
 	@include mq(md) {
-		font-size: 18px;
+		font-size: $body-size;
 		line-height: 75px;
 	}
 	@include mq(lg) {
-		font-size: 18px;
 		line-height: 100px;
 	}
 
@@ -279,13 +317,15 @@ s
 		max-height: 100px;
 	}
 }
-.navbar .container {
 
+<<<<<<< HEAD
 }
 .nav-container {
 
 
 }
+=======
+>>>>>>> code-cleanup
 .navbar-collapse {
 	text-align: center;
 	padding-bottom: 10px;
@@ -373,10 +413,14 @@ s
 	}
 }
 
+.speakers {
+	text-align: center;
+}
+
 .hyatt-copy, .register-copy, .alteryx-copy {
 	display: inline-block;
 	margin-top: 85px;
-	padding: 30px;
+	padding: $standard-margin;
   @include mq(sm) {
     margin-left: 60px;
   }
@@ -414,17 +458,11 @@ s
 		width: 500px;
 	}
 	h1 {
-		//color: #000;
 		a {
 			font-size: 40px;
 			color: #0082CD;
 		}
 	}
-}
-
-.register-copy {
-	float: left;
-	max-width: 474px;
 }
 
 .custom-navigation-container {
@@ -446,7 +484,6 @@ s
 	@include mq(sm){
 
 	}
-
 	.arrow {
 		display: inline-block;
 		opacity: 0.4;
@@ -474,24 +511,9 @@ s
 	}
 }
 
-.home.section.about {
-	padding-bottom: 18px;
-}
-
-.section-header {
-	color: $brand-blue;
-	font-family: NunitoSansBold, sans-serif;
-	font-size: 24px;
-	text-align: center;
-	text-transform: uppercase;
-  margin: 20px 0 20px 0;
-}
-
 .section-subheader {
 	color: $brand-subheader;
 	font-family: NunitoSansBold, sans-serif;
-	font-size: 18px;
-	//margin: 0;
 	text-align: center;
 	text-transform: uppercase;
 	transition: color 0.2s;
@@ -501,35 +523,20 @@ s
 }
 
 .copy, blockquote {
-	color: $brand-body;
 	display: block;
-	font-family: NunitoSansLight, sans-serif;
-	font-size: 18px;
-	line-height: 1.22em;
 	margin: 0 auto 23px;
 	max-width: 700px;
 	text-align: center;
-
-	a {
-		//color: #fdc33c;
-		//text-decoration: none;
-		//font-family: 'NunitoSansSemiBold' !important;
-	}
 }
 figcaption a {
 	font-family: 'NunitoSansSemiBold' !important;
 }
 .copy-list {
-	color: $brand-body;
 	display: block;
-	font-family: NunitoSansLight, sans-serif;
-	font-size: 18px;
-	line-height: 1.22em;
 	margin: 0 auto 23px;
   padding-left: 25px;
 	max-width: 700px;
 	text-align: left;
-
 	li {
 		margin-bottom: 10px;
 		ul {
@@ -538,20 +545,14 @@ figcaption a {
 	}
 }
 
-.copy:last-child {
-	margin-bottom: 0;
-}
 /* sponsor page content formatting */
 figure {
 	text-align: center;
-	margin-bottom: 30px;
- figcaption {
-	font-family: NunitoSansLight, sans-serif;
-	font-size: 18px;
-	line-height: 1.22em;
-	margin: 0 auto 0px;
-	text-align: left;
- }
+	margin-bottom: $standard-margin;
+	figcaption {
+		margin: 0 auto 0px;
+		text-align: left;
+	}
 }
 
 .homepage--hero-video-container {
@@ -582,7 +583,6 @@ figure {
 		height: auto;
 		z-index: 0;
 		@include mq(xs){
-			//maybe hide the video here
 			display: none;
 		}
 	}
@@ -594,7 +594,7 @@ figure {
 	}
 	.homepage--hero-content {
 		position: absolute;
-		bottom: -2px;
+		bottom: -15px;
 		width: 100%;
 		z-index: 4;
 		.homepage--hero-video-buttons {
@@ -622,7 +622,7 @@ figure {
 			width: 100%;
 			background-color: transparentize($brand-blue, 0.5);
 			font-family: NunitoSans, sans-serif;
-			padding-top: 22px;
+			padding-top: 24px;
 			text-align: center;
 			z-index: 2;
 			@include mq(xs) {
@@ -633,6 +633,7 @@ figure {
 		.conf-header {
 			color: $brand-subheader;
 			display: block;
+			margin-bottom: 12px;
 			padding-right: 15px;
 			text-transform: uppercase;
 			@include mq(sm){
@@ -642,45 +643,38 @@ figure {
 		.conf-copy {
 			color: $brand-white;
 			font-size: 24px;
-			margin-bottom: 2px;
+			margin-bottom: 15px;
 			&:last-child {
 				padding-bottom: 25px;
 			}
 		}
 
-		.conf-contact, .conf-last-year {
+		.conf-contact {
 			@extend .conf-copy;
-			font-size: 18px;
 			padding: 13px 0 15px;
 
 			a {
 				color: $brand-reverse-link;
-				//padding-right: 10px;
 				&:hover {
 					color: $brand-reverse-link-hover;
 					text-decoration: none;
 				}
 			}
 		}
-		.conf-last-year {
-			padding-top: 0;
-		}
 	}
 }
 
-//homepage code of conduct
-.home.section.code-of-conduct {
-	text-align: center;
-	margin-bottom: 25px;
-	.page-subheader {
-		margin-bottom: 20px;
+.homepage--why-you-should-attend {
+	max-width: 700px;
+	margin: 0 $half-margin;
+	@include mq(sm) {
+		margin: 0 auto;
 	}
 }
 
 // Speaker section
 
 .section.speakers {
-	padding-top: 10px;
 	.row {
 		&:first-child {
       margin-top: 32px;
@@ -709,18 +703,20 @@ figure {
 		display: inline-block;
 		max-width: 150px;
 	}
-}
-
-.speaker-name {
-	color: $brand-blue;
-	font-family: NunitoSansBold, sans-serif;
-	font-size: 20px;
-	margin-bottom: 0;
-	text-transform: uppercase;
-	transition: color 0.2s;
-	&:hover {
-		color: $brand-body-link-hover;
-    text-decoration: none;
+	h3 {
+		margin-bottom: 10px;
+	}
+	.speaker-name {
+		color: $brand-blue;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 20px;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		transition: color 0.2s;
+		&:hover {
+			color: $brand-body-link-hover;
+			text-decoration: none;
+		}
 	}
 }
 //sprite rules for workshops hosted by two speakers.
@@ -1008,11 +1004,11 @@ figure {
 .speaker--workshop-content-img {
 	width: 100%;
 	height: auto;
+	margin-bottom: $standard-margin;
 }
 
 .speaker-details {
 	color: $brand-body;
-	font-family: NunitoSansLight, sans-serif;
 	font-size: 16px;
 }
 
@@ -1026,21 +1022,6 @@ figure {
 	}
 	.copy-top-padding {
 		margin-top: 25px !important;
-	}
-}
-
-.section.venue {
-  padding-left: 0;
-  padding-right: 0;
-
-  @include mq(sm) {
-    .venue--page-header {
-      //make the header image a bg of a div and make it center on smaller widths later?
-    }
-  }
-
-	.section-header {
-		margin-bottom: 18px;
 	}
 }
 
@@ -1084,23 +1065,27 @@ footer {
 	background-color: $brand-blue;
 	color: $brand-white;
 	font-family: NunitoSans, sans-serif;
-	padding-top: 15px;
-	padding-bottom: 30px;
+	padding-top: $standard-margin;
+	padding-bottom: $standard-margin;
 	text-align: center;
 	.container {
-		//background-image: url('../img/footer-maze.png');
 		background-repeat: no-repeat;
 		background-position: bottom center;
 		background-size: contain;
 	}
 
 	.section-header {
+		display: block;
 		color: $brand-white;
-		padding-bottom: 15px;
+		font-family: NunitoSansBold, sans-serif;
 		font-size: 18px;
+		text-transform: uppercase;
+		margin-bottom: $half-margin;
 	}
 
-	.copyright {
+	.copyright, .conf-contact {
+		font-size: 14px;
+		margin-bottom: 10px;
 		a {
 			color: $brand-reverse-link;
 			&:hover {
@@ -1121,7 +1106,7 @@ footer {
 		img {
 			width: 95%;
 			height: auto;
-			margin-bottom: 15px;
+			margin-bottom: $half-margin;
 		}
 	}
 	//platinum sponsor logo appears largest
@@ -1140,7 +1125,7 @@ footer {
 	width: 50%;
 	height: auto;
 	display: block;
-	margin: 0 auto 30px auto;
+	margin: 0 auto $standard-margin auto;
 }
 .sponsor-logo-platinum {
 	width: 100%;
@@ -1149,16 +1134,13 @@ footer {
 .page-subheader {
 	color: $brand-body;
 	font-family: NunitoSansBold, sans-serif;
-	font-size: 18px;
 	margin: 0 0 4px 0;
 }
 
 .featured-speaker.container {
-	text-align: center;
-
 	.img-container {
 		display: block;
-		vertical-align: top;
+		text-align: center;
 		@include mq(sm) {
 			display: inline-block;
 		}
@@ -1184,7 +1166,7 @@ footer {
 	.speaker-subheader {
 		color: $brand-blue;
 		text-align: left;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 	.speaker-keynote {
 		text-align: left;
@@ -1207,12 +1189,6 @@ footer {
 	height:100%;
 	width:100%;
 	position:absolute;
-}
-
-.about {
-	.section-header {
-		margin: 30px 0 30px 0;
-	}
 }
 
 .featured-speaker {
@@ -1241,30 +1217,19 @@ footer {
 }
 
 .speaker-header {
-	color: $brand-blue;
-	font-family: NunitoSansBold, sans-serif;
-	font-size: 24px;
 	margin: 0 0 2px 0;
-	text-align: left;
-	text-transform: uppercase;
 }
 .speaker-subtitle {
-	//color: $brand-subheader;
-	font-family: NunitoSansLight, sans-serif;
-	font-size: 18px;
 	margin: 0 0 2px 0;
 	text-align: left;
 }
 .speaker-handle {
-	//color: $brand-body-link;
 	font-family: NunitoSans, sans-serif;
-	font-size: 18px;
 	margin: 0;
 	text-align: left;
 }
 .speaker-subheader {
 	font-family: NunitoSansBold, sans-serif;
-	font-size: 18px;
 	color: $brand-blue;
 	margin: 25px 0 25px 0;
 }
@@ -1294,12 +1259,9 @@ footer {
 }
 
 //Venue
-.container.venue {
-	padding-top: 50px;
-	padding-bottom: 150px;
-}
 
 //Workshops
+<<<<<<< HEAD
 .workshops {
   p {
     text-align: left;
@@ -1340,55 +1302,108 @@ footer {
     }
 	}
 	.workshops--duration {
+=======
+
+.workshops-index-page, .workshop-single-page {
+	.duration {
+>>>>>>> code-cleanup
 		display: block;
 		color: $brand-blue;
 		font-weight: 500;
 		text-transform: uppercase;
-		margin-bottom: 8px;
+		//margin-bottom: 8px;
 		@include mq(xs) {
 			text-align: center;
 			padding-bottom: 0;
 		}
 	}
-  .workshops--speaker-name {
-    display: block;
-    color: $brand-body;
-    font-weight: bold;
-    text-transform: uppercase;
-		font-size: auto;
+	.speaker-name {
+		display: block;
+		color: $brand-body;
+		font-weight: bold;
+		text-transform: uppercase;
 		margin-bottom: 7px;
 		@include mq(xs) {
 			text-align: center;
 		}
-  }
-  .workshops--speaker-title {
-    font-style: italic;
-  }
+	}
+}
+
+.workshops-index-page {
+	.workshops-index-page--item {
+		max-width: 640px;
+		padding-bottom: $standard-margin;
+		@include mq(xs) {
+			text-align: center;
+		}
+		@include mq(sm) {
+			padding-top: 20px;
+			padding-left: 65px;
+		}
+		@include mq(md) {
+			padding-left: 35px;
+		}
+		h1 {
+			@include mq(xs) {
+				text-align: center;
+				margin-top: 20px !important;
+			}
+			text-align: left;
+		}
+		h2 {
+			text-transform: uppercase;
+			font-family: NunitoSansSemiBold, sans-serif;
+			margin-bottom: 10px;
+			a {
+				color: #f0b310;
+				transition: color 0.2s ease 0s;
+				&:hover {
+					text-decoration: none;
+					color: #fdc33c;
+				}
+			}
+		}
+	}
 }
 
 //Workshop page (individual)
-.workshop-page {
-	margin-top: 30px;
-	.workshop-list {
-		margin-top: 0;
-		p.copy {
-			margin-top: 0;
-			text-align: left;
+.workshop-single-page {
+	margin-top: $standard-margin;
+	.content {
+		@include mq(sm){
+			margin-left: 45px;
 		}
-		.section-header {
-			margin-top: 0;
+		@include mq(md){
+			margin-left: 20px;
+		}
+		h1 {
 			margin-bottom: 10px;
+<<<<<<< HEAD
 		}
 	}
 
+=======
+			@include mq(xs){
+				text-align: center;
+			}
+			@include mq(sm){
+				text-align: left;
+			}
+		}
+	}
+>>>>>>> code-cleanup
 }
 
 //Schedule page
 .schedule {
-  width: 100%;
+	width: 100%;
+	.row {
+		margin: 0 auto;
+		max-width: 960px;
+	}
 }
 .final-row {
-  margin-bottom: 30px;
+  margin-bottom: $standard-margin;
 }
 .title-row {
   .title-cell-uncolored-cells {
@@ -1409,7 +1424,8 @@ footer {
   }
   h2 {
     font-size: 28px;
-    font-family: NunitoSansBold, sans-serif;
+		font-family: NunitoSansBold, sans-serif;
+		color: #000;
     text-transform: uppercase;
     margin-bottom: 0;
     @include mq(xs) {
@@ -1418,6 +1434,7 @@ footer {
     }
   }
   h3 {
+		font-size: 24px;
     margin-top: 0;
     @include mq(xs) {
       text-align: center;
@@ -1434,26 +1451,16 @@ footer {
 		text-align: center;
 		margin-top: 10px;
 	}
-	@include mq(sm) {
-		p {}
-		/*p {
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
-		}*/
-	}
 }
 
 .details {
   p {
-    font-size: 18px;
     em {
       font-size: 16px;
     }
   }
   a {
     color: #c49524;
-    //text-transform: uppercase;
     &:hover {
       color: #fdc33c;
       text-decoration: none;
@@ -1475,7 +1482,6 @@ footer {
     font-family: NunitoSansBold, sans-serif;
   }
   h5 {
-    font-size: 18px;
     font-family: NunitoSansSemiBold, sans-serif;
   }
   a {
@@ -1502,7 +1508,10 @@ footer {
   background-color: #008da7;
 }
 .talk-title {
-  font-size: 18px;
+	margin-bottom: $half-margin;
+	a {
+		font-family: NunitoSansSemiBold, sans-serif;
+	}
   em {
     font-size: 16px;
   }
@@ -1608,7 +1617,6 @@ footer {
 // CFP
 .cfp-cta {
   font-family: NunitoSansExtraBold, sans-serif;
-  font-size: 18px;
   margin: 0 0 4px 0;
   	a {
   		color: #fdc33c;
@@ -1621,12 +1629,17 @@ footer {
   font-family: NunitoSansSemiBold, sans-serif !important;
   border-radius: 0;
   color: $brand-white;
+<<<<<<< HEAD
   font-size: 18px;
   // padding: 15;
+=======
+  font-size: 20px;
+  padding: 20px $standard-margin 20px $standard-margin;
+>>>>>>> code-cleanup
   text-decoration: none;
   text-transform: uppercase;
   border: 0;
-  margin-bottom: 25px;
+  margin-bottom: $standard-margin;
 }
 
 .btn:hover {
@@ -1645,8 +1658,8 @@ footer {
     }
     .btn-title {
       color: #fdc33c;
-      font-family: NunitoSansBold, sans-serif;
-      font-size: 18px;
+			font-family: NunitoSansBold, sans-serif;
+			font-size: 18px;
     }
     .btn-date {
       font-size: 16px;
@@ -1663,12 +1676,13 @@ footer {
   margin: 0 auto;
   max-width: 960px;
   margin-bottom: 40px;
-  h2 {
+  .header {
+		display: block;
     font-size: 24px;
     font-family: NunitoSansBold, sans-serif;
     color: $brand-body;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: $standard-margin;
 	}
 
   //these two classes apparently do something in the mailchimp code snippet, but lets make them work with our layout
@@ -1683,12 +1697,11 @@ footer {
   input[type=email] {
 	 background-color: $brand-background;
    border: 1px solid $brand-body;
-   font-size: 18px;
    padding: 15px;
    margin-right: 10px;
    @include mq(xs) {
      width: 80%;
-     margin-bottom: 30px;
+     margin-bottom: $standard-margin;
    }
    @include mq(sm) {
      width: 350px;
@@ -1702,15 +1715,14 @@ footer {
     font-family: NunitoSansSemiBold, sans-serif;
     background-color: $brand-blue;
     border: 0;
-    font-size: 18px;
     padding: 15px;
     &:hover {
       color: $brand-button-link-hover;
     }
 	}
   #mce-error-response, #mce-success-response {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: $standard-margin;
+    margin-bottom: $standard-margin;
   }
 }
 .section.home-videos {
@@ -1739,17 +1751,14 @@ strong {
 
 .homepage-video {
 	max-width: 750px;
-	margin: 50px auto 0 auto;
+	margin: $standard-margin auto 0 auto;
 }
 
 /* sponsor subfooter section on homepage and second level pages */
 .sponsor-section {
 	background-color: #fff;
-	padding: 30px 0 30px 0;
+	padding: $standard-margin 0 $standard-margin 0;
 	text-align: center;
-	.section-header {
-		font-size: 18px;
-	}
 	.item {
 		@include mq(xs) {
 			display: block;
@@ -1865,7 +1874,7 @@ strong {
 }
 
 //venue specific styles
-// Location page
+
 .venue.hero {
 	background-image: url('../img/Explore DDD-website-Location page-Header-image.png');
 	background-size: cover;
@@ -1876,7 +1885,11 @@ strong {
 	text-align: center;
 	.btn {
 		display: inline-block;
+<<<<<<< HEAD
 		padding: 15px 20px 15px 20px;
+=======
+		padding: 15px;
+>>>>>>> code-cleanup
 	}
 }
 .get-ticket-btn { //same style as reserve button on venue page above.
@@ -1884,16 +1897,12 @@ strong {
 		margin-bottom: 0;
 		padding: 15px 20px 15px 20px;
 }
-.spacer {
-	margin-top: 30px;
-}
 
 //blockquote styling
 
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid $brand-blue;
-  //margin: 1.5em 10px;
   padding: 15px;
 	quotes: "\201C""\201D""\2018""\2019";
 	text-align: left;
@@ -1913,7 +1922,6 @@ blockquote p:first-child:after {
 		font-size: 4em;
 		line-height: 0.1em;
 		margin-top: 0.6em;
-		//vertical-align: -0.4em;
 }
 blockquote p:first-child {
 	margin-bottom: 0;
@@ -1929,6 +1937,6 @@ blockquote .quote-source {
 	color: $brand-body-link !important;
 }
 
-.video-hero {
-
+.styleguide--label {
+	border-bottom: 1px solid #cdcdcd;
 }
