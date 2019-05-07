@@ -83,7 +83,7 @@ h1 {
 h2 {
 	font-family: NunitoSansBold, sans-serif;
 	color: $brand-blue;
-	font-size: 24px;
+	font-size: 18px;
 	text-transform: uppercase;
 	//margin-top: $standard-margin;
 	margin-top: 0;
@@ -499,7 +499,7 @@ s
 	}
 }
 
-.section-subheader {
+/* .section-subheader {
 	color: $brand-subheader;
 	font-family: NunitoSansBold, sans-serif;
 	text-align: center;
@@ -508,7 +508,7 @@ s
 	&:hover {
 		color: $brand-reverse-link;
 	}
-}
+} */
 
 .copy, blockquote {
 	display: block;
@@ -663,6 +663,13 @@ figure {
 // Speaker section
 
 .section.speakers {
+	h2 {
+		font-size: 24px; //this may be best served as a reference to a font-size variable since its the same size as an h1
+		@include mq(xs) {
+			margin-bottom: $half-margin;
+		}
+	}
+
 	.row {
 		&:first-child {
       margin-top: 32px;
@@ -1277,9 +1284,9 @@ footer {
 .workshops-index-page {
 	.workshops-index-page--item {
 		max-width: 640px;
-		padding-bottom: $standard-margin;
 		@include mq(xs) {
 			text-align: center;
+			padding-bottom: 0;
 		}
 		@include mq(sm) {
 			padding-top: 20px;
@@ -1287,6 +1294,9 @@ footer {
 		}
 		@include mq(md) {
 			padding-left: 35px;
+		}
+		p {
+			margin-bottom: $half-margin;
 		}
 		h1 {
 			@include mq(xs) {
@@ -1299,6 +1309,12 @@ footer {
 			text-transform: uppercase;
 			font-family: NunitoSansSemiBold, sans-serif;
 			margin-bottom: 10px;
+			@include mq(xs) {
+				margin-top: $standard-margin;
+			}
+			@include mq(sm) {
+				margin-top: $half-margin;
+			}
 			a {
 				color: #f0b310;
 				transition: color 0.2s ease 0s;
@@ -1691,8 +1707,13 @@ strong {
 /* sponsor subfooter section on homepage and second level pages */
 .sponsor-section {
 	background-color: #fff;
-	padding: $standard-margin 0 $standard-margin 0;
+	padding: $half-margin 0 $standard-margin 0;
 	text-align: center;
+	h3 {
+		text-transform: uppercase;
+		color: $brand-blue;
+
+	}
 	.item {
 		@include mq(xs) {
 			display: block;
