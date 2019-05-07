@@ -126,13 +126,9 @@ html, body {
 
 body {
 	background-color: $brand-background;
-<<<<<<< HEAD
-	font-family: NunitoSansSemiBold, sans-serif;
-=======
 	font-family: NunitoSansLight, sans-serif;
 	font-size: $body-size;
 	line-height: 1.22em;
->>>>>>> code-cleanup
 	color: $brand-body;
 	overflow-x: hidden;
 	padding-top: 51px;
@@ -318,14 +314,6 @@ s
 	}
 }
 
-<<<<<<< HEAD
-}
-.nav-container {
-
-
-}
-=======
->>>>>>> code-cleanup
 .navbar-collapse {
 	text-align: center;
 	padding-bottom: 10px;
@@ -1261,52 +1249,9 @@ footer {
 //Venue
 
 //Workshops
-<<<<<<< HEAD
-.workshops {
-  p {
-    text-align: left;
-  }
-}
-.workshop-list {
-	max-width: 640px;
-	padding-bottom: 30px;
-	@include mq(xs) {
-		text-align: center;
-	}
-  @include mq(sm) {
-    padding-top: 20px;
-		padding-left: 65px;
-  }
-  @include mq(md) {
-    padding-left: 35px;
-	}
-	.section-header {
-		@include mq(xs) {
-			text-align: center;
-			margin-top: 20px !important;
-		}
-		text-align: left;
-
-	}
-  h2 {
-    text-transform: uppercase;
-    font-family: NunitoSansSemiBold, sans-serif;
-		font-size: 24px;
-    a {
-      color: #f0b310;
-      transition: color 0.2s ease 0s;
-      &:hover {
-        text-decoration: none;
-        color: #fdc33c;
-      }
-    }
-	}
-	.workshops--duration {
-=======
 
 .workshops-index-page, .workshop-single-page {
 	.duration {
->>>>>>> code-cleanup
 		display: block;
 		color: $brand-blue;
 		font-weight: 500;
@@ -1378,11 +1323,6 @@ footer {
 		}
 		h1 {
 			margin-bottom: 10px;
-<<<<<<< HEAD
-		}
-	}
-
-=======
 			@include mq(xs){
 				text-align: center;
 			}
@@ -1391,7 +1331,6 @@ footer {
 			}
 		}
 	}
->>>>>>> code-cleanup
 }
 
 //Schedule page
@@ -1629,13 +1568,7 @@ footer {
   font-family: NunitoSansSemiBold, sans-serif !important;
   border-radius: 0;
   color: $brand-white;
-<<<<<<< HEAD
   font-size: 18px;
-  // padding: 15;
-=======
-  font-size: 20px;
-  padding: 20px $standard-margin 20px $standard-margin;
->>>>>>> code-cleanup
   text-decoration: none;
   text-transform: uppercase;
   border: 0;
@@ -1885,11 +1818,7 @@ strong {
 	text-align: center;
 	.btn {
 		display: inline-block;
-<<<<<<< HEAD
 		padding: 15px 20px 15px 20px;
-=======
-		padding: 15px;
->>>>>>> code-cleanup
 	}
 }
 .get-ticket-btn { //same style as reserve button on venue page above.
