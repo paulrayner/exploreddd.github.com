@@ -2,7 +2,6 @@
 layout: layout-tier2.html
 ---
 <div class="container section workshop-single-page">
-    <!-- begin workshop element -->
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
@@ -42,9 +41,8 @@ layout: layout-tier2.html
                     <li>From sticky notes to working software. When to go for a sophisticated architecture.</li>
                 </ul>
                 <div class="col-xs-12" align="center">
-                    <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
-                </div>
+                <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
             </div>
         </div>
     </div>
-</div> <!-- container -->
+</div>

@@ -5,67 +5,25 @@ layout: layout-tier2.html
   <div class="row">
     <div class="col-xs-12 col-sm-2">
       <div class="speaker-container">
-        <a href="../speakers/indu-alagarsamy.html"
-          ><div class="speaker-img indu-alagarsamy keep-color"></div
-        ></a>
+        <a href="../speakers/indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy keep-color"></div></a>
       </div>
     </div>
     <div class="col-xs-12 col-sm-8 content">
-      <h1 class="section-header">
-        Practical DDD: Make Your Software Systems Reliable Using NServiceBus
-      </h1>
-      <span class="speaker-name"
-        ><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></span
-      >
-      <span class="duration">1-Day Workshop<br />Wed, Sept 18</span>
-      <img
-        src="../img/workshop/Workshop-Indu-Alagarsamy.jpg"
-        class="speaker--workshop-content-img"
-        alt=""
-        style="margin-bottom: 30px"
-      />
-      <p>
-        Designing and developing complex software systems takes discipline.
-        Domain-Driven Design guides you with a certain set of fundamental
-        disciplines to navigate the complexities. Combining those disciplines
-        with a technology like messaging helps you to identify the bottlenecks
-        of your systems. For example, places where your system is temporally
-        coupled.
-      </p>
-      <p>
-        Gain practical knowledge on dealing with existing code bases, how to
-        reliably integrate with 3rd party services and how to model your code
-        using .NET, C# and NServiceBus to align with the ever changing business
-        processes.
-      </p>
-      <p>
-        Pair up and work on code exercises that will help you get a solid
-        understanding of these concepts so you can take this to your company and
-        start applying these practices right away.
-      </p>
+      <h1>Practical DDD: Make Your Software Systems Reliable Using NServiceBus</h1>
+      <p></p><span class="speaker-name"><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></span>
+      <span class="duration">1-Day Workshop<br />Wed, Sept 18</span></p>
+      <img src="../img/workshop/Workshop-Indu-Alagarsamy.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px" />
+      <p>Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled.</p>
+      <p>Gain practical knowledge on dealing with existing code bases, how to reliably integrate with 3rd party services and how to model your code using .NET, C# and NServiceBus to align with the ever changing business processes.</p>
+      <p>Pair up and work on code exercises that will help you get a solid understanding of these concepts so you can take this to your company and start applying these practices right away.</p>
       <h2 class="speaker-subheader">What You'll Learn</h2>
       <ul>
-        <li>
-          Useful message based architecture patterns that can help to solve
-          temporal coupling and provide other useful benefits such as
-          reliability and scalability especially when interacting with third
-          party web services.
-        </li>
-        <li>
-          How to effectively communicate between bounded contexts using events
-          to establish business processes. Learn how to use messages and events
-          to help drive the business process rather than the more traditional
-          models based on data structures and how they help evolve changing
-          business requirements using Domain-Driven design disciplines and the
-          saga messaging pattern.
-        </li>
+        <li>Useful message based architecture patterns that can help to solve temporal coupling and provide other useful benefits such as reliability and scalability especially when interacting with third party web services.</li>
+        <li>How to effectively communicate between bounded contexts using events to establish business processes. Learn how to use messages and events to help drive the business process rather than the more traditional models based on data structures and how they help evolve changing business requirements using Domain-Driven design disciplines and the saga messaging pattern.</li>
         <li>Strategies for dealing with existing codebases.</li>
       </ul>
       <blockquote>
-        <p>
-          Highly Informative; Excellent Exercises; Great content...Extremely
-          valuable for teams that are designing distributed systems.
-        </p>
+        <p>Highly Informative; Excellent Exercises; Great content...Extremely valuable for teams that are designing distributed systems.</p>
       </blockquote>
       <h2 class="speaker-subheader">Who Should Attend?</h2>
       <p>Developers, Tech leads or Architects</p>
@@ -76,9 +34,7 @@ layout: layout-tier2.html
         <li>Knowledge of NServiceBus is not required</li>
       </ul>
       <div class="col-xs-12" align="center">
-        <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019"
-          >REGISTER NOW</a
-        >
+        <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
       </div>
     </div>
   </div>

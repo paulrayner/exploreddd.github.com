@@ -9,9 +9,9 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 content">
-                <h1 class="section-header">Strategic DDD</h1>
-                <span class="speaker-name"><a href="../speakers/eric-evans.html">Eric Evans</a></span>
-                <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
+                <h1>Strategic DDD</h1>
+                <p><span class="speaker-name"><a href="../speakers/eric-evans.html">Eric Evans</a></span>
+                <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span></p>
                 <p>Some design decisions have an impact on the trajectory of the whole project. Modeling is most needed in complex circumstances, yet the typical dynamics of large projects too often derail it or disconnect it from the real design. This course delves into principles for clarifying the big picture, getting effort focused on the core, and coordinating multi-team development.</p>
                 <p>The target audience is IT Leaders, Development Managers, Enterprise Architects, Software Architects, Senior Developers and Development Leads. We recommend attendees have experience with large systems multi-team development. In this class you will learn how to:</p>
                 <ul>
@@ -21,7 +21,7 @@ layout: layout-tier2.html
                     <li>Develop multiple strategies for setting up a fresh project that can break with the past, even when the organization is tied to legacy systems.</li>
                 </ul>
                 <div class="col-xs-12" align="center">
-                    <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+                    <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
                 </div>
             </div>
         </div>

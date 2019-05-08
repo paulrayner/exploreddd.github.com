@@ -2,7 +2,6 @@
 layout: layout-tier2.html
 ---
 <div class="container section workshop-single-page">
-    <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
         <div class="speaker-container">
@@ -10,9 +9,9 @@ layout: layout-tier2.html
             </div>
         </div>
         <div class="col-xs-12 col-sm-8 content">
-            <h1 class="section-header">Code as a Crime Scene: Fix Technical Debt with Behavioral Code Analysis</h1>
-            <span class="speaker-name"><a href="../speakers/adam-tornhill.html">Adam Tornhill</a></span>
-            <span class="duration">1-Day Workshop<br>Wed, Sept 18</span>
+            <h1>Code as a Crime Scene: Fix Technical Debt with Behavioral Code Analysis</h1>
+            <p><span class="speaker-name"><a href="../speakers/adam-tornhill.html">Adam Tornhill</a></span>
+            <span class="duration">1-Day Workshop<br>Wed, Sept 18</span></p>
             <img src="../img/workshop/Workshop-Adam-Tornhill-1.jpg" class="speaker--workshop-content-img" alt="">
             <p>In this workshop you learn novel analysis techniques that support both technical and organizational decisions around your codebase. The techniques use data from the most underused informational source that we have in our industry: our version-control system. Combined with metaphors from forensic psychology you learn to analyze version-control data to:</p>
             <ul>
@@ -31,8 +30,8 @@ layout: layout-tier2.html
             <h2 class="speaker-subheader">Prerequisites</h2>
             <p>The workshop is language neutral. The target audience is architects, senior developers, and technical managers. While we won't write any code during the workshop, the participants need to be comfortable with reading code. Detailed preparations with installation instructions for the tools will be sent out in advance.</p>
             <div class="col-xs-12" align="center">
-                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+                <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
             </div>
         </div>
     </div>
-</div> <!-- container -->
+</div>
