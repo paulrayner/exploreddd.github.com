@@ -167,10 +167,10 @@ layout: layout.html
             <p class="speaker-details">Software Gardener</p>
         </div>
         <div class="speaker-container">
-            <a href="speakers/jessica-kerr.html"><div class="speaker-img jessica-kerr">
+            <a href="speakers/james-brayton.html"><div class="speaker-img james-brayton">
             </div></a>
-            <h3><a class="speaker-name" href="speakers/jessica-kerr.html">Jessica Kerr</a></h3>
-            <p class="speaker-details">Symmathecist</p>
+            <h3><a class="speaker-name" href="speakers/james-brayton.html">James Brayton</a></h3>
+            <p class="speaker-details">Code Incompletist</p>
         </div>
     </div>
     <div class="row">
@@ -289,12 +289,6 @@ layout: layout.html
             </div></a>
             <h3><a class="speaker-name" href="speakers/paul-rayner.html">Paul Rayner</a></h3>
             <p class="speaker-details">Domain Remodeler</p>
-        </div>
-        <div class="speaker-container">
-            <a href="speakers/james-brayton.html"><div class="speaker-img james-brayton">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/james-brayton.html">James Brayton</a></h3>
-            <p class="speaker-details">Code Incompletist</p>
         </div>
     </div>
 </div>
