@@ -106,8 +106,7 @@ layout: layout-tier2.html
 							<p>9:00 - 9:45</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/jessica-kerr.html">Jessica Kerr</a></h4>
-							<p class="talk-title"><a href="../speakers/jessica-kerr.html">Why Domain-Driven Design Matters</a></p>
+							<h4>TBA</h4>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/daniel-somerfield.html">Daniel Somerfield</a></h4>
