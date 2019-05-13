@@ -9,10 +9,8 @@ layout: layout.html
     </video>
     <div class="video-overlay"></div>
     <div class="homepage--hero-content">
-        <div class="homepage--hero-video-buttons">
-            <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">Register Now</a>
-        </div>
         <div class="conf-dates">
+            <!--<h2>Elevating Software Modeling &amp; Design</h2>-->
             <p class="conf-copy"><span class="conf-header">Conference</span>September 18 - 20, 2019</p>
             <p class="conf-copy"><span class="conf-header">Workshops</span>September 16 - 18, 2019</p>
             <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>

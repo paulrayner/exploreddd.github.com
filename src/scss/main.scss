@@ -191,7 +191,7 @@ s
 }
 
 .nav-logo {
-	background-image: url('../img/explore-ddd-logo-blue.png');
+	background-image: url('../img/ddd-logo-blue.svg');
 	margin: 3px auto;
 	height: 46px;
 	width: 160px;
@@ -567,7 +567,7 @@ figure {
 	@include mq(xs){
 		background-position-x: 80%; //get background video poster/loading/mobile background more centrall
 	}
-	.video-overlay {
+	/*.video-overlay {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -578,7 +578,7 @@ figure {
 		@include mq(xs){
 			display: none;
 		}
-	}
+	}*/
 	.video-item {
 		width: 100%;
 		height: auto;
