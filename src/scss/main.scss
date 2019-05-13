@@ -598,28 +598,7 @@ figure {
 		bottom: -15px;
 		width: 100%;
 		z-index: 4;
-		.homepage--hero-video-buttons {
-			text-align: center;
-			width: 100%;
-			.btn {
-				display: inline-block;
-				background-color: $brand-nav-button-background;
-				font-family: NunitoSansSemiBold, sans-serif !important;
-				border-radius: 0;
-				color: $brand-nav-button-text;
-				font-size: 15px;
-				padding: 10px 15px 10px 15px;
-				text-decoration: none;
-				text-transform: uppercase;
-				border: 0;
-				margin: 0 7px 15px 7px;
-				&:hover {
-					background-color: $brand-nav-button-background-hover;
-					color: $brand-nav-button-text-hover;
-				}
-			}
-		}
-		.conf-dates {
+		.big-text {
 			width: 100%;
 			background-color: transparentize($brand-blue, 0.5);
 			font-family: NunitoSans, sans-serif;
@@ -628,38 +607,6 @@ figure {
 			z-index: 2;
 			@include mq(xs) {
 				background-color: transparentize($brand-blue, 0.3);
-			}
-		}
-
-		.conf-header {
-			color: $brand-subheader;
-			display: block;
-			margin-bottom: 12px;
-			padding-right: 15px;
-			text-transform: uppercase;
-			@include mq(sm){
-				display: inline;
-			}
-		}
-		.conf-copy {
-			color: $brand-white;
-			font-size: 24px;
-			margin-bottom: 15px;
-			&:last-child {
-				padding-bottom: 25px;
-			}
-		}
-
-		.conf-contact {
-			@extend .conf-copy;
-			padding: 13px 0 15px;
-
-			a {
-				color: $brand-reverse-link;
-				&:hover {
-					color: $brand-reverse-link-hover;
-					text-decoration: none;
-				}
 			}
 		}
 	}
