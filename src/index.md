@@ -10,7 +10,7 @@ layout: layout.html
     <div class="video-overlay"></div>
     <div class="homepage--hero-content">
         <div class="big-text">
-            <h2>Elevating Software Modeling &amp; Design</h2>
+            <span class="byline">Elevating Software Modeling &amp; Design</span>
         </div>
     </div>
 </div>

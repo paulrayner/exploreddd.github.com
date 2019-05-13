@@ -599,6 +599,9 @@ figure {
 		width: 100%;
 		z-index: 4;
 		.big-text {
+			.byline {
+
+			}
 			width: 100%;
 			background-color: transparentize($brand-blue, 0.5);
 			font-family: NunitoSans, sans-serif;
