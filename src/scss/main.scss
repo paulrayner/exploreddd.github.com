@@ -562,9 +562,9 @@ figure {
 	overflow: hidden;
 	padding-left: 0;
 	padding-right: 0;
-	background-image: url('../video/video-poster.jpg');
-	background-size: cover;
 	@include mq(xs){
+		background-image: url('../video/video-poster.jpg');
+		background-size: cover;
 		background-position-x: 80%; //get background video poster/loading/mobile background more centrall
 	}
 	/*.video-overlay {
