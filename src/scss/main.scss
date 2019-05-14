@@ -4,7 +4,8 @@ $body-size: 18px;
 $standard-margin: 30px;
 $half-margin: 15px;
 
-$brand-blue: #0082c8;
+//$brand-blue: #0082c8;
+$brand-blue: rgb(0,130,200);
 $brand-white: #fff;
 $brand-body: #000000;
 
@@ -17,7 +18,7 @@ $brand-reverse-link-hover: #f0b310;
 $brand-button-link: #fff;
 $brand-button-link-hover: #ffc423;
 //sort out these different button color names/conventions
-$brand-nav-button-text: #0082c8;
+$brand-nav-button-text: $brand-blue;
 $brand-nav-button-text-hover: #2e9bd3;
 $brand-nav-button-background: #ace0f0;
 $brand-nav-button-background-hover: #9bd7ec;
@@ -618,12 +619,17 @@ figure {
 	}
 }
 
-.homepage--why-you-should-attend {
+.homepage--intro-text, .homepage--why-you-should-attend {
 	max-width: 700px;
 	margin: 0 $half-margin;
 	@include mq(sm) {
 		margin: 0 auto;
 	}
+}
+
+.homepage--intro-text {
+	margin-top: $standard-margin;
+	text-align: center;
 }
 
 // Speaker section
@@ -1657,7 +1663,6 @@ footer {
 
 .homepage-video {
 	max-width: 750px;
-	margin: $standard-margin auto 0 auto;
 }
 
 /* sponsor subfooter section on homepage and second level pages */
