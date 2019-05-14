@@ -595,22 +595,25 @@ figure {
 	}
 	.homepage--hero-content {
 		position: absolute;
-		bottom: -15px;
+		bottom: 0;
 		width: 100%;
 		z-index: 4;
+		width: 100%;
+		background-color: transparentize($brand-blue, 0.5);
+		font-family: NunitoSans, sans-serif;
+		padding-top: $half-margin;
+		padding-bottom: $half-margin;
+		text-align: center;
+		z-index: 2;
 		.big-text {
-			.byline {
-
-			}
-			width: 100%;
-			background-color: transparentize($brand-blue, 0.5);
-			font-family: NunitoSans, sans-serif;
-			padding-top: 24px;
-			text-align: center;
-			z-index: 2;
-			@include mq(xs) {
-				background-color: transparentize($brand-blue, 0.3);
-			}
+			font-size: 40px;
+			font-family: NunitoSansBold, sans-serif;
+			color: white;
+			text-transform: uppercase;
+			line-height: 50px;
+		}
+		@include mq(xs) {
+			background-color: transparentize($brand-blue, 0.3);
 		}
 	}
 }

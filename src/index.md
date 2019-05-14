@@ -9,9 +9,7 @@ layout: layout.html
     </video>
     <div class="video-overlay"></div>
     <div class="homepage--hero-content">
-        <div class="big-text">
-            <span class="byline">Elevating Software Modeling &amp; Design</span>
-        </div>
+        <div class="big-text">Elevating Software<br>Modeling &amp; Design</div>
     </div>
 </div>
 <div class="container section homepage-video">
