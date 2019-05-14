@@ -14,7 +14,7 @@ layout: layout.html
 </div>
 <div class="container homepage--intro-text">
     <div class="row">
-        <p><strong>Only Explore DDD brings together the world's best software architects, developers, technical leaders, and industry experts for three days of in-depth workshops, best-in-class learning and unparalleled community. Will you be there?</strong></p>
+        <p style="font-size: 20px;"><strong>Only Explore DDD brings together the world's best software architects, developers, technical leaders, and industry experts for three days of in-depth workshops, best-in-class learning and unparalleled community. Will you be there?</strong></p>
         <a href="https://ti.to/eddd/explore-ddd-2019" class="btn">Register Now</a>
         <p>"Attending Explore DDD really accelerated our understanding of how to better model our business domains and better architect not just our product but also our teams."</p>
         <p><em>&#8212; Alex Gemmell, PatientPop</em></p>
