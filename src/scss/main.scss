@@ -204,16 +204,19 @@ s
 
 .nav-logo {
 	background-image: url('../img/ddd-logo-blue.svg');
-	margin: 3px auto;
 	height: 46px;
 	width: 160px;
 	@include ir();
+	@include mq(xs) {
+		margin: 7px auto 0px auto;
+	}
 	@include mq(sm) {
 		height: 37px;
 		margin: 8px 0 0 0;
 		width: 144px;
 	}
 	@include mq(md) {
+		margin: 3px auto;
 		height: 46px;
 		margin: 13px 0 0 0;
 		width: 180px;
@@ -262,12 +265,10 @@ s
 	@include mq(lg) {
 		line-height: 100px;
 	}
-
 	a {
 		color: $brand-blue; //not working
 		cursor: pointer;
 		text-decoration: none;
-
 		&:hover {
 			color: $brand-nav-hover;
 		}
@@ -285,9 +286,6 @@ s
 	}
 	&:last-child {
 		line-height: normal;
-		@include mq(xs){
-			// padding-left: 12px;
-		}
 		a {
 			color: $brand-white;
 			margin-bottom: 0;
@@ -367,10 +365,6 @@ s
       left: 10px;
     }
   }
-}
-.register-now {
-	margin-top: $half-margin;
-	border: 1px solid red;
 }
 
 .section {
@@ -518,14 +512,20 @@ figure {
 .homepage--top-bar {
 	width: 100%;
 	position: fixed;
-	top: 100 px;
 	z-index: 4;
-	padding-top: $half-margin;
-	padding-bottom: $half-margin;
+	font-size: 16px;
+	padding-top: $quarter-margin;
+	padding-bottom: $quarter-margin;
 	background-color: $brand-blue;
 	color: $brand-white;
 	font-family: NunitoSans, sans-serif;
 	text-align: center;
+	@include mq(md){
+		top: 75px;
+	}
+	@include mq(lg){
+		top: 100px;
+	}
 	ul {
 		margin: 0;
 		padding: 0;
@@ -533,41 +533,39 @@ figure {
 		li {
 			display: inline-block;
 			margin: 0;
-			margin-right: $standard-margin;
+			@include mq(xs){
+				margin-right: 12px;
+				font-size: 14px;
+			}
+			@include mq(sm){
+				margin-right: $standard-margin;
+
+			}
 			padding: 0;
 			&:last-child {
-				position: relative;
 				margin-right: 0;
-				margin-left: $standard-margin;
-				a {
-					// margin-top: 5px;
-				}
 			}
-			a.linkedin, a.twitter, a.hashtag {
-				position: absolute;
+		}
+		.linkedin {
+			margin-right: 0px;
+			margin-top: 5px;
+			a {
 				display: inline-block;
-
-				span {
-					display: none; //hide link text unless css is disabled (or someone is using a screen reader)
-				}
+				width: 20px;
+				height: 20px;
 			}
-			a.linkedin {
-				top: -20px;
-				left: -30px;
-				width: 34px;
-				height: 34px;
-				background-image: url('../img/linkedin.svg');
+		}
+		.twitter {
+			margin-right: 0;
+			a {
+				display: inline-block;
+				width: 20px;
+				height: 20px;
 			}
-			a.twitter {
-				top: -15px;
-				left: 30px;
-				width: 25px;
-				height: 25px;
-				background-image: url('../img/twitter.svg');
-			}
-			.hashtag {
-				left: 50px;
-			}
+		}
+		li.hashtag {
+			color: $brand-white;
+			a { color: $brand-white;}
 		}
 	}
 }
