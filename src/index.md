@@ -3,9 +3,13 @@ layout: layout.html
 ---
 <div class="homepage--top-bar">
     <ul>
-        <li>Sept 16-20, 2019</li>
+        <!-- <li>Sept 16-20, 2019</li>
         <li>Grand Hyatt | Denver, CO</li>
-        <li><span class="linkedin"></span><span class="twitter"></span>#EDDD</li>
+        <li>
+            <a href="" class="linkedin" title="Explore DDD LinkedIn"><span>Explore DDD LinkedIn</span><a>
+            <a href="https://twitter.com/ExploreDDD" class="twitter" title="Explore DDD Twitter"><span>Explore DDD Twitter</span></a>
+            <a href="#" class="hashtag">#EDDD</a>
+        </li> -->
     </ul>
 </div>
 <div class="container-fluid homepage--hero-video-container">
