@@ -1,6 +1,13 @@
 ---
 layout: layout.html
 ---
+<div class="homepage--top-bar">
+    <ul>
+        <li>Sept 16-20, 2019</li>
+        <li>Grand Hyatt | Denver, CO</li>
+        <li><span class="linkedin"></span><span class="twitter"></span>#EDDD</li>
+    </ul>
+</div>
 <div class="container-fluid homepage--hero-video-container">
     <video loop muted autoplay class="video-item">
         <source src="video/background-video.webm" type="video/webm">
@@ -8,7 +15,7 @@ layout: layout.html
         <source src="video/background-video.ogv" type="video/ogg">
     </video>
     <div class="video-overlay"></div>
-    <div class="homepage--hero-content">
+    <div class="homepage--big-text">
         <div class="big-text">Elevating Software<br>Modeling &amp; Design</div>
     </div>
 </div>
