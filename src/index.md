@@ -12,7 +12,7 @@ layout: layout.html
             <a href="https://twitter.com/ExploreDDD" title="Explore DDD Twitter"><img src="img/twitter.svg"></a>
         </li>
         <li class="hashtag">
-            <a href="#">#EDDD</a>
+            <a href="https://twitter.com/hashtag/EDDD">#EDDD</a>
         </li>
     </ul>
 </div>
