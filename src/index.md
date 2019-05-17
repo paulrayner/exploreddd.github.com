@@ -1,6 +1,21 @@
 ---
 layout: layout.html
 ---
+<div class="homepage--top-bar">
+    <ul>
+        <li>September 16-20, 2019</li>
+        <li>Grand Hyatt | Denver, CO</li>
+        <li class="linkedin">
+            <a href="https://www.linkedin.com/company/exploreddd/" title="Explore DDD LinkedIn"><img src="img/linkedin.svg"></a>
+        </li>
+        <li class="twitter">
+            <a href="https://twitter.com/ExploreDDD" title="Explore DDD Twitter"><img src="img/twitter.svg"></a>
+        </li>
+        <li class="hashtag">
+            <a href="https://twitter.com/hashtag/EDDD">#EDDD</a>
+        </li>
+    </ul>
+</div>
 <div class="container-fluid homepage--hero-video-container">
     <video loop muted autoplay class="video-item">
         <source src="video/background-video.webm" type="video/webm">
@@ -8,15 +23,16 @@ layout: layout.html
         <source src="video/background-video.ogv" type="video/ogg">
     </video>
     <div class="video-overlay"></div>
-    <div class="homepage--hero-content">
-        <div class="homepage--hero-video-buttons">
-            <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">Register Now</a>
-        </div>
-        <div class="conf-dates">
-            <p class="conf-copy"><span class="conf-header">Conference</span>September 18 - 20, 2019</p>
-            <p class="conf-copy"><span class="conf-header">Workshops</span>September 16 - 18, 2019</p>
-            <p class="conf-copy">Grand Hyatt – Denver, Colorado, USA</p>
-        </div>
+    <div class="homepage--big-text">
+        <div class="big-text">Elevating Software<br>Modeling &amp; Design</div>
+    </div>
+</div>
+<div class="container homepage--intro-text">
+    <div class="row">
+        <p style="font-size: 20px;"><strong>Only Explore DDD brings together the world's best software architects, developers, technical leaders, and industry experts for three days of in-depth workshops, best-in-class learning and unparalleled community. Will you be there?</strong></p>
+        <a href="https://ti.to/eddd/explore-ddd-2019" class="btn">Register Now</a>
+        <p>"Attending Explore DDD really accelerated our understanding of how to better model our business domains and better architect not just our product but also our teams."</p>
+        <p><em>&#8212; Alex Gemmell, PatientPop</em></p>
     </div>
 </div>
 <div class="container section homepage-video">

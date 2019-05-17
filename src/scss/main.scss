@@ -4,10 +4,16 @@ $body-size: 18px;
 $big: 24px;
 $standard-margin: 30px;
 $half-margin: 15px;
+$quarter-margin: 7px;
 
-$brand-blue: #0082c8;
+//$brand-blue: #0082c8;
+$brand-blue: rgb(0,130,200);
+$brand-yellow: rgb(240,179,16);
 $brand-white: #fff;
 $brand-body: #000000;
+
+$brand-nav-hover: #ffc423;
+$brand-background: #e5f2f9;
 
 $brand-body-link: #f0b310;
 $brand-body-link-hover: #ffc423;
@@ -15,18 +21,24 @@ $brand-body-link-hover: #ffc423;
 $brand-reverse-link: #ffc423;
 $brand-reverse-link-hover: #f0b310;
 
-$brand-button-link: #fff;
-$brand-button-link-hover: #ffc423;
-//sort out these different button color names/conventions
-$brand-nav-button-text: #0082c8;
-$brand-nav-button-text-hover: #2e9bd3;
-$brand-nav-button-background: #ace0f0;
-$brand-nav-button-background-hover: #9bd7ec;
 
-$brand-subheader: #ffc423;
-
-$brand-nav-hover: #ffc423;
-$brand-background: #e5f2f9;
+%btn {
+	font-family: NunitoSansSemiBold, sans-serif !important;
+	font-size: $body-size;
+	color: $brand-white;
+	background-color: $brand-yellow;
+	text-transform: uppercase;
+	padding: $quarter-margin $half-margin;
+	border: 0;
+	border-radius: 0;
+	&:hover {
+		transition: background 0.2s;
+		//color: #2e9bd3;
+		color: $brand-white;
+		// background-color: #9bd7ec;
+		background-color: $brand-blue;
+	}
+}
 
 @font-face {
 	font-family: 'NunitoSansSemiBold';
@@ -129,7 +141,7 @@ html, body {
 }
 
 body {
-	background-color: $brand-background;
+	background-color: $brand-white;
 	font-family: NunitoSansLight, sans-serif;
 	font-size: $body-size;
 	line-height: 1.22em;
@@ -148,6 +160,7 @@ body {
 	}
 	a {
 		color: $brand-body-link;
+		font-family: 'NunitoSansSemiBold';
 		text-decoration: none;
 		&:hover {
 			color: $brand-body-link-hover;
@@ -188,21 +201,24 @@ s
 }
 
 .icon-bar {
-	background-color: #fff8e9;
+	background-color: $brand-blue ;
 }
 
 .nav-logo {
-	background-image: url('../img/ddd-logo.svg');
-	margin: 3px auto;
+	background-image: url('../img/ddd-logo-blue.svg');
 	height: 46px;
 	width: 160px;
 	@include ir();
+	@include mq(xs) {
+		margin: 7px auto 0px auto;
+	}
 	@include mq(sm) {
 		height: 37px;
 		margin: 8px 0 0 0;
 		width: 144px;
 	}
 	@include mq(md) {
+		margin: 3px auto;
 		height: 46px;
 		margin: 13px 0 0 0;
 		width: 180px;
@@ -251,34 +267,40 @@ s
 	@include mq(lg) {
 		line-height: 100px;
 	}
-
 	a {
-		color: $brand-white;
+		color: $brand-blue; //not working
 		cursor: pointer;
 		text-decoration: none;
-
 		&:hover {
 			color: $brand-nav-hover;
 		}
 	}
-}
-
-.nav-list-item:not(:first-child) {
-	@include mq(sm){
-		padding-left: 12px;
+	&:not(:first-child) {
+		@include mq(sm){
+			padding-left: 5px;
+		}
+		@include mq(md){
+			padding-left: 10px;
+		}
+		@include mq(lg){
+			padding-left: 20px;
+		}
+	}
+	&:last-child {
+		line-height: normal;
+		a {
+			color: $brand-white;
+			margin-bottom: 0;
+			font-size: 14px;
+			@include mq(xs){
+				display: block;
+			}
+		}
 	}
 }
 
-
 .nav-btn {
-	background: $brand-nav-button-background;
-	color: $brand-nav-button-text;
-	display: block;
-	line-height: 30px;
-	padding: 0 10px;
-	text-align: center;
-	text-transform: uppercase;
-	transition: background 0.2s;
+	@extend %btn;
 	@include mq(xs) {
 		margin-top: $half-margin;
 		font-size: 14px;
@@ -286,34 +308,27 @@ s
 	@include mq(sm) {
 		display: inline-block;
 		font-size: 14px;
-		line-height: 60px;
+		//line-height: 60px;
 		margin-left: 20px;
 		float: right;
 	}
 	@include mq(md) {
 		font-size: $body-size;
-		line-height: 75px;
+		//line-height: 75px;
 	}
 	@include mq(lg) {
-		line-height: 100px;
-	}
-
-	&:hover {
-		background: $brand-nav-button-background-hover;
-		color: $brand-nav-button-text-hover;
-		text-decoration: none;
+		//line-height: 100px;
 	}
 }
 
 .navbar {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#452e26+0,452e26+50,573c27+100 */
-	background: #0082c8; /* Old browsers */
-	//background: -moz-linear-gradient(top,  #452e26 0%, #452e26 50%, #573c27 100%); /* FF3.6-15 */
-	//background: -webkit-linear-gradient(top,  #452e26 0%,#452e26 50%,#573c27 100%); /* Chrome10-25,Safari5.1-6 */
-	//background: linear-gradient(to bottom,  #452e26 0%,#452e26 50%,#573c27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#452e26, endColorstr='#573c27',GradientType=0 ); /* IE6-9 */
-
+	background: $brand-white;
 	font-family: NunitoSansSemiBold, sans-serif;
+	li {
+		a {
+			color: $brand-blue;
+		}
+	}
 	@include mq(sm){
 		max-height: 60px;
 	}
@@ -334,42 +349,6 @@ s
 	}
 }
 
-/* begin submenu stuff */
-
-.nav-submenu {
-	background-color: #fff8e9;
-	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
-	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
-	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.29);
-	color: $brand-body;
-	display: block;
-	list-style-type: none;
-	margin: 0 -15px;
-	max-height: 0;
-	overflow: hidden;
-	padding: 0 0 0 10px;
-	text-align: left;
-	transition: all 0.2s;
-	@include mq(sm) {
-		left: -5px;
-		position: absolute;
-		top: 50px;
-		white-space: nowrap;
-	}
-  @include mq(md) {
-		position: absolute;
-		top: 60px;
-		white-space: nowrap;
-	}
-  @include mq(lg) {
-		position: absolute;
-		top: 75px;
-		white-space: nowrap;
-	}
-	a {
-		color: $brand-body;
-	}
-}
 .nav-list {
 	@include mq(xs) {
 		margin-top: $half-margin;
@@ -388,23 +367,6 @@ s
       left: 10px;
     }
   }
-}
-
-.nav-list-item.open {
-	.nav-submenu {
-		max-height: 300px;
-		padding: 10px 20px 10px 20px;
-	}
-	.submenu-toggle {
-		opacity: 1;
-		transform: rotate(90deg);
-	}
-}
-
-.submenu-item {
-	@include mq(sm) {
-		line-height: 30px;
-	}
 }
 
 .section {
@@ -516,25 +478,11 @@ s
 	}
 }
 
-/* .section-subheader {
-	color: $brand-subheader;
-	font-family: NunitoSansBold, sans-serif;
-	text-align: center;
-	text-transform: uppercase;
-	transition: color 0.2s;
-	&:hover {
-		color: $brand-reverse-link;
-	}
-} */
-
 .copy, blockquote {
 	display: block;
 	margin: 0 auto 23px;
 	max-width: 700px;
 	text-align: center;
-}
-figcaption a {
-	font-family: 'NunitoSansSemiBold' !important;
 }
 .copy-list {
 	display: block;
@@ -560,28 +508,87 @@ figure {
 	}
 }
 
+.homepage--top-bar {
+	width: 100%;
+	position: fixed;
+	z-index: 4;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: $quarter-margin;
+	background-color: $brand-blue;
+	color: $brand-white;
+	font-family: NunitoSans, sans-serif;
+	text-align: center;
+	@include mq(md){
+		top: 75px;
+	}
+	@include mq(lg){
+		top: 100px;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		li {
+			display: inline-block;
+			margin: 0;
+			@include mq(xs){
+				margin-right: 12px;
+				font-size: 14px;
+			}
+			@include mq(sm){
+				margin-right: $standard-margin;
+
+			}
+			padding: 0;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		.linkedin {
+			margin-right: 0px;
+			a {
+				display: inline-block;
+				width: 22px;
+				height: 22px;
+				img {
+					margin-top: -4px;
+				}
+			}
+		}
+		.twitter {
+			margin-right: 0;
+			a {
+				display: inline-block;
+				width: 22px;
+				height: 22px;
+				img {
+					margin-top: -4px;
+				}
+			}
+		}
+		li.hashtag {
+			color: $brand-white;
+			a {
+				color: $brand-white;
+				&:hover {
+					color: $brand-yellow;
+				}
+			}
+		}
+	}
+}
+
 .homepage--hero-video-container {
 	position: relative;
 	height: 600px;
 	overflow: hidden;
 	padding-left: 0;
 	padding-right: 0;
-	background-image: url('../video/video-poster.jpg');
-	background-size: cover;
 	@include mq(xs){
+		background-image: url('../video/video-poster.jpg');
+		background-size: cover;
 		background-position-x: 80%; //get background video poster/loading/mobile background more centrall
-	}
-	.video-overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0) 100%);
-		z-index: 1;
-		@include mq(xs){
-			display: none;
-		}
 	}
 	.video-item {
 		width: 100%;
@@ -597,84 +604,42 @@ figure {
 			height: 100%;
 		}
 	}
-	.homepage--hero-content {
+	.homepage--big-text {
 		position: absolute;
-		bottom: -15px;
+		bottom: 0;
 		width: 100%;
 		z-index: 4;
-		.homepage--hero-video-buttons {
-			text-align: center;
-			width: 100%;
-			.btn {
-				display: inline-block;
-				background-color: $brand-nav-button-background;
-				font-family: NunitoSansSemiBold, sans-serif !important;
-				border-radius: 0;
-				color: $brand-nav-button-text;
-				font-size: 15px;
-				padding: 10px 15px 10px 15px;
-				text-decoration: none;
-				text-transform: uppercase;
-				border: 0;
-				margin: 0 7px 15px 7px;
-				&:hover {
-					background-color: $brand-nav-button-background-hover;
-					color: $brand-nav-button-text-hover;
-				}
-			}
-		}
-		.conf-dates {
-			width: 100%;
-			background-color: transparentize($brand-blue, 0.5);
-			font-family: NunitoSans, sans-serif;
-			padding-top: 24px;
-			text-align: center;
-			z-index: 2;
-			@include mq(xs) {
-				background-color: transparentize($brand-blue, 0.3);
-			}
-		}
-
-		.conf-header {
-			color: $brand-subheader;
-			display: block;
-			margin-bottom: 12px;
-			padding-right: 15px;
+		background-color: transparentize($brand-blue, 0.5);
+		font-family: NunitoSans, sans-serif;
+		padding-top: $half-margin;
+		padding-bottom: $half-margin;
+		text-align: center;
+		z-index: 2;
+		.big-text {
+			font-size: 40px;
+			font-family: NunitoSansBold, sans-serif;
+			color: white;
 			text-transform: uppercase;
-			@include mq(sm){
-				display: inline;
-			}
+			line-height: 50px;
 		}
-		.conf-copy {
-			color: $brand-white;
-			font-size: 24px;
-			margin-bottom: 15px;
-			&:last-child {
-				padding-bottom: 25px;
-			}
-		}
-
-		.conf-contact {
-			@extend .conf-copy;
-			padding: 13px 0 15px;
-
-			a {
-				color: $brand-reverse-link;
-				&:hover {
-					color: $brand-reverse-link-hover;
-					text-decoration: none;
-				}
-			}
+		@include mq(xs) {
+			background-color: transparentize($brand-blue, 0.3);
 		}
 	}
 }
 
-.homepage--why-you-should-attend {
+.homepage--intro-text, .homepage--why-you-should-attend {
 	max-width: 700px;
 	margin: 0 $half-margin;
 	@include mq(sm) {
 		margin: 0 auto;
 	}
+}
+
+.homepage--intro-text {
+	max-width: 885px;
+	margin-top: $standard-margin;
+	text-align: center;
 }
 
 // Speaker section
@@ -1590,24 +1555,12 @@ footer {
   	}
 }
 
-//some button styles
+//default button style
 .btn {
-  background: $brand-blue;
-  font-family: NunitoSansSemiBold, sans-serif !important;
-  border-radius: 0;
-  color: $brand-white;
-  font-size: 18px;
-  text-decoration: none;
-  text-transform: uppercase;
-	border: 0;
-	padding: $half-margin;
-  margin-bottom: $standard-margin;
+	@extend %btn;
+	margin-bottom: $standard-margin;
 }
 
-.btn:hover {
-  text-decoration: none;
-  color: #fdc33c;
-}
 .buttons {
   text-align: center;
   .schedule-btn {
@@ -1659,7 +1612,7 @@ footer {
   input[type=email] {
 	 background-color: $brand-background;
    border: 1px solid $brand-body;
-   padding: 15px;
+   padding: 14px;
    margin-right: 10px;
    @include mq(xs) {
      width: 80%;
@@ -1673,14 +1626,8 @@ footer {
    }
   }
   input[type=submit] {
-    color: $brand-white;
-    font-family: NunitoSansSemiBold, sans-serif;
-    background-color: $brand-blue;
-    border: 0;
-    padding: 15px;
-    &:hover {
-      color: $brand-button-link-hover;
-    }
+		@extend %btn;
+		padding: 15px;
 	}
   #mce-error-response, #mce-success-response {
     margin-top: $standard-margin;
@@ -1708,8 +1655,7 @@ footer {
 }
 
 .homepage-video {
-	max-width: 750px;
-	margin: $standard-margin auto 0 auto;
+	max-width: 885px;
 }
 
 /* sponsor subfooter section on homepage and second level pages */
