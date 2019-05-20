@@ -2,7 +2,6 @@
 layout: layout-tier2.html
 ---
 <div class="container section workshop-single-page">
-    <!-- begin workshop element -->
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">

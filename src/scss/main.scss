@@ -20,7 +20,7 @@ $brand-body-link-hover: #ffc423;
 $brand-reverse-link: #ffc423;
 $brand-reverse-link-hover: #f0b310;
 
-
+//base class style
 %btn {
 	font-family: NunitoSansSemiBold, sans-serif !important;
 	font-size: $body-size;
@@ -321,7 +321,6 @@ s
 }
 
 .navbar {
-	border: 1px solid red;
 	background: $brand-white;
 	font-family: NunitoSansSemiBold, sans-serif;
 	li {
@@ -509,6 +508,9 @@ figure {
 }
 
 .homepage--top-bar {
+	+ .container {
+		margin-top: 45px;
+	}
 	width: 100%;
 	position: fixed;
 	z-index: 4;
@@ -578,6 +580,8 @@ figure {
 		}
 	}
 }
+
+
 
 .homepage--hero-video-container {
 	position: relative;
@@ -1305,7 +1309,7 @@ footer {
 
 //Workshop page (individual)
 .workshop-single-page {
-	margin-top: $standard-margin;
+	//margin-top: $standard-margin;
 	.content {
 		@include mq(sm){
 			margin-left: 45px;
@@ -1571,15 +1575,15 @@ footer {
       display: block;
     }
     .btn-title {
-      color: #fdc33c;
-			font-family: NunitoSansBold, sans-serif;
+      // color: #fdc33c;
+			// font-family: NunitoSansBold, sans-serif;
 			font-size: 18px;
     }
     .btn-date {
       font-size: 16px;
-      font-family: NunitoSansSemiBold, sans-serif;
+      // font-family: NunitoSansSemiBold, sans-serif;
       text-transform: none;
-      color: #ffebc1;
+      // color: #ffebc1;
     }
   }
 }

@@ -1,21 +1,6 @@
 ---
 layout: layout.html
 ---
-<div class="homepage--top-bar">
-    <ul>
-        <li>September 16-20, 2019</li>
-        <li>Grand Hyatt | Denver, CO</li>
-        <li class="linkedin">
-            <a href="https://www.linkedin.com/company/exploreddd/" title="Explore DDD LinkedIn"><img src="img/linkedin.svg"></a>
-        </li>
-        <li class="twitter">
-            <a href="https://twitter.com/ExploreDDD" title="Explore DDD Twitter"><img src="img/twitter.svg"></a>
-        </li>
-        <li class="hashtag">
-            <a href="https://twitter.com/hashtag/EDDD">#EDDD</a>
-        </li>
-    </ul>
-</div>
 <div class="container-fluid homepage--hero-video-container">
     <video loop muted autoplay class="video-item">
         <source src="video/background-video.webm" type="video/webm">
