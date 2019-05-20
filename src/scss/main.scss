@@ -1583,15 +1583,11 @@ footer {
       display: block;
     }
     .btn-title {
-      // color: #fdc33c;
-			// font-family: NunitoSansBold, sans-serif;
 			font-size: 18px;
     }
     .btn-date {
       font-size: 16px;
-      // font-family: NunitoSansSemiBold, sans-serif;
       text-transform: none;
-      // color: #ffebc1;
     }
   }
 }
@@ -1621,10 +1617,11 @@ footer {
     }
   }
   input[type=email] {
-	 background-color: $brand-background;
+	 background-color: $brand-white;
    border: 1px solid $brand-body;
-   padding: 14px;
-   margin-right: 10px;
+		padding: $quarter-margin $half-margin;
+	 margin-right: 10px;
+	 font-size: $body-size;
    @include mq(xs) {
      width: 80%;
      margin-bottom: $standard-margin;
@@ -1638,7 +1635,7 @@ footer {
   }
   input[type=submit] {
 		@extend %btn;
-		padding: 15px;
+		font-size: $body-size;
 	}
   #mce-error-response, #mce-success-response {
     margin-top: $standard-margin;
