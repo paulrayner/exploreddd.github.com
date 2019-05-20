@@ -290,10 +290,18 @@ s
 		a {
 			color: $brand-white;
 			margin-bottom: 0;
-			font-size: 14px;
 			@include mq(xs){
 				display: block;
+				font-size: 14px;
 			}
+			@include mq(sm) {
+				font-size: 14px;
+				margin-top: -2px;
+			}
+			@include mq(md) {
+				font-size: $body-size;
+			}
+			//Not quite sure why (lg) doesnt have to be defined here to inherent (md) rule
 		}
 	}
 }
