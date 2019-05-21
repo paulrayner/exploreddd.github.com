@@ -187,12 +187,12 @@ ul {
 nav {
 	border: 0;
 }
-s
 .navbar {
 	@include mq(lg) {
 		.container {
 			width: 955px;
 		}
+
 	}
 }
 .navbar-toggle {
@@ -225,9 +225,12 @@ s
 	}
 	@include mq(lg) {
 		height: 62px;
-		margin: 19px 0 0 0;
+		margin: 0 0 0 0;
 		width: 230px;
 	}
+}
+h1.nav-logo {
+	// overflow: hidden;
 }
 
 .nav-list {
@@ -247,7 +250,7 @@ s
 }
 
 .nav-list-item {
-	line-height: 30px;
+	//line-height: 30px;
 	position: relative;
 	text-align: left;
 	transition: color 0.2s;
@@ -257,15 +260,15 @@ s
 	@include mq(sm) {
 		display: inline-block;
 		font-size: 14px;
-		line-height: 60px;
+		//line-height: 60px;
 		text-align: center;
 	}
 	@include mq(md) {
 		font-size: $body-size;
-		line-height: 75px;
+		//line-height: 75px;
 	}
 	@include mq(lg) {
-		line-height: 100px;
+		//line-height: 100px;
 	}
 	a {
 		color: $brand-blue; //not working
@@ -330,6 +333,30 @@ s
 }
 
 .navbar {
+	text-align: center;
+	margin-bottom: 0;
+	.not-container {
+		@include mq(lg) {
+			display: inline-block;
+			// width: 100%;
+		}
+		.navbar-header {
+			//@debugfloat: none;
+			display: inline-block;
+			// display: none;
+			@include mq(lg) {
+				//margin-top: 18px;
+				a {
+					display: inline-block;
+					margin-top: 20px;
+				}
+			}
+		}
+		#navbar {
+			display: inline-block !important;
+			//border: 1px solid green;
+		}
+	}
 	background: $brand-white;
 	font-family: NunitoSansSemiBold, sans-serif;
 	li {
@@ -344,7 +371,7 @@ s
 		max-height: 75px;
 	}
 	@include mq(lg){
-		max-height: 100px;
+		//max-height: 100px;
 	}
 }
 
@@ -358,6 +385,8 @@ s
 }
 
 .nav-list {
+	position: relative;
+	top: 32px;
 	@include mq(xs) {
 		margin-top: $half-margin;
 	}
@@ -365,7 +394,8 @@ s
 		margin-top: 0;
 	}
 	@include mq(md) {
-		margin-left: -78px;
+		//margin-left: -78px;
+		margin-left: 50px;
 	}
 
 }
