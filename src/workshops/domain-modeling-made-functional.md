@@ -2,7 +2,6 @@
 layout: layout-tier2.html
 ---
 <div class="container section workshop-single-page">
-    <!-- begin workshop element -->
     <div class="row">
       <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
@@ -11,8 +10,8 @@ layout: layout-tier2.html
             </div>
             <div class="col-xs-12 col-sm-8 content">
                 <h1 class="section-header">Domain Modeling Made Functional</h1>
-                <span class="speaker-name"><a href="../speakers/scott-wlaschin.html">Scott Wlaschin</a></span>
-                <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
+                <p><span class="speaker-name"><a href="../speakers/scott-wlaschin.html">Scott Wlaschin</a></span>
+                <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span></p>
                 <p>Functional programming and domain-driven design might not seem to be a good match, but in fact functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why.</p>
                 <p>This will be a hands-on workshop designed for beginners in functional programming. We'll do lots of domain modeling exercises starting with some simple models and then enhancing them with constraints, state machines, error handling, commands and events, and so on.</p>
                 <h2 class="speaker-subheader">We'll Cover These Topics in Detail</h2>
@@ -35,4 +34,4 @@ layout: layout-tier2.html
             </div>
         </div>
     </div>
-</div> <!-- container -->
+</div>

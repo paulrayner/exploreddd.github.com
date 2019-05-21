@@ -1179,7 +1179,7 @@ footer {
       padding-top: 25px;
       @include mq(sm){
     		display: inline;
-        padding-top: 95px;
+        padding-top: 75px;
     	}
       @include mq(md){
 
@@ -1187,7 +1187,7 @@ footer {
 	}
 	.img-container {
 		padding-left: 17px;
-	    padding-top: 41px;
+	  padding-top: 30px;
 	}
 	.copy {
 		max-width: none;
@@ -1317,15 +1317,27 @@ footer {
 
 //Workshop page (individual)
 .workshop-single-page {
-	//margin-top: $standard-margin;
+	//margin-top: 75px; //needs to clear static blue "info bar" added ay 2019
+	.speaker-img, .co-workshop-img {
+		margin-top: 25px; //not quite $standard-margin height here since the static blue bar isnt quite the right height
+	}
 	.content {
+		@include mq(xs) {
+			h1 {
+				margin-top: $standard-margin;
+			}
+		}
 		@include mq(sm){
 			margin-left: 45px;
+			h1 {
+				margin-top: $standard-margin;
+			}
 		}
 		@include mq(md){
 			margin-left: 20px;
 		}
 		h1 {
+			margin-top: 20px;
 			margin-bottom: 10px;
 			@include mq(xs){
 				text-align: center;
