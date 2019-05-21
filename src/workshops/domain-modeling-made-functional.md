@@ -9,7 +9,7 @@ layout: layout-tier2.html
             </div>
         </div>
             <div class="col-xs-12 col-sm-8 content">
-                <h1>Domain Modeling Made Functional</h1>
+                <h1 class="section-header">Domain Modeling Made Functional</h1>
                 <p><span class="speaker-name"><a href="../speakers/scott-wlaschin.html">Scott Wlaschin</a></span>
                 <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span></p>
                 <p>Functional programming and domain-driven design might not seem to be a good match, but in fact functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why.</p>

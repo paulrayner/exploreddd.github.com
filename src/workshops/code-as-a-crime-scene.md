@@ -3,7 +3,7 @@ layout: layout-tier2.html
 ---
 <div class="container section workshop-single-page">
     <div class="row">
-      <div class="col-xs-12 col-sm-2">
+        <div class="col-xs-12 col-sm-2">
         <div class="speaker-container">
             <a href="../speakers/adam-tornhill.html"><div class="speaker-img adam-tornhill keep-color"></div></a>
             </div>

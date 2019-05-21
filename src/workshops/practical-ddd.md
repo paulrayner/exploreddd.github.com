@@ -9,13 +9,30 @@ layout: layout-tier2.html
       </div>
     </div>
     <div class="col-xs-12 col-sm-8 content">
-      <h1>Practical DDD: Make Your Software Systems Reliable Using NServiceBus</h1>
-      <p></p><span class="speaker-name"><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></span>
+      <h1 class="section-header">Practical DDD: Make Your Software Systems Reliable Using NServiceBus</h1>
+      <p><span class="speaker-name"><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a></span
+      >
       <span class="duration">1-Day Workshop<br />Wed, Sept 18</span></p>
       <img src="../img/workshop/Workshop-Indu-Alagarsamy.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px" />
-      <p>Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled.</p>
-      <p>Gain practical knowledge on dealing with existing code bases, how to reliably integrate with 3rd party services and how to model your code using .NET, C# and NServiceBus to align with the ever changing business processes.</p>
-      <p>Pair up and work on code exercises that will help you get a solid understanding of these concepts so you can take this to your company and start applying these practices right away.</p>
+      <p>
+        Designing and developing complex software systems takes discipline.
+        Domain-Driven Design guides you with a certain set of fundamental
+        disciplines to navigate the complexities. Combining those disciplines
+        with a technology like messaging helps you to identify the bottlenecks
+        of your systems. For example, places where your system is temporally
+        coupled.
+      </p>
+      <p>
+        Gain practical knowledge on dealing with existing code bases, how to
+        reliably integrate with 3rd party services and how to model your code
+        using .NET, C# and NServiceBus to align with the ever changing business
+        processes.
+      </p>
+      <p>
+        Pair up and work on code exercises that will help you get a solid
+        understanding of these concepts so you can take this to your company and
+        start applying these practices right away.
+      </p>
       <h2 class="speaker-subheader">What You'll Learn</h2>
       <ul>
         <li>Useful message based architecture patterns that can help to solve temporal coupling and provide other useful benefits such as reliability and scalability especially when interacting with third party web services.</li>
@@ -34,7 +51,9 @@ layout: layout-tier2.html
         <li>Knowledge of NServiceBus is not required</li>
       </ul>
       <div class="col-xs-12" align="center">
-        <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+        <a class="btn" href="https://ti.to/eddd/explore-ddd-2019"
+          >REGISTER NOW</a
+        >
       </div>
     </div>
   </div>

@@ -21,7 +21,7 @@ $brand-body-link-hover: #ffc423;
 $brand-reverse-link: #ffc423;
 $brand-reverse-link-hover: #f0b310;
 
-
+//base class style
 %btn {
 	font-family: NunitoSansSemiBold, sans-serif !important;
 	font-size: $body-size;
@@ -291,10 +291,18 @@ s
 		a {
 			color: $brand-white;
 			margin-bottom: 0;
-			font-size: 14px;
 			@include mq(xs){
 				display: block;
+				font-size: 14px;
 			}
+			@include mq(sm) {
+				font-size: 14px;
+				margin-top: -2px;
+			}
+			@include mq(md) {
+				font-size: $body-size;
+			}
+			//Not quite sure why (lg) doesnt have to be defined here to inherent (md) rule
 		}
 	}
 }
@@ -509,6 +517,9 @@ figure {
 }
 
 .homepage--top-bar {
+	+ .container {
+		margin-top: 45px;
+	}
 	width: 100%;
 	position: fixed;
 	z-index: 4;
@@ -578,6 +589,8 @@ figure {
 		}
 	}
 }
+
+
 
 .homepage--hero-video-container {
 	position: relative;
@@ -1167,7 +1180,7 @@ footer {
       padding-top: 25px;
       @include mq(sm){
     		display: inline;
-        padding-top: 95px;
+        //padding-top: 75px;
     	}
       @include mq(md){
 
@@ -1175,7 +1188,7 @@ footer {
 	}
 	.img-container {
 		padding-left: 17px;
-	    padding-top: 41px;
+	  padding-top: 25px;
 	}
 	.copy {
 		max-width: none;
@@ -1306,15 +1319,27 @@ footer {
 
 //Workshop page (individual)
 .workshop-single-page {
-	margin-top: $standard-margin;
+	//margin-top: 75px; //needs to clear static blue "info bar" added ay 2019
+	.speaker-img, .co-workshop-img {
+		margin-top: 25px; //not quite $standard-margin height here since the static blue bar isnt quite the right height
+	}
 	.content {
+		@include mq(xs) {
+			h1 {
+				margin-top: $standard-margin;
+			}
+		}
 		@include mq(sm){
 			margin-left: 45px;
+			h1 {
+				margin-top: $standard-margin;
+			}
 		}
 		@include mq(md){
 			margin-left: 20px;
 		}
 		h1 {
+			margin-top: 20px;
 			margin-bottom: 10px;
 			@include mq(xs){
 				text-align: center;
@@ -1572,15 +1597,11 @@ footer {
       display: block;
     }
     .btn-title {
-      color: #fdc33c;
-			font-family: NunitoSansBold, sans-serif;
 			font-size: 18px;
     }
     .btn-date {
       font-size: 16px;
-      font-family: NunitoSansSemiBold, sans-serif;
       text-transform: none;
-      color: #ffebc1;
     }
   }
 }
@@ -1590,7 +1611,7 @@ footer {
   text-align: center;
   margin: 0 auto;
   max-width: 960px;
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
   .header {
 		display: block;
     font-size: 24px;
@@ -1610,10 +1631,11 @@ footer {
     }
   }
   input[type=email] {
-	 background-color: $brand-background;
+	 background-color: $brand-white;
    border: 1px solid $brand-body;
-   padding: 14px;
-   margin-right: 10px;
+		padding: $quarter-margin $half-margin;
+	 margin-right: 10px;
+	 font-size: $body-size;
    @include mq(xs) {
      width: 80%;
      margin-bottom: $standard-margin;
@@ -1627,7 +1649,7 @@ footer {
   }
   input[type=submit] {
 		@extend %btn;
-		padding: 15px;
+		font-size: $body-size;
 	}
   #mce-error-response, #mce-success-response {
     margin-top: $standard-margin;
@@ -1661,12 +1683,12 @@ footer {
 /* sponsor subfooter section on homepage and second level pages */
 .sponsor-section {
 	background-color: #fff;
-	padding: $half-margin 0 $standard-margin 0;
+	padding: 0 0 $standard-margin 0;
 	text-align: center;
 	h3 {
 		text-transform: uppercase;
 		color: $brand-blue;
-
+		// margin-bottom: 0;
 	}
 	.item {
 		@include mq(xs) {
@@ -1675,7 +1697,7 @@ footer {
 		}
 		@include mq(sm) {
 			display: block;
-			margin: 20px auto;
+			margin: 0 auto;
 		}
 		@include mq(md) {
 			display: inline-block;
@@ -1785,11 +1807,6 @@ footer {
 	.btn {
 		display: inline-block;
 	}
-}
-.get-ticket-btn { //same style as reserve button on venue page above.
-		display: inline-block;
-		margin-bottom: 0;
-		padding: 15px 20px 15px 20px;
 }
 
 //blockquote styling

@@ -5,6 +5,19 @@ layout: layout-tier2.html
 <div class="container">
 	<div class="col-lg-6 col-lg-offset-3">
 		<h1 class="text-center">About</h1>
+		<h3>Explore DDD is not your ordinary event.</h3>
+		<p>If the word “conference” conjures up visions of boring lectures, hall seating, and dry chicken for lunch, you’re in for a whole new experience.</p>
+		<p>Imagine an entire area of the conference floor dedicated to domain model exploration, where drawing and refining domain models are not only expected but encouraged. Get ready to cover the walls with stickies, sketch drawings on whiteboards, and make new friends as you problem-solve together. And lunch—you’ll be pleasantly surprised with the menu.</p>
+		<p>Sound too good to be true? Welcome to Explore DDD, an interactive exploration of domain modeling created specifically for senior developers, team leads, software architects, DDD explorers, avid enthusiasts, and industry experts.</p>
+		<h3>Our conference mission is simple and straightforward:</h3>
+		<ul>
+			<li>Encourage excellence, sharing, and innovation within the DDD community</li>
+			<li>Build awareness of software modeling and design amongst the broader software development community</li>
+			<li>Assemble the best <a href="../speakers">industry-recognized experts</a></li>
+			<li>Give back to our local community</li>
+		</ul>
+		<p>Get ready to be inspired, challenged, and an active contributor to your conference experience. Get ready for Explore DDD 2019!</p>
+		<div class="text-center"><a href="https://ti.to/eddd/explore-ddd-2019" class="btn" style="margin-bottom:0;">Register Now</a></div>
 		<h3>What's different about the Explore DDD Conference?</h3>
 		<p>The mission of Explore DDD is to encourage excellence, sharing, and innovation within the DDD community, and build awareness of DDD amongst the broader software development community. World-class talks and workshops from domain-driven design practitioners and industry experts? Of course! But Explore DDD takes the notion/idea of conference engagement and exploration to a whole new level. An entire area of the conference floor is dedicated to domain model exploration with others, where drawing and refining domain models is both expected and encouraged. We'll provide everything you need to cover walls with stickies, whiteboards with drawings, and make new friends and problem-solve together.</p>
 		<p>Practice your domain modeling techniques and skills collaboratively, and learn new and innovative techniques from each other while engaging with DDD experts. <i>No other conference in the USA offers this opportunity to observe domain modeling in action, and practice and learn together in this way.</i></p>
