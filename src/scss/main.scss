@@ -1179,7 +1179,7 @@ footer {
       padding-top: 25px;
       @include mq(sm){
     		display: inline;
-        padding-top: 75px;
+        //padding-top: 75px;
     	}
       @include mq(md){
 
@@ -1187,7 +1187,7 @@ footer {
 	}
 	.img-container {
 		padding-left: 17px;
-	  padding-top: 30px;
+	  padding-top: 25px;
 	}
 	.copy {
 		max-width: none;
