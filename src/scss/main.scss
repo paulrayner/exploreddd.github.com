@@ -213,13 +213,13 @@ nav {
 		margin: 7px auto 0px auto;
 	}
 	@include mq(sm) {
-		height: 37px;
+		height: 39px;
 		margin: 8px 0 0 0;
 		width: 144px;
 	}
 	@include mq(md) {
 		margin: 3px auto;
-		height: 46px;
+		height: 48px;
 		margin: 13px 0 0 0;
 		width: 180px;
 	}
@@ -229,9 +229,6 @@ nav {
 		width: 230px;
 	}
 }
-h1.nav-logo {
-	// overflow: hidden;
-}
 
 .nav-list {
 	display: block;
@@ -240,9 +237,10 @@ h1.nav-logo {
 	padding: 0;
 	@include mq(sm) {
 		display: inline-block;
+		padding-left: 15px;
 	}
 	@include mq(md) {
-		padding-left: 78px;
+		padding-left: 25px;
 	}
 	@include mq(lg) {
 		padding-left: 25px;
@@ -250,7 +248,6 @@ h1.nav-logo {
 }
 
 .nav-list-item {
-	//line-height: 30px;
 	position: relative;
 	text-align: left;
 	transition: color 0.2s;
@@ -260,16 +257,12 @@ h1.nav-logo {
 	@include mq(sm) {
 		display: inline-block;
 		font-size: 14px;
-		//line-height: 60px;
 		text-align: center;
 	}
 	@include mq(md) {
 		font-size: $body-size;
-		//line-height: 75px;
 	}
-	@include mq(lg) {
-		//line-height: 100px;
-	}
+
 	a {
 		color: $brand-blue; //not working
 		cursor: pointer;
@@ -319,16 +312,14 @@ h1.nav-logo {
 	@include mq(sm) {
 		display: inline-block;
 		font-size: 14px;
-		//line-height: 60px;
 		margin-left: 20px;
 		float: right;
 	}
 	@include mq(md) {
 		font-size: $body-size;
-		//line-height: 75px;
 	}
 	@include mq(lg) {
-		//line-height: 100px;
+
 	}
 }
 
@@ -336,16 +327,18 @@ h1.nav-logo {
 	text-align: center;
 	margin-bottom: 0;
 	.not-container {
-		@include mq(lg) {
+		@include mq(sm) {
 			display: inline-block;
-			// width: 100%;
 		}
 		.navbar-header {
-			//@debugfloat: none;
 			display: inline-block;
-			// display: none;
+			@include mq(sm) {
+				a {
+					display: inline-block;
+					margin-top: 2px;
+				}
+			}
 			@include mq(lg) {
-				//margin-top: 18px;
 				a {
 					display: inline-block;
 					margin-top: 20px;
@@ -354,7 +347,6 @@ h1.nav-logo {
 		}
 		#navbar {
 			display: inline-block !important;
-			//border: 1px solid green;
 		}
 	}
 	background: $brand-white;
@@ -385,17 +377,21 @@ h1.nav-logo {
 }
 
 .nav-list {
-	position: relative;
-	top: 32px;
 	@include mq(xs) {
 		margin-top: $half-margin;
 	}
 	@include mq(sm) {
+		position: relative;
+		top: 15px;
 		margin-top: 0;
 	}
 	@include mq(md) {
-		//margin-left: -78px;
+		margin-top: 5px;
+		margin-left: 25px;
+	}
+	@include mq(lg) {
 		margin-left: 50px;
+		margin-top: $half-margin;
 	}
 
 }
