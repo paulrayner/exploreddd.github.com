@@ -327,12 +327,17 @@ nav {
 	text-align: center;
 	margin-bottom: 0;
 	.not-container {
+		@include mq(xs) {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 		@include mq(sm) {
 			display: inline-block;
 		}
 		.navbar-header {
-			display: inline-block;
+
 			@include mq(sm) {
+				display: inline-block;
 				a {
 					display: inline-block;
 					margin-top: 2px;
@@ -346,7 +351,9 @@ nav {
 			}
 		}
 		#navbar {
-			display: inline-block !important;
+			@include mq(sm) {
+				display: inline-block !important;
+			}
 		}
 	}
 	background: $brand-white;
@@ -379,6 +386,7 @@ nav {
 .nav-list {
 	@include mq(xs) {
 		margin-top: $half-margin;
+		//visibility: hidden;
 	}
 	@include mq(sm) {
 		position: relative;
@@ -387,7 +395,7 @@ nav {
 	}
 	@include mq(md) {
 		margin-top: 5px;
-		margin-left: 25px;
+		margin-left: 20px;
 	}
 	@include mq(lg) {
 		margin-left: 50px;
