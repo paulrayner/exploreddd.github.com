@@ -1609,7 +1609,7 @@ footer {
   text-align: center;
   margin: 0 auto;
   max-width: 960px;
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
   .header {
 		display: block;
     font-size: 24px;
@@ -1681,12 +1681,12 @@ footer {
 /* sponsor subfooter section on homepage and second level pages */
 .sponsor-section {
 	background-color: #fff;
-	padding: $half-margin 0 $standard-margin 0;
+	padding: 0 0 $standard-margin 0;
 	text-align: center;
 	h3 {
 		text-transform: uppercase;
 		color: $brand-blue;
-
+		// margin-bottom: 0;
 	}
 	.item {
 		@include mq(xs) {
@@ -1695,7 +1695,7 @@ footer {
 		}
 		@include mq(sm) {
 			display: block;
-			margin: 20px auto;
+			margin: 0 auto;
 		}
 		@include mq(md) {
 			display: inline-block;
