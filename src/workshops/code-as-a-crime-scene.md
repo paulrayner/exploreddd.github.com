@@ -31,7 +31,7 @@ layout: layout-tier2.html
             <h2 class="speaker-subheader">Prerequisites</h2>
             <p>The workshop is language neutral. The target audience is architects, senior developers, and technical managers. While we won't write any code during the workshop, the participants need to be comfortable with reading code. Detailed preparations with installation instructions for the tools will be sent out in advance.</p>
             <div class="col-xs-12" align="center">
-                <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+                <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
             </div>
         </div>
     </div>

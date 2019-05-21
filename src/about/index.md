@@ -17,7 +17,7 @@ layout: layout-tier2.html
 			<li>Give back to our local community</li>
 		</ul>
 		<p>Get ready to be inspired, challenged, and an active contributor to your conference experience. Get ready for Explore DDD 2019!</p>
-		<div class="text-center"><a href="https://ti.to/eddd/explore-ddd-2019" class="btn">Register Now</a></div>
+		<div class="text-center"><a href="https://ti.to/eddd/explore-ddd-2019" class="btn" style="margin-bottom:0;">Register Now</a></div>
 		<h3>What's different about the Explore DDD Conference?</h3>
 		<p>The mission of Explore DDD is to encourage excellence, sharing, and innovation within the DDD community, and build awareness of DDD amongst the broader software development community. World-class talks and workshops from domain-driven design practitioners and industry experts? Of course! But Explore DDD takes the notion/idea of conference engagement and exploration to a whole new level. An entire area of the conference floor is dedicated to domain model exploration with others, where drawing and refining domain models is both expected and encouraged. We'll provide everything you need to cover walls with stickies, whiteboards with drawings, and make new friends and problem-solve together.</p>
 		<p>Practice your domain modeling techniques and skills collaboratively, and learn new and innovative techniques from each other while engaging with DDD experts. <i>No other conference in the USA offers this opportunity to observe domain modeling in action, and practice and learn together in this way.</i></p>

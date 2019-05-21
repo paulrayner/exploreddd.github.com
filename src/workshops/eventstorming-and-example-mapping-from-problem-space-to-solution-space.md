@@ -50,7 +50,7 @@ layout: layout-tier2.html
                     <li>For the second day: Bring a laptop with your favourite IDE for Java or C# support.</li>
                 </ul>
                 <div class="col-xs-12" align="center">
-                    <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+                    <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
                 </div>
             </div>
         </div>

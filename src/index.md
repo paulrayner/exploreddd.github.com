@@ -37,13 +37,13 @@ layout: layout.html
             <li>Be part of an international community of practicing software architects, industry experts, developers, and technical leaders</li>
             <li>Explore new ideas and challenge your thinking in an open, sharing, and collaborative environment</li>
             <li>Expand your skills from hands-on sessions in software modeling and design, taught by industry-leading pioneers, practitioners and innovators</li>
-            <li>Customize your professional development with specialized, <a href="workshops">pre-conference workshops</a></li>
+            <li>Customize your professional development with specialized, <a href="/workshops">pre-conference workshops</a></li>
             <li>Learn in an <A href="venue">inspiring setting</a>, surrounded by views of the majestic Rocky mountains</li>
             <li>Observe domain modeling in action and learn alongside your peers at the only conference of its kind in North America</li>
         </ul>
         <div class="text-center"><a href="https://ti.to/eddd/explore-ddd-2019" class="btn">Register Now</a></div>
         <p class="text-center">View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
-        <p class="text-center">Explore DDD is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). Read the full Code of Conduct on the <a href=“about”>about page</a>.</p>
+        <p class="text-center">Explore DDD is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). Read the full Code of Conduct on the <a href="about">about page</a>.</p>
     </div>
 </div>
 <div class="container section speakers">

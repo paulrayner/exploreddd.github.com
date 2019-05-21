@@ -76,7 +76,7 @@ layout: layout-tier2.html
         <li>Knowledge of NServiceBus is not required</li>
       </ul>
       <div class="col-xs-12" align="center">
-        <a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019"
+        <a class="btn" href="https://ti.to/eddd/explore-ddd-2019"
           >REGISTER NOW</a
         >
       </div>
