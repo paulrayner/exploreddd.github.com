@@ -382,7 +382,7 @@ nav {
 
 .nav-list {
 	@include mq(xs) {
-		margin-top: $half-margin;
+		//margin-top: $half-margin;
 		//visibility: hidden;
 	}
 	@include mq(sm) {
