@@ -31,11 +31,9 @@ $brand-reverse-link-hover: #f0b310;
 	padding: $quarter-margin $half-margin;
 	border: 0;
 	border-radius: 0;
+	transition: background 0.2s;
 	&:hover {
-		transition: background 0.2s;
-		//color: #2e9bd3;
 		color: $brand-white;
-		// background-color: #9bd7ec;
 		background-color: $brand-blue;
 	}
 }
@@ -335,7 +333,6 @@ nav {
 			display: inline-block;
 		}
 		.navbar-header {
-
 			@include mq(sm) {
 				display: inline-block;
 				a {
@@ -364,13 +361,13 @@ nav {
 		}
 	}
 	@include mq(sm){
-		max-height: 60px;
+		height: 60px;
 	}
 	@include mq(md){
-		max-height: 75px;
+		height: 75px;
 	}
 	@include mq(lg){
-		//max-height: 100px;
+		height: 100px;
 	}
 }
 
