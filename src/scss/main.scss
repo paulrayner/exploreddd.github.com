@@ -196,6 +196,7 @@ nav {
 .navbar-toggle {
 	cursor: pointer;
 	float: left;
+	margin: 10px 0 0 7px;
 }
 
 .icon-bar {
@@ -326,8 +327,8 @@ nav {
 	margin-bottom: 0;
 	.not-container {
 		@include mq(xs) {
-			padding-left: 15px;
-			padding-right: 15px;
+			//padding-left: 15px;
+			//padding-right: 15px;
 		}
 		@include mq(sm) {
 			display: inline-block;
