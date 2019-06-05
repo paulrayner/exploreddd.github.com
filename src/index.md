@@ -198,10 +198,10 @@ layout: layout.html
             <p class="speaker-details">Engage and Embrace</p>
         </div>
         <div class="speaker-container">
-            <a href="speakers/matt-stine.html"><div class="speaker-img matt-stine">
+            <a href="speakers/paul-rayner.html"><div class="speaker-img paul-rayner">
             </div></a>
-            <h3><a class="speaker-name" href="speakers/matt-stine.html">Matt Stine</a></h3>
-            <p class="speaker-details">Renaissance Polymath and Memeplexer</p>
+            <h3><a class="speaker-name" href="speakers/paul-rayner.html">Paul Rayner</a></h3>
+            <p class="speaker-details">Domain Remodeler</p>
         </div>
     </div>
     <div class="row">
@@ -288,12 +288,6 @@ layout: layout.html
             </div></a>
             <h3><a class="speaker-name" href="speakers/adam-tornhill.html">Adam Tornhill</a></h3>
             <p class="speaker-details">Technical Debt Detective</p>
-        </div>
-        <div class="speaker-container">
-            <a href="speakers/paul-rayner.html"><div class="speaker-img paul-rayner">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/paul-rayner.html">Paul Rayner</a></h3>
-            <p class="speaker-details">Domain Remodeler</p>
         </div>
     </div>
 </div>

@@ -99,22 +99,6 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="domain-driven-design-and-event-driven-microservices.html"><div class="speaker-img matt-stine"></div></a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="domain-driven-design-and-event-driven-microservices.html">Domain-Driven Design and Event-Driven Microservices</a></h2>
-                <p>
-                    <span class="speaker-name">Matt Stine</span>
-                    <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
-                </p>
-                <p>New architectural paradigms like microservices and evolutionary architecture, as well as the challenges associated with managing data and transactional contexts in distributed systems, have generated a renewed interest in disciplined software design and <a href="domain-driven-design-and-event-driven-microservices.html">Read more...</a></p>
-            </div>
-        </div>
-        <!-- begin workshop element -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-2">
-                <div class="speaker-container">
                     <a href="eventstorming-and-example-mapping-from-problem-space-to-solution-space.html"><div class="co-workshop-img bruno-and-thomas"></div></a>
                 </div>
             </div>
