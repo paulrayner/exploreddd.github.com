@@ -264,8 +264,8 @@ layout: layout-tier2.html
 							<p>4:15 - 5:00</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4><a href="../speakers/janelle-klein.html">Janelle Klein</a></h4>
-							<p class="talk-title"><a href="../speakers/janelle-klein.html">Anatomy of Communication</a></p>
+							<h4><a href="../speakers/arty-starr.html">Arty Starr</a></h4>
+							<p class="talk-title"><a href="../speakers/arty-starr.html">Anatomy of Communication</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/josh-maletz.html">Josh Maletz</a> &amp; <a href="../speakers/james-brayton.html">James Brayton</a></h4>
