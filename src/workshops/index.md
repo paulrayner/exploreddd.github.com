@@ -156,7 +156,7 @@ layout: layout-tier2.html
                     <span class="speaker-name">Indu Alagarsamy</span>
                     <span class="duration">1-Day Workshop<br>Wed, Sept 18</span>
                 </p>
-                <p>Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled. <a href="design-reliable-systems-using-ddd-and-messaging.html">Read more...</a></p>
+                <p>Using message queues is the first step in building more reliable systems. However, this takes a different approach to reasoning about the design of your system, and the structure of your code. But reliability is as much a domain modeling concern as a technical quality. How can we deal with complex business processes, that can fail at multiple points in time? How do we roll back multiple operations in a long-running business process? <a href="design-reliable-systems-using-ddd-and-messaging.html">Read more...</a></p>
             </div>
         </div>
     </div>
