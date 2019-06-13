@@ -156,7 +156,7 @@ layout: layout-tier2.html
                     <span class="speaker-name">Indu Alagarsamy</span>
                     <span class="duration">1-Day Workshop<br>Wed, Sept 18</span>
                 </p>
-                <p>Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled. <a href="practical-ddd.html">Read more...</a></p>
+                <p>Designing and developing complex software systems takes discipline. Domain-Driven Design guides you with a certain set of fundamental disciplines to navigate the complexities. Combining those disciplines with a technology like messaging helps you to identify the bottlenecks of your systems. For example, places where your system is temporally coupled. <a href="design-reliable-systems-using-ddd-and-messaging.html">Read more...</a></p>
             </div>
         </div>
     </div>
