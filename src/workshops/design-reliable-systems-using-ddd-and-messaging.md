@@ -38,6 +38,9 @@ layout: layout-tier2.html
         <li>Knowledge using .NET and C#</li>
         <li>Prior knowledge of NServiceBus is NOT required</li>
       </ul>
+      <blockquote>
+        <p>Highly Informative; Excellent Exercises; Great content...Extremely valuable for teams that are designing distributed systems.</p>
+      </blockquote>
       <div class="col-xs-12" align="center">
         <a class="btn" href="https://ti.to/eddd/explore-ddd-2019"
           >REGISTER NOW</a
