@@ -1762,23 +1762,23 @@ footer {
 		}
 	}
 
-	.bronze-sponsors {
-		.item {
+	.bronze-sponsor {
+		/* .item {
 			margin: 25px 10px 25px 10px;
-		}
-		/* .sponsor-name {
+		} */
+		.particular-software {
 			img {
-				height: 30px;
+				height: 90px;
 				width: auto;
 				@include mq(xs) {
 					height: 25px;
 				}
 			}
-		} */
+		}
 	}
 
 	.reception-sponsor {
-		/* .sponsor-name {
+		.agile-denver {
 			img {
 				height: 90px;
 				width: auto;
@@ -1789,7 +1789,7 @@ footer {
 					margin-bottom: 15px;
 				}
 			}
-		} */
+		}
 	}
 	.video-sponsor {
 		/* .sponsor-name {
