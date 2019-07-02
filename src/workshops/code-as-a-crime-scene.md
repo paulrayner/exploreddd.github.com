@@ -13,6 +13,9 @@ layout: layout-tier2.html
             <p><span class="speaker-name"><a href="../speakers/adam-tornhill.html">Adam Tornhill</a></span>
             <span class="duration">1-Day Workshop<br>Wed, Sept 18</span></p>
             <img src="../img/workshop/Workshop-Adam-Tornhill-1.jpg" class="speaker--workshop-content-img" alt="">
+            <div class="col-xs-12" align="center">
+                <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,4dgzbdxtd-g,h7x5kubfsl8">REGISTER NOW</a>
+            </div>
             <p>In this workshop you learn novel analysis techniques that support both technical and organizational decisions around your codebase. The techniques use data from the most underused informational source that we have in our industry: our version-control system. Combined with metaphors from forensic psychology you learn to analyze version-control data to:</p>
             <ul>
                 <li>Identify the code that’s most expensive to maintain amongst millions lines of code.</li>
@@ -30,7 +33,7 @@ layout: layout-tier2.html
             <h2 class="speaker-subheader">Prerequisites</h2>
             <p>The workshop is language neutral. The target audience is architects, senior developers, and technical managers. While we won't write any code during the workshop, the participants need to be comfortable with reading code. Detailed preparations with installation instructions for the tools will be sent out in advance.</p>
             <div class="col-xs-12" align="center">
-                <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+                <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,4dgzbdxtd-g,h7x5kubfsl8">REGISTER NOW</a>
             </div>
         </div>
     </div>

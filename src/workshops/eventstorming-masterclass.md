@@ -13,6 +13,9 @@ layout: layout-tier2.html
                 <p><span class="speaker-name">
                 <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></span>
                 <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span></p>
+                <div class="col-xs-12" align="center">
+                    <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,nl4cs3-sso0">REGISTER NOW</a>
+                </div>
                 <p>EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way.</p>
                 <p>In this two day format we’ll experience the different formats, working around real business problems.
                 We’ll take into account the different perspectives (including the facilitator) in a process that spans large scale discovery, to leverage collaborative design.
@@ -41,7 +44,7 @@ layout: layout-tier2.html
                     <li>From sticky notes to working software. When to go for a sophisticated architecture.</li>
                 </ul>
                 <div class="col-xs-12" align="center">
-                    <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+                    <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,nl4cs3-sso0">REGISTER NOW</a>
                 </div>
             </div>
         </div>

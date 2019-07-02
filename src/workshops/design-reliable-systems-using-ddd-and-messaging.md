@@ -14,6 +14,11 @@ layout: layout-tier2.html
       >
       <span class="duration">1-Day Workshop<br />Wed, Sept 18</span></p>
       <img src="../img/workshop/Workshop-Indu-Alagarsamy.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px" />
+      <div class="col-xs-12" align="center">
+        <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,um13tdbpqk,kzkh7pq751m"
+          >REGISTER NOW</a
+        >
+      </div>
       <p>Using message queues is the first step in building more reliable systems. However, this takes a different approach to reasoning about the design of your system, and the structure of your code. But reliability is as much a domain modeling concern as a technical quality. How can we deal with complex business processes, that can fail at multiple points in time? How do we roll back multiple operations in a long-running business process?</p>
       <p>We can use existing principles from Domain-Driven Design to deal with these problems:</p>
       <ul>
@@ -42,7 +47,7 @@ layout: layout-tier2.html
         <li>Prior knowledge of NServiceBus is NOT required</li>
       </ul>
       <div class="col-xs-12" align="center">
-        <a class="btn" href="https://ti.to/eddd/explore-ddd-2019"
+        <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,um13tdbpqk,kzkh7pq751m"
           >REGISTER NOW</a
         >
       </div>
