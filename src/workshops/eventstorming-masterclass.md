@@ -9,7 +9,7 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 content">
-                <h1>Eventstorming Masterclass</h1>
+                <h1>[SOLD OUT] Eventstorming Masterclass</h1>
                 <p><span class="speaker-name">
                 <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></span>
                 <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span></p>

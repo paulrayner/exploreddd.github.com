@@ -14,7 +14,7 @@ layout: layout-tier2.html
 			</a>
 			<figcaption><a href="https://particular.net">Particular Software</a>, makers of NServiceBus, the most developer-friendly service bus for .NET. At Particular Software, we believe building distributed software systems doesn’t have to be hard. NServiceBus provides the foundation of reliable message processing, publish/subscribe, and business orchestration, while the Particular Service Platform provides the tools to make sure your system is running properly. We enable developers to get the infrastructure out of the way so they can focus on solving business problems.</figcaption>
 		</figure>
-		<h3 class="text-center">Kickoff Reception Sponsor &amp; Video Sponsor</h3>
+		<h3 class="text-center">Kickoff Reception &amp; Video Sponsor</h3>
 		<figure>
 			<a href="http://www.agiledenver.org"><img src="../img/logos/sponsor-agile-denver.png" class="sponsor-logo"></a>
 			<figcaption><a href="http://www.agiledenver.org">Agile Denver</a> is a 501(c)(6) nonprofit that serves the Agile Software Development community in Denver and along Colorado&#39;s Front Range. We are fully volunteer-based, driven by people who are passionate about growing and supporting Agile in our community.</figcaption>
