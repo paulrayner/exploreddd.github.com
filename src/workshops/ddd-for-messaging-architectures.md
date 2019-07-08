@@ -11,8 +11,11 @@ layout: layout-tier2.html
         <div class="col-xs-12 col-sm-8 content">
             <h1 class="section-header">DDD For Messaging Architectures</h1>
             <span class="speaker-name"><a href="../speakers/mathias-verraes.html">Mathias Verraes</a></span>
-            <span class="duration">3-Day Workshop<br>Mon-Wed, Sept 16-18</span>
-            <p style="margin-top: 25px">The software industry keeps moving towards more message-oriented architectures. These require different ways of reasoning about system design, domain modelling, evolutionary architectures.</p>
+            <span class="duration">3-Day Workshop<br>Mon-Wed, Sept 16-18</span></p>
+            <div class="col-xs-12" align="center">
+                <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,m-habr-me-w">REGISTER NOW</a>
+            </div>
+            <p style="margin-top: 30px">The software industry keeps moving towards more message-oriented architectures. These require different ways of reasoning about system design, domain modelling, evolutionary architectures.</p>
             <p>Domain-Driven Design is exceptionally suitable for this: its fundamental principles are universal to software design, and apply well to all kinds of architectures: focus on domain language and collaborative modelling, Bounded Contexts, and mapping the relationships between Contexts.</p>
             <img src="../img/workshop/Workshop-Mathias-Verraes-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px" />
             <p>What has changed, are the techniques to achieve those goals. This workshop takes a highly practical approach to improve your toolkit for reasoning about message architectures.</p>
@@ -41,7 +44,7 @@ layout: layout-tier2.html
                 <p class="copy quote-source">– SÉBASTIEN ABRAS, SENIOR SOFTWARE ARCHITECT, EVS BROADCAST (BELGIUM)</p>
             </blockquote>
             <div class="col-xs-12" align="center">
-                <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
+                <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,m-habr-me-w">REGISTER NOW</a>
             </div>
         </div>
     </div>

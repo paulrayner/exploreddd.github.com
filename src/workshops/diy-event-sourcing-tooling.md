@@ -12,9 +12,11 @@ layout: layout-tier2.html
             <h1 class="section-header">DIY Event Sourcing Tooling</h1>
             <p><span class="speaker-name"><a href="../speakers/marijn-huizendveld.html">Marijn Huizendveld</a></span>
             <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span></p>
-            <!--<a class="btn get-ticket-btn" href="https://ti.to/eddd/explore-ddd-2019">GET YOUR TICKET</a>-->
-            <div class="spacer"></div>
+            <div class="col-xs-12" align="center">
+                <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,9lz1vh74jkq,aiydbtjjt88">REGISTER NOW</a>
+            </div>
             <p>In this workshop you will learn that with little effort you can improve your workflow by building your own set of tools made specifically for *your* context.</p>
+            <img src="../img/workshop/Workshop-Marijn-Huizendveld-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 0;" />
             <h2 class="speaker-subheader">The "WHY?" Behind This Workshop</h2>
             <p>Scaling applications, refactoring models, testing the solution, debugging problems, proving what happened, or deploying to production; CQRS and event sourcing make it easier. But all these advantages come at a cost:</p>
             <ul>
@@ -27,6 +29,7 @@ layout: layout-tier2.html
             </ul>
             <p>Unfortunately there are not a lot of tools that help us overcome these typical challenges of event sourcing and CQRS. Traditional CRUD based MVC applications benefit from decades of free and paid-for tooling that help you get the job done faster. In the CQRS and event sourcing world that is not the case. While there are frameworks and libraries available, they generally constrain our models and our way of building software. They do so without providing a comprehensive set of tools for addressing the problems mentioned before.</p>
             <p>The cry for a lack of tooling for CQRS and event sourcing is as old as the approaches are themselves. So where does that leave us? What can we do?</p>
+            <img src="../img/workshop/Workshop-Marijn-Huizendveld-2.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 0;" />
             <h2 class="speaker-subheader">Imagine...</h2>
             <ul>
                 <li>Seeing an overview of all the events of a specific aggregate in your web application by opening up the developer tools of your internet browser.</li>
@@ -39,6 +42,9 @@ layout: layout-tier2.html
                 <li>Visualizing trends using your existing analytics toolset.</li>
                 <li>This and more, applied in such a way that it becomes an integral part of your day to day workflow</li>
             </ul>
+            <blockquote>
+                <p>[I] liked the approach...liked the constant retrospective, the content learned and the whole interactivity.</p>
+            </blockquote>
             <h2 class="speaker-subheader">DO IT YOURSELF: BUILD AND BRING YOUR OWN TOOLING</h2>
             <p>Investments in tooling pay off quickly. Especially when you take small steps. Together we will look at different tools that can help us with building, testing, debugging and changing your software.</p>
             <p>With examples taken from real projects you will experience that specific tools can make you more efficient and how they would fit in your workflow. Following each example we will implement the tool in the language of your choice. If you bring your own event sourced domain models we will do so given the constraints of your specific context.</p>
@@ -49,10 +55,9 @@ layout: layout-tier2.html
                 <li>A laptop with a “Hello world” application in a language that you’re proficient in.</li>
                 <li>Setup of a testing framework that can run integration tests against your “Hello world” app.</li>
                 <li>Optionally you can bring your own event sourced applications.</li>
-            <ul>
+            </ul>
             <div class="col-xs-12" align="center">
-                <a class="btn" href="https://ti.to/eddd/explore-ddd-2019">REGISTER NOW</a>
-            </div>
+                <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,9lz1vh74jkq,aiydbtjjt88">REGISTER NOW</a>
             </div>
         </div>
     </div>
