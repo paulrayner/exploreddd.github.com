@@ -1742,7 +1742,7 @@ footer {
 			}
 		}
 	}
-	.platinum-sponsors {
+	.platinum-sponsor {
 		@include mq(xs) {
 			.sponsor-name {
 				img {
@@ -1768,6 +1768,15 @@ footer {
 			margin: 25px 10px 25px 10px;
 		} */
 		.particular-software {
+			img {
+				height: 90px;
+				width: auto;
+				@include mq(xs) {
+					height: 55px;
+				}
+			}
+		}
+		.afterman-software {
 			img {
 				height: 90px;
 				width: auto;

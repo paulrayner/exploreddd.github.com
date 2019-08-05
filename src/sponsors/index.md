@@ -7,12 +7,23 @@ layout: layout-tier2.html
 		<p>The Explore DDD Conference is the perfect opportunity to raise your brand awareness amongst key technical influencers and top software development professionals while demonstrating your commitment to technical excellence and support of the software development community.</p>
 		<p>A variety of <a href="Explore DDD 2019 Sponsorship Opportunities.pdf">sponsorship opportunities</a> are available. We can also develop tailored sponsorship packages based on your needs and interests.</p>
 		<p><a href="mailto:contact@exploreddd.com">Contact us</a> directly if you have any questions about sponsorship.</p>
-		<h3 class="text-center">Bronze Sponsor</h3>
+		<h3 class="text-center">Bronze Sponsors</h3>
 		<figure>
 			<a href="https://particular.net">
 				<img src="../img/logos/sponsor-particular.png" class="sponsor-logo">
 			</a>
 			<figcaption><a href="https://particular.net">Particular Software</a>, makers of NServiceBus, the most developer-friendly service bus for .NET. At Particular Software, we believe building distributed software systems doesn’t have to be hard. NServiceBus provides the foundation of reliable message processing, publish/subscribe, and business orchestration, while the Particular Service Platform provides the tools to make sure your system is running properly. We enable developers to get the infrastructure out of the way so they can focus on solving business problems.</figcaption>
+		</figure>
+		<h3 class="text-center">Diversity Sponsor</h3>
+		<figure>
+			<a href="https://www.redhat.com/en/services/consulting/open-innovation-labs"><img src="../img/logos/sponsor-agile-denver.png" class="sponsor-logo"></a>
+			<figcaption><a href="https://www.redhat.com/en/services/consulting/open-innovation-labs">Red Hat Open Innovation Labs</a>Open source communities are where principles like collaboration, transparency, and inclusivity come to life — to create something greater. Open source is Red Hat’s DNA and has been for more than twenty-five years. Red Hat Open Innovation Labs teaches and applies the principles of collaboration, adaptability, transparency, inclusivity and community to help organizations operate more efficiently, scale, and innovate. Red Hat Open Innovation Labs is community-powered innovation.</figcaption>
+    	</figure>
+		<figure>
+			<a href="https://aftermansoftware.com">
+				<img src="../img/logos/sponsor-afterman-software.png" class="sponsor-logo">
+			</a>
+			<figcaption><a href="https://aftermansoftware.com">Afterman Software</a> is a complete IT services firm, offering consulting, training, architectural and development services throughout the US, Europe, Australia and Asia. With a dedicated focus on DDD, messaging, and event driven system design, whether through DDD workshops or long-term engagements, our innovative and experienced team have helped hundreds of clients across the globe unlock their true potential.  To learn more about specific offerings or career opportunities, visit <a href="https://aftermansoftware.com">aftermansoftware.com</a></figcaption>
 		</figure>
 		<h3 class="text-center">Kickoff Reception &amp; Video Sponsor</h3>
 		<figure>
