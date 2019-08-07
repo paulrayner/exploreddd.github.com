@@ -1139,29 +1139,89 @@ footer {
 }
 
 // these are style/size specific to the sponsors page only (and are independently custom to the sizing added to the footers
+.sponsors-page {
 
-.sponsor-logo {
-	height: auto;
-	display: block;
-	margin: 0 auto $standard-margin auto;
-}
-.sponsor-logo-event-store {
-	width: 100%;
-}
-.sponsor-logo-particular {
-	width: 25%;
-}
-.sponsor-logo-patient-pop {
-	width: 25%;
-}
-.sponsor-logo-afterman {
-	width: 25%;
-}
-.sponsor-logo-red-hat-open-innovation-labs {
-	width: 65%;
-}
-.sponsor-logo-agile-denver {
-	width: 60%;
+	.sponsor-logo {
+		width: auto;
+		height: 100%;
+		display: block;
+		margin: 0 auto $standard-margin auto;
+	}
+	.sponsor-logo-event-store {
+		@include mq(xs) {
+			width: 100%;
+		}
+		@include mq(sm) {
+			width: 80%;
+		}
+		@include mq(md) {
+			width: 80%;
+		}
+		@include mq(lg) {
+			width: 100%;
+		}
+	}
+	.sponsor-logo-particular {
+		@include mq(xs) {
+			width: 35%;
+		}
+		@include mq(sm) {
+			width: 30%;
+		}
+		@include mq(sm) {
+			width: 30%;
+		}
+		@include mq(lg) {
+			width: 35%;
+		}
+	}
+	.sponsor-logo-afterman {
+		@include mq(xs) {
+			width: 30%;
+		}
+		@include mq(sm) {
+			width: 20%;
+		}
+		@include mq(md) {
+			width: 20%;
+		}
+		@include mq(lg) {
+			width: 25%;
+		}
+	}
+	.sponsor-logo-agile-denver {
+		@include mq(xs) {
+			width: 60%;
+		}
+		@include mq(sm) {
+			width: 50%;
+		}
+		@include mq(md) {
+			width: 45%;
+		}
+	}
+	.sponsor-logo-red-hat-open-innovation-labs {
+		@include mq(xs) {
+			width: 65%;
+		}
+		@include mq(sm) {
+			width: 65%;
+		}
+	}
+	.sponsor-logo-patient-pop {
+		@include mq(xs) {
+			width: 35%;
+		}
+		@include mq(sm) {
+			width: 25%;
+		}
+		@include mq(md) {
+			width: 25%;
+		}
+		@include mq(lg) {
+			width: 30%;
+		}
+	}
 }
 
 .page-subheader {
@@ -1784,7 +1844,7 @@ footer {
 		@include mq(xs) {
 			.red-hat-open-innovation-labs {
 				img {
-					width: 80%;
+					width: 60%;
 				}
 			}
 		}
@@ -1794,7 +1854,7 @@ footer {
 			}
 			.red-hat-open-innovation-labs {
 				img {
-					height: 100px;
+					height: 70px;
 					width: auto;
 				}
 			}
@@ -1819,7 +1879,10 @@ footer {
 				height: 100px;
 				width: auto;
 				@include mq(xs) {
-					height: 55px;
+					height: 105px;
+				}
+				@include mq(sm) {
+					height: 105px;
 				}
 			}
 		}
@@ -1831,9 +1894,10 @@ footer {
 				height: 170px;
 				width: auto;
 				@include mq(xs) {
-					height: 60px;
+					height: 140px;
 				}
 				@include mq(sm) {
+					height: 160px;
 					margin-bottom: 15px;
 				}
 			}
@@ -1856,7 +1920,10 @@ footer {
 				height: 40px;
 				width: auto;
 				@include mq(xs) {
-					height: 45px;
+					height: 40px;
+				}
+				@include mq(sm) {
+					height: 35px;
 				}
 			}
 		}
