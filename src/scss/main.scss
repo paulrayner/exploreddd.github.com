@@ -239,7 +239,7 @@ nav {
 		padding-left: 15px;
 	}
 	@include mq(md) {
-		padding-left: 25px;
+		padding-left: 20px;
 	}
 	@include mq(lg) {
 		padding-left: 25px;
@@ -275,7 +275,7 @@ nav {
 			padding-left: 5px;
 		}
 		@include mq(md){
-			padding-left: 10px;
+			padding-left: 7px;
 		}
 		@include mq(lg){
 			padding-left: 20px;
