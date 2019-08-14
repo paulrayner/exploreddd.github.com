@@ -23,7 +23,7 @@ layout: layout-tier2.html
                     </div>
                 </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2>[SOLD OUT] <a href="eventstorming-masterclass.html">EventStorming Masterclass</a></h2>
+                <h2><a href="eventstorming-masterclass.html">EventStorming Masterclass</a></h2>
                 <p>
                     <span class="speaker-name">Alberto Brandolini &amp; Paul Rayner</span>
                     <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
