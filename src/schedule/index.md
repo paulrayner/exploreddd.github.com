@@ -106,7 +106,8 @@ layout: layout-tier2.html
 							<p>9:00 - 9:45</p>
 						</div> <!-- col-sm -->
 						<div class="col-sm-2 details details-colored details-gold">
-							<h4>TBA</h4>
+							<h4><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></h4>
+							<p class="talk-title"><a href="../speakers/alberto-brandolini.html">The Gordian Knot → Hatching Software Development Ecosystems</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-green">
 							<h4><a href="../speakers/daniel-somerfield.html">Daniel Somerfield</a></h4>
@@ -138,7 +139,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/dion-stewart.html">Dion Stewart</a></h4>
-							<p class="talk-title"><a href="../speakers/dion-stewart.html">Driving Domain-Driven Design with User Story Mapping</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/dion-stewart.html">Driving Domain-Driven Design with User Story Mapping</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -192,7 +193,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/gien-verschatse.html">Gien Verschatse</a> &amp; <a href="../speakers/nick-tune.html">Nick Tune</a></h4>
-							<p class="talk-title"><a href="../speakers/gien-verschatse.html">Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/gien-verschatse.html">Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -246,7 +247,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a> &amp; <a href="../speakers/paul-rayner.html">Paul Rayner</a></h4>
-							<p class="talk-title" style="margin-top: 8px;"><a href="../speakers/alberto-brandolini.html">Hands-On EventStorming Race</a></p>
+							<p class="talk-title" style="margin-top: 8px;"><strong>Hands-On Session:</strong> <a href="../speakers/alberto-brandolini.html">EventStorming Race</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -343,7 +344,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/zsófia-herendi.html">Zsófia Herendi</a></h4>
-							<p class="talk-title"><a href="../speakers/zsófia-herendi.html">Find the Common Language Between Business and IT!</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/zsófia-herendi.html">Find the Common Language Between Business and IT!</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -371,7 +372,7 @@ layout: layout-tier2.html
 						<div class="col-sm-2 details details-colored details-purple">
 							<span class="long-session-part-2-copy">
 								<h4>Continued: <a href="../speakers/zsófia-herendi.html">Zsófia Herendi</a></h4>
-								<p class="talk-title"><a href="../speakers/zsófia-herendi.html">Modeling Investment Banking</a></p>
+								<p class="talk-title"><a href="../speakers/zsófia-herendi.html">Find the Common Language Between Business and IT!</a></p>
 							</span>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -397,7 +398,7 @@ layout: layout-tier2.html
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/thomas-coopman.html">Thomas Coopman</a> &amp; <a href="../speakers/michel-grootjans.html">Michel Grootjans</a></h4>
-							<p class="talk-title"><a href="../speakers/thomas-coopman.html">Playing with Projections</a></p>
+							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/thomas-coopman.html">Playing with Projections</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">

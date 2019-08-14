@@ -5,13 +5,13 @@ layout: layout-tier2.html
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <a href="../speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini keep-color"></div></a>
-                </div>
+                <div class="co-workshop-img alberto-and-paul no-hover"></div>
             </div>
+        </div>
             <div class="col-xs-12 col-sm-8 content">
                 <h1>[SOLD OUT] Eventstorming Masterclass</h1>
                 <p><span class="speaker-name">
-                <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></span>
+                <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a> &amp; <a href="../speakers/paul-rayner.html">Paul Rayner</a></span>
                 <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span></p>
                 <div class="col-xs-12" align="center">
                     <a class="btn" href="https://ti.to/EDDD/explore-ddd-2019/with/iaubrxcptna,wjyi0g2putm,nl4cs3-sso0">REGISTER NOW</a>

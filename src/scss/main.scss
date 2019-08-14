@@ -757,6 +757,15 @@ figure {
 			background-position: 1px;
 		}
 	}
+	&.alberto-and-paul {
+		background-image: url('../img/speakers/sprite-alberto-and-paul.png');
+		background-position: -160px; //keep it coloured even when not during hover state
+		&:hover {
+			cursor: pointer;
+			cursor: hand;
+			background-position: 1px;
+		}
+	}
 	&.no-hover {
 		background-position: 1px; //stop hover since link was removed for co-workshop page
 	}
