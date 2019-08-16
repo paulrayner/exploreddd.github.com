@@ -67,22 +67,6 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="product-discovery-product-framing-and-product-delivery.html"><div class="speaker-img dion-stewart"></div></a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="product-discovery-product-framing-and-product-delivery.html">Product Discovery, Product Framing and Product Delivery</a></h2>
-                <p>
-                    <span class="speaker-name">Dion Stewart</span>
-                    <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
-                </p>
-                <p>This workshop immerses the students in the practices of Product Discovery, Product Framing, and Product Delivery. The content is based on fifteen years of practice with roots in agile and lean methods and Domain-Driven Design. It also covers modern <a href="product-discovery-product-framing-and-product-delivery.html">Read more...</a></p>
-            </div>
-        </div>
-        <!-- begin workshop element -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-2">
-                <div class="speaker-container">
                     <a href="domain-modeling-made-functional.html"><div class="speaker-img scott-wlaschin"></div></a>
                 </div>
             </div>
@@ -125,22 +109,6 @@ layout: layout-tier2.html
                     <span class="duration">2-Day Workshop<br>Tue-Wed, Sept 17-18</span>
                 </p>
                 <p>In this workshop you will learn that with little effort you can improve your workflow by building your own set of tools made specifically for *your* context. Scaling applications, refactoring models, testing the solution, debugging problems, proving what happened, or deploying to production; CQRS and event sourcing make it easier. <a href="diy-event-sourcing-tooling.html">Read more...</a></p>
-            </div>
-        </div>
-        <!-- begin workshop element -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-2">
-                <div class="speaker-container">
-                    <a href="code-as-a-crime-scene.html"><div class="speaker-img adam-tornhill"></div></a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="code-as-a-crime-scene.html">Code as a Crime Scene: Fix Technical Debt With Behavioral Code Analysis</a></h2>
-                <p>
-                    <span class="speaker-name">Adam Tornhill</span>
-                    <span class="duration">1-Day Workshop<br>Wed, Sept 18</span>
-                </p>
-                <p>In this workshop you learn novel analysis techniques that support both technical and organizational decisions around your codebase. The techniques use data from the most underused informational source that we have in our industry: our version-control system. Combined with metaphors from forensic psychology <a href="code-as-a-crime-scene.html">Read more...</a></p>
             </div>
         </div>
         <!-- begin workshop element -->

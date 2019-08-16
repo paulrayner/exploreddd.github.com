@@ -29,8 +29,6 @@ layout: layout-tier2.html
 				</a>
 			</div>
 			<!-- END BUTTONS -->
-			<!-- BEGIN WORKSHOPS CONTENT SECTION -->
-			<!--</div> <!-- END WORKSHOP CONTENT -->
 			<!-- BEGIN KICKOFF EVENING CONTENT -->
 			<div id="div2" class="targetDiv kickoff-div">
 				<div class="row title-row">
@@ -116,6 +114,9 @@ layout: layout-tier2.html
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4>Open Space</h4>
 						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
+						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
@@ -140,6 +141,9 @@ layout: layout-tier2.html
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/dion-stewart.html">Dion Stewart</a></h4>
 							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/dion-stewart.html">Driving Domain-Driven Design with User Story Mapping</a></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -170,6 +174,9 @@ layout: layout-tier2.html
 								<p class="talk-title"><a href="../speakers/dion-stewart.html">Driving Domain-Driven Design with User Story Mapping</a></p>
 							</span>
 						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
+						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
@@ -194,6 +201,9 @@ layout: layout-tier2.html
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/gien-verschatse.html">Gien Verschatse</a> &amp; <a href="../speakers/nick-tune.html">Nick Tune</a></h4>
 							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/gien-verschatse.html">Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue</a></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -224,6 +234,9 @@ layout: layout-tier2.html
 								<p class="talk-title"><a href="../speakers/gien-verschatse.html">Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue</a></p>
 							</span>
 						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
+						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
@@ -248,6 +261,9 @@ layout: layout-tier2.html
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a> &amp; <a href="../speakers/paul-rayner.html">Paul Rayner</a></h4>
 							<p class="talk-title" style="margin-top: 8px;"><strong>Hands-On Session:</strong> <a href="../speakers/alberto-brandolini.html">EventStorming Race</a></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -277,6 +293,9 @@ layout: layout-tier2.html
 								<h4>Continued: <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></h4>
 								<p class="talk-title" style="margin-top: 8px;"><a href="../speakers/alberto-brandolini.html">Eventstorming Hands On</a></p>
 							</span>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -346,6 +365,9 @@ layout: layout-tier2.html
 							<h4><a href="../speakers/zsófia-herendi.html">Zsófia Herendi</a></h4>
 							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/zsófia-herendi.html">Find the Common Language Between Business and IT!</a></p>
 						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
+						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
@@ -375,6 +397,9 @@ layout: layout-tier2.html
 								<p class="talk-title"><a href="../speakers/zsófia-herendi.html">Find the Common Language Between Business and IT!</a></p>
 							</span>
 						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
+						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
@@ -399,6 +424,9 @@ layout: layout-tier2.html
 						<div class="col-sm-2 details details-colored details-purple">
 							<h4><a href="../speakers/thomas-coopman.html">Thomas Coopman</a> &amp; <a href="../speakers/michel-grootjans.html">Michel Grootjans</a></h4>
 							<p class="talk-title"><strong>Hands-On Session:</strong> <a href="../speakers/thomas-coopman.html">Playing with Projections</a></p>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
@@ -429,6 +457,9 @@ layout: layout-tier2.html
 								<p class="talk-title"><a href="../speakers/thomas-coopman.html">Playing with Projections</a></p>
 							</span>
 						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
+							<h4>Open Space</h4>
+						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
@@ -451,6 +482,9 @@ layout: layout-tier2.html
 							<p class="talk-title"><a href="../speakers/mauro-servienti.html">Welcome to the (State) Machine</a></p>
 						</div> <!-- details -->
 						<div class="col-sm-2 details details-colored details-purple">
+							<h4>Open Space</h4>
+						</div> <!-- details -->
+						<div class="col-sm-2 details details-colored details-blue">
 							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
