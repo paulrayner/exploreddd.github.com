@@ -1476,6 +1476,9 @@ footer {
 	.row {
 		margin: 0 auto;
 		max-width: 960px;
+		h4 {
+			font-family: NunitoSansSemiBold, sans-serif;
+		}
 	}
 }
 .final-row {
@@ -1581,7 +1584,7 @@ footer {
   background-color: #682c89;
 }
 .details-blue {
-  background-color: #008da7;
+  background-color: $brand-blue;
 }
 .talk-title {
 	margin-bottom: $half-margin;
@@ -1628,14 +1631,17 @@ footer {
 	.time-cell {
 		width: 15.6%;
 	}
-	.details {
+	/* .details {
 		width: 28%;
+	} */
+	.details {
+		width: 21%;
 	}
 	.details-wide {
 		width: 84%;
 	}
-	.details-two-thirds {
-		width: 56%;
+	.details-two-thirds { //this isn't really aptly named anymore since it was two thirds when there were only 3 tracks/columns, but there are 4 now.
+		width: 42%;
 	}
 }
 //styles that apply to structure/content for long form or "double length" talks/sessions
