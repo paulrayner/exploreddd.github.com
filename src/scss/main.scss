@@ -1170,6 +1170,20 @@ footer {
 			width: 100%;
 		}
 	}
+	.sponsor-logo-dice {
+		@include mq(xs) {
+			width: 80%;
+		}
+		@include mq(sm) {
+			width: 60%;
+		}
+		@include mq(md) {
+			width: 60%;
+		}
+		@include mq(lg) {
+			width: 80%;
+		}
+	}
 	.sponsor-logo-particular {
 		@include mq(xs) {
 			width: 35%;
@@ -1835,6 +1849,11 @@ footer {
 					width: 80%;
 				}
 			}
+			.dice {
+				img {
+					width: 60%;
+				}
+			}
 		}
 		@include mq(sm) {
 			.item {
@@ -1843,6 +1862,12 @@ footer {
 			.event-store {
 				img {
 					height: 125px;
+					width: auto;
+				}
+			}
+			.dice {
+				img {
+					height: 150px;
 					width: auto;
 				}
 			}

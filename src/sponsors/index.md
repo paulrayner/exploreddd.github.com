@@ -7,12 +7,18 @@ layout: layout-tier2.html
 		<p>The Explore DDD Conference is the perfect opportunity to raise your brand awareness amongst key technical influencers and top software development professionals while demonstrating your commitment to technical excellence and support of the software development community.</p>
 		<p>A variety of <a href="Explore DDD 2019 Sponsorship Opportunities.pdf">sponsorship opportunities</a> are available. We can also develop tailored sponsorship packages based on your needs and interests.</p>
 		<p><a href="mailto:contact@exploreddd.com">Contact us</a> directly if you have any questions about sponsorship.</p>
-		<h3 class="text-center">Platinum Sponsor</h3>
+		<h3 class="text-center">Platinum Sponsors</h3>
 		<figure>
 			<a href="https://www.eventstore.com">
 				<img src="../img/logos/sponsor-event-store.png" class="sponsor-logo sponsor-logo-event-store">
 			</a>
 			<figcaption><a href="https://www.eventstore.com">Event Store</a> is the leading open source nosql database for Event Sourcing and stream processing, perfect for building Domain Driven Designed applications. Used in Production with eCommerce, Banking, Aerospace, Insurance, Healthcare and many more businesses across the world.</figcaption>
+		</figure>
+		<figure>
+			<a href="https://dice.com">
+				<img src="../img/logos/sponsor-dice.png" class="sponsor-logo sponsor-logo-dice">
+			</a>
+			<figcaption><a href="https://dice.com">Dice</a> builds products to connect tech professionals with the careers they desire and employers with the talent they need. Established in 1990, Dice began as one of the first career sites and today provides a comprehensive suite of recruiting solutions, empowering companies and recruiters to make informed hiring decisions. Dice serves multiple markets throughout North America and our passion for helping professionals drives our 500+ team members worldwide. Dice is a DHI Group, Inc. (NYSE: DHX) service.</figcaption>
 		</figure>
 		<h3 class="text-center">Bronze Sponsors</h3>
 		<figure>
