@@ -1476,9 +1476,6 @@ footer {
 	.row {
 		margin: 0 auto;
 		max-width: 960px;
-		h4 {
-			font-family: NunitoSansSemiBold, sans-serif;
-		}
 	}
 }
 .final-row {
@@ -1557,14 +1554,14 @@ footer {
 .details-colored {
   color: #fff9ec;
   padding: 5px 13px 5px 13px;
-  h4 {
-    font-family: NunitoSansBold, sans-serif;
+  h4, h4 > a {
+    font-family: NunitoSansBold, sans-serif !important;
   }
   h5 {
     font-family: NunitoSansSemiBold, sans-serif;
   }
   a {
-    color: #fff9ec;
+	color: #fff9ec;
   }
 }
 //for those rare occaisons wherein the same coloured details boxes are stacked directly on top of one another
