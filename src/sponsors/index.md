@@ -18,7 +18,7 @@ layout: layout-tier2.html
 			<a href="https://dice.com">
 				<img src="../img/logos/sponsor-dice.png" class="sponsor-logo sponsor-logo-dice">
 			</a>
-			<figcaption><a href="https://dice.com">Dice</a> builds products to connect tech professionals with the careers they desire and employers with the talent they need. Established in 1990, Dice began as one of the first career sites and today provides a comprehensive suite of recruiting solutions, empowering companies and recruiters to make informed hiring decisions. Dice serves multiple markets throughout North America and our passion for helping professionals drives our 500+ team members worldwide. Dice is a DHI Group, Inc. (NYSE: DHX) service.</figcaption>
+			<figcaption>Technology powers companies. Professionals power technology. <a href="https://dice.com">Dice</a> quickly delivers the opportunities, insights and connections technology professionals and employers need to move careers forward. With more than 80,000 tech jobs on any given day, Dice helps technology candidates find relevant jobs faster and easier. Dice is a DHI Group, Inc. (NYSE: DHX) service.</figcaption>
 		</figure>
 		<h3 class="text-center">Bronze Sponsors</h3>
 		<figure>
