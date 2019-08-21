@@ -51,7 +51,7 @@ layout: layout-tier2.html
 					<div class="col-sm-1 time-cell">
 						<p>5:00 - 6:30</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details details-colored details-gold details-wide">
+					<div class="col-sm-10 details details-wide">
 						<p><strong>Drinks Reception</strong><br><em>Reception Area - Pinnacle Club</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
@@ -59,7 +59,7 @@ layout: layout-tier2.html
 					<div class="col-sm-1 time-cell">
 						<p>6:30 - 6:45</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details details-colored details-gold details-wide">
+					<div class="col-sm-10 details details-colored details-gold details-wide details-color-collision-gap">
 						<h4>Welcome &#8212; <a href="../speakers/paul-rayner.html">Paul Rayner</a></strong> (Conference Chair)</h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
@@ -67,7 +67,7 @@ layout: layout-tier2.html
 					<div class="col-sm-1 time-cell">
 						<p>6:45 - 7:30</p>
 					</div> <!-- col-sm -->
-					<div class="col-sm-10 details details-colored details-gold details-wide">
+					<div class="col-sm-10 details details-colored details-gold details-wide details-color-collision-gap">
 						<h4>Keynote: &#8212; <a href="../speakers/eric-evans.html">Eric Evans</a></h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
