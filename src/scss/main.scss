@@ -1609,7 +1609,6 @@ footer {
 .details-wide, .details-two-thirds {
 	@include mq(xs) {
 		p {
-			//margin-bottom: -10px; //this may not be necessary anymore
 			margin-bottom: 0;
 		}
 	}

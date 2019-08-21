@@ -104,7 +104,7 @@ layout: layout-tier2.html
 							<p>8:00 - 8:45</p>
 						</div> <!-- col-xs -->
 						<div class="col-sm-10 details details-colored details-blue details-wide details-wide-colored">
-							<h4>Open Session</h4>
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
@@ -346,7 +346,7 @@ layout: layout-tier2.html
 							<p>8:00 - 8:45</p>
 						</div> <!-- col-xs -->
 						<div class="col-sm-10 details details-colored details-blue details-wide details-wide-colored">
-							<h4>Open Session</h4>
+							<h4>Open Space</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
