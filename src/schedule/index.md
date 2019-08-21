@@ -43,7 +43,7 @@ layout: layout-tier2.html
 					<div class="col-sm-1 time-cell">
 						<p>4:00 - 6:00</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details details-wide">
+					<div class="col-sm-10 details details-wide details-wide-colored">
 						<p><strong>Registration</strong><br><em>Hotel Lobby</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
@@ -51,7 +51,7 @@ layout: layout-tier2.html
 					<div class="col-sm-1 time-cell">
 						<p>5:00 - 6:30</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details details-wide">
+					<div class="col-sm-10 details details-colored details-gold details-wide details-wide-colored">
 						<p><strong>Drinks Reception</strong><br><em>Receptions Area - Pinnacle Club</em></p>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
@@ -59,7 +59,7 @@ layout: layout-tier2.html
 					<div class="col-sm-1 time-cell">
 						<p>6:30 - 6:45</p>
 					</div> <!-- col-xs -->
-					<div class="col-sm-10 details details-colored details-gold details-wide details-color-collision-gap">
+					<div class="col-sm-10 details details-colored details-gold details-wide details-wide-colored">
 						<h4>Welcome &#8212; <a href="../speakers/paul-rayner.html">Paul Rayner</a></strong> (Conference Chair)</h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
@@ -67,7 +67,7 @@ layout: layout-tier2.html
 					<div class="col-sm-1 time-cell">
 						<p>6:45 - 7:30</p>
 					</div> <!-- col-sm -->
-					<div class="col-sm-10 details details-colored details-gold details-wide details-color-collision-gap">
+					<div class="col-sm-10 details details-colored details-gold details-wide details-wide-colored">
 						<h4>Keynote: &#8212; <a href="../speakers/eric-evans.html">Eric Evans</a></h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
@@ -75,7 +75,7 @@ layout: layout-tier2.html
 					<div class="col-sm-1 time-cell">
 						<p>7:30 - 8:00</p>
 					</div> <!-- col-sm -->
-					<div class="col-sm-10 details details-colored details-gold details-wide">
+					<div class="col-sm-10 details details-colored details-gold details-wide details-wide-colored">
 						<h4>Open Space Planning</h4>
 					</div> <!-- details -->
 				</div> <!-- time-row -->
@@ -99,6 +99,14 @@ layout: layout-tier2.html
 							<h3>Thursday, September 19</h3>
 						</div> <!--col-sm -->
 					</div> <!-- title-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell">
+							<p>8:00 - 8:45</p>
+						</div> <!-- col-xs -->
+						<div class="col-sm-10 details details-colored details-blue details-wide details-wide-colored">
+							<h4>Open Session</h4>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
 					<div class="row time-row  last-colored-row">
 						<div class="col-sm-1 time-cell">
 							<p>9:00 - 9:45</p>
@@ -310,7 +318,7 @@ layout: layout-tier2.html
 						<div class="col-sm-1 time-cell">
 							<p>5:15 - 6:00</p>
 						</div> <!-- col-xs -->
-						<div class="col-sm-10 details details-colored details-gold details-wide">
+						<div class="col-sm-10 details details-colored details-gold details-wide details-wide-colored">
 							<h4>Keynote: <a href="../speakers/scott-millett.html">Mapping the Domain Vision</a> &#8212; <a href="../speakers/scott-millett.html">Scott Millett</a></h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -335,9 +343,17 @@ layout: layout-tier2.html
 					</div> <!-- title-row -->
 					<div class="row time-row">
 						<div class="col-sm-1 time-cell">
+							<p>8:00 - 8:45</p>
+						</div> <!-- col-xs -->
+						<div class="col-sm-10 details details-colored details-blue details-wide details-wide-colored">
+							<h4>Open Session</h4>
+						</div> <!-- details -->
+					</div> <!-- time-row -->
+					<div class="row time-row">
+						<div class="col-sm-1 time-cell">
 							<p>9:00 - 9:45</p>
 						</div> <!-- col-xs -->
-						<div class="col-sm-10 details details-colored details-gold details-wide details-color-collision-gap">
+						<div class="col-sm-10 details details-colored details-gold details-wide details-wide-colored">
 							<h4>Lightning Talks</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
@@ -500,7 +516,7 @@ layout: layout-tier2.html
 						<div class="col-sm-1 time-cell">
 							<p>4:15 - 5:00</p>
 						</div> <!-- col-xs -->
-						<div class="col-sm-10 details details-colored details-gold details-wide">
+						<div class="col-sm-10 details details-colored details-gold details-wide details-wide-colored">
 							<h4>Conference Closing Circle</h4>
 						</div> <!-- details -->
 					</div> <!-- time-row -->

@@ -1609,7 +1609,8 @@ footer {
 .details-wide, .details-two-thirds {
 	@include mq(xs) {
 		p {
-			margin-bottom: -10px;
+			//margin-bottom: -10px; //this may not be necessary anymore
+			margin-bottom: 0;
 		}
 	}
 	@include mq(sm) {
@@ -1619,6 +1620,14 @@ footer {
 			transform: translateY(-50%);
 			margin-bottom: 0;
 		}
+	}
+}
+.details-wide-colored {
+	@include mq(xs) {
+
+	}
+	@include mq(sm) {
+		margin-bottom: $standard-margin;
 	}
 }
 @include mq(xs) {
