@@ -1536,9 +1536,12 @@ footer {
 	text-align: left;
   	font-size: 16px;
 	font-family: NunitoSans, sans-serif;
-  @include mq(xs) {
+  	@include mq(xs) {
 		text-align: center;
 		margin-top: $standard-margin;
+	}
+	@include mq(sm) {
+		margin-top: $half-margin;
 	}
 }
 
