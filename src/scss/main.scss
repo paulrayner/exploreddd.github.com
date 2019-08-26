@@ -1534,12 +1534,11 @@ footer {
 
 .time-cell {
 	text-align: left;
-	padding-top: 12px;
   	font-size: 16px;
 	font-family: NunitoSans, sans-serif;
   @include mq(xs) {
 		text-align: center;
-		margin-top: 10px;
+		margin-top: $standard-margin;
 	}
 }
 
