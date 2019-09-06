@@ -42,7 +42,7 @@ layout: layout.html
             <li>Observe domain modeling in action and learn alongside your peers at the only conference of its kind in North America</li>
         </ul>
         <div class="text-center"><a href="https://ti.to/eddd/explore-ddd-2019" class="btn">Register Now</a></div>
-        <p class="text-center">View past conferences: <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
+        <p class="text-center">View past conferences: <a href="./2019">2019</a> &#124; <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
         <p class="text-center">Explore DDD is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). Read the full Code of Conduct on the <a href="about">about page</a>.</p>
         <p class="text-center">To increase diversity at Explore DDD we are offering scholarships to people from underrepresented groups in tech who wouldn’t otherwise be able to attend. If you are a member of a group underrepresented within the tech community we encourage you to <a href="scholarship">apply</a>.</p>
         <p class="text-center">Would assistance with childcare expenses make it easier for you to attend the conference?  We’d like to help.  Please let us know at <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a></p>
@@ -51,71 +51,21 @@ layout: layout.html
 <div class="container section speakers">
   <h2 class="text-center">Keynote Speakers</h2>
     <div class="row">
-        <div class="speaker-container">
-            <a href="speakers/eric-evans.html"><div class="speaker-img eric-evans">
+        <!--<div class="speaker-container">
+            <a href="speakers/speaker-name.html"><div class="speaker-img speaker-name">
             </div></a>
-            <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
-            <p class="speaker-details">Author of “Domain-Driven Design”</p>
-        </div>
-        <div class="speaker-container">
-            <a href="speakers/scott-millett.html"><div class="speaker-img scott-millett">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/scott-millett.html">Scott Millett</a></h3>
-            <p class="speaker-details">Author of PPP of DDD</p>
-        </div>
+            <h3><a class="speaker-name" href="speakers/speaker-name.html">Speaker Name</a></h3>
+            <p class="speaker-details">Speaker Tagline</p>
+        </div>-->
     </div>
     <h2 class="text-center">Featured Speakers</h2>
     <div class="row">
-        <div class="speaker-container">
-            <a href="speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
+        <!--<div class="speaker-container">
+            <a href="speakers/speaker-name.html"><div class="speaker-img speaker-name">
             </div></a>
-            <h3><a class="speaker-name" href="speakers/alberto-brandolini.html">Alberto Brandolini</a></h3>
-            <p class="speaker-details">Inventor of EventStorming</p>
-        </div>
-        <div class="speaker-container">
-            <a href="speakers/anita-kvamme.html"><div class="speaker-img anita-kvamme">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/anita-kvamme.html">Anita Kvamme</a></h3>
-            <p class="speaker-details">UX Person in Love with DDD</p>
-        </div>
-        <div class="speaker-container">
-            <a href="speakers/indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h3>
-            <p class="speaker-details">Event-driven Model Enthusiast</p>
-        </div>
-        <div class="speaker-container">
-            <a href="speakers/mathias-verraes.html"><div class="speaker-img mathias-verraes">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/mathias-verraes.html">Mathias Verraes</a></h3>
-            <p class="speaker-details">Student of Systems</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="speaker-container">
-            <a href="speakers/mauro-servienti.html"><div class="speaker-img mauro-servienti">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/mauro-servienti.html">Mauro Servienti</a></h3>
-            <p class="speaker-details">Wannabe Architect</p>
-        </div>
-        <div class="speaker-container">
-            <a href="speakers/sandi-metz.html"><div class="speaker-img sandi-metz">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/sandi-metz.html">Sandi Metz</a></h3>
-            <p class="speaker-details">Author and Obsessive Programmer</p>
-        </div>
-        <div class="speaker-container">
-            <a href="speakers/sara-pellegrini.html"><div class="speaker-img sara-pellegrini">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/sara-pellegrini.html">Sara Pellegrini</a></h3>
-            <p class="speaker-details">Passionate Learner</p>
-        </div>
-        <div class="speaker-container">
-            <a href="speakers/scott-wlaschin.html"><div class="speaker-img scott-wlaschin">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/scott-wlaschin.html">Scott Wlaschin</a></h3>
-            <p class="speaker-details">Functional Domain Modeler</p>
-        </div>
+            <h3><a class="speaker-name" href="speakers/speaker-name.html">Speaker Name</a></h3>
+            <p class="speaker-details">Speaker Tagline</p>
+        </div>-->
     </div>
     <p><a href="speakers">VIEW ALL SPEAKERS</a></p>
 </div>
