@@ -20,12 +20,26 @@ layout: layout-tier2.html
 			</a>
 			<figcaption>Technology powers companies. Professionals power technology. <a href="https://dice.com">Dice</a> quickly delivers the opportunities, insights and connections technology professionals and employers need to move careers forward. With more than 80,000 tech jobs on any given day, Dice helps technology candidates find relevant jobs faster and easier. Dice is a DHI Group, Inc. (NYSE: DHX) service.</figcaption>
 		</figure>
+		<h3 class="text-center">Silver Sponsor</h3>
+		<figure>
+			<a href="https://www.invent.us">
+				<img src="../img/logos/sponsor-invent.png" class="sponsor-logo sponsor-logo-invent">
+			</a>
+			<figcaption><a href="https://www.invent.us">INVENT</a> is an innovative software company focusing on cloud-native solutions for the financial services industry.  INVENT’s elite team of Cloud technologists and Financial Industry business experts came together to transform and modernize financial services technology, modern reactive, distributed, and DDD-based architecture leveraging event-driven systems design.  We are welcoming cloud-native experts to join us on our quest to transform financial services technology to this exciting new cloud-native ecosystem.  Connect with us at <a href="https://www.invent.us">https://www.invent.us</a></figcaption>
+		</figure>
 		<h3 class="text-center">Bronze Sponsors</h3>
 		<figure>
 			<a href="https://particular.net">
 				<img src="../img/logos/sponsor-particular.png" class="sponsor-logo sponsor-logo-particular">
 			</a>
 			<figcaption><a href="https://particular.net">Particular Software</a>, makers of NServiceBus, the most developer-friendly service bus for .NET. At Particular Software, we believe building distributed software systems doesn’t have to be hard. NServiceBus provides the foundation of reliable message processing, publish/subscribe, and business orchestration, while the Particular Service Platform provides the tools to make sure your system is running properly. We enable developers to get the infrastructure out of the way so they can focus on solving business problems.</figcaption>
+		</figure>
+		<h3 class="text-center">Venue Sponsor</h3>
+		<figure>
+			<a href="https://choozle.com">
+				<img src="../img/logos/sponsor-choozle.png" class="sponsor-logo sponsor-logo-choozle">
+			</a>
+			<figcaption><a href="https://choozle.com">Choozle</a> provides a digital advertising software platform that leverages detailed consumer data to power programmatic advertising campaigns across display, video, mobile, and other mediums—all from a single intuitive interface.</figcaption>
 		</figure>
 		<figure>
 			<a href="https://aftermansoftware.com">

@@ -1138,6 +1138,9 @@ footer {
 	.platinum-logo {
 		max-width: 300px;
 	}
+	.silver-logo {
+		max-width: 200px;
+	}
 	//bronze sponsor logos appear smaller
 	.bronze-logo {
 		max-width: 160px;
@@ -1182,6 +1185,34 @@ footer {
 		}
 		@include mq(lg) {
 			width: 70%;
+		}
+	}
+	.sponsor-logo-invent {
+		@include mq(xs) {
+			width: 40%;
+		}
+		@include mq(sm) {
+			width: 35%;
+		}
+		@include mq(md) {
+			width: 35%;
+		}
+		@include mq(lg) {
+			width: 40%;
+		}
+	}
+	.sponsor-logo-choozle {
+		@include mq(xs) {
+			width: 35%;
+		}
+		@include mq(sm) {
+			width: 30%;
+		}
+		@include mq(sm) {
+			width: 30%;
+		}
+		@include mq(lg) {
+			width: 35%;
 		}
 	}
 	.sponsor-logo-particular {
@@ -1887,6 +1918,27 @@ footer {
 		}
 	}
 
+	.silver-sponsor {
+		@include mq(xs) {
+			.invent {
+				img {
+					width: 35%;
+				}
+			}
+		}
+		@include mq(sm) {
+			.item {
+				margin: 10px 10px 10px 10px;
+			}
+			.invent {
+				img {
+					height: 165px;
+					width: auto;
+				}
+			}
+		}
+	}
+
 	.diversity-sponsor {
 		@include mq(xs) {
 			.red-hat-open-innovation-labs {
@@ -1909,9 +1961,6 @@ footer {
 	}
 
 	.bronze-sponsor {
-		.item {
-			margin: 25px 10px 25px 10px;
-		}
 		.particular-software {
 			img {
 				height: 45px;
@@ -1930,6 +1979,18 @@ footer {
 				}
 				@include mq(sm) {
 					height: 105px;
+				}
+			}
+		}
+	}
+
+	.venue-sponsor {
+		.choozle {
+			img {
+				height: 35px;
+				width: auto;
+				@include mq(xs) {
+					height: 45px;
 				}
 			}
 		}
