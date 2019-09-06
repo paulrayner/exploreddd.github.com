@@ -10,7 +10,7 @@ layout: layout-speaker.html
         <h1 class="speaker-header">Emily Stamey</h1>
         <span class="speaker-subtitle">Developer, Crafty Person, and Eater of Legacy Spaghetti</span>
         <p><a class="speaker-handle" href="https://twitter.com/elstamey" target="_blank">@elstamey</a></p>
-        <p>Emily is a Software Engineer in North Carolina and works at InQuest, a network security monitoring company. Her experience includes supporting and modernizing legacy applications, DDD, CQRS, and Event Sourcing practices. She is a Director for Women Who Code Raleigh-Durham and a Co-Organizer of Triangle PHP. She enjoys sharing her experiences with others who are maintaining large, legacy applications.</p>
+        <p>Emily is a Software Engineer in North Carolina. Her experience includes supporting and modernizing legacy applications, DDD, CQRS, and Event Sourcing practices. She is a Director for Women Who Code Raleigh-Durham and a Co-Organizer of Triangle PHP. She enjoys sharing her experiences with others who are maintaining large, legacy applications.</p>
         <h2>Talk Session</h2>
         <h2 class="gold">Hey Boss, Event Sourcing Could Fix That!</h2>
         <p>Our application has so much going on! Slow page loads and a large legacy codebase make developers feel stuck between a rock and a hard place. In this session, we will cover the basics of Event Sourcing and ways that Event Sourcing has helped real projects.</p>

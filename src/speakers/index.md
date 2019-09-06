@@ -31,10 +31,10 @@ layout: layout-tier2.html
   </div>
   <div class="row">
     <div class="speaker-container">
-      <a href="bruno-boucard.html"><div class="speaker-img bruno-boucard">
+      <a href="zsófia-herendi.html"><div class="speaker-img zsófia-herendi">
       </div></a>
-      <h3><a class="speaker-name" href="bruno-boucard.html">Bruno Boucard</a></h3>
-      <p class="speaker-details">Emancipating Developers</p>
+      <h3><a class="speaker-name" href="zsófia-herendi.html">Zsófia Herendi</a></h3>
+      <p class="speaker-details">Flow addict PM</p>
     </div>
     <div class="speaker-container">
       <a href="daniel-somerfield.html"><div class="speaker-img daniel-somerfield">
@@ -235,14 +235,6 @@ layout: layout-tier2.html
       </div></a>
       <h3><a class="speaker-name" href="wei-wang.html">Wei Wang</a></h3>
       <p class="speaker-details">DDDChina Co-founder</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="speaker-container">
-      <a href="zsófia-herendi.html"><div class="speaker-img zsófia-herendi">
-      </div></a>
-      <h3><a class="speaker-name" href="zsófia-herendi.html">Zsófia Herendi</a></h3>
-      <p class="speaker-details">Flow addict PM</p>
     </div>
   </div>
 </div>
