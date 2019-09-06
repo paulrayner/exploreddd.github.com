@@ -748,15 +748,6 @@ figure {
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
-	&.bruno-and-thomas {
-		background-image: url('../img/speakers/sprite-bruno-and-thomas.png');
-		background-position: -160px; //keep it coloured even when not during hover state
-		&:hover {
-			cursor: pointer;
-			cursor: hand;
-			background-position: 1px;
-		}
-	}
 	&.alberto-and-paul {
 		background-image: url('../img/speakers/sprite-alberto-and-paul.png');
 		background-position: -160px; //keep it coloured even when not during hover state
@@ -811,12 +802,6 @@ figure {
 	}
 	&.anita-kvamme {
 		background-image: url('../img/speakers/sprite-anita-kvamme.jpg');
-		&:hover {
-			background-position: 0;
-		}
-	}
-	&.bruno-boucard {
-		background-image: url('../img/speakers/sprite-bruno-boucard.jpg');
 		&:hover {
 			background-position: 0;
 		}
