@@ -34,13 +34,6 @@ layout: layout-tier2.html
 			</a>
 			<figcaption><a href="https://particular.net">Particular Software</a>, makers of NServiceBus, the most developer-friendly service bus for .NET. At Particular Software, we believe building distributed software systems doesn’t have to be hard. NServiceBus provides the foundation of reliable message processing, publish/subscribe, and business orchestration, while the Particular Service Platform provides the tools to make sure your system is running properly. We enable developers to get the infrastructure out of the way so they can focus on solving business problems.</figcaption>
 		</figure>
-		<h3 class="text-center">Venue Sponsor</h3>
-		<figure>
-			<a href="https://choozle.com">
-				<img src="../img/logos/sponsor-choozle.png" class="sponsor-logo sponsor-logo-choozle">
-			</a>
-			<figcaption><a href="https://choozle.com">Choozle</a> provides a digital advertising software platform that leverages detailed consumer data to power programmatic advertising campaigns across display, video, mobile, and other mediums—all from a single intuitive interface.</figcaption>
-		</figure>
 		<figure>
 			<a href="https://aftermansoftware.com">
 				<img src="../img/logos/sponsor-afterman-software.png" class="sponsor-logo sponsor-logo-afterman">
@@ -63,6 +56,13 @@ layout: layout-tier2.html
 				<img src="../img/logos/sponsor-patient-pop.png" class="sponsor-logo sponsor-logo-patient-pop">
 			</a>
 			<figcaption><a href="https://www.patientpop.com">PatientPop</a> delivers an all-in-one technology solution empowering healthcare providers to promote their practices online, attract new patients, and retain more patients for life. With PatientPop, providers can enhance and automate each touchpoint in the patient journey — from first impressions online to online appointment scheduling to post-visit follow-ups — helping to improve the overall patient experience and reduce tedious front-office tasks. PatientPop’s R&D department empowers responsible, autonomous teams to use the right technologies to solve the right problems, while leveraging Event Storming and DDD to evolve the entire PatientPop system. For more product information and career opportunities, visit <a href="https://www.patientpop.com">patientpop.com</a>.</figcaption>
+		</figure>
+		<h3 class="text-center">Venue Sponsor</h3>
+		<figure>
+			<a href="https://choozle.com">
+				<img src="../img/logos/sponsor-choozle.png" class="sponsor-logo sponsor-logo-choozle">
+			</a>
+			<figcaption><a href="https://choozle.com">Choozle</a> provides a digital advertising software platform that leverages detailed consumer data to power programmatic advertising campaigns across display, video, mobile, and other mediums—all from a single intuitive interface.</figcaption>
 		</figure>
 	</div>
 </div>
