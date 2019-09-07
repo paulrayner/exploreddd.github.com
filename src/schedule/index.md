@@ -13,19 +13,19 @@ layout: layout-tier2.html
 				</a>-->
 				<a href="../workshops" class="showSingle btn schedule-btn">
 					<span class="btn-title">Workshops</span>
-					<span class="btn-date">September 16 &dash; 18</span>
+					<span class="btn-date">September 15 &amp; 16</span>
 				</a>
 				<a class="showSingle btn schedule-btn" target="2">
 					<span class="btn-title">Kickoff Evening</span>
-					<span class="btn-date">September 18</span>
+					<span class="btn-date">September 16</span>
 				</a>
 				<a class="showSingle btn schedule-btn" target="3">
 					<span class="btn-title">Day 1</span>
-					<span class="btn-date">September 19</span>
+					<span class="btn-date">September 17</span>
 				</a>
 				<a class="showSingle btn schedule-btn" target="4">
 					<span class="btn-title">Day 2</span>
-					<span class="btn-date">September 20</span>
+					<span class="btn-date">September 18</span>
 				</a>
 			</div>
 			<!-- END BUTTONS -->

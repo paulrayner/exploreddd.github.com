@@ -1672,9 +1672,7 @@ footer {
 			}
 		}
 	}
-	.sponsor-name-1
-	.sponsor-name-2
-	.etc... {
+	.sponsor-name-1 {
 		@include mq(xs) {
 			// padding-bottom: 0px;
 		}
