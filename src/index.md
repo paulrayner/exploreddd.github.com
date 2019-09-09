@@ -51,21 +51,45 @@ layout: layout.html
 <div class="container section speakers">
   <h2 class="text-center">Keynote Speakers</h2>
     <div class="row">
-        <!--<div class="speaker-container">
-            <a href="speakers/speaker-name.html"><div class="speaker-img speaker-name">
+        <div class="speaker-container">
+            <a href="speakers/speaker-name.html"><div class="speaker-img paul-rayner">
             </div></a>
             <h3><a class="speaker-name" href="speakers/speaker-name.html">Speaker Name</a></h3>
             <p class="speaker-details">Speaker Tagline</p>
-        </div>-->
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/speaker-name.html"><div class="speaker-img paul-rayner">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/speaker-name.html">Speaker Name</a></h3>
+            <p class="speaker-details">Speaker Tagline</p>
+        </div>
     </div>
     <h2 class="text-center">Featured Speakers</h2>
     <div class="row">
-        <!--<div class="speaker-container">
-            <a href="speakers/speaker-name.html"><div class="speaker-img speaker-name">
+        <div class="speaker-container">
+            <a href="speakers/speaker-name.html"><div class="speaker-img paul-rayner">
             </div></a>
             <h3><a class="speaker-name" href="speakers/speaker-name.html">Speaker Name</a></h3>
             <p class="speaker-details">Speaker Tagline</p>
-        </div>-->
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/speaker-name.html"><div class="speaker-img paul-rayner">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/speaker-name.html">Speaker Name</a></h3>
+            <p class="speaker-details">Speaker Tagline</p>
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/speaker-name.html"><div class="speaker-img paul-rayner">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/speaker-name.html">Speaker Name</a></h3>
+            <p class="speaker-details">Speaker Tagline</p>
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/speaker-name.html"><div class="speaker-img paul-rayner">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/speaker-name.html">Speaker Name</a></h3>
+            <p class="speaker-details">Speaker Tagline</p>
+        </div>
     </div>
     <p><a href="speakers">VIEW ALL SPEAKERS</a></p>
 </div>
