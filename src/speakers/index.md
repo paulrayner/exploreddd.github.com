@@ -186,12 +186,12 @@ layout: layout-tier2.html
     </div>
   </div>
   <div class="row">
-    <div class="speaker-container">
+    <!--<div class="speaker-container">
       <a href="scott-millett.html"><div class="speaker-img scott-millett">
       </div></a>
       <h3><a class="speaker-name" href="scott-millett.html">Scott Millett</a></h3>
       <p class="speaker-details">Author of PPP of DDD</p>
-    </div>
+    </div>-->
     <div class="speaker-container">
       <a href="scott-wlaschin.html"><div class="speaker-img scott-wlaschin">
       </div></a>
@@ -210,14 +210,14 @@ layout: layout-tier2.html
       <h3><a class="speaker-name" href="szymon-pobiega.html">Szymon Pobiega</a></h3>
       <p class="speaker-details">Distributed engineer, AFOL</p>
     </div>
-  </div>
-  <div class="row">
     <div class="speaker-container">
       <a href="thomas-coopman.html"><div class="speaker-img thomas-coopman">
       </div></a>
       <h3><a class="speaker-name" href="thomas-coopman.html">Thomas Coopman</a></h3>
       <p class="speaker-details">Projectionist</p>
     </div>
+  </div>
+  <div class="row">
     <div class="speaker-container">
       <a href="thomas-pierrain.html"><div class="speaker-img thomas-pierrain">
       </div></a>

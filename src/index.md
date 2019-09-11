@@ -58,19 +58,19 @@ layout: layout.html
             <p class="speaker-details">Author of “Domain-Driven Design”</p>
         </div>
         <div class="speaker-container">
-            <a href="speakers/scott-millett.html"><div class="speaker-img scott-millett">
+            <a href="speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
             </div></a>
-            <h3><a class="speaker-name" href="speakers/scott-millett.html">Scott Millett</a></h3>
-            <p class="speaker-details">Author of PPP of DDD</p>
+            <h3><a class="speaker-name" href="speakers/alberto-brandolini.html">Alberto Brandolini</a></h3>
+            <p class="speaker-details">Inventor of EventStorming</p>
         </div>
     </div>
     <h2 class="text-center">Featured Speakers</h2>
     <div class="row">
         <div class="speaker-container">
-            <a href="speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
+            <a href="speakers/nick-tune.html"><div class="speaker-img nick-tune">
             </div></a>
-            <h3><a class="speaker-name" href="speakers/alberto-brandolini.html">Alberto Brandolini</a></h3>
-            <p class="speaker-details">Inventor of EventStorming</p>
+            <h3><a class="speaker-name" href="speakers/nick-tune.html">Nick Tune</a></h3>
+            <p class="speaker-details">Junior Master Strategist</p>
         </div>
         <div class="speaker-container">
             <a href="speakers/anita-kvamme.html"><div class="speaker-img anita-kvamme">

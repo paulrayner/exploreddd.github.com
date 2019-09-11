@@ -18,6 +18,9 @@ layout: layout-speaker.html
         <p>Our brains are designed for making quick decisions, but quick does not always mean good… We make thousands of decisions each day but never stop to wonder: how did we come to this conclusion? Were there more choices than we realised? Did we focus on the right thing? Did we pick the right option? Are there other methods we can use to reach a better outcome?
         <p>If we improved our decision making by just 1%, overall we would achieve a massive improvement in every area of our lives, from happiness with our family to success at work. Everybody should learn decision making heuristics, yet nobody does. Let's fix that.</p>
         <p>We're going to take a close look at a variety of key decision-making heuristics including "problem restatement", "devil's advocate", and "the wizard". Through provocative exercises, we're going to uncover the heuristics we currently use and we're going to teach ourselves when to apply certain decision making heuristics to improve our chances of getting the results we want.</p>
+        <h2>Talk Session</h2>
+        <h2 class="gold">Sociotechnical DDD</h2>
+        <p>*Description coming soon*</em></p>
     </div>
   </div>
 </div>
