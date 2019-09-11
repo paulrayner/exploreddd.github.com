@@ -79,24 +79,24 @@ layout: layout.html
             <p class="speaker-details">Event-driven Model Enthusiast</p>
         </div>
         <div class="speaker-container">
-            <a href="speakers/nick-tune.html"><div class="speaker-img nick-tune">
-            </div></a>
-            <h3><a class="speaker-name" href="speakers/nick-tune.html">Nick Tune</a></h3>
-            <p class="speaker-details">Junior Master Strategist</p>
-        </div>
-        <div class="speaker-container">
             <a href="speakers/mathias-verraes.html"><div class="speaker-img mathias-verraes">
             </div></a>
             <h3><a class="speaker-name" href="speakers/mathias-verraes.html">Mathias Verraes</a></h3>
             <p class="speaker-details">Student of Systems</p>
         </div>
-    </div>
-    <div class="row">
         <div class="speaker-container">
             <a href="speakers/mauro-servienti.html"><div class="speaker-img mauro-servienti">
             </div></a>
             <h3><a class="speaker-name" href="speakers/mauro-servienti.html">Mauro Servienti</a></h3>
             <p class="speaker-details">Wannabe Architect</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="speaker-container">
+            <a href="speakers/nick-tune.html"><div class="speaker-img nick-tune">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/nick-tune.html">Nick Tune</a></h3>
+            <p class="speaker-details">Junior Master Strategist</p>
         </div>
         <div class="speaker-container">
             <a href="speakers/sandi-metz.html"><div class="speaker-img sandi-metz">

@@ -20,7 +20,9 @@ layout: layout-speaker.html
         <p>We're going to take a close look at a variety of key decision-making heuristics including "problem restatement", "devil's advocate", and "the wizard". Through provocative exercises, we're going to uncover the heuristics we currently use and we're going to teach ourselves when to apply certain decision making heuristics to improve our chances of getting the results we want.</p>
         <h2>Talk Session</h2>
         <h2 class="gold">Sociotechnical DDD</h2>
-        <p>*Description coming soon*</em></p>
+        <p>A loosely coupled software architecture and an organizational structure to match is one of the biggest predictors of continuous delivery performance. To optimize end-to-end value creation and delivery, technical leaders must adopt a sociotechnical mindset.</p>
+        <p>When teams are designed without consideration of the software architecture, dependencies will arise in code that inhibit teams from delivering high value at speed. Organizational dysfunctions will multiply as productivity and motivation drop dramatically across the entire company. But by adopting a sociotechnical mindset, teams and software systems can be aligned to minimize dependencies and maximize product innovation speed.</p>
+        <p>The sociotechnical mindset is the synthesis of multiple perspectives, including social dynamics, domain-driven design, business models, and software architecture. Nick Tunee teaches you how to apply these principles and patterns through real examples based on years of practical experience across a wide range of organizations, including the UK government, Salesforce, and more.</p>
     </div>
   </div>
 </div>
