@@ -311,8 +311,7 @@ layout: layout-tier2.html
 							<p>5:15 - 6:00</p>
 						</div> <!-- col-xs -->
 						<div class="col-sm-10 details details-colored details-gold details-wide details-wide-colored">
-						<h4>Keynote: &#8212; <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a></h4>
-						<p class="talk-title"><a href="../speakers/alberto-brandolini.html">The Gordian Knot → Hatching Software Development Ecosystems</a></p>
+						<h4>Keynote: &#8212; <a href="../speakers/alberto-brandolini.html">Alberto Brandolini</a><p class="talk-title"><a href="../speakers/alberto-brandolini.html">The Gordian Knot → Hatching Software Development Ecosystems</a></p>
 						</div> <!-- details -->
 					</div> <!-- time-row -->
 					<div class="row time-row">
