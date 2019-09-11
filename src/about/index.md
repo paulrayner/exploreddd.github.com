@@ -16,12 +16,12 @@ layout: layout-tier2.html
 			<li>Assemble the best <a href="../speakers">industry-recognized experts</a></li>
 			<li>Give back to our local community</li>
 		</ul>
-		<p>Get ready to be inspired, challenged, and an active contributor to your conference experience. Get ready for Explore DDD 2019!</p>
+		<p>Get ready to be inspired, challenged, and an active contributor to your conference experience. Get ready for Explore DDD 2020!</p>
 		<div class="text-center"><a href="https://ti.to/eddd/explore-ddd-2019" class="btn" style="margin-bottom:0;">Register Now</a></div>
 		<h3>What's different about the Explore DDD Conference?</h3>
 		<p>The mission of Explore DDD is to encourage excellence, sharing, and innovation within the DDD community, and build awareness of DDD amongst the broader software development community. World-class talks and workshops from domain-driven design practitioners and industry experts? Of course! But Explore DDD takes the notion/idea of conference engagement and exploration to a whole new level. An entire area of the conference floor is dedicated to domain model exploration with others, where drawing and refining domain models is both expected and encouraged. We'll provide everything you need to cover walls with stickies, whiteboards with drawings, and make new friends and problem-solve together.</p>
 		<p>Practice your domain modeling techniques and skills collaboratively, and learn new and innovative techniques from each other while engaging with DDD experts. <i>No other conference in the USA offers this opportunity to observe domain modeling in action, and practice and learn together in this way.</i></p>
-		<p>Explore DDD is a smaller conference with a strong community feel in an intimate, incredible, inspiring venue. The Pinnacle Club of the Grand Hyatt Denver provides uninterrupted majestic views of the Rocky Mountains, downtown Denver, and city surrounds from the 38th floor.</p>
+		<p>Explore DDD is a smaller conference with a strong community feel.</p>
 		<h3>Is this conference for me?</h3>
 		<p>Are you a Senior Developer, team lead, or Software Architect with several years of experience building software systems for complex domains? Are you a DDD explorer, enthusiast, or expert? If so, then this conference is for you.</p>
 		<p>Gain deep insights on your software system questions from your peers and industry experts. You could solve your nagging software problems during the conference with help from other attendees. What would that be worth to you and your company?</p>
@@ -31,10 +31,6 @@ layout: layout-tier2.html
 		<p>The conference does not focus on any particular programming language or technology. Many sessions might have code in them, but you’ll be able to follow even if you don’t know the language that is used. If knowledge of a particular programming language is required for, say, participation in a pre-conference workshop, this will be indicated in the workshop description.</p>
 		<h3>Will the talks be recorded?</h3>
 		<p>Yes. We’ll be recording all talks and publishing them online after the conference. Pre-conference workshops and unconference types of activities will not be recorded.</p>
-		<h3>What does this conference cost?</h3>
-		<p>Regular conference tickets will sell for $1095 and pre-conference workshop tickets for $1495.  The first 50 conference tickets will be available at the early bird pricing of $995 ($100 discount) per ticket.  A limited number of $100 discount early bird tickets ($1395 per ticket) will also be available for each pre-conference workshop.  If you miss out on early bird pricing, we are also offering a group discount of $100 off the regular ticket price for 5 or more tickets - conference, workshop, or a combination - when purchased as part of the same registration order.</h3>
-		<h3>What about accommodation?</h3>
-		<p>For the best conference experience, even if you are local to Denver, you should stay at the Grand Hyatt Denver conference hotel. This enables you to fully participate in the conference experience, without having to deal with the stress of peak-hour traffic or downtown parking! We have reserved a block of rooms with a discounted conference room rate at the Grand Hyatt Denver, and we highly recommend <a href="https://aws.passkey.com/go/exploreddd2018">booking your hotel room</a> as early as possible, since hotel room availability at this time of year in Denver for such a good price is extremely limited.</p>
 		<h3>What is included in the ticket prices?</h3>
 		<p>The conference ticket gives you access to the main event conference sessions. You'll be able to attend all the talks. To attend a pre-conference workshop, you'll need a separate workshop ticket. All tickets include lunch and beverages. Not included in the ticket price are accommodation, travel, social events, dinners, or any other costs, unless specifically indicated.</p>
 		<h3>Can I speak at the conference?</h3>
