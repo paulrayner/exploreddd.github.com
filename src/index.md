@@ -15,7 +15,7 @@ layout: layout.html
 <div class="container homepage--intro-text">
     <div class="row">
         <p style="font-size: 20px;"><strong>Only Explore DDD brings together the world's best software architects, developers, technical leaders, and industry experts for three days of in-depth workshops, best-in-class learning and unparalleled community. Will you be there?</strong></p>
-        <a href="https://ti.to/eddd/explore-ddd-2019" class="btn">Register Now</a>
+        <a href="https://ti.to/EDDD/explore-ddd-2020" class="btn">Register Now</a>
         <p>"Attending Explore DDD really accelerated our understanding of how to better model our business domains and better architect not just our product but also our teams."</p>
         <p style="margin-bottom: 0;"><em>&#8212; Alex Gemmell, PatientPop</em></p>
     </div>
@@ -41,7 +41,7 @@ layout: layout.html
             <li>Learn in an <a href="venue">inspiring setting</a>, surrounded by views of the majestic Rocky mountains</li>
             <li>Observe domain modeling in action and learn alongside your peers at the only conference of its kind in North America</li>
         </ul>
-        <div class="text-center"><a href="https://ti.to/eddd/explore-ddd-2019" class="btn">Register Now</a></div>
+        <div class="text-center"><a href="https://ti.to/EDDD/explore-ddd-2020" class="btn">Register Now</a></div>
         <p class="text-center">View past conferences: <a href="./2019">2019</a> &#124; <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
         <p class="text-center">Explore DDD is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). Read the full Code of Conduct on the <a href="about">about page</a>.</p>
     </div>
