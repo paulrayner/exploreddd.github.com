@@ -1,7 +1,10 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section page about">
-  <h1 class="section-header">Call for Proposals</h1>
-  <p style="text-align: center;"><strong>CFP will open soon</strong></p>
+
+<div class="container">
+	<div class="col-lg-6 col-lg-offset-3">
+		<h1 class="text-center">Call For Proposals</h1>
+    <p style="text-align: center;"><strong>CFP will open soon</strong></p>
+  </div>
 </div>
