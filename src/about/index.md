@@ -30,7 +30,7 @@ layout: layout-tier2.html
 		<h3>What programming languages should I know?</h3>
 		<p>The conference does not focus on any particular programming language or technology. Many sessions might have code in them, but you’ll be able to follow even if you don’t know the language that is used. If knowledge of a particular programming language is required for, say, participation in a pre-conference workshop, this will be indicated in the workshop description.</p>
 		<h3>Will the talks be recorded?</h3>
-		<p>Yes. We’ll be recording all talks and publishing them online after the conference. Pre-conference workshops and unconference types of activities will not be recorded.</p>
+		<p>Yes. We’ll be recording all talks and publishing them online after the conference. Pre-conference workshops, hands-on sessions, and unconference types of activities will not be recorded.</p>
 		<h3>What is included in the ticket prices?</h3>
 		<p>The conference ticket gives you access to the main event conference sessions. You'll be able to attend all the talks. To attend a pre-conference workshop, you'll need a separate workshop ticket. All tickets include lunch and beverages. Not included in the ticket price are accommodation, travel, social events, dinners, or any other costs, unless specifically indicated.</p>
 		<h3>Can I speak at the conference?</h3>
