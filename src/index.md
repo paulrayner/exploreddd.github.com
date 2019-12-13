@@ -20,7 +20,7 @@ layout: layout.html
         <p style="margin-bottom: 0;"><em>&#8212; Alex Gemmell, PatientPop</em></p>
     </div>
 </div>
-g<div class="container section homepage-video">
+<div class="container section homepage-video">
     <div class="row">
         <div class="col-xs-12">
             <div class="video-responsive" style="margin-bottom: 0;">
