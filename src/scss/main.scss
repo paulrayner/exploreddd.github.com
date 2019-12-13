@@ -236,10 +236,11 @@ nav {
 	padding: 0;
 	@include mq(sm) {
 		display: inline-block;
-		padding-left: 15px;
+		padding-left: 8px;
 	}
 	@include mq(md) {
-		padding-left: 20px;
+		padding-left: 0px;
+		margin-left: 5px;
 	}
 	@include mq(lg) {
 		padding-left: 25px;
@@ -272,7 +273,7 @@ nav {
 	}
 	&:not(:first-child) {
 		@include mq(sm){
-			padding-left: 5px;
+			padding-left: 0px;
 		}
 		@include mq(md){
 			padding-left: 7px;
@@ -393,10 +394,11 @@ nav {
 	}
 	@include mq(md) {
 		margin-top: 5px;
-		margin-left: 20px;
+		//margin-left: 20px;
+		padding-left: 0;
 	}
 	@include mq(lg) {
-		margin-left: 50px;
+		margin-left: 25px;
 		margin-top: $half-margin;
 	}
 
@@ -404,7 +406,7 @@ nav {
 .nav-list-item:not(:first-child) {
   .nav-submenu {
     @include mq(sm) {
-      left: 10px;
+      //left: 10px;
     }
   }
 }
