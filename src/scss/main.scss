@@ -411,6 +411,13 @@ nav {
   }
 }
 
+//Hero image banners base style (image url handled individually)
+.hero {
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+}
+
 .section {
 	.row {
 		margin: 0 auto;
@@ -1679,13 +1686,23 @@ footer {
 	}
 }
 
+.about.hero {
+	background-image: url('../img/hero-about.jpg');
+}
+.cfp.hero {
+	background-image: url('../img/hero-cfp.jpg');
+}
+.workshops.hero {
+	background-image: url('../img/hero-workshops.jpg');
+}
+.sponsors.hero {
+	background-image: url('../img/hero-sponsors.jpg');
+}
+
 //venue specific styles
 
 .venue.hero {
-	background-image: url('../img/Keystone-Resort-Hero.jpg');
-	background-size: cover;
-	background-position: center center;
-	height: 400px;
+	background-image: url('../img/hero-venue.jpg');
 }
 .venue--address--reserve-btn-row, .get-ticket-btn {
 	text-align: center;

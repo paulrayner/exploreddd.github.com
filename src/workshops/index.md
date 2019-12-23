@@ -1,6 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
+<div class="section hero workshops"></div>
 <div class="container">
     <div class="col-lg-8 col-lg-offset-2">
         <h1 class="text-center">Workshops</h1>

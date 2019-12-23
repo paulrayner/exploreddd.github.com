@@ -1,6 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
+<div class="section hero sponsors"></div>
 <div class="container sponsors-page">
 	<div class="col-lg-6 col-lg-offset-3">
 		<h1 class="text-center">Sponsors</h1>
