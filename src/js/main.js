@@ -19,17 +19,17 @@ $( document ).ready(function() {
 /*var onResizing = function(event) {
   if ((window.innerWidth < 768))  {
     console.log('narrow viewport');
-    var scrollOffset = 52; 
-  } 
+    var scrollOffset = 52;
+  }
   if ((window.innerWidth > 768 && window.innerWidth < 992))  {
     console.log('medium viewport');
     var scrollOffset = 60;
-  } 
+  }
   else if ((window.innerWidth > 992))  {
     console.log('wide viewport');
     var scrollOffset = 75;
   }
-}; 
+};
 
 window.onresize = onResizing;
 window.onload = onResizing;*/
@@ -38,12 +38,12 @@ function scrollToAnchor(aid){
 
   if ((window.innerWidth < 768))  {
     console.log('narrow viewport');
-    var scrollOffset = 52; 
-  } 
+    var scrollOffset = 52;
+  }
   if ((window.innerWidth > 768 && window.innerWidth < 992))  {
     console.log('medium viewport');
     var scrollOffset = 60;
-  } 
+  }
   else if ((window.innerWidth > 992))  {
     console.log('wide viewport');
     var scrollOffset = 75;
@@ -95,11 +95,6 @@ $('.showSingle').click(function(){
   $('.targetDiv').hide();
   $('#div'+$(this).attr('target')).fadeIn();
   });
-});
-
-//speaker name and background image hover functionality
-$(function(){
-  
 });
 
 
