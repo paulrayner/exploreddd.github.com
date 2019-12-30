@@ -633,7 +633,8 @@ figure {
 
 .homepage--hero-video-container {
 	position: relative;
-	height: 720px;
+	//height: 720px;
+	height: 100%;
 	overflow: hidden;
 	padding-left: 0;
 	padding-right: 0;
@@ -643,19 +644,21 @@ figure {
 		background-position-x: 80%; //get background video poster/loading/mobile background more centrall
 	}
 	.video-item {
-		width: 100%;
-		height: auto;
+		//width: 100%;
+		//height: auto;
+		object-fit: cover;
 		z-index: 0;
 		@include mq(xs){
 			display: none;
 		}
 	}
-	@media only screen and (max-width: 1068px) {
-		.video-item {
-			width: auto;
-			height: 100%;
-		}
-	}
+	// @media only screen and (max-width: 1068px) {
+	// 	.video-item {
+	// 		// width: auto;
+	// 		// height: 100%;
+	// 		object-fit: cover;
+	// 	}
+	// }
 	.homepage--big-text {
 		position: absolute;
 		bottom: 0;
