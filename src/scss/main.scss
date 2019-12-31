@@ -644,21 +644,16 @@ figure {
 		background-position-x: 80%; //get background video poster/loading/mobile background more centrall
 	}
 	.video-item {
-		//width: 100%;
-		//height: auto;
-		object-fit: cover;
 		z-index: 0;
 		@include mq(xs){
 			display: none;
 		}
+		@include mq(sm){
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
 	}
-	// @media only screen and (max-width: 1068px) {
-	// 	.video-item {
-	// 		// width: auto;
-	// 		// height: 100%;
-	// 		object-fit: cover;
-	// 	}
-	// }
 	.homepage--big-text {
 		position: absolute;
 		bottom: 0;
