@@ -15,3 +15,8 @@ layout: layout-tier2.html
 		</div>
 	</div> <!-- container -->
 </div>
+<script>
+	$(document).ready(function() {
+		callScheduleEndpoint('https://sessionize.com/api/v2/gpdgk77g/view/All');
+	});
+</script>

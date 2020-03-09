@@ -51,6 +51,6 @@ layout: layout-tier2.html
 		<h3>What about diversity?</h3>
 		<p>We are seeking to source and support speakers from underrepresented groups as much as possible in order to provide a richly diverse lineup of perspectives and backgrounds.</p>
 		<h3>Accessibility</h3>
-		<p>Our venue provides full wheelchair accessibility, as required by USA federal and Colorado state law. Access to the conference venue is via elevator. If you have special requirements, please let us know and we will do our best to accommodate you.</p>
+		<p>Our venue provides full wheelchair accessibility, as required by USA federal and Colorado state law. If you have special requirements, please let us know and we will do our best to accommodate you.</p>
 	</div>
 </div>
