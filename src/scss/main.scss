@@ -597,6 +597,19 @@ figure {
 				margin-right: 0;
 			}
 		}
+		.youtube {
+			margin-right: 0px;
+			a {
+				display: inline-block;
+				width: 22px;
+				height: 22px;
+				img {
+					margin-top: -4px;
+					height: 22px;
+					width: 22px;
+				}
+			}
+		}
 		.linkedin {
 			margin-right: 0px;
 			a {
