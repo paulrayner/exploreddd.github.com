@@ -120,3 +120,10 @@ function callScheduleEndpoint(url) {
     console.log(sessions)
   });
 }
+
+/* fancybox setup */
+$(document).ready(function() {
+	$("a#single_image").fancybox({
+		'autoSize': true
+	});
+});
