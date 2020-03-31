@@ -1,0 +1,1804 @@
+//variables
+
+$body-size: 18px;
+$big: 24px;
+$standard-margin: 30px;
+$half-margin: 15px;
+$quarter-margin: 7px;
+
+//$brand-blue: #0082c8;
+$brand-blue: rgb(0,130,200);
+$brand-yellow: rgb(240,179,16);
+$brand-white: #fff;
+$brand-body: #000000;
+
+$brand-nav-hover: #ffc423;
+$brand-background: #e5f2f9;
+
+$brand-body-link: #f0b310;
+$brand-body-link-hover: #ffc423;
+
+$brand-reverse-link: #ffc423;
+$brand-reverse-link-hover: #f0b310;
+
+//base class style
+%btn {
+	font-family: NunitoSansSemiBold, sans-serif !important;
+	font-size: $body-size;
+	color: $brand-white;
+	background-color: $brand-yellow;
+	text-transform: uppercase;
+	padding: $quarter-margin $half-margin;
+	border: 0;
+	border-radius: 0;
+	transition: background 0.2s;
+	&:hover {
+		color: $brand-white;
+		background-color: $brand-blue;
+	}
+}
+
+@font-face {
+	font-family: 'NunitoSansSemiBold';
+	src: url('fonts/NunitoSans-SemiBold.eot');
+	src: url('fonts/NunitoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-SemiBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansLight';
+	src: url('fonts/NunitoSans-Light.eot');
+	src: url('fonts/NunitoSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Light.woff2') format('woff2'),
+		url('fonts/NunitoSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansExtraBold';
+	src: url('fonts/NunitoSans-ExtraBold.eot');
+	src: url('fonts/NunitoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-ExtraBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('fonts/NunitoSans-Regular.eot');
+	src: url('fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Regular.woff2') format('woff2'),
+		url('fonts/NunitoSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NunitoSansBold';
+	src: url('fonts/NunitoSans-Bold.eot');
+	src: url('fonts/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Bold.woff2') format('woff2'),
+		url('fonts/NunitoSans-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	font-size: $big;
+	text-transform: uppercase;
+  margin-top: $standard-margin;
+}
+h2 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	font-size: 18px;
+	text-transform: uppercase;
+	//margin-top: $standard-margin;
+	margin-top: 0;
+	margin-bottom: $standard-margin;
+}
+h3 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-body;
+	font-size: $body-size;
+	margin-top: $standard-margin;
+}
+strong {
+	font-family: NunitoSansBold, sans-serif;
+}
+
+@mixin mq($size) {
+  @if $size == xs {
+    @media (max-width: 767px) { @content; }
+  }
+  @if $size == sm {
+    @media (min-width: 768px) { @content; }
+  }
+  @else if $size == md {
+    @media (min-width: 992px) { @content; }
+  }
+  @else if $size == lg {
+    @media (min-width: 1200px)  { @content; }
+  }
+}
+
+@mixin ir() {
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+}
+
+// General
+
+html, body {
+	width: 100%;
+}
+
+body {
+	background-color: $brand-white;
+	font-family: NunitoSansLight, sans-serif;
+	font-size: $body-size;
+	line-height: 1.22em;
+	color: $brand-body;
+	overflow-x: hidden;
+	padding-top: 51px;
+	padding-bottom: 0;
+	@include mq(sm){
+		padding-top: 60px;
+	}
+	@include mq(md){
+		padding-top: 75px;
+	}
+	@include mq(lg){
+		padding-top: 100px;
+	}
+	a {
+		color: $brand-body-link;
+		font-family: 'NunitoSansSemiBold';
+		text-decoration: none;
+		&:hover {
+			color: $brand-body-link-hover;
+			text-decoration: none;
+		}
+	}
+}
+
+p, ul, ol, blockquote, h1, h2, h3, .video-responsive {
+	margin-bottom: $standard-margin;
+}
+
+ul {
+	li {
+		margin-bottom: 10px;
+	}
+	li:last-child {
+		margin-bottom: 0;
+	}
+}
+
+// Navigation
+
+nav {
+	border: 0;
+}
+.navbar {
+	@include mq(lg) {
+		.container {
+			width: 955px;
+		}
+
+	}
+}
+.navbar-toggle {
+	cursor: pointer;
+	float: left;
+	margin: 10px 0 0 7px;
+}
+
+.icon-bar {
+	background-color: $brand-blue ;
+}
+
+.nav-logo {
+	background-image: url('../img/ddd-logo-blue.svg');
+	height: 46px;
+	width: 160px;
+	@include ir();
+	@include mq(xs) {
+		margin: 7px auto 0px auto;
+	}
+	@include mq(sm) {
+		height: 39px;
+		margin: 8px 0 0 0;
+		width: 144px;
+	}
+	@include mq(md) {
+		margin: 3px auto;
+		height: 48px;
+		margin: 13px 0 0 0;
+		width: 180px;
+	}
+	@include mq(lg) {
+		height: 62px;
+		margin: 0 0 0 0;
+		width: 230px;
+	}
+}
+
+.nav-list {
+	display: block;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	@include mq(sm) {
+		display: inline-block;
+		padding-left: 8px;
+	}
+	@include mq(md) {
+		padding-left: 0px;
+		margin-left: 5px;
+	}
+	@include mq(lg) {
+		padding-left: 25px;
+	}
+}
+
+.nav-list-item {
+	position: relative;
+	text-align: left;
+	transition: color 0.2s;
+	@include mq(xs) {
+		font-size: 14px;
+	}
+	@include mq(sm) {
+		display: inline-block;
+		font-size: 14px;
+		text-align: center;
+	}
+	@include mq(md) {
+		font-size: $body-size;
+	}
+
+	a {
+		color: $brand-blue; //not working
+		cursor: pointer;
+		text-decoration: none;
+		&:hover {
+			color: $brand-nav-hover;
+		}
+	}
+	&:not(:first-child) {
+		@include mq(sm){
+			padding-left: 0px;
+		}
+		@include mq(md){
+			padding-left: 6px;
+		}
+		@include mq(lg){
+			padding-left: 20px;
+		}
+	}
+	&:last-child {
+		line-height: normal;
+		a {
+			color: $brand-white;
+			margin-bottom: 0;
+			@include mq(xs){
+				display: block;
+				font-size: 14px;
+			}
+			@include mq(sm) {
+				font-size: 14px;
+				margin-top: -2px;
+			}
+			@include mq(md) {
+				font-size: $body-size;
+			}
+			//Not quite sure why (lg) doesnt have to be defined here to inherent (md) rule
+		}
+	}
+}
+
+.nav-btn {
+	@extend %btn;
+	@include mq(xs) {
+		margin-top: $half-margin;
+		font-size: 14px;
+	}
+	@include mq(sm) {
+		display: inline-block;
+		font-size: 14px;
+		margin-left: 20px;
+		float: right;
+	}
+	@include mq(md) {
+		font-size: $body-size;
+	}
+	@include mq(lg) {
+
+	}
+}
+
+.navbar {
+	text-align: center;
+	margin-bottom: 0;
+	.not-container {
+		@include mq(xs) {
+			//padding-left: 15px;
+			//padding-right: 15px;
+		}
+		@include mq(sm) {
+			display: inline-block;
+		}
+		.navbar-header {
+			@include mq(sm) {
+				display: inline-block;
+				a {
+					display: inline-block;
+					margin-top: 2px;
+				}
+			}
+			@include mq(lg) {
+				a {
+					display: inline-block;
+					margin-top: 20px;
+				}
+			}
+		}
+		#navbar {
+			@include mq(sm) {
+				display: inline-block !important;
+			}
+		}
+	}
+	background: $brand-white;
+	font-family: NunitoSansSemiBold, sans-serif;
+	li {
+		a {
+			color: $brand-blue;
+		}
+	}
+	@include mq(sm){
+		height: 60px;
+	}
+	@include mq(md){
+		height: 75px;
+	}
+	@include mq(lg){
+		height: 100px;
+	}
+}
+
+.navbar-collapse {
+	text-align: center;
+	padding-bottom: $half-margin;
+	@include mq(sm) {
+		background: transparent;
+		text-align: center;
+	}
+}
+
+.nav-list {
+	@include mq(xs) {
+		//margin-top: $half-margin;
+		//visibility: hidden;
+	}
+	@include mq(sm) {
+		position: relative;
+		top: 15px;
+		margin-top: 0;
+	}
+	@include mq(md) {
+		margin-top: 5px;
+		//margin-left: 20px;
+		padding-left: 0;
+	}
+	@include mq(lg) {
+		margin-left: 25px;
+		margin-top: $half-margin;
+	}
+
+}
+.nav-list-item:not(:first-child) {
+  .nav-submenu {
+    @include mq(sm) {
+      //left: 10px;
+    }
+  }
+}
+
+//Hero image banners base style (image url handled individually)
+.hero {
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+}
+
+.section {
+	.row {
+		margin: 0 auto;
+		max-width: 960px;
+	}
+
+	&.speakers {
+		text-align: center;
+	}
+}
+
+.speakers {
+	text-align: center;
+}
+
+.register-copy {
+	display: inline-block;
+	margin-top: 85px;
+	padding: $standard-margin;
+  @include mq(sm) {
+    margin-left: 60px;
+  }
+  @include mq(md) {
+    margin-left: 100px;
+	}
+	h1 {
+		color: $brand-white;
+		font-family: NunitoSansExtraBold, sans-serif;
+		font-size: 30px;
+		margin: 0;
+		text-transform: uppercase;
+		@include mq(sm){
+			font-size: 40px;
+		}
+	}
+	p {
+		color: $brand-white;
+		font-family: NunitoSansExtraBold, sans-serif;
+		font-size: 16px;
+		line-height: 1em;
+		margin: 0;
+		max-width: 320px;
+		@include mq(sm){
+			font-size: 30px;
+		}
+	}
+}
+
+.register-copy {
+	background-color: rgba(0,164,228, 0.75);
+}
+.alteryx-copy {
+	@include mq(sm) {
+		width: 500px;
+	}
+	h1 {
+		a {
+			font-size: 40px;
+			color: #0082CD;
+		}
+	}
+}
+
+.custom-navigation-container {
+	display: none;
+	@include mq(sm){
+		bottom: 0;
+		display: block;
+		line-height: 400px;
+		position: absolute;
+		width: 100%;
+	}
+}
+
+.custom-navigation {
+	display: block;
+	height: 400px;
+	margin: 0 auto;
+	max-width: 1300px;
+	@include mq(sm){
+
+	}
+	.arrow {
+		display: inline-block;
+		opacity: 0.4;
+		position: relative;
+		transition: all 0.2s;
+		vertical-align: middle;
+		z-index: 10;
+		img {
+			height: 75px;
+			width: 75px;
+			@include mq(md){
+				height: 150px;
+				width: 150px;
+			}
+		}
+		&.left {
+			float: left;
+		}
+		&.right {
+			float: right;
+		}
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.copy, blockquote {
+	display: block;
+	margin: 0 auto 23px;
+	max-width: 700px;
+	text-align: center;
+}
+.copy-list {
+	display: block;
+	margin: 0 auto 23px;
+  padding-left: 25px;
+	max-width: 700px;
+	text-align: left;
+	li {
+		margin-bottom: 10px;
+		ul {
+			margin-top: 10px;
+		}
+	}
+}
+
+/* sponsor page content formatting */
+figure {
+	text-align: center;
+	margin-bottom: $standard-margin;
+	figcaption {
+		margin: 0 auto 0px;
+		text-align: left;
+	}
+}
+
+.homepage--top-bar {
+	+ .container {
+		margin-top: 45px;
+	}
+	width: 100%;
+	position: fixed;
+	z-index: 4;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: $quarter-margin;
+	background-color: $brand-blue;
+	color: $brand-white;
+	font-family: NunitoSans, sans-serif;
+	text-align: center;
+	@include mq(md){
+		top: 75px;
+	}
+	@include mq(lg){
+		top: 100px;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		li {
+			display: inline-block;
+			margin: 0;
+			@include mq(xs){
+				margin-right: 12px;
+				font-size: 14px;
+			}
+			@include mq(sm){
+				margin-right: $standard-margin;
+
+			}
+			padding: 0;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		.youtube {
+			margin-right: 0px;
+			a {
+				display: inline-block;
+				img {
+					margin-top: -4px;
+					height: 20px;
+					width: auto;
+				}
+			}
+		}
+		.linkedin {
+			margin-right: 0px;
+			a {
+				display: inline-block;
+				width: 22px;
+				height: 22px;
+				img {
+					margin-top: -4px;
+				}
+			}
+		}
+		.twitter {
+			margin-right: 0;
+			a {
+				display: inline-block;
+				width: 22px;
+				height: 22px;
+				img {
+					margin-top: -4px;
+				}
+			}
+		}
+		li.hashtag {
+			color: $brand-white;
+			a {
+				color: $brand-white;
+				&:hover {
+					color: $brand-yellow;
+				}
+			}
+		}
+	}
+}
+
+.homepage--hero-video-container {
+	position: relative;
+	//height: 720px;
+	height: 100%;
+	overflow: hidden;
+	padding-left: 0;
+	padding-right: 0;
+	@include mq(xs){
+		background-image: url('../video/video-poster.jpg');
+		background-size: cover;
+		background-position-x: 80%; //get background video poster/loading/mobile background more centrall
+	}
+	.video-item {
+		z-index: 0;
+		@include mq(xs){
+			display: none;
+		}
+		@include mq(sm){
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.homepage--big-text {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		z-index: 4;
+		background-color: transparentize($brand-blue, 0.5);
+		font-family: NunitoSans, sans-serif;
+		padding-top: $half-margin;
+		padding-bottom: $half-margin;
+		text-align: center;
+		z-index: 2;
+		.big-text {
+			font-size: 40px;
+			font-family: NunitoSansBold, sans-serif;
+			color: white;
+			text-transform: uppercase;
+			line-height: 50px;
+		}
+		@include mq(xs) {
+			background-color: transparentize($brand-blue, 0.3);
+		}
+	}
+}
+
+.homepage--intro-text, .homepage--why-you-should-attend {
+	max-width: 700px;
+	margin: 0 $half-margin;
+	@include mq(sm) {
+		margin: 0 auto;
+	}
+}
+
+.homepage--intro-text {
+	max-width: 885px;
+	margin-top: $standard-margin;
+	text-align: center;
+}
+
+// Speaker section
+
+.section.speakers {
+	h2 {
+		font-size: 24px; //this may be best served as a reference to a font-size variable since its the same size as an h1
+		@include mq(xs) {
+			margin-bottom: $half-margin;
+		}
+	}
+
+	.row {
+		&:first-child {
+      margin-top: 32px;
+    }
+    &:last-child {
+      margin-bottom: 15px;
+    }
+    @include mq(xs) {
+
+    }
+		@include mq(sm) {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			text-align: center;
+		}
+		@include mq(md) {
+			flex-wrap: nowrap;
+		}
+	}
+}
+
+.speaker-container {
+	display: block;
+	@include mq(sm) {
+		display: inline-block;
+		max-width: 150px;
+	}
+	h3 {
+		margin-bottom: 10px;
+	}
+	.speaker-name {
+		color: $brand-blue;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 20px;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		transition: color 0.2s;
+		&:hover {
+			color: $brand-body-link-hover;
+			text-decoration: none;
+		}
+	}
+}
+//sprite rules for workshops hosted by two speakers.
+.co-workshop-img {
+	background-size: 315px;
+	background-position: -160px;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+	&.alberto-and-paul {
+		background-image: url('../img/speakers/sprite-alberto-and-paul.png');
+		background-position: -160px; //keep it coloured even when not during hover state
+		&:hover {
+			cursor: pointer;
+			cursor: hand;
+			background-position: 1px;
+		}
+	}
+	&.no-hover {
+		background-position: 1px; //stop hover since link was removed for co-workshop page
+	}
+}
+//sprites for individual speaker images
+.speaker-img {
+  background-size:312px;
+  background-position: -156px;
+	height: 150px;
+	margin: 0 auto;
+	width: 150px;
+	border-radius: 120px;
+  @include mq(xs) {
+    margin-top: 15px;
+	}
+	&:hover {
+		cursor: pointer;
+		cursor: hand;
+	}
+	&.paul-rayner {
+		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.keep-color {
+		background-position: 0; //stop hover since link was removed for co-workshop page
+	}
+}
+
+//workshop images
+
+.speaker--workshop-content-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: $standard-margin;
+}
+
+.speaker-details {
+	color: $brand-body;
+	font-size: 16px;
+}
+
+.container.page {
+	margin: 0 auto;
+	max-width: 600px;
+	padding-bottom: 3em;
+
+	.copy {
+		text-align: left;
+	}
+	.copy-top-padding {
+		margin-top: 25px !important;
+	}
+}
+
+h2.conference-emphasis {
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: left;
+  font-size: 20px;
+  font-family: NunitoSansBold,sans-serif;
+}
+
+// Location section
+
+.location-col {
+	padding-bottom: 20px;
+}
+.location-img {
+	display: block;
+	margin: 0 auto 15px;
+	max-width: 100%;
+}
+
+.read-more {
+	background-image: url('../img/read-more-arrow.png');
+	background-position: center 2px !important;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	margin-bottom: -2px;
+	margin-left: 8px;
+	opacity: 0.6;
+	transition: all 0.2s;
+	width: 18px;
+	@include ir();
+	&:hover {
+		opacity: 1;
+	}
+}
+
+footer {
+	background-color: $brand-blue;
+	color: $brand-white;
+	font-family: NunitoSans, sans-serif;
+	padding-top:0;
+	padding-bottom: $standard-margin;
+	text-align: center;
+	.container {
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		background-size: contain;
+	}
+
+	.section-header {
+		display: block;
+		color: $brand-white;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 18px;
+		text-transform: uppercase;
+		margin-bottom: $half-margin;
+	}
+
+	.copyright, .conf-contact {
+		font-size: 14px;
+		margin-bottom: 10px;
+		a {
+			color: $brand-reverse-link;
+			&:hover {
+				color: $brand-reverse-link-hover;
+			}
+		}
+	}
+}
+
+.sponsor-container {
+	display: -webkit-flex; /* Safari */
+	-webkit-justify-content: space-around; // Safari 6.1+
+	display: flex;
+	justify-content: space-around; //for chrome, firefox, etc
+	align-items: center;
+	.item, .organized-by-item {
+		width: 300px;
+		img {
+			width: 95%;
+			height: auto;
+			margin-bottom: $half-margin;
+		}
+	}
+	//platinum sponsor logo appears largest
+	.platinum-logo {
+		max-width: 300px;
+	}
+	.silver-logo {
+		max-width: 200px;
+	}
+	//bronze sponsor logos appear smaller
+	.bronze-logo {
+		max-width: 160px;
+	}
+	.organized-by-item {
+		width: 300px;
+	}
+}
+
+// these are style/size specific to the sponsors page only (and are independently custom to the sizing added to the footers
+.sponsors-page {
+	.sponsor-logo {
+		width: auto;
+		height: 100%;
+		display: block;
+		margin: 0 auto $standard-margin auto;
+	}
+	//this is a placeholder example for when sponsors start coming in for 2020
+	.sponsor-logo-sponsor-name {
+		@include mq(xs) {
+			width: 100%;
+		}
+		@include mq(sm) {
+			width: 80%;
+		}
+		@include mq(md) {
+			width: 80%;
+		}
+		@include mq(lg) {
+			width: 100%;
+		}
+	}
+}
+
+.page-subheader {
+	color: $brand-body;
+	font-family: NunitoSansBold, sans-serif;
+	margin: 0 0 4px 0;
+}
+
+.featured-speaker.container {
+	.img-container {
+		display: block;
+		text-align: center;
+		@include mq(sm) {
+			display: inline-block;
+		}
+
+		img {
+			vertical-align: top;
+		}
+	}
+	.copy-container {
+		display: block;
+		max-width: 640px;
+		@include mq(sm) {
+			display: inline-block;
+      padding-left: 75px;
+		}
+    @include mq(md) {
+      padding-left: 45px;
+    }
+	}
+	.copy {
+		text-align: left;
+	}
+	.speaker-subheader {
+		color: $brand-blue;
+		text-align: left;
+		text-transform: none;
+	}
+	.speaker-keynote {
+		text-align: left;
+		text-transform: uppercase;
+		font-size: 25px;
+	}
+}
+
+//homepage video before featured speakers
+.video-responsive {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+
+.video-responsive iframe {
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+.featured-speaker {
+	.copy-container {
+      padding-top: 25px;
+      @include mq(sm){
+    		display: inline;
+        //padding-top: 75px;
+    	}
+      @include mq(md){
+
+      }
+	}
+	.img-container {
+		padding-left: 17px;
+	  padding-top: 25px;
+	}
+	.copy {
+		max-width: none;
+	}
+}
+
+.speaker-page-img {
+	height: 150px;
+	width: 150px;
+}
+
+.speaker-header {
+	margin: 0 0 2px 0;
+}
+.speaker-subtitle {
+	margin: 0 0 2px 0;
+	text-align: left;
+}
+.speaker-handle {
+	font-family: NunitoSans, sans-serif;
+	margin: 0;
+	text-align: left;
+}
+.speaker-subheader {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	margin: 25px 0 25px 0;
+}
+
+// Location page
+.location.hero {
+	background-image: url('../img/hyatt-panorama.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	height: 400px;
+}
+
+//Sponsors
+.container.sponsors {
+	padding-top: 50px;
+}
+
+.container.short {
+	padding-top: 25px;
+	padding-bottom: 150px;
+}
+
+//People
+.container.people {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+//Venue
+
+.keystone-map-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: $standard-margin;
+}
+
+//Workshops
+
+.workshops-index-page, .workshop-single-page {
+	.duration {
+		display: block;
+		color: $brand-blue;
+		font-weight: 500;
+		text-transform: uppercase;
+		//margin-bottom: 8px;
+		@include mq(xs) {
+			text-align: center;
+			padding-bottom: 0;
+		}
+	}
+	.speaker-name {
+		display: block;
+		color: $brand-body;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 7px;
+		@include mq(xs) {
+			text-align: center;
+		}
+	}
+}
+
+.workshops-index-page {
+	.workshops-index-page--item {
+		max-width: 640px;
+		@include mq(xs) {
+			text-align: center;
+			padding-bottom: 0;
+		}
+		@include mq(sm) {
+			padding-top: 20px;
+			padding-left: 65px;
+		}
+		@include mq(md) {
+			padding-left: 35px;
+		}
+		p {
+			margin-bottom: $half-margin;
+		}
+		h1 {
+			@include mq(xs) {
+				text-align: center;
+				margin-top: 20px !important;
+			}
+			text-align: left;
+		}
+		h2 {
+			color: #000;
+			text-transform: uppercase;
+			font-family: NunitoSansSemiBold, sans-serif;
+			font-size: $big;
+			margin-bottom: 10px;
+			@include mq(xs) {
+				margin-top: $standard-margin;
+			}
+			@include mq(sm) {
+				margin-top: $half-margin;
+			}
+			a {
+				color: #f0b310;
+				transition: color 0.2s ease 0s;
+				&:hover {
+					text-decoration: none;
+					color: #fdc33c;
+				}
+			}
+		}
+	}
+}
+
+//Workshop page (individual)
+.workshop-single-page {
+	//margin-top: 75px; //needs to clear static blue "info bar" added ay 2019
+	.speaker-img, .co-workshop-img {
+		margin-top: 25px; //not quite $standard-margin height here since the static blue bar isnt quite the right height
+	}
+	.content {
+		@include mq(xs) {
+			h1 {
+				margin-top: $standard-margin;
+			}
+		}
+		@include mq(sm){
+			margin-left: 45px;
+			h1 {
+				margin-top: $standard-margin;
+			}
+		}
+		@include mq(md){
+			margin-left: 20px;
+		}
+		h1 {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			@include mq(xs){
+				text-align: center;
+			}
+			@include mq(sm){
+				text-align: left;
+			}
+		}
+	}
+}
+
+//Schedule page
+.schedule {
+	width: 100%;
+	.row {
+		margin: 0 auto;
+		max-width: 960px;
+	}
+}
+.final-row {
+  margin-bottom: $standard-margin;
+}
+.title-row {
+  .title-cell-uncolored-cells {
+    @include mq(sm) {
+      padding-left: 0px;
+    }
+    @include mq(md) {
+      padding-left: 0px;
+    }
+  }
+  .title-cell-colored-cells {
+    @include mq(sm) {
+      padding-left: 10px;
+    }
+    @include mq(md) {
+      padding-left: 5px;
+    }
+  }
+  h2 {
+    font-size: 28px;
+		font-family: NunitoSansBold, sans-serif;
+		color: #000;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    @include mq(xs) {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  h3 {
+		font-size: 24px;
+    margin-top: 0;
+    @include mq(xs) {
+      text-align: center;
+    }
+  }
+}
+
+.time-cell {
+	text-align: left;
+  	font-size: 16px;
+	font-family: NunitoSans, sans-serif;
+  	@include mq(xs) {
+		text-align: center;
+		margin-top: $standard-margin;
+	}
+	@include mq(sm) {
+		margin-top: $half-margin;
+	}
+}
+
+.details {
+  p {
+    em {
+      font-size: 16px;
+    }
+  }
+  a {
+    color: #c49524;
+    &:hover {
+      color: #fdc33c;
+      text-decoration: none;
+    }
+  }
+  @include mq(xs) {
+		text-align: center;
+		margin-bottom: 0;
+	}
+	@include mq(sm) {
+		padding: 10px 13px 10px 13px;
+	}
+}
+
+.details-colored {
+  color: #fff9ec;
+  padding: 5px 13px 5px 13px;
+  h4, h4 > a {
+    font-family: NunitoSansBold, sans-serif !important;
+  }
+  h5 {
+    font-family: NunitoSansSemiBold, sans-serif;
+  }
+  a {
+	color: #fff9ec;
+  }
+}
+//for those rare occaisons wherein the same coloured details boxes are stacked directly on top of one another
+.details-color-collision-gap {
+	@include mq(sm) {
+		margin-bottom: 1px;
+	}
+}
+
+.details-gold {
+  background-color: #e6a62d;
+}
+.details-green {
+  background-color: #2ea165;
+}
+.details-purple {
+  background-color: #682c89;
+}
+.details-blue {
+  background-color: $brand-blue;
+}
+.talk-title {
+	margin-bottom: $half-margin;
+	a {
+		font-family: NunitoSansSemiBold, sans-serif;
+	}
+  em {
+    font-size: 16px;
+  }
+}
+.details-wide, .details-two-thirds {
+	@include mq(xs) {
+		p {
+			margin-bottom: 0;
+		}
+	}
+	@include mq(sm) {
+		p {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			margin-bottom: 0;
+		}
+	}
+}
+.details-wide-colored {
+	@include mq(xs) {
+
+	}
+	@include mq(sm) {
+		margin-bottom: $standard-margin;
+	}
+}
+@include mq(xs) {
+
+}
+@include mq(sm) {
+    .time-cell {
+      width: 10%;
+    }
+    .details {
+			width: 22%;
+		}
+		.details-two-thirds {
+			width: 44%;
+		}
+		.details-wide {
+			width: 87.75%;
+		}
+}
+@include mq(md) {
+	.time-cell {
+		width: 15.6%;
+	}
+	/* .details {
+		width: 28%;
+	} */
+	.details {
+		width: 21%;
+	}
+	.details-wide {
+		width: 84%;
+	}
+	.details-two-thirds { //this isn't really aptly named anymore since it was two thirds when there were only 3 tracks/columns, but there are 4 now.
+		width: 42%;
+	}
+}
+//styles that apply to structure/content for long form or "double length" talks/sessions
+@include mq(xs) {
+	.double-session-shim {
+		display: none;
+	}
+}
+@include mq(sm) {
+	.long-session-part-2-copy {
+		display: none;
+	}
+}
+
+
+.top-border {
+	@include mq(sm) {
+		border-top: 1px solid black;
+	}
+}
+.bottom-border {
+	@include mq(sm) {
+		border-bottom: 1px solid black;
+	}
+}
+
+//full height columns
+//only apply to non mobile viewports since this flex fix will break responsiveness below 768
+@include mq(sm) {
+  .time-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+  .time-row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  //this repeats but I'll clean this up later
+  .title-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+  .title-row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// CFP
+.cfp-cta {
+  font-family: NunitoSansExtraBold, sans-serif;
+  margin: 0 0 4px 0;
+  	a {
+  		color: #fdc33c;
+  	}
+}
+
+//default button style
+.btn {
+	@extend %btn;
+	margin-bottom: $standard-margin;
+}
+
+.buttons {
+  text-align: center;
+  .schedule-btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px 10px 8px 10px;
+    min-width: 180px;
+    span {
+      display: block;
+    }
+    .btn-title {
+			font-size: 18px;
+    }
+    .btn-date {
+      font-size: 16px;
+      text-transform: none;
+    }
+  }
+}
+
+/* mailchimp embedded signup form styling */
+.footer--newsletter-signup {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 960px;
+  // margin-bottom: 40px;
+  .header {
+		display: block;
+    font-size: 24px;
+    font-family: NunitoSansBold, sans-serif;
+    color: $brand-body;
+    margin-top: 0;
+    margin-bottom: $standard-margin;
+	}
+
+  //these two classes apparently do something in the mailchimp code snippet, but lets make them work with our layout
+  .mc-field-group, .clear {
+    @include mq(xs) {
+      display: block;
+    }
+    @include mq(sm) {
+      display: inline-block;
+    }
+  }
+  input[type=email] {
+	 background-color: $brand-white;
+   border: 1px solid $brand-body;
+		padding: $quarter-margin $half-margin;
+	 margin-right: 10px;
+	 font-size: $body-size;
+   @include mq(xs) {
+     width: 80%;
+     margin-bottom: $standard-margin;
+   }
+   @include mq(sm) {
+     width: 350px;
+   }
+   @include mq(md) {
+     width: 470px;
+   }
+  }
+  input[type=submit] {
+		@extend %btn;
+		font-size: $body-size;
+	}
+  #mce-error-response, #mce-success-response {
+    margin-top: $standard-margin;
+    margin-bottom: $standard-margin;
+  }
+}
+.section.home-videos {
+	margin-top: 18px;
+}
+.home-videos {
+	.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+		height:0;
+		margin-bottom: 35px !important;
+	}
+	.video-responsive iframe{
+		left:0;
+		top:0;
+		height:100%;
+		width:100%;
+		position:absolute;
+	}
+}
+
+.homepage-video {
+	max-width: 885px;
+}
+
+.homepage-youtube-link-img {
+	margin-bottom: $standard-margin;
+}
+/* sponsor subfooter section on homepage and second level pages */
+.sponsor-section {
+	background-color: #fff;
+	padding: 0 0 $standard-margin 0;
+	text-align: center;
+	h3 {
+		text-transform: uppercase;
+		color: $brand-blue;
+		// margin-bottom: 0;
+	}
+	.item {
+		@include mq(xs) {
+			display: block;
+			margin: 10px auto;
+		}
+		@include mq(sm) {
+			display: block;
+			margin: 0 auto;
+		}
+		@include mq(md) {
+			display: inline-block;
+		}
+		a {
+			img {
+				width: auto;
+				height: 100%;
+			}
+		}
+	}
+	.platinum-sponsor {
+		@include mq(xs) {
+			.sponsor-name {
+				img {
+					width: 80%;
+				}
+			}
+		}
+		@include mq(sm) {
+			.item {
+				margin: 10px 10px 10px 10px;
+			}
+			.sponsor-name {
+				img {
+					height: 125px;
+					width: auto;
+				}
+			}
+		}
+	}
+	.silver-sponsor {
+		@include mq(xs) {
+			.sponsor-name {
+				img {
+					width: 35%;
+				}
+			}
+		}
+		@include mq(sm) {
+			.item {
+				margin: 10px 10px 10px 10px;
+			}
+			.sponsor-name {
+				img {
+					height: 165px;
+					width: auto;
+				}
+			}
+		}
+	}
+
+	.diversity-sponsor {
+		@include mq(xs) {
+			.sponsor-name {
+				img {
+					width: 60%;
+				}
+			}
+		}
+		@include mq(sm) {
+			.item {
+				margin: 10px 10px 10px 10px;
+			}
+			.sponsor-name {
+				img {
+					height: 70px;
+					width: auto;
+				}
+			}
+		}
+	}
+
+	.bronze-sponsor {
+		.sponsor-name {
+			img {
+				height: 45px;
+				width: auto;
+				@include mq(xs) {
+					height: 55px;
+				}
+			}
+		}
+	}
+
+	.venue-sponsor {
+		.sponsor-name {
+			img {
+				height: 35px;
+				width: auto;
+				@include mq(xs) {
+					height: 45px;
+				}
+			}
+		}
+	}
+
+	.reception-sponsor {
+		.sponsor-name {
+			img {
+				height: 170px;
+				width: auto;
+				@include mq(xs) {
+					height: 140px;
+				}
+				@include mq(sm) {
+					height: 160px;
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+	.video-sponsor {
+		/* .sponsor-name {
+			img {
+				height: 65px;
+				width: auto;
+				@include mq(xs) {
+					height: 40px;
+				}
+			}
+		} */
+	}
+	.lunch-sponsor {
+		.sponsor-name {
+			img {
+				height: 40px;
+				width: auto;
+				@include mq(xs) {
+					height: 40px;
+				}
+				@include mq(sm) {
+					height: 35px;
+				}
+			}
+		}
+	}
+	.sponsor-name-1 {
+		@include mq(xs) {
+			// padding-bottom: 0px;
+		}
+	}
+}
+
+.about.hero {
+	background-image: url('../img/hero-about.jpg');
+}
+.cfp.hero {
+	background-image: url('../img/hero-cfp.jpg');
+}
+.workshops.hero {
+	background-image: url('../img/hero-workshops.jpg');
+}
+.sponsors.hero {
+	background-image: url('../img/hero-sponsors.jpg');
+}
+
+//venue specific styles
+
+.venue.hero {
+	background-image: url('../img/hero-venue.jpg');
+}
+.venue--address--reserve-btn-row, .get-ticket-btn {
+	text-align: center;
+	.btn {
+		display: inline-block;
+	}
+}
+
+//scholarship specific styles
+.scholarship.hero {
+	background-image: url('../img/scholarship-hero.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	height: 400px;
+	@include mq(md) {
+		background-position: center center;
+	}
+}
+
+//blockquote styling
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid $brand-blue;
+  padding: 15px;
+	quotes: "\201C""\201D""\2018""\2019";
+	text-align: left;
+}
+blockquote:before {
+  color: $brand-blue;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p:first-child:after {
+		color: $brand-blue;
+		content: close-quote;
+		display: block;
+		font-size: 4em;
+		line-height: 0.1em;
+		margin-top: 0.6em;
+}
+blockquote p:first-child {
+	margin-bottom: 0;
+}
+blockquote p {
+  display: inline;
+}
+blockquote .quote-source {
+	font-size: .75em;
+}
+//make talk session titles same colour as h2 workshop titles that are also links
+.gold {
+	color: $brand-body-link !important;
+}
+
+.styleguide--label {
+	border-bottom: 1px solid #cdcdcd;
+}
+
+
+/* sessionize embedded speaker style overrides */
+
+ul.sz-speakers--wall {
+	// margin: 0;
+	// padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	.sz-speaker {
+		list-style: none;
+		// margin: 0;
+		// padding: 0;
+		display: inline-block;
+		// border: 1px solid blue;
+	}
+	h4.sz-speaker__tagline {
+		max-width: 200px;
+	}
+}

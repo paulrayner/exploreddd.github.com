@@ -5,7 +5,7 @@ layout: layout-tier2.html
 <div class="container">
 	<div class="col-lg-6 col-lg-offset-3">
 		<h1 class="text-center">Call for Proposals</h1>
-    <div class="text-center"><a class="btn" href="https://sessionize.com/eddd2020/">Submit Your Proposal</a></div>
+    <div class="text-center"><strong>CFP is now closed.</strong></div>
     <p class="text-center"><strong>CFP Deadline is March 6, 2020</strong></p>
     <p>Should you submit your talk, workshop, or hands-on session idea?</p>
     <p>Yes, definitely! Submitting proposals is your job. Worrying about what fits the program is ours. When in doubt, submit your proposal.</p>
