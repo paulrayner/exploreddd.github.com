@@ -112,15 +112,6 @@ $(document).ready(function() {
   }).resize();
 });
 
-function callScheduleEndpoint(url) {
-  $.getJSON(url, function(data) {
-    //data = JSON.stringify(data);
-    let sessions = data.sessions;
-    let speakers = data.speakers;
-    console.log(sessions)
-  });
-}
-
 /* fancybox setup */
 $(document).ready(function() {
 	$("a#single_image").fancybox({
