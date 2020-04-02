@@ -1782,3 +1782,25 @@ blockquote .quote-source {
 .styleguide--label {
 	border-bottom: 1px solid #cdcdcd;
 }
+
+.covid-notice-container {
+	position: relative;
+	width: 100%;
+	background: none;
+	.alert-covid-notice {
+		position: absolute;
+		//top: 50px;
+		display: inline-block;
+		z-index: 100;
+		background-image: none !important;
+		color: black;
+		text-align: center;
+		background-color: $brand-yellow;
+		border: 0;
+		border-radius: 0;
+		padding-bottom: $standard-margin;
+		h3 {
+			margin-top: $half-margin;
+		}
+	}
+}
