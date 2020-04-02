@@ -104,11 +104,18 @@ $(document).ready(function() {
       var homepagetopbar = $('.homepage--top-bar').outerHeight(true);
       $("#sidebar").height(bodyheight);
       // console.log('height of window is ' + bodyheight);
-      // console.log('height of nav div is ' + navheight);
-      // console.log('height of homepage top bar div is ' + homepagetopbar);
+      console.log('height of nav div is ' + navheight);
+      console.log('height of homepage top bar div is ' + homepagetopbar);
       var videoheight = bodyheight - navheight - homepagetopbar;
       $(".homepage--hero-video-container").css("margin-top",homepagetopbar);
       $(".homepage--hero-video-container").css("height",videoheight);
+
+      var topStuff = navheight + homepagetopbar;
+
+      console.log('height of topStuff is ' + topStuff);
+
+      $(".alert-covid-notice").css("top",topStuff);
+
   }).resize();
 });
 

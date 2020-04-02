@@ -644,7 +644,6 @@ figure {
 
 .homepage--hero-video-container {
 	position: relative;
-	//height: 720px;
 	height: 100%;
 	overflow: hidden;
 	padding-left: 0;
@@ -1781,4 +1780,36 @@ blockquote .quote-source {
 
 .styleguide--label {
 	border-bottom: 1px solid #cdcdcd;
+}
+
+.alert-covid-notice {
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+	background-image: none;
+	opacity: 0.85 !important;
+	color: black;
+	text-align: center;
+	background-color: $brand-yellow;
+	border: 0;
+	border-radius: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	.alert-covid-notice--content {
+		margin: 0 auto;
+		max-width: 800px;
+		margin-top: $half-margin;
+		margin-bottom: $half-margin;
+		h3 {
+			margin-top: 0;
+			margin-bottom: $half-margin;
+		}
+		p {
+			margin-bottom: 0;
+		}
+	}
+	.close {
+		padding-top: 5px;
+		font-size: 50px;
+	}
 }
