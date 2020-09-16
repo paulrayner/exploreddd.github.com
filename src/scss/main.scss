@@ -788,11 +788,23 @@ figure {
     margin-top: 15px;
 	}
 	&:hover {
-		cursor: pointer;
-		cursor: hand;
+		//cursor: pointer;
+		// cursor: hand;
 	}
 	&.paul-rayner {
 		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.scott-wlaschin {
+		background-image: url('../img/speakers/sprite-scott-wlaschin.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.marijn-huizendveld {
+		background-image: url('../img/speakers/sprite-marijn-huizendveld.jpg');
 		&:hover {
 			background-position: 0;
 		}
@@ -1115,6 +1127,7 @@ footer {
 }
 
 .workshops-index-page {
+	margin-bottom: $standard-margin;
 	.workshops-index-page--item {
 		max-width: 640px;
 		@include mq(xs) {
