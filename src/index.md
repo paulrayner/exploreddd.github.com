@@ -15,9 +15,6 @@ layout: layout.html
         <source src="video/background-video.ogv" type="video/ogg">
     </video>
     <div class="video-overlay"></div>
-    <div class="homepage--big-text">
-        <div class="big-text">September 14-18, 2020<br>Keystone&nbsp;&#124;&nbsp;Colorado</div>
-    </div>
 </div>
 <div class="container homepage--intro-text">
     <div class="row">
