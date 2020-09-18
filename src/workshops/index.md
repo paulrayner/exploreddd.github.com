@@ -9,7 +9,7 @@ layout: layout-tier2.html
         <p class="text-center">More workshops will be added as they are confirmed.</p>
         <div class="row">
             <div class="col-xs-12" align="center">
-                <a class="btn" href="https://ti.to/eddd/explore-ddd-2020">REGISTER NOW</a>
+                <a class="btn" href="https://ti.to/EDDD/explore-ddd-2020-virtual-workshops">REGISTER NOW</a>
             </div>
         </div>
     </div>
