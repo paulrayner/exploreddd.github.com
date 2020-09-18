@@ -30,7 +30,7 @@ layout: layout.html
         </ul>
         <h1 class="text-center">WHAT IS DDD?</h1>
         <p>Domain-Driven Design (“DDD”) is an approach to delivering software for complex needs through evolving a model of key business concepts in the software itself. It is not a technology or a methodology, but rather principles, patterns, and practices for making effective design decisions to focus and accelerate software projects dealing with complicated domains.</p>
-        <div class="text-center"><a href="https://ti.to/EDDD/explore-ddd-2020" class="btn">Register Now</a></div>
+        <div class="text-center"><a href="https://ti.to/EDDD/explore-ddd-2020-virtual-workshops" class="btn">Register Now</a></div>
         <p class="text-center">View past conferences: <a href="./2019">2019</a> &#124; <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
         <p class="text-center">Visit and subscribe to the <a href="https://www.youtube.com/exploreddd">ExploreDDD YouTube Channel</a></p>
         <div class="text-center ">
