@@ -734,7 +734,7 @@ figure {
 	}
 }
 
-.speaker-container {
+.speaker-container, .speaker-container-inline-content {
 	display: block;
 	@include mq(sm) {
 		display: inline-block;
@@ -777,7 +777,7 @@ figure {
 	}
 }
 //sprites for individual speaker images
-.speaker-img {
+.speaker-img, .speaker-img-in-content {
   background-size:312px;
   background-position: -156px;
 	height: 150px;
@@ -812,6 +812,9 @@ figure {
 	&.keep-color {
 		background-position: 0; //stop hover since link was removed for co-workshop page
 	}
+}
+.speaker-img-in-content {
+	margin-bottom: $standard-margin;
 }
 
 //workshop images
@@ -1116,7 +1119,8 @@ footer {
 	}
 	.speaker-name {
 		display: block;
-		color: $brand-body;
+		color: $brand-yellow;
+		font-family: NunitoSansSemiBold, sans-serif;
 		font-weight: bold;
 		text-transform: uppercase;
 		margin-bottom: 7px;
