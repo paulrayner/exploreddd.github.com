@@ -213,18 +213,18 @@ nav {
 	}
 	@include mq(sm) {
 		height: 39px;
-		margin: 8px 0 0 0;
+		margin: 8px 0 0 $standard-margin;
 		width: 144px;
 	}
 	@include mq(md) {
 		margin: 3px auto;
 		height: 48px;
-		margin: 13px 0 0 0;
+		margin: 13px 0 0 $standard-margin;
 		width: 180px;
 	}
 	@include mq(lg) {
 		height: 62px;
-		margin: 0 0 0 0;
+		margin: 0 0 0 $standard-margin;
 		width: 230px;
 	}
 }
@@ -392,6 +392,7 @@ nav {
 		position: relative;
 		top: 15px;
 		margin-top: 0;
+		margin-right: $standard-margin;
 	}
 	@include mq(md) {
 		margin-top: 5px;
