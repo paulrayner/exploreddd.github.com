@@ -21,7 +21,7 @@ layout: layout.html
         <ul>
             <li>No travel! No flight delays, passport control, or security checks. Worried about losing your luggage? Forget about it!</li>
             <li>Challenge your thinking in an open, sharing, and collaborative environment while accessing the workshops from the comfort of your own home or office. Take breaks as needed. We understand that these are strange times we are living in. </li>
-            <li>Use the time you would be traveling to report to colleagues on the key lessons and takeaways from our industry-leading hosts. Help them to expand the skills you’ve learned from these innovative, remote sessions, and then incorporate them into your organization as well.</li>
+            <li>Use the time you would be traveling to report to colleagues on the key lessons and takeaways from our industry-leading instructors. Help them to expand the skills you’ve learned from these innovative, remote sessions, and then incorporate them into your organization as well.</li>
             <li>Talk to your boss and tell them how you would benefit from attending said workshops. Relay the cost savings you will benefit from by not traveling this year.
 </li>
             <li>Seamlessly juggle work demands with partial-day workshop attendance.</li>
