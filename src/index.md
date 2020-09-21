@@ -12,23 +12,13 @@ layout: layout.html
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
-      <li class="slide dia">
-        <div class="container">
-          <div class="dia-copy">
-            <h1>GET READY TO<br>EXPLORE DDD</h1>
-            <a href="https://ti.to/explore-ddd-conference/2017">REGISTER TODAY</a>
-          </div>
-        </div>
-      </li>
-      <li class="slide hyatt">
-        <div class="container">
-          <div class="hyatt-copy">
-            <h1>Grand Hyatt</h1>
-            <p>Explore our incredible conference venue in Denver, Colorado.</p>
-            <a href="location/">About the venue</a>
-          </div>
-        </div>
-      </li>
+      <li class="slide picture-1"></li>
+      <li class="slide picture-2"></li>
+      <li class="slide picture-3"></li>
+      <li class="slide picture-4"></li>
+      <li class="slide picture-5"></li>
+      <li class="slide picture-6"></li>
+      <li class="slide picture-7"></li>
     </ul>
   </div>
   <div class="custom-navigation-container">
