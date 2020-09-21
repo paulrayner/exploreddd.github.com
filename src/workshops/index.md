@@ -27,7 +27,7 @@ layout: layout-tier2.html
                 <h2><a href="scott-wlaschin.html">Domain Modeling Made Functional</a></h2>
                 <p>
                     <span class="speaker-name">Scott Wlaschin</span>
-                    <span class="duration">October 27-30, 2020<br>9:30 AM - 12:30 PM (MDT)</span>
+                    <span class="duration">October 27-30, 2020<br>9:00 AM - 12:30 PM (MDT)</span>
                 </p>
                 <p>Functional programming and domain-driven design might not seem to be a good match, but in fact functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why. <a href="scott-wlaschin.html">Read more...</a></p>
             </div>
