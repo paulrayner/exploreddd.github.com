@@ -644,6 +644,42 @@ figure {
 	}
 }
 
+//Hero (Slider Version)
+.slider {
+	margin-bottom: 0;
+	height: 500px;
+	position: relative;
+	@include mq(sm){
+		height: 400px;
+	}
+}
+.slide {
+	background-position: bottom center;
+	background-size: cover;
+	height: 500px;
+	@include mq(sm){
+		height: 400px;
+	}
+	@include mq(lg) {
+		.container {
+			width: 955px;
+		}
+	}
+}
+.slide.dia {
+	background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-DIA-1600x400.jpg');
+	}
+}
+.slide.hyatt {
+	background-image: url('../img/sliders/slider-Hyatt-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/Explore-DDD-website-Slider-Hyatt.jpg');
+	}
+}
+
+//Hero (Fullscreen Video Version)
 .homepage--hero-video-container {
 	position: relative;
 	height: 100%;

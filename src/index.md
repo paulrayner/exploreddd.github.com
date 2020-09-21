@@ -1,14 +1,43 @@
 ---
 layout: layout.html
 ---
-<div class="container-fluid homepage--hero-video-container">
+<!-- <div class="container-fluid homepage--hero-video-container">
     <video loop muted autoplay class="video-item">
         <source src="video/background-video.webm" type="video/webm">
         <source src="video/background-video.mp4" type="video/mp4">
         <source src="video/background-video.ogv" type="video/ogg">
     </video>
     <div class="video-overlay"></div>
-</div>
+</div> -->
+<section class="slider">
+  <div class="flexslider">
+    <ul class="slides">
+      <li class="slide dia">
+        <div class="container">
+          <div class="dia-copy">
+            <h1>GET READY TO<br>EXPLORE DDD</h1>
+            <a href="https://ti.to/explore-ddd-conference/2017">REGISTER TODAY</a>
+          </div>
+        </div>
+      </li>
+      <li class="slide hyatt">
+        <div class="container">
+          <div class="hyatt-copy">
+            <h1>Grand Hyatt</h1>
+            <p>Explore our incredible conference venue in Denver, Colorado.</p>
+            <a href="location/">About the venue</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="custom-navigation-container">
+  <div class="custom-navigation">
+    <a class="arrow left"><img src="img/slider-arrow-left.svg" /></a>
+    <a class="arrow right"><img src="img/slider-arrow-right.svg" /></a>
+  </div>
+  </div>
+</section>
 <div class="container homepage--intro-text">
     <div class="row">
     <p style="font-size: 20px;">Explore DDD is offering hands-on and highly interactive workshops this year. Workshops will typically consist of four daily 3-4 hour online class sessions over the course of the last two weeks in October and the first two weeks in November.</p>
