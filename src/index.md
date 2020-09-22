@@ -12,7 +12,7 @@ layout: layout.html
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
-      <li class="slide picture-7"></li>
+      <li class="slide picture-1"></li>
       <li class="slide picture-2"></li>
       <li class="slide picture-3"></li>
       <li class="slide picture-4"></li>
