@@ -654,7 +654,7 @@ figure {
 	}
 }
 .slide {
-	background-position: bottom center;
+	// background-position: bottom center;
 	background-size: cover;
 	height: 500px;
 	@include mq(sm){
@@ -670,12 +670,14 @@ figure {
 	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-1.jpg');
+		background-position: center top;
 	}
 }
 .slide.picture-2 {
 	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-2.jpg');
+		background-position: center center;
 	}
 }
 .slide.picture-3 {
@@ -694,18 +696,21 @@ figure {
 	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-5.jpg');
+		background-position: center center;
 	}
 }
 .slide.picture-6 {
 	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-6.jpg');
+		background-position: center center;
 	}
 }
 .slide.picture-7 {
 	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-7.jpg');
+		background-position: center center;
 	}
 }
 
