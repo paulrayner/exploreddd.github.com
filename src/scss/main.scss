@@ -667,47 +667,49 @@ figure {
 	}
 }
 .slide.picture-1 {
-	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+	background-image: url('../img/sliders/slider-2020-1-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-1.jpg');
-		background-position: center top;
+		background-position: center center;
 	}
 }
 .slide.picture-2 {
-	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+	background-image: url('../img/sliders/slider-2020-2-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-2.jpg');
 		background-position: center center;
 	}
 }
 .slide.picture-3 {
-	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+	background-image: url('../img/sliders/slider-2020-3-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-3.jpg');
 	}
 }
 .slide.picture-4 {
-	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+	background-image: url('../img/sliders/slider-2020-4-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-4.jpg');
 	}
 }
 .slide.picture-5 {
-	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+	background-image: url('../img/sliders/slider-2020-5-700x600.jpg');
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-5.jpg');
 		background-position: center center;
 	}
 }
 .slide.picture-6 {
-	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+	background-image: url('../img/sliders/slider-2020-6-700x600.jpg');
+	background-position: center center;
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-6.jpg');
 		background-position: center center;
 	}
 }
 .slide.picture-7 {
-	//background-image: url('../img/sliders/slider-DIA-700x600.jpg');
+	background-image: url('../img/sliders/slider-2020-7-700x600.jpg');
+	background-position: center center;
 	@include mq(sm){
 		background-image: url('../img/sliders/slider-2020-7.jpg');
 		background-position: center center;
