@@ -1,14 +1,33 @@
 ---
 layout: layout.html
 ---
-<div class="container-fluid homepage--hero-video-container">
+<!-- <div class="container-fluid homepage--hero-video-container">
     <video loop muted autoplay class="video-item">
         <source src="video/background-video.webm" type="video/webm">
         <source src="video/background-video.mp4" type="video/mp4">
         <source src="video/background-video.ogv" type="video/ogg">
     </video>
     <div class="video-overlay"></div>
-</div>
+</div> -->
+<section class="slider">
+  <div class="flexslider">
+    <ul class="slides">
+        <li class="slide picture-5"></li> <!-- #1 -->
+        <li class="slide picture-2"></li> <!-- #2 -->
+        <li class="slide picture-1"></li>
+        <li class="slide picture-3"></li>
+        <li class="slide picture-4"></li> <!-- #4 -->
+        <li class="slide picture-6"></li>
+        <li class="slide picture-7"></li>
+    </ul>
+  </div>
+  <div class="custom-navigation-container">
+  <div class="custom-navigation">
+    <a class="arrow left"><img src="img/slider-arrow-left.svg" /></a>
+    <a class="arrow right"><img src="img/slider-arrow-right.svg" /></a>
+  </div>
+  </div>
+</section>
 <div class="container homepage--intro-text">
     <div class="row">
     <p style="font-size: 20px;">Explore DDD is offering hands-on and highly interactive workshops this year. Workshops will typically consist of four daily 3-4 hour online class sessions over the course of the last two weeks in October and the first two weeks in November.</p>

@@ -644,6 +644,79 @@ figure {
 	}
 }
 
+//Hero (Slider Version)
+.slider {
+	margin-bottom: 0;
+	height: 500px;
+	position: relative;
+	@include mq(sm){
+		height: 400px;
+	}
+}
+.slide {
+	// background-position: bottom center;
+	background-size: cover;
+	height: 500px;
+	@include mq(sm){
+		height: 400px;
+	}
+	@include mq(lg) {
+		.container {
+			width: 955px;
+		}
+	}
+}
+.slide.picture-1 {
+	background-image: url('../img/sliders/slider-2020-1-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-2020-1.jpg');
+		background-position: center center;
+	}
+}
+.slide.picture-2 {
+	background-image: url('../img/sliders/slider-2020-2-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-2020-2.jpg');
+		background-position: center center;
+	}
+}
+.slide.picture-3 {
+	background-image: url('../img/sliders/slider-2020-3-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-2020-3.jpg');
+	}
+}
+.slide.picture-4 {
+	background-image: url('../img/sliders/slider-2020-4-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-2020-4.jpg');
+	}
+}
+.slide.picture-5 {
+	background-image: url('../img/sliders/slider-2020-5-700x600.jpg');
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-2020-5.jpg');
+		background-position: center center;
+	}
+}
+.slide.picture-6 {
+	background-image: url('../img/sliders/slider-2020-6-700x600.jpg');
+	background-position: center center;
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-2020-6.jpg');
+		background-position: center center;
+	}
+}
+.slide.picture-7 {
+	background-image: url('../img/sliders/slider-2020-7-700x600.jpg');
+	background-position: center center;
+	@include mq(sm){
+		background-image: url('../img/sliders/slider-2020-7.jpg');
+		background-position: center center;
+	}
+}
+
+//Hero (Fullscreen Video Version)
 .homepage--hero-video-container {
 	position: relative;
 	height: 100%;
