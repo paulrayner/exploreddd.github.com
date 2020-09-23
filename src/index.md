@@ -30,7 +30,7 @@ layout: layout.html
 </section>
 <div class="container homepage--intro-text">
     <div class="row">
-    <p style="font-size: 20px;">Explore DDD is offering hands-on and highly interactive workshops this year. Workshops will typically consist of four daily 3-4 hour online class sessions over the course of the last two weeks in October and the first two weeks in November.</p>
+    <p style="font-size: 20px;">Explore DDD is offering hands-on and highly interactive workshops this year. Workshops will take place over the course of the last two weeks in October and the first three weeks in November!</p>
         <a href="workshops" class="btn">See Workshops</a>
     </div>
 </div>
