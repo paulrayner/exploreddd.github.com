@@ -55,10 +55,10 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="paul-rayner.html">Essential DDD</a></h2>
+                <h2><a href="paul-rayner.html">Essential DDD Virtual Workshop</a></h2>
                 <p>
                     <span class="speaker-name">Paul Rayner</span>
-                    <span class="duration">October 20-23, 2020<br>9:00 AM - 12:30 PM (MDT)</span>
+                    <span class="duration">November 16-19, 2020<br>9:00 AM - 12:00 PM (MDT)</span>
                 </p>
                 <p>How do we overcome the overwhelming complexity of our business domains and quickly build software applications that evolve and adapt effectively? Domain-Driven Design (DDD) is an approach to software development that promotes collaboration between different disciplines to solve complex business problems in the most effective way. <a href="paul-rayner.html">Read more...</a></p>
             </div>
