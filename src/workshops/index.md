@@ -55,7 +55,7 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="paul-rayner.html">Essential DDD Virtual Workshop</a></h2>
+                <h2><a href="paul-rayner.html">Essential DDD</a></h2>
                 <p>
                     <span class="speaker-name">Paul Rayner</span>
                     <span class="duration">November 16-19, 2020<br>9:00 AM - 12:00 PM (MST)</span>
