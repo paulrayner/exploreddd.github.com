@@ -63,5 +63,21 @@ layout: layout-tier2.html
                 <p>How do we overcome the overwhelming complexity of our business domains and quickly build software applications that evolve and adapt effectively? Domain-Driven Design (DDD) is an approach to software development that promotes collaboration between different disciplines to solve complex business problems in the most effective way. <a href="paul-rayner.html">Read more...</a></p>
             </div>
         </div>
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="jessica-kerr-kent-beck.html"><div class="co-workshop-img jessica-and-kent"></div></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="jessica-kerr-kent-beck.html">Intro to Systems Thinking</a></h2>
+                <p>
+                    <span class="speaker-name">Jessica Kerr &amp; Kent Beck</span>
+                    <span class="duration">TBD<br>TBD</span>
+                </p>
+                <p>Are you frustrated with how illogical the world is? Baffled by how smart people and well written software can do wrong things? <a href="jessica-kerr-kent-beck.html">Read more...</a></p>
+            </div>
+        </div>
     </div>
 </div>

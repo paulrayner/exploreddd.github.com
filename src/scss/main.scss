@@ -847,6 +847,15 @@ figure {
 			background-position: 1px;
 		}
 	}
+	&.jessica-and-kent {
+		background-image: url('../img/speakers/sprite-jessica-and-kent.jpg');
+		background-position: -160px; //keep it coloured even when not during hover state
+		&:hover {
+			cursor: pointer;
+			cursor: hand;
+			background-position: 1px;
+		}
+	}
 	&.no-hover {
 		background-position: 1px; //stop hover since link was removed for co-workshop page
 	}
