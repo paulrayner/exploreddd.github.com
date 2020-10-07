@@ -51,16 +51,16 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="paul-rayner.html"><div class="speaker-img paul-rayner"></div></a>
+                    <a href="marijn-huizendveld.html"><div class="speaker-img marijn-huizendveld"></div></a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="paul-rayner.html">Essential DDD</a></h2>
+                <h2><a href="marijn-huizendveld.html">DDD-Infused Wardley Mapping</a></h2>
                 <p>
-                    <span class="speaker-name">Paul Rayner</span>
-                    <span class="duration">November 16-19, 2020<br>9:00 AM - 12:00 PM (MST)</span>
+                    <span class="speaker-name">Marijn Huizendveld</span>
+                    <span class="duration">November 9-12, 2020<br>9:00 AM - 12:30 PM (MST)</span>
                 </p>
-                <p>How do we overcome the overwhelming complexity of our business domains and quickly build software applications that evolve and adapt effectively? Domain-Driven Design (DDD) is an approach to software development that promotes collaboration between different disciplines to solve complex business problems in the most effective way. <a href="paul-rayner.html">Read more...</a></p>
+                <p>Organizations face more and more complexity these days as a result of a mesh of products, services, technology, and the people that work to build, operate, and maintain them. Domain-Driven Design helps us with solving problems the right way. But what helps us solve the right problem? <a href="marijn-huizendveld.html" style="white-space: nowrap">Read more...</a></p>
             </div>
         </div>
         <!-- begin workshop element -->
@@ -74,9 +74,25 @@ layout: layout-tier2.html
                 <h2><a href="jessica-kerr-kent-beck.html">Intro to Systems Thinking</a></h2>
                 <p>
                     <span class="speaker-name">Jessica Kerr &amp; Kent Beck</span>
-                    <span class="duration">TBD<br>TBD</span>
+                    <span class="duration">November 10 &amp; 12, 2020<br>10:30 AM - 2:00 PM (MST)</span>
                 </p>
                 <p>Are you frustrated with how illogical the world is? Baffled by how smart people and well written software can do wrong things? <a href="jessica-kerr-kent-beck.html">Read more...</a></p>
+            </div>
+        </div>
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="paul-rayner.html"><div class="speaker-img paul-rayner"></div></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="paul-rayner.html">Essential DDD</a></h2>
+                <p>
+                    <span class="speaker-name">Paul Rayner</span>
+                    <span class="duration">November 16-19, 2020<br>9:00 AM - 12:00 PM (MST)</span>
+                </p>
+                <p>How do we overcome the overwhelming complexity of our business domains and quickly build software applications that evolve and adapt effectively? Domain-Driven Design (DDD) is an approach to software development that promotes collaboration between different disciplines to solve complex business problems in the most effective way. <a href="paul-rayner.html">Read more...</a></p>
             </div>
         </div>
     </div>
