@@ -71,7 +71,7 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="jessica-kerr-kent-beck.html">Intro to Systems Thinking</a></h2>
+                <h2><a href="jessica-kerr-kent-beck.html">Invitation to Systems Thinking</a></h2>
                 <p>
                     <span class="speaker-name">Jessica Kerr &amp; Kent Beck</span>
                     <span class="duration">November 10 &amp; 12, 2020<br>10:30 AM - 2:00 PM (MST)</span>
