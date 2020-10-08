@@ -905,6 +905,18 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.kent-beck {
+		background-image: url('../img/speakers/sprite-kent-beck.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.jessica-kerr {
+		background-image: url('../img/speakers/sprite-jessica-kerr.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.keep-color {
 		background-position: 0; //stop hover since link was removed for co-workshop page
 	}

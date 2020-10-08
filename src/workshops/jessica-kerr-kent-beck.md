@@ -49,8 +49,10 @@ layout: layout-tier2.html
                     <li>30-minute break</li>
                 </ul>
                 <h2>About Jessica Kerr</h2>
+                <div class="speaker-img-in-content jessica-kerr keep-color"></div>
                 <p>Jessica Kerr makes software to help others write software to help themselves build software. She lives in St. Louis, Missouri and works remotely for Atomist. Her adventures include advocating for functional programming and systems thinking at software conferences around the world, keeping two children alive (so far), and podcasting on Greater Than Code. Find her on twitter and Medium as <a href="https://twitter.com/jessitron">@jessitron</a>.</p>
                 <h2>About Kent Beck</h2>
+                <div class="speaker-img-in-content kent-beck keep-color"></div>
                 <p>Kent consistently challenges software engineering dogma, promoting ideas like patterns, test-driven development, and Extreme Programming. Currently affiliated with Three Rivers Institute and Gusto, he is the author of many Addison-Wesley titles.</p>
                 <div class="col-xs-12" align="center">
                     <a class="btn" href="https://ti.to/EDDD/explore-ddd-2020-virtual-workshops">REGISTER NOW</a>
