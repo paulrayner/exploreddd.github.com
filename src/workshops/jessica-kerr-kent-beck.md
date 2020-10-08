@@ -50,7 +50,7 @@ layout: layout-tier2.html
                 </ul>
                 <h2>About Jessica Kerr</h2>
                 <div class="speaker-img-in-content jessica-kerr keep-color"></div>
-                <p>Jessica Kerr makes software to help others write software to help themselves build software. She lives in St. Louis, Missouri and works remotely for Atomist. Her adventures include advocating for functional programming and systems thinking at software conferences around the world, keeping two children alive (so far), and podcasting on Greater Than Code. Find her on twitter and Medium as <a href="https://twitter.com/jessitron">@jessitron</a>.</p>
+                <p>Jessica Kerr is a Symmathecist at Jessitron, LCC (translation: independent consultant). In twenty years of developing software, she finds it doesn't get easier -- only more and more interesting. She's known for her talks on functional programming, git, Scala, Clojure, Elm, Ruby, and the Florentine Camerata. Find her at <a href="https://jessitron.com/">jessitron.com</a>, and on the Greater than Code and Arrested DevOps podcasts, and on twitter <a href="https://twitter.com/jessitron">@jessitron</a>.</p>
                 <h2>About Kent Beck</h2>
                 <div class="speaker-img-in-content kent-beck keep-color"></div>
                 <p>Kent consistently challenges software engineering dogma, promoting ideas like patterns, test-driven development, and Extreme Programming. Currently affiliated with Three Rivers Institute and Gusto, he is the author of many Addison-Wesley titles.</p>
