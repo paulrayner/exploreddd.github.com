@@ -32,6 +32,9 @@ layout: layout-tier2.html
                 <p>Marijn teaches people of different backgrounds the skill of doing the things that matter in environments that are critical to performance.</p>
                 <p>Often his work involves organizations, software and customers. He brings these worlds together while teaching you and your colleagues how to do so.</p>
                 <p>Judge him on added value, it's the only metric that matters. You may call him a consultant, coach, trainer and entrepreneur, because that's what he is.</p>
+                <div class="col-xs-12" align="center">
+                    <a class="btn" href="https://ti.to/EDDD/explore-ddd-2020-virtual-workshops">REGISTER NOW</a>
+                </div>
             </div>
         </div>
     </div>
