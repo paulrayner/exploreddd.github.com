@@ -74,7 +74,7 @@ layout: layout-tier2.html
                 <h2><a href="jessica-kerr-kent-beck.html">Invitation to Systems Thinking</a></h2>
                 <p>
                     <span class="speaker-name">Jessica Kerr &amp; Kent Beck</span>
-                    <span class="duration">November 10 &amp; 12, 2020<br>10:30 AM - 2:00 PM (MST)</span>
+                    <span class="duration">November 10 &amp; 12, 2020<br>10:30 AM - 2:30 PM (MST)</span>
                 </p>
                 <p>Are you frustrated with how illogical the world is? Baffled by how smart people and well written software can do wrong things? If you’re ready to find new ways of making sense of the world, and discovering new tools for acting in the world as it is right now, this workshop is for you.
 
