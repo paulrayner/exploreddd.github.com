@@ -5,7 +5,6 @@ layout: layout-tier2.html
 <div class="container">
     <div class="col-lg-8 col-lg-offset-2">
         <h1 class="text-center">Virtual Workshops</h1>
-        <p class="text-center">More workshops will be added as they are confirmed.</p>
         <div class="row">
             <div class="col-xs-12" align="center">
                 <a class="btn" href="https://ti.to/EDDD/explore-ddd-2020-virtual-workshops">REGISTER NOW</a>
