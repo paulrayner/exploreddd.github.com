@@ -1121,19 +1121,23 @@ footer {
 }
 
 //homepage video before featured speakers
-.video-responsive {
+.video-responsive, .content-video-responsive {
 	overflow:hidden;
 	padding-bottom:56.25%;
 	position:relative;
 	height:0;
 }
 
-.video-responsive iframe {
+.video-responsive iframe, .content-video-responsive iframe {
 	left:0;
 	top:0;
 	height:100%;
 	width:100%;
 	position:absolute;
+}
+
+.content-video-responsive iframe {
+	padding-bottom: $standard-margin;
 }
 
 .featured-speaker {
@@ -1661,6 +1665,9 @@ footer {
 
 .homepage-video {
 	max-width: 885px;
+}
+.content-video {
+	max-width: 640px;
 }
 
 .homepage-youtube-link-img {

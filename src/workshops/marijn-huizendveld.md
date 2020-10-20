@@ -17,6 +17,10 @@ layout: layout-tier2.html
                 <img src="../img/workshop/Workshop-Marijn-Huizendveld-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;" />
                 <h2>Imagine...</h2>
                 <p>Imagine having a map that helps you understand the ecosystem your organization is embedded in. A map that makes sense from both a technical and business perspective. With patterns that provide guidance about effective actions regardless of the specific domain you are working in. Wardley Mapping is that: it is a ubiquitous language around strategy and execution that helps you solve the right problem.</p>
+                <div class="content-video-responsive" style="margin-bottom: 0;">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/QF3R6dJi2ic" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p class="text-center"><em>Earlier this year, Marijn spoke about appropriating Wardley Maps in the DDD community as context maps. This video is a preview of what to expect if you are considering attending this upcoming workshop.</em></p>
                 <h2>The course</h2>
                 <p>In this course, you will learn to map your business and technological landscape in such a way that a common language emerges to discuss strategic thinking and decision making. It allows for scenario building, it teaches about bias and assumptions, and it comes packaged with a long list of ideas that may help in your situation.</p>
                 <p>The map can hint to us what practices from DDD are beneficial in our situation. And it can serve as a context map too, except this one has meaning to business people as well.</p>
