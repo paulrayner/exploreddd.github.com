@@ -34,22 +34,6 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="marijn-huizendveld.html"><div class="speaker-img marijn-huizendveld"></div></a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="marijn-huizendveld.html">DDD-Infused Wardley Mapping</a></h2>
-                <p>
-                    <span class="speaker-name">Marijn Huizendveld</span>
-                    <span class="duration">November 9-12, 2020<br>9:00 AM - 12:30 PM (MST)</span>
-                </p>
-                <p>Organizations face more and more complexity these days as a result of a mesh of products, services, technology, and the people that work to build, operate, and maintain them. Domain-Driven Design helps us with solving problems the right way. But what helps us solve the right problem? <a href="marijn-huizendveld.html" style="white-space: nowrap">Read more...</a></p>
-            </div>
-        </div>
-        <!-- begin workshop element -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-2">
-                <div class="speaker-container">
                     <a href="jessica-kerr-kent-beck.html"><div class="co-workshop-img jessica-and-kent"></div></a>
                 </div>
             </div>
