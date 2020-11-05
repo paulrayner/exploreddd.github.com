@@ -9,7 +9,7 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 content">
-                <h1>Invitation to Systems Thinking</h1>
+                <h1>[SOLD OUT] Invitation to Systems Thinking</h1>
                 <p><span class="speaker-name">Jessica Kerr &amp; Kent Beck</span>
                 <span class="duration">November 10 &amp; 12, 2020<br>10:30 AM - 2:30 PM (MST)</span></p>
                 <p>Are you frustrated with how illogical the world is and baffled by how smart people and well-written software can do wrong things?<p>
