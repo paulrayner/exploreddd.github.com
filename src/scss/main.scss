@@ -917,6 +917,12 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.diana-montalion {
+		background-image: url('../img/speakers/sprite-diana-montalion.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.keep-color {
 		background-position: 0; //stop hover since link was removed for co-workshop page
 	}
