@@ -62,7 +62,7 @@ layout: layout-tier2.html
                 <p>Paul is the founder and chair of the <a href="http://exploreddd.com/">Explore DDD conference</a>, the premier Domain-Driven Design conference in North America, and co-founder of DDD Denver. He is also the author of <a href="https://leanpub.com/eventstorming_handbook">The EventStorming Handbook</a> and contributor to <a href="https://www.amazon.com/Behavior-Driven-Development-Cucumber-Specification-Example/dp/0321772636">Behavior-Driven Development with Cucumber</a>.</p>
                 <p>He provides software design training and coaching through <a href="http://virtualgenius.com/">Virtual Genius</a>. He lives in Denver, Colorado, with his wife and two teenagers.</p>
                 <div class="col-xs-12" align="center">
-                    <a class="btn" href="https://ti.to/EDDD/explore-ddd-2020-virtual-workshops">REGISTER NOW</a>
+                    <a class="btn" href="https://ti.to/EDDD/explore-ddd-2021-spring-workshops">REGISTER NOW</a>
                 </div>
             </div>
         </div>
