@@ -847,8 +847,8 @@ figure {
 			background-position: 1px;
 		}
 	}
-	&.jessica-and-kent {
-		background-image: url('../img/speakers/sprite-jessica-and-kent.jpg');
+	&.rebecca-and-ken {
+		background-image: url('../img/speakers/sprite-rebecca-and-ken.jpg');
 		background-position: -160px; //keep it coloured even when not during hover state
 		&:hover {
 			cursor: pointer;
@@ -919,6 +919,18 @@ figure {
 	}
 	&.diana-montalion {
 		background-image: url('../img/speakers/sprite-diana-montalion.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.rebecca-wirfs-brock {
+		background-image: url('../img/speakers/sprite-rebecca-wirfs-brock.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.ken-power {
+		background-image: url('../img/speakers/sprite-ken-power.jpg');
 		&:hover {
 			background-position: 0;
 		}

@@ -19,6 +19,22 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
+                    <a href="rebecca-wirfs-brock-and-ken-power.html"><div class="co-workshop-img rebecca-and-ken"></div></a>
+                    </div>
+                </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="rebecca-wirfs-brock-and-ken-power.html">Decision-Making Practices for Evolving and Sustaining Software Architecture</a></h2>
+                <p>
+                    <span class="speaker-name">Rebecca Wirfs-Brock &amp; Ken Power</span>
+                    <span class="duration">The first four Tuesdays in March 2021<br>(March 2, 9, 16, 23)</span>
+                </p>
+                <p>When you decide on a direction for your architecture, you set a context that constrains future decisions, for better or worse. Consequently, you accept responsibility for conditions the team, business, and customers will live with, possibly for years to come. And yet, our architectures need to evolve over time. <a href="rebecca-wirfs-brock-and-ken-power.html">Read more...</a></p>
+            </div>
+        </div>
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
                     <a href="paul-rayner.html"><div class="speaker-img paul-rayner"></div></a>
                 </div>
             </div>
