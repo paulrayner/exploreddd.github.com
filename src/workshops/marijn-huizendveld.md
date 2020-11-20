@@ -13,6 +13,7 @@ layout: layout-tier2.html
                 <p><span class="speaker-name">Marijn Huizendveld</span>
                 <span class="duration">March 16-19, 2021<br>9:00 AM - 12:30 PM (MDT)</span></p>
                 <p>In this workshop you will learn how to apply Domain-Driven Design in an environment with a dominant legacy system.<p>
+                <img src="../img/workshop/Workshop-Marijn-Huizendveld-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
                 <h2>The ‘why?’ behind this workshop</h2>
                 <p>Do the corners of your mouth go up when you think of Domain-Driven Design? The ability to express behavior in your domain through model interactions. A shared language that is aimed at solving problems in your domain. The clarity of the code artefact thanks to tactical patterns.</p>
                 <p>All of these things are great on paper _but_ how do you achieve them in an environment where legacy systems dictate what can and cannot be done?</p>
@@ -41,6 +42,7 @@ layout: layout-tier2.html
                     <li>All without the overhead of a new application architecture</li>
                 </ul>
                 <h2>Join the workshop DDD and legacy systems</h2>
+                <img src="../img/workshop/Workshop-Marijn-Huizendveld-2.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
                 <p>In this workshop you will be trained to solve a problem in the setting of legacy systems. You will devise pure models that can be applied in this setting using different approaches.</p>
                 <p>Together with some other attendees you will create a context map to communicate about the legacy environment. Once your team has situational awareness you can start modeling your problem. At the end of the workshop you should be able to demonstrate which of the approaches is best suited in a particular situation.</p>
                 <h2>Should you attend this workshop?</h2>
