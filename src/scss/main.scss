@@ -941,6 +941,12 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.marijn-huizendveld {
+		background-image: url('../img/speakers/sprite-marijn-huizendveld.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.keep-color {
 		background-position: 0; //stop hover since link was removed for co-workshop page
 	}
