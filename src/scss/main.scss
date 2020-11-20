@@ -935,6 +935,12 @@ figure {
 			background-position: 0;
 		}
 	}
+	&.martin-schimak {
+		background-image: url('../img/speakers/sprite-martin-schimak.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
 	&.keep-color {
 		background-position: 0; //stop hover since link was removed for co-workshop page
 	}

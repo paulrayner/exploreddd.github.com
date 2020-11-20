@@ -79,5 +79,21 @@ layout: layout-tier2.html
                 <p>As complexity increases, are you (too often) shouting into the wind? Do you see icebergs ahead yet fail to convince others to avoid them? Are your discussions more exhausting than productive? Does the accountant understand the value of your work? <a href="diana-montalion.html">Read more...</a></p>
             </div>
         </div>
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="martin-schimak.html"><div class="speaker-img martin-schimak"></div></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="martin-schimak.html">Workshop Name</a></h2>
+                <p>
+                    <span class="speaker-name">Martin Schimak</span>
+                    <span class="duration">April 13-16, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
+                </p>
+                <p>intro text goes here <a href="martin-schimak.html">Read more...</a></p>
+            </div>
+        </div>
     </div>
 </div>
