@@ -103,12 +103,12 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="martin-schimak.html">Workshop Name</a></h2>
+                <h2><a href="martin-schimak.html">Collaborative DDD with Storystorming</a></h2>
                 <p>
                     <span class="speaker-name">Martin Schimak</span>
                     <span class="duration">April 13-16, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
                 </p>
-                <p>intro text goes here <a href="martin-schimak.html">Read more...</a></p>
+                <p>This workshop will take you on a journey through the exciting field of visual and collaborative modeling and mapping methods. By applying lightweight methods, domain and software experts can collaboratively work their way through all three pillars of Domain-Driven Design. <a href="martin-schimak.html">Read more...</a></p>
             </div>
         </div>
         <!-- begin workshop element -->

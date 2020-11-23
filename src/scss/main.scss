@@ -171,9 +171,9 @@ p, ul, ol, blockquote, h1, h2, h3, .video-responsive, .content-video-responsive 
 	margin-bottom: $standard-margin;
 }
 
-ul {
+ul, ol {
 	li {
-		margin-bottom: 10px;
+		margin-bottom: $half-margin;
 	}
 	li:last-child {
 		margin-bottom: 0;
