@@ -35,22 +35,6 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="paul-rayner.html"><div class="speaker-img paul-rayner"></div></a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="paul-rayner.html">Essential DDD</a></h2>
-                <p>
-                    <span class="speaker-name">Paul Rayner</span>
-                    <span class="duration">TBD, 2021<br>9:00 AM - 12:00 PM (MST)</span>
-                </p>
-                <p>How do we overcome the overwhelming complexity of our business domains and quickly build software applications that evolve and adapt effectively? Domain-Driven Design (DDD) is an approach to software development that promotes collaboration between different disciplines to solve complex business problems in the most effective way. <a href="paul-rayner.html">Read more...</a></p>
-            </div>
-        </div>
-        <!-- begin workshop element -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-2">
-                <div class="speaker-container">
                     <a href="kacper-gunia.html"><div class="speaker-img kacper-gunia"></div></a>
                 </div>
             </div>
@@ -109,6 +93,22 @@ layout: layout-tier2.html
                     <span class="duration">March 23-26, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
                 </p>
                 <p>As complexity increases, are you (too often) shouting into the wind? Do you see icebergs ahead yet fail to convince others to avoid them? Are your discussions more exhausting than productive? Does the accountant understand the value of your work? <a href="diana-montalion.html">Read more...</a></p>
+            </div>
+        </div>
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="paul-rayner.html"><div class="speaker-img paul-rayner"></div></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="paul-rayner.html">EventStorming Facilitation Virtual Workshop</a></h2>
+                <p>
+                    <span class="speaker-name">Paul Rayner</span>
+                    <span class="duration">April 6-9, 2021<br>9:00 AM - 12:00 PM (MDT)</span>
+                </p>
+                <p>Collaboration between different disciplines in your organization can be difficult, and finding clarity and alignment on both the right problem to solve and the right solution design even more so. We each approach improvement from our own (limited) perspective, without taking into account the whole story. How is that effective? EventStorming is a workshop format that promotes collaboration between different disciplines in order to solve business problems in the most effective way.<a href="paul-rayner.html">Read more...</a></p>
             </div>
         </div>
         <!-- begin workshop element -->
