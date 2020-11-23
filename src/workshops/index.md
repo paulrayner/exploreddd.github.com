@@ -87,7 +87,7 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="diana-montalion.html">Reasoning Systematically</a></h2>
+                <h2><a href="diana-montalion.html">Reasoning Systemically</a></h2>
                 <p>
                     <span class="speaker-name">Diana Montalion</span>
                     <span class="duration">March 23-26, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
