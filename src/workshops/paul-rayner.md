@@ -48,7 +48,7 @@ layout: layout-tier2.html
                     <li>The transaction illusion.</li>
                     <li>From sticky notes to working software. When to go for a sophisticated architecture.</li>
                 </ul>
-                <h3 class="text-center">Session 4 - Putting it all into practice</h3>
+                <h3>Session 4 - Putting it all into practice</h3>
                 <ul>
                     <li>Virtual and in-person facilitation tips and tricks</li>
                     <li>Design your own EventStorming workshop and present it for feedback.</li>
