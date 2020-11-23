@@ -54,7 +54,9 @@ layout: layout-tier2.html
                 </ul>
                 <h2>About Marijn Huizendveld</h2>
                 <div class="speaker-img-in-content marijn-huizendveld keep-color"></div>
-                <p>bio goes here</p>
+                <p>Marijn teaches people of different backgrounds the skill of doing the things that matter in environments that are critical to performance.</p>
+                <p>Often his work involves organizations, software and customers. He brings these worlds together while teaching you and your colleagues how to do so.</p>
+                <p>Judge him on added value, it&#39;s the only metric that matters. You may call him a consultant, coach, trainer and entrepreneur, because that&#39;s what he is.</p>
                 <div class="col-xs-12" align="center">
                     <a class="btn" href="https://ti.to/EDDD/explore-ddd-2021-spring-workshops">REGISTER NOW</a>
                 </div>
