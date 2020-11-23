@@ -69,7 +69,7 @@ layout: layout-tier2.html
                 <h2>Feedback from previous sessions</h2>
                 <p><em>"I am often involved in such discussions as receiver of arguments and in most cases the offered solution only solves symptoms, doesn’t go deep enough. Now I have advice ready why and how to go deeper."</em></p>
                 <p><em>"I went in with something that was more of a vague frustration for me and ended up with a well-organized argument that I’d feel comfortable bringing up with anyone."</em></p>
-                <h2>About Diana Montalion</h2>
+                <h2 class="text-center">About Diana Montalion</h2>
                 <div class="speaker-img-in-content diana-montalion keep-color"></div>
                 <p><strong>Mentrix Group: Principal, Architecture</strong></p>
                 <p>If you’ve read The Economist, donated to Wikipedia, or contributed to The World Monuments Fund, you’ve interacted with systems that Diana helped to architect.</p>

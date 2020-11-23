@@ -57,7 +57,7 @@ layout: layout-tier2.html
                 </ul>
                 <h2>Prerequisites</h2>
                 <p>Minimum 5 years of professional background, experience working on software projects involving multiple teams and systems.</p>
-                <h2>About Kacper Gunia</h2>
+                <h2 class="text-center">About Kacper Gunia</h2>
                 <div class="speaker-img-in-content kacper-gunia keep-color"></div>
                 <p>Kacper Gunia is an independent software consultant with 10 years of experience in the industry. He built applications and systems for clients including Starbucks, Time Inc, FeelUnique, Johnston Press &amp; William Hill. On a daily basis he supports and trains client’s teams on using right technologies, processes and approaches such as Domain-Driven Design, Iterative delivery, CI/CD &amp; Functional Programming.</p>
                 <div class="col-xs-12" align="center">

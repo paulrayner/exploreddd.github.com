@@ -77,7 +77,7 @@ layout: layout-tier2.html
                     <li>As a software engineer: a genuine interest in understanding a business or new domain</li>
                     <li>Recommended: some work experience with cross-functional, Agile environments</li>
                 </ul>
-                <h2>About Martin Schimak</h2>
+                <h2 class="text-center">About Martin Schimak</h2>
                 <div class="speaker-img-in-content martin-schimak keep-color"></div>
                 <p>At the age of ten Martin fell in love with coding. Later he left his love and studied business and law. Only to find out: that’s awesome for programming business software! In the 15+ years since then he talked to energy traders, telecom people, wind tunnel experts and many others. They formed a hands-on domain decoder with a passion for DDD and a soft spot for colored sticky notes. Martin is a trainer with experience in 50+ companies and 10+ countries. He regularly speaks at meetups and conferences across Europe - and from time to time in the US.</p>
                 <div class="col-xs-12" align="center">

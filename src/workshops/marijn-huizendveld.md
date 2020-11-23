@@ -52,7 +52,7 @@ layout: layout-tier2.html
                     <li>Although we will not be programming, you DO have basic refactoring skills</li>
                     <li>And finally, you are not afraid to let go of any of your own ideas</li>
                 </ul>
-                <h2>About Marijn Huizendveld</h2>
+                <h2 class="text-center">About Marijn Huizendveld</h2>
                 <div class="speaker-img-in-content marijn-huizendveld keep-color"></div>
                 <p>Marijn teaches people of different backgrounds the skill of doing the things that matter in environments that are critical to performance.</p>
                 <p>Often his work involves organizations, software and customers. He brings these worlds together while teaching you and your colleagues how to do so.</p>
