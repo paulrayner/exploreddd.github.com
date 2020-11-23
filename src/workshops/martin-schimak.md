@@ -12,7 +12,7 @@ layout: layout-tier2.html
                 <h1>Collaborative DDD with Storystorming</h1>
                 <p><span class="speaker-name">Martin Schimak</span>
                 <span class="duration">April 13-16, 20201<br>9:00 AM - 12:30 PM (MDT)</span></p>
-                <p>This workshop accompanies you on a journey through the exciting field of visual and collaborative modeling and mapping methods. By applying lightweight methods, domain and software experts can collaboratively work their way through all three pillars of Domain-Driven Design: <strong>Strategic Design, Collaborative Modeling</strong> and <strong>Modeling in Software</strong>.</p>
+                <p>This workshop will take you on a journey through the exciting field of visual and collaborative modeling and mapping methods. By applying lightweight methods, domain and software experts can collaboratively work their way through all three pillars of Domain-Driven Design: <strong>Strategic Design, Collaborative Modeling</strong> and <strong>Modeling in Software</strong>.</p>
                 <p>Together we will work with <strong>Domain Storytelling, Event Storming, Context Mapping, Impact Mapping, User Story Mapping, Event Modeling</strong> and <strong>Example Mapping</strong>. We will examine how such methods can be applied using the colors and building blocks defined with <a href="https://storystorming.com">Storystorming</a> and visually connect the dots.</p>
                 <p>In our first six sessions you will experience how to</p>
                 <ul>
@@ -33,12 +33,12 @@ layout: layout-tier2.html
                 <ol>
                     <li>Tech-savvy domain experts who are interested in better software projects</li>
                     <li>Agile business analysts who are interested in lightweight modeling methods</li>
-                    <li>Software developers and architects interested in domain experts ;)</li>
+                    <li>Software developers and architects who are interested in domain experts ;)</li>
                 </ol>
                 <h2>What you'll learn</h2>
                 <ol>
                     <li>Shaping the ubiquitous language around all three pillars of DDD</li>
-                    <li>Collaborating about strategic DDD on the green or brown field</li>
+                    <li>Collaborating about strategic DDD on the green or brownfield</li>
                     <li>Enabling team autonomy and responsibility for models and components</li>
                     <li>Exploring project strategy and prioritizing epics and user stories</li>
                     <li>Aligning mental models (not only) in a context of Event Sourcing & CQRS</li>
@@ -52,7 +52,7 @@ layout: layout-tier2.html
                     <p>Knowledge: Shaping the ubiquitous language around all three pillars of DDD</p>
                     <p>Hands-On: Explore important domain scenarios with Domain Storytelling</p>
                 <h3>Session 2</h3>
-                    <p>Knowledge: Collaborating about strategic DDD on the green or brown field</p>
+                    <p>Knowledge: Collaborating about strategic DDD on the green or brownfield</p>
                     <p>Hands-On: Discover a big picture of your domain with Event Storming</p>
                 <h3>Session 3</h3>
                     <p>Knowledge: Enabling team autonomy and responsibility for models and components</p>
@@ -71,9 +71,9 @@ layout: layout-tier2.html
                     <p>Hands-On: Specify a multi-step service collaboration with Storystorming</p>
                 <h2>Prerequisites</h2>
                 <ul>
-                    <li>As a business stakeholder: genuine interest in fundamental properties of software</li>
-                    <li>As a software engineer: genuine interest in understanding a business or new domain</li>
-                    <li>Recommended: some work experience with cross-functional, agile environments</li>
+                    <li>As a business stakeholder: a genuine interest in fundamental properties of software</li>
+                    <li>As a software engineer: a genuine interest in understanding a business or new domain</li>
+                    <li>Recommended: some work experience with cross-functional, Agile environments</li>
                 </ul>
                 <h2>About Martin Schimak</h2>
                 <div class="speaker-img-in-content martin-schimak keep-color"></div>
