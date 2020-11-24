@@ -947,8 +947,14 @@ figure {
 			background-position: 0;
 		}
 	}
-	&.alimi-eyitayo{
+	&.alimi-eyitayo {
 		background-image: url('../img/speakers/sprite-alimi-eyitayo.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.shaun-anderson {
+		background-image: url('../img/speakers/sprite-shaun-anderson.jpg');
 		&:hover {
 			background-position: 0;
 		}
