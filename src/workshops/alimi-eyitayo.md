@@ -68,10 +68,11 @@ layout: layout-tier2.html
                 <h3>Day 2 - Understanding</h3>
                 <p>Methods for analysing challenges and opportunities.</p>
                 <p>Understanding the relationship between people & systems, pattern & priorities and problem framing to ensure accuracy of:
-                    <li>Understanding the subject area to transcend and sometimes pivot the solution to serve different people at different places.</li>
-                    <li>Encouraging clear and critical thinking which is essential for discerning what is related, what is essential and what is important.</li>
-                    <li>Characterizing the problem with invaluable methods. To be an effective problem solver, you need to be a creative problem framer</li>
-                </ul>
+                    <ul>
+                        <li>Understanding the subject area to transcend and sometimes pivot the solution to serve different people at different places.</li>
+                        <li>Encouraging clear and critical thinking which is essential for discerning what is related, what is essential and what is important.</li>
+                        <li>Characterizing the problem with invaluable methods. To be an effective problem solver, you need to be a creative problem framer</li>
+                    </ul>
                 <h3>Day 3 - Making</h3>
                 <p>Methods for envisioning future possibilities.</p>
                 <p>Using HCD to produce a game-changing innovation by merging concept ideation, modelling & prototyping and design rationale.</p>
