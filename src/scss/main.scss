@@ -110,6 +110,12 @@ strong {
 	font-family: NunitoSansBold, sans-serif;
 }
 
+li {
+	ul {
+		margin-top: $standard-margin;
+	}
+}
+
 @mixin mq($size) {
   @if $size == xs {
     @media (max-width: 767px) { @content; }
@@ -955,6 +961,12 @@ figure {
 	}
 	&.shaun-anderson {
 		background-image: url('../img/speakers/sprite-shaun-anderson.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.jenny-bramble {
+		background-image: url('../img/speakers/sprite-jenny-bramble.jpg');
 		&:hover {
 			background-position: 0;
 		}
