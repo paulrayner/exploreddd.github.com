@@ -24,7 +24,7 @@ layout: layout-tier2.html
                     <li>Application architecture frequently inhibits model driven design;</li>
                     <li>The sheer number of modeling concepts can be overwhelming, especially for new people on the team;</li>
                     <li>Incomplete or poorly designed test suites make safe changes expensive;</li>
-                    <li>_And we haven't even talked about the practical objections like data migrations and deployments. The list goes on and on._</li>
+                    <li>And we haven't even talked about the practical objections like data migrations and deployments. The list goes on and on._</li>
                 </ul>
                 <p>The result?</p>
                 <ol>
