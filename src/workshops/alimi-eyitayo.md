@@ -20,39 +20,21 @@ layout: layout-tier2.html
                 <p>This workshop has been organized by way of three key design skills: Looking, understanding and making.</p>
                 <h3>Looking:</h3>
                 <ul>
-                    <li>Innovation begins and ends with people which calls for keen and caring observation.
-                        <ul>
-                            <li>You will learn how to use HCD to carefully investigate if there is a need for the product being planned.</li>
-                                <ul>
-                                    <li>How might you use curiosity, objectivity and empathy to engage all of your senses in pursuit of meaningful findings?</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+                    <li>Innovation begins and ends with people which calls for keen and caring observation.</li>
+                    <li>You will learn how to use HCD to carefully investigate if there is a need for the product being planned.</li>
+                    <li>How might you use curiosity, objectivity and empathy to engage all of your senses in pursuit of meaningful findings?</li>
                 </ul>
                 <h3>Understanding:</h3>
                 <ul>
-                    <li>Innovation isn't a lightbulb moment of genius. It calls for deep understanding and rigorous discernment.
-                        <ul>
-                            <li>You will learn how to use HCD to revolutionize critical thinking and problem framing.</li>
-                                <ul>
-                                    <li>How might you identify patterns, determine priorities, and translate your research into actionable insights?</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+                    <li>Innovation isn't a lightbulb moment of genius. It calls for deep understanding and rigorous discernment.</li>
+                    <li>You will learn how to use HCD to revolutionize critical thinking and problem framing.</li>
+                    <li>How might you identify patterns, determine priorities, and translate your research into actionable insights?</li>
                 </ul>
                 <h3>Making:</h3>
                 <ul>
-                    <li>Innovation puts great ideas in action. It calls for making things happen in a resourceful and resonant manner.
-                        <ul>
-                            <li>You will learn how to incorporate imaginative and visual expression in HCD to precedes successful improvement through frequent iteration.</li>
-                                <ul>
-                                    <li>How might you think with your hands to bring new ideas to life?</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+                    <li>Innovation puts great ideas in action. It calls for making things happen in a resourceful and resonant manner.</li>
+                    <li>You will learn how to incorporate imaginative and visual expression in HCD to precedes successful improvement through frequent iteration.</li>
+                    <li>How might you think with your hands to bring new ideas to life?</li>
                 </ul>
                 <h2>WORKSHOP FORMAT</h2>
                 <p>Interactive learnings and group assignments.</p>

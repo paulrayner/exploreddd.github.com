@@ -11,7 +11,7 @@ layout: layout-tier2.html
             <div class="col-xs-12 col-sm-8 content">
                 <h1>Making and Managing Mind Maps</h1>
                 <p><span class="speaker-name">Jenny Bramble</span>
-                <span class="duration">March 22, 2021<br>9:00 AM - 12:00 PM (MDT)</span></p>
+                <span class="duration">March 22, 2021<br>9:00 AM - 11:00 AM (MDT)</span></p>
                 <p>Organizing complex thoughts on a topic can be a challenge, especially if the topic has many different directions you can take it.  It can be challenging to keep everything straight and follow the threads that are most important.</p>
                 <p>Mind maps are an organizational tool that lets you group similar thoughts and find links between them.  They can be used to investigate test cases and test plans, create personas, work through presentations, and more!</p>
                 <p>Join Jenny Bramble for a dive into the history of mind maps, some modern tools, and some interesting use cases like menu creation for a restaurant, settings pages for an app, or creating presentations.  Participants can expect to create mind maps collaboratively with the group on a range of topics as well as learning good mind map practices using colors, images, and other rich media.</p>
