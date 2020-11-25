@@ -9,60 +9,77 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 content">
-                <h1>Essential DDD</h1>
+                <h1>EventStorming Facilitation Virtual Workshop</h1>
                 <p><span class="speaker-name">Paul Rayner</span>
-                <span class="duration">November 16-19, 2020<br>9:00 AM - 12:00 PM (MST)</span></p>
-                <img src="../img/workshop/Workshop-Paul-Rayner-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
-                <p>How do we overcome the overwhelming complexity of our business domains and quickly build software applications that evolve and adapt effectively?</p>
-                <p>Domain-Driven Design (DDD) is an approach to software development that promotes collaboration between different disciplines to solve complex business problems in the most effective way.</p>
-                <p><em>The aim of DDD is accelerating development for teams dealing with domain complexity.</em></p>
+                <span class="duration">April 6-9, 2021<br>9:00 AM - 12:00 PM (MDT)</span></p>
+                <p>Collaboration between different disciplines in your organization can be difficult, and finding clarity and alignment on both the right problem to solve and the right solution design even more so. We each approach improvement from our own (limited) perspective, without taking into account the whole story. How is that effective?</p>
+                <p>EventStorming is a workshop format that promotes collaboration between different disciplines in order to solve business problems in the most effective way.</p>
                 <h2>What you will learn</h2>
-                <p>In this workshop, you'll gain a thorough understanding of what DDD looks like, why it matters, and how to apply it to you, your team, and your organization. This workshop will provide you with a solid grounding in the foundational ideas, techniques, and skills for doing DDD well in your own project context.</p>
-                <P>DDD is about shortening the time to value for customers and doing this in a sustainable, repeatable manner.</p>
-                <p>Being both a way of thinking and a set of priorities, DDD can sometimes be perceived as overly abstract and amorphous. We'll overcome that by connecting everything in DDD together, highlighting what's most important, and give you practical tools to take away and apply on your project immediately.</p>
+                <p>In this <strong>highly hands-on and interactive virtual workshop</strong> you'll learn advanced EventStorming facilitation skills spanning from <strong>large scale business discovery</strong> to <strong>collaborative solution design</strong> at the team level.</p>
+                <p>Learn how to facilitate the different EventStorming formats applied to real business problems, taking into account the <strong>different perspectives</strong> (including the facilitator). Practice applying EventStorming to various problems, reflecting on your learning and questions as we go deeper into the techniques.</p>
+                <p>Learn tips and tricks for effective facilitation of collaborative workshops in both in-person and virtual settings, and practice planning anEventStorming session for your own context.</p>
+                <p><em>"We really enjoyed the EventStorming workshop!  Paul’s facilitation style and methodology made the exercise easy to understand, and participation and collaboration came with ease.  He’s very good at tactfully encouraging differing opinions through thoughtful discussion. The workshop was a huge success with a highly valuable end result!"</em></p>
+                <img src="../img/workshop/Workshop-Paul-Rayner-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
+                <h3>Session 1 - EventStorming as a big picture discovery tool</h3>
+                <ul>
+                    <li>Quick kick-off: where are we and where we want to go.</li>
+                    <li>EventStorming dry-run: modeling a narrative.</li>
+                    <li>Exploring the whole using Big Picture EventStorming - mastering complexity and unknowns in large scale modeling.</li>
+                    <li>Identifying emergent boundaries through structural elements such as key events.</li>
+                    <li>Managing conflicts, highlighting risk, and the problems really worth solving.</li>
+                    <li>EventStorming as a platform for problem solving.</li>
+                </ul>
+                <h3>Session 2 - Using EventStorming to model a process</h3>
+                <ul>
+                    <li><strong>Process Modeling EventStorming</strong>: a cross-discipline platform for collaborative modeling.</li>
+                    <li>Improving our process exploring motivations of different actors.</li>
+                    <li>A different perspective on software design: the picture that explains everything.</li>
+                    <li>Make policies explicit.</li>
+                    <li>Design around value: hidden and explicit motivators.</li>
+                    <li>Constraining modeling to specific business cases to stay focused</li>
+                </ul>
+                <h3>Session 3 - Using EventStorming to design a system</h3>
+                <ul>
+                    <li>Design-Level EventStorming: leveraging collaborative modeling to sketch bullet-proof models quickly.</li>
+                    <li>Aggregates and consistency: independent moving parts in a large system.</li>
+                    <li>Design around the bottleneck: changing the rules of the game.</li>
+                    <li>Blend user experience design and service design into software design.</li>
+                    <li>Triggering bullet-proof design with visible state.</li>
+                    <li>The transaction illusion.</li>
+                    <li>From sticky notes to working software. When to go for a sophisticated architecture.</li>
+                </ul>
+                <h3>Session 4 - Putting it all into practice</h3>
+                <ul>
+                    <li>Virtual and in-person facilitation tips and tricks</li>
+                    <li>Design your own EventStorming workshop and present it for feedback.</li>
+                </ul>
                 <h2>Workshop Format</h2>
                 <ul>
-                    <li>Four instructor-led interactive 3-hour online class sessions.
-                    <li>Live instruction using Zoom and Miro (i.e. collaborative online whiteboard) in each session.
-                    <li>Hands-on practice during each session.
-                    <li>Practical homework for you to practice in your own context between sessions and share your learning with your fellow participants.
+                    <li>Four instructor-led hands-on 3 hour online class sessions.</li>
+                    <li>Live instruction using Zoom and Miro (i.e. collaborative online whiteboard) in each session.</li>
+                    <li>After every workshop session you’ll have time for deep-dive discussions during optional “office hours” sessions with Paul, your instructor.</li>
+                    <li>You will need a good webcam, internet connection and microphone to participate in this workshop. <strong>In order to maximize engagement, we require all participants keep their webcams on during the workshop</strong>.</li>
+                    <li>We will send you detailed instructions for the workshop a couple of weeks prior.</li>
+                    <li>Upon finishing the class you will receive an electronic certificate of completion.</li>
                 </ul>
-                <p><strong>This workshop is not your typical online boring death-by-bullet-point lecture marathon.</strong> The workshop is highly hands-on, varied, and interactive. We will be doing pairing and group exercises. We will be reading code, but no coding experience is necessary.</p>
-                <p><strong>By spreading the training into four shorter interactive virtual sessions, we minimize the impact on your daily work and keep your energy levels high.</strong></p>
-                <p>Virtual learning can be intense, so there will be scheduled breaks every hour. Plus, if your kids interrupt, dogs bark or you need to step away for a bit, that's just part of the experience and perfectly fine with us. Our goal is for you to leave each class session energized and ready to put into practice what you've learned. In attending this virtual workshop you agree to:</p>
+                <p>This workshop is highly hands-on, varied, and interactive. We will be doing group exercises in Zoom breakout rooms. By spreading the training into shorter interactive virtual sessions, we minimize the impact to your daily work and keep your energy levels high.</p>
+                <p>Virtual learning can be intense, so there will be scheduled breaks every hour. Plus, if your kids interrupt, dogs bark, or you need to step away for a bit, that's just part of the experience and perfectly fine with us. Our goal is for you to leave the workshop energized and ready to put into practice what you've learned. In attending this virtual workshop you agree to:</p>
                 <ul>
                     <li>Be present while also taking care of your needs.</li>
                     <li>Extend empathy and acceptance to the other participants.</li>
-                    <li>Be on video, at least most of the time (we will be taking breaks).</li>
+                    <li>Be on video and avoid unnecessary distractions.</li>
                 </ul>
                 <img src="../img/workshop/Workshop-Paul-Rayner-2.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
-                <h2>Workshop Schedule</h2>
-                <h3>Days 1 & 2 - Collaborative Modeling with People and Code</h3>
-                <ul>
-                    <li>Understand what kinds of business problems DDD addresses.</li>
-                    <li>The central role of software design and how DDD fits in.</li>
-                    <li>Bridging the communication gap between business and technical people.</li>
-                    <li>Domain modeling by example for whole–team collaborative domain discovery.</li>
-                    <li>Applying EventStorming to model and design a business process effectively.</li>
-                    <li>Refactoring code towards a ubiquitous language.</li>
-                </ul>
-                <h3>Days 3 & 4 - Supple Design and Strategic Focus</h3>
-                <ul>
-                    <li>Applying 5 key building block patterns for expressive modeling in code.</li>
-                    <li>Using context mapping to help manage large–scale, multi-team design efforts.</li>
-                    <li>Identifying where applying DDD will have the greatest impact—your core domain.</li>
-                    <li>Architectural patterns to support DDD.</li>
-                </ul>
-                <p>We recommend you wear comfortable clothes and use your preferred note-taking devices (paper & pen, iPad, etc.). We will be reading some code, not writing it, so you won't need an IDE or any dev tools to participate. <em>You will need a webcam and microphone, and access to Zoom and Miro to participate in this workshop.</em></p>
                 <h2>Who Should Attend</h2>
-                <p>Anybody who works in software teams or with software teams will be able to fully participate in this workshop and take away concrete skills they can apply in real working situations. This includes software developers, architects, testers/QA, DevOps/DevSecOps, Product managers/owners, BA's, delivery managers, engineering managers and directors, and CTOs.</p>
-                <h2>About Paul Rayner</h2>
+                <p>Anybody who works in software teams or with software teams will be able to fully participate in this workshop and take away concrete skills they can apply in real working situations. This includes software developers, architects, testers, product owners, business analysts, delivery managers, engineering managers, directors, and CTOs.</p>
+                <p><em>"Our EventStorming session with Paul was a huge success. He’s very adept at guiding and informing the process while allowing participants to storm, discuss and ultimately reach their own conclusions. We emerged from the session with a much better understanding and greater agreement around our domains."</em></p>
+                <h2 class="text-center">About Paul Rayner</h2>
                 <div class="speaker-img-in-content paul-rayner keep-color"></div>
                 <p>Paul Rayner is a developer, instructor, coach, consultant, and popular conference speaker with over thirty years of software development experience.</p>
                 <p>Paul is the founder and chair of the <a href="http://exploreddd.com/">Explore DDD conference</a>, the premier Domain-Driven Design conference in North America, and co-founder of DDD Denver. He is also the author of <a href="https://leanpub.com/eventstorming_handbook">The EventStorming Handbook</a> and contributor to <a href="https://www.amazon.com/Behavior-Driven-Development-Cucumber-Specification-Example/dp/0321772636">Behavior-Driven Development with Cucumber</a>.</p>
-                <p>He provides software design training and coaching through <a href="http://virtualgenius.com/">Virtual Genius</a>. He lives in Denver, Colorado, with his wife and two teenagers.</p>
+                <p>Paul provides DDD and EventStorming training and coaching through <a href="http://virtualgenius.com/">Virtual Genius</a>. He lives in Denver, Colorado, with his wife and two teenagers.</p>
                 <div class="col-xs-12" align="center">
-                    <a class="btn" href="https://ti.to/EDDD/explore-ddd-2020-virtual-workshops">REGISTER NOW</a>
+                    <a class="btn" href="https://ti.to/EDDD/explore-ddd-2021-spring-workshops">REGISTER NOW</a>
                 </div>
             </div>
         </div>

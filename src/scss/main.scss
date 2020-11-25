@@ -110,6 +110,12 @@ strong {
 	font-family: NunitoSansBold, sans-serif;
 }
 
+li {
+	ul {
+		margin-top: $half-margin;
+	}
+}
+
 @mixin mq($size) {
   @if $size == xs {
     @media (max-width: 767px) { @content; }
@@ -171,9 +177,9 @@ p, ul, ol, blockquote, h1, h2, h3, .video-responsive, .content-video-responsive 
 	margin-bottom: $standard-margin;
 }
 
-ul {
+ul, ol {
 	li {
-		margin-bottom: 10px;
+		margin-bottom: $half-margin;
 	}
 	li:last-child {
 		margin-bottom: 0;
@@ -847,8 +853,8 @@ figure {
 			background-position: 1px;
 		}
 	}
-	&.jessica-and-kent {
-		background-image: url('../img/speakers/sprite-jessica-and-kent.jpg');
+	&.rebecca-and-ken {
+		background-image: url('../img/speakers/sprite-rebecca-and-ken.jpg');
 		background-position: -160px; //keep it coloured even when not during hover state
 		&:hover {
 			cursor: pointer;
@@ -913,6 +919,54 @@ figure {
 	}
 	&.jessica-kerr {
 		background-image: url('../img/speakers/sprite-jessica-kerr.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.diana-montalion {
+		background-image: url('../img/speakers/sprite-diana-montalion.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.rebecca-wirfs-brock {
+		background-image: url('../img/speakers/sprite-rebecca-wirfs-brock.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.ken-power {
+		background-image: url('../img/speakers/sprite-ken-power.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.martin-schimak {
+		background-image: url('../img/speakers/sprite-martin-schimak.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.marijn-huizendveld {
+		background-image: url('../img/speakers/sprite-marijn-huizendveld.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.alimi-eyitayo {
+		background-image: url('../img/speakers/sprite-alimi-eyitayo.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.shaun-anderson {
+		background-image: url('../img/speakers/sprite-shaun-anderson.jpg');
+		&:hover {
+			background-position: 0;
+		}
+	}
+	&.jenny-bramble {
+		background-image: url('../img/speakers/sprite-jenny-bramble.jpg');
 		&:hover {
 			background-position: 0;
 		}
