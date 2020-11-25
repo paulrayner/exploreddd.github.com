@@ -55,7 +55,7 @@ layout: layout-tier2.html
                 <p>None.</p>
                 <h2 class="text-center">About Jenny Bramble</h2>
                 <div class="speaker-img-in-content jenny-bramble keep-color"></div>
-                <p>bio goes here</p>
+                <p>Jenny came up through support and DevOps, cutting her teeth on that interesting role that acts as the 'translator' between customer requests from support and the development team before diving headlong into her career as a tester. Her love of support and the human side of problems lets her find a sweet spot between empathy for the user and empathy for her team. She's done testing, support, or human interfacing for most of her career. She finds herself happiest when she's making an impact on other people––whether it's helping find issues in applications, speaking at events, or just grabbing coffee and chatting.</p>
                 <div class="col-xs-12" align="center">
                     <a class="btn" href="https://ti.to/EDDD/explore-ddd-2021-spring-workshops">REGISTER NOW</a>
                 </div>
