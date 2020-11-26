@@ -26,7 +26,8 @@ layout: layout-tier2.html
                 <h2><a href="rebecca-wirfs-brock-and-ken-power.html">Decision-Making Practices for Evolving and Sustaining Software Architecture</a></h2>
                 <p>
                     <span class="speaker-name">Rebecca Wirfs-Brock &amp; Ken Power</span>
-                    <span class="duration">The first four Tuesdays in March 2021<br>(March 2, 9, 16, 23)</span>
+                    <span class="duration">The first four Tuesdays in March 2021<br>(March 2, 9, 16, 23)<br>
+                    9 AM to 1 PM (MST/MDT)</span>
                 </p>
                 <p>When you decide on a direction for your architecture, you set a context that constrains future decisions, for better or worse. Consequently, you accept responsibility for conditions the team, business, and customers will live with, possibly for years to come. And yet, our architectures need to evolve over time. <a href="rebecca-wirfs-brock-and-ken-power.html">Read more...</a></p>
             </div>
@@ -119,7 +120,7 @@ layout: layout-tier2.html
                 </div>
             </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="shaun-anderson.html">An Into to Boris the Spider and the Swift Method: DDD Techniques for a Modern System</a></h2>
+                <h2><a href="shaun-anderson.html">An Intro to Boris the Spider and the Swift Method: DDD Techniques for a Modern System</a></h2>
                 <p>
                     <span class="speaker-name">Shaun Anderson</span>
                     <span class="duration">March 30 - April 2, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
