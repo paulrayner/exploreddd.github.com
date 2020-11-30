@@ -19,7 +19,7 @@ layout: layout-tier2.html
                 <p>When we practice argumentation, we discover the best possible solution or conclusion, under the circumstances, when conditions are uncertain. Conditions are always uncertain. Framing systemic reasoning with others provides integration leadership. This leadership does not depend on our job title. Everyone can develop confidence and trust in the thinking they facilitate. Everyone can cultivate a process that builds trust between people.</p>
                 <p>Argumentation works, which is the most important reason to practice it. And when done well, it is creatively energizing.</p>
                 <h2>What you’ll learn</h2>
-                <h3>Session 1: Designing argumentation</h3>
+                <h3>Session 1: Designing Argumentation</h3>
                 <ul>
                     <li>What is argumentation?
                         <ul>
@@ -38,7 +38,7 @@ layout: layout-tier2.html
                     </li>
                 </ul>
                 <p>Exercises include: A retrospective to identify areas we’ll focus on together. What good experiences have you had? What difficult experiences have you had?</p>
-                <h2>Session 2: Practicing argumentation</h2>
+                <h3>Session 2: Practicing Argumentation</h3>
                 <ul>
                     <li>Identify the claim</li>
                     <li>Identify the reasons that support it</li>
@@ -47,12 +47,12 @@ layout: layout-tier2.html
                     <li>Edit, edit, edit</li>
                 </ul>
                 <p>Exercises include: Develop a claim and reasons, drawing from a real-life situation. Give and get feedback for strengthening it.</p>
-                <h2>Session 3: Working with doubt and fallacious thinking</h2>
+                <h3>Session 3: Working with Doubt and Fallacious Thinking</h3>
                 <p>Doubt is the <em>experience</em> of uncertainty. There is <strong>always</strong> uncertainty.</p>
                 <p>We doubt our own thoughts, feelings, or strategies. We doubt other people’s point of view, claims, assertions. We doubt whenever we change.</p>
                 <p>A companion to doubt is a logical fallacy. Fallacies are thinking patterns that seem right because they are common. But they are, in fact, unsound. For example, “Live free or die”, the New Hampshire state motto (US), is a False Dichotomy. We need to expose them because they hijack argumentation.</p>
                 <p>Exercises include: Identifying doubt in our circumstances and how to practice with it. Logical fallacies quiz! How many do you recognize? Have any taken hold in your practice?</p>
-                <h2>Session 4: How to practice … together</h2>
+                <h3>Session 4: How to Practice … Together</h3>
                 <p>This is entirely hands-on.</p>
                 <ul>
                     <li>Identity and claim and reasons.</li>
