@@ -18,7 +18,7 @@ layout: layout-tier2.html
                 <h2>Who is this for?</h2>
                 <p>This workshop is aimed at software developers and it will be especially useful if you are learning functional programming – all concepts used in the workshop will be explained. Previous development experience is recommended. No prior knowledge of functional programming required.</p>
                 <img src="../img/workshop/Workshop-Scott-Wlaschin-2.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
-                <h2>What you'll learn</h3>
+                <h2>What you will learn</h3>
                 <ul>
                     <li>The concepts of functional programming</li>
                     <li>How to represent the nouns and verbs of a domain using types and functions</li>
@@ -29,7 +29,7 @@ layout: layout-tier2.html
                     <li>How to handle errors as part of the domain</li>
                 </ul>
                 <p>By the end of the workshop you'll know how to build working solutions with rich domain models, using only functional programming techniques.</p>
-                <h2>Sessions 1 & 2</h2>
+                <h3>Sessions 1 & 2</h3>
                 <ul>
                     <li>Overview of DDD principles
                         <ul>
@@ -41,7 +41,7 @@ layout: layout-tier2.html
                         </ul>
                     </li>
                 </ul>
-                <h2>Sessions 3 & 4</h2>
+                <h3>Sessions 3 & 4</h3>
                 <ul>
                     <li>Introduction to functional programming
                         <ul>
@@ -57,7 +57,7 @@ layout: layout-tier2.html
                         </ul>
                     </li>
                 </ul>
-                <h2>Sessions 5 & 6</h2>
+                <h3>Sessions 5 & 6</h3>
                 <ul>
                     <li>Domain Modeling with algebraic types
                         <ul>
@@ -68,7 +68,7 @@ layout: layout-tier2.html
                         </ul>
                     </li>
                 </ul>
-                <h2>Session 7</h2>
+                <h3>Session 7</h3>
                 <ul>
                     <li>Error handling
                         <ul>
@@ -77,7 +77,7 @@ layout: layout-tier2.html
                         </ul>
                     </li>
                 </ul>
-                <h2>Session 8</h2>
+                <h3>Session 8</h3>
                 <ul>
                     <li>The functional toolkit
                         <ul>
@@ -91,8 +91,8 @@ layout: layout-tier2.html
                 <p>Instructions on how to install F# will be provided before the workshop</p>
                 <h2 class="text-center">About Scott Wlaschin</h2>
                 <div class="speaker-img-in-content scott-wlaschin keep-color"></div>
-                <p>Scott Wlaschin is a developer, architect and author. He is the author of the popular F# site fsharpforfunandprofit.com, and the book "Domain Modeling Made Functional", published by Pragmatic Bookshelf.</p>
-                <p>Known for his non-academic approach to functional programming, Scott is a popular speaker and has given talks at NDC, F# Exchange, DDD Europe, and other conferences around the world.</p>
+                <p>Scott Wlaschin is a developer, architect and author. He is the author of the popular F# site fsharpforfunandprofit.com and the book "Domain Modeling Made Functional", published by Pragmatic Bookshelf.</p>
+                <p>Known for his non-academic approach to functional programming, Scott is a popular speaker and has given talks at Explore DDD, NDC, F# Exchange, DDD Europe, and other conferences around the world.</p>
                 <div class="col-xs-12" align="center">
                     <a class="btn" href="https://ti.to/EDDD/explore-ddd-2021-spring-workshops">REGISTER NOW</a>
                 </div>
