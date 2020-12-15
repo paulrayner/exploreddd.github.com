@@ -80,7 +80,7 @@ layout: layout-tier2.html
                 <p>In this workshop you will learn how to apply Domain-Driven Design in an environment with a dominant legacy system. Do the corners of your mouth go up when you think of Domain-Driven Design? The ability to express behavior in your domain through model interactions. A shared language that is aimed at solving problems in your domain. The clarity of the code artefact thanks to tactical patterns. All of these things are great on paper but how do you achieve them in an environment where legacy systems dictate what can and cannot be done? <a href="marijn-huizendveld.html">Read more...</a></p>
             </div>
         </div>
-        <!-- begin workshop element -->
+        in<!-- begin workshop element -->
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">

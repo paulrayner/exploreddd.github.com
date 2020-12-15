@@ -12,11 +12,11 @@ layout: layout-tier2.html
                 <h1>Decision-Making Practices for Evolving and Sustaining Software Architecture</h1>
                 <p><span class="speaker-name">Rebecca Wirfs-Brock &amp; Ken Power</span>
                 <span class="duration">The first four Tuesdays in March 2021 (March 2, 9, 16, 23)<br>9:00 AM - 1:00 PM (MST/MDT)</span></p>
-                <img src="../img/workshop/Workshop-Rebecca-and-Ken-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
                 <p>When you decide on a direction for your architecture, you set a context that constrains future decisions, for better or worse. Consequently, you accept responsibility for conditions the team, business, and customers will live with, possibly for years to come. And yet, our architectures need to evolve over time. Certain decisions have more impact than others and some decisions might need revisiting. Architecture agility implies responding to change and opportunity using decision-making approaches appropriate to the context.</p>
                 <p>This workshop is for you if you share responsibility for the difficult decisions that contribute to evolving your product or system. In addition to developing and evolving the technical systems, you share responsibility towards developing your organization's people and culture. These responsibilities may include gaining consensus among many diverse people and groups around decisions that impact your architecture.</p>
                 <p>In this hands-on workshop, you will learn and apply specific decision styles and decision-making models that are useful in different architectural contexts. We will begin with methods that help us make sense of the situation and the architecture's context. We then explore various topics, including weighing options, taking action through making design decisions, designing experiments, and resolving problems.</p>
                 <p>You will also learn practical techniques for influencing your organization's culture and capturing, retaining, and communicating architect decisions across time. Throughout the workshop, you will learn and apply different decision models and have the option to focus on your specific challenges.</p>
+                <img src="../img/workshop/Workshop-Rebecca-and-Ken-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
                 <h2>What you will learn</h2>
                 <ul>
                     <li>Models for making architecture decisions in different contexts</li>

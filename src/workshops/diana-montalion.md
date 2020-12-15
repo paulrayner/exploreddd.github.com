@@ -12,13 +12,13 @@ layout: layout-tier2.html
                 <h1>Reasoning Systemically</h1>
                 <p><span class="speaker-name">Diana Montalion</span>
                 <span class="duration">March 23-26, 2021<br>9:00 AM - 12:30 PM (MDT)</span></p>
-                 <img src="../img/workshop/Workshop-Diana-Montalion-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
                 <h2>Overview</h2>
                 <p>As complexity increases, are you (too often) shouting into the wind? Do you see icebergs ahead yet fail to convince others to avoid them? Are your discussions more exhausting than productive? Does the accountant understand the value of your work?</p>
                 <p>Argumentation -- reasoning systematically in support of an idea, action, or theory -- is an essential and valuable skill to develop. Especially for those who practice DDD. Over time, maturing this skill contributes more value than our technology-specific expertise.</p>
                 <p>When we practice argumentation, we discover the best possible solution or conclusion, under the circumstances, when conditions are uncertain. Conditions are always uncertain. Framing systemic reasoning with others provides integration leadership. This leadership does not depend on our job title. Everyone can develop confidence and trust in the thinking they facilitate. Everyone can cultivate a process that builds trust between people.</p>
                 <p>Argumentation works, which is the most important reason to practice it. And when done well, it is creatively energizing.</p>
-                <h2>What you’ll learn</h2>
+                <img src="../img/workshop/Workshop-Diana-Montalion-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
+                <h2>What you will learn</h2>
                 <h3>Session 1: Designing Argumentation</h3>
                 <ul>
                     <li>What is argumentation?
