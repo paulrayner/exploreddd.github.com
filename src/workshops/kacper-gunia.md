@@ -16,7 +16,7 @@ layout: layout-tier2.html
                 <p>In theory, by making services smaller we should be able to improve the metrics and benefit from a new architecture, but such an approach is missing an important point. If we want to have truly autonomous teams and services that are not tightly coupled with each other, first we need to understand the domain.</p>
                 <p>In this training session, we will dive into exploring and understanding the domain - our problem space. With this knowledge, we will be able to design a loosely coupled microservice system aligned with business needs and organizational structure. In order to achieve these goals, the participants will learn and use a number of tools and techniques. Starting with Big Picture Event Storming, through choosing boundaries using Design Heuristics, and validating them with Message Flows. Next, we will be evaluating contexts with Core Domain Charts, designing teams using Team Topologies, formalizing contexts with Bounded Context Canvas, and ending on aggregate modeling with Aggregate Design Canvas.</p>
                 <h2>Who is this for?</h2>
-                <p>Senior Software Developer, Architects, Principles, and Technical Product Managers responsible for leading the discovery and delivery efforts of complex software systems.</p>
+                <p>Senior Software Developers, Architects, Principles, and Technical Product Managers responsible for leading the discovery and delivery efforts of complex software systems.</p>
                 <p>No prior DDD experience is required, but this workshop is targeted at senior people and assumes experience with building systems with multiple teams collaborating with each other.</p>
                 <img src="../img/workshop/Workshop-Kacper-Gunia-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
                 <h2>What you will learn</h2>
@@ -30,7 +30,6 @@ layout: layout-tier2.html
                     <li>Explain the steps involved in Domain-Driven Design Modelling Process</li>
                 </ul>
                 <h2>Agenda</h2>
-                <p>Each session is 4 hours long</p>
                 <h3>Session 1</h3>
                 <ul>
                     <li>DDD Modelling Process overview</li>
