@@ -12,9 +12,9 @@ layout: layout-tier2.html
                 <h1>Collaborative DDD with Storystorming</h1>
                 <p><span class="speaker-name">Martin Schimak</span>
                 <span class="duration">April 13-16, 2021<br>9:00 AM - 12:30 PM (MDT)</span></p>
-                <img src="../img/workshop/Workshop-Martin-Schimak-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
                 <p>This workshop will take you on a journey through the exciting field of visual and collaborative modeling and mapping methods. By applying lightweight methods, domain and software experts can collaboratively work their way through all three pillars of Domain-Driven Design: <strong>Strategic Design, Collaborative Modeling</strong> and <strong>Modeling in Software</strong>.</p>
                 <p>Together we will work with <strong>Domain Storytelling, Event Storming, Context Mapping, Impact Mapping, User Story Mapping, Event Modeling</strong> and <strong>Example Mapping</strong>. We will examine how such methods can be applied using the colors and building blocks defined with <a href="https://storystorming.com">Storystorming</a> and visually connect the dots.</p>
+                <img src="../img/workshop/Workshop-Martin-Schimak-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
                 <p>In our first six sessions you will experience how to</p>
                 <ul>
                     <li><strong>Explore important domain scenarios</strong> with Domain Storytelling</li>
@@ -29,7 +29,6 @@ layout: layout-tier2.html
                     <li><strong>Modeling (semi-) automated business processes and sagas</strong></li>
                 </ul>
                 <p>Using the four message types defined with Storystorming (which are based on the sentence types of human language), we will design a multi-step service collaboration and examine the options we have for autonomy and coupling in the software and in our organization.</p>
-                <img src="../img/workshop/Workshop-Martin-Schimak-2.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
                 <h2>Who is this for?</h2>
                 <p>This workshop is really aimed at three groups - in no particular order!</p>
                 <ol>
@@ -37,7 +36,8 @@ layout: layout-tier2.html
                     <li>Agile business analysts who are interested in lightweight modeling methods</li>
                     <li>Software developers and architects who are interested in domain experts ;)</li>
                 </ol>
-                <h2>What you'll learn</h2>
+                <img src="../img/workshop/Workshop-Martin-Schimak-2.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
+                <h2>What you will learn</h2>
                 <ol>
                     <li>Shaping the ubiquitous language around all three pillars of DDD</li>
                     <li>Collaborating about strategic DDD on the green or brownfield</li>
