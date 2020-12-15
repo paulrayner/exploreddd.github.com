@@ -77,7 +77,7 @@ layout: layout-tier2.html
                     <span class="speaker-name">Marijn Huizendveld</span>
                     <span class="duration">March 16-19, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
                 </p>
-                <p>In this workshop you will learn how to apply Domain-Driven Design in an environment with a dominant legacy system. Do the corners of your mouth go up when you think of Domain-Driven Design? The ability to express behavior in your domain through model interactions. A shared language that is aimed at solving problems in your domain. The clarity of the code artefact thanks to tactical patterns. All of these things are great on paper but how do you achieve them in an environment where legacy systems dictate what can and cannot be done? <a href="marijn-huizendveld.html">Read more...</a></p>
+                <p>Do the corners of your mouth go up when you think of Domain-Driven Design? Do you appreciate the ability to express behavior in your domain through model interactions?  Do you appreciate a shared language that is aimed at solving problems in your domain and also the clarity of the code artifact, thanks to tactical patterns?  All of these things are great on paper but how do you achieve them in an environment where legacy systems dictate what can and cannot be done? <a href="marijn-huizendveld.html">Read more...</a></p>
             </div>
         </div>
         in<!-- begin workshop element -->
