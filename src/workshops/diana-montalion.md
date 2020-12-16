@@ -52,19 +52,19 @@ layout: layout-tier2.html
                 <p>We doubt our own thoughts, feelings, or strategies. We doubt other people’s point of view, claims, assertions. We doubt whenever we change.</p>
                 <p>A companion to doubt is a logical fallacy. Fallacies are thinking patterns that seem right because they are common. But they are, in fact, unsound. For example, “Live free or die”, the New Hampshire state motto (US), is a False Dichotomy. We need to expose them because they hijack argumentation.</p>
                 <p>Exercises include: Identifying doubt in our circumstances and how to practice with it. Logical fallacies quiz! How many do you recognize? Have any taken hold in your practice?</p>
-                <h3>Session 4: How to Practice … Together</h3>
-                <p>This is entirely hands-on.</p>
+                <h3>Session 4: How to Practice Together</h3>
+                <p>This is entirely hands-on</p>
                 <ul>
                     <li>Identity and claim and reasons.</li>
-                    <li>Strengthen the reasons together.</li>
-                    <li>Listen critically and respectfully.</li>
-                    <li>Consider the evidence and diverse points of view on purpose.</li>
-                    <li>Seek to strengthen the cohesion.</li>
-                    <li>Be aware of our feelings and opinions.</li>
+                    <li>Strengthen the reasons together</li>
+                    <li>Listen critically and respectfully</li>
+                    <li>Consider the evidence and diverse points of view on purpose</li>
+                    <li>Seek to strengthen the cohesion</li>
+                    <li>Be aware of our feelings and opinions</li>
                 </ul>
                 <p>Exercises include: Building real-world claims and strengthening reasons in small groups. As a whole, we will also consider two potentially-opposing views of a claim.</p>
                 <h2>Logistics</h2>
-                <p>This virtual workshop will use tooms like Zoom and Mural to create community, comfort and shared space for exploring. Registration is limited to encourage interaction. Sign up early, we’ll maintain a waiting list.</p>
+                <p>This virtual workshop will use tools like Zoom and Mural to create community, comfort and shared space for exploring. Registration is limited to encourage interaction. Sign up early, we’ll maintain a waiting list.</p>
                 <h2>Feedback from previous sessions</h2>
                 <p><em>"I am often involved in such discussions as receiver of arguments and in most cases the offered solution only solves symptoms, doesn’t go deep enough. Now I have advice ready why and how to go deeper."</em></p>
                 <p><em>"I went in with something that was more of a vague frustration for me and ended up with a well-organized argument that I’d feel comfortable bringing up with anyone."</em></p>

@@ -29,12 +29,12 @@ layout: layout-tier2.html
                     <li>Some mind mapping software</li>
                 </ul>
                 <h2>Agenda</h2>
-                <p>Section one - the talking part</p>
+                <p><strong>Section one - the talking part</strong></p>
                 <ul>
                     <li>History of mindmaps</li>
                     <li>Structure and some examples on how to use mind maps</li>
                 </ul>
-                <p>Section two - the doing part</p>
+                <p><strong>Section two - the doing part</strong></p>
                     <ul>
                         <li style="list-style-type: none;">Participants will break into teams twice to create their own mind maps using mindmup.com.</li>
                     </ul>
