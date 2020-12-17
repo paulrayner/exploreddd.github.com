@@ -44,7 +44,7 @@ layout: layout-tier2.html
                     <li>Boris Exercise - Driving out a notional architecture</li>
                     <li>Snap - Rapid capture of work to be done</li>
                 </ul>
-                <p><@strong>Session 4</@rachstrong></p>
+                <p><strong>Session 4</strong></p>
                 <ul>
                     <li>Tactical Patterns - Mapping technology to the solutions</li>
                     <li>War stories and real world examples</li>
