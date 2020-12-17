@@ -27,7 +27,6 @@ layout: layout-tier2.html
                     <li>Applying Tactical Patterns and Solutions</li>
                 </ul>
                 <h2>Agenda</h2>
-                <p>Each session is 4 hours long</p>
                 <p><strong>Session 1</strong></p>
                 <ul>
                     <li>Understanding the problem - Complex problems / creative solutions</li>
