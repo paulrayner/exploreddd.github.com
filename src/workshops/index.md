@@ -36,22 +36,6 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="kacper-gunia.html"><div class="speaker-img kacper-gunia"></div></a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="kacper-gunia.html">Domain-Driven Design Modeling Process: From Problem to Solution Space</a></h2>
-                <p>
-                    <span class="speaker-name">Kacper Gunia</span>
-                    <span class="duration">March 2-5, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
-                </p>
-                <p>Breaking a large domain into subsystems is an exercise that many companies are going through when they kick off a new project or decide to migrate from a monolith architecture to microservices. The approach of creating a number of loosely coupled software services promises to bring a lot of benefits. These include improving team autonomy, reducing lead time, being able to innovate, and other traits that describe accelerated delivery cycles. <a href="kacper-gunia.html">Read more...</a></p>
-            </div>
-        </div>
-        <!-- begin workshop element -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-2">
-                <div class="speaker-container">
                     <a href="scott-wlaschin.html"><div class="speaker-img scott-wlaschin"></div></a>
                 </div>
             </div>
@@ -158,6 +142,22 @@ layout: layout-tier2.html
                     <span class="duration">April 13-16, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
                 </p>
                 <p>This workshop will take you on a journey through the exciting field of visual and collaborative modeling and mapping methods. By applying lightweight methods, domain and software experts can collaboratively work their way through all three pillars of Domain-Driven Design. <a href="martin-schimak.html">Read more...</a></p>
+            </div>
+        </div>
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="kacper-gunia.html"><div class="speaker-img kacper-gunia"></div></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="kacper-gunia.html">Domain-Driven Design Modeling Process: From Problem to Solution Space</a></h2>
+                <p>
+                    <span class="speaker-name">Kacper Gunia</span>
+                    <span class="duration">May 4-7, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
+                </p>
+                <p>Breaking a large domain into subsystems is an exercise that many companies are going through when they kick off a new project or decide to migrate from a monolith architecture to microservices. The approach of creating a number of loosely coupled software services promises to bring a lot of benefits. These include improving team autonomy, reducing lead time, being able to innovate, and other traits that describe accelerated delivery cycles. <a href="kacper-gunia.html">Read more...</a></p>
             </div>
         </div>
     </div>
