@@ -36,38 +36,6 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="scott-wlaschin.html"><div class="speaker-img scott-wlaschin"></div></a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="scott-wlaschin.html">Domain Modeling Made Functional</a></h2>
-                <p>
-                    <span class="speaker-name">Scott Wlaschin</span>
-                    <span class="duration">March 9-12, 2021<br>9:00 AM - 12:30 PM (MST)</span>
-                </p>
-                <p>Functional programming and domain-driven design might not seem to be a good match, but in fact functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why. <a href="scott-wlaschin.html">Read more...</a></p>
-            </div>
-        </div>
-        <!-- begin workshop element -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-2">
-                <div class="speaker-container">
-                    <a href="marijn-huizendveld.html"><div class="speaker-img marijn-huizendveld"></div></a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="marijn-huizendveld.html">DDD and Legacy Systems</a></h2>
-                <p>
-                    <span class="speaker-name">Marijn Huizendveld</span>
-                    <span class="duration">March 16-19, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
-                </p>
-                <p>Do the corners of your mouth go up when you think of Domain-Driven Design? Do you appreciate the ability to express behavior in your domain through model interactions?  Do you appreciate a shared language that is aimed at solving problems in your domain and also the clarity of the code artifact, thanks to tactical patterns?  All of these things are great on paper but how do you achieve them in an environment where legacy systems dictate what can and cannot be done? <a href="marijn-huizendveld.html">Read more...</a></p>
-            </div>
-        </div>
-        in<!-- begin workshop element -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-2">
-                <div class="speaker-container">
                     <a href="jenny-bramble.html"><div class="speaker-img jenny-bramble"></div></a>
                 </div>
             </div>
