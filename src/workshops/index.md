@@ -42,7 +42,7 @@ layout: layout-tier2.html
                 <h2><a href="shaun-anderson.html">An Intro to Boris the Spider and the Swift Method: DDD Techniques for a Modern System</a></h2>
                 <p>
                     <span class="speaker-name">Shaun Anderson</span>
-                    <span class="duration">March 30 - April 2, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
+                    <span class="duration">DATES: TBD</span>
                 </p>
                 <p>In this four day workshop we will explore the Swift Method by modeling a business called We B Foods. Lettuce be honest. Uber Eats is so 2019. We B Foods is a new rapidly growing start-up taking the online food delivery world by storm. We’re nacho typical company! <a href="shaun-anderson.html">Read more...</a></p>
             </div>
@@ -58,7 +58,7 @@ layout: layout-tier2.html
                 <h2><a href="paul-rayner.html">EventStorming Facilitation Virtual Workshop</a></h2>
                 <p>
                     <span class="speaker-name">Paul Rayner</span>
-                    <span class="duration">April 6-9, 2021<br>9:00 AM - 12:00 PM (MDT)</span>
+                    <span class="duration">DATES: TBD</span>
                 </p>
                 <p>Collaboration between different disciplines in your organization can be difficult, and finding clarity and alignment on both the right problem to solve and the right solution design even more so. We each approach improvement from our own (limited) perspective, without taking into account the whole story. How is that effective? EventStorming is a workshop format that promotes collaboration between different disciplines in order to solve business problems in the most effective way.<a href="paul-rayner.html">Read more...</a></p>
             </div>
@@ -74,7 +74,7 @@ layout: layout-tier2.html
                 <h2><a href="martin-schimak.html">Collaborative DDD with Storystorming</a></h2>
                 <p>
                     <span class="speaker-name">Martin Schimak</span>
-                    <span class="duration">April 13-16, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
+                    <span class="duration">DATES: TBD</span>
                 </p>
                 <p>This workshop will take you on a journey through the exciting field of visual and collaborative modeling and mapping methods. By applying lightweight methods, domain and software experts can collaboratively work their way through all three pillars of Domain-Driven Design. <a href="martin-schimak.html">Read more...</a></p>
             </div>
