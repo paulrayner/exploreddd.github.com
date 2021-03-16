@@ -26,7 +26,7 @@ layout: layout-tier2.html
                 <h2><a href="diana-montalion.html">Reasoning Systemically</a></h2>
                 <p>
                     <span class="speaker-name">Diana Montalion</span>
-                    <span class="duration">March 23-26, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
+                    <span class="duration">October 5-8, 2021<br>9:00 AM - 12:30 PM (MDT)</span>
                 </p>
                 <p>As complexity increases, are you (too often) shouting into the wind? Do you see icebergs ahead yet fail to convince others to avoid them? Are your discussions more exhausting than productive? Does the accountant understand the value of your work? <a href="diana-montalion.html">Read more...</a></p>
             </div>
