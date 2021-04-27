@@ -30,7 +30,7 @@ layout: layout.html
 </section>
 <div class="container homepage--intro-text">
     <div class="row">
-    <p style="font-size: 20px;">Explore DDD is offering hands-on and highly interactive workshops in 2021! Workshops will consist of online class sessions which will take place in March, April and May.</p>
+    <p style="font-size: 20px;">Explore DDD is offering hands-on and highly interactive virtual workshops.</p>
         <a href="workshops" class="btn">See Workshops</a>
     </div>
 </div>
