@@ -769,20 +769,6 @@ figure {
 	}
 }
 
-.homepage--intro-text, .homepage--why-you-should-attend {
-	max-width: 700px;
-	margin: 0 $half-margin;
-	@include mq(sm) {
-		margin: 0 auto;
-	}
-}
-
-.homepage--intro-text {
-	max-width: 885px;
-	margin-top: $standard-margin;
-	text-align: center;
-}
-
 // Speaker section
 
 .section.speakers {
