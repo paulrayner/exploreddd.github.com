@@ -1,14 +1,6 @@
 ---
 layout: layout.html
 ---
-<!-- <div class="container-fluid homepage--hero-video-container">
-    <video loop muted autoplay class="video-item">
-        <source src="video/background-video.webm" type="video/webm">
-        <source src="video/background-video.mp4" type="video/mp4">
-        <source src="video/background-video.ogv" type="video/ogg">
-    </video>
-    <div class="video-overlay"></div>
-</div> -->
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
@@ -28,6 +20,11 @@ layout: layout.html
   </div>
   </div>
 </section>
+<div class="container homepage--intro-text">
+    <div class="row">
+    <p style="font-size: 20px;">Due to the pandemic we are not running the Explore DDD conference this year, but stay tuned for next year.</p>
+    </div>
+</div>
     <h1 class="text-center">WHAT IS DDD?</h1>
     <p>Domain-Driven Design (“DDD”) is an approach to delivering software for complex needs through evolving a model of key business concepts in the software itself. It is not a technology or a methodology, but rather principles, patterns, and practices for making effective design decisions to focus and accelerate software projects dealing with complicated domains.</p>
     <div class="text-center"><a href="https://ti.to/EDDD/explore-ddd-2021-spring-workshops" class="btn">Register Now</a></div>
