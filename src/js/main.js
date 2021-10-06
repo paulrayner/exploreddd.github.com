@@ -103,16 +103,12 @@ $(document).ready(function() {
       var navheight = $('.navbar').outerHeight(true);
       var homepagetopbar = $('.homepage--top-bar').outerHeight(true);
       $("#sidebar").height(bodyheight);
-      // console.log('height of window is ' + bodyheight);
-      console.log('height of nav div is ' + navheight);
-      console.log('height of homepage top bar div is ' + homepagetopbar);
       var videoheight = bodyheight - navheight - homepagetopbar;
       $(".homepage--hero-video-container").css("margin-top",homepagetopbar);
       $(".homepage--hero-video-container").css("height",videoheight);
 
       //make covid-19 alert notice appear at the correct vertical location
       var topStuff = navheight + homepagetopbar;
-      console.log('height of topStuff is ' + topStuff);
       $(".alert-covid-notice").css("top",topStuff);
 
   }).resize();
