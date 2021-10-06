@@ -288,7 +288,7 @@ nav {
 			padding-left: 20px;
 		}
 	}
-	&:last-child {
+	/*&:last-child {
 		line-height: normal;
 		a {
 			color: $brand-white;
@@ -306,7 +306,7 @@ nav {
 			}
 			//Not quite sure why (lg) doesnt have to be defined here to inherent (md) rule
 		}
-	}
+	}*/
 }
 
 .nav-btn {
@@ -766,14 +766,6 @@ figure {
 		@include mq(xs) {
 			background-color: transparentize($brand-blue, 0.3);
 		}
-	}
-}
-
-.homepage--intro-text, .homepage--why-you-should-attend {
-	max-width: 700px;
-	margin: 0 $half-margin;
-	@include mq(sm) {
-		margin: 0 auto;
 	}
 }
 

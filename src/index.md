@@ -30,26 +30,164 @@ layout: layout.html
 </section>
 <div class="container homepage--intro-text">
     <div class="row">
-    <p style="font-size: 20px;">Explore DDD is offering hands-on and highly interactive virtual workshops.</p>
-        <a href="workshops" class="btn">See Workshops</a>
+        <p style="font-size: 20px;">Due to the pandemic we are not running the Explore DDD conference this year, but stay tuned for next year.</p>
     </div>
 </div>
 <div class="container homepage--why-you-should-attend">
     <div class="row">
-        <h1 class="text-center">REASONS TO ATTEND</h1>
-        <ul>
-            <li>No travel! No flight delays, passport control, or security checks. Worried about losing your luggage? Forget about it!</li>
-            <li>Challenge your thinking in an open, sharing, and collaborative environment while accessing the workshops from the comfort of your own home or office. Take breaks as needed. We understand that these are strange times we are living in. </li>
-            <li>Use the time you would be traveling to report to colleagues on the key lessons and takeaways from our industry-leading instructors. Help them to expand the skills you’ve learned from these innovative, remote sessions, and then incorporate them into your organization as well.</li>
-            <li>Talk to your boss and tell them how you would benefit from attending said workshops. Relay the cost savings you will benefit from by not traveling this year.
-</li>
-            <li>Seamlessly juggle work demands with partial-day workshop attendance.</li>
-            <li>Connect with a larger, global audience: many of whom may have not previously attended EDDD before due to cost, travel, and time constraints.
-</li>
-        </ul>
         <h1 class="text-center">WHAT IS DDD?</h1>
         <p>Domain-Driven Design (“DDD”) is an approach to delivering software for complex needs through evolving a model of key business concepts in the software itself. It is not a technology or a methodology, but rather principles, patterns, and practices for making effective design decisions to focus and accelerate software projects dealing with complicated domains.</p>
-        <div class="text-center"><a href="https://ti.to/EDDD/explore-ddd-2021-spring-workshops" class="btn">Register Now</a></div>
+        <div class="container section home-videos">
+            <div class="row">
+            <a name="videos"></a>
+            <h1 class="section-header text-center">2019 Videos</h1>
+            </div>
+            <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/kjMZVYdwucs" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/Aanys09blCw" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+            <div class="col-sm-12 col-md-4">
+            <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/EOof9dof0y0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/9QBlP4B7cdM" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/5P1SiSK780k" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+            <div class="col-sm-12 col-md-4">
+            <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/x73cnwvo9o0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/26xrX113KZc" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/OgYPm1tIzBU" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+            <div class="col-sm-12 col-md-4">
+            <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/Zj-GipR1lEA" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/oVHa3xmUjPg" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/Rqdj2WIosVk" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+            <div class="col-sm-12 col-md-4">
+            <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/mw7D6OJpsIA" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/a1pRsAi9UVs" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/Nr6jAwOunGM" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+            <div class="col-sm-12 col-md-4">
+            <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/mAQytFcWr5c" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/Ef9H4fMyiYs" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/vgzCApJuR8w" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+            <div class="col-sm-12 col-md-4">
+            <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/6eTfF4N_pEI" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/sGizAn-s5cg" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/xbGoK-mkSkM" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+            <div class="col-sm-12 col-md-4">
+            <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/26xrX113KZc" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                    <iframe  src="https://www.youtube.com/embed/YtROlyWWhV0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                    <iframe  src="https://www.youtube.com/embed/PLFl95c-IiU" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-12 col-md-4">
+                <div class="video-responsive">
+                    <iframe  src="https://www.youtube.com/embed/hh5lskgATCk" frameborder="0" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="video-responsive">
+                        <iframe  src="https://www.youtube.com/embed/Nvaz_AfHR8I" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="video-responsive">
+                        <iframe  src="https://www.youtube.com/embed/7-fRtd8LUwA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="video-responsive">
+                        <iframe  src="https://www.youtube.com/embed/KV75YcFoWTo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
         <p class="text-center">View past conferences: <a href="./2019">2019</a> &#124; <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
         <p class="text-center">Visit and subscribe to the <a href="https://www.youtube.com/exploreddd">ExploreDDD YouTube Channel</a></p>
         <div class="text-center ">
