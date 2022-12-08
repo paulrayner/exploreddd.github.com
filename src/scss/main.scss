@@ -769,11 +769,17 @@ figure {
 	}
 }
 
-//keep this rule for the occasional intro text that is included each year since it changes somewhat regularly.
-.homepage--intro-text {
+.homepage--intro-text, .homepage--why-you-should-attend {
 	max-width: 885px;
 	margin-top: $standard-margin;
 	text-align: center;
+	p {
+		margin-left: $standard-margin;
+		margin-right: $standard-margin;
+	}
+}
+.homepage--why-you-should-attend {
+	margin-top: 0;
 }
 
 // Speaker section
