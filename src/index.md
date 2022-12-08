@@ -28,11 +28,6 @@ layout: layout.html
   </div>
   </div>
 </section>
-<div class="container homepage--intro-text">
-    <div class="row">
-        <p style="font-size: 20px;">Due to the pandemic we are not running the Explore DDD conference this year, but stay tuned for next year.</p>
-    </div>
-</div>
 <div class="container homepage--why-you-should-attend">
     <div class="row">
         <h1 class="text-center">WHAT IS DDD?</h1>
