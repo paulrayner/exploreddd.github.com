@@ -769,6 +769,13 @@ figure {
 	}
 }
 
+//keep this rule for the occasional intro text that is included each year since it changes somewhat regularly.
+.homepage--intro-text {
+	max-width: 885px;
+	margin-top: $standard-margin;
+	text-align: center;
+}
+
 // Speaker section
 
 .section.speakers {

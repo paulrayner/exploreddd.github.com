@@ -28,6 +28,11 @@ layout: layout.html
   </div>
   </div>
 </section>
+<div class="container homepage--intro-text">
+    <div class="row">
+        <p style="font-size: 20px;">For Explore DDD 2023, we've been exploring(!) new conference venues in Denver for next Fall, so be on the lookout for more news about this.</p>
+    </div>
+</div>
 <div class="container homepage--why-you-should-attend">
     <div class="row">
         <h1 class="text-center">WHAT IS DDD?</h1>
