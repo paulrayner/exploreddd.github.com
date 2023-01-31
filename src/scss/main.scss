@@ -288,7 +288,7 @@ nav {
 			padding-left: 20px;
 		}
 	}
-	/*&:last-child {
+	&:last-child {
 		line-height: normal;
 		a {
 			color: $brand-white;
@@ -306,7 +306,7 @@ nav {
 			}
 			//Not quite sure why (lg) doesnt have to be defined here to inherent (md) rule
 		}
-	}*/
+	}
 }
 
 .nav-btn {
