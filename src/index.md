@@ -1,22 +1,22 @@
 ---
 layout: layout.html
 ---
-<!-- <div class="container-fluid homepage--hero-video-container">
+<div class="container-fluid homepage--hero-video-container">
     <video loop muted autoplay class="video-item">
         <source src="video/background-video.webm" type="video/webm">
         <source src="video/background-video.mp4" type="video/mp4">
         <source src="video/background-video.ogv" type="video/ogg">
     </video>
     <div class="video-overlay"></div>
-</div> -->
-<section class="slider">
+</div>
+<!--<section class="slider">
   <div class="flexslider">
     <ul class="slides">
-        <li class="slide picture-5"></li> <!-- #1 -->
-        <li class="slide picture-2"></li> <!-- #2 -->
+        <li class="slide picture-5"></li>
+        <li class="slide picture-2"></li>
         <li class="slide picture-1"></li>
         <li class="slide picture-3"></li>
-        <li class="slide picture-4"></li> <!-- #4 -->
+        <li class="slide picture-4"></li>
         <li class="slide picture-6"></li>
         <li class="slide picture-7"></li>
     </ul>
@@ -27,7 +27,7 @@ layout: layout.html
     <a class="arrow right"><img src="img/slider-arrow-right.svg" /></a>
   </div>
   </div>
-</section>
+</section> -->
 <!-- Begin MailChimp Signup Form -->
 <div class="row newsletter-signup">
 	<div class="col-xs-12">
