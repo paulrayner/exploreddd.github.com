@@ -45,7 +45,7 @@ layout: layout.html
 <!--End mc_embed_signup-->
 <div class="container homepage--intro-text">
     <div class="row">
-        <p style="font-size: 20px;"><strong>Interact and engage with world-class software architects, developers, technical leaders, and industry experts at the only conference of its kind in North America</strong></p>
+        <p style="font-size: 20px;">Interact and engage with world-class software architects, developers, technical leaders, and industry experts at the only conference of its kind in North America</p>
     </div>
     <div class="text-center">
         <a href="https://ti.to/EDDD/explore-ddd-2023" class="btn">Register Now</a>
