@@ -2238,7 +2238,9 @@ footer {
 //venue specific styles
 
 .venue.hero {
-	background-image: url('../img/hero-venue.jpg');
+	//background-image: url('../img/hero-venue.jpg');
+	height: $standard-margin;
+
 }
 
 .venue--address--reserve-btn-row,
