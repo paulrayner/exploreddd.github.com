@@ -2220,11 +2220,11 @@ footer {
 }
 
 .about.hero {
-	background-image: url('../img/hero-about.jpg');
+	background-image: url('../img/hero-standard-placeholder.jpg');
 }
 
 .cfp.hero {
-	background-image: url('../img/hero-cfp.jpg');
+	background-image: url('../img/hero-standard-placeholder.jpg');
 }
 
 .workshops.hero {
@@ -2232,14 +2232,18 @@ footer {
 }
 
 .sponsors.hero {
-	background-image: url('../img/hero-sponsors.jpg');
+	background-image: url('../img/hero-standard-placeholder.jpg');
+}
+
+.faq.hero {
+	background-image: url('../img/hero-standard-placeholder.jpg');
 }
 
 //venue specific styles
 
 .venue.hero {
-	//background-image: url('../img/hero-venue.jpg');
-	height: $standard-margin;
+	background-image: url('../img/hero-standard-placeholder.jpg');
+	//height: $standard-margin;
 
 }
 
