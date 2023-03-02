@@ -93,6 +93,5 @@ layout: layout-tier2.html
 		<div class="text-center">
 			<a href="https://sessionize.com/explore-ddd-2023/" class="btn">SUBMIT YOUR PROPOSAL</a>
 		</div>
-
 	</div>
 </div>
