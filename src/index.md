@@ -53,7 +53,7 @@ layout: layout.html
         <p>Interact and engage with world-class software architects, developers, technical leaders, and industry experts at the only conference of its kind in North America</p>
     </div>
     <div class="text-center">
-        <a href="https://ti.to/EDDD/explore-ddd-2023" class="btn">Register Now</a>
+        <a href="https://ti.to/EDDD/explore-ddd-2024" class="btn">Register Now</a>
     </div>
 </div>
 <div class="container">
