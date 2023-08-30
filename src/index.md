@@ -57,7 +57,7 @@ layout: layout.html
     </div>
 </div>
 <div class="container section speakers">
-  <h2 class="text-center">Speakers</h2>
+  <h2 class="text-center">Featured Speakers</h2>
     <div class="row">
         <div class="speaker-container">
             <a href="speakers/eric-evans.html"><div class="speaker-img eric-evans">
