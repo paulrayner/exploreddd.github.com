@@ -56,6 +56,24 @@ layout: layout.html
         <a href="https://ti.to/EDDD/explore-ddd-2024" class="btn">Register Now</a>
     </div>
 </div>
+<div class="container section speakers">
+  <h2 class="text-center">Speakers</h2>
+    <div class="row">
+        <div class="speaker-container">
+            <a href="speakers/eric-evans.html"><div class="speaker-img eric-evans">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
+            <p class="speaker-details">Author of Domain-Driven Design</p>
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/diane-montalion.html"><div class="speaker-img diane-montalion">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/diane-montalion.html">Diane Montalion</a></h3>
+            <p class="speaker-details">co-founder of Mentrix Group</p>
+        </div>
+    </div>
+    <p><a href="speakers">VIEW ALL SPEAKERS</a></p>
+</div>
 <div class="container">
     <div class="row">
         <p class="text-center">View past conferences: <a href="./2019">2019</a> &#124; <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
