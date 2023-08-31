@@ -8,13 +8,13 @@ layout: layout-tier2.html
             <a href="eric-evans.html"><div class="speaker-img eric-evans">
             </div></a>
             <h3><a class="speaker-name" href="eric-evans.html">Eric Evans</a></h3>
-            <p class="speaker-details">Author of Domain-Driven Design</p>
+            <p class="speaker-details">Author of <em>Domain-Driven Design</em></p>
         </div>
         <div class="speaker-container">
-            <a href="diane-montalion.html"><div class="speaker-img diane-montalion">
+            <a href="diana-montalion.html"><div class="speaker-img diana-montalion">
             </div></a>
-            <h3><a class="speaker-name" href="diane-montalion.html">Diane Montalion</a></h3>
-            <p class="speaker-details">co-founder of Mentrix Group</p>
+            <h3><a class="speaker-name" href="diana-montalion.html">Diana Montalion</a></h3>
+            <p class="speaker-details">Mentrix Group: Principal</p>
         </div>
     </div>
 </div>

@@ -63,13 +63,13 @@ layout: layout.html
             <a href="speakers/eric-evans.html"><div class="speaker-img eric-evans">
             </div></a>
             <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
-            <p class="speaker-details">Author of Domain-Driven Design</p>
+            <p class="speaker-details">Author of <em>Domain-Driven Design</em></p>
         </div>
         <div class="speaker-container">
             <a href="speakers/diane-montalion.html"><div class="speaker-img diane-montalion">
             </div></a>
             <h3><a class="speaker-name" href="speakers/diane-montalion.html">Diane Montalion</a></h3>
-            <p class="speaker-details">co-founder of Mentrix Group</p>
+            <p class="speaker-details">Mentrix Group: Principal</p>
         </div>
     </div>
     <p><a href="speakers">VIEW ALL SPEAKERS</a></p>
