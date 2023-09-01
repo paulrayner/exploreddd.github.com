@@ -1041,6 +1041,7 @@ figure {
 	margin: 0 auto;
 	width: 150px;
 	border-radius: 120px;
+	background-position: 0;
 
 	@include mq(xs) {
 		margin-top: 15px;
@@ -1055,7 +1056,7 @@ figure {
 		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
 
 		&:hover {
-			background-position: 0;
+			//background-position: 0;
 		}
 	}
 
@@ -1063,7 +1064,7 @@ figure {
 		background-image: url('../img/speakers/sprite-eric-evans.jpg');
 
 		&:hover {
-			background-position: 0;
+			//background-position: 0;
 		}
 	}
 
@@ -1071,7 +1072,7 @@ figure {
 		background-image: url('../img/speakers/sprite-nevia-henry.jpg');
 
 		&:hover {
-			background-position: 0;
+			//background-position: 0;
 		}
 	}
 
@@ -1079,28 +1080,28 @@ figure {
 		background-image: url('../img/speakers/sprite-chris-richardson.jpg');
 
 		&:hover {
-			background-position: 0;
+			//background-position: 0;
 		}
 	}
 	&.randy-shoup {
 		background-image: url('../img/speakers/sprite-randy-shoup.jpg');
 
 		&:hover {
-			background-position: 0;
+			//background-position: 0;
 		}
 	}
 	&.sussane-kaiser {
 		background-image: url('../img/speakers/sprite-sussane-kaiser.jpg');
 
 		&:hover {
-			background-position: 0;
+			//background-position: 0;
 		}
 	}
 	&.diana-montalion {
 		background-image: url('../img/speakers/sprite-diana-montalion.jpg');
 
 		&:hover {
-			background-position: 0;
+			//background-position: 0;
 		}
 	}
 
