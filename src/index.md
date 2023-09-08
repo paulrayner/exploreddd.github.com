@@ -68,7 +68,7 @@ layout: layout.html
         <div class="speaker-container">
             <a href="speakers/diana-montalion.html"><div class="speaker-img diana-montalion">
             </div></a>
-            <h3><a class="speaker-name" href="speakers/diana-montalion.html">Diane Montalion</a></h3>
+            <h3><a class="speaker-name" href="speakers/diana-montalion.html">Diana Montalion</a></h3>
             <p class="speaker-details">Mentrix Group: Principal</p>
         </div>
     </div>
