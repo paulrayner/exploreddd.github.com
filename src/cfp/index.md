@@ -45,7 +45,7 @@ layout: layout-tier2.html
 				<td>120 min</td>
 			</tr>
 			<tr>
-				<td>2-day pre-conference workshop (Tuesday &amp; Wednesday)</td>
+				<td>2-day pre-conference workshop <br />(Tuesday &amp; Wednesday)</td>
 				<td>16 hours</td>
 			</tr>
   		</table>
