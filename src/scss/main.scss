@@ -1060,6 +1060,14 @@ figure {
 		}
 	}
 
+	&.alberto-brandolini {
+		background-image: url('../img/speakers/sprite-alberto-brandolini.jpg');
+
+		&:hover {
+			//background-position: 0;
+		}
+	}
+
 	&.eric-evans {
 		background-image: url('../img/speakers/sprite-eric-evans.jpg');
 

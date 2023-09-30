@@ -2,19 +2,26 @@
 layout: layout-tier2.html
 ---
 <div class="container section workshops">
-  <h2 class="text-center">Workshops</h2>
-    <div class="row">
-        <div class="speaker-container">
-            <a href="eric-evans.html"><div class="speaker-img eric-evans">
-            </div></a>
-            <h3><a class="speaker-name" href="eric-evans.html">Eric Evans</a></h3>
-            <p class="speaker-details">Author of <em>Domain-Driven Design</em></p>
-        </div>
-        <div class="speaker-container">
-            <a href="diana-montalion.html"><div class="speaker-img diana-montalion">
-            </div></a>
-            <h3><a class="speaker-name" href="diana-montalion.html">Diana Montalion</a></h3>
-            <p class="speaker-details">Mentrix Group: Principal</p>
+   <h1 class="text-center">Workshops</h1>
+    </div>
+</div>
+<div class="container workshops-index-page">
+    <div class="col-lg-10 col-lg-offset-1">
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="eventstorming-masterclass.html"><div class="speaker-img alberto-brandolini"></div></a>
+                    </div>
+                </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="eventstorming-masterclass.html">EventStorming Masterclass</a></h2>
+                <p>
+                    <span class="speaker-name">Alberto Brandolini</span>
+                    <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span>
+                </p>
+                <p>EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way. In this two day format we’ll experience the different formats, working around real business problems. <a href="eventstorming-masterclass.html">Read more...</a></p>
+            </div>
         </div>
     </div>
 </div>
