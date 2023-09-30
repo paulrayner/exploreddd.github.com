@@ -22,5 +22,11 @@ layout: layout-tier2.html
             <h3><a class="speaker-name" href="alberto-brandolini.html">Alberto Brandolini</a></h3>
             <p class="speaker-details">Modeling Anything</p>
         </div>
+        <div class="speaker-container">
+            <a href="chris-richardson.html"><div class="speaker-img chris-richardson">
+            </div></a>
+            <h3><a class="speaker-name" href="chris-richardson.html">Chris Richardson</a></h3>
+            <p class="speaker-details"></p>
+        </div>
     </div>
 </div>

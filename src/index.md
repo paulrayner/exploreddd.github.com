@@ -79,6 +79,12 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/alberto-brandolini.html">Alberto Brandolini</a></h3>
             <p class="speaker-details">Modeling Anything</p>
         </div>
+        <div class="speaker-container">
+            <a href="chris-richardson.html"><div class="speaker-img chris-richardson">
+            </div></a>
+            <h3><a class="speaker-name" href="chris-richardson.html">Alberto Brandolini</a></h3>
+            <p class="speaker-details">Modeling Anything</p>
+        </div>
     </div>
     <p><a href="speakers">VIEW ALL SPEAKERS</a></p>
 </div>

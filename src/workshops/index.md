@@ -23,5 +23,21 @@ layout: layout-tier2.html
                 <p>EventStorming is a workshop format that promotes collaboration between different disciplines in order to sove business problems in the most effective way. In this two day format we’ll experience the different formats, working around real business problems. <a href="eventstorming-masterclass.html">Read more...</a></p>
             </div>
         </div>
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="designing-microservices.html"><div class="speaker-img chris-richardson"></div></a>
+                    </div>
+                </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="designing-microservices.html">Designing Microservices</a></h2>
+                <p>
+                    <span class="speaker-name">Chris Richardson</span>
+                    <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span>
+                </p>
+                <p>When applying the microservice architecture pattern, the most important design decisions that you must make do not involve technology choices, such as Kubernetes vs. Serverless or REST vs. gRPC. Instead, what’s critical to your success is correctly identifying services, defining their responsibilities, APIs and collaborations. That’s because if you design your services badly, you risk creating a fragile, distributed monolith where every service is a potential point of failure, and services regularly change in lock step. <a href="designing-microservices.html">Read more...</a></p>
+            </div>
+        </div>
     </div>
 </div>
