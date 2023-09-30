@@ -26,6 +26,20 @@ layout: layout-tier2.html
             <a href="chris-richardson.html"><div class="speaker-img chris-richardson">
             </div></a>
             <h3><a class="speaker-name" href="chris-richardson.html">Chris Richardson</a></h3>
+            <p class="speaker-details">Author of <em>Microservice Patterns</em> and founder of Eventuate.io</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="speaker-container">
+            <a href="paul-rayner.html"><div class="speaker-img paul-rayner">
+            </div></a>
+            <h3><a class="speaker-name" href="paul-rayner.html">Paul Rayner</a></h3>
+            <p class="speaker-details">Domain Remodeler</p>
+        </div>
+        <div class="speaker-container">
+            <a href="randy-shoup.html"><div class="speaker-img randy-shoup">
+            </div></a>
+            <h3><a class="speaker-name" href="randy-shoup.html">Randy Shoup</a></h3>
             <p class="speaker-details"></p>
         </div>
     </div>
