@@ -16,5 +16,11 @@ layout: layout-tier2.html
             <h3><a class="speaker-name" href="diana-montalion.html">Diana Montalion</a></h3>
             <p class="speaker-details">Mentrix Group: Principal</p>
         </div>
+        <div class="speaker-container">
+            <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
+            </div></a>
+            <h3><a class="speaker-name" href="alberto-brandolini.html">Alberto Brandolini</a></h3>
+            <p class="speaker-details">Modeling Anything</p>
+        </div>
     </div>
 </div>
