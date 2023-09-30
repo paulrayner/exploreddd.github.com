@@ -14,6 +14,7 @@ layout: layout-tier2.html
             <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span></p>
             <p>EventStorming is a workshop format that enables massive learning on complex business domains and promotes collaboration between disciplines and teams.</p>
             <p>The modeling and visualization techniques are versatile and can be used successfully to discover current or future scenarios or to design solutions collaboratively.</p>
+            <div class="text-center"><a class="btn" href="https://ti.to/EDDD/explore-ddd-2024">REGISTER NOW</a></div>
             <h2>Agenda</h2>
             <h3>Day 1 – EventStorming as a Discovery Tool</h3>
             <ul>
