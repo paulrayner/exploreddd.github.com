@@ -42,5 +42,17 @@ layout: layout-tier2.html
             <h3><a class="speaker-name" href="randy-shoup.html">Randy Shoup</a></h3>
             <p class="speaker-details">Consulting CTO</p>
         </div>
+        <div class="speaker-container">
+            <a href="indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
+            </div></a>
+            <h3><a class="speaker-name" href="indu-alagarsamy.html">Indu Alagarsamy</a></h3>
+            <p class="speaker-details">Principal Engineer</p>
+        </div>
+        <div class="speaker-container">
+            <a href="nick-tune.html"><div class="speaker-img nick-tune">
+            </div></a>
+            <h3><a class="speaker-name" href="nick-tune.html">Nick Tune</a></h3>
+            <p class="speaker-details">Principal Consultant at Empathy Software, Author of <em>Architecture Modernization</em></p>
+        </div>
     </div>
 </div>

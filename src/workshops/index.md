@@ -55,5 +55,21 @@ layout: layout-tier2.html
                 <p>It’s easy to get lost in the patterns and acronyms and miss the essence of DDD. This workshop will provide you with a solid grounding in the foundational ideas, techniques and skills for doing DDD well in your own project context. <a href="essential-ddd.html">Read more...</a></p>
             </div>
         </div>
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="leading-application-and-architecture-modernization.html"><div class="co-workshop-img indu-and-nick"></div></a>
+                    </div>
+                </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="leading-application-and-architecture-modernization.html">Leading Application & Architecture Modernization: Principles, Patterns, and Practices</a></h2>
+                <p>
+                    <span class="speaker-name">Indu Alagarsamy &amp; Nick Tune</span>
+                    <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span>
+                </p>
+                <p> <a href="leading-application-and-architecture-modernization.html">Read more...</a></p>
+            </div>
+        </div>
     </div>
 </div>
