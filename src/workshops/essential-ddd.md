@@ -21,7 +21,7 @@ layout: layout-tier2.html
                 <li>Or maybe you’re unsure how to apply DDD on your project work?</li>
             </ul>
             <img src="../img/workshop/Workshop-Paul-Rayner.png" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
-            <p class="copy">If you fit into one of these categories, then this workshop is for you – It’s easy to get lost in the patterns and acronyms and miss the essence of DDD. This workshop will provide you with a solid grounding in the foundational ideas, techniques and skills for doing DDD well in your own project context.</p>
+            <p>If you fit into one of these categories, then this workshop is for you – It’s easy to get lost in the patterns and acronyms and miss the essence of DDD. This workshop will provide you with a solid grounding in the foundational ideas, techniques and skills for doing DDD well in your own project context.</p>
             <h2 class="speaker-subheader">This is what you learn</h2>
             <ul class="copy-list">
                 <li>Understand what kinds of business problems DDD addresses.</li>
