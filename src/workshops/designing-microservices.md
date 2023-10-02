@@ -45,7 +45,7 @@ layout: layout-tier2.html
                         <li>Applying the command collaboration patterns: Saga and Command-side replica</li>
                     </ul>
                 </li>
-                <li>Kata: Designing commands and designing services<li>
+                <li>Kata: Designing commands and designing services</li>
                 <li>Lecture: Designing queries
                     <ul>
                         <li>Partitioning subdomains to form services</li>
