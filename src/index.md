@@ -97,7 +97,7 @@ layout: layout.html
             <a href="speakers/randy-shoup.html"><div class="speaker-img randy-shoup">
             </div></a>
             <h3><a class="speaker-name" href="speakers/randy-shoup.html">Randy Shoup</a></h3>
-            <p class="speaker-details"></p>
+            <p class="speaker-details">Consulting CTO</p>
         </div>
     </div>
     <p><a href="speakers">VIEW ALL SPEAKERS</a></p>
