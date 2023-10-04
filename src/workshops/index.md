@@ -31,7 +31,7 @@ layout: layout-tier2.html
                     </div>
                 </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
-                <h2><a href="designing-microservices.html">Designing Microservices</a></h2>
+                <h2><a href="designing-microservices.html">DESIGNING MICROSERVICES: RESPONSIBILITIES, API<span style="text-transform: lowercase">s</span> AND COLLABORATIONS</a></h2>
                 <p>
                     <span class="speaker-name">Chris Richardson</span>
                     <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span>
