@@ -5,7 +5,7 @@ layout: layout-tier2.html
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <a href="../speakers/paul-rayner.html"><div class="speaker-img paul-rayner keep-color"></div></a>
+                <div class="co-workshop-img indu-and-nick no-hover"></div>
             </div>
         </div>
         <div class="col-xs-12 col-sm-8 content">

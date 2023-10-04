@@ -59,7 +59,7 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="leading-application-and-architecture-modernization.html"><div class="co-workshop-img indu-and-nick"></div></a>
+                    <a href="leading-application-and-architecture-modernization.html"><div class="co-workshop-img indu-and-nick no-hover"></div></a>
                     </div>
                 </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
@@ -68,7 +68,7 @@ layout: layout-tier2.html
                     <span class="speaker-name">Indu Alagarsamy &amp; Nick Tune</span>
                     <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span>
                 </p>
-                <p> <a href="leading-application-and-architecture-modernization.html">Read more...</a></p>
+                <p>Over two full days, this workshop covers the diverse range of topics that leaders and practitioners need to successfully modernize their systems, from strategy to execution. <a href="leading-application-and-architecture-modernization.html">Read more...</a></p>
             </div>
         </div>
     </div>
