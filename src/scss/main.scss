@@ -1005,19 +1005,8 @@ figure {
 	width: 150px;
 	margin: 0 auto;
 
-	&.alberto-and-paul {
-		background-image: url('../img/speakers/sprite-alberto-and-paul.png');
-		background-position: -160px; //keep it coloured even when not during hover state
-
-		&:hover {
-			cursor: pointer;
-			cursor: hand;
-			background-position: 1px;
-		}
-	}
-
-	&.rebecca-and-ken {
-		background-image: url('../img/speakers/sprite-rebecca-and-ken.jpg');
+	&.indu-and-nick {
+		background-image: url('../img/speakers/sprite-indu-and-nick.png');
 		background-position: -160px; //keep it coloured even when not during hover state
 
 		&:hover {
@@ -1112,7 +1101,20 @@ figure {
 			//background-position: 0;
 		}
 	}
+	&.indu-alagarsamy {
+		background-image: url('../img/speakers/sprite-indu-alagarsamy.jpg');
 
+		&:hover {
+			//background-position: 0;
+		}
+	}
+	&.nick-tune {
+		background-image: url('../img/speakers/sprite-nick-tune.jpg');
+
+		&:hover {
+			//background-position: 0;
+		}
+	}
 	
 
 	&.keep-color {
