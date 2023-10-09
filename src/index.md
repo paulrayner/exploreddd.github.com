@@ -84,7 +84,7 @@ layout: layout.html
             </div></a>
             <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
             <p class="speaker-details">Author of <em>Domain-Driven Design</em></p>
-        </div>  
+        </div>
     </div>
     <div class="row">
         <div class="speaker-container">
