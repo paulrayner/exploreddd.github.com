@@ -88,6 +88,12 @@ layout: layout.html
     </div>
     <div class="row">
         <div class="speaker-container">
+            <a href="speakers/nivia-henry.html"><div class="speaker-img nivia-henry">
+            </div></a>
+            <h3><a class="speaker-name" href="speakers/nivia-henry.html">Nivia Henry</a></h3>
+            <p class="speaker-details">Engineering Director, Spotify</p>
+        </div>
+        <div class="speaker-container">
             <a href="speakers/paul-rayner.html"><div class="speaker-img paul-rayner">
             </div></a>
             <h3><a class="speaker-name" href="speakers/paul-rayner.html">Paul Rayner</a></h3>
@@ -105,15 +111,15 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h3>
             <p class="speaker-details">Principal Engineer</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/nick-tune.html"><div class="speaker-img nick-tune">
             </div></a>
             <h3><a class="speaker-name" href="speakers/nick-tune.html">Nick Tune</a></h3>
             <p class="speaker-details">Principal Consultant at Empathy Software, Author of <em>Architecture Modernization</em></p>
         </div>
-    </div>
-    <div class="row">
-         <div class="speaker-container">
+        <div class="speaker-container">
             <a href="speakers/susanne-kaiser.html"><div class="speaker-img susanne-kaiser">
             </div></a>
             <h3><a class="speaker-name" href="speakers/susanne-kaiser.html">Susanne Kaiser</a></h3>

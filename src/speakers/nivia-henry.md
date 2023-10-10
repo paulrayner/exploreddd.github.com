@@ -8,7 +8,7 @@ layout: layout-tier2.html
         </div>
       <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Nivia Henry</h1>
-        <span class="speaker-subtitle">Engineering Director at Spotify</span>
+        <span class="speaker-subtitle">Engineering Director, Spotify</span>
         <p><a class="speaker-handle" href="https://twitter.com/Lanooba" target="_blank">@lanooba</a></p>
         <p>Nivia is a technologist with over 20 years of engineering and leadership experience.</p>
         <p>Her career path has included nearly every role in tech; but her true passion is inspiring people to do their best work.  These days Nivia applies her talents as Director of Engineering for Spotify's new music team, tasked with bringing enriching artist expression tools and experiences to Spotify.</p>
