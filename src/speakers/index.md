@@ -31,10 +31,22 @@ layout: layout-tier2.html
     </div>
     <div class="row">
         <div class="speaker-container">
+            <a href="henning-schwentner.html"><div class="speaker-img henning-schwentner">
+            </div></a>
+            <h3><a class="speaker-name" href="henning-schwentner.html">Henning Schwentner</a></h3>
+            <p class="speaker-details">Coder, Coach, Consultant at WPS – Workplace Solutions</p>
+        </div>
+        <div class="speaker-container">
             <a href="indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
             </div></a>
             <h3><a class="speaker-name" href="indu-alagarsamy.html">Indu Alagarsamy</a></h3>
             <p class="speaker-details">Principal Engineer</p>
+        </div>
+        <div class="speaker-container">
+            <a href="lesley-cordero.html"><div class="speaker-img lesley-cordero">
+            </div></a>
+            <h3><a class="speaker-name" href="lesley-cordero.html">Lesley Cordero</a></h3>
+            <p class="speaker-details">Staff Software Engineer, The New York Times</p>
         </div>
         <div class="speaker-container">
             <a href="nick-tune.html"><div class="speaker-img nick-tune">
@@ -42,6 +54,8 @@ layout: layout-tier2.html
             <h3><a class="speaker-name" href="nick-tune.html">Nick Tune</a></h3>
             <p class="speaker-details">Principal Consultant at Empathy Software, Author of <em>Architecture Modernization</em></p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="nivia-henry.html"><div class="speaker-img nivia-henry">
             </div></a>
@@ -54,8 +68,6 @@ layout: layout-tier2.html
             <h3><a class="speaker-name" href="paul-rayner.html">Paul Rayner</a></h3>
             <p class="speaker-details">Domain Remodeler</p>
         </div>
-    </div>
-    <div class="row">
         <div class="speaker-container">
             <a href="randy-shoup.html"><div class="speaker-img randy-shoup">
             </div></a>
