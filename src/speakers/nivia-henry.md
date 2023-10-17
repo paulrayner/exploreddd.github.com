@@ -22,8 +22,8 @@ layout: layout-tier2.html
         <p>In my current role as the Director of Engineering for our billion-dollar ads business, I and my team have been given the unique opportunity to redesign our organization for speed, collaboration and results.</p>
         <p>We decided to put our principles into practice by using two system design principles to organize our 100-person team who support our hundreds of components:</p> 
         <ul>
-          <li>DDD (Domain Driven Design): “a software development philosophy centered around the domain, or sphere of knowledge, of those that use it”;
-          <li>and BAPO (Business Architecture Process Organization): Jan Bosch’s expression of strategic organization design.</li>
+          <li>DDD (Domain Driven Design): “a software development philosophy centered around the domain, or sphere of knowledge, of those that use it”
+          <li>BAPO (Business Architecture Process Organization): Jan Bosch’s expression of strategic organization design</li>
         </ul>
         <p>Join me to discuss this real-world case and how it fared!</p>
       </div>
