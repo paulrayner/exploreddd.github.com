@@ -12,7 +12,6 @@ layout: layout-tier2.html
             <h1>Leading Application & Architecture Modernization: Principles, Patterns, and Practices</h1>
             <p><span class="speaker-name"><a href="../speakers/indu-alagarsamy.html">Indu Alagarsamy</a> &amp; <a href="../speakers/nick-tune.html">Nick Tune</a></span>
             <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span></p>
-            <div class="text-center"><a class="btn" href="https://ti.to/EDDD/explore-ddd-2024">REGISTER NOW</a></div>
             <h2>Description</h2>
             <p>As a Technology leader entrusted with modernizing your systems, you have to deal with some or all of these aspects:</p>
             <ul>
@@ -22,6 +21,7 @@ layout: layout-tier2.html
                 <li>Lottery Factor: Only a handful of people know the old system well, and if they retire or leave the company, it puts at risk the business revenue and keeping the systems running</li>
             </ul>
             <p>Please note: This isn't a workshop about refactoring legacy code and does not cover any programming or infrastructure technologies.</p>
+            <div class="text-center"><a class="btn" href="https://ti.to/EDDD/explore-ddd-2024">REGISTER NOW</a></div>
             <h2>What you'll learn:</h2>
             <p>Over two full days, this workshop covers the diverse range of topics that leaders and practitioners need to successfully modernize their systems, from strategy to execution:</p>
             <ul>
