@@ -12,9 +12,9 @@ layout: layout-tier2.html
             <h1>DESIGNING MICROSERVICES: RESPONSIBILITIES, API<span style="text-transform: lowercase">s</span> AND COLLABORATIONS</h1>
             <p><span class="speaker-name"><a href="../speakers/chris-richardson.html">Chris Richardson</a></span>
             <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span></p>
-            <div class="text-center"><a class="btn" href="https://ti.to/EDDD/explore-ddd-2024">REGISTER NOW</a></div>
             <p>When applying the microservice architecture pattern, the most important design decisions that you must make do not involve technology choices, such as Kubernetes vs. Serverless or REST vs. gRPC. Instead, what’s critical to your success is correctly identifying services, defining their responsibilities, APIs and collaborations. That’s because if you design your services badly, you risk creating a fragile, distributed monolith where every service is a potential point of failure, and services regularly change in lock step.</p>
             <p>Through a combination of lectures, discussions, and kata exercises, Chris will walk you through distilling your application’s requirements into a collection of loosely coupled, appropriately-sized services.</p>
+            <div class="text-center"><a class="btn" href="https://ti.to/EDDD/explore-ddd-2024">REGISTER NOW</a></div>
             <img src="../img/workshop/Workshop-Chris-Richardson-1.jpg" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px">
             <h2>What you will learn</h2>
             <p>Learn how to:</p>
