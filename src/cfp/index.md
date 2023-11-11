@@ -5,10 +5,7 @@ layout: layout-tier2.html
 <div class="container">
 	<div class="col-lg-6 col-lg-offset-3">
 		<h1 class="text-center">Call for Proposal</h1>
-		<div class="text-center">
-			<a href="https://sessionize.com/explore-ddd-2023/" class="btn" style="margin-bottom: 0;">SUBMIT YOUR PROPOSAL</a>
-		</div>
-		<h3 class="text-center">CFP Deadline is October 31, 2023</h3>
+		<h3 class="text-center">CFP Is Now Closed</h3>
 		<p>Should you submit your talk or hands-on session idea?</p>
 		<p>Yes, definitely! Submitting proposals is your job. Worrying about what fits the program is ours. When in doubt, submit your proposal.</p>
 		<p>We are dedicated to creating a safe, welcoming environment for everyone. As part of submitting a proposal, you agree to comply with the conference <a href="../faq/">Code of Conduct</a>.</p>
