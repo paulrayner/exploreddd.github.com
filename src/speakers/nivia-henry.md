@@ -4,7 +4,7 @@ layout: layout-tier2.html
 <div class="container section featured-speaker">
     <div class="row">
       <div class="col-xs-12 col-sm-2 img-container">
-        <img class="speaker-page-img" src="../img/speakers/Nevia-Henry-ON.png" />
+        <img class="speaker-page-img" src="../img/speakers/Nivia-Henry-ON.png" />
         </div>
       <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Nivia Henry</h1>
