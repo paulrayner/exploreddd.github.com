@@ -98,7 +98,7 @@ layout: layout-tier2.html
 			</li>
 			<li>Speakers Dinner
 				<ul>
-					<li>All speakers are invited to the speakers’ dinner, which will be on Thursday evening.</li>
+					<li>All speakers are invited to the speakers’ dinner, which will be on Wednesday evening.</li>
 				</ul>
 			</li>
 			<li>Pre-conference workshops
