@@ -1021,6 +1021,28 @@ figure {
 	}
 }
 
+//new speaker image approach that doesn't require circle crops of images in photo editing software prior to inclusion in site
+
+.new-speaker-img, .new-speaker-page-img {
+	
+	//display: block;
+
+	@include mq(xs) {
+		margin-top: 15px;
+	}
+
+	&.vaughn-vernon {
+		height: 150px;
+		width: 150px;
+		border-radius: 150px;
+		margin: 15px auto 0 auto;
+		background-image: url('../img/speakers/vaughn-vernon.jpg');
+		background-repeat: no-repeat;
+		background-size: 125%;
+		background-position: -35px 0px;
+	}
+}
+
 //sprites for individual speaker images
 .speaker-img,
 .speaker-img-in-content {
@@ -1129,7 +1151,6 @@ figure {
 			//background-position: 0;
 		}
 	}
-	
 
 	&.keep-color {
 		background-position: 0; //stop hover since link was removed for co-workshop page
@@ -1405,10 +1426,19 @@ footer {
 	}
 }
 
+//This is how we do new speaker images now
+.new-speaker-page-img {
+	height: 150px;
+	width: 150px;
+	margin-top: $standard-margin !important;
+}
+
+//this is partially deprecated for 2023/2024. 
 .speaker-page-img {
 	height: 150px;
 	width: 150px;
 }
+
 
 .speaker-header {
 	margin: 0 0 2px 0;
@@ -1551,7 +1581,7 @@ footer {
 .workshop-single-page {
 
 	//margin-top: 75px; //needs to clear static blue "info bar" added ay 2019
-	.speaker-img,
+	.new-speaker-img, .speaker-img,
 	.co-workshop-img {
 		margin-top: 25px; //not quite $standard-margin height here since the static blue bar isnt quite the right height
 	}

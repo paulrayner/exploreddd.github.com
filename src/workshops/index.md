@@ -87,5 +87,21 @@ layout: layout-tier2.html
                 <p>It’s easy to get lost in the patterns and acronyms and miss the essence of DDD. This workshop will provide you with a solid grounding in the foundational ideas, techniques and skills for doing DDD well in your own project context. <a href="essential-ddd.html">Read more...</a></p>
             </div>
         </div>
+         <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="strategic-design-architecture-to-xenial-modeling.html"><div class="new-speaker-img vaughn-vernon"></div></a>
+                    </div>
+                </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="strategic-design-architecture-to-xenial-modeling.html">Strategic Design: Architecture to Xenial Modeling</a></h2>
+                <p>
+                    <span class="speaker-name">Vaughn Vernon</span>
+                    <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span>
+                </p>
+                <p>Strategic design is the most broadly applicable of the Domain-Driven Design toolset, and its use is vital. Without a deep understanding of differentiating strategy driven by business knowledge among all stakeholders, software is nothing more than the interpretations of programmers. Their guesswork follows layers of previous requirements interpretations passed down the business hierarchy. Are guesswork and individual interpretations what businesses want? Without certain effort to engage with business leaders, even the most skilled software leaders are ill-suited to deliver true strategic results. <a href="strategic-design-architecture-to-xenial-modeling.html">Read more...</a></p>
+            </div>
+        </div>
     </div>
 </div>
