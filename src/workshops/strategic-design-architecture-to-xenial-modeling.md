@@ -40,7 +40,7 @@ layout: layout-tier2.html
             <p>This interactive workshop is for software leaders like you who want to apply strategic design in their teams: Software decision makers, including CIOs, CTOs, Principals, Directors, Product Managers; Technical leaders, such as Chief Architects, Enterprise Architects, Software Architects, Team/Tech Leads, Senior Engineers, Software Engineers, DevOps Engineers, Consultants</p>
             <h2>PRE-REQUISITES</h2>
             <ul>
-                <li>Optionally, read Domain-Driven Design Distilled beforehand. It's 160 pages and generally requiresfour hours to read:   available in print, ebook, and the O'Reilly platform</li>
+                <li>Optionally, read <em>Domain-Driven Design Distilled</em> beforehand. It's 160 pages and generally requires four hours to read:   available in print, ebook, and the O'Reilly platform</li>
                 <li>We will have several hands-on exercises</li>
                 <li>Your preferred note-taking device</li>
                 <li>Computer with internet access</li>
