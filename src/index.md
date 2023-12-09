@@ -122,6 +122,11 @@ layout: layout.html
             <p class="speaker-details">Consultant Software Architect @ Read The Architecture</p>
         </div>
         <div class="speaker-container">
+            <a href="speakers/javiera-laso.html"><div class="new-speaker-img javiera-laso"></div></a>
+            <h3><a class="speaker-name" href="speakers/javiera-laso.html">Javiera Laso</a></h3>
+            <p class="speaker-details">Technical Principal at Thoughtworks</p>
+        </div>
+        <div class="speaker-container">
             <a href="speakers/james-higginbotham.html"><div class="new-speaker-img james-higginbotham"></div></a>
             <h3><a class="speaker-name" href="speakers/james-higginbotham.html">James Higginbotham</a></h3>
             <p class="speaker-details">API Architect</p>
