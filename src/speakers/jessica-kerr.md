@@ -17,6 +17,6 @@ layout: layout-tier2.html
         <p>The scientific method is fantastic for debugging--and completely inadequate for the unique sociotechnical systems we each work in. Yet we do experiment (probe), and we can do this rigorously (for a more appropriate definition of "rigor"). How does this work?</p>
         <p>We need different ways to frame experiments, choose the ones worth our time, conduct them, and recognize the outcome. We need new words to replace "failure" and "success."</p>
         <p>In complexity, everything is an experiment if we look at the result. That doesn't mean objective measurement. It does mean careful observation and curiosity. Let's talk about how we do this.</p>
-     </div>
+     </div> 
    </div>
  </div>
