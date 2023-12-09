@@ -1026,21 +1026,42 @@ figure {
 .new-speaker-img, .new-speaker-page-img {
 	
 	//display: block;
+	height: 150px;
+	width: 150px;
+	border-radius: 150px;
+	background-repeat: no-repeat;
+	margin: 15px auto 0 auto;
 
 	@include mq(xs) {
 		margin-top: 15px;
 	}
 
 	&.vaughn-vernon {
-		height: 150px;
-		width: 150px;
-		border-radius: 150px;
-		margin: 15px auto 0 auto;
 		background-image: url('../img/speakers/vaughn-vernon.jpg');
-		background-repeat: no-repeat;
 		background-size: 125%;
 		background-position: -35px 0px;
 	}
+	&.anita-kvamme {
+		background-image: url('../img/speakers/anita-kvamme.jpg');
+		background-size: 125%;
+		background-position: -20px -10px;
+	}
+	&.david-buchanan {
+		background-image: url('../img/speakers/david-buchanan.jpg');
+		background-size: 225%;
+		background-position: -30px -140px;
+	}
+	&.david-laribee {
+		background-image: url('../img/speakers/david-laribee.jpg');
+		background-size:115%;
+		background-position: -10px 0px;
+	}
+	&.erik-shafer {
+		background-image: url('../img/speakers/erik-shafer.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+		
 }
 
 //sprites for individual speaker images

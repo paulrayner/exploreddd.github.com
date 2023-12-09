@@ -57,9 +57,9 @@ layout: layout.html
         <a href="https://ti.to/EDDD/explore-ddd-2024" class="btn">Register Now</a>
     </div>
 </div>
-<div class="container section speakers">
+<div class="container section speakers" style="position: relative; overflow: auto;">
   <h2 class="text-center">Featured Speakers</h2>
-    <div class="row">
+    <div class="row" style="position: absolute; width: 30000px;">
         <div class="speaker-container">
             <a href="speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
             </div></a>
@@ -67,10 +67,25 @@ layout: layout.html
             <p class="speaker-details">Modeling Anything</p>
         </div>
         <div class="speaker-container">
+            <a href="speakers/anita-kvamme.html"><div class="new-speaker-img anita-kvamme"></div></a>
+            <h3><a class="speaker-name" href="speakers/anita-kvamme.html">Anita Kvamme</a></h3>
+            <p class="speaker-details">Passionate UX person in love with DDD</p>
+        </div>
+        <div class="speaker-container">
             <a href="speakers/chris-richardson.html"><div class="speaker-img chris-richardson">
-            </div></a>
+        </div></a>
             <h3><a class="speaker-name" href="speakers/chris-richardson.html">Chris Richardson</a></h3>
             <p class="speaker-details">Author of <em>Microservice Patterns</em> and founder of Eventuate.io</p>
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/david-buchanan.html"><div class="new-speaker-img david-buchanan"></div></a>
+            <h3><a class="speaker-name" href="speakers/david-buchanan.html">David Buchanan</a></h3>
+            <p class="speaker-details">VP of Engineering</p>
+        </div>
+        <div class="speaker-container">
+            <a href="speakers/david-laribee.html"><div class="new-speaker-img david-laribee"></div></a>
+            <h3><a class="speaker-name" href="speakers/david-laribee.html">David Laribee</a></h3>
+            <p class="speaker-details">Specializing in creativity, leadership, and generalism</p>
         </div>
         <div class="speaker-container">
             <a href="speakers/diana-montalion.html"><div class="speaker-img diana-montalion">
@@ -84,8 +99,6 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
             <p class="speaker-details">Author of <em>Domain-Driven Design</em></p>
         </div>
-    </div>
-    <div class="row">
         <div class="speaker-container">
             <a href="speakers/henning-schwentner.html"><div class="speaker-img henning-schwentner">
             </div></a>
@@ -110,8 +123,6 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/nick-tune.html">Nick Tune</a></h3>
             <p class="speaker-details">Principal Consultant at Empathy Software, Author of <em>Architecture Modernization</em></p>
         </div>
-    </div>
-    <div class="row">
         <div class="speaker-container">
             <a href="speakers/nivia-henry.html"><div class="speaker-img nivia-henry">
             </div></a>
@@ -131,16 +142,18 @@ layout: layout.html
             <p class="speaker-details">Consulting CTO</p>
         </div>
         <div class="speaker-container">
+            <a href="speakers/erik-shafer.html"><div class="new-speaker-img erik-shafer"></div></a>
+            <h3><a class="speaker-name" href="speakers/erik-shafer.html">Erik Shafer</a></h3>
+            <p class="speaker-details">Developer Advocate at Event Store</p>
+        </div>
+        <div class="speaker-container">
             <a href="speakers/susanne-kaiser.html"><div class="speaker-img susanne-kaiser">
             </div></a>
             <h3><a class="speaker-name" href="speakers/susanne-kaiser.html">Susanne Kaiser</a></h3>
             <p class="speaker-details">Independent Tech Consultant at Susanne Kaiser Tech Consulting</p>
         </div>
-    </div>
-    <div class="row">
         <div class="speaker-container">
-            <a href="speakers/vaughn-vernon.html"><div class="new-speaker-img vaughn-vernon">
-            </div></a>
+            <a href="speakers/vaughn-vernon.html"><div class="new-speaker-img vaughn-vernon"></div></a>
             <h3><a class="speaker-name" href="speakers/vaughn-vernon.html">Vaughn Vernon</a></h3>
             <p class="speaker-details">Software Ecologist, Architect, Modeler</p>
         </div>
