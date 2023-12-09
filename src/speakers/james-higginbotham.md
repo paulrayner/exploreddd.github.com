@@ -9,7 +9,7 @@ layout: layout-tier2.html
      <div class="col-xs-12 col-sm-10 copy-container">
        <h1 class="speaker-header">James Higginbotham</h1>
        <span class="speaker-subtitle">API Architect</span>
-       <p><a class="speaker-handle" href="https://twitter.com/launchany" target="_blank">@launchany</a>
+       <p><a class="speaker-handle" href="https://twitter.com/launchany" target="_blank">@launchany</a></p>
        <p>James Higginbotham is an API consultant, speaker, and instructor with over 25 years of experience in architecting, building, and deploying APIs. He is the founder of LaunchAny, a consulting company that partners with organizations to establish, grow, and scale their API efforts. He has recently expanded his instructor-led workshops with a self-guided training series that helps to scale API training efforts. James has published several titles, including his latest book from Addison-Wesley, "Principles of Web API Design"</p>
        <h2>Hands-On Session</h2>
         <h2 class="gold">Outcome-Driven Delivery Using Job Stories</h2>

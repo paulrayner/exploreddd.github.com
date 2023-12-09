@@ -9,7 +9,7 @@ layout: layout-tier2.html
      <div class="col-xs-12 col-sm-10 copy-container">
        <h1 class="speaker-header">John Connolly</h1>
        <span class="speaker-subtitle">Domain-Driven Designer/Eventstormer/Facilitator/Trainer</span>
-       <p><a class="speaker-handle" href="https://www.twitter.com/ArticulateDom" target="_blank">@ArticulateDom</a>
+       <p><a class="speaker-handle" href="https://www.twitter.com/ArticulateDom" target="_blank">@ArticulateDom</a></p>
        <p>Principle of Articulate Domain and Founder of Domain-Driven Design United States. Adaptive systems designer avoiding accidental legacy creation. Fan of the recent "Learning Domain-Driven Design" by Vlad Khononov.  After leaving the US Air Force in 1997 as a Radio and Television News Reporter, held roles as a Developer, Business Analyst, Dev Manager, Product Owner and more.</p>
         <p>Industries served are print, direct sales, banking, government, and insurance.</p> 
         <p>Experience in startup and enterprise environments.</p>

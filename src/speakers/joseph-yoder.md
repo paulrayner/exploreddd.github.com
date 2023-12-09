@@ -1,0 +1,20 @@
+---
+layout: layout-tier2.html
+---
+<div class="container section featured-speaker">
+   <div class="row">
+     <div class="col-xs-12 col-sm-2 new-img-container">
+       <img class="new-speaker-page-img joseph-yoder" />
+       </div>
+     <div class="col-xs-12 col-sm-10 copy-container">
+       <h1 class="speaker-header">Joseph Yoder</h1>
+       <span class="speaker-subtitle">The Refactory - MetaYoda</span>
+       <p><a class="speaker-handle" href="https://twitter.com/metayoda" target="_blank">@metayoda</a></p>
+       <p>Joseph (Joe) Yoder (agilist, computer scientist, speaker, and pattern author) is the founder and principal of <a href="https://www.refactory.com" target="_blank">The Refactory</a>, a company focused on software architecture, design, implementation, consulting, and mentoring on all facets of software development. Joe is also the president and a Fellow of The Hillside Group, a non-profit dedicated to improving the quality of life of everyone who uses, builds, and encounters software systems. Joe is well-known as an author of the Big Ball of Mud pattern, illuminating fallacies in software architecture. Joe is a co-author of "A Scrum Book: The Spirit of the Game'' which includes 96 patterns for getting the most out of Scrum. Joe received the New Directions award at the Software Engineering Institutes (SEI's) conference on Software Architecture (SATURN), which is given to the presentation that best describes innovative new approaches and thought leadership in the application of architecture-centric practices. Joe was named a Distinguished Member by the ACM (Association for Computing Machinery), in the category of Outstanding Engineering Contributions to Computing. Joe teaches and mentors developers on agile and lean practices, architecture, cloud, flexible systems, clean design, patterns, refactoring, and testing. Joe has presented many tutorials and talks, arranged workshops, given keynotes, and helped organize leading international agile and technical conferences.</p>
+       <h2>Talk Session</h2>
+        <h2 class="gold">Leading a Software-Architecture Revolution</h2>
+       <p>Pressure to adapt to and shape the market requires agile organizations to add new features, accommodate new interactions, and have new teams work on adapting the software. Sometimes a straightforward software architecture that starts out small when communication is easy can support guided, incremental architectural changes and can gradually evolve with its environment, remaining fit for its purposes. Other times it is not so simple: the initial software architecture can be poorly suited for supporting required changes, or the accumulation of sub-optimal architectural decisions (also known as architectural technical debt) can be too severe; in either case, the architecture needs an extensive revision; especially for the organization to remain agile and adapt to the changing market.</p>
+        <p>Software architecture revolution can be defined as the process of making profound, large-scale changes to the fundamental structures of a software system to improve its attributes, such as availability, scalability, and maintainability, or to enable new requirements that are incompatible with the current capabilities. Architectural revolution usually demands substantial effort from the organization and thus depends on effective leadership to be successful. However, while there is plenty of research on the technical aspects of any architectural transformation, not much is available from the leadership perspective. The role of managers and other leaders include championing the revolution initiative, prioritizing activities, negotiating the allocation of people and resources, evaluating results, taking corrective actions, and reporting achievements. This talk draws from practical experiences to describe patterns to improve the effectiveness of architectural revolution initiatives.</p>
+     </div>
+   </div>
+ </div>

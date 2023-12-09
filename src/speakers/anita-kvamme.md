@@ -9,7 +9,7 @@ layout: layout-tier2.html
       <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Anita KVamme</h1>
         <span class="speaker-subtitle">Passionate UX person in love with DDD</span>
-        <p><a class="speaker-handle" href="https://twitter.com/AnitaKvamme" target="_blank">@AnitaKvamme</a>
+        <p><a class="speaker-handle" href="https://twitter.com/AnitaKvamme" target="_blank">@AnitaKvamme</a></p>
         <p>Anita is a UX passionate software developer. She has more than 25 years of experience with creating complex business critical applications, mainly for Equinor ASA, a huge Norwegian energy company.</p>
         <p>Anita has experience from all parts of the software design process, lately focusing more and more on software architecture and hands on coding. She enjoys spending her workdays using her knowledge of the users and their domain and applying this insight toward the utilization of Domain Driven Design principles in the process of implementing new software solutions.</p>
         <h2>Talk Session</h2>
