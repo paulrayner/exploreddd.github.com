@@ -1030,7 +1030,7 @@ figure {
 	width: 150px;
 	border-radius: 150px;
 	background-repeat: no-repeat;
-	margin: 15px auto 0 auto;
+	margin: 0 auto 0 auto;
 
 	@include mq(xs) {
 		margin-top: 15px;
@@ -1078,6 +1078,11 @@ figure {
 	}
 	&.javiera-laso {
 		background-image: url('../img/speakers/javiera-laso.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.jessica-kerr {
+		background-image: url('../img/speakers/jessica-kerr.jpg');
 		background-size:110%;
 		background-position: -10px 0px;
 	}

@@ -57,9 +57,11 @@ layout: layout.html
         <a href="https://ti.to/EDDD/explore-ddd-2024" class="btn">Register Now</a>
     </div>
 </div>
-<div class="container section speakers" style="position: relative; overflow: auto;">
+<!--<div class="container section speakers" style="position: relative; overflow: auto;">-->
+<div class="container section speakers">
   <h2 class="text-center">Featured Speakers</h2>
-    <div class="row" style="position: absolute; width: 30000px;">
+    <!--<div class="row" style="position: absolute; width: 30000px;">-->
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
             </div></a>
@@ -82,6 +84,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/david-buchanan.html">David Buchanan</a></h3>
             <p class="speaker-details">VP of Engineering</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/holly-bielawa.html"><div class="new-speaker-img holly-bielawa"></div></a>
             <h3><a class="speaker-name" href="speakers/holly-bielawa.html">Holly Bielawa</a></h3>
@@ -104,6 +108,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
             <p class="speaker-details">Author of <em>Domain-Driven Design</em></p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/henning-schwentner.html"><div class="speaker-img henning-schwentner">
             </div></a>
@@ -122,14 +128,21 @@ layout: layout.html
             <p class="speaker-details">Consultant Software Architect @ Read The Architecture</p>
         </div>
         <div class="speaker-container">
+            <a href="speakers/james-higginbotham.html"><div class="new-speaker-img james-higginbotham"></div></a>
+            <h3><a class="speaker-name" href="speakers/james-higginbotham.html">James Higginbotham</a></h3>
+            <p class="speaker-details">API Architect</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="speaker-container">
             <a href="speakers/javiera-laso.html"><div class="new-speaker-img javiera-laso"></div></a>
             <h3><a class="speaker-name" href="speakers/javiera-laso.html">Javiera Laso</a></h3>
             <p class="speaker-details">Technical Principal at Thoughtworks</p>
         </div>
         <div class="speaker-container">
-            <a href="speakers/james-higginbotham.html"><div class="new-speaker-img james-higginbotham"></div></a>
-            <h3><a class="speaker-name" href="speakers/james-higginbotham.html">James Higginbotham</a></h3>
-            <p class="speaker-details">API Architect</p>
+            <a href="speakers/jessica-kerr.html"><div class="new-speaker-img jessica-kerr"></div></a>
+            <h3><a class="speaker-name" href="speakers/jessica-kerr.html">Jessica Kerr</a></h3>
+            <p class="speaker-details">Honeycomb.io</p>
         </div>
         <div class="speaker-container">
             <a href="speakers/lesley-cordero.html"><div class="speaker-img lesley-cordero">
@@ -143,6 +156,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/nick-tune.html">Nick Tune</a></h3>
             <p class="speaker-details">Principal Consultant at Empathy Software, Author of <em>Architecture Modernization</em></p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/nivia-henry.html"><div class="speaker-img nivia-henry">
             </div></a>
@@ -166,6 +181,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/erik-shafer.html">Erik Shafer</a></h3>
             <p class="speaker-details">Developer Advocate at Event Store</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/susanne-kaiser.html"><div class="speaker-img susanne-kaiser">
             </div></a>
