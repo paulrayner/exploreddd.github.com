@@ -57,11 +57,11 @@ layout: layout.html
         <a href="https://ti.to/EDDD/explore-ddd-2024" class="btn">Register Now</a>
     </div>
 </div>
-<div class="container section speakers" style="position: relative; overflow: auto;">
-<!--<div class="container section speakers">-->
+<!--<div class="container section speakers" style="position: relative; overflow: auto;">-->
+<div class="container section speakers">
   <h2 class="text-center">Featured Speakers</h2>
-    <div class="row" style="position: absolute; width: 50000px;">
-    <!--<div class="row">-->
+    <!--<div class="row" style="position: absolute; width: 50000px;">-->
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
             </div></a>
@@ -84,6 +84,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/david-buchanan.html">David Buchanan</a></h3>
             <p class="speaker-details">VP of Engineering</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/holly-bielawa.html"><div class="new-speaker-img holly-bielawa"></div></a>
             <h3><a class="speaker-name" href="speakers/holly-bielawa.html">Holly Bielawa</a></h3>
@@ -106,6 +108,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
             <p class="speaker-details">Author of <em>Domain-Driven Design</em></p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/erik-shafer.html"><div class="new-speaker-img erik-shafer"></div></a>
             <h3><a class="speaker-name" href="speakers/erik-shafer.html">Erik Shafer</a></h3>
@@ -128,6 +132,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/jacqui-read.html">Jacqui Read</a></h3>
             <p class="speaker-details">Consultant Software Architect @ Read The Architecture</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/james-higginbotham.html"><div class="new-speaker-img james-higginbotham"></div></a>
             <h3><a class="speaker-name" href="speakers/james-higginbotham.html">James Higginbotham</a></h3>
@@ -146,8 +152,10 @@ layout: layout.html
         <div class="speaker-container">
             <a href="speakers/john-connolly.html"><div class="new-speaker-img john-connolly"></div></a>
             <h3><a class="speaker-name" href="speakers/john-connolly.html">John Connolly</a></h3>
-            <p class="speaker-details">Domain-Driven Designer/Eventstormer/Facilitator/Trainer</p>
+            <p class="speaker-details">Domain-Driven Designer, Eventstormer, Facilitator, Trainer</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/john-feminella.html"><div class="new-speaker-img john-feminella"></div></a>
             <h3><a class="speaker-name" href="speakers/john-feminella.html">John Feminella</a></h3>
@@ -169,6 +177,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/matt-jones.html">Matt Jones</a></h3>
             <p class="speaker-details">Head of Solution Architecture</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/matteo-cavucci.html"><div class="new-speaker-img matteo-cavucci"></div></a>
             <h3><a class="speaker-name" href="speakers/matteo-cavucci.html">Matteo Cavucci</a></h3>
@@ -176,7 +186,7 @@ layout: layout.html
         </div>
         <div class="speaker-container">
             <a href="speakers/nathan-marrs.html"><div class="new-speaker-img nathan-marrs"></div></a>
-            <h3><a class="speaker-name" href="speakers/nathan-marrs.html">Nathan Mars</a></h3>
+            <h3><a class="speaker-name" href="speakers/nathan-marrs.html">Nathan Marss</a></h3>
             <p class="speaker-details">Tech Lead of Data Visualization at Grafana Labs</p>
         </div>
         <div class="speaker-container">
@@ -191,6 +201,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/nivia-henry.html">Nivia Henry</a></h3>
             <p class="speaker-details">Engineering Director, Spotify</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/paul-rayner.html"><div class="speaker-img paul-rayner">
             </div></a>
@@ -213,6 +225,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/randy-shoup.html">Randy Shoup</a></h3>
             <p class="speaker-details">Consulting CTO</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/ryan-shriver.html"><div class="new-speaker-img ryan-shriver"></div></a>
             <h3><a class="speaker-name" href="speakers/ryan-shriver.html">Ryan Shriver</a></h3>
@@ -234,6 +248,8 @@ layout: layout.html
             <h3><a class="speaker-name" href="speakers/susanne-kaiser.html">Susanne Kaiser</a></h3>
             <p class="speaker-details">Independent Tech Consultant at Susanne Kaiser Tech Consulting</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="speakers/szymon-pobiega.html"><div class="new-speaker-img szymon-pobiega"></div></a>
             <h3><a class="speaker-name" href="speakers/szymon-pobiega.html">Szymon Pobiega</a></h3>
