@@ -9,7 +9,7 @@ layout: layout-tier2.html
       <div class="col-xs-12 col-sm-10 copy-container">
         <h1 class="speaker-header">Randy Shoup</h1>
         <span class="speaker-subtitle">Consulting CTO</span>
-        <p></p>
+        <p><a class="speaker-handle" href="https://twitter.com/randyshoup" target="_blank">@randyshoup</a></p>
         <p>Randy has spent more than 30 years building distributed systems and high performing teams, and has worked as a senior technology leader at eBay, Google, and Stitch Fix. He coaches CTOs, advises companies, and generally makes a nuisance of himself wherever possible. He was most recently VP Engineering and Chief Architect at eBay, and is particularly interested in the nexus between culture, technology, and organization.</p>
         <h2>Talk Session</h2>
         <h2 class="gold">Large-Scale Architecture: The Unreasonable Effectiveness of Simplicity</h2>
