@@ -5,11 +5,28 @@ layout: layout-tier2.html
     <h2 class="text-center">Speakers</h2>
     <div class="row">
         <div class="speaker-container">
+            <a href="adrien-abrams.html"><div class="new-speaker-img adrien-abrams"></div></a>
+            <h3><a class="speaker-name" href="adrien-abrams.html">Adrien Abrams</a></h3>
+            <p class="speaker-details">Beeline Strategy</p>
+        </div>
+        <div class="speaker-container">
+            <a href="alberto-acerbis.html"><div class="new-speaker-img alberto-acerbis"></div></a>
+            <h3><a class="speaker-name" href="alberto-acerbis.html">Alberto Acerbis</a></h3>
+            <p class="speaker-details">Intré, Passionate dev, author, learner</p>
+        </div>
+        <div class="speaker-container">
             <a href="alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
             </div></a>
             <h3><a class="speaker-name" href="alberto-brandolini.html">Alberto Brandolini</a></h3>
             <p class="speaker-details">Modeling Anything</p>
         </div>
+        <div class="speaker-container">
+            <a href="alessandro-colla.html"><div class="new-speaker-img alessandro-colla"></div></a>
+            <h3><a class="speaker-name" href="alessandro-colla.html">Alessandro Colla</a></h3>
+            <p class="speaker-details">Tech enthusiast, programmer, author, agile practitioner</p>
+        </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="anita-kvamme.html"><div class="new-speaker-img anita-kvamme"></div></a>
             <h3><a class="speaker-name" href="anita-kvamme.html">Anita Kvamme</a></h3>
@@ -26,18 +43,13 @@ layout: layout-tier2.html
             <h3><a class="speaker-name" href="david-buchanan.html">David Buchanan</a></h3>
             <p class="speaker-details">VP of Engineering</p>
         </div>
-    </div>
-    <div class="row">
-        <div class="speaker-container">
-            <a href="holly-bielawa.html"><div class="new-speaker-img holly-bielawa"></div></a>
-            <h3><a class="speaker-name" href="holly-bielawa.html">Holly Bielawa</a></h3>
-            <p class="speaker-details">Head of Product Coaching, Jeff Patton and Associates</p>
-        </div>
         <div class="speaker-container">
             <a href="david-laribee.html"><div class="new-speaker-img david-laribee"></div></a>
             <h3><a class="speaker-name" href="david-laribee.html">David Laribee</a></h3>
             <p class="speaker-details">Specializing in creativity, leadership, and generalism</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="diana-montalion.html"><div class="speaker-img diana-montalion">
             </div></a>
@@ -50,8 +62,6 @@ layout: layout-tier2.html
             <h3><a class="speaker-name" href="eric-evans.html">Eric Evans</a></h3>
             <p class="speaker-details">Author of <em>Domain-Driven Design</em></p>
         </div>
-    </div>
-    <div class="row">
         <div class="speaker-container">
             <a href="erik-shafer.html"><div class="new-speaker-img erik-shafer"></div></a>
             <h3><a class="speaker-name" href="erik-shafer.html">Erik Shafer</a></h3>
@@ -62,6 +72,13 @@ layout: layout-tier2.html
             </div></a>
             <h3><a class="speaker-name" href="henning-schwentner.html">Henning Schwentner</a></h3>
             <p class="speaker-details">Coder, Coach, Consultant at WPS – Workplace Solutions</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="speaker-container">
+            <a href="holly-bielawa.html"><div class="new-speaker-img holly-bielawa"></div></a>
+            <h3><a class="speaker-name" href="holly-bielawa.html">Holly Bielawa</a></h3>
+            <p class="speaker-details">Head of Product Coaching, Jeff Patton and Associates</p>
         </div>
         <div class="speaker-container">
             <a href="indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
@@ -74,13 +91,13 @@ layout: layout-tier2.html
             <h3><a class="speaker-name" href="jacqui-read.html">Jacqui Read</a></h3>
             <p class="speaker-details">Consultant Software Architect @ Read The Architecture</p>
         </div>
-    </div>
-    <div class="row">
         <div class="speaker-container">
             <a href="james-higginbotham.html"><div class="new-speaker-img james-higginbotham"></div></a>
             <h3><a class="speaker-name" href="james-higginbotham.html">James Higginbotham</a></h3>
             <p class="speaker-details">API Architect</p>
         </div>
+    </div>
+    <div class="row">
         <div class="speaker-container">
             <a href="javiera-laso.html"><div class="new-speaker-img javiera-laso"></div></a>
             <h3><a class="speaker-name" href="javiera-laso.html">Javiera Laso</a></h3>
@@ -96,12 +113,17 @@ layout: layout-tier2.html
             <h3><a class="speaker-name" href="john-connolly.html">John Connolly</a></h3>
             <p class="speaker-details">Domain-Driven Designer, Eventstormer, Facilitator, Trainer</p>
         </div>
-    </div>
-    <div class="row">
         <div class="speaker-container">
             <a href="john-feminella.html"><div class="new-speaker-img john-feminella"></div></a>
             <h3><a class="speaker-name" href="john-feminella.html">John Feminella</a></h3>
             <p class="speaker-details">SVP Technology, Nuvalence</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="speaker-container">
+            <a href="john-phamvan.html"><div class="new-speaker-img john-phamvan"></div></a>
+            <h3><a class="speaker-name" href="john-phamvan.html">John Phamvan</a></h3>
+            <p class="speaker-details">Founder, Kind Systems</p>
         </div>
         <div class="speaker-container">
             <a href="joseph-yoder.html"><div class="new-speaker-img joseph-yoder"></div></a>
@@ -203,9 +225,36 @@ layout: layout-tier2.html
             <p class="speaker-details">InfoQ Lead Editor for Architecture & Design</p>
         </div>
         <div class="speaker-container">
+            <a href="tom-wheeler.html"><div class="new-speaker-img tom-wheeler"></div></a>
+            <h3><a class="speaker-name" href="tom-wheeler.html">Tom Wheeler</a></h3>
+            <p class="speaker-details">Principal Curriculum Developer and Developer Advocate @ Temporal Technologies</p>
+        </div>
+        <div class="speaker-container">
             <a href="vaughn-vernon.html"><div class="new-speaker-img vaughn-vernon"></div></a>
             <h3><a class="speaker-name" href="vaughn-vernon.html">Vaughn Vernon</a></h3>
             <p class="speaker-details">Software Ecologist, Architect, Modeler</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="speaker-container">
+            <a href="wei-wang.html"><div class="new-speaker-img wei-wang"></div></a>
+            <h3><a class="speaker-name" href="wei-wang.html">Wei (David) Wang</a></h3>
+            <p class="speaker-details">Founder of Zhipu Tech and co-founder of DDDChina</p>
+        </div>
+        <div class="speaker-container">
+            <a href="xin-yao.html"><div class="new-speaker-img xin-yao"></div></a>
+            <h3><a class="speaker-name" href="xin-yao.html">Xin Yao</a></h3>
+            <p class="speaker-details">Independent Consultant - contextualizing DDD, systems leadership & sociotechnical architecture</p>
+        </div>
+        <div class="speaker-container">
+            <a href="zhen-goh.html"><div class="new-speaker-img zhen-goh"></div></a>
+            <h3><a class="speaker-name" href="zhen-goh.html">Zhen Goh</a></h3>
+            <p class="speaker-details">Director, The Emerginarium and AGLX Singapore</p>
+        </div>
+        <div class="speaker-container">
+            <a href="zsófia-herendi.html"><div class="new-speaker-img zsófia-herendi"></div></a>
+            <h3><a class="speaker-name" href="zsófia-herendi.html">Zsófia Herendi</a></h3>
+            <p class="speaker-details">Solution Thinker Product Manager</p>
         </div>
     </div>
 </div>
