@@ -48,6 +48,11 @@ layout: layout-tier2.html
           <li>Previous knowledge of DDD is NOT required</li>
           <li>Experience using visual collaboration techniques is NOT required</li>
         </ul>
+        <h2>Hands-On Session</h2>
+        <h2 class="gold">Architecture Modernization: Portfolio Prioritization, Planning, and Strategy</h2>
+        <h3>Co-Presented with <a href="nick-tune.html">Nick Tune</a></h3>
+        <p>One of the most fundamental and difficult aspects of an architecture modernization initiative is determining how much, and how, to invest in each area of the portfolio. In highly differentiating core domains, we want to invest heavily to fully exploit the potential, whereas in less critical domains we want to reduce costs for the minimum effort.</p>
+        <p>In this hands-on session, you'll get to play with proven collaborative techniques for taking a portfolio perspective and making strategic portfolio choices to ensure your modernization investments deliver the greatest returns.</p>
       </div>
     </div>
   </div>
