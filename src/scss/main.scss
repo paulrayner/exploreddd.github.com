@@ -924,6 +924,10 @@ figure {
 	margin-top: $standard-margin;
 	text-align: center;
 
+	h2 {
+		font-size: $big;
+	}
+
 	p {
 		margin-left: $standard-margin;
 		margin-right: $standard-margin;
