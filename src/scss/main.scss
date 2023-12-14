@@ -960,6 +960,7 @@ figure {
 		gap: $standard-margin * 2;
 		row-gap: $standard-margin;
 		justify-content: center;
+		margin-bottom: $standard-margin;
 
 		@include mq(xs) {}
 
@@ -970,6 +971,9 @@ figure {
 			p {
 				margin-bottom: 0 !important;
 			}
+		}
+		&:last-child {
+			
 		}
 	}
 }
