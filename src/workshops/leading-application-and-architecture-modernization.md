@@ -5,7 +5,10 @@ layout: layout-tier2.html
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <div class="co-workshop-img indu-and-nick no-hover"></div>
+                <div class="new-co-workshop-images">
+                    <div class="indu-alagarsamy"></div>
+                    <div class="nick-tune"></div>                       
+                </div>
             </div>
         </div>
         <div class="col-xs-12 col-sm-8 content">

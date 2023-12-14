@@ -5,12 +5,15 @@ layout: layout-tier2.html
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <a href="../speakers/henning-schwentner.html"><div class="speaker-img henning-schwentner keep-color"></div></a>
+                <div class="new-co-workshop-images">
+                    <div class="henning-schwentner"></div>
+                    <div class="stefan-hofer"></div>                       
+                </div>
             </div>
         </div>
         <div class="col-xs-12 col-sm-8 content">
             <h1>Domain Storytelling</h1>
-            <p><span class="speaker-name"><a href="../speakers/henning-schwentner.html">Henning Schwentner</a></span>
+            <p><span class="speaker-name"><a href="../speakers/henning-schwentner.html">Henning Schwentner</a> &amp; <a href="../speakers/stefan-hofer.html">Stefan Hofer</a></span>
             <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span></p>
             <h2>DESCRIPTION</h2>
             <p>Domain Storytelling means that we let domain experts tell us stories about their tasks. While listening, we record the stories using a pictographic language. The domain experts can see immediately whether or not we understand their story. After very few stories, we are able to talk about the people, tasks, tools, work objects, and events in that domain.</p>

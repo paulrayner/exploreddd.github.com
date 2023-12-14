@@ -43,13 +43,34 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="domain-storytelling.html"><div class="speaker-img henning-schwentner"></div></a>
+                    <a href="strategic-design-architecture-to-xenial-modeling.html"><div class="new-speaker-img dan-young-and-mike-rozinsky"></div></a>
                     </div>
                 </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
+                <h2><a href="design-intentional-group-experiences-for-software-design-and-decision-making.html">Design Intentional Group Experiences for Software Design and Decision-Making</a></h2>
+                <p>
+                    <span class="speaker-name">Dan Young &amp; Mike Rozinsky</span>
+                    <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span>
+                </p>
+                <p>This workshop supports anyone who has the responsibility of bringing groups together for collaborative activities such as software design, modeling or decision-making. You’ll solve the common problems you experience when running group work in your context by leveraging 16 Design Aspects. <a href="design-intentional-group-experiences-for-software-design-and-decision-making.html">Read more...</a></p>
+            </div>
+        </div>
+        <!-- begin workshop element -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <div class="speaker-container">
+                    <a href="domain-storytelling.html">
+                        <div class="new-co-workshop-images">
+                            <div class="henning-schwentner"></div>
+                            <div class="stefan-hofer"></div>                       
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 workshops-index-page--item">
                 <h2><a href="domain-storytelling.html">Domain Storytelling</a></h2>
                 <p>
-                    <span class="speaker-name">Henning Schwentner</span>
+                    <span class="speaker-name">Henning Schwentner &amp; Stefan Hofer</span>
                     <span class="duration">2-Day Workshop<br>Tue-Wed, Mar 12-13</span>
                 </p>
                 <p>In this workshop, you will learn how to adapt the method to the various purposes and you will try out different modeling tools. After the workshop, you will be able to apply Domain Storytelling on your own. <a href="domain-storytelling.html">Read more...</a></p>
@@ -59,7 +80,11 @@ layout: layout-tier2.html
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">
-                    <a href="leading-application-and-architecture-modernization.html"><div class="co-workshop-img indu-and-nick no-hover"></div></a>
+                    <a href="leading-application-and-architecture-modernization.html">
+                        <div class="new-co-workshop-images">
+                            <div class="indu-alagarsamy"></div>
+                            <div class="nick-tune"></div>                       
+                        </div></a>
                     </div>
                 </div>
             <div class="col-xs-12 col-sm-10 workshops-index-page--item">
@@ -87,7 +112,7 @@ layout: layout-tier2.html
                 <p>It’s easy to get lost in the patterns and acronyms and miss the essence of DDD. This workshop will provide you with a solid grounding in the foundational ideas, techniques and skills for doing DDD well in your own project context. <a href="essential-ddd.html">Read more...</a></p>
             </div>
         </div>
-         <!-- begin workshop element -->
+        <!-- begin workshop element -->
         <div class="row">
             <div class="col-xs-12 col-sm-2">
                 <div class="speaker-container">

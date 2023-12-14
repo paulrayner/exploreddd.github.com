@@ -940,46 +940,47 @@ figure {
 
 // Speaker section
 
+//flexbox conversion
+
+
 .section.speakers {
 	h2 {
 		font-size: 24px; //this may be best served as a reference to a font-size variable since its the same size as an h1
 
 		@include mq(xs) {
-			margin-bottom: $half-margin;
+			//margin-bottom: $half-margin;
 		}
 	}
 
-	.row {
-		&:first-child {
-			margin-top: 32px;
-		}
+	.flex-row {
 
-		&:last-child {
-			margin-bottom: 15px;
-		}
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		gap: $standard-margin * 2;
+		row-gap: $standard-margin;
+		justify-content: center;
 
 		@include mq(xs) {}
 
-		@include mq(sm) {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			text-align: center;
-		}
+		@include mq(md) {}
 
-		@include mq(md) {
-			flex-wrap: nowrap;
+		.speaker-container {
+			width: 155px;
+			p {
+				margin-bottom: 0 !important;
+			}
 		}
 	}
 }
 
 .speaker-container,
 .speaker-container-inline-content {
-	display: block;
+	//display: block;
 
 	@include mq(sm) {
 		display: inline-block;
-		max-width: 150px;
+		max-width: 155px;
 	}
 
 	h3 {
@@ -1002,6 +1003,65 @@ figure {
 }
 
 //sprite rules for workshops hosted by two speakers.
+
+//new co-workshop image that uses css to place both speaker images 
+
+.new-co-workshop-images {
+
+	@include mq(xs) {
+		margin: $half-margin auto $half-margin auto;
+	}
+
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin-top: $half-margin;
+	//margin: 0 auto;
+	// background-image: url('../img/speakers/henning-schwentner.jpg'), url('../img/speakers/stefan-hofer.jpg');
+	// background-position: left top, right bottom;
+	// background-repeat: no-repeat;
+	// background-size: 40px 40px;
+
+	div {
+		width: 80px;
+		height: 80px;
+		border-radius: 70px;
+		background-repeat: no-repeat;
+
+		&.henning-schwentner {
+			background-image: url('../img/speakers/henning-schwentner.jpg');
+			background-size: 100%;
+		}
+
+		&.stefan-hofer {
+			background-image: url('../img/speakers/stefan-hofer.jpg');
+			background-size: 150%;
+			background-position: -20px;
+		}
+		&.nick-tune {
+			background-image: url('../img/speakers/nick-tune.jpg');
+			background-size: 110%;
+			background-position: -5px 0px;
+		}
+		&.indu-alagarsamy {
+			background-image: url('../img/speakers/indu-alagarsamy.jpg');
+			background-size: 150%;
+			background-position: -20px;
+		}
+	}
+	
+	div:first-child {
+		
+	}
+	div:last-of-type {
+		bottom: 0;
+		right: 0;
+		margin-left: auto;
+	}	
+
+	
+}
+
 .co-workshop-img {
 	background-size: 315px;
 	background-position: -160px;
@@ -1200,6 +1260,26 @@ figure {
 		background-size:110%;
 		background-position: -10px 0px;
 	}
+	&.ivan-ortega {
+		background-image: url('../img/speakers/ivan-ortega.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.stefan-hofer {
+		background-image: url('../img/speakers/stefan-hofer.jpg');
+		background-size:150%;
+		background-position: -35px 0px;
+	}
+	&.henning-schwentner {
+		background-image: url('../img/speakers/henning-schwentner.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.dan-young-and-mike-rozinsky {
+		background-image: url('../img/speakers/dan-young-and-mike-rozinsky.jpg');
+		background-size: 130%;
+		background-position: -30px 0px;
+	}
 }
 
 //sprites for individual speaker images
@@ -1291,13 +1371,6 @@ figure {
 	}
 	&.nick-tune {
 		background-image: url('../img/speakers/sprite-nick-tune.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
-	}
-	&.henning-schwentner {
-		background-image: url('../img/speakers/sprite-henning-schwentner.jpg');
 
 		&:hover {
 			//background-position: 0;
