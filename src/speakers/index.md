@@ -42,8 +42,8 @@ layout: layout-tier2.html
         <p class="speaker-details">Co-founders, When & How Studios LLC</p>
         </div>
         <div class="speaker-container">
-        <a href="david-buchanan.html"><div class="new-speaker-img david-buchanan"></div></a>
-        <h3><a class="speaker-name" href="david-buchanan.html">David Buchanan</a></h3>
+        <a href="dave-buchanan.html"><div class="new-speaker-img dave-buchanan"></div></a>
+        <h3><a class="speaker-name" href="dave-buchanan.html">Dave Buchanan</a></h3>
         <p class="speaker-details">VP of Engineering</p>
         </div>
         <div class="speaker-container">

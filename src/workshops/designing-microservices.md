@@ -5,7 +5,7 @@ layout: layout-tier2.html
     <div class="row">
         <div class="col-xs-12 col-sm-2">
             <div class="speaker-container">
-                <a href="../speakers/chris-richardson.html"><div class="new-speaker-img dan-young-and-mike-rozinsky"></div></a>
+                <a href="../speakers/chris-richardson.html"><div class="speaker-img speaker-img chris-richardson keep-color"></div></a>
             </div>
         </div>
         <div class="col-xs-12 col-sm-8 content">

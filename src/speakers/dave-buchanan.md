@@ -4,10 +4,10 @@ layout: layout-tier2.html
 <div class="container section featured-speaker">
    <div class="row">
      <div class="col-xs-12 col-sm-2 new-img-container">
-       <img class="new-speaker-page-img david-buchanan" />
+       <img class="new-speaker-page-img dave-buchanan" />
        </div>
      <div class="col-xs-12 col-sm-10 copy-container">
-       <h1 class="speaker-header">david buchanan</h1>
+       <h1 class="speaker-header">dave buchanan</h1>
        <span class="speaker-subtitle">VP of Engineering</span>
        <p><a class="speaker-handle" href="https://twitter.com/dave_r_buchanan" target="_blank">@dave_r_buchanan</a></p>
        <p>It all started with summer school and a Texas Instruments computer in 1984! Since then Dave has 20+ professional years experience in web development, architecture, management, and mentoring others. His expertise is in integrating new technologies, leveraging open source for the enterprise, and team building. Dave has presented in the past at Explore DDD 2019 and 2018, MadisionPHP 2016, OpenWest 2016, MinneBar 2016, and WordCampMSP in 2014 and 2013.</p>
