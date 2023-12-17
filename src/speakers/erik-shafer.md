@@ -13,7 +13,7 @@ layout: layout-tier2.html
        <p>Erik Shafer is a software engineer in Omaha, NE, USA.</p>
        <h2>Talk Session</h2>
         <h2 class="gold">Ecommerce with DDD and Event Sourcing</h2>
-       <p>You’re part of a team responsible for applying business logic and aggregating data for thousands of SKUs that are sold on dozens of online marketplaces. Why should Domain-Driven Design, Event Sourcing, and related concepts such as CQRS be considered? What are the trade-offs? How do you implement such ideas when you only find Hello World level examples for? In this talk we’ll answer these questions and go over how a fast-growing startup adopted these concepts successfully, including the challenges, failures, and solutions found along the way.</p>
+       <p>You’re part of a team responsible for applying business logic and aggregating data for thousands of SKUs that are sold on dozens of online marketplaces. Why should Domain-Driven Design, Event Sourcing, and related concepts such as CQRS be considered? What are the trade-offs? How do you implement such ideas when you only find Hello World level examples? In this talk we’ll answer these questions and go over how a fast-growing startup adopted these concepts successfully, including the challenges, failures, and solutions found along the way.</p>
      </div>
    </div>
  </div>
