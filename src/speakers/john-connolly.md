@@ -10,10 +10,9 @@ layout: layout-tier2.html
        <h1 class="speaker-header">John Connolly</h1>
        <span class="speaker-subtitle">Domain-Driven Designer/Eventstormer/Facilitator/Trainer</span>
        <p><a class="speaker-handle" href="https://www.twitter.com/ArticulateDom" target="_blank">@ArticulateDom</a></p>
-       <p>Principle of Articulate Domain and Founder of Domain-Driven Design United States. Adaptive systems designer avoiding accidental legacy creation. Fan of the recent "Learning Domain-Driven Design" by Vlad Khononov.  After leaving the US Air Force in 1997 as a Radio and Television News Reporter, held roles as a Developer, Business Analyst, Dev Manager, Product Owner and more.</p>
-        <p>Industries served are print, direct sales, banking, government, and insurance.</p> 
-        <p>Experience in startup and enterprise environments.</p>
-        <p>John lives in Salem Oregon with his wife Sandy and two kittens, Martini and Matisse.  They head to the Oregon Coast when time permits.</p>
+       <p>Principle of Articulate Domain and Founder of Domain-Driven Design United States. Adaptive systems designer avoiding accidental legacy creation. Fan of the recent <em>Learning Domain-Driven Design</em> by Vlad Khononov.  After leaving the US Air Force in 1997 as a Radio and Television News Reporter, held roles as a Developer, Business Analyst, Dev Manager, Product Owner and more.</p>
+        <p>Industries served are print, direct sales, banking, government, and insurance. Experience in startup and enterprise environments.</p>
+        <p>John lives in Salem, Oregon, with his wife Sandy and two kittens, Martini and Matisse.  They head to the Oregon Coast when time permits.</p>
        <h2>Hands-On Session</h2>
         <h2 class="gold">Resolving Domain Terminology Mismatches</h2>
        <p>When terminology between the business and IT gets out of control it may seem like you need the skills of an FBI Negotiator and/or therapist to get to the facts and make quality adjustments that serve the needs of all involved. So what if you had those skills?  What if you could peacefully and systematically guide the business and technology onto the same page using communication tactics from respected professions that rely on high quality communication to get the answers they need.</p>
