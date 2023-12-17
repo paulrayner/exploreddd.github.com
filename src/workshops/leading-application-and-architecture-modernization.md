@@ -42,7 +42,7 @@ layout: layout-tier2.html
                 <li>Senior leaders who define the modernization strategy such as Engineering Director and Product Directors</li>
                 <li>Engineering Managers and Coaches who facilitate modernization</li>
                 <li>Consultants who regularly work with clients to help them on their modernization journey</li>
-                <li>Principal Engineers, Solution Architects and Tech leads and who are involved in application modernization</li>
+                <li>Principal Engineers, Solution Architects and Tech leads who are involved in application modernization</li>
                 <li>Anyone involved in build vs buy vs outsource decisions</li>
             </ul>
             <p>If you consider yourself an expert on modernization and are familiar with what's listed in the course contents, this workshop is probably NOT for you.</p>
@@ -53,7 +53,7 @@ layout: layout-tier2.html
                 <li>Experience using visual collaboration techniques is NOT required</li>
             </ul>
             <h2>About the instructors</h2>
-            <p>Indu Alagarsamy and Nick Tune are passionate about modernization, having worked on many modernization initiatives. Indu is currently leading modernization at the NY Times in her role as principal engineer, and Nick is a consultant helping organizations in varied industries, like EV Charging, to modernize the architectures and ways of working. His book Architecture Modernization was recently published.</p>
+            <p>Indu Alagarsamy and Nick Tune are passionate about modernization, having worked on many modernization initiatives. Indu is currently leading modernization at the NY Times in her role as principal engineer, and Nick is a consultant helping organizations in varied industries, like EV Charging, to modernize the architectures and ways of working. His book <em>Architecture Modernization</em> was recently published.</p>
         </div>
     </div>
 </div>
