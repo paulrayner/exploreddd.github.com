@@ -24,7 +24,7 @@ layout: layout-tier2.html
         <p>In this workshop, we will:</p>
         <ol type="1">
             <li>Introduce Estuarine Map and Cynefin framework basics.</li>
-            <li>Using a concrete example, with a comprehensive data set from software design context, demonstrate the process of creating modernization affordance with the Estuarine Map.</li>
+            <li>Using a concrete example, with comprehensive data set from software design context, demonstrate the process of creating modernization affordance with the Estuarine Map.</li>
             <li>Use the Cynefin framework to create strategic initiatives for addressing complex problems.</li>
             <li>Encourage group discussions and problem-solving.</li>
         </ol>
