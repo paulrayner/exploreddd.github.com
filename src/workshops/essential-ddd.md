@@ -22,7 +22,7 @@ layout: layout-tier2.html
             <p>If you fit into one of these categories, then this workshop is for you. This workshop will provide you with a solid grounding in the foundational ideas, techniques and skills for doing DDD well in your own project context.</p>
             <div class="text-center"><a class="btn" href="https://ti.to/EDDD/explore-ddd-2024">REGISTER NOW</a></div>
             <img src="../img/workshop/Workshop-Paul-Rayner.png" class="speaker--workshop-content-img" alt="" style="margin-bottom: 30px;"/>
-            <p>If you fit into one of these categories, then this workshop is for you – It’s easy to get lost in the patterns and acronyms and miss the essence of DDD. This workshop will provide you with a solid grounding in the foundational ideas, techniques and skills for doing DDD well in your own project context.</p>
+            <p> </p>
             <h2 class="speaker-subheader">What you will learn</h2>
             <ul class="copy-list">
                 <li>Understand what kinds of business problems DDD addresses.</li>
