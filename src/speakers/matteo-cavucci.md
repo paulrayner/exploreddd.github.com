@@ -13,8 +13,7 @@ layout: layout-tier2.html
        <br>
        <a href="http://twitter.com/matteomced" target=”_blank”>@matteomced</a></p>
        <p>Matteo is a system thinker, with +15 years of experience in agile and lean development processes applied to digital products.</p>
-        <p>He supports teams, managers, and executives in dissolving the boundaries between ideating, planning, and delivering software, driving the innovation across the research, design, and development spectrum.</p>
-        <p>As a consultant, he led the adoption of agile values and principles in several design-driven organisations, ranging from global enterprises to ambitious startups.</p>
+        <p>He supports teams, managers, and executives in dissolving the boundaries between ideating, planning, and delivering software, driving the innovation across the research, design, and development spectrum. As a consultant, he led the adoption of agile values and principles in several design-driven organisations, ranging from global enterprises to ambitious startups.</p>
         <p>He’s a specialist in creating outcome-based strategies and designing lightweight governance models, enabling team autonomy and collaborative decision making.</p>
        <h2>Hands-On Session</h2>
         <h2 class="gold">Economic prioritization in system redesign</h2>
