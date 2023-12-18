@@ -35,9 +35,9 @@ layout: layout-tier2.html
                     </ul>
                 </li>
                 <li>Discovering and defining system operations</li>
-                Kata (design exercise): Define system operations
+                <em>Kata (design exercise): Define system operations</em>
                 <li>Discovering and defining subdomains
-                Kata: Define subdomains
+                <em>Kata: Define subdomains</em>
                 <li>Overview of designing system operations
                 <li>Designing system commands
                     <ul>
@@ -45,17 +45,17 @@ layout: layout-tier2.html
                         <li>Applying the command collaboration patterns: Saga and Command-side replica</li>
                     </ul>
                 </li>
-                Kata: Designing commands and designing services
+                <em>Kata: Designing commands and designing services</em>
                 <li>Designing queries
                     <ul>
                         <li>Partitioning subdomains to form services</li>
                         <li>Applying the query collaboration patterns: API composition and CQRS</li>
                     </ul>
-                Kata: Designing queries and designing services
+                <em>Kata: Designing queries and designing services</em>
                 <li>Evaluating microservices and identifying architectural smells</li>
-                Kata: Evaluating an architecture
+                <em>Kata: Evaluating an architecture</em>
                 <li>Refactoring a microservice architecture</li>
-                Kata: Refactor a microservice architecture
+                <em>Kata: Refactor a microservice architecture</em>
             </ul>
         </div>
     </div>
