@@ -27,34 +27,34 @@ layout: layout-tier2.html
             </ul>
             <h2>Outline</h2>
             <ul>
-                <li>Lecture: How to define a microservice architecture
+                <li>How to define a microservice architecture
                     <ul>
                         <li>The architecture definition process overview</li>
                         <li>Using the dark energy and dark matter forces to define services</li>
                         <li>Documenting a microservice architecture</li>
                     </ul>
                 </li>
-                <li>Lecture: Discovering and defining system operations</li>
+                <li>Discovering and defining system operations</li>
                 <li>Kata (design exercise): Define system operations
-                <li>Lecture: Discovering and defining subdomains
+                <li>Discovering and defining subdomains
                 <li>Kata: Define subdomains
-                <li>Lecture: Overview of designing system operations
-                <li>Lecture: Designing system commands
+                <li>Overview of designing system operations
+                <li>Designing system commands
                     <ul>
                         <li>Partitioning subdomains to form services</li>
                         <li>Applying the command collaboration patterns: Saga and Command-side replica</li>
                     </ul>
                 </li>
-                <li>Kata: Designing commands and designing services</li>
-                <li>Lecture: Designing queries
+                Kata: Designing commands and designing services
+                <li>Designing queries
                     <ul>
                         <li>Partitioning subdomains to form services</li>
                         <li>Applying the query collaboration patterns: API composition and CQRS</li>
                     </ul>
                 <li>Kata: Designing queries and designing services</li>
-                <li>Lecture: Evaluating microservices and identifying architectural smells</li>
+                <li>Evaluating microservices and identifying architectural smells</li>
                 <li>Kata: Evaluating an architecture</li>
-                <li>Lecture: Refactoring a microservice architecture</li>
+                <li>Refactoring a microservice architecture</li>
                 <li>Kata: Refactor a microservice architecture</li>
             </ul>
         </div>
