@@ -222,6 +222,11 @@ layout: layout-tier2.html
         <p class="speaker-details">InfoQ Lead Editor for Architecture & Design</p>
         </div>
         <div class="speaker-container">
+        <a href="tobias-goeschel.html"><div class="new-speaker-img tobias-goeschel"></div></a>
+        <h3><a class="speaker-name" href="tobias-goeschel.html">Tobias Goeschel</a></h3>
+        <p class="speaker-details">Senior Solutions Architect, FSI at AWS</p>
+        </div>
+        <div class="speaker-container">
         <a href="tom-wheeler.html"><div class="new-speaker-img tom-wheeler"></div></a>
         <h3><a class="speaker-name" href="tom-wheeler.html">Tom Wheeler</a></h3>
         <p class="speaker-details">Principal Curriculum Developer and Developer Advocate @ Temporal Technologies</p>

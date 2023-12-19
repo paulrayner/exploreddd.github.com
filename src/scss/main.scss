@@ -1091,9 +1091,17 @@ figure {
 
 //new speaker image approach that doesn't require circle crops of images in photo editing software prior to inclusion in site
 
+.page-img-container {
+ img {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	margin-top: $standard-margin;
+ }
+}
 .new-speaker-img, .new-speaker-page-img {
-	
-	//display: block;
+
+	display: block;
 	height: 150px;
 	width: 150px;
 	border-radius: 150px;
@@ -1283,6 +1291,11 @@ figure {
 		background-image: url('../img/speakers/dan-young-and-mike-rozinsky.jpg');
 		background-size: 130%;
 		background-position: -30px 0px;
+	}
+	&.tobias-goeschel {
+		background-image: url('../img/speakers/tobias-goeschel.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
 	}
 }
 
@@ -1664,9 +1677,10 @@ footer {
 
 //This is how we do new speaker images now
 .new-speaker-page-img {
-	height: 150px;
-	width: 150px;
-	margin-top: $standard-margin !important;
+	//height: 150px;
+	//width: 150px;
+	//margin-top: $standard-margin !important;
+	
 }
 
 //this is partially deprecated for 2023/2024. 

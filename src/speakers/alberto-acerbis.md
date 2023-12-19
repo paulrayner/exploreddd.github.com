@@ -3,9 +3,7 @@ layout: layout-tier2.html
 ---
 <div class="container section featured-speaker">
    <div class="row">
-     <div class="col-xs-12 col-sm-2 new-img-container">
-       <img class="new-speaker-page-img alberto-acerbis" />
-       </div>
+     <div class="col-xs-12 col-sm-2 page-img-container"><img src="../img/speakers/alberto-acerbis.jpg" /></div>
      <div class="col-xs-12 col-sm-10 copy-container">
        <h1 class="speaker-header">Alberto Acerbis</h1>
        <span class="speaker-subtitle">Intré, Passionate dev, author, learner</span>
