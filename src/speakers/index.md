@@ -106,6 +106,11 @@ layout: layout-tier2.html
         <p class="speaker-details">Technical Principal at Thoughtworks</p>
         </div>
         <div class="speaker-container">
+        <a href="jerry-nixon.html"><div class="new-speaker-img jerry-nixon"></div></a>
+        <h3><a class="speaker-name" href="jerry-nixon.html">Jerry Nixon</a></h3>
+        <p class="speaker-details">Microsoft Nerd in Colorado</p>
+        </div>
+        <div class="speaker-container">
         <a href="jessica-kerr.html"><div class="new-speaker-img jessica-kerr"></div></a>
         <h3><a class="speaker-name" href="jessica-kerr.html">Jessica Kerr</a></h3>
         <p class="speaker-details">Honeycomb.io</p>
