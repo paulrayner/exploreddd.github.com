@@ -39,7 +39,7 @@ layout: layout-tier2.html
         <div class="speaker-container">
         <a href="dan-young-and-mike-rozinsky.html"><div class="new-speaker-img dan-young-and-mike-rozinsky"></div></a>
         <h3><a class="speaker-name" href="dan-young-and-mike-rozinsky.html">Dan Young &amp; Mike Rozinsky</a></h3>
-        <p class="speaker-details">Co-founders, When & How Studios LLC</p>
+        <p class="speaker-details">When & How Studios</p>
         </div>
         <div class="speaker-container">
         <a href="dave-buchanan.html"><div class="new-speaker-img dave-buchanan"></div></a>
@@ -153,7 +153,7 @@ layout: layout-tier2.html
         </div>
         <div class="speaker-container">
         <a href="nathan-marrs.html"><div class="new-speaker-img nathan-marrs"></div></a>
-        <h3><a class="speaker-name" href="nathan-marrs.html">Nathan Marss</a></h3>
+        <h3><a class="speaker-name" href="nathan-marrs.html">Nathan Marrs</a></h3>
         <p class="speaker-details">Tech Lead of Data Visualization at Grafana Labs</p>
         </div>
         <div class="speaker-container">

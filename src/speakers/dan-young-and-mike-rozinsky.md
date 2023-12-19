@@ -8,7 +8,7 @@ layout: layout-tier2.html
        </div>
      <div class="col-xs-12 col-sm-10 copy-container">
        <h1 class="speaker-header">Dan Young &amp; Mike Rozinsky</h1>
-       <span class="speaker-subtitle">Co-founders, When & How Studios LLC</span>
+       <span class="speaker-subtitle">When & How Studios</span>
        <p></p>
        <p>Dan Young and Mike Rozinsky work together, across the Atlantic. Through the When & How Studios project they help create participatory experiences and meaningful conversations that connect and activate groups of people around the world. They work online, in-person, and everywhere in between.</p>
         <p>In the last 20 years Dan has tinkered with network engineering, collided with consulting, played in product strategy and fallen into entrepreneurship. By reflecting on all his experience Dan has developed his own organizational development practice called Needs Workshop through which he supports invitational change, offers consulting with a curious approach, and facilitates gatherings to transform the way people come together at work.</p>
