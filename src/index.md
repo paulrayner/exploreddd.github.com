@@ -111,6 +111,11 @@ layout: layout.html
         <p class="speaker-details">Specializing in creativity, leadership, and generalism</p>
         </div>
         <div class="speaker-container">
+        <a href="speakers/davide-mauri.html"><div class="new-speaker-img davide-mauri"></div></a>
+        <h3><a class="speaker-name" href="speakers/davide-mauri.html">Davide Mauri</a></h3>
+        <p class="speaker-details">Microsoft, Principal Product Manager</p>
+        </div>
+        <div class="speaker-container">
         <a href="speakers/diana-montalion.html"><div class="speaker-img diana-montalion">
         </div></a>
         <h3><a class="speaker-name" href="speakers/diana-montalion.html">Diana Montalion</a></h3>
