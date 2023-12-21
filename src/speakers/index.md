@@ -2,7 +2,7 @@
 layout: layout-tier2.html
 ---
 <div class="container section speakers">
-    <h2 class="text-center">Speakers</h2>
+    <h1 class="text-center speakers-page-title">Speakers</h1>
     <div class="flex-row">
         <div class="speaker-container">
         <a href="adrien-abrams.html"><div class="new-speaker-img adrien-abrams"></div></a>
