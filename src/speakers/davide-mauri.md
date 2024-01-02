@@ -6,7 +6,7 @@ layout: layout-tier2.html
      <div class="col-xs-12 col-sm-2 new-img-container">
        <img class="new-speaker-page-img davide-mauri" />
        </div>
-     <div class="col-xs-12 col-sm-10 copy-container">
+       <div class="col-xs-12 col-sm-10 copy-container">
        <h1 class="speaker-header">Davide Mauri</h1>
        <span class="speaker-subtitle">Microsoft, Principal Product Manager</span>
        <p><a class="speaker-handle" href="https://twitter.com/mauridb" target="_blank">@mauridb</a>
