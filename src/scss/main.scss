@@ -1567,8 +1567,8 @@ footer {
 		margin: 0 auto $standard-margin auto;
 	}
 
-	//this is a placeholder example for when sponsors start coming in for 2020
-	.sponsor-logo-sponsor-name {
+	//placeholder for sponsors. Adjust percentages so logo images appear the proper size for their level of sponsorship
+	/*.sponsor-logo-company-name {
 		@include mq(xs) {
 			width: 100%;
 		}
@@ -1583,8 +1583,42 @@ footer {
 
 		@include mq(lg) {
 			width: 100%;
+		}*/
+
+		//temporal is a silver sponsor
+		.sponsor-logo-temporal {
+			@include mq(xs) {
+				width: 60%;
+			}
+			@include mq(sm) {
+				width: 60%;
+			}
+	
+			@include mq(md) {
+				width: 60%;
+			}
+	
+			@include mq(lg) {
+				width: 60%;
+			}
 		}
-	}
+		//media partner sponsor (avanscoperta) is similar sized to venue sponsor (choozle) from 2019
+		.sponsor-logo-avanscoperta {
+			@include mq(xs) {
+				width: 35%;
+			}
+			@include mq(sm) {
+				width: 35%;
+			}
+	
+			@include mq(md) {
+				width: 35%;
+			}
+	
+			@include mq(lg) {
+				width: 35%;
+			}
+		}
 }
 
 .page-subheader {
