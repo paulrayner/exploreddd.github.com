@@ -244,7 +244,7 @@ layout: layout-tier2.html
         <div class="speaker-container">
         <a href="vaughn-vernon.html"><div class="new-speaker-img vaughn-vernon"></div></a>
         <h3><a class="speaker-name" href="vaughn-vernon.html">Vaughn Vernon</a></h3>
-        <p class="speaker-details">Software Ecologist, Architect, Modeler</p>
+        <p class="speaker-details">Software Ecologist, Architect, Modeler; Optimizer of Teams and Individuals; Domain-Driven Design and Systems Transformation</p>
         </div>
         <div class="speaker-container">
         <a href="wei-wang.html"><div class="new-speaker-img wei-wang"></div></a>
