@@ -2388,7 +2388,7 @@ footer {
 		@include mq(xs) {
 			.sponsor-name {
 				img {
-					width: 35%;
+					height: 100px;
 				}
 			}
 		}
@@ -2400,7 +2400,7 @@ footer {
 
 			.sponsor-name {
 				img {
-					height: 165px;
+					height: 125px;
 					width: auto;
 				}
 			}
@@ -2506,6 +2506,23 @@ footer {
 	.sponsor-name-1 {
 		@include mq(xs) {
 			// padding-bottom: 0px;
+		}
+	}
+
+	.media-partner {
+		.sponsor-name {
+			img {
+				height: 40px;
+				width: auto;
+
+				@include mq(xs) {
+					height: 40px;
+				}
+
+				@include mq(sm) {
+					//height: 35px;
+				}
+			}
 		}
 	}
 }
