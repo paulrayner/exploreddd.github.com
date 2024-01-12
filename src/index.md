@@ -246,7 +246,7 @@ layout: layout.html
         <div class="speaker-container">
         <a href="speakers/phillip-bohnenkamp.html"><div class="new-speaker-img phillip-bohnenkamp"></div></a>
         <h3><a class="speaker-name" href="speakers/phillip-bohnenkamp.html">Philip Bohnenkamp</a></h3>
-        <p class="speaker-details">Independant Consultant</p>
+        <p class="speaker-details">Independent Consultant</p>
         </div>
         <div class="speaker-container">
         <a href="speakers/randy-shoup.html"><div class="speaker-img randy-shoup">

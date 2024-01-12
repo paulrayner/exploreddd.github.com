@@ -187,7 +187,7 @@ layout: layout-tier2.html
         <div class="speaker-container">
         <a href="phillip-bohnenkamp.html"><div class="new-speaker-img phillip-bohnenkamp"></div></a>
         <h3><a class="speaker-name" href="phillip-bohnenkamp.html">Philip Bohnenkamp</a></h3>
-        <p class="speaker-details">Independant Consultant</p>
+        <p class="speaker-details">Independent Consultant</p>
         </div>
         <div class="speaker-container">
         <a href="randy-shoup.html"><div class="speaker-img randy-shoup">
