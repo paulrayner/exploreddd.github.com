@@ -54,7 +54,7 @@ layout: layout.html
         <h2>Conference</h2>
         <p>Join us for 2 full days of talks and hands-on workshops on Thursday and Friday, March 14-15.</p>
         <h2>Workshops</h2>
-        <p>For those who would like to dig deeper, we are also bringing back pre-conference workshops (2-day, 16 hours each) on Tuesday and Wednesday, March 13-14.</p>
+        <p>For those who would like to dig deeper, we are also bringing back pre-conference workshops (2-day, 16 hours each) on Tuesday and Wednesday, March 12-13.</p>
     </div>
     <div class="text-center">
         <a href="https://ti.to/EDDD/explore-ddd-2024" class="btn">Register Now</a>
