@@ -5,8 +5,6 @@ layout: layout-tier2.html
    <h1 class="text-center">Schedule</h1>
     </div>
 </div>
-<div class="container schedule-index-page">
-    <div class="col-lg-10 col-lg-offset-1">
-        <script type="text/javascript" src="https://sessionize.com/api/v2/3ivl2xjg/view/GridSmart"></script>
-    </div>
+<div class="schedule-index-page">
+    <script type="text/javascript" src="https://sessionize.com/api/v2/3ivl2xjg/view/GridSmart"></script>
 </div>
