@@ -1916,10 +1916,16 @@ footer {
 
 //Schedule page
 .schedule {
-	//width: 100%;
 	.schedule-index-page {
 		
 	}
+}
+
+/* override the z-index values introduced from sessionize javascript inclusion 
+   The schedule grid will overlap the blue top bar without the following ruleset 
+*/
+.sz-room, .sz-session {
+	z-index: 0 !important;
 }
 
 .final-row {
