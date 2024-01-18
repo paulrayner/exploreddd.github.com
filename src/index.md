@@ -108,7 +108,7 @@ layout: layout.html
         <div class="speaker-container">
         <a href="speakers/david-laribee.html"><div class="new-speaker-img david-laribee"></div></a>
         <h3><a class="speaker-name" href="speakers/david-laribee.html">David Laribee</a></h3>
-        <p class="speaker-details">Specializing in creativity, leadership, and generalism</p>
+        <p class="speaker-details">CEO & Cofounder, Nerd/Noir</p>
         </div>
         <div class="speaker-container">
         <a href="speakers/davide-mauri.html"><div class="new-speaker-img davide-mauri"></div></a>

@@ -49,7 +49,7 @@ layout: layout-tier2.html
         <div class="speaker-container">
         <a href="david-laribee.html"><div class="new-speaker-img david-laribee"></div></a>
         <h3><a class="speaker-name" href="david-laribee.html">David Laribee</a></h3>
-        <p class="speaker-details">Specializing in creativity, leadership, and generalism</p>
+        <p class="speaker-details">CEO & Cofounder, Nerd/Noir</p>
         </div>
         <div class="speaker-container">
         <a href="davide-mauri.html"><div class="new-speaker-img davide-mauri"></div></a>
