@@ -15,10 +15,6 @@ layout: layout-tier2.html
           <a class="speaker-handle" href="https://social.wps.de/@hschwentner" target="_blank">@hschwentner@social.wps.de</a>
         </p>
         <p>Henning loves programming in high quality. He lives this passion as coder, coach, and consultant at WPS – Workplace Solutions. There he helps teams to structure their monoliths or to build new systems from the beginning with a sustainable architecture. Microservices or self-contained systems are often the result. Henning is author of <em>Domain Storytelling (Addison-Wesley, 2022)</em>, and the <a href="https://leasingninja.io/">www.LeasingNinja.io</a> as well as translator of <em>“Domain-Driven Design kompakt” (dpunkt, 2017).</em></p>
-        <h2>2-DAY PRE-CONFERENCE WORKSHOP, TUE-WED, MAR 12-13</h2>
-        <h2 class="gold"><a href="../workshops/domain-storytelling.html">Domain Storytelling</a></h2>
-        <h3>Co-Presented with <a href="stefan-hofer.html">Stefan Hofer</a></h3>
-        <p>In this workshop, you will learn how to adapt the method to the various purposes and you will try out different modeling tools. After the workshop, you will be able to apply Domain Storytelling on your own. <a href="../workshops/domain-storytelling.html">Read more...</a></p>
         <h2>Hands-On Session</h2>
         <h2 class="gold">Domain Storytelling—Understanding Your Users by Drawing Pictures</h2>
         <p>Misunderstandings between developers and the business are a plague. Bad communication makes projects fail. This talk presents a remedy. The session's highlight will be a practical demonstration with the auditorium as an interview partner.</p>
