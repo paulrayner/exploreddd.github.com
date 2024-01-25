@@ -211,11 +211,6 @@ layout: layout-tier2.html
         <p class="speaker-details">Solution architect at Guardant Health</p>
         </div>
         <div class="speaker-container">
-        <a href="stefan-hofer.html"><div class="new-speaker-img stefan-hofer"></div></a>
-        <h3><a class="speaker-name" href="stefan-hofer.html">Stefan Hofer</a></h3>
-        <p class="speaker-details">WPS – Workplace Solutions GmbH</p>
-        </div>
-        <div class="speaker-container">
         <a href="susanne-kaiser.html"><div class="speaker-img susanne-kaiser">
         </div></a>
         <h3><a class="speaker-name" href="susanne-kaiser.html">Susanne Kaiser</a></h3>
