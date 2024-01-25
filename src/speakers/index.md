@@ -91,11 +91,6 @@ layout: layout-tier2.html
         <p class="speaker-details">Principal Engineer</p>
         </div>
         <div class="speaker-container">
-        <a href="ivan-ortega.html"><div class="new-speaker-img ivan-ortega"></div></a>
-        <h3><a class="speaker-name" href="ivan-ortega.html">Ivan Ortega</a></h3>
-        <p class="speaker-details">Software Engineer at Grafana Labs</p>
-        </div>
-        <div class="speaker-container">
         <a href="jacqui-read.html"><div class="new-speaker-img jacqui-read"></div></a>
         <h3><a class="speaker-name" href="jacqui-read.html">Jacqui Read</a></h3>
         <p class="speaker-details">Consultant Software Architect @ Read The Architecture</p>
