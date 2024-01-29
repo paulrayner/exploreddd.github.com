@@ -9,7 +9,7 @@ layout: layout-tier2.html
      <div class="col-xs-12 col-sm-10 copy-container">
        <h1 class="speaker-header">Adela Almasan</h1>
        <span class="speaker-subtitle">Software Engineer, Grafana Labs</span>
-        <p></p>
+        <p><a href="https://www.linkedin.com/in/adela-almasan-99955017b/">LinkedIn</a></p>
         <p>Adela is based in Austin, Texas and she is dedicating her efforts to advancing data visualizations at Grafana Labs. Her rich background is spanning diverse industries and a wide array of technologies and it’s her relentless curiosity that drives her exploration of emerging technologies, ensuring she stays at the forefront of innovation.</p>
         <p>Beyond her professional pursuits, Adela is a passionate audiobook enthusiast and loves spending time with her family.</p>
         <h2>Hands-On Session</h2>
