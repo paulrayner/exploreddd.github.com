@@ -10,6 +10,11 @@ layout: layout-tier2.html
         <p class="speaker-details">Beeline Strategy</p>
         </div>
         <div class="speaker-container">
+        <a href="adela-almasan.html"><div class="new-speaker-img adela-almasan"></div></a>
+        <h3><a class="speaker-name" href="adela-almasan.html">Adela Almasan</a></h3>
+        <p class="speaker-details">Software Engineer, Grafana Labs</p>
+        </div>
+        <div class="speaker-container">
         <a href="alberto-acerbis.html"><div class="new-speaker-img alberto-acerbis"></div></a>
         <h3><a class="speaker-name" href="alberto-acerbis.html">Alberto Acerbis</a></h3>
         <p class="speaker-details">Intré, Passionate dev, author, learner</p>
