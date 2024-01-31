@@ -30,7 +30,7 @@ layout: layout-tier2.html
         </figure>
         <figure>
             <a href="https://www.singlestoneconsulting.com/">
-                <img src="../img/logos/sponsor-name.jpg" class="sponsor-logo sponsor-logo-singlestone">
+                <img src="../img/logos/sponsor-singlestone.jpg" class="sponsor-logo sponsor-logo-singlestone">
             </a>
             <figcaption><a href="https://www.singlestoneconsulting.com/">SingleStone</a> is a technology consulting firm that provides architecture modernization, software development, cloud engineering, UX design, data engineering and analysis, and change and project management services. We design, create, and engineer tools and processes that elevate your employee and customer experience, and ultimately drive better results for your business.</figcaption>
         </figure>
