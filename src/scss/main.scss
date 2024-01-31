@@ -1611,18 +1611,18 @@ footer {
 		//media partner sponsor (avanscoperta) is similar sized to venue sponsor (choozle) from 2019
 		.sponsor-logo-avanscoperta {
 			@include mq(xs) {
-				width: 35%;
+				width: 32%;
 			}
 			@include mq(sm) {
-				width: 35%;
+				width: 32%;
 			}
 	
 			@include mq(md) {
-				width: 35%;
+				width: 32%;
 			}
 	
 			@include mq(lg) {
-				width: 35%;
+				width: 32%;
 			}
 		}
 
@@ -1645,19 +1645,19 @@ footer {
 
 		.sponsor-logo-singlestone {
 			@include mq(xs) {
-				width: 35%;
+				width: 45%;
 			}
 			@include mq(sm) {
-				width: 35%;
+				width: 40%;
 			}
 	
-			@include mq(md) {
+			/*@include mq(md) {
 				width: 35%;
 			}
 	
 			@include mq(lg) {
 				width: 35%;
-			}
+			}*/
 		}
 
 		.sponsor-logo-agile-denver {
@@ -2491,81 +2491,38 @@ footer {
 	}
 
 	.bronze-sponsor {
-		.sponsor-name {
+		.item {
 			img {
-				height: 45px;
+				height: 85px;
 				width: auto;
+				margin: $half-margin;
 
 				@include mq(xs) {
-					height: 55px;
+					height: 125px;
+				}
+				@include mq(sm) {
+					height: 125px;
+				}
+				@include mq(md) {
+					//height: 125px;
 				}
 			}
+		}
+		.singlestone {
+			height: 45px !important;
 		}
 	}
 
 	.venue-sponsor {
 		.sponsor-name {
 			img {
-				height: 35px;
+				height: 40px;
 				width: auto;
 
 				@include mq(xs) {
 					height: 45px;
 				}
 			}
-		}
-	}
-
-	.reception-sponsor {
-		.sponsor-name {
-			img {
-				height: 170px;
-				width: auto;
-
-				@include mq(xs) {
-					height: 140px;
-				}
-
-				@include mq(sm) {
-					height: 160px;
-					margin-bottom: 15px;
-				}
-			}
-		}
-	}
-
-	.video-sponsor {
-		/* .sponsor-name {
-			img {
-				height: 65px;
-				width: auto;
-				@include mq(xs) {
-					height: 40px;
-				}
-			}
-		} */
-	}
-
-	.lunch-sponsor {
-		.sponsor-name {
-			img {
-				height: 40px;
-				width: auto;
-
-				@include mq(xs) {
-					height: 40px;
-				}
-
-				@include mq(sm) {
-					height: 35px;
-				}
-			}
-		}
-	}
-
-	.sponsor-name-1 {
-		@include mq(xs) {
-			// padding-bottom: 0px;
 		}
 	}
 
