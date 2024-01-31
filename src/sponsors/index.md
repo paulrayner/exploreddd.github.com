@@ -17,24 +17,22 @@ layout: layout-tier2.html
         </figure>
         <h3 class="text-center">Bronze Sponsors</h3>
         <figure>
-            <a href="#">
-                <img src="../img/logos/sponsor-name.png" class="sponsor-logo sponsor-logo-name">
+            <a href="https://www.aftermansoftware.com">
+                <img src="../img/logos/sponsor-afterman.png" class="sponsor-logo sponsor-logo-afterman">
             </a>
-            <figcaption><a href="#">Company</a> <a href="#">link</a></figcaption>
+            <figcaption><a href="https://www.aftermansoftware.com">Afterman Software</a> is a complete IT services firm, offering consulting, training, architectural and development services. They have a dedicated focus on DDD, messaging, and event driven systems.</figcaption>
         </figure>
-        <h3 class="text-center">Bronze Sponsors</h3>
         <figure>
-            <a href="#">
-                <img src="../img/logos/sponsor-name.png" class="sponsor-logo sponsor-logo-name">
+            <a href="https://www.agiledenver.org/">
+                <img src="../img/logos/sponsor-agile-denver.png" class="sponsor-logo sponsor-logo-agile-denver">
             </a>
-            <figcaption><a href="#">Company</a> <a href="#">link</a></figcaption>
+            <figcaption><a href="https://www.agiledenver.org/">Agile Denver</a> is a non-profit, outreach organization stewarding a vibrant agile community across the Front Range of the Rocky Mountains. We connect our community to engage, explore, and evolve so that we can improve our ways of working.</figcaption>
         </figure>
-        <h3 class="text-center">Bronze Sponsors</h3>
         <figure>
-            <a href="#">
-                <img src="../img/logos/sponsor-name.png" class="sponsor-logo sponsor-logo-name">
+            <a href="https://www.singlestoneconsulting.com/">
+                <img src="../img/logos/sponsor-name.png" class="sponsor-logo sponsor-logo-singlestone">
             </a>
-            <figcaption><a href="#">Company</a> <a href="#">link</a></figcaption>
+            <figcaption><a href="https://www.singlestoneconsulting.com/">SingleStone</a> is a technology consulting firm that provides architecture modernization, software development, cloud engineering, UX design, data engineering and analysis, and change and project management services. We design, create, and engineer tools and processes that elevate your employee and customer experience, and ultimately drive better results for your business.</figcaption>
         </figure>
         <h3 class="text-center">Media Partner</h3>
         <figure>
