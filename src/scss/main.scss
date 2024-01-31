@@ -1625,6 +1625,57 @@ footer {
 				width: 35%;
 			}
 		}
+
+		.sponsor-logo-afterman {
+			@include mq(xs) {
+				width: 35%;
+			}
+			@include mq(sm) {
+				width: 35%;
+			}
+	
+			@include mq(md) {
+				width: 35%;
+			}
+	
+			@include mq(lg) {
+				width: 35%;
+			}
+		}
+
+		.sponsor-logo-singlestone {
+			@include mq(xs) {
+				width: 35%;
+			}
+			@include mq(sm) {
+				width: 35%;
+			}
+	
+			@include mq(md) {
+				width: 35%;
+			}
+	
+			@include mq(lg) {
+				width: 35%;
+			}
+		}
+
+		.sponsor-logo-agile-denver {
+			@include mq(xs) {
+				width: 35%;
+			}
+			@include mq(sm) {
+				width: 35%;
+			}
+	
+			@include mq(md) {
+				width: 35%;
+			}
+	
+			@include mq(lg) {
+				width: 35%;
+			}
+		}
 }
 
 .page-subheader {
