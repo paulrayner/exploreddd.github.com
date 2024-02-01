@@ -2380,102 +2380,51 @@ footer {
 		margin-bottom: $half-margin;
 	}
 
-	.item {
+	img {
 		@include mq(xs) {
 			display: block;
-			margin: 10px auto;
+			margin: $standard-margin auto $half-margin auto;
 		}
-
 		@include mq(sm) {
-			display: block;
-			margin: 0 auto;
+			margin: $half-margin;
 		}
-
 		@include mq(md) {
 			display: inline-block;
 		}
-
-		
 	}
 
-	.silver-sponsor {
-		@include mq(xs) {
-			img.temporal {
-				height: 100px;
-			}
-		}
-		@include mq(sm) {
-			img.temporal {
-				height: 120px;
-			}
-		}
-
-		@include mq(sm) {
-			.item {
-				margin: 10px 10px 10px 10px;
-			}
-		}
+	.temporal {
+		@include mq(xs) { height: 100px }
+		@include mq(sm) { height: 125px }
+		@include mq(md) {}
+		@include mq(lg) {}
 	}
-
-	.bronze-sponsor {
-		.item {
-			img {
-				width: auto;
-				margin: $half-margin;
-
-				@include mq(xs) {
-					height: 125px;
-				}
-				@include mq(sm) {
-					height: 125px;
-				}
-				@include mq(md) {
-					//height: 125px;
-				}
-			}
-			.afterman {
-				@include mq(xs) {
-					height: 80px;
-					border: 1px solid red;
-				}
-				@include mq(sm) {
-					height: 60px;
-				}
-				@include mq(md) {
-					//height: 125px;
-				}
-			}
-			.singlestone {
-				@include mq(xs) {
-					height: 60px;
-				}
-				@include mq(sm) {
-					height: 60px;
-				}
-				@include mq(md) {
-					//height: 125px;
-				}
-			}
-		}
+	.afterman {
+		@include mq(xs) { height: 150px; }
+		@include mq(sm) { height: 175px; }
+		@include mq(md) {}
+		@include mq(lg) {}
 	}
-
-	.media-partner {
-		.sponsor-name {
-			img {
-				height: 40px;
-				width: auto;
-
-				@include mq(xs) {
-					height: 25px;
-				}
-
-				@include mq(sm) {
-					height: 30px;
-				}
-			}
-		}
+	.agile-denver {
+		@include mq(xs) { height: 100px; }
+		@include mq(sm) { height: 125px;}
+		@include mq(md) {}
+		@include mq(lg) {}
+	}
+	.singlestone {
+		@include mq(xs) { height: 50px; }
+		@include mq(sm) { height: 75px; }
+		@include mq(md) {}
+		@include mq(lg) {}
+	}
+	.avanscoperta {
+		@include mq(xs) { height: 25px; }
+		@include mq(sm) { height: 35px; }
+		@include mq(md) {}
+		@include mq(lg) {}
 	}
 }
+		
 
 .about.hero {
 	background-image: url('../img/hero-standard-placeholder.jpg');
