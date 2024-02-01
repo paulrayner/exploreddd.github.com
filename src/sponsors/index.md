@@ -11,33 +11,33 @@ layout: layout-tier2.html
         <h3 class="text-center">Silver Sponsor</h3>
         <figure>
             <a href="https://temporal.io">
-                <img src="../img/logos/sponsor-temporal.png" class="sponsor-logo sponsor-logo-temporal">
+                <img src="../img/logos/sponsor-temporal.png" class="temporal">
             </a>
             <figcaption><a href="https://temporal.io">Temporal</a> is an open source durable execution platform that abstracts away the complexity of building scalable, distributed applications and lets developers focus on what matters – delivering reliable applications, faster. It improves meaningful engineering metrics that are directly tied to revenue, like development velocity and system reliability, and allows you to track every step of every application execution, so you gain valuable insight into your business. Temporal Cloud provides a managed service backed by the originators of the project. It has been adopted by thousands for mission-critical applications, including Stripe, Netflix, AlaskaAir, Snap, Datadog, and Hashicorp. Learn more at temporal.io. <a href="https://temporal.io">temporal.io</a></figcaption>
         </figure>
         <h3 class="text-center">Bronze Sponsors</h3>
         <figure>
             <a href="https://www.aftermansoftware.com">
-                <img src="../img/logos/sponsor-afterman.jpg" class="sponsor-logo sponsor-logo-afterman">
+                <img src="../img/logos/sponsor-afterman.jpg" class="afterman">
             </a>
             <figcaption><a href="https://www.aftermansoftware.com">Afterman Software</a> is a complete IT services firm, offering consulting, training, architectural and development services. They have a dedicated focus on DDD, messaging, and event driven systems.</figcaption>
         </figure>
         <figure>
             <a href="https://www.agiledenver.org/">
-                <img src="../img/logos/sponsor-agile-denver.jpg" class="sponsor-logo sponsor-logo-agile-denver">
+                <img src="../img/logos/sponsor-agile-denver.jpg" class="agile-denver">
             </a>
             <figcaption><a href="https://www.agiledenver.org/">Agile Denver</a> is a non-profit, outreach organization stewarding a vibrant agile community across the Front Range of the Rocky Mountains. We connect our community to engage, explore, and evolve so that we can improve our ways of working.</figcaption>
         </figure>
         <figure>
             <a href="https://www.singlestoneconsulting.com/">
-                <img src="../img/logos/sponsor-singlestone.jpg" class="sponsor-logo sponsor-logo-singlestone">
+                <img src="../img/logos/sponsor-singlestone.jpg" class="singlestone">
             </a>
             <figcaption><a href="https://www.singlestoneconsulting.com/">SingleStone</a> is a technology consulting firm that provides architecture modernization, software development, cloud engineering, UX design, data engineering and analysis, and change and project management services. We design, create, and engineer tools and processes that elevate your employee and customer experience, and ultimately drive better results for your business.</figcaption>
         </figure>
         <h3 class="text-center">Media Partner</h3>
         <figure>
             <a href="https://www.avanscoperta.it/en/?utm_source=sito&utm_medium=mention&utm_campaign=sponsorship">
-                <img src="../img/logos/sponsor-avanscoperta.png" class="sponsor-logo sponsor-logo-avanscoperta">
+                <img src="../img/logos/sponsor-avanscoperta.png" class="avanscoperta">
             </a>
             <figcaption><a href="https://www.avanscoperta.it/en/?utm_source=sito&utm_medium=mention&utm_campaign=sponsorship">Avanscoperta</a> is a growing community of professionals who are passionate about learning. We love exploring uncharted territories within software development, sharing experiences and spreading new ideas through consulting activities, training classes, events, and books.</figcaption>
         </figure>

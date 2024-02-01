@@ -1537,7 +1537,6 @@ footer {
 	.item,
 	.organized-by-item {
 		width: 300px;
-
 		img {
 			width: 95%;
 			height: auto;
@@ -1545,118 +1544,49 @@ footer {
 		}
 	}
 
-	//platinum sponsor logo appears largest
-	.platinum-logo {
-		max-width: 300px;
-	}
-
-	.silver-logo {
-		max-width: 200px;
-	}
-
-	//bronze sponsor logos appear smaller
-	.bronze-logo {
-		max-width: 160px;
-	}
-
 	.organized-by-item {
 		width: 300px;
 	}
 }
 
-// these are style/size specific to the sponsors page only (and are independently custom to the sizing added to the footers
+// these are style/size specific to the sponsors page and sizes those logos directly. footer sponsor logo images are sized elsewhere
+
 .sponsors-page {
-	.sponsor-logo {
-		width: auto;
-		height: 100%;
-		display: block;
-		margin: 0 auto $standard-margin auto;
-	}
-		//temporal is a silver sponsor
-		.sponsor-logo-temporal {
-			@include mq(xs) {
-				width: 65%;
-			}
-			@include mq(sm) {
-				width: 60%;
-			}
-	
-			@include mq(md) {
-				width: 60%;
-			}
-	
-			@include mq(lg) {
-				width: 60%;
-			}
+	figure {
+		img {
+			margin-bottom: $standard-margin;
 		}
-		//media partner sponsor (avanscoperta) is similar sized to venue sponsor (choozle) from 2019
-		.sponsor-logo-avanscoperta {
-			@include mq(xs) {
-				width: 32%;
-			}
-			@include mq(sm) {
-				width: 32%;
-			}
-	
-			@include mq(md) {
-				width: 32%;
-			}
-	
-			@include mq(lg) {
-				width: 32%;
-			}
+		.temporal {
+			@include mq(xs) { height: 100px }
+			@include mq(sm) { height: 125px }
+			@include mq(md) {}
+			@include mq(lg) {}
 		}
-
-		.sponsor-logo-afterman {
-			@include mq(xs) {
-				width: 35%;
-			}
-			@include mq(sm) {
-				width: 35%;
-			}
-	
-			@include mq(md) {
-				width: 35%;
-			}
-	
-			@include mq(lg) {
-				width: 35%;
-			}
+		.afterman {
+			@include mq(xs) { height: 150px; }
+			@include mq(sm) { height: 175px; }
+			@include mq(md) {}
+			@include mq(lg) {}
 		}
-
-		.sponsor-logo-singlestone {
-			@include mq(xs) {
-				width: 42%;
-			}
-			@include mq(sm) {
-				width: 40%;
-			}
-	
-			/*@include mq(md) {
-				width: 35%;
-			}
-	
-			@include mq(lg) {
-				width: 35%;
-			}*/
+		.agile-denver {
+			@include mq(xs) { height: 100px; }
+			@include mq(sm) { height: 125px;}
+			@include mq(md) {}
+			@include mq(lg) {}
 		}
-
-		.sponsor-logo-agile-denver {
-			@include mq(xs) {
-				width: 35%;
-			}
-			@include mq(sm) {
-				width: 35%;
-			}
-	
-			@include mq(md) {
-				width: 35%;
-			}
-	
-			@include mq(lg) {
-				width: 35%;
-			}
+		.singlestone {
+			@include mq(xs) { height: 45px; }
+			@include mq(sm) { height: 70px; }
+			@include mq(md) {}
+			@include mq(lg) {}
 		}
+		.avanscoperta {
+			@include mq(xs) { height: 25px; }
+			@include mq(sm) { height: 35px; }
+			@include mq(md) {}
+			@include mq(lg) {}
+		}
+	}	
 }
 
 .page-subheader {
@@ -2412,8 +2342,8 @@ footer {
 		@include mq(lg) {}
 	}
 	.singlestone {
-		@include mq(xs) { height: 50px; }
-		@include mq(sm) { height: 75px; }
+		@include mq(xs) { height: 45px; }
+		@include mq(sm) { height: 70px; }
 		@include mq(md) {}
 		@include mq(lg) {}
 	}
