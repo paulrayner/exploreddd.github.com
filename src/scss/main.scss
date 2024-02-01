@@ -1572,29 +1572,10 @@ footer {
 		display: block;
 		margin: 0 auto $standard-margin auto;
 	}
-
-	//placeholder for sponsors. Adjust percentages so logo images appear the proper size for their level of sponsorship
-	/*.sponsor-logo-company-name {
-		@include mq(xs) {
-			width: 100%;
-		}
-
-		@include mq(sm) {
-			width: 80%;
-		}
-
-		@include mq(md) {
-			width: 80%;
-		}
-
-		@include mq(lg) {
-			width: 100%;
-		}*/
-
 		//temporal is a silver sponsor
 		.sponsor-logo-temporal {
 			@include mq(xs) {
-				width: 60%;
+				width: 65%;
 			}
 			@include mq(sm) {
 				width: 60%;
@@ -1645,7 +1626,7 @@ footer {
 
 		.sponsor-logo-singlestone {
 			@include mq(xs) {
-				width: 45%;
+				width: 42%;
 			}
 			@include mq(sm) {
 				width: 40%;
@@ -2387,6 +2368,7 @@ footer {
 }
 
 /* sponsor subfooter section on homepage and second level pages */
+
 .sponsor-section {
 	background-color: #fff;
 	padding: 0 0 $standard-margin 0;
@@ -2395,7 +2377,7 @@ footer {
 	h3 {
 		text-transform: uppercase;
 		color: $brand-blue;
-		// margin-bottom: 0;
+		margin-bottom: $half-margin;
 	}
 
 	.item {
@@ -2413,79 +2395,24 @@ footer {
 			display: inline-block;
 		}
 
-		a {
-			img {
-				width: auto;
-				height: 100%;
-			}
-		}
-	}
-
-	.platinum-sponsor {
-		@include mq(xs) {
-			.sponsor-name {
-				img {
-					width: 80%;
-				}
-			}
-		}
-
-		@include mq(sm) {
-			.item {
-				margin: 10px 10px 10px 10px;
-			}
-
-			.sponsor-name {
-				img {
-					height: 125px;
-					width: auto;
-				}
-			}
-		}
+		
 	}
 
 	.silver-sponsor {
 		@include mq(xs) {
-			.sponsor-name {
-				img {
-					height: 100px;
-				}
+			img.temporal {
+				height: 100px;
+			}
+		}
+		@include mq(sm) {
+			img.temporal {
+				height: 120px;
 			}
 		}
 
 		@include mq(sm) {
 			.item {
 				margin: 10px 10px 10px 10px;
-			}
-
-			.sponsor-name {
-				img {
-					height: 125px;
-					width: auto;
-				}
-			}
-		}
-	}
-
-	.diversity-sponsor {
-		@include mq(xs) {
-			.sponsor-name {
-				img {
-					width: 60%;
-				}
-			}
-		}
-
-		@include mq(sm) {
-			.item {
-				margin: 10px 10px 10px 10px;
-			}
-
-			.sponsor-name {
-				img {
-					height: 70px;
-					width: auto;
-				}
 			}
 		}
 	}
@@ -2493,7 +2420,6 @@ footer {
 	.bronze-sponsor {
 		.item {
 			img {
-				height: 85px;
 				width: auto;
 				margin: $half-margin;
 
@@ -2507,20 +2433,27 @@ footer {
 					//height: 125px;
 				}
 			}
-		}
-		.singlestone {
-			height: 45px !important;
-		}
-	}
-
-	.venue-sponsor {
-		.sponsor-name {
-			img {
-				height: 40px;
-				width: auto;
-
+			.afterman {
 				@include mq(xs) {
-					height: 45px;
+					height: 80px;
+					border: 1px solid red;
+				}
+				@include mq(sm) {
+					height: 60px;
+				}
+				@include mq(md) {
+					//height: 125px;
+				}
+			}
+			.singlestone {
+				@include mq(xs) {
+					height: 60px;
+				}
+				@include mq(sm) {
+					height: 60px;
+				}
+				@include mq(md) {
+					//height: 125px;
 				}
 			}
 		}
@@ -2533,11 +2466,11 @@ footer {
 				width: auto;
 
 				@include mq(xs) {
-					height: 40px;
+					height: 25px;
 				}
 
 				@include mq(sm) {
-					//height: 35px;
+					height: 30px;
 				}
 			}
 		}
