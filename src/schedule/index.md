@@ -1,7 +1,7 @@
 ---
 layout: layout-tier2.html
 ---
-<div class="container section">
+<div class="container section schedule">
    <h1 class="text-center">Schedule</h1>
     </div>
 </div>

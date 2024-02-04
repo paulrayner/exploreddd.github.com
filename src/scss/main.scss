@@ -368,8 +368,6 @@ nav {
 			@include mq(md) {
 				font-size: $body-size;
 			}
-
-			//Not quite sure why (lg) doesnt have to be defined here to inherent (md) rule
 		}
 	}
 }
@@ -397,19 +395,8 @@ nav {
 }
 
 .navbar {
-	//text-align: center;
 	margin-bottom: 0;
-
 	.not-container {
-		@include mq(xs) {
-			//padding-left: 15px;
-			//padding-right: 15px;
-		}
-
-		@include mq(sm) {
-			//display: inline-block;
-		}
-
 		.navbar-header {
 			@include mq(sm) {
 				display: inline-block;
@@ -419,18 +406,11 @@ nav {
 					margin-top: 2px;
 				}
 			}
-
 			@include mq(lg) {
 				a {
 					display: inline-block;
 					margin-top: 20px;
 				}
-			}
-		}
-
-		#navbar {
-			@include mq(sm) {
-				//display: inline-block !important;
 			}
 		}
 	}
@@ -469,11 +449,6 @@ nav {
 }
 
 .nav-list {
-	@include mq(xs) {
-		//margin-top: $half-margin;
-		//visibility: hidden;
-	}
-
 	@include mq(sm) {
 		float: right;
 		position: relative;
@@ -484,7 +459,6 @@ nav {
 
 	@include mq(md) {
 		margin-top: 5px;
-		//margin-left: 20px;
 		padding-left: 0;
 	}
 
@@ -496,11 +470,6 @@ nav {
 }
 
 .nav-list-item:not(:first-child) {
-	.nav-submenu {
-		@include mq(sm) {
-			//left: 10px;
-		}
-	}
 }
 
 //Hero image banners base style (image url handled individually)
@@ -787,7 +756,6 @@ figure {
 }
 
 .slide {
-	// background-position: bottom center;
 	background-size: cover;
 	height: 500px;
 
@@ -939,22 +907,12 @@ figure {
 	margin-top: 0;
 }
 
-// Speaker section
-
-//flexbox conversion
-
-
 .section.speakers {
 	h2 {
 		font-size: 24px; //this may be best served as a reference to a font-size variable since its the same size as an h1
-
-		@include mq(xs) {
-			//margin-bottom: $half-margin;
-		}
 	}
 
 	.flex-row {
-
 		display: flex;
 		flex-wrap: wrap;
 		align-items: flex-start;
@@ -978,7 +936,6 @@ figure {
 
 .speaker-container,
 .speaker-container-inline-content {
-	//display: block;
 
 	@include mq(sm) {
 		display: inline-block;
@@ -1018,11 +975,6 @@ figure {
 	width: 150px;
 	height: 150px;
 	margin-top: $half-margin;
-	//margin: 0 auto;
-	// background-image: url('../img/speakers/henning-schwentner.jpg'), url('../img/speakers/stefan-hofer.jpg');
-	// background-position: left top, right bottom;
-	// background-repeat: no-repeat;
-	// background-size: 40px 40px;
 
 	div {
 		width: 80px;
@@ -1052,9 +1004,6 @@ figure {
 		}
 	}
 	
-	div:first-child {
-		
-	}
 	div:last-of-type {
 		bottom: 0;
 		right: 0;
@@ -1327,11 +1276,6 @@ figure {
 		margin-top: 15px;
 	}
 
-	&:hover {
-		//cursor: pointer;
-		// cursor: hand;
-	}
-
 	&.paul-rayner {
 		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
 
@@ -1342,76 +1286,36 @@ figure {
 
 	&.alberto-brandolini {
 		background-image: url('../img/speakers/sprite-alberto-brandolini.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 
 	&.eric-evans {
 		background-image: url('../img/speakers/sprite-eric-evans.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 
 	&.nivia-henry {
 		background-image: url('../img/speakers/sprite-nivia-henry.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 
 	&.chris-richardson {
 		background-image: url('../img/speakers/sprite-chris-richardson.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 	&.randy-shoup {
 		background-image: url('../img/speakers/sprite-randy-shoup.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 	&.susanne-kaiser {
 		background-image: url('../img/speakers/sprite-susanne-kaiser.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 	&.diana-montalion {
 		background-image: url('../img/speakers/sprite-diana-montalion.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 	&.indu-alagarsamy {
 		background-image: url('../img/speakers/sprite-indu-alagarsamy.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 	&.nick-tune {
 		background-image: url('../img/speakers/sprite-nick-tune.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 	&.lesley-cordero {
 		background-image: url('../img/speakers/sprite-lesley-cordero.jpg');
-
-		&:hover {
-			//background-position: 0;
-		}
 	}
 
 	&.keep-color {
@@ -1687,8 +1591,6 @@ footer {
 .featured-speaker {
 //This is how we do new speaker images now
 	.new-speaker-page-img {
-		//height: 150px;
-		//width: 150px;
 		margin-top: $standard-margin !important;
 	}		
 }
@@ -1841,7 +1743,6 @@ footer {
 //Workshop page (individual)
 .workshop-single-page {
 
-	//margin-top: 75px; //needs to clear static blue "info bar" added ay 2019
 	.new-speaker-img, .speaker-img,
 	.co-workshop-img {
 		margin-top: 25px; //not quite $standard-margin height here since the static blue bar isnt quite the right height
@@ -1882,6 +1783,18 @@ footer {
 }
 
 //Schedule page
+
+//Feb 2024 Sessionize Schedule overrides
+
+h3.sz-session__title {
+	a {
+		text-transform: capitalize !important;
+		color: #000 !important;
+	}
+}
+
+//end Feb 2024 sessionize schedule overrides
+
 .schedule {
 	.schedule-index-page {
 		
@@ -2087,10 +2000,6 @@ footer {
 	.time-cell {
 		width: 15.6%;
 	}
-
-	/* .details {
-		width: 28%;
-	} */
 	.details {
 		width: 21%;
 	}
@@ -2380,8 +2289,6 @@ footer {
 
 .venue.hero {
 	background-image: url('../img/hero-standard-placeholder.jpg');
-	//height: $standard-margin;
-
 }
 
 .venue--address--reserve-btn-row,
