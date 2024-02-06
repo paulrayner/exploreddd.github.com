@@ -98,7 +98,7 @@ layout: layout-tier2.html
         <div class="speaker-container">
         <a href="jacqui-read.html"><div class="new-speaker-img jacqui-read"></div></a>
         <h3><a class="speaker-name" href="jacqui-read.html">Jacqui Read</a></h3>
-        <p class="speaker-details">Consultant Software Architect @ Read The Architecture</p>
+        <p class="speaker-details">Author of Communication Patterns</p>
         </div>
         <div class="speaker-container">
         <a href="james-higginbotham.html"><div class="new-speaker-img james-higginbotham"></div></a>
