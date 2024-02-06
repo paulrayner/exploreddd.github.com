@@ -87,10 +87,10 @@ layout: layout.html
         <p class="speaker-details">Modeling Anything</p>
         </div>
         <div class="speaker-container">
-        <a href="speakers/nivia-henry.html"><div class="speaker-img nivia-henry">
+        <a href="speakers/indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
         </div></a>
-        <h3><a class="speaker-name" href="speakers/nivia-henry.html">Nivia Henry</a></h3>
-        <p class="speaker-details">Engineering Director, Spotify</p>
+        <h3><a class="speaker-name" href="speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h3>
+        <p class="speaker-details">Principal Engineer</p>
         </div>
         <div class="speaker-container">
         <a href="speakers/lesley-cordero.html"><div class="speaker-img lesley-cordero">

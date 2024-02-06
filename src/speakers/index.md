@@ -168,12 +168,6 @@ layout: layout-tier2.html
         <p class="speaker-details">Principal Consultant at Empathy Software, Author of <em>Architecture Modernization</em></p>
         </div>
         <div class="speaker-container">
-        <a href="nivia-henry.html"><div class="speaker-img nivia-henry">
-        </div></a>
-        <h3><a class="speaker-name" href="nivia-henry.html">Nivia Henry</a></h3>
-        <p class="speaker-details">Engineering Director, Spotify</p>
-        </div>
-        <div class="speaker-container">
         <a href="paul-rayner.html"><div class="speaker-img paul-rayner">
         </div></a>
         <h3><a class="speaker-name" href="paul-rayner.html">Paul Rayner</a></h3>
