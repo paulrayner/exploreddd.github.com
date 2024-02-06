@@ -5,7 +5,7 @@ layout: layout-tier2.html
    <div class="row">
      <div class="col-xs-12 col-sm-2 new-img-container">
        <img class="new-speaker-page-img jacqui-read" />
-       </div>
+      </div>
      <div class="col-xs-12 col-sm-10 copy-container">
        <h1 class="speaker-header">Jacqui Read</h1>
        <span class="speaker-subtitle">Author of Communication Patterns</span>
