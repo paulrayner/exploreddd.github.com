@@ -211,11 +211,6 @@ layout: layout-tier2.html
         <p class="speaker-details">Independent Tech Consultant at Susanne Kaiser Tech Consulting</p>
         </div>
         <div class="speaker-container">
-        <a href="szymon-pobiega.html"><div class="new-speaker-img szymon-pobiega"></div></a>
-        <h3><a class="speaker-name" href="szymon-pobiega.html">Szymon Pobiega</a></h3>
-        <p class="speaker-details">Engineer particularly interested in software</p>
-        </div>
-        <div class="speaker-container">
         <a href="thomas-betts.html"><div class="new-speaker-img thomas-betts"></div></a>
         <h3><a class="speaker-name" href="thomas-betts.html">Thomas Betts</a></h3>
         <p class="speaker-details">InfoQ Lead Editor for Architecture & Design</p>
