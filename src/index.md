@@ -49,7 +49,7 @@ layout: layout.html
 <!--End mc_embed_signup-->
 <div class="container homepage--intro-text">
     <div class="row">
-       <p><strong>Why Attend?</strong></p>
+        <h2>Why Attend?</h2>
         <div  style="margin:0 auto; margin-right: auto;text-align:left">
         <p><ul>
             <li>Explore DDD brings together an international community of practicing industry experts, developers, software architects, business and technical leaders.</li>
@@ -57,10 +57,6 @@ layout: layout.html
             <li>Optimize your conference experience with expert training by also attending a pre-conference workshop.</li>
         </ul></p>
         </div>
-        <h2>Conference</h2>
-        <p>Join us for 2 full days of talks and hands-on sessions on Thursday and Friday, March 14-15.</p>
-        <h2>Workshops</h2>
-        <p>For those who would like to dig deeper, we have 2-day pre-conference workshops on Tuesday and Wednesday, March 12-13.</p>
         <p><a href="schedule/index.html">View Full Schedule</a></p>
     </div>
     <div class="text-center">
