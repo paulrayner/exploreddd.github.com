@@ -1259,6 +1259,11 @@ figure {
 		background-size:120%;
 		background-position: -18px 0px;
 	}
+	&.eric-evans {
+		background-image: url('../img/speakers/eric-evans.jpg');
+		background-size:170%;
+		background-position: -15px -20px;
+	}
 }
 
 //sprites for individual speaker images
@@ -1287,11 +1292,6 @@ figure {
 	&.alberto-brandolini {
 		background-image: url('../img/speakers/sprite-alberto-brandolini.jpg');
 	}
-
-	&.eric-evans {
-		background-image: url('../img/speakers/sprite-eric-evans.jpg');
-	}
-
 	&.nivia-henry {
 		background-image: url('../img/speakers/sprite-nivia-henry.jpg');
 	}
