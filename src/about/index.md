@@ -13,5 +13,5 @@ layout: layout-tier2.html
 			<li>Give back to our local community</li>
 		<ul>
 	</div>
-			<!-- test comment -->
+			<!-- post build refactor test comment -->
 </div>
