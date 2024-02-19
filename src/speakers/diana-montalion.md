@@ -23,15 +23,9 @@ layout: layout-tier2.html
           <li>Donella Meadows said, “We'll go down in history as the first society that wouldn't save itself because it wasn't cost-effective.”</li>
         </ul>
         <p>As relational complexity increases, we need to think in systems. I don't just mean adopt Kubernetes. Technology systems are always, also, people systems. Without systems thinking, nothing is transformed. As Robert Pirsig said,</p>
-        
-        <p>"If a factory is torn down but the rationality which produced it is left standing, then that rationality will simply produce another factory."</p>
-        
+        <p><i>"If a factory is torn down but the rationality which produced it is left standing, then that rationality will simply produce another factory."</i></p>
         <p>Systems thinking is becoming a core and critical skill. The Iceberg Model, for example, helps us understand "the rationality that produced" our current situation. As a software professional, you can use itwhenever you want to understand the root cause of a system challenge.</p>
-        
         <p>Using tools like the iceberg model is deceptively simple. Avoiding the iceberg ... takes committed practice.</p>
-        
-
-
       </div>
     </div>
   </div>
