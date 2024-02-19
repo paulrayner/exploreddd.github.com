@@ -1,6 +1,10 @@
 {
   "name": "static-site-example",
   "private": true,
+  "engines" : { 
+    "npm" : "npm >=6.0.0",
+    "node" : ">=12.0.0 <13.0.0"
+  },
   "scripts": {
     "build": "node index.js"
   },
