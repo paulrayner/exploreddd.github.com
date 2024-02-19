@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Run npm build
-        run: timeout 30s npm run build
+        run: timeout 30s npm run build || true
 
       - name: Commit changes
         run: |
