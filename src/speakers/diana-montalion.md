@@ -13,24 +13,24 @@ layout: layout-tier2.html
         <br>
         <a href="https://twitter.com/dianamontalion" target=”_blank”>@dianamontalion</a></p>
         <p>Diana is the author of the upcoming O'Reilly book, <em>Learning Systems Thinking: Essential Nonlinear Skills & Practices for Software Professionals</em>. She has 18+ years experience engineering and architecting software systems for organizations including Stanford, The Gates Foundation, Memorial Sloan Kettering and Teach For All. She has served as Principal Systems Architect for The Economist and The Wikimedia Foundation. Her company, Mentrix, publishes courses and learning materials for aspiring nonlinear thinkers and builds modern software systems for diverse clients. Diana lives in the Hudson Valley (New York, USA) with three dogs, one cat and nine chickens.</p>
-        <h2>Hands-On Session</h2>
-        <h2 class="gold">Strengthening Systems Thinking by Writing</h2>
-        <p>At DDD conferences, we focus a lot on modeling but not on writing. Most of us working as systems designers do A LOT of communicating. Writing is a fabulous tool for thinking and learning.</p>
-        <p>As software designers, we craft knowledge. We weave other people’s thinking and experiences with our own to solve problems. We construct valuable recommendations and learn through communication.</p>
-        <p>Systems thinking is a practice -- or, rather, a system of foundational practices that improve our nonlinear thinking skills. One of those foundational practices is creating conceptual integrity. Constructing something whole and actionable from abstract ideas. Fred Brooks says:</p>
-        <p><em>"Conceptual integrity is the most important consideration in systems design."</em></p>
-        <p>Unfortunately, we are truly terrible at creating or maintaining conceptual integrity. Fortunately, writing is the practice of crafting conceptual integrity.</p>
-        <p>Writing practices can help us:</p>
+        <h2>Talk Session</h2>
+        <h2 class="gold">Systems Thinking for Software Professionals</h2>
+       <p>Systems experts have taught us how to improve our software systems:</p>
         <ul>
-          <li>strengthen metacognition: awareness of our own thought process</li>
-          <li>synthesize knowledge, experience and sound judgment into well-reasoned recommendations</li>
-          <li>learn</li>
-          <li>navigate uncertainty through inquiry</li>
-          <li>think well, together</li>
+          <li>Peter Senge has demonstrated that we blame the wrong things (events, situations or processes) for our systemic problems.</li>
+          <li>W. Edwards Deming says that 94% of the time, the system is to blame for performance issues, not the individual parts of the system.</li>
+          <li>Jay Forrester discovered counterintuitiveness: most organizations “fix” systemic problems by inadvertently making them worse.</li>
+          <li>Donella Meadows said, “We'll go down in history as the first society that wouldn't save itself because it wasn't cost-effective.”</li>
         </ul>
-        <p>In this hands-on lab, we will write. You'll try writing practices that, when done regularly, improve your ability to think, learn and lead. Including timed free writing, systemic reasoning, modeling artifacts and structuring recommendations for varying audiences.</p>
-        <p>Fair warning: it will be a lot of fun.</p>
-        <p>Bring your favorite pen.</p>
+        <p>As relational complexity increases, we need to think in systems. I don't just mean adopt Kubernetes. Technology systems are always, also, people systems. Without systems thinking, nothing is transformed. As Robert Pirsig said,</p>
+        
+        <p>"If a factory is torn down but the rationality which produced it is left standing, then that rationality will simply produce another factory."</p>
+        
+        <p>Systems thinking is becoming a core and critical skill. The Iceberg Model, for example, helps us understand "the rationality that produced" our current situation. As a software professional, you can use itwhenever you want to understand the root cause of a system challenge.</p>
+        
+        <p>Using tools like the iceberg model is deceptively simple. Avoiding the iceberg ... takes committed practice.</p>
+        
+
 
       </div>
     </div>
