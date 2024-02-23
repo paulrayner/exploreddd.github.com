@@ -34,6 +34,12 @@ layout: layout-tier2.html
             </a>
             <figcaption><a href="https://www.singlestoneconsulting.com/">SingleStone</a> is a technology consulting firm that provides architecture modernization, software development, cloud engineering, UX design, data engineering and analysis, and change and project management services. We design, create, and engineer tools and processes that elevate your employee and customer experience, and ultimately drive better results for your business.</figcaption>
         </figure>
+        <figure>
+            <a href="https://www.domaincomponents.com">
+                <img src="../img/logos/sponsor-domain-components.jpg" class="domain-components">
+            </a>
+            <figcaption><a href="https://www.domaincomponents.com">Domain Components</a> is a boutique technology services firm that provides architecture advisory services for customers. Based out of the Silicon Valley, Domain Components unique approach to architecture processes called ArchAssured has gained rapid traction among multiple customers in a short frame of time.</figcaption>
+        </figure>
         <h3 class="text-center">Media Partner</h3>
         <figure>
             <a href="https://www.avanscoperta.it/en/?utm_source=sito&utm_medium=mention&utm_campaign=sponsorship">

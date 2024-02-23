@@ -1485,6 +1485,12 @@ footer {
 			@include mq(md) {}
 			@include mq(lg) {}
 		}
+		.domain-components {
+			@include mq(xs) { height: 60px; }
+			@include mq(sm) { height: 75px; }
+			@include mq(md) {}
+			@include mq(lg) {}
+		}
 	}	
 }
 
@@ -2254,6 +2260,12 @@ h3.sz-session__title {
 	.avanscoperta {
 		@include mq(xs) { height: 25px; }
 		@include mq(sm) { height: 35px; }
+		@include mq(md) {}
+		@include mq(lg) {}
+	}
+	.domain-components {
+		@include mq(xs) { height: 50px; }
+		@include mq(sm) { height: 75px; }
 		@include mq(md) {}
 		@include mq(lg) {}
 	}
