@@ -236,6 +236,11 @@ layout: layout-tier2.html
         <p class="speaker-details">Founder of Zhipu Tech and co-founder of DDDChina</p>
         </div>
         <div class="speaker-container">
+        <a href="xi-palazzolo.html"><div class="new-speaker-img xi-palazzolo"></div></a>
+        <h3><a class="speaker-name" href="xin-palazzolo.html">Xi Palazzolo</a></h3>
+        <p class="speaker-details">Founder of Sunrise AI</p>
+        </div>
+        <div class="speaker-container">
         <a href="xin-yao.html"><div class="new-speaker-img xin-yao"></div></a>
         <h3><a class="speaker-name" href="xin-yao.html">Xin Yao</a></h3>
         <p class="speaker-details">Independent Consultant - contextualizing DDD, systems leadership & sociotechnical architecture</p>
