@@ -237,7 +237,7 @@ layout: layout-tier2.html
         </div>
         <div class="speaker-container">
         <a href="xi-palazzolo.html"><div class="new-speaker-img xi-palazzolo"></div></a>
-        <h3><a class="speaker-name" href="xin-palazzolo.html">Xi Palazzolo</a></h3>
+        <h3><a class="speaker-name" href="xi-palazzolo.html">Xi Palazzolo</a></h3>
         <p class="speaker-details">Founder of Sunrise AI</p>
         </div>
         <div class="speaker-container">
