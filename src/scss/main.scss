@@ -1502,6 +1502,12 @@ footer {
 			@include mq(md) {}
 			@include mq(lg) {}
 		}
+		.initial-capacity {
+			@include mq(xs) { height: 40px; }
+			@include mq(sm) { height: 50px; }
+			@include mq(md) {}
+			@include mq(lg) {}
+		}
 	}	
 }
 
@@ -2286,6 +2292,13 @@ h3.sz-session__title {
 		@include mq(md) {}
 		@include mq(lg) {}
 	}
+	.initial-capacity {
+		@include mq(xs) { height: 40px; }
+		@include mq(sm) { height: 50px; }
+		@include mq(md) {}
+		@include mq(lg) {}
+	}
+
 }
 		
 
