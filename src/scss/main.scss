@@ -1496,6 +1496,12 @@ footer {
 			@include mq(md) {}
 			@include mq(lg) {}
 		}
+		.kalele {
+			@include mq(xs) { height: 70px; }
+			@include mq(sm) { height: 85px; }
+			@include mq(md) {}
+			@include mq(lg) {}
+		}
 	}	
 }
 
@@ -2269,8 +2275,14 @@ h3.sz-session__title {
 		@include mq(lg) {}
 	}
 	.domain-components {
-		@include mq(xs) { height: 50px; }
+		@include mq(xs) { height: 60px; }
 		@include mq(sm) { height: 75px; }
+		@include mq(md) {}
+		@include mq(lg) {}
+	}
+	.kalele {
+		@include mq(xs) { height: 70px; }
+		@include mq(sm) { height: 85px; }
 		@include mq(md) {}
 		@include mq(lg) {}
 	}

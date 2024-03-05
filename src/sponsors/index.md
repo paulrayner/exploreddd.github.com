@@ -40,6 +40,12 @@ layout: layout-tier2.html
             </a>
             <figcaption><a href="https://www.domaincomponents.com">Domain Components</a> is a boutique technology services firm that provides architecture advisory services for customers. Based out of the Silicon Valley, Domain Components unique approach to architecture processes called ArchAssured has gained rapid traction among multiple customers in a short frame of time.</figcaption>
         </figure>
+         <figure>
+            <a href="https://kalele.io">
+                <img src="../img/logos/sponsor-kalele.jpg" class="kalele">
+            </a>
+            <figcaption>Established by Vaughn Vernon, <a href="https://www.kalele.io">Kalele</a> is a boutique consultancy dedicated to helping businesses innovate within complex business domains. We excel in providing clients with comprehensive training and consulting services, leading advanced strategic and tactical designs along with implementations. Let's collaborate to navigate challenges and exceed business expectations.</figcaption>
+        </figure>
         <h3 class="text-center">Media Partner</h3>
         <figure>
             <a href="https://www.avanscoperta.it/en/?utm_source=sito&utm_medium=mention&utm_campaign=sponsorship">
