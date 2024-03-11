@@ -17,7 +17,7 @@ layout: layout-tier2.html
 		<p>If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
 		<p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff or one of the code of conduct first responders immediately. Conference staff can be identified as they'll be wearing staff lanyards. You can email contact@exploreddd.com. All reports are confidential.</p>
 		<p>Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance. We expect participants to follow these rules at conference and workshop venues and conference-related social events. Thank you for helping make this a welcoming, friendly event for all!</p>
-		<p>Adapted from <a [href="http://2012.jsconf.us/#/about](https://2016.dddeurope.com/coc.html)" target="_blank">original</a>, with thanks to DDD Europe.</p>
+		<p>Adapted from <a https://2016.dddeurope.com/coc.html" target="_blank">DDD Europe 2016</a>, with thanks to DDD Europe.</p>
 		<h3>What about diversity?</h3>
 		<p>We are seeking to source and support speakers from underrepresented groups as much as possible in order to provide a richly diverse lineup of perspectives and backgrounds.</p>
 	</div>
