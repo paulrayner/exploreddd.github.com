@@ -61,68 +61,6 @@ layout: layout.html
     </div>
 </div>
 <div class="container section speakers">
-  <h2 class="text-center">Featured Speakers</h2>
-    <div class="flex-row">
-        <div class="speaker-container">
-        <a href="speakers/eric-evans.html"><div class="new-speaker-img eric-evans">
-        </div></a>
-        <h3><a class="speaker-name" href="speakers/eric-evans.html">Eric Evans</a></h3>
-        <p class="speaker-details">Author of <em>Domain-Driven Design</em></p>
-        </div>
-        <div class="speaker-container">
-        <a href="speakers/vaughn-vernon.html"><div class="new-speaker-img vaughn-vernon"></div></a>
-        <h3><a class="speaker-name" href="speakers/vaughn-vernon.html">Vaughn Vernon</a></h3>
-        <p class="speaker-details">Software Ecologist, Architect, Modeler; Optimizer of Teams and Individuals; Domain-Driven Design and Systems Transformation</p>
-        </div>
-        <div class="speaker-container">
-        <a href="speakers/susanne-kaiser.html"><div class="speaker-img susanne-kaiser">
-        </div></a>
-        <h3><a class="speaker-name" href="speakers/susanne-kaiser.html">Susanne Kaiser</a></h3>
-        <p class="speaker-details">Independent Tech Consultant at Susanne Kaiser Tech Consulting</p>
-        </div>
-        <div class="speaker-container">
-        <a href="speakers/alberto-brandolini.html"><div class="speaker-img alberto-brandolini">
-        </div></a>
-        <h3><a class="speaker-name" href="speakers/alberto-brandolini.html">Alberto Brandolini</a></h3>
-        <p class="speaker-details">Modeling Anything</p>
-        </div>
-        <div class="speaker-container">
-        <a href="speakers/indu-alagarsamy.html"><div class="speaker-img indu-alagarsamy">
-        </div></a>
-        <h3><a class="speaker-name" href="speakers/indu-alagarsamy.html">Indu Alagarsamy</a></h3>
-        <p class="speaker-details">Principal Engineer</p>
-        </div>
-        <div class="speaker-container">
-        <a href="speakers/lesley-cordero.html"><div class="speaker-img lesley-cordero">
-        </div></a>
-        <h3><a class="speaker-name" href="speakers/lesley-cordero.html">Lesley Cordero</a></h3>
-        <p class="speaker-details">Staff Software Engineer, The New York Times</p>
-        </div>
-         <div class="speaker-container">
-        <a href="speakers/chris-richardson.html"><div class="speaker-img chris-richardson">
-        </div></a>
-        <h3><a class="speaker-name" href="speakers/chris-richardson.html">Chris Richardson</a></h3>
-        <p class="speaker-details">Author of <em>Microservice Patterns</em> and founder of Eventuate.io</p>
-        </div>
-        <div class="speaker-container">
-        <a href="speakers/jessica-kerr.html"><div class="new-speaker-img jessica-kerr"></div></a>
-        <h3><a class="speaker-name" href="speakers/jessica-kerr.html">Jessica Kerr</a></h3>
-        <p class="speaker-details">Honeycomb.io</p>
-        </div>
-        <div class="speaker-container">
-        <a href="speakers/randy-shoup.html"><div class="speaker-img randy-shoup">
-        </div></a>
-        <h3><a class="speaker-name" href="speakers/randy-shoup.html">Randy Shoup</a></h3>
-        <p class="speaker-details">Consulting CTO</p>
-        </div>
-         <div class="speaker-container">
-        <a href="speakers/diana-montalion.html"><div class="speaker-img diana-montalion">
-        </div></a>
-        <h3><a class="speaker-name" href="speakers/diana-montalion.html">Diana Montalion</a></h3>
-        <p class="speaker-details">Mentrix: Principal</p>
-        </div>
-</div>
-    <p><a href="speakers">VIEW ALL SPEAKERS</a></p>
 </div>
 <div class="container">
     <div class="row">
