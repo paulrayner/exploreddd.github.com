@@ -59,9 +59,6 @@ layout: layout.html
         </div>
         <p><a href="schedule/index.html">View Full Schedule</a></p>
     </div>
-    <div class="text-center">
-        <a href="https://ti.to/EDDD/explore-ddd-2024" class="btn">Register Now</a>
-    </div>
 </div>
 <div class="container section speakers">
   <h2 class="text-center">Featured Speakers</h2>
