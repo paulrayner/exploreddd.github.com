@@ -352,7 +352,7 @@ nav {
 		line-height: normal;
 
 		a {
-			color: $brand-white;
+			//color: $brand-white; //this becomes active when the 'register now' button is included in the menu
 			margin-bottom: 0;
 
 			@include mq(xs) {
