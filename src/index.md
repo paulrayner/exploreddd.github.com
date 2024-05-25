@@ -49,8 +49,9 @@ layout: layout.html
 <!--End mc_embed_signup-->
 <div class="container homepage--intro-text">
     <div class="row">
-        <h2>Explore DDD is coming back to Denver on April 14-17, 2025</h2>
-        <p><strong>CFP will open July 1, 2024</strong></p>
+        <h2 class="text-center">Explore DDD returns to Denver on April 14-17, 2025</h2>
+        <p class="text-center">Be the first to hear about when tickets go on sale!  Join our mailing list:</p>
+        <p class="text-center"><strong>CFP will open July 1, 2024</strong></p>
         <p>
             <ul>
                 <li>Explore DDD brings together an international community of practicing industry experts, developers, software architects, business and technical leaders.</li>
@@ -59,13 +60,17 @@ layout: layout.html
             </ul>
         </p>
         </div>
-        <div id="player"></div>
-<!-- Load the YouTube IFrame Player API -->
-<script src="https://www.youtube.com/iframe_api"></script>
-<!-- Include the JavaScript file -->
-<script src="js/youtube.js"></script>
-<!--<p><a href="https://www.youtube.com/playlist?list=PLC63ae3uCHHb0Ck39g6Cs2mBQwknPsyUg">View 2024 Session Videos</a></p>-->
+    </div>
 </div>
+<div class="container homepage--intro-videos">
+    <div class="row">
+        <div id="player"></div>
+            <!-- Load the YouTube IFrame Player API -->
+            <script src="https://www.youtube.com/iframe_api"></script>
+            <!-- Include the JavaScript file -->
+            <script src="js/youtube.js"></script>
+            <!--<p><a href="https://www.youtube.com/playlist?list=PLC63ae3uCHHb0Ck39g6Cs2mBQwknPsyUg">View 2024 Session Videos</a></p>-->
+        </div>
 </div>
 <div class="container section speakers">
 <p></p></div>
@@ -74,11 +79,6 @@ layout: layout.html
         <p class="text-center">View past conferences: <a href="./2024">2024</a> &#124; <a href="./2019">2019</a> &#124; <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
         <p class="text-center">Visit and subscribe to the <a href="https://www.youtube.com/exploreddd">ExploreDDD YouTube Channel</a></p>
     </div>
-</div>
-<div class="text-center ">
-    <a href="https://www.youtube.com/exploreddd">
-        <img src="img/youtube-text-icon.png" class="homepage-youtube-link-img" title="ExploreDDD YouTube Channel">
-    </a>
 </div>
     </div>
 </div>

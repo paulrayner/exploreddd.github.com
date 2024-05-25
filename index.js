@@ -19,8 +19,8 @@ var dir = {
 
 Metalsmith(__dirname)
   .metadata({
-    title: "Explore DDD Conference - 2024",
-    description: "Explore DDD Conference - 2024: Domain-Driven Design Conference in Denver, Colorado, USA for Software Leaders. Practical, cutting-edge, talks &amp; workshops.",
+    title: "Explore DDD Conference - 2025",
+    description: "Explore DDD Conference - 2025: Domain-Driven Design Conference in Denver, Colorado, USA for Software Leaders. Practical, cutting-edge, talks &amp; workshops.",
     generator: "Metalsmith",
     url: "http://www.exploreddd.com"
   })

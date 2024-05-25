@@ -887,11 +887,10 @@ figure {
 	}
 }
 
-.homepage--intro-text,
-.homepage--why-you-should-attend {
+.homepage--intro-text {
 	max-width: 885px;
 	margin-top: $standard-margin;
-	text-align: center;
+	//text-align: center;
 
 	h2 {
 		font-size: $big;
@@ -901,6 +900,14 @@ figure {
 		margin-left: $standard-margin;
 		margin-right: $standard-margin;
 	}
+	iframe {
+		display: inline-block;
+		text-align: center;
+	}
+}
+
+.homepage--intro-videos {
+	text-align: center;
 }
 
 .homepage--why-you-should-attend {
