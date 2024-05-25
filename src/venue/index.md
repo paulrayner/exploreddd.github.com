@@ -7,12 +7,12 @@ layout: layout-tier2.html
 		<h1 class="text-center">venue</h1>
 		<p class="text-center">Explore DDD will be held at the Embassy Suites in downtown Denver.  We have reserved a room block and negotiated a discounted conference rate.</p>
 		<p class="text-center">
-			<a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=DENESES&arrivalDate=2023-10-05&departureDate=2023-10-07&groupCode=CESDDD&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink">Embassy Suites by Hilton Denver Downtown</a><br />
+			<a href="https://www.hilton.com/en/hotels/deneses-embassy-suites-denver-downtown-convention-center">Embassy Suites by Hilton Denver Downtown</a><br />
 			1420 Stout Street<br />
 			Denver, Colorado 80202<br />
 			303-592-1000
 		</p>
-		<p>Transport from Denver International Airport to downtown is easily available via train, Uber, Lyft, or taxi.</p>
+		<p class="text-center">Transport from Denver International Airport to downtown is easily available via train, Uber, Lyft, or taxi.</p>
 		<img src="../img/venue/venue--night-shot.jpg" class="content-img" alt="" />
 	</div>
 </div>
