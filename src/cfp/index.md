@@ -191,4 +191,3 @@ layout: layout-tier2.html
       the VWP, you will need to apply for a B-1 Visa.</p>
   </div>
 </div>
-</div>
