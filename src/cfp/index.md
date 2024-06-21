@@ -57,5 +57,7 @@ layout: layout-tier2.html
       </table>
     </div>
 
+    <p><em>Note: Regular talks will be professionally video recorded and made freely available online after the
+        conference.</em></p>
   </div>
 </div>
