@@ -47,7 +47,7 @@ layout: layout-tier2.html
           </tr>
           <tr>
             <td>Hands-on session</td>
-            <td>120 min</td>
+            <td>1 hr 45 min</td>
           </tr>
           <tr>
             <td>Pre-Conference Workshop (Monday &amp; Tuesday)</td>
