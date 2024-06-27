@@ -88,7 +88,7 @@ layout: layout.html
 <!--End mc_embed_signup-->
 <div class="container homepage--intro-text">
     <div class="row">
-        <p class="text-center"><strong>CFP will open July 1, 2024</strong></p>
+        <p class="text-center"><strong><a href="cfp/">CFP</a> will open July 1st.</strong></p>
         <p>
             <ul>
                 <li>Explore DDD brings together an international community of practicing industry experts, developers, software architects, business and technical leaders.</li>
