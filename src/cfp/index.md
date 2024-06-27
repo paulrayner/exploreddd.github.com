@@ -76,6 +76,13 @@ layout: layout-tier2.html
 
     <p>What to expect for your hands-on session:  tables groupings or rounds for 6 people; power provided to the tables; screen with HDMI connection; Bluetooth speakers available for sound; easel with Post-it easel pad and markers; rolls of paper; sticky notes and sharpies.  Speakers will not be mic’d.</p>
 
+    <p><strong>PRE-CONFERENCE WORKSHOP DETAILS</strong></p>
+		<ul>
+			<li>Workshops will run 8 hours each day with a lunch break</li>
+			<li>We will provide power to tables and screens for slides</li>
+			<li>Let us know your preferred setup in your submission</li>
+		</ul>
+
     <h2 class="page-subheader">Increase Your Chances</h2>
 
     <p>Evaluating a submission based on nothing but an abstract is hard. <em>Help us get to know you and your ideas by:</em></p>
