@@ -72,6 +72,8 @@ layout: layout-tier2.html
       <li>makes you want to go to the office on Monday and change the way you work!</li>
     </ul>
 
+    <p>We're especially interested in hands-on sessions that include hands-on coding exercises. Be sure to include details about the coding language in your session description so attendees know what to expect.</p>
+
     <p>What to expect for your hands-on session space: the room will be set up with groups of tables with power provided to the tables. There will be a screen and projector, a whiteboard with markers and eraser, an easel with a Post-it easel pad and markers, and a roll of paper with tape for the wall. Sticky notes and sharpies will be scattered on the tables and additional stickies are available on request.</p>
 
     <h2 class="page-subheader">Increase Your Chances</h2>
