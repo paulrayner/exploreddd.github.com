@@ -74,7 +74,7 @@ layout: layout-tier2.html
 
     <p>We're especially interested in hands-on sessions that include hands-on coding exercises. Be sure to include details about the coding language in your session description so attendees know what to expect.</p>
 
-    <p>What to expect for your hands-on session space: the room will be set up with groups of tables with power provided to the tables. There will be a screen and projector, a whiteboard with markers and eraser, an easel with a Post-it easel pad and markers, and a roll of paper with tape for the wall. Sticky notes and sharpies will be scattered on the tables and additional stickies are available on request.</p>
+    <p>What to expect for your hands-on session:  tables groupings or rounds for 6 people; power provided to the tables; screen with HDMI connection; Bluetooth speakers available for sound; easel with Post-it easel pad and markers; rolls of paper; sticky notes and sharpies.  Speakers will not be mic’d.</p>
 
     <h2 class="page-subheader">Increase Your Chances</h2>
 
@@ -107,10 +107,11 @@ layout: layout-tier2.html
     <p><em>Our goal is to make this a wonderful, memorable, and welcoming conference experience for all our speakers.</em></p>
 
     <ul>
-      <li>Our travel reimbursement covers flights as follows: domestic flights (North America) up to $500 USD, international up to $1,400 USD. Other travel related expenses (taxis, meals not provided at the conference, etc.) are not included and will not be reimbursed.</li>
-      <li>You will receive a complimentary conference hotel stay with breakfast during the conference: we cover Monday and
-        Tuesday nights for 2-Day Pre-Conference Workshop instructors; Wednesday and Thursday nights for the Conference.</li>
-      <li>The speakers’ dinner will be on Thursday evening.</li>
+      <li>We offer a travel stipend as follows: $700 for North American speakers and $1500 for international speakers.</li>
+      <li>Speakers may receive only 1 stipend per conference. Only 1 stipend will be paid per session, regardless of the number of speakers.</li>
+      <li>YSpeakers will receive a complimentary conference ticket and hotel stay (including breakfast) on Tuesday, Wednesday, and Thursday nights.</li>
+      <li>Alternatively, your company can pay for expenses, which increases our ability to fund other conference offerings. We are also happy to offer sponsorship visibility for your company.<li>
+      <li>All speakers are invited to the speakers’ dinner, which will be on Thursday evening.</li>
       <li>For any special requirements or custom agreements, please include it in your submission or <a href="mailto:contact@exploreddd.com">contact us</a>.</li>
     </ul>
 
@@ -122,7 +123,7 @@ layout: layout-tier2.html
 
     <h2 class="page-subheader">Privacy</h2>
 
-    <p>In our CFP the personal information we collect is solely for Explore DDD 2019. We will never provide your email or any other personal information to a third party for marketing purposes. We will use your email for EDDD-related communication. Your name and email will be provided to the conference hotel for room reservation. You name will also be used on printed schedules and name lists. In each case we will clarify how the information will be used as we ask for it.</p>
+    <p>In our CFP the personal information we collect is solely for Explore DDD. We will never provide your email or any other personal information to a third party for marketing purposes. We will use your email for EDDD-related communication. Your name and email will be provided to the conference hotel for room reservation. Your name will also be used on printed schedules and name lists. In each case we will clarify how the information will be used as we ask for it.</p>
 
     <p>You will be asked to agree with our privacy policy when you fill out the CFP. By providing us with the information, you are giving us consent to use it for the purpose we have specified. We will be videoing and photographing participants (speakers, attendees, sponsors etc.) for promotional purposes during the conference.</p>
 
