@@ -74,12 +74,12 @@ layout: layout-tier2.html
 
     <p>We're especially interested in hands-on sessions that include hands-on coding exercises. Be sure to include details about the coding language in your session description so attendees know what to expect.</p>
 
-    <p>What to expect for your hands-on session:  tables groupings or rounds for 6 people; power provided to the tables; screen with HDMI connection; Bluetooth speakers available for sound; easel with Post-it easel pad and markers; rolls of paper; sticky notes and sharpies.  Speakers will not be mic’d.</p>
+    <p>What to expect in your hands-on session space:  screen with HDMI connection; tables groupings or rounds for 6 people; power station in the back of the room; Bluetooth speakers available for sound; easel with Post-it easel pad and markers; rolls of paper; sticky notes and sharpies.  Speakers will not be mic’d.</p>
 
     <p><strong>PRE-CONFERENCE WORKSHOP DETAILS</strong></p>
 		<ul>
 			<li>Workshops will run 8 hours each day with a lunch break</li>
-			<li>We will provide power to tables and screens for slides</li>
+			<li>We will provide a screen with HDMI connection and power stations in the back of the room</li>
 			<li>Let us know your preferred setup in your submission</li>
 		</ul>
 
@@ -96,7 +96,7 @@ layout: layout-tier2.html
 
     <p>Building a program involves lots of trade offs, and often we have the painful task of refusing great proposals for other reasons than the topic. If yours is not accepted, please consider this an <em>invitation to try again next year</em>.</p>
 
-    <p>A 1-minute soft pitch at the beginning or end of your talk is acceptable, but don&#39;t make your talk a sales pitch.</p>
+    <p>A one-minute soft pitch at the beginning or end of your talk is acceptable, but don&#39;t make your talk a sales pitch.   Instead, if you would like to pitch your product or service, we provide plenty of sponsorship opportunities.</p>
 
     <h2 class="page-subheader">Submission Process</h2>
 
@@ -114,14 +114,14 @@ layout: layout-tier2.html
 		<ul>
 			<li>Travel Expenses
 				<ul>
-					<li>We offer a travel stipend as follows: $500 for North American speakers and $1500 for international speakers.</li>
+					<li>We offer a travel stipend as follows: $700 for North American speakers and $1500 for international speakers.</li>
 					<li>Speakers will receive 1 stipend per conference. Only 1 stipend will be paid per session, regardless of the number of speakers.</li>
-					<li>Alternatively, your company can pay for expenses, which increases our ability to fund other conference offerings. We are also happy to offer <a href="../sponsors/">sponsorship visibility for your company</a>.</li>
+					<li>Alternatively, your company can pay for expenses, which increases our ability to fund other conference offerings. We are also happy to offer sponsorship visibility for your company</a>.</li>
 				</ul>
 			</li>
 			<li>Accomodation
 				<ul>
-					<li>Speakers will receive a complimentary conference ticket and hotel stay (including breakfast) on Wednesday, Thursday, and Friday nights.  We also cover Monday and Tuesday nights for the 2-day pre-conference workshop instructors.</li>
+					<li>Speakers will receive a complimentary conference ticket and hotel stay (including breakfast) on Tuesday, Wednesday, and Thursday nights.  We also cover Sunday and Monday nights for the 2-day pre-conference workshop instructors.</li>
 				</ul>
 			</li>
 			<li>Speakers Dinner
@@ -140,7 +140,7 @@ layout: layout-tier2.html
 
     <h2 class="page-subheader">Privacy</h2>
 
-    <p>In our CFP the personal information we collect is solely for Explore DDD. We will never provide your email or any other personal information to a third party for marketing purposes. We will use your email for EDDD-related communication. Your name and email will be provided to the conference hotel for room reservation. Your name will also be used on printed schedules and name lists. In each case we will clarify how the information will be used as we ask for it.</p>
+    <p>In our CFP the personal information we collect is solely for Explore DDD. We will never provide your email or any other personal information to a third party for marketing purposes. We will use your email for EDDD-related communication. Your name and email will be provided to the conference hotel for room reservation. Your name will also be used on printed schedules, name lists, and name badges. In any other case, we will clarify how the information will be used as we ask for it.</p>
 
     <p>You will be asked to agree with our privacy policy when you fill out the CFP. By providing us with the information, you are giving us consent to use it for the purpose we have specified. We will be videoing and photographing participants (speakers, attendees, sponsors etc.) for promotional purposes during the conference.</p>
 
