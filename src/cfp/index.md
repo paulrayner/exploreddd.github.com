@@ -74,7 +74,7 @@ layout: layout-tier2.html
 
     <p>We're especially interested in hands-on sessions that include hands-on coding exercises. Be sure to include details about the coding language in your session description so attendees know what to expect.</p>
 
-    <p>What to expect in your hands-on session space:  screen with HDMI connection; tables groupings or rounds for 6 people; power station in the back of the room; Bluetooth speakers available for sound; easel with Post-it easel pad and markers; rolls of paper; sticky notes and sharpies.  Speakers will not be mic’d.</p>
+    <p>What to expect in your hands-on session space:  screen with HDMI connection; tables groupings or rounds for 4-6 people; power station in the back of the room; Bluetooth speakers available for sound; easel with Post-it easel pad and markers; rolls of paper; sticky notes and sharpies.  Speakers will not be mic’d.</p>
 
     <p><strong>PRE-CONFERENCE WORKSHOP DETAILS</strong></p>
 		<ul>
