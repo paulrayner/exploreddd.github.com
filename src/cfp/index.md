@@ -114,7 +114,7 @@ layout: layout-tier2.html
 		<ul>
 			<li>Travel Expenses
 				<ul>
-					<li>We offer a travel stipend as follows: $600 for North American speakers and $1500 for international speakers.</li>
+					<li>We offer a travel stipend as follows: $700 for North American speakers and $1500 for international speakers.</li>
 					<li>Speakers will receive 1 stipend per conference and 1 stipend will be paid per session, regardless of the number of speakers.</li>
 					<li>Alternatively, your company can pay for expenses, which increases our ability to fund other conference offerings. We are also happy to offer sponsorship visibility for your company</a>.</li>
 				</ul>
