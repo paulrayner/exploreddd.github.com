@@ -6,7 +6,7 @@ layout: layout-tier2.html
 <div class="container">
   <div class="col-lg-6 col-lg-offset-3">
     <h1 class="text-center">Call for Proposal</h1>
-
+    <a class="btn" href="https://sessionize.com/explore-ddd-2025">SUBMIT</a>
     <p>Explore DDD is a conference with Domain-Driven Design at the center, with participants sharing insights, experiences,
     and experiments in real-world software design.</p>
     <p>The main themes of the 2025 conference are:</p>
