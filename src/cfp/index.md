@@ -13,7 +13,7 @@ layout: layout-tier2.html
 
     <ul>
       <li>DDD in the Cloud (includes arch modernization, distributed systems, legacy systems, etc.)</li>
-      <li>DDD with LLMs (carry forward that thread from Eric’s 2024 call to action)</li>
+      <li>DDD with LLMs (carry forward that thread from the call to action in <a href="https://youtu.be/Tll_suxZluk?si=z6t02UfaWhR1Hkls">Eric Evans's 2024 opening keynote)</a></li>
       <li>DDD for Big Data</li>
       <li>Systems Thinking for Software Design</li>
     </ul>
