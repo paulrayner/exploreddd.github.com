@@ -49,7 +49,7 @@ layout: layout.html
 <!--End mc_embed_signup-->
 <div class="container homepage--intro-text">
     <div class="row">
-        <h2 class="text-center">Explore DDD returns to Denver on April 14-17, 2025</h2>
+        <h2 class="text-center">Explore Domain-Driven Design returns to Denver on April 14-17, 2025</h2>
         <p class="text-center"><strong>Join our mailing list and be the first to hear when tickets go on sale!</strong></p>
     </div>
 </div>
@@ -91,7 +91,7 @@ layout: layout.html
         <p class="text-center"><strong><a href="cfp/">CFP</a> NOW OPEN</strong></p>
         <p>
             <ul>
-                <li>Explore DDD brings together an international community of practicing industry experts, developers, software architects, business and technical leaders.</li>
+                <li>Explore Domain-Driven Design brings together an international community of practicing industry experts, developers, software architects, business and technical leaders.</li>
                 <li>World-class talks and hands-on sessions in software modeling and design from pioneers, practitioners and innovators.</li>
                 <li>Optimize your conference experience with expert training by also attending a pre-conference workshop.</li>
                 <li>Conference Days:  April 16 & 17, 2025</li>
@@ -116,7 +116,7 @@ layout: layout.html
 <div class="container">
     <div class="row">
         <p class="text-center">View past conferences: <a href="./2024">2024</a> &#124; <a href="./2019">2019</a> &#124; <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
-        <p class="text-center">Visit and subscribe to the <a href="https://www.youtube.com/exploreddd">ExploreDDD YouTube Channel</a></p>
+        <p class="text-center">Visit and subscribe to the <a href="https://www.youtube.com/exploreddd">Explore DDD YouTube Channel</a></p>
     </div>
 </div>
     </div>
