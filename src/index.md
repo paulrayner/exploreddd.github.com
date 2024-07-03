@@ -49,7 +49,7 @@ layout: layout.html
 <!--End mc_embed_signup-->
 <div class="container homepage--intro-text">
     <div class="row">
-        <h2 class="text-center">Explore Domain-Driven Design returns to Denver on April 14-17, 2025</h2>
+        <h2 class="text-center">Explore Domain-Driven Design returns April 14-17, 2025</h2>
         <p class="text-center"><strong>Join our mailing list and be the first to hear when tickets go on sale!</strong></p>
     </div>
 </div>
