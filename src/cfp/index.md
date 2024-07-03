@@ -9,6 +9,7 @@ layout: layout-tier2.html
     <p class="text-center"><a class="btn" href="https://sessionize.com/explore-ddd-2025" style="margin-bottom: 0;">SUBMIT</a></p>
     <p>Explore DDD is a conference with Domain-Driven Design at the center, with participants sharing insights, experiences,
     and experiments in real-world software design.</p>
+    <p>The CFP deadline is August 30, 2024</p>
     <p>The main themes of the 2025 conference are:</p>
 
     <ul>
