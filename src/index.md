@@ -88,7 +88,6 @@ layout: layout.html
 <!--End mc_embed_signup-->
 <div class="container homepage--intro-text">
     <div class="row">
-        <p class="text-center"><strong>THE 2025 <a href="cfp/">CALL FOR PROPOSALS</a> IS NOW OPEN</strong></p>
         <p>
             <ul>
                 <li>The Explore Domain-Driven Design Conference brings together an international community of practicing industry experts, developers, software architects, business and technical leaders.</li>
