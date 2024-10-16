@@ -1464,21 +1464,26 @@ footer {
 
 .sponsors-page {
 
-	h2 {
-		font-size: $big;
+	#sponsors-container {
+		
+		margin-top: 100px;
+
+		h2 {
+			font-size: $big;
+		}
+		
+		figure {
+			img {
+				margin-bottom: $standard-margin;
+			}
+			.virtual-genius {
+				@include mq(xs) { height: 200px }
+				@include mq(sm) { height: 300px }
+				@include mq(md) {}
+				@include mq(lg) {}
+			}
+		}	
 	}
-	
-	figure {
-		img {
-			margin-bottom: $standard-margin;
-		}
-		.virtual-genius {
-			@include mq(xs) { height: 250px }
-			@include mq(sm) { height: 350px }
-			@include mq(md) {}
-			@include mq(lg) {}
-		}
-	}	
 }
 
 .page-subheader {
