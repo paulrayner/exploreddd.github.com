@@ -53,42 +53,8 @@ layout: layout.html
         <div class="text-center">
             <a class="btn" href="https://ti.to/EDDD/explore-ddd-2025">REGISTER NOW</a>
         </div>
-        <p class="text-center"><strong>Join our mailing list and be the first to hear when tickets go on sale!</strong></p>
     </div>
 </div>
-<!-- Begin MailChimp Signup Form -->
-<div class="row newsletter-signup">
-	<div class="col-xs-12">
-		<style type="text/css">
-			#mc_embed_signup {}
-			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-		</style>
-		<div id="mc_embed_signup">
-			<form action="//exploreddd.us10.list-manage.com/subscribe/post?u=02e9770492ac1e4d472b7e3c6&amp;id=500ef72890" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<div id="mc_embed_signup_scroll">
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2 email-row">
-							<div class="mc-field-group">
-								<input type="email" placeholder="email@address.com" name="EMAIL" class="required email" id="mce-EMAIL">
-							</div>
-							<div id="mce-responses" class="clear">
-								<div class="response" id="mce-error-response" style="display:none"></div>
-								<div class="response" id="mce-success-response" style="display:none"></div>
-							</div>
-							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_02e9770492ac1e4d472b7e3c6_500ef72890" tabindex="-1" value=""></div>
-							<div class="clear"><input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe"></div>
-						</div>
-			</form>
-		</div>
-		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-		<script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-	</div> <!-- col-xs-2 -->
-</div> <!-- row -->
-</div> <!-- col-xs-12 -->
-</div> <!-- row footer newsletter signup -->
-<!--End mc_embed_signup-->
 <div class="container homepage--intro-text">
     <div class="row">
         <p>
@@ -114,12 +80,46 @@ layout: layout.html
         </div>
 </div>
 <div class="container section speakers">
-<p></p></div>
+    <p></p>
+</div>
 <div class="container">
     <div class="row">
         <p class="text-center">View past conferences: <a href="./2024">2024</a> &#124; <a href="./2019">2019</a> &#124; <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
         <p class="text-center">Visit and subscribe to the <a href="https://www.youtube.com/exploreddd">Explore DDD YouTube Channel</a></p>
     </div>
 </div>
-    </div>
+<!-- Begin MailChimp Signup Form -->
+<div class="row newsletter-signup">
+	<div class="col-xs-12">
+		<style type="text/css">
+			#mc_embed_signup {}
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		</style>
+		<div id="mc_embed_signup">
+			<form action="//exploreddd.us10.list-manage.com/subscribe/post?u=02e9770492ac1e4d472b7e3c6&amp;id=500ef72890" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div id="mc_embed_signup_scroll">
+                    <span class="header">SIGN UP TO STAY UPDATED</span>
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 email-row">
+							<div class="mc-field-group">
+								<input type="email" placeholder="email@address.com" name="EMAIL" class="required email" id="mce-EMAIL">
+							</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_02e9770492ac1e4d472b7e3c6_500ef72890" tabindex="-1" value=""></div>
+							<div class="clear"><input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe"></div>
+						</div>
+			</form>
+		</div>
+		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+		<script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+	</div> <!-- col-xs-2 -->
+</div> <!-- row -->
+</div> <!-- col-xs-12 -->
+</div> <!-- row footer newsletter signup -->
+<!--End mc_embed_signup-->
 </div>
