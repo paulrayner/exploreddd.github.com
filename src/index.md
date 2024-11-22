@@ -50,6 +50,9 @@ layout: layout.html
 <div class="container homepage--intro-text">
     <div class="row">
         <h2 class="text-center">Explore Domain-Driven Design returns April 14-17, 2025</h2>
+        <div class="text-center">
+            <a class="btn" href="https://ti.to/EDDD/explore-ddd-2025">REGISTER NOW</a>
+        </div>
         <p class="text-center"><strong>Join our mailing list and be the first to hear when tickets go on sale!</strong></p>
     </div>
 </div>
