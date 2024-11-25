@@ -69,17 +69,8 @@ layout: layout.html
         </div>
     </div>
 </div>
-<div class="container homepage--intro-videos">
-    <div class="row">
-        <div id="player"></div>
-            <!-- Load the YouTube IFrame Player API -->
-            <script src="https://www.youtube.com/iframe_api"></script>
-            <!-- Include the JavaScript file -->
-            <script src="js/youtube.js"></script>
-            <!--<p><a href="https://www.youtube.com/playlist?list=PLC63ae3uCHHb0Ck39g6Cs2mBQwknPsyUg">View 2024 Session Videos</a></p>-->
-        </div>
-</div>
 <div class="container section speakers">
+<h2 class="text-center">Featured Speakers</h2>
 <script type="text/javascript" src="https://sessionize.com/api/v2/zr6x68vw/view/SpeakerWall"></script>
 </div>
 <div class="container">
