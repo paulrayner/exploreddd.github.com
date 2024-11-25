@@ -80,7 +80,7 @@ layout: layout.html
         </div>
 </div>
 <div class="container section speakers">
-    <p></p>
+<script type="text/javascript" src="https://sessionize.com/api/v2/zr6x68vw/view/SpeakerWall"></script>
 </div>
 <div class="container">
     <div class="row">
