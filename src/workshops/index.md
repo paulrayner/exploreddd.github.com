@@ -5,6 +5,4 @@ layout: layout-tier2.html
    <h1 class="text-center">Workshops</h1>
     </div>
 </div>
-<div class="container workshops-index-page">
-
-</div>
+<script type="text/javascript" src="https://sessionize.com/api/v2/q3d6hwxt/view/Sessions"></script>
