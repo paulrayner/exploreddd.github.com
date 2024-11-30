@@ -2,7 +2,7 @@
 layout: layout-tier2.html
 ---
 <div class="container section workshops">
-   <div class="col-lg-10 col-lg-offset-1">
+   <div class="col-lg-6 col-lg-offset-3">
    <h1 class="text-center">Workshops</h1>
 
         <p>2-day pre-conference Workshops are Monday and Tuesday. Each workshop is 2 full days of learning. The workshops are:</p>
