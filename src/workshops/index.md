@@ -17,8 +17,8 @@ layout: layout-tier2.html
         </ul></p>
         </div>
       </div>
+   </div>
     <div>
     <p>
       <script type="text/javascript" src="https://sessionize.com/api/v2/q3d6hwxt/view/Sessions"></script>
    </div>
-</div>
