@@ -53,10 +53,6 @@ layout: layout.html
         <div class="text-center">
             <a class="btn" href="https://ti.to/EDDD/explore-ddd-2025">REGISTER NOW</a>
         </div>
-    </div>
-</div>
-<div class="container homepage--intro-text">
-    <div class="row">
         <p>
             <ul>
                 <li>The Explore Domain-Driven Design Conference brings together an international community of practicing industry experts, developers, software architects, business and technical leaders.</li>
