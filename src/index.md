@@ -67,6 +67,7 @@ layout: layout.html
 	    </ul>
         </p>
         </div>
+	  <p><a href="schedule/index.html">View Full Schedule</a></p>
     </div>
 </div>
 <div class="container section speakers">
