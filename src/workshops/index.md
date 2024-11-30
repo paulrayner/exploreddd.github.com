@@ -18,7 +18,7 @@ layout: layout-tier2.html
         </div>
       </div>
    </div>
-    <div>
+    <div col-lg-10 col-lg-offset-1>
     <p>
       <script type="text/javascript" src="https://sessionize.com/api/v2/q3d6hwxt/view/Sessions"></script>
    </div>
