@@ -16,8 +16,8 @@ layout: layout-tier2.html
             <li>Diana Montalion - <b>Systems Thinking Masterclass</b></li>
         </ul></p>
         </div>
-      </div>
-    <p></p>
-    
+      </div>    
+   <div class="col-lg-12">
       <script type="text/javascript" src="https://sessionize.com/api/v2/q3d6hwxt/view/Sessions"></script>
    </div>
+</div>
