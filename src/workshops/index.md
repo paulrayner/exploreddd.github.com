@@ -14,6 +14,7 @@ layout: layout-tier2.html
         <p>The 2-day pre-conference workshops are:</p>
         <div  style="margin:0 auto; margin-right: auto;text-align:left">
         <p><ul>
+            <li><strong>Software Design Masterclass with Eric Evans</strong> - Eric Evans</li>
             <li><strong>Designing Microservices: Responsibilities, APIs and Collaborations</strong> - Chris Richardson</li>
             <li><strong>Essential Domain-Driven Design</strong> - Paul Rayner</li>
             <li><strong>EventStorming Masterclass</strong> - Alberto Brandolini</li>
