@@ -11,7 +11,7 @@ layout: layout-tier2.html
 
 <p>Tickets are sold separately for the conference and workshops</p>
 
-        <p>The 2-day pre-conference workshops are:</p>
+        <p>The 2-day pre-conference workshops are (see below for workshop descriptions):</p>
         <div  style="margin:0 auto; margin-right: auto;text-align:left">
         <p><ul>
             <li><strong>Software Design Masterclass with Eric Evans</strong> - Eric Evans</li>
