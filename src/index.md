@@ -58,6 +58,7 @@ layout: layout.html
                 <li>The Explore Domain-Driven Design Conference brings together an international community of practicing industry experts, developers, software architects, business and technical leaders.</li>
                 <li>World-class talks and hands-on sessions in software modeling and design from pioneers, practitioners and innovators.</li>
                 <li>Optimize your conference experience with expert training by also attending a pre-conference workshop.</li>
+		<li>Sending a team or have a group coming? If you are buying 5 or more tickets, group discounts are available.</li>
                 <li>Conference Days:  April 16 & 17, 2025</li>
                 <li>Pre-Conference Workshops:  April 14-15, 2025</li>
 	    </ul>
