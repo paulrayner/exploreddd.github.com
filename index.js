@@ -37,12 +37,7 @@ Metalsmith(__dirname)
   //     pattern: "**/*.{html,md}",
   //   })
   // )
-  .use(
-    sass({
-      outputDir: "css/",
-      outputStyle: "compressed",
-    })
-  )
+  .use(sass())
   //  .use(googleAnalytics('UA-37443128-6'))
   // .use(metadata({
   //   ericEvans: 'data/eric-evans.json'
