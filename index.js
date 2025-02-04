@@ -1,11 +1,8 @@
 var Metalsmith        = require('metalsmith'),
     markdown          = require('metalsmith-markdown'),
     layouts           = require('metalsmith-layouts'),
-    metadata          = require('metalsmith-metadata'),
-    permalinks        = require('metalsmith-permalinks'),
     sass              = require('metalsmith-sass'),
     discoverPartials  = require('metalsmith-discover-partials'),
-    discoverHelpers   = require('metalsmith-discover-helpers'),
     watch             = require('metalsmith-watch');
 
 //var googleAnalytics = require('metalsmith-google-analytics')
@@ -32,10 +29,6 @@ Metalsmith(__dirname)
   .use(discoverPartials({
     directory: 'partials',
     pattern: /\.hbs$/
-  }))
-  .use(discoverHelpers({
-    directory: 'helpers',
-    pattern: /\.js$/
   }))
   .use(layouts({
     engine: 'handlebars'
