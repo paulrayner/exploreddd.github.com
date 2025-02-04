@@ -8,7 +8,7 @@
     "@metalsmith/layouts": "^2.7.0",
     "@metalsmith/markdown": "^1.10.0",
     "@metalsmith/sass": "^1.11.0",
-    "handlebars": "^4.7.8",
+    "jstransformer-handlebars": "^1.2.0",
     "metalsmith": "^2.6.3",
     "metalsmith-discover-partials": "^0.1.2",
     "metalsmith-watch": "^1.0.3"

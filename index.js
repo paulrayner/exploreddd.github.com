@@ -7,12 +7,16 @@ var Metalsmith = require("metalsmith"),
 
 //var googleAnalytics = require('metalsmith-google-analytics')
 
+console.log("jess was here a");
+
 var dir = {
   base: __dirname + "/",
   lib: __dirname + "/lib/",
   source: "./src/",
   dest: "./docs/",
 };
+
+console.log("directory " + __dirname);
 
 Metalsmith(__dirname)
   .metadata({
@@ -24,20 +28,15 @@ Metalsmith(__dirname)
   })
   .source("./src")
   .destination("./docs")
-  .clean(false)
+  // .clean(false)
   .use(markdown())
   // .use(permalinks())
-  .use(
-    discoverPartials({
-      directory: "partials",
-      pattern: /\.hbs$/,
-    })
-  )
-  .use(
-    layouts({
-      engine: "handlebars",
-    })
-  )
+  // .use(
+  //   layouts({
+  //     directory: "layouts",
+  //     pattern: "**/*.{html,md}",
+  //   })
+  // )
   .use(
     sass({
       outputDir: "css/",

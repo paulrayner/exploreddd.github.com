@@ -1,3 +1,4 @@
+@use "sass:color";
 //variables
 
 $body-size: 18px;
@@ -415,9 +416,10 @@ nav {
 		}
 	}
 
-	background: $brand-white;
+	& { background: $brand-white;
 	font-family: NunitoSansSemiBold,
 	sans-serif;
+	}
 
 	li {
 		a {
@@ -670,6 +672,7 @@ figure {
 		li {
 			display: inline-block;
 			margin: 0;
+			padding: 0;
 
 			@include mq(xs) {
 				margin-right: 12px;
@@ -680,8 +683,6 @@ figure {
 				margin-right: $standard-margin;
 
 			}
-
-			padding: 0;
 
 			&:last-child {
 				margin-right: 0;
@@ -866,7 +867,7 @@ figure {
 		bottom: 0;
 		width: 100%;
 		z-index: 4;
-		background-color: transparentize($brand-blue, 0.5);
+		background-color: color.adjust($brand-blue, $alpha: -0.5);
 		font-family: NunitoSans, sans-serif;
 		padding-top: $half-margin;
 		padding-bottom: $half-margin;
@@ -882,7 +883,7 @@ figure {
 		}
 
 		@include mq(xs) {
-			background-color: transparentize($brand-blue, 0.3);
+			background-color: color.adjust($brand-blue, $alpha: -0.3);
 		}
 	}
 }
@@ -978,10 +979,10 @@ figure {
 		margin: $half-margin auto $half-margin auto;
 	}
 
-	position: relative;
+	&{ position: relative;
 	width: 150px;
 	height: 150px;
-	margin-top: $half-margin;
+	margin-top: $half-margin;}
 
 	div {
 		width: 80px;
@@ -1697,12 +1698,12 @@ footer {
 		}
 
 		h1 {
+			text-align: left;
+
 			@include mq(xs) {
 				text-align: center;
 				margin-top: 20px !important;
 			}
-
-			text-align: left;
 		}
 
 		h2 {
