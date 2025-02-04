@@ -31,12 +31,14 @@ Metalsmith(__dirname)
   // .clean(false)
   .use(markdown())
   // .use(permalinks())
-  // .use(
-  //   layouts({
-  //     directory: "layouts",
-  //     pattern: "**/*.{html,md}",
-  //   })
-  // )
+  .env("DEBUG", "@metalsmith/layouts*")
+  .use(discoverPartials())
+  .use(
+    layouts({
+      directory: "layouts",
+      pattern: "**/*.{html,md}",
+    })
+  )
   .use(sass())
   //  .use(googleAnalytics('UA-37443128-6'))
   // .use(metadata({
@@ -47,6 +49,7 @@ Metalsmith(__dirname)
       paths: {
         "${source}/**/*": true,
         "partials/**/*": "**/*.md",
+        suppressNoFilesError: true,
       },
       livereload: true,
     })

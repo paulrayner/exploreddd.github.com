@@ -1,5 +1,5 @@
 ---
-layout: layout-tier2.html
+layout: layout-tier2.hbs
 ---
 
 <div class="container">

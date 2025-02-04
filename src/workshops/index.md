@@ -1,6 +1,7 @@
 ---
-layout: layout-tier2.html
+layout: layout-tier2.hbs
 ---
+
 <div class="container section workshops">
    <div class="col-lg-6 col-lg-offset-3">
    <h1 class="text-center">Workshops</h1>
@@ -23,7 +24,8 @@ layout: layout-tier2.html
             <li><strong>Systems Thinking Masterclass</strong> - Diana Montalion</li>
         </ul></p>
         </div>
-      </div>    
+      </div>
+
    <div class="col-lg-12">
       <script type="text/javascript" src="https://sessionize.com/api/v2/q3d6hwxt/view/Sessions"></script>
    </div>

@@ -1,6 +1,7 @@
 ---
-layout: layout-tier2.html
+layout: layout-tier2.hbs
 ---
+
 <div class="container section schedule">
    <h1 class="text-center">Schedule</h1>
     </div>
@@ -14,4 +15,3 @@ layout: layout-tier2.html
     </div>
 
 </div>
- 

@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layout.hbs
 ---
 <div class="container-fluid homepage--hero-video-container">
     <video loop muted autoplay class="video-item">
