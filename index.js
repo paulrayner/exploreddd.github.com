@@ -31,7 +31,7 @@ Metalsmith(__dirname)
   // .clean(false)
   .use(markdown())
   // .use(permalinks())
-  .env("DEBUG", "@metalsmith/layouts*")
+  .env("DEBUG", "@metalsmith/*")
   .use(discoverPartials())
   .use(
     layouts({
