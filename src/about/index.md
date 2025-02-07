@@ -1,6 +1,7 @@
 ---
-layout: layout-tier2.html
+layout: layout-tier2.hbs
 ---
+
 <div class="section hero about"></div>
 <div class="container">
 	<div class="col-lg-6 col-lg-offset-3">

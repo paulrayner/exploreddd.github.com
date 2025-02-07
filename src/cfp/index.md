@@ -1,5 +1,5 @@
 ---
-layout: layout-tier2.html
+layout: layout-tier2.hbs
 ---
 
 <div class="section hero cfp"></div>
@@ -78,11 +78,11 @@ layout: layout-tier2.html
     <p>What to expect in your hands-on session space:  screen with HDMI connection; tables groupings or rounds for 4-6 people; power station in the back of the room; Bluetooth speakers available for sound; easel with Post-it easel pad and markers; rolls of paper; sticky notes and sharpies.  Speakers will not be mic’d.</p>
 
     <p><strong>PRE-CONFERENCE WORKSHOP DETAILS</strong></p>
-		<ul>
-			<li>Workshops will run 8 hours each day with a lunch break</li>
-			<li>We will provide a screen with HDMI connection and power stations in the back of the room</li>
-			<li>Let us know your preferred setup in your submission</li>
-		</ul>
+    	<ul>
+    		<li>Workshops will run 8 hours each day with a lunch break</li>
+    		<li>We will provide a screen with HDMI connection and power stations in the back of the room</li>
+    		<li>Let us know your preferred setup in your submission</li>
+    	</ul>
 
     <h2 class="page-subheader">Increase Your Chances</h2>
 
@@ -150,5 +150,6 @@ layout: layout-tier2.html
     <p>For those traveling to the USA from overseas, information on visa requirements can be found <a href="https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html ">here</a></p>
 
     <p>Depending on your nationality, you may be able to travel on the visa waiver program (VWP) for business. If so, you will need to fill out an Electronic System for Travel Authorization (ESTA). <a href="https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html">The Visa Waiver Program website</a> explains who qualifies for VWP and has a link for completing the ESTA. If you do not qualify for the VWP, you will need to apply for a B-1 Visa.</p>
+
   </div>
 </div>
