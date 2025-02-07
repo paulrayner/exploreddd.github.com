@@ -7,7 +7,7 @@ layout: layout-tier2.hbs
    <h1 class="text-center">Workshops</h1>
 <p>Workshops: Monday and Tuesday, April 14-15, 2025</p>
 <p>Conference: Wednesday and Thursday, April 16-17, 2025</p>
-<p>Tickets are sold separately for the conference and workshops</p>
+<p>Tickets sold separately for the conference and workshops</p>
 <p>The 2-day pre-conference workshops are (see below for workshop descriptions):</p>
 <div style="margin:0 auto; margin-right: auto;text-align:left">
 <p><ul>
@@ -20,7 +20,7 @@ layout: layout-tier2.hbs
    <li><strong>Systems Thinking Masterclass</strong> - Diana Montalion</li>
 </ul></p>
 </div>
-      </div>
+</div>
    <div class="col-lg-12">
       <script type="text/javascript" src="https://sessionize.com/api/v2/q3d6hwxt/view/Sessions"></script>
    </div>
