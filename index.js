@@ -1,5 +1,4 @@
 var Metalsmith = require("metalsmith"),
-  markdown = require("@metalsmith/markdown"),
   layouts = require("@metalsmith/layouts"),
   sass = require("@metalsmith/sass"),
   discoverPartials = require("metalsmith-discover-partials"),
@@ -29,14 +28,13 @@ Metalsmith(__dirname)
   .source("./src")
   .destination("./docs")
   // .clean(false)
-  .use(markdown())
   // .use(permalinks())
-  .env("DEBUG", "@metalsmith/*")
+  //.env("DEBUG", "@metalsmith/*")
   .use(discoverPartials())
   .use(
     layouts({
       directory: "layouts",
-      pattern: "**/*.{html,md}",
+      pattern: "**/*.html",
     })
   )
   .use(sass())
@@ -49,7 +47,6 @@ Metalsmith(__dirname)
       paths: {
         "${source}/**/*": true,
         "partials/**/*": "**/*.md",
-        suppressNoFilesError: true,
       },
       livereload: true,
     })
