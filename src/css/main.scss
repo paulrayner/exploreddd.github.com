@@ -2330,3 +2330,14 @@ blockquote .quote-source {
 .styleguide--label {
 	border-bottom: 1px solid #cdcdcd;
 }
+
+.set-of-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: $standard-margin;
+}
+
+.set-of-cards .card {
+	border: 1px red solid;
+}
