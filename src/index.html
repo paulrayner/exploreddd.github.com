@@ -59,43 +59,49 @@ layout: layout.hbs
         }
         .set-of-cards-for-intro-text .card {
             background-color: #0082c8;
+            background-color:rgba(0,130,200, 0.4);
             border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
             margin: 10px;
             padding: 20px;
+            text-align: center;
+            align-items: center;
         }
         .card.smallish {
-            max-width: 200px;
+            width: 250px;
+            background-color:rgba(0,130,200, 0.1);
         }
     </style>
     <div class="row">
         <!-- I wish we had updated boostrap so I could use their cards. We do not. Updating is invasive. -->
         <div class="set-of-cards-for-intro-text">
-            <div class="card">
-                Participate in sessions on sociotechnical systems, working with Generative AI,
-                and architectural patterns.
+            <div class="card smallish">
+                Reflect on Sociotechnical Systems and Architecture
             </div>
             <div class="card smallish">
-                Explore modern modeling approaches, including Domain-Driven Design.
+                Work with Generative AI
+            </div>
+            <div class="card smallish">
+                Explore modern modeling approaches, including Domain-Driven Design
             </div>
             <div class="card smallish">
                 Tackle real architectural challenges alongside industry experts.
             </div>
-            <div class="card smallish">
-                Form connections with other leaders and thinkers.
-            </div>
+            <!-- <div class="card smallish">
+                Connect with other leaders and thinkers.
+            </div> -->
             <div class="card">
-                Gain practical tools to design and steward maintainable, 
-                scalable software systems and teams.
+                Gain practical tools to steward maintainable, scalable software systems and teams.
             </div>
+           
         </div>
     </div>
     <div class="row">
         <div class="text-center">
+            <p class="text-center"><a href="schedule/index.html">View Full Schedule</a></p>
             <p>
                 Downtown Denver, Colorado. April 16-17, 2025, with optional pre-conference workshops April 14-15. Group rates available for teams of 5+.
             </p>
-            <p class="text-center"><a href="schedule/index.html">View Full Schedule</a></p>
         </div>
     </div>
 </div>
