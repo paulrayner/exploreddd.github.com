@@ -47,24 +47,58 @@ layout: layout.hbs
             This is not your typical conference! 
             Our unique format features one track of expert talks alongside three parallel tracks of experiential
             two-hour workshops.
-          </p><p>
-             Participate in sessions on sociotechnical systems, working with Generative AI,
-              architectural patterns, and modern modeling approaches including Domain-Driven Design.
-            </p><p>
-              Tackle real architectural challenges 
-            alongside industry experts.
-        </p><p>
-              Gain practical tools to design and steward maintainable, 
-              scalable software systems and teams.
-              Form connections with other leaders and thinkers.
-          </p><p>
+          </p>
+        </div>
+    </div>
+    <style>
+        .set-of-cards-for-intro-text {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 0 auto;
+        }
+        .set-of-cards-for-intro-text .card {
+            background-color: #0082c8;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+        }
+        .card.smallish {
+            max-width: 200px;
+        }
+    </style>
+    <div class="row">
+        <!-- I wish we had updated boostrap so I could use their cards. We do not. Updating is invasive. -->
+        <div class="set-of-cards-for-intro-text">
+            <div class="card">
+                Participate in sessions on sociotechnical systems, working with Generative AI,
+                and architectural patterns.
+            </div>
+            <div class="card smallish">
+                Explore modern modeling approaches, including Domain-Driven Design.
+            </div>
+            <div class="card smallish">
+                Tackle real architectural challenges alongside industry experts.
+            </div>
+            <div class="card smallish">
+                Form connections with other leaders and thinkers.
+            </div>
+            <div class="card">
+                Gain practical tools to design and steward maintainable, 
+                scalable software systems and teams.
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-center">
+            <p>
                 Downtown Denver, Colorado. April 16-17, 2025, with optional pre-conference workshops April 14-15. Group rates available for teams of 5+.
             </p>
-        </p>
+            <p class="text-center"><a href="schedule/index.html">View Full Schedule</a></p>
         </div>
-        </div>
-	  <p class="text-center"><a href="schedule/index.html">View Full Schedule</a></p>
     </div>
+</div>
 </div>
 <div class="container section speakers">
 <h2 class="text-center">Featured Speakers</h2>
