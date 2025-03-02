@@ -114,9 +114,3 @@ $(document).ready(function() {
   }).resize();
 });
 
-/* fancybox setup */
-$(document).ready(function() {
-	$("a#single_image").fancybox({
-		'autoSize': true
-	});
-});

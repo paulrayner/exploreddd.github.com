@@ -46,7 +46,8 @@ Metalsmith(__dirname)
     watch({
       paths: {
         "${source}/**/*": true,
-        "partials/**/*": "**/*.md",
+        "partials/**/*": "**/*.hbs",
+        "layouts/**/*": "**/*.hbs",
       },
       livereload: true,
     })
