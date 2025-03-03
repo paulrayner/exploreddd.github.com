@@ -12,3 +12,9 @@ for instance:
 npm install -g live-server
 live-server docs
 ```
+
+## Tracking
+
+This site sends traces to [Honeycomb](https://ui.honeycomb.io/explore-ddd/environments/web/datasets/exploreddd-dot-com/home)
+
+If you're not in the team, click [here](https://ui.honeycomb.io/join_team/explore-ddd) to request access, and then bug jessitron to check her email and authorize you.
