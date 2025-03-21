@@ -1483,6 +1483,24 @@ footer {
 				@include mq(md) {}
 				@include mq(lg) {}
 			}
+			.afterman-software {
+				@include mq(xs) { height: 100px }
+				@include mq(sm) { height: 200px }
+				@include mq(md) {}
+				@include mq(lg) {}
+			}
+			.singlestone {
+				@include mq(xs) { height: 80px }
+				@include mq(sm) { height: 80px }
+				@include mq(md) {}
+				@include mq(lg) {}
+			}
+			.avanscoperta {
+				@include mq(xs) { height: 50px }
+				@include mq(sm) { height: 50px }
+				@include mq(md) {}
+				@include mq(lg) {}
+			}
 		}	
 	}
 }
