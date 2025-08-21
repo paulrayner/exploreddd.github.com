@@ -4,6 +4,12 @@ on:
   push:
     paths:
       - "**.html"
+      - "**.hbs"
+      - "**.js"
+      - "**.scss"
+      - "src/**"
+      - "layouts/**"
+      - "partials/**"
 
 jobs:
   build:
