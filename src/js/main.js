@@ -4,14 +4,16 @@
 // });
 //$(window).load(function(){ //I commented this out since the top banner slide bg wouldn't load until after youtube video grid was fully loaded. document.ready() fires earlier, so I went with that
 $( document ).ready(function() {
-  $('.flexslider').flexslider({
-    animation: "fade",
-    animationLoop: "true",
-    customDirectionNav: $(".custom-navigation .arrow"),
-    start: function(slider){
-      $('body').removeClass('loading');
-    }
-  });
+  if ($('.flexslider').length > 0) {
+    $('.flexslider').flexslider({
+      animation: "fade",
+      animationLoop: "true",
+      customDirectionNav: $(".custom-navigation .arrow"),
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+  }
 });
 
 //homepage anchor scroll link to videos section
