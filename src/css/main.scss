@@ -1,6 +1,10 @@
 @use "sass:color";
 //variables
 
+html {
+	scroll-behavior: smooth;
+}
+
 $body-size: 18px;
 $big: 24px;
 $standard-margin: 30px;
@@ -2367,6 +2371,6 @@ blockquote .quote-source {
 	align-items: center;
 }
 .card.smallish {
-	width: 250px;
+	width: 350px;
 	background-color:rgba(0,130,200, 0.1);
 }
