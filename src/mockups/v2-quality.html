@@ -131,6 +131,48 @@ layout: false
           font-style: italic;
         }
         
+        /* Testimonial Carousel Styles */
+        .v2-testimonial-carousel {
+          position: relative;
+          overflow: hidden;
+          background: white;
+          padding: 30px 15px;
+          border-radius: 8px;
+          margin: 20px 0;
+        }
+        
+        .v2-testimonial-slide {
+          display: none;
+          opacity: 0;
+          transition: opacity 0.5s ease-in-out;
+        }
+        
+        .v2-testimonial-slide.active {
+          display: block;
+          opacity: 1;
+        }
+        
+        .v2-testimonial-dots {
+          text-align: center;
+          margin-top: 20px;
+        }
+        
+        .v2-testimonial-dots .dot {
+          height: 12px;
+          width: 12px;
+          margin: 0 5px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          cursor: pointer;
+          transition: background-color 0.3s;
+        }
+        
+        .v2-testimonial-dots .dot.active,
+        .v2-testimonial-dots .dot:hover {
+          background-color: #0082c8;
+        }
+        
         .v2-enhanced-signup {
           background: linear-gradient(135deg, #0082c8, #0066a0);
           color: white;
@@ -326,22 +368,85 @@ layout: false
             </div>
         </div>
 
-        <!-- Testimonials Placeholder -->
-        <div class="row v2-section">
+        <!-- Testimonials Carousel -->
+        <div class="container">
             <h2 class="text-center" style="margin-bottom: 25px;">What Technical Leaders Say</h2>
             
-            <div class="col-md-6">
-                <div class="v2-testimonial">
-                    <p>"Explore DDD Conference 2024 has come to a close and what an event it was! It was so well crafted by Paul Rayner and team."</p>
-                    <strong>— John Connolly (speaker 2024)</strong>
+            <div class="v2-testimonial-carousel">
+                <div class="v2-testimonial-slide active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"Explore DDD Conference 2024 has come to a close and what an event it was! It was so well crafted by Paul Rayner and team."</p>
+                                <strong>— John Connolly (speaker 2024)</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"A hugely friendly and informative conference, Explore DDD 2024 has blown away my expectations!"</p>
+                                <strong>— Jacqui Read (speaker 2024)</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"Eric Evans' keynote this morning at Explore DDD Conference is the first message that makes the most sense for practical use: Large Language Models & Software Design."</p>
+                                <strong>— Vaughn Vernon (speaker 2024)</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"After a terrific Explore DDD Conference, it's just amazing how much fun it is to meet this community!"</p>
+                                <strong>— Henning Schwentner (speaker 2024)</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"Great talk by Randy Shoup on Large-Scale Architecture: The Unreasonable Effectiveness of Simplicity at Explore DDD Conference this week!"</p>
+                                <strong>— Hemi Trickey (attendee 2024)</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"What a wonderful Explore DDD Conference! Despite the hassles, ExploreDDD was absolutely worth it!"</p>
+                                <strong>— Susanne Kaiser (speaker 2024)</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"I had a pleasure of speaking at #ExploreDDD in Denver. What an inspiring group of practitioners!"</p>
+                                <strong>— Sarah Aslanifar (speaker 2024)</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"Thank you Paul Rayner for Explore DDD Conference and re-energizing the DDD community in the US!"</p>
+                                <strong>— Indu Alagarsamy (speaker 2024)</strong>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="col-md-6">
-                <div class="v2-testimonial">
-                    <p>"A hugely friendly and informative conference, Explore DDD 2024 has blown away my expectations!"</p>
-                    <strong>— Jacqui Read (speaker 2024)</strong>
-                </div>
+            <div class="v2-testimonial-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </div>
         
@@ -416,6 +521,65 @@ layout: false
     <script src="../js/vendor/bootstrap.min.js"></script>
     <script src="../js/vendor/jquery.flexslider-min.js"></script>
     <script src="../js/main.js"></script>
+
+    <script>
+      // Testimonial Carousel JavaScript
+      let currentSlideIndex = 1;
+      let slideInterval;
+      
+      function showSlide(n) {
+        let slides = document.getElementsByClassName("v2-testimonial-slide");
+        let dots = document.getElementsByClassName("dot");
+        
+        if (n > slides.length) { currentSlideIndex = 1; }
+        if (n < 1) { currentSlideIndex = slides.length; }
+        
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].classList.remove("active");
+        }
+        
+        for (let i = 0; i < dots.length; i++) {
+          dots[i].classList.remove("active");
+        }
+        
+        slides[currentSlideIndex - 1].classList.add("active");
+        dots[currentSlideIndex - 1].classList.add("active");
+      }
+      
+      function currentSlide(n) {
+        clearInterval(slideInterval);
+        currentSlideIndex = n;
+        showSlide(currentSlideIndex);
+        startAutoSlide();
+      }
+      
+      function nextSlide() {
+        currentSlideIndex++;
+        showSlide(currentSlideIndex);
+      }
+      
+      function startAutoSlide() {
+        slideInterval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+      }
+      
+      // Initialize carousel when page loads
+      document.addEventListener('DOMContentLoaded', function() {
+        showSlide(currentSlideIndex);
+        startAutoSlide();
+        
+        // Pause on hover
+        const carousel = document.querySelector('.v2-testimonial-carousel');
+        if (carousel) {
+          carousel.addEventListener('mouseenter', function() {
+            clearInterval(slideInterval);
+          });
+          
+          carousel.addEventListener('mouseleave', function() {
+            startAutoSlide();
+          });
+        }
+      });
+    </script>
     
   </body>
 </html>

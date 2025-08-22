@@ -128,6 +128,44 @@ layout: false
           color: #0082c8;
         }
         
+        /* Testimonial Carousel Styles */
+        .v2-testimonial-carousel {
+          position: relative;
+          overflow: hidden;
+        }
+        
+        .v2-testimonial-slide {
+          display: none;
+          opacity: 0;
+          transition: opacity 0.5s ease-in-out;
+        }
+        
+        .v2-testimonial-slide.active {
+          display: block;
+          opacity: 1;
+        }
+        
+        .v2-testimonial-dots {
+          text-align: center;
+          margin-top: 20px;
+        }
+        
+        .v2-testimonial-dots .dot {
+          height: 12px;
+          width: 12px;
+          margin: 0 5px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          cursor: pointer;
+          transition: background-color 0.3s;
+        }
+        
+        .v2-testimonial-dots .dot.active,
+        .v2-testimonial-dots .dot:hover {
+          background-color: #0082c8;
+        }
+        
         .v2-newsletter {
           background: white;
           border: 2px solid #f0b310;
@@ -303,13 +341,58 @@ layout: false
     <div class="container">
         <div class="v2-testimonials">
             <h2 class="text-center" style="font-weight: 600; margin-bottom: 25px;">What Past Attendees Say</h2>
-            <div class="v2-testimonial">
-                "I found my tribe at the #ExploreDDD last week in Denver. What I love about this community of people is that they all care deeply about their craft and want to *build better software*."
-                <div class="v2-testimonial-author">— Brian Zambrano (attendee 2024)</div>
+            
+            <div class="v2-testimonial-carousel">
+                <div class="v2-testimonial-slide active">
+                    <div class="v2-testimonial">
+                        "I found my tribe at the #ExploreDDD last week in Denver. What I love about this community of people is that they all care deeply about their craft and want to *build better software*."
+                        <div class="v2-testimonial-author">— Brian Zambrano (attendee 2024)</div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="v2-testimonial">
+                        "Explore DDD Conference is an incredible community and event! I extend my heartfelt gratitude to Paul Rayner and the entire team for their dedication in making it a reality."
+                        <div class="v2-testimonial-author">— Wei (David) Wang (speaker 2024)</div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="v2-testimonial">
+                        "Back to work after a fun adventure at #ExploreDDD! Paul Rayner, Indu Alagarsamy, Becky, Rachel, and any others who helped with the planning and execution of the event did a fantastic job!"
+                        <div class="v2-testimonial-author">— Sarah Dutkiewicz (attendee 2024)</div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="v2-testimonial">
+                        "Explore DDD was awesome last week. Thank you to Paul Rayner, Rachel Pool, and their entire team for being such gracious hosts and putting together an insightful and fun conference."
+                        <div class="v2-testimonial-author">— David Laribee (speaker 2024)</div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="v2-testimonial">
+                        "Thank you to Paul Rayner and the many other organizers, speakers, and attendees for making the first in-person Explore DDD Conference in several years a fantastic experience."
+                        <div class="v2-testimonial-author">— Daniel Somerfield (attendee 2024)</div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="v2-testimonial">
+                        "As I'm approaching the last leg of my return journey from an all around fantastic #ExploreDDD in Denver, I have so much to be grateful for."
+                        <div class="v2-testimonial-author">— Tobias Goeschel (speaker 2024)</div>
+                    </div>
+                </div>
             </div>
-            <div class="v2-testimonial">
-                "Explore DDD Conference is an incredible community and event! As a speaker, I found immense joy in participating in the conference."
-                <div class="v2-testimonial-author">— Wei (David) Wang (speaker 2024)</div>
+            
+            <div class="v2-testimonial-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
             </div>
         </div>
     </div>
@@ -376,6 +459,65 @@ layout: false
     <script src="../js/vendor/bootstrap.min.js"></script>
     <script src="../js/vendor/jquery.flexslider-min.js"></script>
     <script src="../js/main.js"></script>
+
+    <script>
+      // Testimonial Carousel JavaScript
+      let currentSlideIndex = 1;
+      let slideInterval;
+      
+      function showSlide(n) {
+        let slides = document.getElementsByClassName("v2-testimonial-slide");
+        let dots = document.getElementsByClassName("dot");
+        
+        if (n > slides.length) { currentSlideIndex = 1; }
+        if (n < 1) { currentSlideIndex = slides.length; }
+        
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].classList.remove("active");
+        }
+        
+        for (let i = 0; i < dots.length; i++) {
+          dots[i].classList.remove("active");
+        }
+        
+        slides[currentSlideIndex - 1].classList.add("active");
+        dots[currentSlideIndex - 1].classList.add("active");
+      }
+      
+      function currentSlide(n) {
+        clearInterval(slideInterval);
+        currentSlideIndex = n;
+        showSlide(currentSlideIndex);
+        startAutoSlide();
+      }
+      
+      function nextSlide() {
+        currentSlideIndex++;
+        showSlide(currentSlideIndex);
+      }
+      
+      function startAutoSlide() {
+        slideInterval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+      }
+      
+      // Initialize carousel when page loads
+      document.addEventListener('DOMContentLoaded', function() {
+        showSlide(currentSlideIndex);
+        startAutoSlide();
+        
+        // Pause on hover
+        const carousel = document.querySelector('.v2-testimonial-carousel');
+        if (carousel) {
+          carousel.addEventListener('mouseenter', function() {
+            clearInterval(slideInterval);
+          });
+          
+          carousel.addEventListener('mouseleave', function() {
+            startAutoSlide();
+          });
+        }
+      });
+    </script>
     
   </body>
 </html>

@@ -86,14 +86,27 @@ layout: false
         .v2-stats-bar {
           background: linear-gradient(135deg, #0082c8, #0066a0);
           color: white;
-          padding: 15px;
+          padding: 20px 15px;
           border-radius: 8px;
           text-align: center;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-wrap: wrap;
         }
         
         .v2-stats-bar .stat {
-          display: inline-block;
-          margin: 0 20px;
+          flex: 1;
+          min-width: 120px;
+          padding: 10px;
+          text-align: center;
+        }
+        
+        @media (max-width: 576px) {
+          .v2-stats-bar .stat {
+            min-width: 100px;
+            font-size: 0.9em;
+          }
         }
         
         .v2-learning-path {
@@ -470,10 +483,58 @@ layout: false
                     </div>
                 </div>
                 
+                <div class="v2-testimonial-slide">
+                    <div class="col-md-6">
+                        <div class="v2-testimonial">
+                            <p>"Explore DDD was awesome last week. Thank you to Paul Rayner, Rachel Pool, and their entire team for being such gracious hosts and putting together an insightful and fun conference."</p>
+                            <strong>— David Laribee (speaker 2024)</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="v2-testimonial">
+                            <p>"Back to work after a fun adventure at #ExploreDDD! Paul Rayner, Indu Alagarsamy, Becky, Rachel, and any others who helped did a fantastic job!"</p>
+                            <strong>— Sarah Dutkiewicz (attendee 2024)</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="col-md-6">
+                        <div class="v2-testimonial">
+                            <p>"As I'm approaching the last leg of my return journey from an all around fantastic #ExploreDDD in Denver, I have so much to be grateful for."</p>
+                            <strong>— Tobias Goeschel (speaker 2024)</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="v2-testimonial">
+                            <p>"After a terrific Explore DDD Conference, it's just amazing how much fun it is to meet this community!"</p>
+                            <strong>— Henning Schwentner (speaker 2024)</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="col-md-6">
+                        <div class="v2-testimonial">
+                            <p>"I had a pleasure of speaking at #ExploreDDD in Denver. What an inspiring group of practitioners!"</p>
+                            <strong>— Sarah Aslanifar (speaker 2024)</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="v2-testimonial">
+                            <p>"Thank you Paul Rayner for Explore DDD Conference and re-energizing the DDD community in the US! I'm taking home so many happy memories!"</p>
+                            <strong>— Indu Alagarsamy (speaker 2024)</strong>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="v2-testimonial-dots">
                     <span class="dot active" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
                 </div>
             </div>
         </div>
@@ -587,7 +648,7 @@ layout: false
       }
       
       function startAutoSlide() {
-        slideInterval = setInterval(nextSlide, 6000); // Change slide every 6 seconds
+        slideInterval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
       }
       
       // Initialize carousel when page loads
