@@ -136,6 +136,48 @@
           font-style: italic;
         }
         
+        /* Testimonial Carousel Styles */
+        .v2-testimonial-carousel {
+          position: relative;
+          overflow: hidden;
+          background: white;
+          padding: 30px 15px;
+          border-radius: 8px;
+          margin: 20px 0;
+        }
+        
+        .v2-testimonial-slide {
+          display: none;
+          opacity: 0;
+          transition: opacity 0.5s ease-in-out;
+        }
+        
+        .v2-testimonial-slide.active {
+          display: block;
+          opacity: 1;
+        }
+        
+        .v2-testimonial-dots {
+          text-align: center;
+          margin-top: 20px;
+        }
+        
+        .v2-testimonial-dots .dot {
+          height: 12px;
+          width: 12px;
+          margin: 0 5px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          cursor: pointer;
+          transition: background-color 0.3s;
+        }
+        
+        .v2-testimonial-dots .dot.active,
+        .v2-testimonial-dots .dot:hover {
+          background-color: #0082c8;
+        }
+        
         .v2-enhanced-signup {
           background: linear-gradient(135deg, #0082c8, #0066a0);
           color: white;
@@ -343,22 +385,85 @@
             </div>
         </div>
 
-        <!-- Testimonials Placeholder -->
-        <div class="row v2-section">
+        <!-- Testimonials Carousel -->
+        <div class="container">
             <h2 class="text-center" style="margin-bottom: 25px;">What Workshop Participants Say</h2>
             
-            <div class="col-md-6">
-                <div class="v2-testimonial">
-                    <p>"I'm heading home energized and refreshed with lots of ideas on some next steps on our DDD implementation!"</p>
-                    <strong>— Matt Jones (speaker 2024)</strong>
+            <div class="v2-testimonial-carousel">
+                <div class="v2-testimonial-slide active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"I'm heading home energized and refreshed with lots of ideas on some next steps on our DDD implementation!"</p>
+                                <strong>— Matt Jones (speaker 2024)</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"The workshops have been engaging and I've learned so much! Already, I'm excited to come back next year."</p>
+                                <strong>— Mindi Weik (attendee 2024)</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"What a wow learning experience 'Gardening legacy modernization with Estuarine Mapping and the Cynefin Framework' at Explore DDD Conference 2024."</p>
+                                <strong>— Xin Yao (speaker 2024)</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"Thank you Paul Rayner for Explore DDD Conference and re-energizing the DDD community! I had an amazing experience teaching a 2 day workshop with Nick Tune."</p>
+                                <strong>— Indu Alagarsamy (speaker 2024)</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"All of the talks and sessions I attended were thought-provoking and inspiring. Holly B.'s hands-on session raised awareness of product thinking."</p>
+                                <strong>— David Laribee (speaker 2024)</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"Thanks, also, to the people who came out to my 'Creating Your Experiential and Immersive Learning Playbook' hands-on session."</p>
+                                <strong>— David Laribee (speaker 2024)</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="v2-testimonial-slide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"🤯 I'm blown away and having an absolute blast at Explore DDD Conference! THIS is what I've been looking for."</p>
+                                <strong>— Mindi Weik (attendee 2024)</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="v2-testimonial">
+                                <p>"It was amazing to learn from and watch Alberto Brandolini during the EventStorming masterclass. Grazie!"</p>
+                                <strong>— Brian Zambrano (attendee 2024)</strong>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="col-md-6">
-                <div class="v2-testimonial">
-                    <p>"The workshops have been engaging and I've learned so much! Already, I'm excited to come back next year."</p>
-                    <strong>— Mindy Weik (attendee 2024)</strong>
-                </div>
+            <div class="v2-testimonial-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </div>
         
@@ -433,6 +538,65 @@
     <script src="../js/vendor/bootstrap.min.js"></script>
     <script src="../js/vendor/jquery.flexslider-min.js"></script>
     <script src="../js/main.js"></script>
+
+    <script>
+      // Testimonial Carousel JavaScript
+      let currentSlideIndex = 1;
+      let slideInterval;
+      
+      function showSlide(n) {
+        let slides = document.getElementsByClassName("v2-testimonial-slide");
+        let dots = document.getElementsByClassName("dot");
+        
+        if (n > slides.length) { currentSlideIndex = 1; }
+        if (n < 1) { currentSlideIndex = slides.length; }
+        
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].classList.remove("active");
+        }
+        
+        for (let i = 0; i < dots.length; i++) {
+          dots[i].classList.remove("active");
+        }
+        
+        slides[currentSlideIndex - 1].classList.add("active");
+        dots[currentSlideIndex - 1].classList.add("active");
+      }
+      
+      function currentSlide(n) {
+        clearInterval(slideInterval);
+        currentSlideIndex = n;
+        showSlide(currentSlideIndex);
+        startAutoSlide();
+      }
+      
+      function nextSlide() {
+        currentSlideIndex++;
+        showSlide(currentSlideIndex);
+      }
+      
+      function startAutoSlide() {
+        slideInterval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+      }
+      
+      // Initialize carousel when page loads
+      document.addEventListener('DOMContentLoaded', function() {
+        showSlide(currentSlideIndex);
+        startAutoSlide();
+        
+        // Pause on hover
+        const carousel = document.querySelector('.v2-testimonial-carousel');
+        if (carousel) {
+          carousel.addEventListener('mouseenter', function() {
+            clearInterval(slideInterval);
+          });
+          
+          carousel.addEventListener('mouseleave', function() {
+            startAutoSlide();
+          });
+        }
+      });
+    </script>
     
   </body>
 </html>
