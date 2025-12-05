@@ -3,13 +3,13 @@
 //   SyntaxHighlighter.all();
 // });
 //$(window).load(function(){ //I commented this out since the top banner slide bg wouldn't load until after youtube video grid was fully loaded. document.ready() fires earlier, so I went with that
-$( document ).ready(function() {
+$(document).ready(function () {
   if ($('.flexslider').length > 0) {
     $('.flexslider').flexslider({
       animation: "fade",
       animationLoop: "true",
       customDirectionNav: $(".custom-navigation .arrow"),
-      start: function(slider){
+      start: function (slider) {
         $('body').removeClass('loading');
       }
     });
@@ -36,52 +36,52 @@ $( document ).ready(function() {
 window.onresize = onResizing;
 window.onload = onResizing;*/
 
-function scrollToAnchor(aid){
+function scrollToAnchor(aid) {
 
-  if ((window.innerWidth < 768))  {
+  if ((window.innerWidth < 768)) {
     console.log('narrow viewport');
     var scrollOffset = 52;
   }
-  if ((window.innerWidth > 768 && window.innerWidth < 992))  {
+  if ((window.innerWidth > 768 && window.innerWidth < 992)) {
     console.log('medium viewport');
     var scrollOffset = 60;
   }
-  else if ((window.innerWidth > 992))  {
+  else if ((window.innerWidth > 992)) {
     console.log('wide viewport');
     var scrollOffset = 75;
   }
 
-  var aTag = $("a[name='"+ aid +"']");
-  $('html,body').animate({scrollTop: aTag.offset().top - scrollOffset - 20},'slow');
+  var aTag = $("a[name='" + aid + "']");
+  $('html,body').animate({ scrollTop: aTag.offset().top - scrollOffset - 20 }, 'slow');
   console.log('offset is ' + scrollOffset);
 }
 
-$('.view-videos').on('click', function(e){
+$('.view-videos').on('click', function (e) {
   scrollToAnchor('videos');
 });
 
 //Submenu Toggles
 
-$('.submenu-toggle').on('click', function(e){
+$('.submenu-toggle').on('click', function (e) {
   var parent = $(e.currentTarget).parent();
   parent.toggleClass('open');
 });
 
-$('.nav-list-item.submenu').mouseover(function(e){
+$('.nav-list-item.submenu').mouseover(function (e) {
   if ($(window).width() > 618) {
     $('.nav-list-item').removeClass('open');
     $(e.currentTarget).addClass('open');
   }
 });
 
-$('.nav-list-item.submenu').mouseout(function(e){
+$('.nav-list-item.submenu').mouseout(function (e) {
   if ($(window).width() > 618) {
     //$('.nav-list-item').removeClass('open');
     $(e.currentTarget).removeClass('open');
   }
 });
 
-$('.nav-submenu').mouseout(function(e){
+$('.nav-submenu').mouseout(function (e) {
   var parent = $(e.currentTarget).parent();
   if ($(window).width() > 618) {
     $(parent).removeClass('open');
@@ -89,30 +89,43 @@ $('.nav-submenu').mouseout(function(e){
 });
 
 //Schedule Page jQuery
-$(function(){
-  $('#showall').click(function(){
+$(function () {
+  $('#showall').click(function () {
     $('.targetDiv').fadeIn();
-});
-$('.showSingle').click(function(){
-  $('.targetDiv').hide();
-  $('#div'+$(this).attr('target')).fadeIn();
+  });
+  $('.showSingle').click(function () {
+    $('.targetDiv').hide();
+    $('#div' + $(this).attr('target')).fadeIn();
   });
 });
 
-$(document).ready(function() {
-  $(window).resize(function() {
-      var bodyheight = $(this).height();
-      var navheight = $('.navbar').outerHeight(true);
-      var homepagetopbar = $('.homepage--top-bar').outerHeight(true);
-      $("#sidebar").height(bodyheight);
-      var videoheight = bodyheight - navheight - homepagetopbar;
-      $(".homepage--hero-video-container").css("margin-top",homepagetopbar);
-      $(".homepage--hero-video-container").css("height",videoheight);
+$(document).ready(function () {
+  $(window).resize(function () {
+    var bodyheight = $(this).height();
+    var navheight = $('.navbar').outerHeight(true);
+    var homepagetopbar = $('.homepage--top-bar').outerHeight(true);
+    $("#sidebar").height(bodyheight);
+    var videoheight = bodyheight - navheight - homepagetopbar;
+    $(".homepage--hero-video-container").css("margin-top", homepagetopbar);
+    $(".homepage--hero-video-container").css("height", videoheight);
 
-      //make covid-19 alert notice appear at the correct vertical location
-      var topStuff = navheight + homepagetopbar;
-      $(".alert-covid-notice").css("top",topStuff);
+    //make covid-19 alert notice appear at the correct vertical location
+    var topStuff = navheight + homepagetopbar;
+    $(".alert-covid-notice").css("top", topStuff);
 
   }).resize();
+
+  // Video pause/play toggle
+  $('.video-pause-btn').on('click', function () {
+    var video = $('.video-item')[0];
+    var btn = $(this);
+    if (video.paused) {
+      video.play();
+      btn.html('❚❚').attr('aria-label', 'Pause background video').attr('title', 'Pause video');
+    } else {
+      video.pause();
+      btn.html('▶').attr('aria-label', 'Play background video').attr('title', 'Play video');
+    }
+  });
 });
 

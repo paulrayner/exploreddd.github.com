@@ -401,6 +401,7 @@ nav {
 
 .navbar {
 	margin-bottom: 0;
+
 	.not-container {
 		.navbar-header {
 			@include mq(sm) {
@@ -411,6 +412,7 @@ nav {
 					margin-top: 2px;
 				}
 			}
+
 			@include mq(lg) {
 				a {
 					display: inline-block;
@@ -420,9 +422,10 @@ nav {
 		}
 	}
 
-	& { background: $brand-white;
-	font-family: NunitoSansSemiBold,
-	sans-serif;
+	& {
+		background: $brand-white;
+		font-family: NunitoSansSemiBold,
+			sans-serif;
 	}
 
 	li {
@@ -475,8 +478,7 @@ nav {
 
 }
 
-.nav-list-item:not(:first-child) {
-}
+.nav-list-item:not(:first-child) {}
 
 //Hero image banners base style (image url handled individually)
 .hero {
@@ -866,6 +868,35 @@ figure {
 		}
 	}
 
+	.video-pause-btn {
+		position: absolute;
+		bottom: 100px;
+		right: 20px;
+		z-index: 10;
+		background-color: color.adjust($brand-blue, $alpha: -0.3);
+		color: white;
+		border: none;
+		border-radius: 50%;
+		width: 44px;
+		height: 44px;
+		font-size: 14px;
+		cursor: pointer;
+		transition: background-color 0.2s ease;
+
+		&:hover {
+			background-color: color.adjust($brand-blue, $alpha: -0.1);
+		}
+
+		&:focus {
+			outline: 2px solid white;
+			outline-offset: 2px;
+		}
+
+		@include mq(xs) {
+			display: none; // Hide on mobile since video is hidden too
+		}
+	}
+
 	.homepage--big-text {
 		position: absolute;
 		bottom: 0;
@@ -905,6 +936,7 @@ figure {
 		margin-left: $standard-margin;
 		margin-right: $standard-margin;
 	}
+
 	iframe {
 		display: inline-block;
 		text-align: center;
@@ -939,6 +971,7 @@ figure {
 
 		.speaker-container {
 			width: 155px;
+
 			p {
 				margin-bottom: 0 !important;
 			}
@@ -983,10 +1016,12 @@ figure {
 		margin: $half-margin auto $half-margin auto;
 	}
 
-	&{ position: relative;
-	width: 150px;
-	height: 150px;
-	margin-top: $half-margin;}
+	& {
+		position: relative;
+		width: 150px;
+		height: 150px;
+		margin-top: $half-margin;
+	}
 
 	div {
 		width: 80px;
@@ -1004,25 +1039,27 @@ figure {
 			background-size: 150%;
 			background-position: -20px;
 		}
+
 		&.nick-tune {
 			background-image: url('../img/speakers/nick-tune.jpg');
 			background-size: 110%;
 			background-position: -5px 0px;
 		}
+
 		&.indu-alagarsamy {
 			background-image: url('../img/speakers/indu-alagarsamy.jpg');
 			background-size: 150%;
 			background-position: -20px;
 		}
 	}
-	
+
 	div:last-of-type {
 		bottom: 0;
 		right: 0;
 		margin-left: auto;
-	}	
+	}
 
-	
+
 }
 
 .co-workshop-img {
@@ -1051,14 +1088,16 @@ figure {
 //new speaker image approach that doesn't require circle crops of images in photo editing software prior to inclusion in site
 
 .page-img-container {
- img {
-	width: 150px;
-	height: 150px;
-	border-radius: 150px;
-	margin-top: $standard-margin;
- }
+	img {
+		width: 150px;
+		height: 150px;
+		border-radius: 150px;
+		margin-top: $standard-margin;
+	}
 }
-.new-speaker-img, .new-speaker-page-img {
+
+.new-speaker-img,
+.new-speaker-page-img {
 
 	display: block;
 	height: 150px;
@@ -1076,204 +1115,244 @@ figure {
 		background-size: 125%;
 		background-position: -35px 0px;
 	}
+
 	&.anita-kvamme {
 		background-image: url('../img/speakers/anita-kvamme.jpg');
 		background-size: 125%;
 		background-position: -20px -10px;
 	}
+
 	&.dave-buchanan {
 		background-image: url('../img/speakers/dave-buchanan.jpg');
 		background-size: 225%;
 		background-position: -30px -140px;
 	}
+
 	&.david-laribee {
 		background-image: url('../img/speakers/david-laribee.jpg');
-		background-size:115%;
+		background-size: 115%;
 		background-position: -10px 0px;
 	}
+
 	&.erik-shafer {
 		background-image: url('../img/speakers/erik-shafer.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.holly-bielawa {
 		background-image: url('../img/speakers/holly-bielawa.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.jacqui-read {
 		background-image: url('../img/speakers/jacqui-read.jpg');
-		background-size:100%;
+		background-size: 100%;
 		background-position: 0px 0px;
 	}
+
 	&.james-higginbotham {
 		background-image: url('../img/speakers/james-higginbotham.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.javiera-laso {
 		background-image: url('../img/speakers/javiera-laso.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.jessica-kerr {
 		background-image: url('../img/speakers/jessica-kerr.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.john-connolly {
 		background-image: url('../img/speakers/john-connolly.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.john-feminella {
 		background-image: url('../img/speakers/john-feminella.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.joseph-yoder {
 		background-image: url('../img/speakers/joseph-yoder.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.matt-jones {
 		background-image: url('../img/speakers/matt-jones.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.matteo-cavucci {
 		background-image: url('../img/speakers/matteo-cavucci.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: 0px 0px;
 	}
+
 	&.nathan-marrs {
 		background-image: url('../img/speakers/nathan-marrs.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: 0px 0px;
 	}
+
 	&.pete-williams {
 		background-image: url('../img/speakers/pete-williams.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: 0px 0px;
 	}
+
 	&.phillip-bohnenkamp {
 		background-image: url('../img/speakers/phillip-bohnenkamp.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: 0px 0px;
 	}
+
 	&.ryan-shriver {
 		background-image: url('../img/speakers/ryan-shriver.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: 0px 0px;
 	}
+
 	&.sarah-aslanifar {
 		background-image: url('../img/speakers/sarah-aslanifar.jpg');
-		background-size:150%;
+		background-size: 150%;
 		background-position: -40px 0px;
 	}
+
 	&.sonya-natanzon {
 		background-image: url('../img/speakers/sonya-natanzon.jpg');
-		background-size:150%;
+		background-size: 150%;
 		background-position: -40px 0px;
 	}
+
 	&.thomas-betts {
 		background-image: url('../img/speakers/thomas-betts.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: 0px 0px;
 	}
+
 	&.tom-wheeler {
 		background-image: url('../img/speakers/tom-wheeler.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.xin-yao {
 		background-image: url('../img/speakers/xin-yao.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px -20px;
 	}
+
 	&.zsófia-herendi {
 		background-image: url('../img/speakers/zsófia-herendi.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: 0px 0px;
 	}
+
 	&.john-phamvan {
 		background-image: url('../img/speakers/john-phamvan.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.adrien-abrams {
 		background-image: url('../img/speakers/adrien-abrams.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.wei-wang {
 		background-image: url('../img/speakers/wei-david-wang.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.zhen-goh {
 		background-image: url('../img/speakers/zhen-goh.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.alberto-acerbis {
 		background-image: url('../img/speakers/alberto-acerbis.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.alessandro-colla {
 		background-image: url('../img/speakers/alessandro-colla.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.ivan-ortega {
 		background-image: url('../img/speakers/ivan-ortega.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.stefan-hofer {
 		background-image: url('../img/speakers/stefan-hofer.jpg');
-		background-size:150%;
+		background-size: 150%;
 		background-position: -35px 0px;
 	}
+
 	&.henning-schwentner {
 		background-image: url('../img/speakers/henning-schwentner.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.dan-young-and-mike-rozinsky {
 		background-image: url('../img/speakers/dan-young-and-mike-rozinsky.jpg');
 		background-size: 130%;
 		background-position: -30px 0px;
 	}
+
 	&.tobias-goeschel {
 		background-image: url('../img/speakers/tobias-goeschel.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.jerry-nixon {
 		background-image: url('../img/speakers/jerry-nixon.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.davide-mauri {
 		background-image: url('../img/speakers/davide-mauri.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
 	&.adela-almasan {
 		background-image: url('../img/speakers/adela-almasan.jpg');
-		background-size:120%;
+		background-size: 120%;
 		background-position: -18px 0px;
 	}
+
 	&.eric-evans {
 		background-image: url('../img/speakers/eric-evans.jpg');
-		background-size:170%;
+		background-size: 170%;
 		background-position: -15px -20px;
 	}
+
 	&.xi-palazzolo {
 		background-image: url('../img/speakers/xi-palazzolo.jpg');
-		background-size:110%;
+		background-size: 110%;
 		background-position: -10px 0px;
 	}
 }
@@ -1304,6 +1383,7 @@ figure {
 	&.alberto-brandolini {
 		background-image: url('../img/speakers/sprite-alberto-brandolini.jpg');
 	}
+
 	&.nivia-henry {
 		background-image: url('../img/speakers/sprite-nivia-henry.jpg');
 	}
@@ -1311,21 +1391,27 @@ figure {
 	&.chris-richardson {
 		background-image: url('../img/speakers/sprite-chris-richardson.jpg');
 	}
+
 	&.randy-shoup {
 		background-image: url('../img/speakers/sprite-randy-shoup.jpg');
 	}
+
 	&.susanne-kaiser {
 		background-image: url('../img/speakers/sprite-susanne-kaiser.jpg');
 	}
+
 	&.diana-montalion {
 		background-image: url('../img/speakers/sprite-diana-montalion.jpg');
 	}
+
 	&.indu-alagarsamy {
 		background-image: url('../img/speakers/sprite-indu-alagarsamy.jpg');
 	}
+
 	&.nick-tune {
 		background-image: url('../img/speakers/sprite-nick-tune.jpg');
 	}
+
 	&.lesley-cordero {
 		background-image: url('../img/speakers/sprite-lesley-cordero.jpg');
 	}
@@ -1453,6 +1539,7 @@ footer {
 	.item,
 	.organized-by-item {
 		width: 300px;
+
 		img {
 			width: 95%;
 			height: auto;
@@ -1470,42 +1557,74 @@ footer {
 .sponsors-page {
 
 	#sponsors-container {
-		
+
 		margin-top: 100px;
 
 		h2 {
 			font-size: $big;
 		}
-		
+
 		figure {
 			img {
 				margin-bottom: $standard-margin;
 			}
+
 			.virtual-genius {
-				@include mq(xs) { height: 200px }
-				@include mq(sm) { height: 300px }
+				@include mq(xs) {
+					height: 200px
+				}
+
+				@include mq(sm) {
+					height: 300px
+				}
+
 				@include mq(md) {}
+
 				@include mq(lg) {}
 			}
+
 			.afterman-software {
-				@include mq(xs) { height: 80px }
-				@include mq(sm) { height: 100px }
+				@include mq(xs) {
+					height: 80px
+				}
+
+				@include mq(sm) {
+					height: 100px
+				}
+
 				@include mq(md) {}
+
 				@include mq(lg) {}
 			}
+
 			.singlestone {
-				@include mq(xs) { height: 60px }
-				@include mq(sm) { height: 60px }
+				@include mq(xs) {
+					height: 60px
+				}
+
+				@include mq(sm) {
+					height: 60px
+				}
+
 				@include mq(md) {}
+
 				@include mq(lg) {}
 			}
+
 			.avanscoperta {
-				@include mq(xs) { height: 40px }
-				@include mq(sm) { height: 40px }
+				@include mq(xs) {
+					height: 40px
+				}
+
+				@include mq(sm) {
+					height: 40px
+				}
+
 				@include mq(md) {}
+
 				@include mq(lg) {}
 			}
-		}	
+		}
 	}
 }
 
@@ -1605,10 +1724,11 @@ footer {
 }
 
 .featured-speaker {
-//This is how we do new speaker images now
+
+	//This is how we do new speaker images now
 	.new-speaker-page-img {
 		margin-top: $standard-margin !important;
-	}		
+	}
 }
 
 
@@ -1759,7 +1879,8 @@ footer {
 //Workshop page (individual)
 .workshop-single-page {
 
-	.new-speaker-img, .speaker-img,
+	.new-speaker-img,
+	.speaker-img,
 	.co-workshop-img {
 		margin-top: 25px; //not quite $standard-margin height here since the static blue bar isnt quite the right height
 	}
@@ -1812,15 +1933,14 @@ h3.sz-session__title {
 //end Feb 2024 sessionize schedule overrides
 
 .schedule {
-	.schedule-index-page {
-		
-	}
+	.schedule-index-page {}
 }
 
 /* override the z-index values introduced from sessionize javascript inclusion 
    The schedule grid will overlap the blue top bar without the following ruleset 
 */
-.sz-room, .sz-session {
+.sz-room,
+.sz-session {
 	z-index: 0 !important;
 }
 
@@ -2016,6 +2136,7 @@ h3.sz-session__title {
 	.time-cell {
 		width: 15.6%;
 	}
+
 	.details {
 		width: 21%;
 	}
@@ -2240,9 +2361,11 @@ h3.sz-session__title {
 			display: block;
 			margin: $standard-margin auto $half-margin auto;
 		}
+
 		@include mq(sm) {
 			margin: $half-margin;
 		}
+
 		@include mq(md) {
 			display: inline-block;
 		}
@@ -2255,7 +2378,7 @@ h3.sz-session__title {
 		@include mq(lg) {}
 	}*/
 }
-		
+
 
 .about.hero {
 	background-image: url('../img/hero-standard-placeholder.jpg');
@@ -2360,9 +2483,10 @@ blockquote .quote-source {
 	justify-content: space-around;
 	margin: 0 auto;
 }
+
 .set-of-cards-for-intro-text .card {
 	background-color: #0082c8;
-	background-color:rgba(0,130,200, 0.4);
+	background-color: rgba(0, 130, 200, 0.4);
 	border-radius: 5px;
 	/* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
 	margin: 10px;
@@ -2370,7 +2494,8 @@ blockquote .quote-source {
 	text-align: center;
 	align-items: center;
 }
+
 .card.smallish {
 	width: 350px;
-	background-color:rgba(0,130,200, 0.1);
+	background-color: rgba(0, 130, 200, 0.1);
 }
