@@ -2,11 +2,12 @@
 layout: layout.hbs
 ---
 <div class="container-fluid homepage--hero-video-container">
-    <video loop muted autoplay class="video-item">
+    <video loop muted autoplay disablePictureInPicture class="video-item">
         <source src="video/background-video.webm" type="video/webm">
         <source src="video/background-video.mp4" type="video/mp4">
         <source src="video/background-video.ogv" type="video/ogg">
     </video>
+    <button class="video-pause-btn" aria-label="Pause background video" title="Pause video">❚❚</button>
     <div class="video-overlay">
         <div class="homepage--big-text">
             <div class="big-text">Elevating Software Architecture</div>
@@ -40,13 +41,14 @@ layout: layout.hbs
         <h2 class="text-center">Stay Updated on Explore DDD</h2>
         <div class="text-center">
             <a class="btn" href="#mc_embed_signup">STAY UPDATED</a>
-        <p>
-            Deepen your software design practice this April at an immersive event for technical leaders.
-        </p><p> 
-            Explore is not your typical conference! 
-            Our unique format features one track of expert talks alongside three parallel tracks of experiential
-            two-hour workshops.
-          </p>
+            <p>
+                Deepen your software design practice this April at an immersive event for technical leaders.
+            </p>
+            <p>
+                Explore is not your typical conference!
+                Our unique format features one track of expert talks alongside three parallel tracks of experiential
+                two-hour workshops.
+            </p>
         </div>
     </div>
     <div class="row">
@@ -70,27 +72,34 @@ layout: layout.hbs
             <div class="card smallish">
                 Gain practical tools to steward maintainable, scalable software systems and teams.
             </div>
-           
+
         </div>
     </div>
     <div class="row">
         <div class="text-center">
             <p class="text-center"><a href="schedule/index.html">View Full Schedule</a></p>
             <p>
-                Downtown Denver, Colorado. April 16-17, 2025, with optional pre-conference workshops April 14-15. Group rates available for teams of 5+.
+                Downtown Denver, Colorado. September 23-25, 2026, with optional pre-conference workshops September
+                21-22. Group rates available for teams of 5+.
             </p>
         </div>
     </div>
 </div>
 </div>
 <div class="container section speakers">
-<h2 class="text-center">Featured Speakers</h2>
-<script type="text/javascript" src="https://sessionize.com/api/v2/zr6x68vw/view/SpeakerWall"></script>
+    <h2 class="text-center">Featured Speakers</h2>
+    <!-- TODO: Update Sessionize API endpoint for 2026 when CFP opens in mid-December -->
+    <!-- <script type="text/javascript" src="https://sessionize.com/api/v2/XXXXX/view/SpeakerWall"></script> -->
+    <p class="text-center">Speaker lineup coming soon! CFP opens mid-December 2025.</p>
 </div>
 <div class="container">
     <div class="row">
-        <p class="text-center">View past conferences: <a href="./2024">2024</a> &#124; <a href="./2019">2019</a> &#124; <a href="./2018">2018</a> &#124; <a href="./2017">2017</a></p>
-        <p class="text-center">Visit and subscribe to the <a href="https://www.youtube.com/exploreddd">Explore DDD YouTube Channel</a></p>
+        <p class="text-center">View past conferences: <a href="./2025">2025</a> &#124; <a href="./2024">2024</a> &#124;
+            <a href="./2019">2019</a> &#124;
+            <a href="./2018">2018</a> &#124; <a href="./2017">2017</a>
+        </p>
+        <p class="text-center">Visit and subscribe to the <a href="https://www.youtube.com/exploreddd">Explore DDD
+                YouTube Channel</a></p>
     </div>
 </div>
 </div> <!-- col-xs-12 -->

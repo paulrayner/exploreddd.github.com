@@ -1,0 +1,2376 @@
+@use "sass:color";
+//variables
+
+html {
+	scroll-behavior: smooth;
+}
+
+$body-size: 18px;
+$big: 24px;
+$standard-margin: 30px;
+$half-margin: 15px;
+$quarter-margin: 7px;
+
+//$brand-blue: #0082c8;
+$brand-blue: rgb(0, 130, 200);
+$brand-yellow: rgb(240, 179, 16);
+$brand-white: #fff;
+$brand-body: #000000;
+
+$brand-nav-hover: #ffc423;
+$brand-background: #e5f2f9;
+
+$brand-body-link: #f0b310;
+$brand-body-link-hover: #ffc423;
+
+$brand-reverse-link: #ffc423;
+$brand-reverse-link-hover: #f0b310;
+
+//base class style
+%btn {
+	font-family: NunitoSansSemiBold, sans-serif !important;
+	font-size: $body-size;
+	color: $brand-white;
+	background-color: $brand-yellow;
+	text-transform: uppercase;
+	padding: $quarter-margin $half-margin;
+	border: 0;
+	border-radius: 0;
+	transition: background 0.2s;
+
+	&:hover {
+		color: $brand-white;
+		background-color: $brand-blue;
+	}
+}
+
+@font-face {
+	font-family: 'NunitoSansSemiBold';
+	src: url('fonts/NunitoSans-SemiBold.eot');
+	src: url('fonts/NunitoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-SemiBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NunitoSansLight';
+	src: url('fonts/NunitoSans-Light.eot');
+	src: url('fonts/NunitoSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Light.woff2') format('woff2'),
+		url('fonts/NunitoSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NunitoSansExtraBold';
+	src: url('fonts/NunitoSans-ExtraBold.eot');
+	src: url('fonts/NunitoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-ExtraBold.woff2') format('woff2'),
+		url('fonts/NunitoSans-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('fonts/NunitoSans-Regular.eot');
+	src: url('fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Regular.woff2') format('woff2'),
+		url('fonts/NunitoSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NunitoSansBold';
+	src: url('fonts/NunitoSans-Bold.eot');
+	src: url('fonts/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NunitoSans-Bold.woff2') format('woff2'),
+		url('fonts/NunitoSans-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	font-size: $big;
+	text-transform: uppercase;
+	margin-top: $standard-margin;
+}
+
+h2 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	font-size: 18px;
+	text-transform: uppercase;
+	//margin-top: $standard-margin;
+	margin-top: 0;
+	margin-bottom: $standard-margin;
+}
+
+h3 {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	font-size: $body-size;
+	text-transform: uppercase;
+	margin-top: $standard-margin;
+}
+
+strong {
+	font-family: NunitoSansBold, sans-serif;
+}
+
+li {
+	ul {
+		margin-top: $half-margin;
+	}
+}
+
+@mixin mq($size) {
+	@if $size ==xs {
+		@media (max-width: 767px) {
+			@content;
+		}
+	}
+
+	@if $size ==sm {
+		@media (min-width: 768px) {
+			@content;
+		}
+	}
+
+	@else if $size ==md {
+		@media (min-width: 992px) {
+			@content;
+		}
+	}
+
+	@else if $size ==lg {
+		@media (min-width: 1200px) {
+			@content;
+		}
+	}
+}
+
+@mixin ir() {
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+}
+
+// General
+
+html,
+body {
+	width: 100%;
+}
+
+body {
+	background-color: $brand-white;
+	font-family: NunitoSansLight, sans-serif;
+	font-size: $body-size;
+	line-height: 1.22em;
+	color: $brand-body;
+	overflow-x: hidden;
+	padding-top: 51px;
+	padding-bottom: 0;
+
+	@include mq(sm) {
+		padding-top: 60px;
+	}
+
+	@include mq(md) {
+		padding-top: 75px;
+	}
+
+	@include mq(lg) {
+		padding-top: 100px;
+	}
+
+	a {
+		color: $brand-body-link;
+		font-family: 'NunitoSansSemiBold';
+		text-decoration: none;
+
+		&:hover {
+			color: $brand-body-link-hover;
+			text-decoration: none;
+		}
+	}
+}
+
+p,
+ul,
+ol,
+blockquote,
+h1,
+h2,
+h3,
+.video-responsive,
+.content-video-responsive {
+	margin-bottom: $standard-margin;
+}
+
+ul,
+ol {
+	li {
+		margin-bottom: $half-margin;
+	}
+
+	li:last-child {
+		margin-bottom: 0;
+	}
+}
+
+//default content image style
+.content-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: $standard-margin;
+}
+
+// Navigation
+
+nav {
+	border: 0;
+}
+
+.navbar {
+	@include mq(lg) {
+		.container {
+			width: 955px;
+		}
+
+	}
+}
+
+.navbar-toggle {
+	cursor: pointer;
+	float: left;
+	margin: 10px 0 0 7px;
+}
+
+.icon-bar {
+	background-color: $brand-blue ;
+}
+
+.nav-logo {
+	background-image: url('../img/ddd-logo-blue.svg');
+	height: 46px;
+	width: 160px;
+	@include ir();
+
+	@include mq(xs) {
+		margin: 7px auto 0px auto;
+	}
+
+	@include mq(sm) {
+		height: 39px;
+		margin: 8px 0 0 $standard-margin;
+		width: 144px;
+	}
+
+	@include mq(md) {
+		margin: 3px auto;
+		height: 48px;
+		margin: 13px 0 0 $standard-margin;
+		width: 180px;
+	}
+
+	@include mq(lg) {
+		height: 62px;
+		margin: 0 0 0 $standard-margin;
+		width: 230px;
+	}
+}
+
+.nav-list {
+	display: block;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+
+	@include mq(sm) {
+		display: inline-block;
+		padding-left: 8px;
+	}
+
+	@include mq(md) {
+		padding-left: 0px;
+		margin-left: 5px;
+	}
+
+	@include mq(lg) {
+		padding-left: 25px;
+	}
+}
+
+.nav-list-item {
+	position: relative;
+	text-align: left;
+	transition: color 0.2s;
+
+	@include mq(xs) {
+		font-size: 14px;
+	}
+
+	@include mq(sm) {
+		display: inline-block;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	@include mq(md) {
+		font-size: $body-size;
+	}
+
+	a {
+		color: $brand-blue; //not working
+		cursor: pointer;
+		text-decoration: none;
+
+		&:hover {
+			color: $brand-nav-hover;
+		}
+	}
+
+	&:not(:first-child) {
+		@include mq(sm) {
+			padding-left: 0px;
+		}
+
+		@include mq(md) {
+			padding-left: 6px;
+		}
+
+		@include mq(lg) {
+			padding-left: 20px;
+		}
+	}
+
+	&:last-child {
+		line-height: normal;
+
+		a {
+			color: $brand-white;
+			margin-bottom: 0;
+
+			@include mq(xs) {
+				display: block;
+				font-size: 14px;
+			}
+
+			@include mq(sm) {
+				font-size: 14px;
+				margin-top: -2px;
+			}
+
+			@include mq(md) {
+				font-size: $body-size;
+			}
+		}
+	}
+}
+
+.nav-btn {
+	@extend %btn;
+
+	@include mq(xs) {
+		margin-top: $half-margin;
+		font-size: 14px;
+	}
+
+	@include mq(sm) {
+		display: inline-block;
+		font-size: 14px;
+		margin-left: 20px;
+		float: right;
+	}
+
+	@include mq(md) {
+		font-size: $body-size;
+	}
+
+	@include mq(lg) {}
+}
+
+.navbar {
+	margin-bottom: 0;
+	.not-container {
+		.navbar-header {
+			@include mq(sm) {
+				display: inline-block;
+
+				a {
+					display: inline-block;
+					margin-top: 2px;
+				}
+			}
+			@include mq(lg) {
+				a {
+					display: inline-block;
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+
+	& { background: $brand-white;
+	font-family: NunitoSansSemiBold,
+	sans-serif;
+	}
+
+	li {
+		a {
+			color: $brand-blue;
+		}
+	}
+
+	@include mq(sm) {
+		height: 60px;
+	}
+
+	@include mq(md) {
+		height: 75px;
+	}
+
+	@include mq(lg) {
+		height: 100px;
+	}
+}
+
+.navbar-collapse {
+	text-align: center;
+	padding-bottom: $half-margin;
+
+	@include mq(sm) {
+		background: transparent;
+		text-align: center;
+	}
+}
+
+.nav-list {
+	@include mq(sm) {
+		float: right;
+		position: relative;
+		top: 15px;
+		margin-top: 0;
+		margin-right: $standard-margin;
+	}
+
+	@include mq(md) {
+		margin-top: 5px;
+		padding-left: 0;
+	}
+
+	@include mq(lg) {
+		margin-left: 25px;
+		margin-top: $half-margin;
+	}
+
+}
+
+.nav-list-item:not(:first-child) {
+}
+
+//Hero image banners base style (image url handled individually)
+.hero {
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+}
+
+.section {
+	.row {
+		margin: 0 auto;
+		max-width: 960px;
+	}
+
+	&.speakers {
+		text-align: center;
+	}
+}
+
+.speakers {
+	text-align: center;
+}
+
+.register-copy {
+	display: inline-block;
+	margin-top: 85px;
+	padding: $standard-margin;
+
+	@include mq(sm) {
+		margin-left: 60px;
+	}
+
+	@include mq(md) {
+		margin-left: 100px;
+	}
+
+	h1 {
+		color: $brand-white;
+		font-family: NunitoSansExtraBold, sans-serif;
+		font-size: 30px;
+		margin: 0;
+		text-transform: uppercase;
+
+		@include mq(sm) {
+			font-size: 40px;
+		}
+	}
+
+	p {
+		color: $brand-white;
+		font-family: NunitoSansExtraBold, sans-serif;
+		font-size: 16px;
+		line-height: 1em;
+		margin: 0;
+		max-width: 320px;
+
+		@include mq(sm) {
+			font-size: 30px;
+		}
+	}
+}
+
+.register-copy {
+	background-color: rgba(0, 164, 228, 0.75);
+}
+
+.alteryx-copy {
+	@include mq(sm) {
+		width: 500px;
+	}
+
+	h1 {
+		a {
+			font-size: 40px;
+			color: #0082CD;
+		}
+	}
+}
+
+.custom-navigation-container {
+	display: none;
+
+	@include mq(sm) {
+		bottom: 0;
+		display: block;
+		line-height: 400px;
+		position: absolute;
+		width: 100%;
+	}
+}
+
+.custom-navigation {
+	display: block;
+	height: 400px;
+	margin: 0 auto;
+	max-width: 1300px;
+
+	@include mq(sm) {}
+
+	.arrow {
+		display: inline-block;
+		opacity: 0.4;
+		position: relative;
+		transition: all 0.2s;
+		vertical-align: middle;
+		z-index: 10;
+
+		img {
+			height: 75px;
+			width: 75px;
+
+			@include mq(md) {
+				height: 150px;
+				width: 150px;
+			}
+		}
+
+		&.left {
+			float: left;
+		}
+
+		&.right {
+			float: right;
+		}
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.copy,
+blockquote {
+	display: block;
+	margin: 0 auto 23px;
+	max-width: 700px;
+	text-align: center;
+}
+
+.copy-list {
+	display: block;
+	margin: 0 auto 23px;
+	padding-left: 25px;
+	max-width: 700px;
+	text-align: left;
+
+	li {
+		margin-bottom: 10px;
+
+		ul {
+			margin-top: 10px;
+		}
+	}
+}
+
+/* sponsor page content formatting */
+figure {
+	text-align: center;
+	margin-bottom: $standard-margin;
+
+	figcaption {
+		margin: 0 auto 0px;
+		text-align: left;
+	}
+}
+
+.homepage--top-bar {
+	+.container {
+		margin-top: 45px;
+	}
+
+	width: 100%;
+	position: fixed;
+	z-index: 4;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: $quarter-margin;
+	background-color: $brand-blue;
+	color: $brand-white;
+	font-family: NunitoSans,
+	sans-serif;
+	text-align: center;
+
+	@include mq(md) {
+		top: 75px;
+	}
+
+	@include mq(lg) {
+		top: 100px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		li {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+
+			@include mq(xs) {
+				margin-right: 12px;
+				font-size: 14px;
+			}
+
+			@include mq(sm) {
+				margin-right: $standard-margin;
+
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		.youtube {
+			margin-right: 0px;
+
+			a {
+				display: inline-block;
+
+				img {
+					margin-top: -4px;
+					height: 20px;
+					width: auto;
+				}
+			}
+		}
+
+		.linkedin {
+			margin-right: 0px;
+
+			a {
+				display: inline-block;
+				width: 22px;
+				height: 22px;
+
+				img {
+					margin-top: -4px;
+				}
+			}
+		}
+
+		.twitter {
+			margin-right: 0;
+
+			a {
+				display: inline-block;
+				width: 22px;
+				height: 22px;
+
+				img {
+					margin-top: -4px;
+				}
+			}
+		}
+
+		li.hashtag {
+			color: $brand-white;
+
+			a {
+				color: $brand-white;
+
+				&:hover {
+					color: $brand-yellow;
+				}
+			}
+		}
+	}
+}
+
+//Hero (Slider Version)
+.slider {
+	margin-bottom: 0;
+	height: 500px;
+	position: relative;
+
+	@include mq(sm) {
+		height: 400px;
+	}
+}
+
+.slide {
+	background-size: cover;
+	height: 500px;
+
+	@include mq(sm) {
+		height: 400px;
+	}
+
+	@include mq(lg) {
+		.container {
+			width: 955px;
+		}
+	}
+}
+
+.slide.picture-1 {
+	background-image: url('../img/sliders/slider-2020-1-700x600.jpg');
+
+	@include mq(sm) {
+		background-image: url('../img/sliders/slider-2020-1.jpg');
+		background-position: center center;
+	}
+}
+
+.slide.picture-2 {
+	background-image: url('../img/sliders/slider-2020-2-700x600.jpg');
+
+	@include mq(sm) {
+		background-image: url('../img/sliders/slider-2020-2.jpg');
+		background-position: center center;
+	}
+}
+
+.slide.picture-3 {
+	background-image: url('../img/sliders/slider-2020-3-700x600.jpg');
+
+	@include mq(sm) {
+		background-image: url('../img/sliders/slider-2020-3.jpg');
+	}
+}
+
+.slide.picture-4 {
+	background-image: url('../img/sliders/slider-2020-4-700x600.jpg');
+
+	@include mq(sm) {
+		background-image: url('../img/sliders/slider-2020-4.jpg');
+	}
+}
+
+.slide.picture-5 {
+	background-image: url('../img/sliders/slider-2020-5-700x600.jpg');
+
+	@include mq(sm) {
+		background-image: url('../img/sliders/slider-2020-5.jpg');
+		background-position: center center;
+	}
+}
+
+.slide.picture-6 {
+	background-image: url('../img/sliders/slider-2020-6-700x600.jpg');
+	background-position: center center;
+
+	@include mq(sm) {
+		background-image: url('../img/sliders/slider-2020-6.jpg');
+		background-position: center center;
+	}
+}
+
+.slide.picture-7 {
+	background-image: url('../img/sliders/slider-2020-7-700x600.jpg');
+	background-position: center center;
+
+	@include mq(sm) {
+		background-image: url('../img/sliders/slider-2020-7.jpg');
+		background-position: center center;
+	}
+}
+
+//Hero (Fullscreen Video Version)
+.homepage--hero-video-container {
+	position: relative;
+	height: 560px !important;
+	overflow: hidden;
+	padding-left: 0;
+	padding-right: 0;
+
+	@include mq(xs) {
+		background-image: url('../video/video-poster.jpg');
+		background-size: cover;
+		background-position-x: 80%; //get background video poster/loading/mobile background more centrall
+	}
+
+	.video-item {
+		z-index: 0;
+
+		@include mq(xs) {
+			display: none;
+		}
+
+		@include mq(sm) {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.homepage--big-text {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		z-index: 4;
+		background-color: color.adjust($brand-blue, $alpha: -0.5);
+		font-family: NunitoSans, sans-serif;
+		padding-top: $half-margin;
+		padding-bottom: $half-margin;
+		text-align: center;
+		z-index: 2;
+
+		.big-text {
+			font-size: 40px;
+			font-family: NunitoSansBold, sans-serif;
+			color: white;
+			text-transform: uppercase;
+			line-height: 50px;
+		}
+
+		@include mq(xs) {
+			background-color: color.adjust($brand-blue, $alpha: -0.3);
+		}
+	}
+}
+
+.homepage--intro-text {
+	max-width: 885px;
+	margin-top: $standard-margin;
+	//text-align: center;
+
+	h2 {
+		font-size: $big;
+	}
+
+	p {
+		margin-left: $standard-margin;
+		margin-right: $standard-margin;
+	}
+	iframe {
+		display: inline-block;
+		text-align: center;
+	}
+}
+
+.homepage--intro-videos {
+	text-align: center;
+}
+
+.homepage--why-you-should-attend {
+	margin-top: 0;
+}
+
+.section.speakers {
+	h2 {
+		font-size: 24px; //this may be best served as a reference to a font-size variable since its the same size as an h1
+	}
+
+	.flex-row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		gap: $standard-margin * 2;
+		row-gap: $standard-margin;
+		justify-content: center;
+		margin-bottom: $standard-margin;
+
+		@include mq(xs) {}
+
+		@include mq(md) {}
+
+		.speaker-container {
+			width: 155px;
+			p {
+				margin-bottom: 0 !important;
+			}
+		}
+	}
+}
+
+.speaker-container,
+.speaker-container-inline-content {
+
+	@include mq(sm) {
+		display: inline-block;
+		max-width: 155px;
+	}
+
+	h3 {
+		margin-bottom: 10px;
+	}
+
+	.speaker-name {
+		color: $brand-blue;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 20px;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		transition: color 0.2s;
+
+		&:hover {
+			color: $brand-body-link-hover;
+			text-decoration: none;
+		}
+	}
+}
+
+//sprite rules for workshops hosted by two speakers.
+
+//new co-workshop image that uses css to place both speaker images 
+
+.new-co-workshop-images {
+
+	@include mq(xs) {
+		margin: $half-margin auto $half-margin auto;
+	}
+
+	&{ position: relative;
+	width: 150px;
+	height: 150px;
+	margin-top: $half-margin;}
+
+	div {
+		width: 80px;
+		height: 80px;
+		border-radius: 70px;
+		background-repeat: no-repeat;
+
+		&.henning-schwentner {
+			background-image: url('../img/speakers/henning-schwentner.jpg');
+			background-size: 100%;
+		}
+
+		&.stefan-hofer {
+			background-image: url('../img/speakers/stefan-hofer.jpg');
+			background-size: 150%;
+			background-position: -20px;
+		}
+		&.nick-tune {
+			background-image: url('../img/speakers/nick-tune.jpg');
+			background-size: 110%;
+			background-position: -5px 0px;
+		}
+		&.indu-alagarsamy {
+			background-image: url('../img/speakers/indu-alagarsamy.jpg');
+			background-size: 150%;
+			background-position: -20px;
+		}
+	}
+	
+	div:last-of-type {
+		bottom: 0;
+		right: 0;
+		margin-left: auto;
+	}	
+
+	
+}
+
+.co-workshop-img {
+	background-size: 315px;
+	background-position: -160px;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+
+	&.indu-and-nick {
+		background-image: url('../img/speakers/sprite-indu-and-nick.png');
+		background-position: -160px; //keep it coloured even when not during hover state
+
+		&:hover {
+			cursor: pointer;
+			cursor: hand;
+			background-position: 1px;
+		}
+	}
+
+	&.no-hover {
+		background-position: 1px; //stop hover since link was removed for co-workshop page
+	}
+}
+
+//new speaker image approach that doesn't require circle crops of images in photo editing software prior to inclusion in site
+
+.page-img-container {
+ img {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	margin-top: $standard-margin;
+ }
+}
+.new-speaker-img, .new-speaker-page-img {
+
+	display: block;
+	height: 150px;
+	width: 150px;
+	border-radius: 150px;
+	background-repeat: no-repeat;
+	margin: 0 auto 0 auto;
+
+	@include mq(xs) {
+		margin-top: 15px;
+	}
+
+	&.vaughn-vernon {
+		background-image: url('../img/speakers/vaughn-vernon.jpg');
+		background-size: 125%;
+		background-position: -35px 0px;
+	}
+	&.anita-kvamme {
+		background-image: url('../img/speakers/anita-kvamme.jpg');
+		background-size: 125%;
+		background-position: -20px -10px;
+	}
+	&.dave-buchanan {
+		background-image: url('../img/speakers/dave-buchanan.jpg');
+		background-size: 225%;
+		background-position: -30px -140px;
+	}
+	&.david-laribee {
+		background-image: url('../img/speakers/david-laribee.jpg');
+		background-size:115%;
+		background-position: -10px 0px;
+	}
+	&.erik-shafer {
+		background-image: url('../img/speakers/erik-shafer.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.holly-bielawa {
+		background-image: url('../img/speakers/holly-bielawa.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.jacqui-read {
+		background-image: url('../img/speakers/jacqui-read.jpg');
+		background-size:100%;
+		background-position: 0px 0px;
+	}
+	&.james-higginbotham {
+		background-image: url('../img/speakers/james-higginbotham.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.javiera-laso {
+		background-image: url('../img/speakers/javiera-laso.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.jessica-kerr {
+		background-image: url('../img/speakers/jessica-kerr.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.john-connolly {
+		background-image: url('../img/speakers/john-connolly.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.john-feminella {
+		background-image: url('../img/speakers/john-feminella.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.joseph-yoder {
+		background-image: url('../img/speakers/joseph-yoder.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.matt-jones {
+		background-image: url('../img/speakers/matt-jones.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.matteo-cavucci {
+		background-image: url('../img/speakers/matteo-cavucci.jpg');
+		background-size:110%;
+		background-position: 0px 0px;
+	}
+	&.nathan-marrs {
+		background-image: url('../img/speakers/nathan-marrs.jpg');
+		background-size:110%;
+		background-position: 0px 0px;
+	}
+	&.pete-williams {
+		background-image: url('../img/speakers/pete-williams.jpg');
+		background-size:110%;
+		background-position: 0px 0px;
+	}
+	&.phillip-bohnenkamp {
+		background-image: url('../img/speakers/phillip-bohnenkamp.jpg');
+		background-size:110%;
+		background-position: 0px 0px;
+	}
+	&.ryan-shriver {
+		background-image: url('../img/speakers/ryan-shriver.jpg');
+		background-size:110%;
+		background-position: 0px 0px;
+	}
+	&.sarah-aslanifar {
+		background-image: url('../img/speakers/sarah-aslanifar.jpg');
+		background-size:150%;
+		background-position: -40px 0px;
+	}
+	&.sonya-natanzon {
+		background-image: url('../img/speakers/sonya-natanzon.jpg');
+		background-size:150%;
+		background-position: -40px 0px;
+	}
+	&.thomas-betts {
+		background-image: url('../img/speakers/thomas-betts.jpg');
+		background-size:110%;
+		background-position: 0px 0px;
+	}
+	&.tom-wheeler {
+		background-image: url('../img/speakers/tom-wheeler.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.xin-yao {
+		background-image: url('../img/speakers/xin-yao.jpg');
+		background-size:110%;
+		background-position: -10px -20px;
+	}
+	&.zsófia-herendi {
+		background-image: url('../img/speakers/zsófia-herendi.jpg');
+		background-size:110%;
+		background-position: 0px 0px;
+	}
+	&.john-phamvan {
+		background-image: url('../img/speakers/john-phamvan.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.adrien-abrams {
+		background-image: url('../img/speakers/adrien-abrams.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.wei-wang {
+		background-image: url('../img/speakers/wei-david-wang.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.zhen-goh {
+		background-image: url('../img/speakers/zhen-goh.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.alberto-acerbis {
+		background-image: url('../img/speakers/alberto-acerbis.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.alessandro-colla {
+		background-image: url('../img/speakers/alessandro-colla.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.ivan-ortega {
+		background-image: url('../img/speakers/ivan-ortega.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.stefan-hofer {
+		background-image: url('../img/speakers/stefan-hofer.jpg');
+		background-size:150%;
+		background-position: -35px 0px;
+	}
+	&.henning-schwentner {
+		background-image: url('../img/speakers/henning-schwentner.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.dan-young-and-mike-rozinsky {
+		background-image: url('../img/speakers/dan-young-and-mike-rozinsky.jpg');
+		background-size: 130%;
+		background-position: -30px 0px;
+	}
+	&.tobias-goeschel {
+		background-image: url('../img/speakers/tobias-goeschel.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.jerry-nixon {
+		background-image: url('../img/speakers/jerry-nixon.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.davide-mauri {
+		background-image: url('../img/speakers/davide-mauri.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+	&.adela-almasan {
+		background-image: url('../img/speakers/adela-almasan.jpg');
+		background-size:120%;
+		background-position: -18px 0px;
+	}
+	&.eric-evans {
+		background-image: url('../img/speakers/eric-evans.jpg');
+		background-size:170%;
+		background-position: -15px -20px;
+	}
+	&.xi-palazzolo {
+		background-image: url('../img/speakers/xi-palazzolo.jpg');
+		background-size:110%;
+		background-position: -10px 0px;
+	}
+}
+
+//sprites for individual speaker images
+.speaker-img,
+.speaker-img-in-content {
+	background-size: 312px;
+	background-position: -156px;
+	height: 150px;
+	margin: 0 auto;
+	width: 150px;
+	border-radius: 120px;
+	background-position: 0;
+
+	@include mq(xs) {
+		margin-top: 15px;
+	}
+
+	&.paul-rayner {
+		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
+
+		&:hover {
+			//background-position: 0;
+		}
+	}
+
+	&.alberto-brandolini {
+		background-image: url('../img/speakers/sprite-alberto-brandolini.jpg');
+	}
+	&.nivia-henry {
+		background-image: url('../img/speakers/sprite-nivia-henry.jpg');
+	}
+
+	&.chris-richardson {
+		background-image: url('../img/speakers/sprite-chris-richardson.jpg');
+	}
+	&.randy-shoup {
+		background-image: url('../img/speakers/sprite-randy-shoup.jpg');
+	}
+	&.susanne-kaiser {
+		background-image: url('../img/speakers/sprite-susanne-kaiser.jpg');
+	}
+	&.diana-montalion {
+		background-image: url('../img/speakers/sprite-diana-montalion.jpg');
+	}
+	&.indu-alagarsamy {
+		background-image: url('../img/speakers/sprite-indu-alagarsamy.jpg');
+	}
+	&.nick-tune {
+		background-image: url('../img/speakers/sprite-nick-tune.jpg');
+	}
+	&.lesley-cordero {
+		background-image: url('../img/speakers/sprite-lesley-cordero.jpg');
+	}
+
+	&.keep-color {
+		background-position: 0; //stop hover since link was removed for co-workshop page
+	}
+}
+
+.speaker-img-in-content {
+	margin-bottom: $standard-margin;
+}
+
+//workshop images
+
+.speaker--workshop-content-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: $standard-margin;
+}
+
+.speaker-details {
+	color: $brand-body;
+	font-size: 16px;
+}
+
+.container.page {
+	margin: 0 auto;
+	max-width: 600px;
+	padding-bottom: 3em;
+
+	.copy {
+		text-align: left;
+	}
+
+	.copy-top-padding {
+		margin-top: 25px !important;
+	}
+}
+
+h2.conference-emphasis {
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: left;
+	font-size: 20px;
+	font-family: NunitoSansBold, sans-serif;
+}
+
+// Location section
+
+.location-col {
+	padding-bottom: 20px;
+}
+
+.location-img {
+	display: block;
+	margin: 0 auto 15px;
+	max-width: 100%;
+}
+
+.read-more {
+	background-image: url('../img/read-more-arrow.png');
+	background-position: center 2px !important;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	margin-bottom: -2px;
+	margin-left: 8px;
+	opacity: 0.6;
+	transition: all 0.2s;
+	width: 18px;
+	@include ir();
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+footer {
+	background-color: $brand-blue;
+	color: $brand-white;
+	font-family: NunitoSans, sans-serif;
+	padding-top: 0;
+	padding-bottom: $standard-margin;
+	text-align: center;
+
+	.container {
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		background-size: contain;
+	}
+
+	.section-header {
+		display: block;
+		color: $brand-white;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 18px;
+		text-transform: uppercase;
+		margin-bottom: $half-margin;
+	}
+
+	.copyright,
+	.conf-contact {
+		font-size: 14px;
+		margin-bottom: 10px;
+
+		a {
+			color: $brand-reverse-link;
+
+			&:hover {
+				color: $brand-reverse-link-hover;
+			}
+		}
+	}
+}
+
+.sponsor-container {
+	display: -webkit-flex;
+	/* Safari */
+	-webkit-justify-content: space-around; // Safari 6.1+
+	display: flex;
+	justify-content: space-around; //for chrome, firefox, etc
+	align-items: center;
+
+	.item,
+	.organized-by-item {
+		width: 300px;
+		img {
+			width: 95%;
+			height: auto;
+			margin-bottom: $half-margin;
+		}
+	}
+
+	.organized-by-item {
+		width: 300px;
+	}
+}
+
+// these are style/size specific to the sponsors page and sizes those logos directly. footer sponsor logo images are sized elsewhere
+
+.sponsors-page {
+
+	#sponsors-container {
+		
+		margin-top: 100px;
+
+		h2 {
+			font-size: $big;
+		}
+		
+		figure {
+			img {
+				margin-bottom: $standard-margin;
+			}
+			.virtual-genius {
+				@include mq(xs) { height: 200px }
+				@include mq(sm) { height: 300px }
+				@include mq(md) {}
+				@include mq(lg) {}
+			}
+			.afterman-software {
+				@include mq(xs) { height: 80px }
+				@include mq(sm) { height: 100px }
+				@include mq(md) {}
+				@include mq(lg) {}
+			}
+			.singlestone {
+				@include mq(xs) { height: 60px }
+				@include mq(sm) { height: 60px }
+				@include mq(md) {}
+				@include mq(lg) {}
+			}
+			.avanscoperta {
+				@include mq(xs) { height: 40px }
+				@include mq(sm) { height: 40px }
+				@include mq(md) {}
+				@include mq(lg) {}
+			}
+		}	
+	}
+}
+
+.page-subheader {
+	color: $brand-body;
+	font-family: NunitoSansBold, sans-serif;
+	margin: 0 0 4px 0;
+}
+
+.featured-speaker.container {
+	.img-container {
+		display: block;
+		text-align: center;
+
+		@include mq(sm) {
+			display: inline-block;
+		}
+
+		img {
+			vertical-align: top;
+		}
+	}
+
+	.copy-container {
+		display: block;
+		max-width: 640px;
+
+		@include mq(sm) {
+			display: inline-block;
+			padding-left: 75px;
+		}
+
+		@include mq(md) {
+			padding-left: 45px;
+		}
+	}
+
+	.copy {
+		text-align: left;
+	}
+
+	.speaker-subheader {
+		color: $brand-blue;
+		text-align: left;
+		text-transform: none;
+	}
+
+	.speaker-keynote {
+		text-align: left;
+		text-transform: uppercase;
+		font-size: 25px;
+	}
+}
+
+//homepage video before featured speakers
+.video-responsive,
+.content-video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.video-responsive iframe,
+.content-video-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.content-video-responsive iframe {
+	padding-bottom: $standard-margin;
+}
+
+.featured-speaker {
+	.copy-container {
+		padding-top: 25px;
+
+		@include mq(sm) {
+			display: inline;
+			//padding-top: 75px;
+		}
+
+		@include mq(md) {}
+	}
+
+	.img-container {
+		padding-left: 17px;
+		padding-top: 25px;
+	}
+
+	.copy {
+		max-width: none;
+	}
+}
+
+.featured-speaker {
+//This is how we do new speaker images now
+	.new-speaker-page-img {
+		margin-top: $standard-margin !important;
+	}		
+}
+
+
+//this is partially deprecated for 2023/2024. 
+.speaker-page-img {
+	height: 150px;
+	width: 150px;
+}
+
+
+.speaker-header {
+	margin: 0 0 2px 0;
+}
+
+.speaker-subtitle {
+	margin: 0 0 2px 0;
+	text-align: left;
+}
+
+.speaker-handle {
+	font-family: NunitoSans, sans-serif;
+	margin: 0;
+	text-align: left;
+}
+
+.speaker-subheader {
+	font-family: NunitoSansBold, sans-serif;
+	color: $brand-blue;
+	margin: 25px 0 25px 0;
+}
+
+// Location page
+.location.hero {
+	background-image: url('../img/hyatt-panorama.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	height: 400px;
+}
+
+//Sponsors
+.container.sponsors {
+	padding-top: 50px;
+}
+
+.container.short {
+	padding-top: 25px;
+	padding-bottom: 150px;
+}
+
+//People
+.container.people {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+//Workshops
+
+.workshops-index-page,
+.workshop-single-page {
+	.duration {
+		display: block;
+		color: $brand-blue;
+		font-weight: 500;
+		text-transform: uppercase;
+
+		//margin-bottom: 8px;
+		@include mq(xs) {
+			text-align: center;
+			padding-bottom: 0;
+		}
+	}
+
+	.speaker-name {
+		display: block;
+		color: $brand-yellow;
+		font-family: NunitoSansSemiBold, sans-serif;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 7px;
+
+		@include mq(xs) {
+			text-align: center;
+		}
+	}
+}
+
+.workshops-index-page {
+	margin-bottom: $standard-margin;
+
+	.workshops-index-page--item {
+		max-width: 640px;
+
+		@include mq(xs) {
+			text-align: center;
+			padding-bottom: 0;
+		}
+
+		@include mq(sm) {
+			padding-top: 20px;
+			padding-left: 65px;
+		}
+
+		@include mq(md) {
+			padding-left: 35px;
+		}
+
+		p {
+			margin-bottom: $half-margin;
+		}
+
+		h1 {
+			text-align: left;
+
+			@include mq(xs) {
+				text-align: center;
+				margin-top: 20px !important;
+			}
+		}
+
+		h2 {
+			color: #000;
+			text-transform: uppercase;
+			font-family: NunitoSansSemiBold, sans-serif;
+			font-size: $big;
+			margin-bottom: 10px;
+
+			@include mq(xs) {
+				margin-top: $standard-margin;
+			}
+
+			@include mq(sm) {
+				margin-top: $half-margin;
+			}
+
+			a {
+				color: #f0b310;
+				transition: color 0.2s ease 0s;
+
+				&:hover {
+					text-decoration: none;
+					color: #fdc33c;
+				}
+			}
+		}
+	}
+}
+
+//Workshop page (individual)
+.workshop-single-page {
+
+	.new-speaker-img, .speaker-img,
+	.co-workshop-img {
+		margin-top: 25px; //not quite $standard-margin height here since the static blue bar isnt quite the right height
+	}
+
+	.content {
+		@include mq(xs) {
+			h1 {
+				margin-top: $standard-margin;
+			}
+		}
+
+		@include mq(sm) {
+			margin-left: 45px;
+
+			h1 {
+				margin-top: $standard-margin;
+			}
+		}
+
+		@include mq(md) {
+			margin-left: 20px;
+		}
+
+		h1 {
+			margin-top: 20px;
+			margin-bottom: 10px;
+
+			@include mq(xs) {
+				text-align: center;
+			}
+
+			@include mq(sm) {
+				text-align: left;
+			}
+		}
+	}
+}
+
+//Schedule page
+
+//Feb 2024 Sessionize Schedule overrides
+
+h3.sz-session__title {
+	a {
+		text-transform: capitalize !important;
+		color: #000 !important;
+	}
+}
+
+//end Feb 2024 sessionize schedule overrides
+
+.schedule {
+	.schedule-index-page {
+		
+	}
+}
+
+/* override the z-index values introduced from sessionize javascript inclusion 
+   The schedule grid will overlap the blue top bar without the following ruleset 
+*/
+.sz-room, .sz-session {
+	z-index: 0 !important;
+}
+
+.final-row {
+	margin-bottom: $standard-margin;
+}
+
+.title-row {
+	.title-cell-uncolored-cells {
+		@include mq(sm) {
+			padding-left: 0px;
+		}
+
+		@include mq(md) {
+			padding-left: 0px;
+		}
+	}
+
+	.title-cell-colored-cells {
+		@include mq(sm) {
+			padding-left: 10px;
+		}
+
+		@include mq(md) {
+			padding-left: 5px;
+		}
+	}
+
+	h2 {
+		font-size: 28px;
+		font-family: NunitoSansBold, sans-serif;
+		color: #000;
+		text-transform: uppercase;
+		margin-bottom: 0;
+
+		@include mq(xs) {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+	}
+
+	h3 {
+		font-size: 24px;
+		margin-top: 0;
+
+		@include mq(xs) {
+			text-align: center;
+		}
+	}
+}
+
+.time-cell {
+	text-align: left;
+	font-size: 16px;
+	font-family: NunitoSans, sans-serif;
+
+	@include mq(xs) {
+		text-align: center;
+		margin-top: $standard-margin;
+	}
+
+	@include mq(sm) {
+		margin-top: $half-margin;
+	}
+}
+
+.details {
+	p {
+		em {
+			font-size: 16px;
+		}
+	}
+
+	a {
+		color: #c49524;
+
+		&:hover {
+			color: #fdc33c;
+			text-decoration: none;
+		}
+	}
+
+	@include mq(xs) {
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	@include mq(sm) {
+		padding: 10px 13px 10px 13px;
+	}
+}
+
+.details-colored {
+	color: #fff9ec;
+	padding: 5px 13px 5px 13px;
+
+	h4,
+	h4>a {
+		font-family: NunitoSansBold, sans-serif !important;
+	}
+
+	h5 {
+		font-family: NunitoSansSemiBold, sans-serif;
+	}
+
+	a {
+		color: #fff9ec;
+	}
+}
+
+//for those rare occaisons wherein the same coloured details boxes are stacked directly on top of one another
+.details-color-collision-gap {
+	@include mq(sm) {
+		margin-bottom: 1px;
+	}
+}
+
+.details-gold {
+	background-color: #e6a62d;
+}
+
+.details-green {
+	background-color: #2ea165;
+}
+
+.details-purple {
+	background-color: #682c89;
+}
+
+.details-blue {
+	background-color: $brand-blue;
+}
+
+.talk-title {
+	margin-bottom: $half-margin;
+
+	a {
+		font-family: NunitoSansSemiBold, sans-serif;
+	}
+
+	em {
+		font-size: 16px;
+	}
+}
+
+.details-wide,
+.details-two-thirds {
+	@include mq(xs) {
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	@include mq(sm) {
+		p {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			margin-bottom: 0;
+		}
+	}
+}
+
+.details-wide-colored {
+	@include mq(xs) {}
+
+	@include mq(sm) {
+		margin-bottom: $standard-margin;
+	}
+}
+
+@include mq(xs) {}
+
+@include mq(sm) {
+	.time-cell {
+		width: 10%;
+	}
+
+	.details {
+		width: 22%;
+	}
+
+	.details-two-thirds {
+		width: 44%;
+	}
+
+	.details-wide {
+		width: 87.75%;
+	}
+}
+
+@include mq(md) {
+	.time-cell {
+		width: 15.6%;
+	}
+	.details {
+		width: 21%;
+	}
+
+	.details-wide {
+		width: 84%;
+	}
+
+	.details-two-thirds {
+		//this isn't really aptly named anymore since it was two thirds when there were only 3 tracks/columns, but there are 4 now.
+		width: 42%;
+	}
+}
+
+//styles that apply to structure/content for long form or "double length" talks/sessions
+@include mq(xs) {
+	.double-session-shim {
+		display: none;
+	}
+}
+
+@include mq(sm) {
+	.long-session-part-2-copy {
+		display: none;
+	}
+}
+
+
+.top-border {
+	@include mq(sm) {
+		border-top: 1px solid black;
+	}
+}
+
+.bottom-border {
+	@include mq(sm) {
+		border-bottom: 1px solid black;
+	}
+}
+
+//full height columns
+//only apply to non mobile viewports since this flex fix will break responsiveness below 768
+@include mq(sm) {
+	.time-row {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.time-row>[class*='col-'] {
+		display: flex;
+		flex-direction: column;
+	}
+
+	//this repeats but I'll clean this up later
+	.title-row {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.title-row>[class*='col-'] {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+// CFP
+.cfp-cta {
+	font-family: NunitoSansExtraBold, sans-serif;
+	margin: 0 0 4px 0;
+
+	a {
+		color: #fdc33c;
+	}
+}
+
+//default button style
+.btn {
+	@extend %btn;
+	margin-bottom: $standard-margin;
+}
+
+.buttons {
+	text-align: center;
+
+	.schedule-btn {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 8px 10px 8px 10px;
+		min-width: 180px;
+
+		span {
+			display: block;
+		}
+
+		.btn-title {
+			font-size: 18px;
+		}
+
+		.btn-date {
+			font-size: 16px;
+			text-transform: none;
+		}
+	}
+}
+
+/* mailchimp embedded signup form styling */
+.newsletter-signup {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 960px;
+
+	// margin-bottom: 40px;
+	.header {
+		display: block;
+		font-size: 24px;
+		font-family: NunitoSansBold, sans-serif;
+		color: $brand-body;
+		margin-top: 0;
+		margin-bottom: $standard-margin;
+	}
+
+	//these two classes apparently do something in the mailchimp code snippet, but lets make them work with our layout
+	.mc-field-group,
+	.clear {
+		@include mq(xs) {
+			display: block;
+		}
+
+		@include mq(sm) {
+			display: inline-block;
+		}
+	}
+
+	input[type=email] {
+		background-color: $brand-white;
+		border: 1px solid $brand-body;
+		padding: $quarter-margin $half-margin;
+		margin-right: 10px;
+		font-size: $body-size;
+
+		@include mq(xs) {
+			width: 80%;
+			margin-bottom: $standard-margin;
+		}
+
+		@include mq(sm) {
+			width: 350px;
+		}
+
+		@include mq(md) {
+			width: 470px;
+		}
+	}
+
+	input[type=submit] {
+		@extend %btn;
+		font-size: $body-size;
+	}
+
+	#mce-error-response,
+	#mce-success-response {
+		margin-top: $standard-margin;
+		margin-bottom: $standard-margin;
+	}
+}
+
+.section.home-videos {
+	margin-top: 18px;
+}
+
+.home-videos {
+	.video-responsive {
+		overflow: hidden;
+		padding-bottom: 56.25%;
+		position: relative;
+		height: 0;
+		margin-bottom: 35px !important;
+	}
+
+	.video-responsive iframe {
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+}
+
+.homepage-video {
+	max-width: 885px;
+}
+
+.content-video {
+	max-width: 640px;
+}
+
+.homepage-youtube-link-img {
+	margin-bottom: $standard-margin;
+}
+
+/* sponsor subfooter section on homepage and second level pages */
+
+.sponsor-section {
+	background-color: #fff;
+	padding: 0 0 $standard-margin 0;
+	text-align: center;
+
+	h3 {
+		text-transform: uppercase;
+		color: $brand-blue;
+		margin-bottom: $half-margin;
+	}
+
+	img {
+		@include mq(xs) {
+			display: block;
+			margin: $standard-margin auto $half-margin auto;
+		}
+		@include mq(sm) {
+			margin: $half-margin;
+		}
+		@include mq(md) {
+			display: inline-block;
+		}
+	}
+
+	/*.virtual-genius {
+		@include mq(xs) { height: 10 }
+		@include mq(sm) { height: 10px }
+		@include mq(md) {}
+		@include mq(lg) {}
+	}*/
+}
+		
+
+.about.hero {
+	background-image: url('../img/hero-standard-placeholder.jpg');
+}
+
+.cfp.hero {
+	background-image: url('../img/hero-cfp.jpg');
+}
+
+.workshops.hero {
+	background-image: url('../img/hero-workshops.jpg');
+}
+
+.sponsors.hero {
+	background-image: url('../img/hero-sponsors.jpg');
+}
+
+.faq.hero {
+	background-image: url('../img/hero-standard-placeholder.jpg');
+}
+
+//venue specific styles
+
+.venue.hero {
+	background-image: url('../img/hero-standard-placeholder.jpg');
+}
+
+.venue--address--reserve-btn-row,
+.get-ticket-btn {
+	text-align: center;
+
+	.btn {
+		display: inline-block;
+	}
+}
+
+//scholarship specific styles
+.scholarship.hero {
+	background-image: url('../img/scholarship-hero.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	height: 400px;
+
+	@include mq(md) {
+		background-position: center center;
+	}
+}
+
+//blockquote styling
+
+blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid $brand-blue;
+	padding: 15px;
+	quotes: "\201C" "\201D" "\2018" "\2019";
+	text-align: left;
+}
+
+blockquote:before {
+	color: $brand-blue;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+blockquote p:first-child:after {
+	color: $brand-blue;
+	content: close-quote;
+	display: block;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-top: 0.6em;
+}
+
+blockquote p:first-child {
+	margin-bottom: 0;
+}
+
+blockquote p {
+	display: inline;
+}
+
+blockquote .quote-source {
+	font-size: .75em;
+}
+
+//make talk session titles same colour as h2 workshop titles that are also links
+.gold {
+	color: $brand-body-link !important;
+}
+
+.styleguide--label {
+	border-bottom: 1px solid #cdcdcd;
+}
+
+// jessitron adds some cards, since we don't have Bootstrap 4+
+.set-of-cards-for-intro-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.set-of-cards-for-intro-text .card {
+	background-color: #0082c8;
+	background-color:rgba(0,130,200, 0.4);
+	border-radius: 5px;
+	/* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+}
+.card.smallish {
+	width: 350px;
+	background-color:rgba(0,130,200, 0.1);
+}
