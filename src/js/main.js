@@ -109,10 +109,6 @@ $(document).ready(function () {
     $(".homepage--hero-video-container").css("margin-top", homepagetopbar);
     $(".homepage--hero-video-container").css("height", videoheight);
 
-    //make covid-19 alert notice appear at the correct vertical location
-    var topStuff = navheight + homepagetopbar;
-    $(".alert-covid-notice").css("top", topStuff);
-
   }).resize();
 
   // Video pause/play toggle

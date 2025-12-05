@@ -4,9 +4,9 @@ var Metalsmith = require("metalsmith"),
   discoverPartials = require("metalsmith-discover-partials"),
   watch = require("metalsmith-watch");
 
-//var googleAnalytics = require('metalsmith-google-analytics')
+var shouldWatch = process.env.WATCH !== "false";
 
-console.log("jess was here a");
+//var googleAnalytics = require('metalsmith-google-analytics')
 
 var dir = {
   base: __dirname + "/",
@@ -17,7 +17,7 @@ var dir = {
 
 console.log("directory " + __dirname);
 
-Metalsmith(__dirname)
+var metalsmith = Metalsmith(__dirname)
   .metadata({
     title: "Explore DDD Conference - 2026",
     description:
@@ -37,12 +37,14 @@ Metalsmith(__dirname)
       pattern: "**/*.html",
     })
   )
-  .use(sass())
-  //  .use(googleAnalytics('UA-37443128-6'))
-  // .use(metadata({
-  //   ericEvans: 'data/eric-evans.json'
-  // }))
-  .use(
+  .use(sass());
+//  .use(googleAnalytics('UA-37443128-6'))
+// .use(metadata({
+//   ericEvans: 'data/eric-evans.json'
+// }))
+
+if (shouldWatch) {
+  metalsmith = metalsmith.use(
     watch({
       paths: {
         "${source}/**/*": true,
@@ -51,12 +53,14 @@ Metalsmith(__dirname)
       },
       livereload: true,
     })
-  )
-  .build(function (err, files) {
-    if (err) {
-      throw err;
-    }
-  });
+  );
+}
+
+metalsmith.build(function (err, files) {
+  if (err) {
+    throw err;
+  }
+});
 
 // Debug function
 function debug(logToConsole) {

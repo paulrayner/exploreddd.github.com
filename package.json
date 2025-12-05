@@ -2,7 +2,8 @@
   "name": "static-site-example",
   "private": true,
   "scripts": {
-    "build": "node index.js"
+    "build": "node index.js",
+    "build:once": "WATCH=false node index.js"
   },
   "dependencies": {
     "@metalsmith/layouts": "^2.7.0",
