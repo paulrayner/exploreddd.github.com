@@ -2542,17 +2542,34 @@ blockquote .quote-source {
 		border-color: $brand-blue;
 	}
 
-	&.featured {
+	&.group-card {
 		border-color: $brand-yellow;
 
 		.pricing-card-header {
-			background-color: $brand-blue;
+			background-color: $brand-yellow;
+		}
+
+		.pricing-card-body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
 
 		&:hover {
-			border-color: $brand-blue;
+			border-color: color.adjust($brand-yellow, $lightness: -10%);
 		}
 	}
+}
+
+.group-cta {
+	font-family: NunitoSansSemiBold, sans-serif;
+	font-size: 16px;
+	color: $brand-body;
+	margin-bottom: $half-margin;
+}
+
+.group-btn {
+	margin-bottom: 0;
 }
 
 .pricing-card-header {
@@ -2612,8 +2629,3 @@ blockquote .quote-source {
 	color: $brand-blue;
 }
 
-.pricing-group-note {
-	font-family: NunitoSans, sans-serif;
-	font-size: 16px;
-	color: #666;
-}
