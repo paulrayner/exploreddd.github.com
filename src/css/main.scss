@@ -2499,3 +2499,121 @@ blockquote .quote-source {
 	width: 350px;
 	background-color: rgba(0, 130, 200, 0.1);
 }
+
+// Pricing section
+.pricing {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: $standard-margin;
+	padding-bottom: $standard-margin;
+
+	h2 {
+		font-size: $big;
+	}
+}
+
+.pricing-subtitle {
+	font-family: NunitoSans, sans-serif;
+	font-size: 16px;
+	margin-bottom: $standard-margin;
+}
+
+.pricing-cards {
+	display: flex;
+	justify-content: center;
+	gap: $standard-margin;
+	margin-bottom: $standard-margin;
+
+	@include mq(xs) {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.pricing-card {
+	background-color: $brand-white;
+	border: 2px solid rgba(0, 130, 200, 0.2);
+	border-radius: 5px;
+	width: 280px;
+	text-align: center;
+	transition: border-color 0.2s;
+
+	&:hover {
+		border-color: $brand-blue;
+	}
+
+	&.featured {
+		border-color: $brand-yellow;
+
+		.pricing-card-header {
+			background-color: $brand-blue;
+		}
+
+		&:hover {
+			border-color: $brand-blue;
+		}
+	}
+}
+
+.pricing-card-header {
+	background-color: rgba(0, 130, 200, 0.85);
+	padding: $half-margin;
+	border-radius: 3px 3px 0 0;
+
+	h3 {
+		color: $brand-white;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: $body-size;
+		text-transform: uppercase;
+		margin: 0 0 4px 0;
+	}
+
+	.pricing-dates {
+		color: rgba(255, 255, 255, 0.85);
+		font-family: NunitoSans, sans-serif;
+		font-size: 14px;
+		margin: 0;
+	}
+}
+
+.pricing-card-body {
+	padding: $half-margin $standard-margin $standard-margin;
+}
+
+.pricing-description {
+	font-family: NunitoSans, sans-serif;
+	font-size: 14px;
+	color: #666;
+	margin-bottom: $half-margin;
+	min-height: 40px;
+}
+
+.pricing-tier {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 8px 0;
+	border-bottom: 1px solid rgba(0, 130, 200, 0.1);
+
+	&:last-child {
+		border-bottom: none;
+	}
+}
+
+.pricing-label {
+	font-family: NunitoSans, sans-serif;
+	font-size: 15px;
+	color: $brand-body;
+}
+
+.pricing-amount {
+	font-family: NunitoSansBold, sans-serif;
+	font-size: 20px;
+	color: $brand-blue;
+}
+
+.pricing-group-note {
+	font-family: NunitoSans, sans-serif;
+	font-size: 16px;
+	color: #666;
+}
