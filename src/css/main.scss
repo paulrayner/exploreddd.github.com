@@ -2506,6 +2506,15 @@ blockquote .quote-source {
 	margin: 0 auto;
 	padding-top: $standard-margin;
 	padding-bottom: $standard-margin;
+	scroll-margin-top: 100px;
+
+	@include mq(md) {
+		scroll-margin-top: 120px;
+	}
+
+	@include mq(lg) {
+		scroll-margin-top: 145px;
+	}
 
 	h2 {
 		font-size: $big;
