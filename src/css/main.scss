@@ -2499,3 +2499,181 @@ blockquote .quote-source {
 	width: 350px;
 	background-color: rgba(0, 130, 200, 0.1);
 }
+
+// Pricing section
+.pricing {
+	max-width: 885px;
+	margin: 0 auto;
+	padding-top: $standard-margin;
+	padding-bottom: $standard-margin;
+
+	h2 {
+		font-size: $big;
+	}
+}
+
+.pricing-subtitle {
+	font-family: NunitoSans, sans-serif;
+	font-size: 16px;
+	margin-bottom: $standard-margin;
+}
+
+.pricing-tables {
+	margin-bottom: $standard-margin;
+}
+
+.pricing-table-block {
+	margin-bottom: $standard-margin * 1.5;
+
+	&.group-table-block {
+		.pricing-table-title {
+			color: $brand-yellow;
+		}
+	}
+}
+
+.pricing-table-title {
+	font-family: NunitoSansBold, sans-serif;
+	font-size: 20px;
+	color: $brand-blue;
+	text-transform: uppercase;
+	margin: 0 0 4px 0;
+
+	.pricing-table-dates {
+		font-family: NunitoSans, sans-serif;
+		font-size: 14px;
+		text-transform: none;
+		color: #666;
+		display: inline;
+		margin-left: 8px;
+	}
+
+	@include mq(xs) {
+		text-align: center;
+		font-size: $body-size;
+
+		.pricing-table-dates {
+			display: block;
+			margin-left: 0;
+			margin-top: 4px;
+		}
+	}
+}
+
+.pricing-table-description {
+	font-family: NunitoSans, sans-serif;
+	font-size: 15px;
+	color: #666;
+	margin-bottom: $half-margin;
+
+	@include mq(xs) {
+		text-align: center;
+	}
+}
+
+.pricing-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: $half-margin;
+
+	thead {
+		th {
+			font-family: NunitoSansSemiBold, sans-serif;
+			font-size: 14px;
+			color: #999;
+			text-transform: uppercase;
+			padding: 8px 12px;
+			border-bottom: 2px solid rgba(0, 130, 200, 0.2);
+			text-align: left;
+		}
+	}
+
+	tbody {
+		tr {
+			border-bottom: 1px solid rgba(0, 130, 200, 0.08);
+
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+
+		td {
+			font-family: NunitoSans, sans-serif;
+			font-size: 16px;
+			padding: 10px 12px;
+			color: $brand-body;
+		}
+	}
+
+	.price-cell {
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 20px;
+		color: $brand-blue;
+		white-space: nowrap;
+	}
+
+	.tier-highlight {
+		td {
+			background-color: rgba(0, 130, 200, 0.04);
+		}
+
+		.price-cell {
+			color: $brand-blue;
+		}
+	}
+
+	.tier-late {
+		td {
+			color: #999;
+		}
+
+		.price-cell {
+			color: #999;
+			font-size: 18px;
+		}
+	}
+
+	@include mq(xs) {
+		font-size: 14px;
+
+		thead th {
+			font-size: 12px;
+			padding: 6px 8px;
+		}
+
+		tbody td {
+			font-size: 14px;
+			padding: 8px;
+		}
+
+		.price-cell {
+			font-size: 17px;
+		}
+
+		.tier-late .price-cell {
+			font-size: 15px;
+		}
+	}
+}
+
+.group-table-block {
+	.price-cell {
+		color: $brand-yellow;
+	}
+
+	.tier-highlight .price-cell {
+		color: color.adjust($brand-yellow, $lightness: -5%);
+	}
+}
+
+.group-code-note {
+	font-family: NunitoSans, sans-serif;
+	font-size: 15px;
+	color: #666;
+	margin-top: $half-margin;
+
+	@include mq(xs) {
+		text-align: center;
+	}
+}
+
