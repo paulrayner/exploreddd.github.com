@@ -371,6 +371,20 @@
   <script src="js/vendor/jquery.flexslider-min.js"></script>
   <script src="js/main.js"></script>
 
+  <script>
+    // Swap REGISTER buttons from #pricing to Tito once registration opens
+    (function() {
+      var titoUrl = 'https://ti.to/EDDD/explore-ddd-2026';
+      var opensAt = new Date('2026-02-23T07:00:00Z'); // midnight MT
+      if (new Date() >= opensAt) {
+        var links = document.querySelectorAll('a.btn[href="#pricing"]');
+        for (var i = 0; i < links.length; i++) {
+          links[i].setAttribute('href', titoUrl);
+          links[i].setAttribute('target', '_blank');
+        }
+      }
+    })();
+  </script>
 
 </body>
 
