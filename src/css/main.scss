@@ -1626,6 +1626,257 @@ footer {
 			}
 		}
 	}
+
+	.sponsor-tagline {
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 22px;
+		color: $brand-blue;
+		margin-bottom: $standard-margin;
+	}
+
+	.sponsor-stats {
+		margin: $standard-margin * 2 0;
+		padding: $standard-margin;
+		background-color: rgba(0, 130, 200, 0.06);
+		border-radius: 5px;
+
+		h2 {
+			font-size: $big;
+			margin-bottom: $standard-margin;
+		}
+	}
+
+	.stats-grid {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-bottom: $half-margin;
+	}
+
+	.stat-item {
+		text-align: center;
+		padding: 10px 15px;
+
+		.stat-number {
+			display: block;
+			font-family: NunitoSansExtraBold, sans-serif;
+			font-size: 36px;
+			color: $brand-blue;
+			line-height: 1.2;
+		}
+
+		.stat-label {
+			font-family: NunitoSansSemiBold, sans-serif;
+			font-size: 12px;
+			color: #666;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+	}
+
+	.stats-roles {
+		font-size: 14px;
+		color: #666;
+		margin-top: $half-margin;
+	}
+
+	.sponsor-why {
+		margin: $standard-margin * 2 0;
+
+		h2 {
+			font-size: $big;
+			margin-bottom: $standard-margin;
+		}
+	}
+
+	.why-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: $standard-margin;
+
+		@include mq(xs) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.why-item {
+		h3 {
+			font-family: NunitoSansBold, sans-serif;
+			font-size: 16px;
+			color: $brand-blue;
+			margin-bottom: 8px;
+		}
+
+		p {
+			font-size: 15px;
+			color: #444;
+		}
+	}
+
+	.sponsor-tiers {
+		margin: $standard-margin * 2 0;
+
+		h2 {
+			font-size: $big;
+			margin-bottom: $standard-margin;
+		}
+	}
+
+	.tiers-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: $half-margin;
+
+		@include mq(xs) {
+			grid-template-columns: 1fr 1fr;
+			gap: 10px;
+		}
+	}
+
+	.tier-card {
+		border: 2px solid rgba(0, 130, 200, 0.2);
+		border-radius: 5px;
+		padding: 20px 15px;
+		text-align: center;
+
+		h3 {
+			font-family: NunitoSansBold, sans-serif;
+			font-size: 16px;
+			color: $brand-blue;
+			text-transform: uppercase;
+			margin: 0 0 8px 0;
+		}
+
+		.tier-price {
+			display: block;
+			font-family: NunitoSansExtraBold, sans-serif;
+			font-size: 20px;
+			color: $brand-body;
+		}
+
+		.tier-limit {
+			display: block;
+			font-family: NunitoSansSemiBold, sans-serif;
+			font-size: 11px;
+			color: $brand-yellow;
+			text-transform: uppercase;
+			margin-bottom: 12px;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			text-align: left;
+			font-size: 13px;
+			color: #444;
+
+			li {
+				padding: 3px 0;
+
+				&:before {
+					content: "\2713\00a0";
+					color: $brand-blue;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+
+	.tier-platinum {
+		border-color: $brand-blue;
+		background-color: rgba(0, 130, 200, 0.04);
+	}
+
+	.tiers-note {
+		font-size: 14px;
+		color: #666;
+		margin-top: $standard-margin;
+	}
+
+	.sponsor-extras {
+		margin: $standard-margin * 2 0;
+
+		h2 {
+			font-size: $big;
+			margin-bottom: $half-margin;
+		}
+	}
+
+	.extras-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 8px;
+		margin-top: $standard-margin;
+
+		@include mq(xs) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.extra-item {
+		display: flex;
+		align-items: center;
+		padding: 10px 15px;
+		border-bottom: 1px solid rgba(0, 130, 200, 0.1);
+
+		.extra-name {
+			font-family: NunitoSansSemiBold, sans-serif;
+			font-size: 15px;
+			flex: 1;
+		}
+
+		.extra-price {
+			font-family: NunitoSansBold, sans-serif;
+			font-size: 15px;
+			color: $brand-blue;
+			margin-left: 10px;
+		}
+
+		.extra-tag {
+			font-family: NunitoSansSemiBold, sans-serif;
+			font-size: 10px;
+			color: $brand-yellow;
+			text-transform: uppercase;
+			margin-left: 8px;
+		}
+	}
+
+	.sponsor-testimonials {
+		margin: $standard-margin * 2 0;
+
+		blockquote {
+			border-left: 3px solid $brand-blue;
+			margin: 0 0 $standard-margin 0;
+			padding: 15px 25px;
+
+			p {
+				font-family: NunitoSansLight, sans-serif;
+				font-size: 16px;
+				font-style: italic;
+				color: #444;
+				margin: 0;
+			}
+
+			cite {
+				display: block;
+				font-family: NunitoSansBold, sans-serif;
+				font-size: 14px;
+				color: $brand-blue;
+				font-style: normal;
+				margin-top: 8px;
+				text-align: right;
+			}
+		}
+	}
+
+	.sponsor-cta {
+		margin: $standard-margin * 2 0;
+
+		p {
+			margin-top: $half-margin;
+		}
+	}
 }
 
 .page-subheader {
