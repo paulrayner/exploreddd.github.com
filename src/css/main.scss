@@ -1634,16 +1634,15 @@ footer {
 		margin-bottom: $standard-margin;
 	}
 
+	.sponsor-hero-testimonial {
+		margin: $standard-margin 0 $standard-margin * 1.5;
+	}
+
 	.sponsor-stats {
-		margin: $standard-margin * 2 0;
+		margin: $standard-margin 0 $standard-margin * 2;
 		padding: $standard-margin;
 		background-color: rgba(0, 130, 200, 0.06);
 		border-radius: 5px;
-
-		h2 {
-			font-size: $big;
-			margin-bottom: $standard-margin;
-		}
 	}
 
 	.stats-grid {
@@ -1700,6 +1699,9 @@ footer {
 	}
 
 	.why-item {
+		padding-left: $half-margin;
+		border-left: 3px solid rgba(0, 130, 200, 0.2);
+
 		h3 {
 			font-family: NunitoSansBold, sans-serif;
 			font-size: 16px;
