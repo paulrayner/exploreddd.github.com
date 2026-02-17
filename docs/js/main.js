@@ -125,3 +125,42 @@ $(document).ready(function () {
   });
 });
 
+// PostHog event tracking
+$(document).ready(function () {
+  if (typeof posthog === 'undefined') return;
+
+  // Track Register button clicks (links to ti.to)
+  $('a[href*="ti.to"]').on('click', function () {
+    posthog.capture('register_click', {
+      link_text: $(this).text().trim(),
+      link_url: $(this).attr('href'),
+      page: window.location.pathname
+    });
+  });
+
+  // Track newsletter signup submissions
+  $('#mc-embedded-subscribe-form').on('submit', function () {
+    posthog.capture('newsletter_signup', {
+      page: window.location.pathname
+    });
+  });
+
+  // Pass UTM params through to Tito links so Tito captures source attribution
+  var searchParams = new URLSearchParams(window.location.search);
+  var utmParams = {};
+  ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'].forEach(function (param) {
+    if (searchParams.has(param)) {
+      utmParams[param] = searchParams.get(param);
+    }
+  });
+  if (Object.keys(utmParams).length > 0) {
+    $('a[href*="ti.to"]').each(function () {
+      var url = new URL($(this).attr('href'));
+      Object.keys(utmParams).forEach(function (key) {
+        url.searchParams.set(key, utmParams[key]);
+      });
+      $(this).attr('href', url.toString());
+    });
+  }
+});
+
