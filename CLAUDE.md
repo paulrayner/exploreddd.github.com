@@ -16,10 +16,10 @@ Static website for Explore DDD Conference built with Metalsmith. Source files in
 
 ## Deployment Workflow
 
-- `docs/` is in `.gitignore` - do NOT commit built files locally
+- **NEVER commit `docs/` files locally.** Although `docs/` is tracked in git (not gitignored), it is built and committed exclusively by GitHub Actions. Local builds will show `docs/` as modified; always discard those changes with `git checkout -- docs/` before committing.
 - GitHub Actions (`.github/workflows/build.yml`) automatically:
   1. Triggers on pushes to `src/`, `layouts/`, `partials/`, or template files
   2. Runs `npm run build:once`
   3. Commits the generated `docs/` folder
-- Only commit source file changes; CI handles the build output
+- Only commit and push source file changes (`src/`, `layouts/`, `partials/`, `src/css/`); CI handles the build output
 - GitHub Pages serves from the `docs/` directory
