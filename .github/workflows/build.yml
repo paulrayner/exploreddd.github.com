@@ -38,6 +38,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          git add -f docs/
           git add .
           git commit -m "Github Actions build results" || true
           git push
