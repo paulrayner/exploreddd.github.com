@@ -1881,6 +1881,87 @@ footer {
 	}
 }
 
+/* CFP Page */
+.cfp-page {
+
+	.cfp-formats-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: $half-margin;
+		margin: $standard-margin 0;
+
+		@include mq(xs) {
+			grid-template-columns: 1fr 1fr;
+			gap: 10px;
+		}
+	}
+
+	.cfp-format-card {
+		border: 2px solid rgba(0, 130, 200, 0.2);
+		border-radius: 5px;
+		padding: 20px 15px;
+		text-align: center;
+
+		.cfp-format-name {
+			display: block;
+			font-family: NunitoSansBold, sans-serif;
+			font-size: 16px;
+			color: $brand-blue;
+			margin-bottom: 4px;
+		}
+
+		.cfp-format-length {
+			display: block;
+			font-family: NunitoSansExtraBold, sans-serif;
+			font-size: 20px;
+			color: $brand-body;
+		}
+
+		.cfp-format-note {
+			display: block;
+			font-family: NunitoSansSemiBold, sans-serif;
+			font-size: 11px;
+			color: #666;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			margin-top: 4px;
+		}
+	}
+
+	.cfp-comp-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: $half-margin;
+		margin: $standard-margin 0;
+
+		@include mq(xs) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.cfp-comp-item {
+		padding-left: $half-margin;
+		border-left: 3px solid rgba(0, 130, 200, 0.2);
+
+		h3 {
+			font-family: NunitoSansBold, sans-serif;
+			font-size: 16px;
+			color: $brand-blue;
+			margin: 0 0 8px 0;
+		}
+
+		p {
+			font-size: 15px;
+			color: #444;
+			margin-bottom: 8px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
 .page-subheader {
 	color: $brand-body;
 	font-family: NunitoSansBold, sans-serif;
