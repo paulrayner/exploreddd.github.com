@@ -952,26 +952,25 @@ figure {
 }
 
 .section.speakers {
+	padding-top: $standard-margin;
+
 	h2 {
 		font-size: 24px; //this may be best served as a reference to a font-size variable since its the same size as an h1
 	}
 
 	.flex-row {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: flex-start;
-		gap: $standard-margin * 2;
-		row-gap: $standard-margin;
+		display: grid;
+		grid-template-columns: repeat(2, 155px);
+		gap: $standard-margin;
+		column-gap: $standard-margin * 2;
 		justify-content: center;
 		margin-bottom: $standard-margin;
 
-		@include mq(xs) {}
-
-		@include mq(md) {}
+		@include mq(sm) {
+			grid-template-columns: repeat(4, 155px);
+		}
 
 		.speaker-container {
-			width: 155px;
-
 			p {
 				margin-bottom: 0 !important;
 			}
@@ -1161,7 +1160,7 @@ figure {
 	&.javiera-laso {
 		background-image: url('../img/speakers/javiera-laso.jpg');
 		background-size: 110%;
-		background-position: -10px 0px;
+		background-position: -8px -30px;
 	}
 
 	&.jessica-kerr {
@@ -1352,6 +1351,30 @@ figure {
 
 	&.xi-palazzolo {
 		background-image: url('../img/speakers/xi-palazzolo.jpg');
+		background-size: 110%;
+		background-position: -10px 0px;
+	}
+
+	&.paul-rayner {
+		background-image: url('../img/speakers/sprite-paul-rayner.jpg');
+		background-size: 312px;
+		background-position: 0;
+	}
+
+	&.indu-alagarsamy {
+		background-image: url('../img/speakers/indu-alagarsamy.jpg');
+		background-size: 150%;
+		background-position: -20px;
+	}
+
+	&.kyle-brown {
+		background-image: url('../img/speakers/kyle-brown.jpg');
+		background-size: 100%;
+		background-position: 0 0;
+	}
+
+	&.tina-thomas {
+		background-image: url('../img/speakers/tina-thomas.jpg');
 		background-size: 110%;
 		background-position: -10px 0px;
 	}
