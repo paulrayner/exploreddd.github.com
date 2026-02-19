@@ -2293,6 +2293,49 @@ h3.sz-session__title {
 	.schedule-index-page {}
 }
 
+.schedule-placeholder {
+	margin-top: $standard-margin;
+	margin-bottom: $standard-margin;
+}
+
+.schedule-day {
+	margin-bottom: $standard-margin * 1.5;
+
+	h2 {
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 22px;
+		color: $brand-blue;
+		margin-bottom: 5px;
+	}
+
+	h3 {
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 16px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: #666;
+		margin-top: 0;
+		margin-bottom: $half-margin;
+	}
+}
+
+.schedule-block {
+	background: $brand-background;
+	border-left: 4px solid $brand-blue;
+	padding: $half-margin 20px;
+	margin-bottom: 10px;
+
+	p {
+		margin-bottom: 0;
+	}
+
+	&.schedule-block-tba {
+		background: #f5f5f5;
+		border-left-color: #ccc;
+		color: #888;
+	}
+}
+
 /* override the z-index values introduced from sessionize javascript inclusion 
    The schedule grid will overlap the blue top bar without the following ruleset 
 */
