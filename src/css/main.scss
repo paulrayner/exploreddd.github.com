@@ -2857,6 +2857,102 @@ blockquote .quote-source {
 	background-color: rgba(0, 130, 200, 0.1);
 }
 
+// Testimonials rotating quotes
+.testimonials-rotating {
+	background: rgba(0, 130, 200, 0.04);
+	padding: 35px 0;
+	text-align: center;
+
+	.rotate-inner {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 0 $standard-margin;
+	}
+
+	.rotate-label {
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 11px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: $brand-blue;
+		margin-bottom: 14px;
+	}
+
+	.quote-slides {
+		display: grid;
+	}
+
+	.quote-slide {
+		grid-area: 1 / 1;
+		opacity: 0;
+		transition: opacity 0.6s ease;
+
+		&.active {
+			opacity: 1;
+		}
+	}
+
+	blockquote {
+		background: none;
+		border: none;
+		padding: 0;
+		margin: 0;
+
+		p {
+			font-family: NunitoSansLight, sans-serif;
+			font-size: 19px;
+			line-height: 1.55;
+			color: #333;
+			font-style: italic;
+		}
+	}
+
+	cite {
+		display: inline-block;
+		font-family: NunitoSansBold, sans-serif;
+		font-size: 14px;
+		color: $brand-blue;
+		font-style: normal;
+		margin-top: 10px;
+
+		a {
+			color: $brand-blue;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		span {
+			font-family: NunitoSansLight, sans-serif;
+			color: #666;
+		}
+	}
+
+	.rotate-dots {
+		display: flex;
+		justify-content: center;
+		gap: 8px;
+		margin-top: 18px;
+
+		button {
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			border: none;
+			background: rgba(0, 130, 200, 0.2);
+			cursor: pointer;
+			padding: 0;
+			transition: background 0.3s;
+
+			&.active {
+				background: $brand-blue;
+			}
+		}
+	}
+}
+
 // Pricing section
 .pricing {
 	max-width: 885px;
