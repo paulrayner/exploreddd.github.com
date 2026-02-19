@@ -125,6 +125,40 @@ $(document).ready(function () {
   });
 });
 
+// Testimonials rotator
+$(document).ready(function () {
+  var slides = $('.quote-slide');
+  var dots = $('.rotate-dots button');
+  var current = 0;
+  var interval;
+
+  if (slides.length === 0) return;
+
+  function showSlide(index) {
+    slides.removeClass('active');
+    dots.removeClass('active');
+    $(slides[index]).addClass('active');
+    $(dots[index]).addClass('active');
+    current = index;
+  }
+
+  function nextSlide() {
+    showSlide((current + 1) % slides.length);
+  }
+
+  function startRotation() {
+    interval = setInterval(nextSlide, 5000);
+  }
+
+  dots.on('click', function () {
+    clearInterval(interval);
+    showSlide(parseInt($(this).data('index')));
+    startRotation();
+  });
+
+  startRotation();
+});
+
 // PostHog event tracking
 $(document).ready(function () {
   if (typeof posthog === 'undefined') return;
