@@ -849,9 +849,7 @@ figure {
 	padding-right: 0;
 
 	@include mq(xs) {
-		background-image: url('../video/video-poster.jpg');
-		background-size: cover;
-		background-position-x: 80%; //get background video poster/loading/mobile background more centrall
+		background-color: #1a1a2e;
 	}
 
 	.video-item {
@@ -919,6 +917,34 @@ figure {
 
 		@include mq(xs) {
 			background-color: color.adjust($brand-blue, $alpha: -0.3);
+		}
+	}
+}
+
+// Hero photo slideshow (mobile only, replaces video)
+.hero-slideshow {
+	display: none;
+
+	@include mq(xs) {
+		display: grid;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+	}
+
+	.hero-slide {
+		grid-area: 1 / 1;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		opacity: 0;
+		transition: opacity 1s ease;
+
+		&.active {
+			opacity: 1;
 		}
 	}
 }
