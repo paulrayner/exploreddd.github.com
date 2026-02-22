@@ -193,6 +193,26 @@ $(document).ready(function () {
   startRotation();
 });
 
+// Hero photo slideshow (mobile)
+$(document).ready(function () {
+  var slides = $('.hero-slide');
+  var current = 0;
+
+  if (slides.length === 0) return;
+
+  function showSlide(index) {
+    slides.removeClass('active');
+    $(slides[index]).addClass('active');
+    current = index;
+  }
+
+  function nextSlide() {
+    showSlide((current + 1) % slides.length);
+  }
+
+  setInterval(nextSlide, 5000);
+});
+
 // PostHog event tracking
 $(document).ready(function () {
   if (typeof posthog === 'undefined') return;
