@@ -2908,28 +2908,37 @@ blockquote .quote-source {
 	border-bottom: 1px solid #cdcdcd;
 }
 
-// jessitron adds some cards, since we don't have Bootstrap 4+
-.set-of-cards-for-intro-text {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin: 0 auto;
+// Value proposition cards on homepage
+.value-props {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	max-width: 780px;
+	margin: 10px auto 0;
+
+	@media (max-width: 600px) {
+		grid-template-columns: 1fr;
+		max-width: 400px;
+	}
 }
 
-.set-of-cards-for-intro-text .card {
-	background-color: #0082c8;
-	background-color: rgba(0, 130, 200, 0.4);
-	border-radius: 5px;
-	/* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
-	margin: 10px;
-	padding: 20px;
-	text-align: center;
-	align-items: center;
-}
+.value-prop {
+	border-left: 3px solid $brand-yellow;
+	background: linear-gradient(135deg, rgba(0, 130, 200, 0.08) 0%, rgba(0, 130, 200, 0.03) 100%);
+	padding: 20px 22px;
+	transition: background 0.2s ease, border-color 0.2s ease;
 
-.card.smallish {
-	width: 350px;
-	background-color: rgba(0, 130, 200, 0.1);
+	&:hover {
+		background: linear-gradient(135deg, rgba(0, 130, 200, 0.14) 0%, rgba(0, 130, 200, 0.06) 100%);
+		border-color: $brand-nav-hover;
+	}
+
+	&__text {
+		font-family: NunitoSansSemiBold, sans-serif;
+		font-size: 15px;
+		line-height: 1.5;
+		color: #2a2a2a;
+	}
 }
 
 // Venue photo slideshow
