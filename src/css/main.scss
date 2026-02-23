@@ -2919,6 +2919,9 @@ blockquote .quote-source {
 	@media (max-width: 600px) {
 		grid-template-columns: 1fr;
 		max-width: 400px;
+		gap: 12px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
 
@@ -2927,6 +2930,10 @@ blockquote .quote-source {
 	background: linear-gradient(135deg, rgba(0, 130, 200, 0.08) 0%, rgba(0, 130, 200, 0.03) 100%);
 	padding: 20px 22px;
 	transition: background 0.2s ease, border-color 0.2s ease;
+
+	@media (max-width: 600px) {
+		border-left: 4px solid $brand-yellow;
+	}
 
 	&:hover {
 		background: linear-gradient(135deg, rgba(0, 130, 200, 0.14) 0%, rgba(0, 130, 200, 0.06) 100%);
