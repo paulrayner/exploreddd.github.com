@@ -1,6 +1,7 @@
 name: Build on HTML File Edit
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "**.html"
