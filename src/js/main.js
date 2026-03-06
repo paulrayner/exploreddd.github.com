@@ -202,6 +202,30 @@ $(document).ready(function () {
     }
   });
 
+  var touchStartX = 0;
+  var touchEndX = 0;
+  var slideshow = $('.venue-slideshow')[0];
+
+  if (slideshow) {
+    slideshow.addEventListener('touchstart', function (e) {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    slideshow.addEventListener('touchend', function (e) {
+      touchEndX = e.changedTouches[0].screenX;
+      var diff = touchStartX - touchEndX;
+      if (Math.abs(diff) > 50) {
+        clearInterval(interval);
+        if (diff > 0) {
+          showSlide((current + 1) % slides.length);
+        } else {
+          showSlide((current - 1 + slides.length) % slides.length);
+        }
+        startRotation();
+      }
+    }, { passive: true });
+  }
+
   startRotation();
 });
 
