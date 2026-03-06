@@ -190,6 +190,18 @@ $(document).ready(function () {
     startRotation();
   });
 
+  $(document).on('keydown', function (e) {
+    if (e.key === 'ArrowLeft') {
+      clearInterval(interval);
+      showSlide((current - 1 + slides.length) % slides.length);
+      startRotation();
+    } else if (e.key === 'ArrowRight') {
+      clearInterval(interval);
+      showSlide((current + 1) % slides.length);
+      startRotation();
+    }
+  });
+
   startRotation();
 });
 
