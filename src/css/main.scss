@@ -1410,6 +1410,18 @@ figure {
 		background-size: 110%;
 		background-position: -10px 0px;
 	}
+
+	&.robert-sedor {
+		background-image: url('../img/speakers/robert-sedor.jpg');
+		background-size: 150%;
+		background-position: -55px 0px;
+	}
+
+	&.jeremy-davis {
+		background-image: url('../img/speakers/jeremy-davis.png');
+		background-size: 200%;
+		background-position: -20px -120px;
+	}
 }
 
 //sprites for individual speaker images
