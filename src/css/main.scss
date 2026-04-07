@@ -3248,6 +3248,17 @@ blockquote .quote-source {
 		white-space: nowrap;
 	}
 
+	.tier-expired {
+		td {
+			color: #bbb;
+			text-decoration: line-through;
+		}
+
+		.price-cell {
+			color: #bbb;
+		}
+	}
+
 	.tier-highlight {
 		td {
 			background-color: rgba(0, 130, 200, 0.04);
