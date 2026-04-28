@@ -1,0 +1,1094 @@
+[
+  {
+    "groupId": null,
+    "groupName": "All",
+    "sessions": [
+      {
+        "id": "1184524",
+        "title": "(Socio-)Technical Decisions",
+        "description": "This session takes a technical decision as a starting point, and together we consider what forces are at play in that situation, and what the various consequences of the decision are.  We will draw out how “technical” decisions may have short and longer term economic and social impacts that feed into the decision (context factors!), making them strategically and technically significant, and drawing (human and organizational) responsibility into consideration. And illustrating where the challenges spill over into matters like divergent perspectives on the direction the decision takes us in.\r\n\r\nWith this scene set, we delve further into significant decisions, framing the \"problem,\" identifying forces and trade-offs, developing alternatives and identifying their consequences, and exploring what our options are, including the organizational aspects.  \r\n\r\nWe will draw on organizational dynamics and systems insights, theory and practice, and architecture decision record templates and diagrams and models as relevant to the decisions and tradeoffs we're exploring. This is a working session, and we will work in teams.  ",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "86962baa-4e19-4de8-94c4-32060a5dd4d2"
+        ],
+        "categoryItems": [
+          422794,
+          422797,
+          422801,
+          422807
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "No prerequisites"
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "24"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1176941",
+        "title": "Advanced Software Teaming and AI - Thinking Together in the Age of Intelligent Tools",
+        "description": "Artificial intelligence is rapidly changing how software is written. Many teams are experimenting. Some are moving faster. Others are discovering new forms of friction, waiting, and hidden complexity.\r\n\r\nThis two-day workshop explores how to integrate AI into collaborative development without sacrificing flow, domain integrity, or shared understanding.\r\n\r\nLed by Woody Zuill, one of the pioneers and most recognized voices in Software Teaming (Mob Programming), and James Herr, an experienced AI-assisted programmer deeply involved in Ensemble Programming, this workshop examines what happens when AI enters a whole-team environment.\r\n\r\nRather than treating AI as a solo productivity tool, we explore how AI behaves inside a whole-team development environment. Participants will work together on meaningful coding exercises while integrating AI into the workflow. We will observe what improves, what degrades, and what requires new discipline.\r\nCoding was never the real bottleneck. Finding the right thing to build, at the right time, with a shared understanding of the domain is the deeper challenge. AI can help. It can also fragment attention, introduce queueing waste, and quietly create large amounts of unexamined code.\r\n\r\nTogether, we will explore:\r\n-- Working as a team using AI\r\n-- Hand's-on teamwork, how to do it\r\n-- Maintaining ubiquitous language and domain clarity when AI generates code\r\n-- Practical facilitation techniques for AI-enabled Team/Ensemble Programming\r\n-- Using AI to amplify learning instead of weakening understanding\r\n-- How AI affects team flow and collective focus\r\n-- The queueing and waiting costs introduced by AI tools\r\n-- Preventing “instant Big Ball of Mud” through disciplined collaboration\r\n-- AI-assisted Test-Driven Development in a shared environment\r\n-- Shortening feedback loops rather than lengthening them\r\n\r\nParticipants will engage in extended hands-on collaboration with AI integrated directly into the team workflow. We will observe the impact on discussion, modeling, decision-making, and knowledge transfer. We will experiment with techniques such as timeboxing, driver and navigator rotation, walking multiple paths, and improving AI instruction practices to reduce waste and maintain momentum.\r\n\r\nFor the Domain-Driven Design community, this workshop focuses on preserving what matters most: shared domain understanding, meaningful modeling conversations, and collective ownership. AI can produce output quickly, but it can't know the right thing to produce. The responsibility for clarity remains with us.\r\n\r\nThis is not a workshop about chasing productivity metrics. It is about effectiveness. It is about making better decisions sooner, reducing waste, and strengthening the team’s ability to think together in a rapidly evolving technological landscape.\r\n\r\nIf your team is experimenting with AI but wants a disciplined, human-centered approach that strengthens rather than weakens collaboration, this workshop provides practical experience and thoughtful guidance grounded in real practice.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "e5e6903e-e4b6-4629-b84f-df9339ef640b",
+          "d58a1a6a-0587-46d9-bad9-7d0a49048b96"
+        ],
+        "categoryItems": [
+          422794,
+          422797,
+          422800,
+          422807
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "None needed.  This is for programmers and non-programmers, who will work together as a team. "
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "50"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1182143",
+        "title": "AI-Assisted Software Architecture & Domain Discovery",
+        "description": "Your company has gone all-in on AI. You've got Copilot, Claude Code, Cursor, Cody, Windsurf, maybe even all of them! Leadership expects you to move faster. But the hard problems haven't changed:\r\n\r\nSprawling codebases where no one fully understands how things interact\r\nDomain concepts buried implicitly across thousands of files\r\nAdding features without breaking something three services away\r\nKnowledge that lives in a few people's heads instead of in documentation\r\n\r\nAI won't simplify a complex system. But it can dramatically accelerate your understanding. And understanding is what unlocks every decision that follows. This workshop teaches you how.\r\n\r\nWhat You'll Learn\r\nOver two full days, you'll learn how to use AI tools as a force multiplier for architectural and domain discovery. Here are some of the areas we will cover:\r\n\r\nCodebase exploration. Rapidly build a mental model of an unfamiliar or poorly documented system: its components, responsibilities, and interactions.\r\nDomain concept extraction from existing code. Surface the implicit domain model hiding in your codebase: entities, relationships, domain events, communication patterns, and business rules that no one has documented.\r\nBug pattern analysis. You've identified a bug and suspect the same pattern exists elsewhere in your bounded context. Determine whether a defect is a one-off symptom or a systemic issue embedded across your bounded context.\r\nDependency mapping and coupling analysis. Trace the dependencies that determine what's actually hard to change. Find the load-bearing components, shared databases, and hidden coupling.\r\nGenerating architectural documentation from code. Produce living documentation such as sequence diagrams, interaction maps, data flow descriptions — directly from your codebase.\r\nKnowing where AI can't help and what to do instead. Systems are built for people, and people don't always decide on the merits. The hardest part of architectural decision-making is often the room, not the code. We'll combine structured trade-off evaluation techniques like Double Diamond with facilitation practices that help stakeholders reach genuine shared understanding and make decisions instead of being stuck.\r\n\r\nThroughout the workshop, you'll work with a realistic sample codebase, alternating between demos, guided hands-on exercises, and group discussions where you synthesize AI-generated insights with your own architectural judgment. While our demos will use Claude Code, our goal as a group is to learn from one another. If you have a different tool installed — Copilot, Cursor, or anything else — bring it. Different tools often surface different insights on the same problem, which can spark genuinely useful discussion. \r\n\r\nWho Should Attend\r\nSoftware Architects and Principal Engineers who want to add AI-assisted techniques to their architectural analysis toolkit\r\nSenior Developers and Tech Leads who are responsible for understanding, evolving, or modernizing existing systems\r\nConsultants and Coaches who help organizations understand and improve their software systems\r\nAnyone who regularly needs to make sense of complex existing codebases — whether to add features, plan migrations, onboard to a new team, or assess technical debt\r\n\r\nThis workshop is designed for people who work with already existing systems. If you only work on greenfield projects with simple domains, most of what we cover won't resonate yet.\r\n\r\nPrerequisites\r\nComfort reading code. You should be able to read and follow code in at least one mainstream language (Java, C#, TypeScript, Python). The exercises involve reading code, not writing it.\r\nYour laptop and basic familiarity with AI coding tools. You don’t have to be an expert on using Claude Code, but you should already have Claude Code or the AI tool of your choice installed on your laptop. We won't cover installation steps or \"what is an LLM.\" \r\n\r\nPlease note: This is not a workshop about writing code with AI. We don't cover AI-assisted code generation, test writing, or refactoring. The focus is on using AI to understand systems and make better architectural decisions.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "5d75dcd9-5de6-48f4-a6fc-c980fc7c6cba"
+        ],
+        "categoryItems": [
+          422795,
+          422797,
+          422800,
+          422808,
+          422811
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "- Comfort reading code. You should be able to read and follow code in at least one mainstream language (Java, C#, TypeScript, Python). The exercises involve reading code, not writing it.\r\n- Your laptop and basic familiarity with AI coding tools. You don’t have to be an expert on using Claude Code, but you should already have Claude Code or the AI tool of your choice installed on your laptop. We won't cover installation steps or \"what is an LLM.\" "
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "30"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1119445",
+        "title": "AI-Assisted Software Development Needs Domain-Driven Design",
+        "description": "As AI tools become ubiquitous across the software development lifecycle, teams face new opportunities and risks. While coding assistants and AI-powered content generation tools promise to accelerate delivery, they can also amplify miscommunication, leading to software that’s difficult to maintain or evolve.\r\n\r\nDomain-Driven Design (DDD) offers a proven approach to bridging this gap. By establishing a shared, ubiquitous language among all stakeholders, DDD ensures that both humans and AI agents operate with a clear, business-aligned understanding. This talk explores how DDD principles can optimize the use of AI tools, prevent the pitfalls of “vibe coding,” and prepare organizations for a future where agent-to-agent communication is the norm.\r\n\r\nAttendees will learn practical strategies for integrating DDD with AI-assisted workflows, ensuring that the AI revolution leads to robust, maintainable, and business-aligned software.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "94bacfff-6eb4-4645-98bb-5cb7b6075d0e"
+        ],
+        "categoryItems": [
+          422793,
+          422796,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1188610",
+        "title": "Applying Domain-Driven Design to Complex Healthcare Workflows",
+        "description": "Healthcare revenue cycle systems represent a highly complex domain involving clinical data, billing processes, regulatory rules, and external integrations. Managing this complexity often leads to fragmented systems, inconsistent data, and tightly coupled workflows.\r\n\r\nThis session explores how Domain-Driven Design (DDD) can be applied to model and simplify such complex, data-intensive systems. Using real-world healthcare scenarios, we demonstrate how to identify bounded contexts across EMR, billing, and payment systems, and align data pipelines with domain boundaries. Core concepts such as ubiquitous language, domain services, and context mapping are used to structure validation rules, code updates, and financial workflows.\r\n\r\nThe talk also examines how domain models can drive the design of data pipelines, enabling clearer separation of concerns, improved data consistency, and more maintainable integrations. Attendees will learn how to translate complex business rules into well-defined domain models and build scalable, loosely coupled systems that evolve with changing regulatory and operational requirements.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "c3ee1096-1735-4b4f-83db-a95d1c287928"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422808
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1122846",
+        "title": "Architect as a Systems Thinker: Turning Strategy into Action",
+        "description": "In this hands-on session, participants will learn how to bridge the gap between technical strategy and execution using systems thinking principles.\r\n\r\nThrough some exercises, software architects will practice mapping business goals, constraints, and feedback loops, then translate them into a clear and adaptable technical roadmap.\r\nThe workshop focuses on helping architects/engineers to move from abstract vision to actionable outcomes, aligning architecture with value, sequencing initiatives, and communicating trade-offs effectively to stakeholders.\r\nBy the end of this workshop, participants will be able to:\r\n\r\n-Understand how systems thinking reveals dependencies and leverage points within technical ecosystems\r\n-Identify how business outcomes can be mapped to technical capabilities\r\n-Practice creating an adaptive roadmap using “Now / Next / Later” framing\r\n-Learn to communicate trade-offs and priorities in a way that aligns with business goals\r\n-Leave with a reusable framework and template for turning architectural strategy into delivery steps",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "57ac7058-1fcf-4d9a-802c-73b297e824b0",
+          "fba0166b-1333-48e5-b630-edf6c1fff32a"
+        ],
+        "categoryItems": [
+          422794,
+          422797,
+          422801,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "- Experience making decisions (team level or organization level)\r\n- Exposure to architecture or technical strategy discussions\r\n\r\nNice to have (but not required):\r\n- Prior exposure to concepts like architecture diagrams, capability maps, or roadmaps\r\n- Experience communicating technical decisions to product managers or non-technical stakeholders"
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "25"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1188592",
+        "title": "Build your own coding agent from scratch",
+        "description": "You use AI agents every day: Claude Code, Codex, Cursor. But do you know what's actually happening under the hood? It turns out, the core of every AI agent is surprisingly simple: a while loop, a language model, and some tools.\r\n\r\nIn this live-coding session, we'll build an AI coding agent without any frameworks. We'll start from a bare frontier model call to an LLM and incrementally add capabilities. At each step, we'll hit a real limitation, understand why it exists, and solve it. You'll watch a basic chatbot evolve into a sophisticated coding agent with tools, conversation history, and guardrails.\r\n\r\nBy the end of this session, you'll be able to:\r\n- explain the agentic loop that powers LLM agents\r\n- identify the core components of AI agents\r\n- build your own simple agent and extend it with custom tools",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "f24225da-4a42-490f-a8e2-9894cf32a736",
+          "6f1f2448-c7d3-4627-b450-e61bc158d1d3"
+        ],
+        "categoryItems": [
+          422794,
+          422798,
+          422800,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "We'll work in TypeScript\r\nYou need to bring your own API key for Anthropic, OpenAI or a similar frontier model provider."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "25-30? We can have them work in pairs or small groups"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1188600",
+        "title": "Build your own coding agent from scratch",
+        "description": "You use AI agents every day: Claude Code, Codex, Cursor. But do you know what's actually happening under the hood? It turns out, the core of every AI agent is surprisingly simple: a while loop, a language model, and some tools.\r\n\r\nIn this hands-on workshop, we'll build an AI agent from scratch without any frameworks. We'll start from a bare frontier model call to an LLM and incrementally add capabilities.\r\n\r\nAt each step, we'll hit a real limitation, understand why it exists, and solve it. You'll watch a basic chatbot evolve into a sophisticated agent with tools, conversation history, and guardrails.\r\n\r\nBy the end of day one, you'll be able to:\r\n- explain the agentic loop that powers LLM agents\r\n- identify the core components of AI agents\r\n- build your own simple agent and extend it with custom tools\r\n- explain context windows and how to manage agent context\r\n\r\nOn the second day we'll explore deeper topics like:\r\n- deterministic vs non-deterministic capabilities of agents: when and where each is appropriate\r\n- using evals to test the non-deterministic behaviour of your agent\r\n- adding domain-specific tools to manage ludic constraints\r\n\r\nWe'll attempt a refactoring challenge, and pit our agents against each other in a fun competition to end the workshop.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "f24225da-4a42-490f-a8e2-9894cf32a736",
+          "6f1f2448-c7d3-4627-b450-e61bc158d1d3"
+        ],
+        "categoryItems": [
+          422795,
+          422798,
+          422800,
+          422808,
+          422811
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "We'll be using Typescript to build the agent, and Java samples for refactoring exercises. You don't need to be especially familiar with either language.\r\n\r\nYou do need to bring a frontier model provider (Anthropic, OpenAI, Google Gemini) API key."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "25-30"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
+      },
+      {
+        "id": "1189257",
+        "title": "Building AI-Native Business Capabilities with DDD: A Hands-On Architecture Competition",
+        "description": "Experience how Domain-Driven Design principles transform AI agent architectures into powerful business solutions through an interactive, gamified workshop that has already engaged 40+ senior software engineers, tech leads, and DDD practitioners from the DDD Brasil chapter.\r\n\r\nParticipants will compete using a visual builder platform to optimize 5 different conversational AI strategies (Pipeline, Tool-Using, Workflow, Multi-Agent, and Memory-based), learning firsthand how bounded contexts, aggregates, and ubiquitous language shape AI system design. This battle-tested workshop format has proven effective with experienced DDD practitioners who praised its innovative approach to demonstrating AI-DDD integration - it teaches about the blend of AI Native Architectures and DDD.\r\n\r\nNo coding required - focus entirely on architecture decisions, prompt engineering, and understanding how DDD concepts create more effective AI agents. Real-time leaderboards show which architectural patterns deliver the best business outcomes for customer service scenarios. Rounds of fedback allow participants to share learnings and build knowledge together. Walk away with practical knowledge of implementing AI-native systems using DDD principles that you can immediately apply to your projects.\r\nIt will be 30% DDD and AI Native Architecture Concepts, 70% Hands-On Practice",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "b8141a59-4494-4d52-85ad-5101a9c70c25"
+        ],
+        "categoryItems": [
+          422794,
+          422796,
+          422800,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "No pre-requisties, the Workshop begins with base DDD and AI Native Architecture concepts. Begginers in both can join, and experienced folks too - the workshop allows for base to intermediate leven interactions, since the app we'll use allows user to test basic concepts, or do a deep dive."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "30-50"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
+      },
+      {
+        "id": "1122189",
+        "title": "Building Observable Domains - A Hands-on Journey",
+        "description": "Observability in distributed systems is often treated as an afterthought—something we bolt on once the domain logic is \"done.\" This hands-on session flips that approach by exploring how Domain-Driven Design and observability can evolve together, creating systems that are both well-modeled and deeply transparent.\r\n\r\nIn this practical workshop, you'll work through a realistic e-commerce scenario where a seemingly simple \"checkout\" operation spans multiple bounded contexts (Inventory, Payments, Shipping, Notifications). Together, we'll model these contexts, implement key domain events, and then progressively add observability that reflects the domain model—not just the technical infrastructure.\r\n\r\n**What we'll do:**\r\n\r\n- Model a multi-context business process using EventStorming techniques\r\n- Design domain events that serve both business logic and observability\r\n- Implement correlation strategies using domain-driven identifiers (not just trace IDs)\r\n- Create structured logs that speak the ubiquitous language\r\n- Build domain-specific metrics that answer business questions like \"How many orders are stuck in payment verification?\"\r\n- Debug a distributed failure by following domain events across contexts\r\n\r\n**Workshop Structure:**\r\n\r\n- Introduction and setup (15 min)\r\n- Collaborative domain modeling session (30 min)\r\n- Hands-on coding: Implementing observable domain events (45 min)\r\n- Debugging exercise: Following a cross-context failure (20 min)\r\n- Group reflection and discussion (15 min)\r\n\r\n**Technical Details:**\r\nParticipants will work singly or in pairs using provided starter code in either C#, Java, or Python (specify your preference when registering). The exercises focus on domain modeling and event design rather than specific observability tools, though we'll use simple logging frameworks and in-memory event stores. Basic Git and your chosen language skills along with a browser are all that's required.\r\n\r\nAll code and exercises will be shared in a GitHub repository with clear setup instructions. No prior expertise in observability tools required—just curiosity about connecting domain modeling with operational concerns.\r\n\r\n### Level of Expertise\r\n\r\nIntermediate - Participants should be comfortable writing code in at least one of the supported languages and have basic understanding of DDD concepts (bounded contexts, domain events). Prior experience with distributed systems helpful but not required.\r\n\r\n### Target Audience\r\n\r\nDevelopers and architects who want practical experience applying DDD principles to observability challenges. Perfect for teams about to embark on distributed system projects or those looking to improve their existing observability strategy through better domain modeling.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "d1694114-a042-4a11-9afe-667ec18d147d",
+          "943e1c6e-d2db-4829-b701-000eaac0f5cd"
+        ],
+        "categoryItems": [
+          422794,
+          422797,
+          422800,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "Participants will work singly or in pairs using provided starter code in either C#, Java, or Python (specify your preference when registering). The exercises focus on domain modeling and event design rather than specific observability tools, though we'll use simple logging frameworks and in-memory event stores. Basic Git and your chosen language skills along with a browser are all that's required.\r\n\r\nAll code and exercises will be shared in a GitHub repository with clear setup instructions. No prior expertise in observability tools required—just curiosity about connecting domain modeling with operational concerns."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "30 - 50"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1188182",
+        "title": "Coding Agents, From the Top",
+        "description": "A good part of being alive and in software development right now: we're watching the journey from LLM to coding agent to agent swarm or whatever is next.\r\n\r\nA tough part: it's a lot to follow!\r\n\r\nIf you're feeling like you missed something, if this all seems way too complicated, this session will catch you up. We'll\r\n\r\n- start with an LLM (from the outside)\r\n- build chat, and see what's weird about that\r\n- add tools, poof we have an agent\r\n- add skills, subagents, and more techniques for managing context\r\n- see the WHY and the behind-the-scenes for each layer.\r\n\r\nThere will be live coding. At each step you'll get an important tip for working with these tools, and you'll know why it works.\r\n\r\nAfter this session, you'll understand the WHY and HOW of magical coding agent parts. This sets you up for success in using them.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "a959b7bd-0bcf-44cb-9f68-f1160cfba934"
+        ],
+        "categoryItems": [
+          422794,
+          422796,
+          422801,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "people can bring laptops & code along if they want to"
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "30"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
+      },
+      {
+        "id": "1153183",
+        "title": "Context Mapping - Hands On",
+        "description": "In strategic design we seek to understand the deeper structure of our hidden sociotechnical landscape, especially the interaction of software systems and development teams. \r\n\r\nContext mapping is a significant technique for discovering and communicating that understanding. It can be a key technique for enabling legacy application modernization, identifying and communicating team boundaries and responsibilities, and setting your teams up for success in their projects as you integrate with other contexts both internal and external to your organization.\r\n\r\nIn this hands-on lab, you learn key techniques for context mapping to drive success in your strategic design efforts. We'll show how context mapping connects to other techniques such as Big Picture EventStorming and enables both brownfield and greenfield application development.\r\n\r\nn.b. We'll be using the ContextFlow OSS application (https://contextflow.virtualgenius.com) to map collaboratively and describe contexts, looking for emergent patterns, challenges, and strategies in our mapping.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "2b859f14-2cf2-46ea-97dd-37ecc7637e69"
+        ],
+        "categoryItems": [
+          422794,
+          422796,
+          422800,
+          422807
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "None"
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "30"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1189174",
+        "title": "Critically Examining Your DDD Modeling Toolkit",
+        "description": "Models, whether for particular business domains, software development processes, a disease, or political system, are a way to look at (a part of) the world. They make choices about what is important, what we see, what’s invisible, what’s valued, or even what’s valid. Models impose a distinct perspective and a set of rules for operating within them.\r\n\r\nWith many of the models we acquire and use throughout our lives, we only engage superficially, and that’s fine. But sometimes you need to take a closer look: Maybe a particular model  lacks necessary detail, has too much detail, or  doesn’t directly tackle the problem you’re actually trying to solve. Maybe it doesn’t fit that well with the way you are currently working. Perhaps you have different values  than those supported by the model. \r\n\r\nYou are adopting models and their framing  when you embrace DDD modeling practices.  This hands on session will get you started taking a closer look at them. We'll identify some of their basic building blocks, what their primary focus is, and aspects they specifically don't address, and how you might better fit / adapt these models to your specific needs.\r\n\r\n",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "dc8ca79e-cbaa-403a-b4a4-d9d2bec4ef52"
+        ],
+        "categoryItems": [
+          422794,
+          422798,
+          422800,
+          422807
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "No pre-requisite, but if you are interested in exploring this topic in more depth read the essay, Critically Engaging With Models, https://wirfs-brock.com/rebecca/blog/2022/09/20/critically-engaging-with-models/\r\n\r\nand come prepared with a model or two you want to  examine in more detail."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "20"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1189120",
+        "title": "DDD and CD and AI – Oh My!",
+        "description": "AI-powered development tools are transforming how we write software, but teams are finding widely varying results — some are seeing dramatic productivity gains while others are frustrated by code that is technically correct but semantically wrong, or by AI-generated changes that break things in production. The difference, it turns out, has less to do with the AI tools themselves and more to do with the engineering practices surrounding them. Domain-Driven Design and Continuous Delivery — two disciplines that have independently proven their value over the past two decades — turn out to be exactly the foundation AI-augmented development needs to thrive. DDD makes your system legible to AI; Continuous Delivery makes it safe for AI to change.\r\n\r\nIn this talk, Randy Shoup draws on three decades of building large-scale systems at Google, eBay, Stitch Fix, and beyond to show how these practices combine to unlock AI's full potential. On the DDD side, ubiquitous language gives AI the semantic grounding to generate code that fits the domain, bounded contexts provide natural scoping boundaries for AI agents, aggregates define safe units of change with clear invariants, and the strategic distinction between core and supporting subdomains tells you where AI can operate with high autonomy versus where it needs tighter human collaboration. On the Continuous Delivery side, comprehensive automated testing gives you a fast feedback loop to validate AI-generated code, trunk-based development with small batches limits the blast radius of any single AI-assisted change, deployment pipelines with progressive rollouts let you catch problems before they reach all users, and observability gives you the confidence to move fast because you can detect and roll back issues in minutes rather than days.\r\n\r\nThe teams getting the most out of AI are not the ones with the fanciest models — they are the ones with the most intentional architectures and the most disciplined delivery practices. DDD ensures that AI understands what to build; Continuous Delivery ensures you can ship AI-assisted changes safely and frequently. Together, they create a virtuous cycle where AI accelerates development while the engineering practices keep quality high. You'll leave this talk with concrete practices for combining all three that you can put to work in your own teams and systems immediately.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "6850d0ba-278e-4719-99ae-8b1d7c55c62e"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1188263",
+        "title": "DDD Discovery Deck: Play Your Way Through Six Essential Modeling Activities",
+        "description": "Grab a seat at the table. We're dealing you into a fast-paced, boardgame-style tour of six discovery and modeling techniques. Using a custom card deck and a shared business domain, your team will play through six rounds: Wardley Mapping to map where value flows and what's evolving, Domain Storytelling to uncover how work really happens by narrating real scenarios, Service Blueprints to see how customers experience the system and what happens backstage, Event Storming to surface the domain events, commands, and actors driving it all, Bounded Context Canvas to name and document what's inside each boundary, and Team Topologies Mapping to figure out who owns what and how the teams interact. Each round builds on the last, so by the final hand you'll have gone from \"where does value flow?\" to \"here's how we organize around it.\" You'll walk away with a practical feel for when and why to reach for each technique.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "1573b9e0-b07b-46b4-a761-893bdadb6b6a"
+        ],
+        "categoryItems": [
+          422794,
+          422796,
+          422801,
+          422807
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "None. If you've ever worked on software in any role (developer, architect, product owner, designer, analyst) you have everything you need. No prior experience with any of the six techniques is required. We'll teach each one as we go. Bring curiosity, a willingness to collaborate with your table, and maybe a competitive streak. We'll supply the playing cards, the domain, and the rules."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "24"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
+      },
+      {
+        "id": "1131844",
+        "title": "Designing Agentic Systems: A Domain-Driven Approach to Language-Centric AI",
+        "description": "Large Language Models (LLMs) have transformed computing by making natural language the primary interface between humans and machines. This shift has sparked widespread experimentation, yet the design of agentic systems remains ad hoc and fragile. In this talk, we propose a principled foundation for agent design by adapting key constructs from Domain-Driven Design (DDD). By embedding agentic design within established system architecture practices, we offer a repeatable and rigorous methodology for building hybrid conventional and AI systems—one that treats language not just as an interface, but as infrastructure.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "78a50410-2be6-4370-bc1b-fe7815d110d7",
+          "d1724b9f-e5e6-413e-a6d3-1853126d58cc"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422808
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1189426",
+        "title": "Designing Agentic UIs: When AI is a Domain Actor",
+        "description": "As we integrate LLMs and autonomous agents into our applications, the traditional boundaries of software design are breaking. We used to have human users sending commands to a system. Now, we have AI agents observing the system, communicating with users, and taking autonomous actions.\r\n\r\nHow do we model this in DDD? Is an AI agent a User? A Domain Service? An external Bounded Context? In this talk, we’ll look at the architectural implications of building \"Agentic UIs\" and integrating AI into the domain. We’ll explore how to model agent permissions, how to design commands that can be safely issued by non-humans, and how to use the Ubiquitous Language to prompt and constrain LLM behaviors. This is a forward-looking talk about applying rigorous domain modeling principles to the wild west of AI-driven fullstack applications.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "a1bb832b-5d10-4914-8150-dfdae9875e8a"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422808
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1154435",
+        "title": "Designing microservices: responsibilities, APIs and collaborations",
+        "description": "GenAI-based coding agents dramatically increase the rate of change, making fast flow even more essential. The microservice architecture enables that flow at scale, and well-designed service boundaries act as guardrails for coding agents, containing complexity and limiting technical debt. Yet it is far too easy to get service boundaries wrong and create a fragile distributed monolith where teams are tightly coupled; services change in lockstep; deployments are risky; autonomy is an illusion; and fast flow becomes systemic friction.\r\n\r\nIn this workshop, Chris Richardson presents a structured, collaborative process for defining a microservice architecture that enables fast flow. Through lectures and guided discussions, you will learn how to design microservices with clear responsibilities, well-defined APIs, and explicit collaboration patterns. In hands-on modeling exercises, you will apply the process using a GenAI-assisted architect’s workbench that accelerates architecture exploration and refinement while reinforcing disciplined design thinking.\r\n\r\nBy the end of the workshop, you will have a practical, repeatable approach for defining a microservice architecture that reduces friction, increases team autonomy, and enables sustainable high-velocity delivery in the age of GenAI.\r\n\r\nAgenda:\r\n\r\nDay 1\r\nDesigning a microservice architecture for fast, sustainable flow\r\nDiscovering system operations\r\nDesigning subdomains.\r\nService collaboration patterns\r\n\r\nDay 2\r\nDesigning a service architecture\r\nEvaluating a microservice architecture\r\nRefactoring a microservice architecture.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "1d08cdb2-5f0e-4d02-bf79-72922ebc4ae0"
+        ],
+        "categoryItems": [
+          422795,
+          422797,
+          422800,
+          422808,
+          422809
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "People will collaborate in groups creating primarily markdown documents using some GenAI-powered tooling.\r\n\r\nClaude code subscription is required."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "24"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1189414",
+        "title": "Domain Modeling for AI Systems",
+        "description": "Everyone is rushing to ship AI features. Teams are stitching together LLM calls, vector databases, and retrieval pipelines — and the result looks a lot like the big ball of mud we spent the last two decades learning to avoid. The irony? The principles that saved us from that mess are exactly what AI systems need most.\r\n\r\nIn this talk, I'll make the case that domain-driven design isn't just compatible with AI — it's essential. We'll look at why AI projects fail when they skip the hard work of understanding the domain: hallucinations that stem from missing context boundaries, prompts that drift because nobody established a ubiquitous language, and retrieval systems that return garbage because the knowledge was never properly modeled.\r\n\r\nDrawing from real projects, I'll show how bounded contexts give AI systems the guardrails they need, how ubiquitous language transforms prompt engineering from guesswork into design, and how aggregates and domain events create the feedback loops that make AI systems learn and improve over time. Whether you're an architect evaluating AI adoption, a developer building your first RAG pipeline, or a domain expert wondering where you fit in this new world, you'll leave knowing that the modeling skills you already have are your most valuable asset in the age of AI.\r\n\r\nKey Takeaways:\r\n\r\n- AI systems suffer from the same design problems DDD was created to solve, and ignoring domain modeling makes those problems worse, not better.\r\n- Bounded contexts, ubiquitous language, and domain events aren't legacy concepts; they're the missing architecture for AI-powered products.\r\n\r\n- Practical patterns for applying DDD to LLM integrations, RAG pipelines, and AI agent orchestration, drawn from real-world case studies.\r\n\r\nNotes for Reviewers:\r\nThis talk draws from an in-progress book on DDD for AI systems. It's grounded in real project experience, not theory. Code examples will be language-agnostic and focused on modeling concepts rather than any specific framework. Past talks and blog posts are linked in my profile.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "48dde28b-9cbe-4acc-befb-e0ced1ff9ff8"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422808
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1148133",
+        "title": "Emerging Patterns for Coding with Generative AI",
+        "description": "If coding with AI sometimes feels brilliant and sometimes frustrating, you're not alone. This workshop walks you through a map of the patterns that make it more powerful and predictable, from first experiments to advanced techniques.\r\n\r\nWe'll explore the inherent limitations of Generative AI alongside the new possibilities it creates - examining not just what\r\nhappens, but why it happens. Understanding these underlying dynamics equips you to adapt and combine patterns in powerful ways and come up with your own solutions. Real-world examples will show some of these combinations in action.\r\n\r\nYou'll leave with techniques that aren't tied to any single LLM or coding agent - practical approaches you can apply immediately, as well as the mental models that keep you effective in this rapidly changing landscape.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "94915cc5-72f4-4279-9cb3-e0891d73255f"
+        ],
+        "categoryItems": [
+          422794,
+          422797,
+          422800,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "Each participant needs a laptop and a coding agent they are most comfortable with."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "no restrictions"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1215159",
+        "title": "Essential DDD",
+        "description": "Are you new to Domain-Driven Design (DDD)? Struggling to understand what exactly DDD is? Feeling overwhelmed by the vast amount of DDD material/advice available? Or maybe you're unsure how to apply DDD on your project work? If you fit into one of these categories, then this workshop is for you.\r\n\r\nThis two-day workshop will provide you with a solid grounding in the foundational ideas, techniques, and skills for doing DDD well in your own project context. It will provide you with thinking tools to help you tackle the complexity of your business domain through supple design and deep models.\r\n\r\nLearning Objectives:\r\n\r\n* Understand what kinds of business problems DDD addresses.\r\n* The central role of software design and how DDD fits in.\r\n* How growing a ubiquitous language bridges the communication gap between business &technical people. \r\n* Practice domain modeling by example for whole-team collaborative domain discovery.\r\n* Refactoring code towards a ubiquitous language.\r\n* 5 key building block patterns for domain modeling and understand how to apply them.\r\n* Learn how context mapping helps guide and manage large-scale, multi-team design efforts. \r\n* How to identify where applying DDD will have the greatest impact- your core domain. \r\n* Architectural patterns to support DDD.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "2b859f14-2cf2-46ea-97dd-37ecc7637e69"
+        ],
+        "categoryItems": [
+          422795,
+          422796,
+          422800,
+          422807,
+          422811
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "None"
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "30"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1142871",
+        "title": "EXACT Coding Lab: Example‑Guided, AI‑Collaborative & Test‑Driven",
+        "description": "“Vibe‑coding” is trending: prompt until something seems to work. The outcome is often code that's difficult to understand and maintain. In this two‑hour hands‑on lab, the speakers introduce EXACT Coding — Example‑Guided, AI‑Collaborative & Test‑Driven — a pragmatic workflow for AI‑assisted development with an emphasis on readability and maintainability.\r\n\r\nAfter a short introduction, participants practice the flow in a mob‑programming format run in fishbowl style: one small mob at the front works at a single workstation (driver plus navigators) while the rest of the room forms the outer circle, observing, suggesting, and rotating in at regular intervals. The group uses Example Mapping to clarify language and scope, turns examples into meaningful tests, and steers the AI with rule files and explicit commands. Tests act as a living specification, enabling safe refactoring and keeping the code base explainable. Human‑in‑the‑loop decisions remain essential: the mob evaluates “good enough,” chooses where to restructure, and decides when to prompt again. By the end, attendees understand how to apply the method in their teams to raise code quality, reduce coupling, and avoid vibe‑coding their way into an unmaintainable codebase.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "e99a24b4-e597-43aa-a0bc-e0253beb538e",
+          "589c843a-2c01-4478-9860-40b938640d67"
+        ],
+        "categoryItems": [
+          422794,
+          422797,
+          422801,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "we'll use typescript or kotlin, but it's not so important to know it deeply since we bring the machine and use LLMs.\r\nSince we do fishbowl style mob programming we don't loose much time for setup etc, which is ideal."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "40"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1184500",
+        "title": "From EventStorm to Boundaries: The Missing Step After EventStorming",
+        "description": "DDD practices like Story Mapping and EventStorming help teams understand complex domains, but many teams struggle with what comes next: deciding where domain boundaries should actually go.\r\n\r\nTeams are often told that finding the right boundaries is one of the hardest parts of Domain-Driven Design, yet practical guidance on how to do that can be sparse.\r\n\r\nIn this interactive workshop, JD introduces the Domain Boundary Decision Model, a structured way to evaluate candidate boundaries emerging from an EventStorm. Participants will examine event flows, identify signals of cohesion, and explore how domain capabilities align with value streams, ownership, and decision authority.\r\n\r\nThrough guided exercises, participants will evaluate boundary candidates and discuss the trade-offs involved in shaping bounded contexts and how those decisions influence integration and operating models.\r\n\r\nParticipants will leave with a practical approach for reasoning about domain boundaries and the organizational conditions that allow them to remain stable over time.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "3fb2e6c7-b058-41dc-ad18-100b8c83b91d"
+        ],
+        "categoryItems": [
+          422794,
+          422797,
+          422801,
+          422807
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "Participants should be comfortable discussing domain modeling, system design, or architecture decisions. They should be familiar with the purpose of EventStorming or have previously participated in a collaborative domain discovery exercise.\r\n\r\nParticipants can (1) read an EventStorm board, (2) understand basic DDD vocabulary, and (3) are involved in architectural or domain modeling decisions."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "20"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1187527",
+        "title": "Just Start Drawing - Architecture and Alignment at the National Weather Service",
+        "description": "What do you do if your business is changing fast today, your technology needs a massive refresh even to meet yesterday’s demands, and the conversation is.. complicated? Just start drawing. Share your drawings. Vibe code your drawings to make them interactive! \r\n\r\nAs a scientist, software developer, product leader, and architect - I bring my own perspective to making the business obvious and visual, as it applies to architecture and decision making.\r\n\r\nNow I’m the Chief Architect of the National Weather Service. I’ve introduced drawing to align the organization in a challenging time of massive transformation - both to how our business operates and how our technology is delivered - addressing some huge challenges in our pivot from deep silos to centralized platforms. \r\n\r\nI’ll cover the National Weather Service story of transformation and a few non-traditional (rule breaking) diagrams that sneak domain driven design into our journey – aligning technical and non-technical stakeholders. I’ll also bring some visual tricks for radical alignment (don’t forget about post-its), vibe coding for complicated decisions, and a little insight into how c4 is going for us so far!\r\n",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "96e88412-6850-4e2c-aecb-8655827e178c"
+        ],
+        "categoryItems": [
+          446484,
+          422797,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1202756",
+        "title": "Knowledge Flow: How to Design Smarter Information Systems",
+        "description": "## Summary\r\nAccording to Thoughtworks' Tech Radar, Knowledge Flow — knowledge as a sociotechnical system we can design —  is an essential technique to learn.\r\n\r\nHow do you generate knowledge flow? When so few decisions are driven by meaning and expertise shared across teams, tools, and digital systems ... where do you begin?\r\n\r\nThis workshop is an invitation to design knowledge flow. It doesn’t teach knowledge management—it helps you build the future of knowledge work. Through hands-on practices, real-world examples, and practices grounded in systems thinking, you will learn to architect the knowledge environments your teams need to thrive.\r\n\r\n## What you'll learn\r\n- Enter the Fireswamp where you'll face the Six Delusions of Unusual Size -- knowledge myths that keep us trapped in quicksand of systemic gaps.\r\n- Discover the Six inconceivable Truths: Practices that *actually* generate knowledge flow.\r\n- Walk the Spiral Paths: Hands-on keystone activities that shift your thinking, increase your effectiveness and deliver high-value impact with each step.\r\n- Create a Knowledge Repository: Architect as system as if everything is intertwingled. (Because it is!) Think as if complexity is the river of modern knowledge work. (Because it is!)\r\n\r\nWhether you're untangling legacy systems, designing better decision-making processes, or trying to make sense of complex product landscapes, Knowledge Flow gives you the mindset, methods, and tools to turn information overload into organisational intelligence.\r\n\r\n\r\n",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "ffc04f2e-579f-4653-8dad-5779557fd386"
+        ],
+        "categoryItems": [
+          422794,
+          422797,
+          422801,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "Helpful but not required prerequisites: You enjoy snarky metaphors, schema label debates and aren't afraid to return to work muttering the word \"ontology.\""
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "25"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1117537",
+        "title": "LLM AIs as domain experts",
+        "description": "Collaborating with domain experts is essential to practicing DDD, but sometimes it can be challenging for various reasons. Maybe the communication is not in tune to make the domain knowledge possible to use yet, or their availability to answer your questions is not enough, you might even not have a proper domain expert on the team! These might be occasions where an LLM AI primed to act like a domain expert might be just what you need. So in this talk, we’ll discuss how to use LLMs as powerful tools when practicing DDD!",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "85c42995-4a88-425d-bdfd-7266c443cc4c"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1188631",
+        "title": "Microservices in the GenAI Era",
+        "description": "The microservice architecture has traversed the hype cycle and is no longer as popular as it once was.\r\nIn part, there's been an unhealthy backlash to the hype and to poorly designed microservices.\r\nBut mostly, the industry has matured: organizations have learned to use the microservice architecture only when they suffer from the socio-technical problems it addresses.\r\nToday, however, a new technology — also in the middle of its own hype cycle — is dramatically increasing the need for microservices: GenAI coding agents.\r\n\r\nThis two-part talk explores the surprising connection between GenAI and microservices.\r\nIn the first part, I explain why GenAI coding agents, by scaling software development, amplify the rate of change and create the very scaling pressures that the microservice architecture is designed to handle.\r\nYou will learn how to recognize the signals that indicate GenAI coding agents have caused you to outgrow your monolith.\r\nIn the second part, I show how GenAI can help you design a microservice architecture.\r\nI demonstrate an AI-based assistant that guides you through the process.\r\nYou will learn how GenAI can accelerate the journey from monolith to a well-designed microservice architecture.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "1d08cdb2-5f0e-4d02-bf79-72922ebc4ae0"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422808
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1189380",
+        "title": "Non-Authoritarian Team Practices: a Co-Created Handbook",
+        "description": "In many workplaces – as in civil society itself – people are struggling with collaborative and democratic decision-making. When alignment is elusive, it’s tempting to pass decision-making to an authority figure. However, if teams want agency over their work, they need foundational practices that don’t lean on authoritarian short-cuts.\r\n\r\nIn this workshop, we’ll co-create a handbook of non-authoritarian team practices. After a brief history of collaborative structures for the workplace, we will use a starter-pack of decision-making techniques to source and agree patterns. We will describe the patterns and put them into immediate practice if they apply, validating them with our own use. We will also analyze the room for what perspectives are not present and propose ways to incorporate missing perspectives for ongoing pattern use. \r\n\r\nYou’ll leave not just with the co-created handbook, but also with the collective wisdom of Explore DDD participants and a first-hand experience of new participatory decision-making techniques.\r\n",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "01b198ad-abe5-4dde-bf80-035c51942e9a",
+          "f24225da-4a42-490f-a8e2-9894cf32a736"
+        ],
+        "categoryItems": [
+          422794,
+          422796,
+          422801,
+          422807
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "No prerequisites. Please come ready to share your own experiences and learning!"
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "32"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1185110",
+        "title": "See What You Modeled: Turning Domain Stories into Testable Prototypes in Minutes",
+        "description": "Domain Storytelling and Visual Glossaries are powerful tools for surfacing shared understanding. But there is always a moment at the end of a workshop when participants look at the board and ask: did we get it right? Traditionally, the answer comes days or weeks later, when a developer interprets the artifacts and builds something — by which point the room has dispersed, and the shared understanding has faded.\r\n\r\nLLMs change that moment.\r\n\r\nIn this workshop, you don't just hear about the idea — you live it. Working in small groups around a fresh, unknown domain introduced at the start of the session, you run a Domain Storytelling session, build a Visual Glossary, and then feed your artifacts directly to an LLM to generate a testable prototype. \r\nThen you do what a domain expert would do: click through it, question it, and use what you find to sharpen your model.\r\n\r\nThe prototype validates your workshop - and continues it.\r\n\r\nEach group brings their results back to the room. We compare what different groups modeled from the same domain, what the LLM reflected back, and what surprised everyone. Those surprises are the learning — they reveal where the language was precise, where it was ambiguous, and what a Visual Glossary needs to contain to make prototype generation reliable.\r\n\r\nNo laptop is required — groups share devices and the facilitator supports generation where needed. What is required is curiosity and a willingness to model something you don't yet fully understand.\r\n\r\nThe central claim is simple: LLMs make workshop output immediately testable. The distance between modeling and feedback, which used to be measured in weeks, can now be closed in minutes. That changes what a workshop can be — not just a discovery activity, but the first step in a rapid validation loop.\r\n\r\nParticipants will leave with:\r\n\r\n- Hands-on experience generating a prototype directly from Domain Story and Visual Glossary artifacts\r\n- A concrete sense of how modeling precision shapes generated output — felt, not just explained\r\n- Practical guidance on what to capture explicitly in a workshop to make prototype generation reliable\r\n- A new question to ask at the end of every modeling session: Shall we see what we modeled?\r\n\r\n",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "31dedd7c-2cfe-44c5-8273-da611cdade14"
+        ],
+        "categoryItems": [
+          422794,
+          422797,
+          422801,
+          422807
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "It would be beneficial if participants had access to an LLM. However, it can be provided by the facilitator. Modeling can be done using a remote whiteboard as well as using sticky notes and Sharpies."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "20"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1185200",
+        "title": "Self-Documenting Codebase",
+        "description": "AI coding agents don't fail because they type badly. They fail because the repository doesn't tell them where business meaning lives. Architectural flaws in AI-generated code are spiking while syntax errors plummet.  The models have learned to write code that compiles, but not code that belongs in the right place.\r\nThis talk reframes DDD's core patterns as load-bearing infrastructure for a world where machines produce most of the code. I'll introduce a five-surface review lens (Map, Intent, Boundaries, Paths, Proof) for judging whether business intent is legible to both humans and agents, and walk through what changes when you treat your codebase as the primary interface through which all code gets written correctly.\r\nAttendees will leave with a practical five-question audit they can run on any business flow next week, a clearer understanding of why the same design that helps a new engineer onboard is the design that helps an agent navigate, and uncomfortable truths about context windows, code volume, and what \"self-documenting\" actually means in 2026.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "06082df7-eaab-431a-9193-d08765e15986"
+        ],
+        "categoryItems": [
+          446484,
+          422797,
+          422808
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1189215",
+        "title": "Strategic Design at Scale: DDD Patterns for Integration-Heavy Domains",
+        "description": "I still remember getting my copy of Evans' book almost two decades ago. It resonated immediately. This was, and is, the way to build systems. Then, through different iterations, I ended up in a world where the domain is even more complex, usually multi-layered, but where I don't get to choose the standards, the integrations, or many other aspects of the architecture. A variety of pre-packaged domains and systems: CRMs, CMS, CDPs, ERPs, Commerce Engines, DAMs, API Gateways, Custom solutions, PIMs. Sometimes the integrations are clunky. Sometimes we get to change them. But many of the core principles of DDD still apply, just through a different lens.\r\nAfter building hundreds of marketing technology ecosystems, I've learned that DDD strategic thinking becomes more valuable in integration-heavy domains, not less. But the challenges shift. How do you establish bounded contexts when vendor platforms define your boundaries? How do you speak a ubiquitous language across business stakeholders, compliance officers, vendor support teams, and distributed engineering groups? How do you lead architectural decisions when authority is fragmented across platform owners, security teams, and business units? How do you align not just technology but business strategy when each system has its own roadmap and release cycle? And how do you make decisions today that won't become technical debt tomorrow?\r\nWhat you'll learn:\r\nContext mapping at scale: managing 100+ systems through pattern recognition and layered visualization\r\nFacilitating alignment when stakeholders speak different languages: business strategy, compliance requirements, vendor roadmaps, and technical constraints\r\nLeading architectural decisions when authority is fragmented across platform owners, security teams, and business units\r\nConway's Law beyond your codebase: how organizational boundaries and vendor structures shape your integrations and define your bounded contexts\r\nDocumenting decisions and constraints: Architecture Decision Records that help future teams understand your trade-offs, not just your code\r\n",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "21087769-e901-4c14-8680-8ee9ac001522"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1189435",
+        "title": "Tactical DDD Without Over Engineering: When Simple Is the Smartest Design",
+        "description": "Somewhere along the way, applying tactical DDD started to mean adding patterns whether the problem needed them or not. Teams implement domain events for CRUD applications, build saga orchestration for workflows with two steps, and introduce event stores for systems that will never need temporal queries. The result is often the same: a system that is harder to understand, slower to deliver, and more expensive to maintain than the simpler alternative would have been.\r\n\r\nThis talk makes the case for minimal viable DDD, applying just enough tactical patterns to get the design benefits without paying unnecessary architectural cost.\r\n\r\nWe will start with an honest inventory of tactical DDD patterns and ask a question that is not asked often enough: what does each pattern actually cost? Not in lines of code, but in conceptual overhead, operational complexity, onboarding time, debugging difficulty, and long term maintenance burden. Event sourcing gives you a complete audit trail and temporal queries, but it also introduces eventual consistency, event versioning, and a very different operational model. CQRS gives you independent read and write optimization, but it also brings synchronization complexity and a larger codebase. Every pattern has a price, and that price should be justified by the problem.\r\n\r\nThe core of the talk is a decision framework built around a simple question: do I actually need this pattern? We will walk through five tactical patterns, Aggregates, Value Objects, Domain Events, CQRS, and Event Sourcing, and for each one I will show the level of complexity where the pattern begins to earn its cost. Below that threshold, I will show the simpler alternative that delivers most of the benefit with much less overhead.\r\n\r\nWe will examine real before and after examples of systems that improved by removing unnecessary tactical patterns. An event sourced system replaced by a simple audit log table. A saga based workflow simplified into a transaction. A CQRS design collapsed into a single model because the read and write sides never meaningfully diverged.\r\n\r\nThis is not an anti DDD talk. It is a pro DDD talk that argues the most sophisticated thing you can do is choose the simplest design that solves your actual problem. Strategic DDD, including bounded contexts, context mapping, and ubiquitous language, is often worth the investment. Tactical patterns should be earned, not assumed.\r\n\r\nYou will leave with a practical checklist for evaluating whether a pattern is pulling its weight in your system, and the confidence to simplify when the answer is no.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "9a90eef3-1c5b-46c8-bff8-b6a63b76069c"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422808
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1185105",
+        "title": "The Best Prompt Is a Good Visual Model: Spec-Driven Prototyping with Collaborative Modeling and LLMs",
+        "description": "Most teams have tried using an LLM to generate code. The results are familiar: syntactically plausible, domain-ignorant, and wrong in ways that take hours to diagnose. The temptation is to blame the language model — but that's the wrong angle. LLMs don't fail at domain work because they're not smart. They fail because they have no access to your domain.\r\nThe good news for this community is that we already have the answer.\r\nDomain Storytelling and EventStorming don't just build shared understanding among human teams — they produce structured, precise artifacts that turn out to be remarkably effective LLM input. The pictographic language of a Domain Story maps cleanly to actors and work objects. The command/event/policy structure of EventStorming maps directly to API operations and business rules. A well-derived OpenAPI spec is, essentially, a machine-readable domain model.\r\nIn this talk, we walk through a concrete three-step prototype pipeline using CookWithUs, a recipe-sharing platform modeled and built across three iterations. We show exactly what a Domain Story and Visual Glossary give an LLM — and exactly where it fails when the artifacts are incomplete. We show how an EventStorming session sharpens the Ubiquitous Language, surfaces hidden policies, and produces a prototype that is measurably more sufficient. And we show how splitting a clean OpenAPI spec by bounded context lets an LLM generate a working frontend without inventing a single field.\r\nThe central claim is simple: each modeling step sharpens the language, and a sharper language produces better output. Every naming decision, every policy sticky, every scoping choice your team makes in a workshop travels all the way into the generated code. The Ubiquitous Language is not just a communication tool for human teams — it is the specification that makes LLM-assisted development reliable.\r\nThis is not a talk about replacing domain experts with AI. It's a talk about what happens when our community's collaborative practices meet a powerful new tool — and why the human collaboration always comes first.\r\nAttendees will leave with:\r\n\r\nA practical pipeline:\r\n- Domain Story → EventStorming → OpenAPI → Prototype\r\n- Concrete before/after comparisons showing how richer artifacts produce better output\r\n- A new lens on workshops: your modeling artifacts are also your first prompt\r\n\r\n",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "31dedd7c-2cfe-44c5-8273-da611cdade14"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1189152",
+        "title": "The Faithful Model: DDD as the Operating System for Agentic Delivery",
+        "description": "Domain-Driven Design has always had an implementation problem. Evans told us the code should be the model — not influenced by the model, not derived from the model, but the model itself, expressed so directly that reading the code and reading the domain are the same act. For twenty years that remained an aspiration. The ORM forced a compromise. The framework wanted a different shape. A developer under deadline pressure took a shortcut. Another misread the concept. The model and the implementation diverged quietly, and no amount of discipline fully closed the gap.\r\n\r\nAgentic systems change this — not through discipline but through structural indifference to the three human forces that cause drift. An agent does not feel deadline pressure. It does not have varying levels of domain experience. It has no preference for the easier path over the correct one. Given the right toolbox, it executes the model faithfully every time, at any scale. Evans' original vision becomes literally achievable for the first time.\r\n\r\nBut there is one problem agents make worse, not better: conceptual debt.\r\n\r\nIn 2009, Kohl's ecommerce collapsed on Black Friday. The recovery required moving inventory into an in-memory grid — two weeks from go-live. Mid-implementation we discovered that \"available inventory\" had been quietly doing two jobs for years: tracking stock levels and acting as an emergency kill switch to pull products off the site for legal or safety reasons. Nobody documented it. A human under pressure had needed a fast lever, found one, and pulled it. The concept had coupled itself to business operations so deeply it survived every technical fix we attempted.\r\n\r\nThis is conceptual debt. It is categorically different from technical debt — and worse. Technical debt lives in your code. Conceptual debt lives in how your organization actually operates. It cannot be paid down by engineering alone. It survives migrations. It defeats anticorruption layers. It crosses bounded context boundaries unexamined because everyone already knows what the term means — they just each know something slightly different.\r\n\r\nAn agent executes conceptual debt perfectly. Faithfully. At scale. With none of the human hesitation that might accidentally surface the problem.\r\n\r\nThe critical insight is economic. Conceptual debt accumulated because interrogating concepts was expensive. Stopping to ask whether \"available inventory\" was really one concept or two cost time nobody had two weeks before Black Friday. That economic pressure made conceptual shortcuts rational even when everyone knew they were dangerous.\r\n\r\nAgentic execution removes that pressure entirely. When implementation is fast and free, the constraint moves. The expensive part is no longer writing the code — it is getting the concept right. For the first time, deep domain interrogation is not a luxury. It is the economically optimal thing to do.\r\n\r\nThis points toward something larger: DDD at the core of the SDLC rather than as a design-time activity that the delivery process eventually forgets. When the ubiquitous language becomes the context packet, when bounded contexts drive task decomposition, when the domain model is the acceptance criterion for every release, the delivery pipeline becomes a continuous interrogation of the model's integrity. Conceptual debt cannot accumulate silently — the process surfaces it at every stage.\r\n\r\nRADO (saas.tallerlabs.ai/rado) — a framework that makes the domain model the runtime artifact directly — is an early proof of this hypothesis. ASAP (asapmethod.ai) — a methodology for hybrid human-agent delivery — is the pipeline that puts the model at the center. Neither is a finished solution.\r\n\r\nBoth point at the same thing: a world where the model is not an input to the software development lifecycle but its operating system.\r\n\r\nFor the first time, the only remaining constraint on software quality is the quality of your thinking about the domain. Which was always what DDD was trying to say.\r\n",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "049cbc0f-cc16-46eb-9506-e571afb1d5d6"
+        ],
+        "categoryItems": [
+          446484,
+          422797,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1129252",
+        "title": "The Key to the Prisoner's Dilemma",
+        "description": "Business value and the software architecture behind it often seem like a zero-sum game — one thriving at the other’s expense. But what if there’s a better way? By solving the Prisoner’s Dilemma, architects can turn trade-offs into a virtuous circle where both technology and business win.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "18fbb953-a960-4f73-bcd4-a078fc1b886a"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1188398",
+        "title": "You Inherited the EventStorming Board. Now What?",
+        "description": "Most developers will never run an EventStorming session — but they’ll often inherit the output. This workshop starts with a pre-built EventStorming board for a realistic domain (15-min facilitated walkthrough), then splits attendees into teams, each owning a different bounded context. Teams model their service, agree on event contracts across context boundaries, and implement their slice using AI coding assistants and AWS CDK (TypeScript). The integration moment — where teams wire their services together through shared events — is where the real DDD lessons land: how team boundaries become service boundaries, how event contracts are a design conversation, and why Conway’s Law isn’t just theory. Attendees leave having felt the tension and payoff of distributed domain modeling firsthand.\r\n\r\nCoding language: TypeScript (CDK + Lambda). Free AWS accounts provided.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "44bea5e6-40d9-44c3-b996-ee34ebbdc57a"
+        ],
+        "categoryItems": [
+          422794,
+          422798,
+          422800,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "Ability to code in python or typescript. AWS accounts provided for free. "
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "30"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      }
+    ]
+  }
+]

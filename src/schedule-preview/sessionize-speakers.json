@@ -1,0 +1,896 @@
+[
+  {
+    "id": "31dedd7c-2cfe-44c5-8273-da611cdade14",
+    "firstName": "Annegret",
+    "lastName": "Junker",
+    "bio": "Dr. Annegret Junker is a software architect, author, and speaker whose work sits at the intersection of collaborative modeling and modern software design. With over 30 years of experience, she currently serves as Chief Software Architect at codecentric AG in Munich.\r\nShe is a widely recognised voice in the DDD community \u2014 her books Mastering Domain-Driven Design, DDD Toolbox, and Crafting Great APIs (co-authored with Fabrizio Lazzaretti) reflect her commitment to practical, collaborative approaches to modeling and API design. She is the host of the DDD MUC meetup in Munich, where she brings the community together around Domain-Driven Design in practice.\r\nShe has spoken at Domain-Driven Design Europe, API Days, and the Software Architecture Gathering, and regularly shares her thinking on DDD, AsyncAPI, and event-driven systems on LinkedIn.",
+    "tagLine": "Architect, Author & Community Builder",
+    "profilePicture": "https://sessionize.com/image/7746-400o400o1-Xf1UEWZjZbUJoY3LNszUxE.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1185110,
+      1185105
+    ],
+    "fullName": "Annegret Junker",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "Germany"
+      }
+    ]
+  },
+  {
+    "id": "44bea5e6-40d9-44c3-b996-ee34ebbdc57a",
+    "firstName": "Brian",
+    "lastName": "Zambrano",
+    "bio": "Brian Zambrano is a Sr. Deep Learning Architect at AWS. He comes from a 25+ year career building software as an engineer and architect. He currently works in the AWS Generative AI Innovation Center where he helps bring customer's GenAI solutions to life, using his background in cloud architecture, serverless, and event-driven systems. Brian is the author of Serverless Design Patterns and Best Practices published in 2018. Brian has held multiple roles in his seven years at AWS, including software engineer, Enterprise Solutions Architect, and Specialist Solutions Architect.",
+    "tagLine": "AWS, Deep Learning Architect ",
+    "profilePicture": "https://sessionize.com/image/7322-400o400o1-DXjW3fB5Tz2zt3VDutMJKq.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1188398
+    ],
+    "fullName": "Brian Zambrano",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "1d08cdb2-5f0e-4d02-bf79-72922ebc4ae0",
+    "firstName": "Chris",
+    "lastName": "Richardson",
+    "bio": "Chris Richardson is a developer and architect. He is the author of POJOs in Action and the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2. Today, he is a recognized thought leader in microservices and speaks regularly at international conferences. Chris is the creator of Microservices.io, a pattern language for microservices, and is the author of the book Microservices Patterns. He provides microservices consulting and training to organizations that are adopting the microservice architecture and is working on his Eventuate, an open-source microservices collaboration platform.",
+    "tagLine": "Microservices.io",
+    "profilePicture": "https://sessionize.com/image/30d7-400o400o1-Y3N8MPX3uZvStxffniuPqH.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1154435,
+      1188631
+    ],
+    "fullName": "Chris Richardson",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "96e88412-6850-4e2c-aecb-8655827e178c",
+    "firstName": "Chris Lauer",
+    "lastName": "Lauer",
+    "bio": "A career in government, science, and Kubernetes has brought me to the most challenging role in my career - Chief Architect at  NOAA's National Weather Service. I've been a Product Owner, Technical Product Manager, Tech Lead, Engineering Practice Lead, and Architect for small teams and large organizations - including the famous DevSecOps experiment at Air Force Kessel Run.\r\nI draw pictures and make decisions.",
+    "tagLine": "Chief Architect",
+    "profilePicture": "https://sessionize.com/image/90d9-400o400o1-Xshfs3DMg1FnXBnEJ4cwSZ.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1187527
+    ],
+    "fullName": "Chris Lauer Lauer",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States of America"
+      }
+    ]
+  },
+  {
+    "id": "a1bb832b-5d10-4914-8150-dfdae9875e8a",
+    "firstName": "Dev",
+    "lastName": "Agrawal",
+    "bio": "I build and teach how to build awesome fullstack applications. I work as a DevRel Engineer at PowerSync, I'm a core team member of Solid.js, and I make content on YouTube and Twitch. I talk about web development, architecture, reactive programming, home brewing coffee, and heavy metal music.",
+    "tagLine": "Developer Relations Engineer, PowerSync",
+    "profilePicture": "https://sessionize.com/image/8d06-400o400o1-wtZV7wx95BCPKqUZhNDrvq.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1189426
+    ],
+    "fullName": "Dev Agrawal",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "US"
+      }
+    ]
+  },
+  {
+    "id": "c3ee1096-1735-4b4f-83db-a95d1c287928",
+    "firstName": "Devika",
+    "lastName": "Rajhamundry",
+    "bio": "Devika Rajhamundry is an accomplished data warehousing and business intelligence professional with extensive experience designing and implementing enterprise data solutions across healthcare and financial services environments. She has built a reputation for leading complex data integration initiatives, developing scalable data warehouse architectures, and enabling organizations to transform large volumes of operational data into actionable insights. Her expertise spans data modeling, ETL architecture, database administration, and enterprise reporting solutions built on Microsoft Business Intelligence technologies.\r\nIn her current leadership role at Keck Medicine of USC, Devika manages business intelligence and data warehouse initiatives that support strategic decision-making across the organization. She works closely with senior leadership, technical teams, and operational stakeholders to translate complex business requirements into robust analytics solutions. Her work focuses on building reliable ETL pipelines, integrating data from multiple enterprise systems, and delivering analytical tools that support revenue cycle operations, financial reporting, and operational performance monitoring. Devika also guides development teams, establishes best practices for ETL design and deployment, and ensures data accuracy and system reliability through strong governance and change management processes.\r\nThroughout her career, Devika has contributed to large-scale enterprise systems that integrate diverse data sources and support mission-critical reporting and analytics. She has led the design and implementation of data extraction and transformation frameworks, developed complex SQL logic and stored procedures for performance-optimized data processing, and implemented automated monitoring and validation processes to maintain data integrity. Her projects have supported healthcare analytics platforms, provider data integration systems, building business intelligence applications, and regulatory reporting systems within major financial institutions.\r\nDevika combines strong technical expertise with collaborative leadership, enabling teams to deliver high-quality analytics solutions that drive operational efficiency and informed decision-making. Her multidisciplinary background in computer science and healthcare administration further strengthens her ability to bridge technology and healthcare operations, allowing organizations to leverage data as a strategic asset for continuous improvement and innovation. ",
+    "tagLine": "University of Southern California",
+    "profilePicture": "https://sessionize.com/image/736b-400o400o1-GfrgWQVhFX7Pc3tP8CHvQU.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1188610
+    ],
+    "fullName": "Devika Rajhamundry",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "USA"
+      }
+    ]
+  },
+  {
+    "id": "ffc04f2e-579f-4653-8dad-5779557fd386",
+    "firstName": "Diana",
+    "lastName": "Montalion",
+    "bio": "Diana and her teammates build modern software systems for diverse clients. She has 20+ years experience engineering and architecting software systems for organizations including Stanford, The Gates Foundation, Memorial Sloan Kettering and Teach For All. She has also served as Principal Systems Architect for The Economist and The Wikimedia Foundation. \r\n\r\nShe wrote the O\u2019Reilly book, Learning Systems Thinking: Essential Nonlinear Skills & Practices for Software Professionals. Her company, Mentrix, publishes courses and learning materials for aspiring nonlinear thinkers. \r\n\r\nDiana lives in the Hudson Valley (New York, USA) with three dogs, one cat and nine chickens.",
+    "tagLine": "Mentrix: Architecting Systems",
+    "profilePicture": "https://sessionize.com/image/eca8-400o400o1-wcrt6ryvHooJpSn6ALeKF3.png",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1202756
+    ],
+    "fullName": "Diana Montalion",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "USA"
+      }
+    ]
+  },
+  {
+    "id": "b8141a59-4494-4d52-85ad-5101a9c70c25",
+    "firstName": "Diogo",
+    "lastName": "de Souza",
+    "bio": "Diogo de Souza specializes in architecting AI-native systems using Domain-Driven Design principles. An active member of the DDD Brasil chapter, he has successfully delivered this workshop to over 40 senior software engineers and DDD practitioners. With nine years in tech, and three years of experience building AI Native & DDD-based SaaS platforms at AI startups, he has developed practical frameworks for integrating conversational AI with business domains. During his tenure at Endeavor, Diogo worked with Latin America's top tech entrepreneurs, helping them scale their technical architectures. Then, he founded a marketplace platform, took it from 0 to 1 and sold the business. He combines deep technical expertise in AI agent architectures with a pragmatic approach to delivering business value through proper domain modeling and clear business goals with the system architecture.",
+    "tagLine": "AI Engineer & Entrepreneur",
+    "profilePicture": "https://sessionize.com/image/9a21-400o400o1-TFMAgFW6y9ouG24yeNjW5d.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1189257
+    ],
+    "fullName": "Diogo de Souza",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "Brazil"
+      }
+    ]
+  },
+  {
+    "id": "01b198ad-abe5-4dde-bf80-035c51942e9a",
+    "firstName": "Elizabeth",
+    "lastName": "Ayer",
+    "bio": "Elizabeth Ayer is currently Professor of Civic Technology at the University of Washington, growing the next generation of public-interest technology leaders. Before switching to education, she served 8 years in government as a product consultant for 18F and product leader for the GSA Technology Transformation Services, shipping shared government services.\r\n\r\nPreviously, she was the Portfolio Manager for Redgate, a Database DevOps vendor, and a Product Manager at Siemens PLM for Product Lifecycle Management software. She is a keen observer and experimenter with sociotechnical systems, always pushing to deliver humane outcomes for the public through inclusive team practices.",
+    "tagLine": "Professor of Civic Technology",
+    "profilePicture": "https://sessionize.com/image/036f-400o400o1-7vXxQjph9sRGPdQ6nFpXj1.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1189380
+    ],
+    "fullName": "Elizabeth Ayer",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "e99a24b4-e597-43aa-a0bc-e0253beb538e",
+    "firstName": "Ferdinand",
+    "lastName": "Ade",
+    "bio": "Ferdi is a Developer and Consultant at codecentric. He is passionate about Software Craft and Domain-Driven Design (DDD), and advocates for close collaboration to enhance speed and quality. Ferdi co-hosts the Software Craft Leipzig Meetup and believes that hands-on sessions are the best way to learn new skills and techniques.",
+    "tagLine": "codecentric, Developer & Consultant",
+    "profilePicture": "https://sessionize.com/image/da9d-400o400o1-3di2Vqe1dcUvosPP6Zo7pi.png",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1142871
+    ],
+    "fullName": "Ferdinand Ade",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "Germany"
+      }
+    ]
+  },
+  {
+    "id": "06082df7-eaab-431a-9193-d08765e15986",
+    "firstName": "Gagan",
+    "lastName": "Vats",
+    "bio": "Gagan is working as engineer with mercari which is the largest C2C marketplace in japan on the cross border expansion efforts across 50+ countries . ",
+    "tagLine": "Software Engineer, Mercari",
+    "profilePicture": "https://sessionize.com/image/6d5d-400o400o1-EAtGHyHSZe2kkSCd6VcReq.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1185200
+    ],
+    "fullName": "Gagan Vats",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "Japan"
+      }
+    ]
+  },
+  {
+    "id": "5d75dcd9-5de6-48f4-a6fc-c980fc7c6cba",
+    "firstName": "Indu",
+    "lastName": "Alagarsamy",
+    "bio": "Over the past 25 years, Indu has worked across various industries, including publishing and media, healthcare, finance, biotech, and emergency services. She helped lead and successfully deliver a complex legacy modernization initiative for the NYTimes. She is currently working as a Principal Engineer at CircleCI to help improve the overall developer experience by enhancing CI/CD capabilities and enabling faster, more reliable software delivery.\r\n\r\nShe loves making sense of complex systems. She leans heavily on Domain-Driven Design and Systems Thinking to unpack complexity in a structured manner\u2014but also borrows freely from Design and other disciplines, to shape unique approaches for understanding and solving problems. It's a bit of a remix, but it works. She writes about what she learns (and sometimes what she unlearns) at domainanalysis.io.",
+    "tagLine": "Principal Engineer, CircleCI",
+    "profilePicture": "https://sessionize.com/image/c54f-400o400o1-d9-5de6-48f4-a6fc-c980fc7c6cba.345b4773-d49d-438e-ac3d-5224ea2e1c39.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1182143
+    ],
+    "fullName": "Indu Alagarsamy",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "d58a1a6a-0587-46d9-bad9-7d0a49048b96",
+    "firstName": "James",
+    "lastName": "Herr",
+    "bio": "As a full stack engineer at Flexion, I\u2019m passionate about how people and technology evolve together. I\u2019ve helped advance mob programming practices, lead collaborative squads, and explore how AI can support smarter, more human-centered development. When I\u2019m not working on enterprise software, I\u2019m usually in Godot, creating experimental games and learning through play.",
+    "tagLine": "Full Stack Engineer | Indie Game Developer | AI Experimenter",
+    "profilePicture": "https://sessionize.com/image/905d-400o400o1-agyQr1fPdSoRpyWaYrcrrs.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1176941
+    ],
+    "fullName": "James Herr",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "049cbc0f-cc16-46eb-9506-e571afb1d5d6",
+    "firstName": "Jan",
+    "lastName": "Rosen",
+    "bio": "Jan Rosen is Chief Innovation and Transformation Officer at Taller, where he designs and deploys agentic AI architectures that change how organizations think, decide, and deliver. Before joining Taller, he led major engineering efforts at Venmo and PayPal, building the invisible machinery behind everyday payments and in\u2011store experiences, and driving major platform modernization. A systems engineer by training and temperament, he moves easily from code to culture, helping enterprise leaders translate advanced strategy into running software. Rosen holds an MSc. in Computer Science from Chalmers University of Technology.",
+    "tagLine": "Taller, Chief Innovation and Transformation Officer",
+    "profilePicture": "https://sessionize.com/image/c9f1-400o400o1-NzcZgaTbLeMwRVKKo4R3Je.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1189152
+    ],
+    "fullName": "Jan Rosen",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "USA"
+      }
+    ]
+  },
+  {
+    "id": "57ac7058-1fcf-4d9a-802c-73b297e824b0",
+    "firstName": "Javiera",
+    "lastName": "Laso",
+    "bio": "I\u2019m a Lead software engineer and architect with a background in biotechnology. I specialize in modernizing legacy systems, transforming them into scalable, efficient, and maintainable solutions. I focus on applying Domain-Driven Design (DDD) principles to create software that not only meets technical requirements but also aligns with business goals.\r\n\r\nI have experience designing modular, cloud-ready architectures and using techniques like microservices and event-driven design to solve complex challenges. I\u2019m passionate about continuous learning and improvement, and I enjoy mentoring teams and promoting best practices in software development. My approach combines deep technical knowledge with a practical understanding of business objectives, ensuring that the solutions I deliver are both effective and future-ready.",
+    "tagLine": "Lead Engineer Consultant at Thoughtworks",
+    "profilePicture": "https://sessionize.com/image/209c-400o400o1-Tf1Trv4C8UMxbB61nSowDT.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1122846
+    ],
+    "fullName": "Javiera Laso",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "3fb2e6c7-b058-41dc-ad18-100b8c83b91d",
+    "firstName": "Jennifer (JD)",
+    "lastName": "Carlston",
+    "bio": "JD works as an Engineering Director and Architect at Stack Overflow and moonlights with an Design Cycle Solutions, improving the flow efficiency of apparel engineering.  \r\n\r\nJD has a long-lived passion for understanding complex systems. They've worked on large distributed systems in knowledge and community management, education, finance, and real estate. Over the years they have also built many tools to process massive amounts of information and worked with people and systems from all over the world. When they are not doing that they like to explore the great outdoors, play and \"make\" with family and friends.\r\n\r\nJD is currently exploring entrepreneurship, consulting and advisory roles.  Her upcoming book explores a methodology for creating transformational change on a personal level. \r\n",
+    "tagLine": "Engineering Leader",
+    "profilePicture": "https://sessionize.com/image/8e8e-400o400o1-B4bMSBpd3pNLFcePfpgGpm.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1184500
+    ],
+    "fullName": "Jennifer (JD) Carlston",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "943e1c6e-d2db-4829-b701-000eaac0f5cd",
+    "firstName": "Jeremy",
+    "lastName": "Davis",
+    "bio": "Jeremy is a Chief Solutions Architect at Red Hat. He helps Red Hat's customers to design and deliver applications, works with Red Hat engineers to create great products, and occasionally speaks at conferences.\r\n\r\nBefore joining Red Hat he wrote a lot of code in C, C#, Groovy, Java, JavaScript, Objective-C, Perl, PHP, Python, Ruby, Visual Basic; mostly Java.\r\n\r\nHe currently co-lead Red Hat\u2019s Application Development Community of Practice, and used to lead Red Hat's Microservices Community of Practice and the Business Rules and Workflow SME group. He spends a lot of time with Quarkus, Kubernetes, and Claude Code.\r\n\r\nHe recently acquired a Marshall amp after relying on Fenders for years.\r\n",
+    "tagLine": "Solving things, slinging opensource",
+    "profilePicture": "https://sessionize.com/image/14c0-400o400o1-uYsYZn8hEkFbr9dfUysB7.png",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1122189
+    ],
+    "fullName": "Jeremy Davis",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "a959b7bd-0bcf-44cb-9f68-f1160cfba934",
+    "firstName": "Jessica",
+    "lastName": "Kerr",
+    "bio": "Jessica Kerr is a developer of 20 years, conference speaker of 10, and ringleader of a household containing two teenagers and their cats. She works and speaks in TypeScript, Java, Clojure, Scala, Ruby, Elm etc etc. Her real love is systems thinking in symmathesy (a learning system made of learning parts). She works at Honeycomb.io because our software should be a good teammate and teach us what is going on. If you're into sociotechnical systems, find her blog and newsletter at jessitron.com .",
+    "tagLine": "Honeycomb.io",
+    "profilePicture": "https://sessionize.com/image/a88a-400o400o1-fPBA1Zkm4v7q4kDfWSPtqr.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1188182
+    ],
+    "fullName": "Jessica Kerr",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "1573b9e0-b07b-46b4-a761-893bdadb6b6a",
+    "firstName": "John",
+    "lastName": "Phamvan",
+    "bio": "John Phamvan is the founder of Kind Systems (https://kind.systems), a boutique consultancy focused on bringing human-centered design and modern, flexible software to the Federal government and startups with highly complex business and compliance needs. Previously, he led engineering and product efforts at Happy Money, Motor Trend Group, and GrowthHackers. He holds an MBA from USC Marshall and degrees from UC Irvine.",
+    "tagLine": "Founder, Kind Systems",
+    "profilePicture": "https://sessionize.com/image/8e5f-400o400o1-KbGNzTKCQUjX964Pe6E3hr.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1188263
+    ],
+    "fullName": "John Phamvan",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "78a50410-2be6-4370-bc1b-fe7815d110d7",
+    "firstName": "Joseph",
+    "lastName": "Yoder",
+    "bio": " Joe is a research collaborator at IME/USP, founder and principal of the Refactory (www.refactory.com), and a fellow and president of the Hillside Group, a non-profit dedicated to improving the quality of life of everyone who uses, builds, and encounters software systems. He believes software is still too hard to change and wants to do something about this. To address this challenge he dedicates time to teach and mentors teams and organizations on agile and lean practices, architecture, domain-modeling, flexible systems, clean design, patterns, refactoring, and testing.\r\n\r\nJoe is an author of many patterns and is well-known for the Big Ball of Mud pattern, which illuminates many fallacies in software architecture. He is a co-author of A Scrum Book: The Spirit of the Game which includes 96 patterns for getting the most out of Scrum. Joe received the New Directions award at the Software Engineering Institutes (SEI's) conference on Software Architecture (SATURN) and the ACM recently recognized Joe as a Distinguished Member in the category of \"Outstanding Engineering Contributions to Computing\".",
+    "tagLine": "The Refactory - MetaYoda",
+    "profilePicture": "https://sessionize.com/image/d8a4-400o400o1-JpKkE5zdy5AsJzLByqcpuR.png",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1131844
+    ],
+    "fullName": "Joseph Yoder",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "d1724b9f-e5e6-413e-a6d3-1853126d58cc",
+    "firstName": "Kyle",
+    "lastName": "Brown",
+    "bio": "Kyle Brown is an IBM Fellow and Vice President and the CTO to the CIO of IBM, where he is responsible for Enterprise Architecture, Platform Strategy and Technical Vitality for the IBM CIO. He has been leading in the development and implementation of large-scale systems for over thirty years. He is a world-recognized expert on topics in cloud, Java, and software architecture.  He publishes often, records podcasts, and is the author of eleven books including the newly released \u201cCloud Application Architecture Patterns\u201d from O\u2019Reilly.  ",
+    "tagLine": "IBM Fellow",
+    "profilePicture": "https://sessionize.com/image/8aec-400o400o1-7mDhppJPiwxdwVhP7NAXy1.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1131844
+    ],
+    "fullName": "Kyle Brown",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "94915cc5-72f4-4279-9cb3-e0891d73255f",
+    "firstName": "Lada",
+    "lastName": "Kesseler",
+    "bio": "Lada is a seasoned practitioner of extreme programming, Test-Driven Development, and Domain-Driven Design who transforms complex legacy systems into maintainable architectures through incremental improvement and continuous refactoring. \r\n\r\nHer approach pairs deep technical expertise with genuine empathy for both end users and fellow developers, creating resilient systems that truly serve their users. \r\n\r\nOver the past year, she's been exploring how these values translate to AI-assisted development and figuring out what it takes to build reliable software with unreliable tools.",
+    "tagLine": "Lead Developer at Logic20/20",
+    "profilePicture": "https://sessionize.com/image/d7c6-400o400o1-wTUrczvv8NSmfSV83abpTp.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1148133
+    ],
+    "fullName": "Lada Kesseler",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "21087769-e901-4c14-8680-8ee9ac001522",
+    "firstName": "Luis",
+    "lastName": "Fernandez",
+    "bio": "With a broad, multidisciplinary background in software development, architecture, product ownership, and marketing, Fernandez is a gifted technology leader. He holds degrees in informatics and computer science and a Master\u2019s in Finance, which shaped his combined expertise in technical and business realms.\r\n\r\nOver the past 20 years, Fernandez has overseen more than 250 projects across four continents and 25 countries, delivering technical solutions in content, commerce, mobile, and martech for some of the world\u2019s most renowned companies. From writing code as a developer and designing systems as an architect to training teams, serving as a CTO, advising global enterprises, defining product roadmaps, and developing marketing strategies, he has taken on nearly every role in technology and digital innovation.\r\n\r\nFernandez has led multicultural teams of managers, content experts, engineers, strategists, and architects (he is fluent in Spanish, Portuguese, and English). His professional mission is to constantly close the gap between business vision and technical execution. His work in media, retail, banking, hospitality, telecoms, and technology has given him a comprehensive view of the possibilities and challenges businesses face in the digital age.\r\n\r\nCurrently serving as Executive Director of Technology in VML, Fernandez is focused on the future of content, marketing, and automation platforms, investigating how companies can produce, distribute, and profit from emerging technologies such as artificial intelligence, composable architectures, and data-driven personalization.",
+    "tagLine": "Executive Director Technology, VML",
+    "profilePicture": "https://sessionize.com/image/a6cc-400o400o1-3d3Ng2nM8xeSFYVeKEFS1k.png",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1189215
+    ],
+    "fullName": "Luis Fernandez",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "589c843a-2c01-4478-9860-40b938640d67",
+    "firstName": "Marco",
+    "lastName": "Emrich",
+    "bio": "Marco is an architect and consultant at codecentric, and a passionate advocate for software craft & quality, which he also teaches at the university of applied sciences in Salzburg. He regularly speaks at software engineering conferences and is the author of several technical books. When he's not buried deep in code, his children beat him in analog board games. Follow him at linkedin.com/in/marco-emrich ;)",
+    "tagLine": "Consultant and software crafter at @codecentric",
+    "profilePicture": "https://sessionize.com/image/0a43-400o400o1-3a-2c01-4478-9860-40b938640d67.d4291023-35f1-4167-a50f-f0aca8925154.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1142871
+    ],
+    "fullName": "Marco Emrich",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "Germany"
+      }
+    ]
+  },
+  {
+    "id": "f24225da-4a42-490f-a8e2-9894cf32a736",
+    "firstName": "Matt",
+    "lastName": "Wynne",
+    "bio": "Matt was lucky enough to start programming in the mid 1980s when his dad brought home a BBC Micro from work.\r\n\r\nHe's been making a living as a programmer since the late 1990s, and started trying to sneak agile practices into his work ever since he discovered the C2 Wiki in 2001. He was once fired for doing Test-Driven Development (TDD), because he was \u201cgoing too slow\u201d.\r\n\r\nIn 2008 he joined the fledgling Cucumber open source project, and in 2011 the first edition of The Cucumber Book was published, co-written with Aslak Helles\u00f8y, the creator of Cucumber.\r\n\r\nIn 2013 Matt co-founded Cucumber Limited together with Aslak and Julien Biezmans. They grew this consulting and training business to around $1.5m turnover, training thousands of people around the world in Cucumber and Behaviour-Driven Development (BDD), adding Seb Rose and Steve Tooke then Dr. Sal Freudenberg as partners.\r\n\r\nMatt developed the practice of Example Mapping whilst training a team in St. Louis, Missouri.\r\n\r\nMatt acted as Cucumber Ltd\u2019s CEO for most of it\u2019s life, handing over to Sal in the autumn of 2018. In 2019 Cucumber was acquired by SmartBear. Matt worked for them as full-time lead of the Cucumber Open source project until February 2023. One of his initiatives was finding ways to tackle the structural sexism and racism in open source.\r\n\r\nOriginally from northwest England, he now lives in the mountain town of Nelson, BC in Canada on the unceeded territory of the Ktunaxa Nation, Sinixt Nation, and Syilx Peoples with his wife, two kids, a dog and a couple of cats. He enjoys back-country skiing, trail running and woodworking.",
+    "tagLine": "Programmer, Coach, Author",
+    "profilePicture": "https://sessionize.com/image/783b-400o400o1-RU3zNuspWwZ6TBuYdKzViT.jpeg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1188592,
+      1188600,
+      1189380
+    ],
+    "fullName": "Matt Wynne",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "Canada"
+      }
+    ]
+  },
+  {
+    "id": "48dde28b-9cbe-4acc-befb-e0ced1ff9ff8",
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "bio": "Michael Brown is a software engineer, technology leader, and startup founder with more than 30 years of experience building and operating large-scale software systems. A former Microsoft engineer, he has worked extensively with cloud platforms, distributed systems, and AI technologies, helping organizations move from prototypes to reliable production environments. Michael is a leading voice in High Velocity Engineering (HVE), a framework focused on eliminating engineering friction and accelerating software delivery. He is also the founder of the Juneteenth Conference, launched in 2020 to celebrate and elevate Black professionals in technology. Today, his work focuses on AI infrastructure, developer platforms, and helping teams build reliable AI systems at scale.",
+    "tagLine": "CEO of Synaptic Weave, Inc",
+    "profilePicture": "https://sessionize.com/image/de57-400o400o1-8b-9cbe-4acc-befb-e0ced1ff9ff8.13239c46-b1fa-4f54-8282-d184c77eacb8.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1189414
+    ],
+    "fullName": "Michael Brown",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "2b859f14-2cf2-46ea-97dd-37ecc7637e69",
+    "firstName": "Paul",
+    "lastName": "Rayner",
+    "bio": "Paul Rayner is a developer, instructor, coach and popular conference speaker. He co-founded DDD Denver and is founder and chairman of the Explore DDD Conference (exploreddd.com). His company Virtual Genius LLC, provides training and coaching in DDD and EventStorming for agile teams (virtualgenius.com). Paul is from Perth, Australia, but chooses to live, work and play with his wife and two children, in Denver, Colorado. He blogs at thepaulrayner.com and tweets with an Australian accent at @ThePaulRayner.",
+    "tagLine": "Domain Remodeler",
+    "profilePicture": "https://sessionize.com/image/1071-400o400o1-4nXMTQ6eopHGAETg1mxd3D.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1153183,
+      1215159
+    ],
+    "fullName": "Paul Rayner",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "6850d0ba-278e-4719-99ae-8b1d7c55c62e",
+    "firstName": "Randy",
+    "lastName": "Shoup",
+    "bio": "Randy has spent more than 30 years building distributed systems and high performing teams, and has worked as a senior technology leader at eBay, Google, and Stitch Fix. He coaches CTOs, advises companies, and generally makes a nuisance of himself wherever possible. \r\n\r\nHe is currently leading the Engineering organization at Thrive Market.",
+    "tagLine": "SVP Engineering, Thrive Market",
+    "profilePicture": "https://sessionize.com/image/b11e-400o400o1-BHV1fAV3a2EiBmqARU8g8x.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1189120
+    ],
+    "fullName": "Randy Shoup",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "USA"
+      }
+    ]
+  },
+  {
+    "id": "dc8ca79e-cbaa-403a-b4a4-d9d2bec4ef52",
+    "firstName": "Rebecca",
+    "lastName": "Wirfs-Brock",
+    "bio": "I'm best known as the \"design geek\" who invented Responsibility-Driven Design and the xDriven meme (think TDD, BDD, DDD..). I'm keen on learning and sharing design heuristics, patterns modeling techniques and practices for architecting and reducing risk and improving quality on complex socio-technical systems. ",
+    "tagLine": "heuristics hunter and Driven-Design meme inventor",
+    "profilePicture": "https://sessionize.com/image/b115-400o400o1-QhMZvcqPYnmxaZSwbsP4t1.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1189174
+    ],
+    "fullName": "Rebecca Wirfs-Brock",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "d1694114-a042-4a11-9afe-667ec18d147d",
+    "firstName": "Robert",
+    "lastName": "Sedor",
+    "bio": "Robert Sedor is a Senior Principal Chief Architect at Red Hat, specializing in translating complex business domains into cloud-native architectures. With 25+ years bridging business and technology, he's collaborated with engineers and C-Suite executives across healthcare, financial services, and manufacturing. Robert has architected event-driven systems processing millions of daily transactions and regularly speaks on domain-driven design, microservices, and application modernization. He runs Red Hat's monthly Developer Corner series and actively mentors development teams globally.",
+    "tagLine": "Red Hat, Senior Principal Chief Architect",
+    "profilePicture": "https://sessionize.com/image/7984-400o400o1-9cUsQd4UvkiGDA7ypE1rYM.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1122189
+    ],
+    "fullName": "Robert Sedor",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "86962baa-4e19-4de8-94c4-32060a5dd4d2",
+    "firstName": "Ruth",
+    "lastName": "Malan",
+    "bio": "Ruth Malan focuses on system design and software architecture, engineering strategy and technical leadership. She has many years experience consulting, training and coaching system and software architects and other technical leaders. ",
+    "tagLine": "Bredemeyer Consulting",
+    "profilePicture": "https://sessionize.com/image/6205-400o400o1-3HCUpvYkg895MJBRpZPpc4.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1184524
+    ],
+    "fullName": "Ruth Malan",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "9a90eef3-1c5b-46c8-bff8-b6a63b76069c",
+    "firstName": "Sachin",
+    "lastName": "Gupta",
+    "bio": "I am a senior backend and platform engineer at eBay with over 14 years of experience building and modernizing enterprise systems. I work on large scale billing and financial platforms that demand high reliability, strong security, and precise data correctness. I spend most of my time modernizing legacy architectures, designing cloud ready services, and building APIs and pipelines that hold up under heavy traffic and real world failure modes.\r\n\r\nLately, I have been integrating AI into engineering workflows, focusing on diagnostics, observability, testing, and automation that help teams move faster without sacrificing safety.\r\n\r\nOn stage, I share field tested patterns and mistakes to avoid, from migrations and cutovers to incident driven design and operational readiness. My goal is to give engineers practical takeaways they can apply immediately when building and modernizing systems at scale.",
+    "tagLine": "Technical Leader at eBay",
+    "profilePicture": "https://sessionize.com/image/79fb-400o400o1-sc8oaFYsMU2WDTFbZNVCod.png",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1189435
+    ],
+    "fullName": "Sachin Gupta",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "18fbb953-a960-4f73-bcd4-a078fc1b886a",
+    "firstName": "Sonya",
+    "lastName": "Natanzon",
+    "bio": "Sonya is a seasoned engineering leader and software architect. She works at the intersection of social and technical aspects of software engineering.  She experiments with various methodologies such as Domain-Driven Design, Team Topologies, Architecture Advice Process and others to improve building and operating software in the healthcare sector. She speaks about the outcomes at international software conferences and meetups.",
+    "tagLine": "Architect, team leader, decomplexifier ",
+    "profilePicture": "https://sessionize.com/image/aa6a-400o400o1-53-a960-4f73-bcd4-a078fc1b886a.b7ac6bf8-2a94-4108-bfad-a300073c6db4.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1129252
+    ],
+    "fullName": "Sonya Natanzon",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "6f1f2448-c7d3-4627-b450-e61bc158d1d3",
+    "firstName": "Steven",
+    "lastName": "Diamante",
+    "bio": "Steven Diamante is a technical coach who helps software teams get real value from AI coding agents. Most teams use AI to generate code fast, but then spend hours debugging. Steven teaches teams to use TDD and strict quality gates to keep AI agents steerable, ensuring they build the right thing in small, controllable steps. Through hands-on Samman Coaching, he helps teams transform how they work with AI while maintaining technical excellence.\r\n\r\nOutside of coaching, he enjoys playing guitar in his local church, reading a non-fiction book, or hanging out with his wife and two kids.",
+    "tagLine": "Technical Coach at Diamante Technical Coaching",
+    "profilePicture": "https://sessionize.com/image/c388-400o400o1-antBSDY58r6mwkryBohN7A.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1188592,
+      1188600
+    ],
+    "fullName": "Steven Diamante",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "85c42995-4a88-425d-bdfd-7266c443cc4c",
+    "firstName": "Talysson",
+    "lastName": "Oliveira Cassiano",
+    "bio": "Web developer and software architect, a true believer that we can always do better.",
+    "tagLine": "Developer and Chief Learning Officer @ Codeminer42",
+    "profilePicture": "https://sessionize.com/image/fdd3-400o400o1-THcmGsSW472qEMXL1mPyRt.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1117537
+    ],
+    "fullName": "Talysson Oliveira Cassiano",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "Brazil"
+      }
+    ]
+  },
+  {
+    "id": "94bacfff-6eb4-4645-98bb-5cb7b6075d0e",
+    "firstName": "Thomas",
+    "lastName": "Betts",
+    "bio": "Thomas Betts is the architect for Blackbaud's Agents for Good and formerly the Lead Editor for Architecture and Design at InfoQ. For nearly three decades he's been providing software solutions that delight his customers. His career has spanned a variety of industries, including social good, retail, finance, health care, defense, and travel. Thomas lives in Denver with his wife and son, and they love hiking and otherwise exploring beautiful Colorado.",
+    "tagLine": "Architect for Blackbaud's Agents for Good",
+    "profilePicture": "https://sessionize.com/image/3f63-400o400o1-ff-6eb4-4645-98bb-5cb7b6075d0e.ac70e4d5-5505-415c-8713-e1fbd304d6ca.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1119445
+    ],
+    "fullName": "Thomas Betts",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "fba0166b-1333-48e5-b630-edf6c1fff32a",
+    "firstName": "Tina",
+    "lastName": "Thomas",
+    "bio": "Tina Thomas is an Application Developer at Thoughtworks with over 10 years of experience building resilient, distributed applications. She has worked across a wide range of technologies, including Kotlin, .NET, React, Vue.js, Node.js, and Go.\r\n\r\nThroughout her career, Tina has partnered closely with clients and stakeholders to understand complex business problems, collaborated with Business Analysts and Product Owners to design effective solutions, and worked alongside delivery teams to bring those solutions to life. She has held multiple roles across engagements, including Tech Anchor, Tech Lead, Front-End Developer, and Full-Stack Developer, allowing her to contribute both technically and strategically across the delivery lifecycle",
+    "tagLine": "Senior Software Developer",
+    "profilePicture": "https://sessionize.com/image/c5d6-400o400o1-sUGeRTXYJULnKeqHzGd9oJ.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1122846
+    ],
+    "fullName": "Tina Thomas",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "e5e6903e-e4b6-4629-b84f-df9339ef640b",
+    "firstName": "Woody",
+    "lastName": "Zuill",
+    "bio": "Woody Zuill is an independent Agile Guide and Coach and has been programming computers for 40+ years. He is a pioneer of the Mob Programming approach to teamwork in software development, and is one of the founders of the \"#NoEstimates\" discussion on Twitter.  His passion is to work with teams to create an environment where each one of us can excel in our work and in our life. He loves working with legacy code, and believes that code must be kept simple, clean, and easy to work on so we can work just as fast tomorrow as we can today.",
+    "tagLine": "Lean and Agile Guide",
+    "profilePicture": "https://sessionize.com/image/5cb9-400o400o1-3e-e4b6-4629-b84f-df9339ef640b.a426e8fe-4886-4f08-bdfa-e487ad4e1438.png",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1176941
+    ],
+    "fullName": "Woody Zuill",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "fc6ec4d9-6597-4c14-a25f-31278d0bf087",
+    "firstName": "Eric",
+    "lastName": "Evans",
+    "fullName": "Eric Evans",
+    "tagLine": "Author of Domain-Driven Design; Founder, Domain Language",
+    "bio": "Eric Evans is the author of \"Domain-Driven Design: Tackling Complexity in Software\" (Addison-Wesley, 2004). Since the early 1990s he has worked on many large business systems, and the blue book is a synthesis of that experience, presenting a system of modeling and design techniques teams use to align complex software with business needs and keep projects agile as systems grow. Eric leads Domain Language, a consulting group that coaches and trains teams applying domain-driven design.",
+    "profilePicture": "img/eric-evans.jpg",
+    "isTopSpeaker": true,
+    "links": [],
+    "sessions": [],
+    "categoryItems": [],
+    "questionAnswers": []
+  }
+]
