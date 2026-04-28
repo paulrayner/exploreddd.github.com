@@ -600,6 +600,20 @@ title: Schedule | Explore DDD 2026
   .eddd-schedule-2026 .row-content{ flex: 1; }
   .eddd-schedule-2026 .row-content h4{ font-size: 1em; font-weight: 600; }
   .eddd-schedule-2026 .row-content .speakers{ font-size: 0.85em; color: var(--text-muted); margin-top: 0.15em; }
+  .eddd-schedule-2026 .row-content .plenary-speakers{
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-top: 0.3em;
+    font-size: 0.85em;
+  }
+  .eddd-schedule-2026 .row-content .plenary-speakers img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid var(--border);
+  }
   .eddd-schedule-2026 .plenary-room{
     margin-left: auto;
     font-size: 0.7em;
@@ -1086,14 +1100,14 @@ const TBD_SESSIONS = {
     description: "Opening keynote.",
     speakerIds: ["fc6ec4d9-6597-4c14-a25f-31278d0bf087"],
     format: "Keynote (45 minutes)",
-    pending: true
+    pending: false
   },
   "TBD-evans-interp": {
     title: "Interpretability: An AI tool for examining the domain language",
     description: "Eric Evans on interpretability and using AI to examine domain language.",
     speakerIds: ["fc6ec4d9-6597-4c14-a25f-31278d0bf087"],
     format: "Talk Session (25 minutes)",
-    pending: true
+    pending: false
   },
   "TBD-indu-legacy": {
     title: "Legacy AI Awesomeness",
@@ -1351,7 +1365,7 @@ function getSession(id) {
     return {
       id, title: tbd.title, description: tbd.description,
       speakers, speakerNames: tbd.speakerNames || [],
-      formatName: tbd.format, pending: true
+      formatName: tbd.format, pending: tbd.pending !== false
     };
   }
   const s = SESSIONS[id];
@@ -1495,11 +1509,14 @@ function renderConferenceDay(main, day) {
       el.className = "plenary-row";
       el.style.cursor = "pointer";
       el.onclick = () => openModal(s);
+      const speakerImgs = (s.speakers || []).slice(0, 3).map(sp =>
+        `<img src="${sp.profilePicture}" alt="${sp.fullName}" title="${sp.fullName}">`
+      ).join("");
       el.innerHTML = `
         <div class="row-time">${row.time}</div>
         <div class="row-content">
           <h4>${s.title}${s.pending ? ' <span style="font-size:0.7em; background:#fef3c7; color:#92400e; padding:2px 6px; border-radius:3px; margin-left:4px;">TBD</span>' : ''}</h4>
-          <div class="speakers">${speakerNamesText(s)}</div>
+          <div class="plenary-speakers">${speakerImgs}<span class="names">${speakerNamesText(s)}</span></div>
         </div>
         <div class="plenary-room">Confluence</div>
       `;
