@@ -832,7 +832,7 @@ title: Schedule | Explore DDD 2026
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 100;
+    z-index: 2000;
     padding: 1em;
   }
   .eddd-schedule-2026 .sched-modal-overlay.open{ display: flex; }
@@ -934,6 +934,31 @@ title: Schedule | Explore DDD 2026
     .eddd-schedule-2026 .block-grid.cols-5, .eddd-schedule-2026 .block-grid.cols-4{ grid-template-columns: 1fr; }
     .eddd-schedule-2026 .room-col{ gap: 0.4em; }
     .eddd-schedule-2026 .session-card{ min-height: auto; }
+    .eddd-schedule-2026 .workshops-grid{ grid-template-columns: 1fr; }
+    .eddd-schedule-2026 .sched-modal{ width: 95%; max-height: 90vh; }
+  }
+  @media (max-width: 600px) {
+    .eddd-schedule-2026 { font-size: 16px; }
+    .eddd-schedule-2026 .day-tabs-inner{ padding: 0.5em 0.75em; gap: 0.5em; }
+    .eddd-schedule-2026 .day-group{ padding: 0.25em 0.4em; gap: 0.25em; }
+    .eddd-schedule-2026 .day-tab{ padding: 0.35em 0.55em; font-size: 0.78em; }
+    .eddd-schedule-2026 .day-group-label{ font-size: 0.62em; }
+    .eddd-schedule-2026 .day-group-icon{ width: 18px; height: 18px; }
+    .eddd-schedule-2026 .day-group-icon svg{ width: 11px; height: 11px; }
+    .eddd-schedule-2026 .plenary-row, .eddd-schedule-2026 .break-row{ padding: 0.7em 0.85em; gap: 0.65em; }
+    .eddd-schedule-2026 .row-time{ min-width: 64px; font-size: 0.78em; }
+    .eddd-schedule-2026 .plenary-room{ font-size: 0.62em; }
+    .eddd-schedule-2026 .day-header h2{ font-size: 1.4em; }
+    .eddd-schedule-2026 .day-header p{ font-size: 0.92em; }
+    .eddd-schedule-2026 .block-header{ padding: 0.5em 0; }
+    .eddd-schedule-2026 .session-card{ padding: 0.7em 0.75em; }
+    .eddd-schedule-2026 .room-header{ padding: 0.45em 0.7em; }
+    .eddd-schedule-2026 .sched-modal{ width: 100%; max-height: 100vh; border-radius: 0; }
+    .eddd-schedule-2026 .sched-modal-content{ padding: 1.25em 1em; }
+  }
+  @media (max-width: 400px) {
+    .eddd-schedule-2026 .day-tab{ padding: 0.3em 0.45em; font-size: 0.72em; }
+    .eddd-schedule-2026 .day-group-label-text{ display: none; }
   }
 
   /* Site integration overrides */
