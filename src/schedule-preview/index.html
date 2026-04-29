@@ -581,6 +581,63 @@ title: Schedule | Explore DDD 2026
     align-items: center;
     gap: 1em;
   }
+  .eddd-schedule-2026 .plenary-row.has-tooltip{ position: relative; cursor: help; }
+  .eddd-schedule-2026 .tooltip-hint{
+    display: inline-block;
+    margin-left: 0.35em;
+    color: var(--track-talks-strong);
+    font-size: 0.85em;
+    opacity: 0.7;
+  }
+  .eddd-schedule-2026 .plenary-row.has-tooltip:hover .tooltip-hint{ opacity: 1; }
+  .eddd-schedule-2026 .plenary-tooltip{
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 1em;
+    right: 1em;
+    max-width: 560px;
+    background: #1c1917;
+    color: #fafaf9;
+    padding: 1em 1.2em;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.55;
+    text-align: left;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    z-index: 50;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    letter-spacing: 0;
+    text-transform: none;
+    font-style: normal;
+  }
+  .eddd-schedule-2026 .plenary-tooltip::before{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 2em;
+    border: 5px solid transparent;
+    border-bottom-color: #1c1917;
+  }
+  .eddd-schedule-2026 .plenary-row.has-tooltip:hover .plenary-tooltip{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .eddd-schedule-2026 .plenary-tooltip-title{
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+  }
+  .eddd-schedule-2026 .plenary-tooltip p{
+    color: #e7e5e4;
+    margin: 0 0 0.7em 0;
+    font-size: 0.95em;
+  }
+  .eddd-schedule-2026 .plenary-tooltip p:last-child{ margin-bottom: 0; }
   .eddd-schedule-2026 .plenary-row{
     background: var(--track-talks);
     border-color: var(--track-talks);
@@ -1128,6 +1185,14 @@ const TBD_SESSIONS = {
 
 const WORKSHOPS = ["1215159", "1154435", "1182143", "1188600"];
 
+const STORM_TOOLTIP = {
+  title: "Why \"Design Storm\"?",
+  paragraphs: [
+    "Civil engineers have a concept called a design storm. When they're designing a drainage system, they don't design for a sunny day, and they don't design for the worst storm in human history. They pick a calibrated event, something like the 100-year, 24-hour rainfall. Real enough that what you build will work in the wild. Bounded enough that you can actually build for it.",
+    "That's what these hands-on cohorts are. We've worked with a water management expert and provided you with real public data to set up a design storm for your modeling skills with agentic tools. Water management, with real complexity, real ambiguity, real stakeholders with competing needs."
+  ]
+};
+
 const TRACK_DESCRIPTIONS = {
   "DDD + AI Talks": "45-min talks on how DDD applies in the age of AI-assisted development. Pick this for big-picture takes on the intersection.",
   "DDD Talks": "45-min talks on DDD practice: strategic design, modeling approaches, and case studies from the field.",
@@ -1137,7 +1202,7 @@ const TRACK_DESCRIPTIONS = {
   "DDD Hands-On": "Working sessions for practitioners ready to wrestle with strategic and tactical design problems together.",
   "Agentic Hands-On": "Build with agents. Working sessions on coding agents, agent design, and integrating AI into your delivery flow.",
   "DDD & Testing Hands-On": "Working sessions on testing alongside DDD: examples, prototypes, and verifying your model lives up to its promise.",
-  "Headwaters": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Plunge.",
+  "Headwaters": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Storm.",
   "Watershed": "Where streams converge. For attendees comfortable with modeling OR agentic coding (not both yet), looking to bring their strengths and stretch into the other.",
   "Rapids": "Fast-moving water. For attendees confident in both modeling and agentic coding, ready to move fast on harder challenges.",
   "Uncharted Waters": "Beyond the map. For experts in both modeling and agentic coding, ready to invent new patterns alongside other experts."
@@ -1236,7 +1301,7 @@ const SCHEDULE = {
         ]
       },
 
-      { type: "plenary", time: "6:00", title: "Design Plunge introduction → evening social" }
+      { type: "plenary", time: "6:00", title: "Design Storm introduction → evening social" }
     ]
   },
   thu: {
@@ -1244,10 +1309,10 @@ const SCHEDULE = {
     date: "Sept 24",
     type: "conference",
     title: "Conference Day 2",
-    subtitle: "Day opens with the Design Plunge kickoff. Two blocks of content, first Design Plunge working session, then AI+DDD panel to close out the day.",
+    subtitle: "Day opens with the Design Storm kickoff. Two blocks of content, first Design Storm working session, then AI+DDD panel to close out the day.",
     rooms: ROOMS_THU,
     rows: [
-      { type: "plenary", time: "9:00 - 9:30", title: "Design Plunge Kickoff", note: "THE EXPERT and THE CHALLENGE" },
+      { type: "plenary", time: "9:00 - 9:30", title: "Design Storm Kickoff", note: "THE EXPERT and THE CHALLENGE", tooltip: STORM_TOOLTIP },
       { type: "break", time: "9:30 - 9:45", title: "Coffee break" },
 
       { type: "block-header", label: "Block 1", time: "9:45 - 11:45" },
@@ -1277,7 +1342,7 @@ const SCHEDULE = {
       },
 
       { type: "break", time: "2:45 - 3:00", title: "Break" },
-      { type: "block-header", label: "Design Plunge: Working Session 1", time: "3:00 - 5:00" },
+      { type: "block-header", label: "Design Storm: Working Session 1", time: "3:00 - 5:00" },
       {
         type: "block",
         columns: COHORTS,
@@ -1298,7 +1363,7 @@ const SCHEDULE = {
     label: "Friday",
     date: "Sept 25",
     type: "conference",
-    title: "Design Plunge",
+    title: "Design Storm",
     subtitle: "A facilitated day where teams continue the challenge they started Thursday afternoon. Cohorts are self-assigned by expertise level in modeling and agentic coding.",
     rooms: COHORTS,
     rows: [
@@ -1402,9 +1467,9 @@ const DAY_GROUPS = [
 const DAY_TOOLTIPS = {
   mon: { title: "Workshop Day 1", lines: ["Optional 2-day deep-dives", "Ticketed separately from the conference", "4 workshops to choose from"] },
   tue: { title: "Workshop Day 2", lines: ["Same instructors and topics as Monday", "Workshops run all day", "Ticketed separately from the conference"] },
-  wed: { title: "Conference Day 1", lines: ["Eric Evans keynote opens the day", "6 × 45-min talks in Confluence", "12 hands-on sessions across 4 tracks", "Design Plunge introduction at 6pm"] },
-  thu: { title: "Conference Day 2", lines: ["Design Plunge kickoff", "6 × 45-min talks", "4 × 25-min short-form talks", "6 hands-on sessions", "First Design Plunge working session", "AI + DDD panel to close the day"] },
-  fri: { title: "Design Plunge", lines: ["Facilitated day with cohorts self-assigned by experience level", "Working sessions continue from Thursday", "Demo fair + conference close at 3pm"] }
+  wed: { title: "Conference Day 1", lines: ["Eric Evans keynote opens the day", "6 × 45-min talks in Confluence", "12 hands-on sessions across 4 tracks", "Design Storm introduction at 6pm"] },
+  thu: { title: "Conference Day 2", lines: ["Design Storm kickoff", "6 × 45-min talks", "4 × 25-min short-form talks", "6 hands-on sessions", "First Design Storm working session", "AI + DDD panel to close the day"] },
+  fri: { title: "Design Storm", lines: ["Facilitated day with cohorts self-assigned by experience level", "Working sessions continue from Thursday", "Demo fair + conference close at 3pm"] }
 };
 
 function renderTabs(activeKey) {
@@ -1496,7 +1561,7 @@ const ROOM_SWATCH = {
 function renderConferenceDay(main, day) {
   for (const row of day.rows) {
     if (row.type === "plenary") {
-      main.appendChild(plenaryRow(row.time, row.title, row.note));
+      main.appendChild(plenaryRow(row.time, row.title, row.note, row.tooltip));
     } else if (row.type === "break") {
       main.appendChild(breakRow(row.time, row.title));
     } else if (row.type === "block-header") {
@@ -1528,13 +1593,20 @@ function renderConferenceDay(main, day) {
   }
 }
 
-function plenaryRow(time, title, note) {
+function plenaryRow(time, title, note, tooltip) {
   const el = document.createElement("div");
-  el.className = "plenary-row";
+  el.className = "plenary-row" + (tooltip ? " has-tooltip" : "");
+  const tooltipHtml = tooltip ? `
+    <div class="plenary-tooltip">
+      <div class="plenary-tooltip-title">${tooltip.title}</div>
+      ${tooltip.paragraphs.map(p => `<p>${p}</p>`).join("")}
+    </div>
+  ` : "";
   el.innerHTML = `
     <div class="row-time">${time}</div>
-    <div class="row-content"><h4>${title}</h4>${note ? `<div class="speakers">${note}</div>` : ""}</div>
+    <div class="row-content"><h4>${title}${tooltip ? ' <span class="tooltip-hint" aria-hidden="true">ⓘ</span>' : ''}</h4>${note ? `<div class="speakers">${note}</div>` : ""}</div>
     <div class="plenary-room">Confluence</div>
+    ${tooltipHtml}
   `;
   return el;
 }
