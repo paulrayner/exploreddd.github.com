@@ -1829,7 +1829,10 @@ function findDayForSession(sessionId) {
     await loadData();
     const params = new URLSearchParams(window.location.search);
     const requestedSession = params.get("session");
-    const startDay = (requestedSession && findDayForSession(requestedSession)) || "wed";
+    const requestedDay = params.get("day");
+    const validDays = new Set(["mon", "tue", "wed", "thu", "fri"]);
+    const dayFromParam = requestedDay && validDays.has(requestedDay) ? requestedDay : null;
+    const startDay = (requestedSession && findDayForSession(requestedSession)) || dayFromParam || "wed";
     render(startDay);
     if (requestedSession) {
       const session = getSession(requestedSession);
