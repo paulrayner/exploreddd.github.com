@@ -1745,12 +1745,43 @@ document.getElementById("sched-modal-overlay").addEventListener("click", (e) => 
 });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
 
+// -- Deep-linking -----------------------------------------------------------
+
+function findDayForSession(sessionId) {
+  for (const [key, day] of Object.entries(SCHEDULE)) {
+    for (const row of day.rows || []) {
+      if (row.sessionId === sessionId) return key;
+      if (row.sessionIds && row.sessionIds.includes(sessionId)) return key;
+      for (const slot of (row.slots || [])) {
+        if (slot.sessionId === sessionId) return key;
+        if (slot.sessionIds && slot.sessionIds.includes(sessionId)) return key;
+      }
+    }
+    for (const block of (day.blocks || [])) {
+      for (const slot of (block.slots || [])) {
+        if (slot.sessionId === sessionId) return key;
+        if (slot.sessionIds && slot.sessionIds.includes(sessionId)) return key;
+      }
+    }
+  }
+  return null;
+}
+
 // -- Boot -------------------------------------------------------------------
 
 (async () => {
   try {
     await loadData();
-    render("wed");
+    const params = new URLSearchParams(window.location.search);
+    const requestedSession = params.get("session");
+    const startDay = (requestedSession && findDayForSession(requestedSession)) || "wed";
+    render(startDay);
+    if (requestedSession) {
+      const session = getSession(requestedSession);
+      if (session && session.title && !session.title.startsWith("(missing)")) {
+        setTimeout(() => openModal(session), 50);
+      }
+    }
   } catch (err) {
     document.getElementById("content").innerHTML =
       `<div class="loading" style="color:#991b1b;">
