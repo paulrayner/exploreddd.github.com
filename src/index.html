@@ -197,16 +197,18 @@ layout: layout.hbs
             <span class="dot">·</span>
             <strong>Surfacing &amp; demos</strong> Friday 1:45pm
         </p>
-        <div class="design-storm-2026__panel-callout">
-            <p>
-                <strong>Thursday 5:15pm: AI + DDD Panel, hosted by Eric Evans.</strong>
-                Leading practitioners on what's actually changing about how we model and design software
-                now that AI is writing more of the code.
-            </p>
-        </div>
         <p class="text-center design-storm-2026__cta">
             <a class="btn" href="schedule/">See the full Design Storm flow</a>
         </p>
+    </div>
+</section>
+
+<section class="container section ai-ddd-panel-callout">
+    <div class="ai-ddd-panel-callout__inner">
+        <span class="ai-ddd-panel-callout__eyebrow">Thursday 5:15pm</span>
+        <h2>AI + DDD Panel, hosted by Eric Evans</h2>
+        <p>Leading practitioners on what's actually changing about how we model and design software now
+            that AI is writing more of the code, with time for your questions.</p>
     </div>
 </section>
 
@@ -379,15 +381,34 @@ layout: layout.hbs
     color: #80bce4;
     margin: 0 0.5em;
 }
-.design-storm-2026__panel-callout{
+.ai-ddd-panel-callout{
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+}
+.ai-ddd-panel-callout__inner{
+    max-width: 720px;
+    margin: 0 auto;
     background: #fff;
     border-left: 4px solid #0078C8;
-    padding: 1em 1.25em;
+    padding: 1.25em 1.5em;
     border-radius: 4px;
-    margin: 0 auto 1.5em auto;
-    max-width: 720px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
 }
-.design-storm-2026__panel-callout p{
+.ai-ddd-panel-callout__eyebrow{
+    display: block;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    color: #0078C8;
+    margin-bottom: 0.3em;
+}
+.ai-ddd-panel-callout h2{
+    font-size: 1.3em;
+    margin: 0 0 0.5em 0;
+    color: #1c1917;
+}
+.ai-ddd-panel-callout p{
     margin: 0;
     font-size: 0.95em;
     line-height: 1.55;
