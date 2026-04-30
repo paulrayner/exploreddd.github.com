@@ -96,23 +96,13 @@ layout: layout.hbs
         Click any day for the full schedule.
     </p>
     <div class="schedule-strip">
-        <a class="schedule-strip__card schedule-strip__card--workshop" href="schedule/?day=mon">
+        <a class="schedule-strip__card schedule-strip__card--workshop schedule-strip__card--span" href="schedule/?day=mon">
             <div class="schedule-strip__group-label">Pre-Conference Workshops</div>
-            <div class="schedule-strip__day">Monday</div>
-            <div class="schedule-strip__date">Sept 21</div>
+            <div class="schedule-strip__day">Mon &amp; Tue</div>
+            <div class="schedule-strip__date">Sept 21-22</div>
             <ul>
                 <li>Optional 2-day deep-dives</li>
                 <li>4 workshops to choose from</li>
-                <li>Ticketed separately</li>
-            </ul>
-        </a>
-        <a class="schedule-strip__card schedule-strip__card--workshop" href="schedule/?day=tue">
-            <div class="schedule-strip__group-label">Pre-Conference Workshops</div>
-            <div class="schedule-strip__day">Tuesday</div>
-            <div class="schedule-strip__date">Sept 22</div>
-            <ul>
-                <li>Same instructors as Monday</li>
-                <li>Workshops run all day</li>
                 <li>Ticketed separately</li>
             </ul>
         </a>
@@ -247,6 +237,9 @@ layout: layout.hbs
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 0.75em;
 }
+.schedule-strip__card--span{
+    grid-column: span 2;
+}
 .schedule-strip__card{
     display: block;
     padding: 1em 0.9em;
@@ -299,9 +292,11 @@ layout: layout.hbs
 .schedule-strip__card ul li:first-child{ border-top: 0; }
 @media (max-width: 992px){
     .schedule-strip{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .schedule-strip__card--span{ grid-column: span 2; }
 }
 @media (max-width: 480px){
     .schedule-strip{ grid-template-columns: 1fr; }
+    .schedule-strip__card--span{ grid-column: span 1; }
 }
 
 .design-storm-2026{
