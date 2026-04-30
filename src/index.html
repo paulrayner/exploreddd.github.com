@@ -152,12 +152,24 @@ layout: layout.hbs
                 can actually build for it.
             </p>
             <p>
-                That's what these hands-on cohorts are. We've worked with a water management expert and
-                provided you with real public data to set up a design storm for your modeling skills with
-                agentic tools. Water management, with real complexity, real ambiguity, real stakeholders
-                with competing needs.
+                Working from real public water-management data, with a domain expert in the room to
+                answer your questions, you and a cohort of peers at your level spend Thursday afternoon
+                and Friday modeling a complex, ambiguous domain you don't already work in, pairing with
+                each other and with agentic coding tools to discover, model, and prototype a slice of
+                the system. Water management is deliberately unfamiliar so nobody short-circuits with
+                their own expertise; the domain has real complexity, real ambiguity, and real
+                stakeholders with competing needs.
+            </p>
+            <p>
+                Friday afternoon, every cohort gathers for a science-fair-style surfacing. Each group
+                sets up their model, their prompts, and what they built; you wander between stations and
+                see how five different teams attacked the same challenge. The contrast is where the
+                deepest learning happens.
             </p>
         </div>
+        <p class="design-storm-2026__cohort-intro text-center">
+            Pick the cohort that matches where you are with modeling and agentic coding today.
+        </p>
         <div class="design-storm-2026__cohorts">
             <div class="cohort-card cohort-card--headwaters">
                 <h3>Headwaters</h3>
@@ -180,6 +192,10 @@ layout: layout.hbs
                     new patterns alongside other experts.</p>
             </div>
         </div>
+        <p class="design-storm-2026__takeaway text-center">
+            You leave with sustained practice in modeling under genuine ambiguity with agents in the
+            loop, and a cohort of peers you'll keep talking to long after the conference closes.
+        </p>
         <p class="design-storm-2026__when">
             <strong>Kickoff</strong> Thursday 9am
             <span class="dot">·</span>
@@ -341,11 +357,26 @@ layout: layout.hbs
     color: #1c1917;
     margin-bottom: 1em;
 }
+.design-storm-2026__cohort-intro{
+    margin-top: 1.25em;
+    margin-bottom: 0.4em;
+    color: #00497a;
+    font-weight: 600;
+    font-size: 0.95em;
+}
 .design-storm-2026__cohorts{
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0.75em;
-    margin: 1.5em 0;
+    margin: 0.5em 0 1.5em 0;
+}
+.design-storm-2026__takeaway{
+    max-width: 720px;
+    margin: 0 auto 1.25em auto;
+    color: #1c1917;
+    font-size: 1em;
+    line-height: 1.55;
+    font-style: italic;
 }
 .cohort-card{
     background: #fff;
