@@ -188,7 +188,7 @@ layout: layout.hbs
             <strong>Surfacing &amp; demos</strong> Friday 1:45pm
         </p>
         <p class="text-center design-storm-2026__cta">
-            <a class="btn" href="schedule/">See the full Design Storm flow</a>
+            <a class="btn-secondary" href="schedule/">See the full Design Storm flow</a>
         </p>
     </div>
 </section>
@@ -198,7 +198,7 @@ layout: layout.hbs
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
-.homepage--secondary-ctas .btn-secondary{
+.btn-secondary{
     display: inline-block;
     margin: 0.4em 0.6em;
     padding: 0.6em 1.4em;
@@ -208,16 +208,36 @@ layout: layout.hbs
     text-decoration: none;
     font-weight: 600;
     border-radius: 4px;
+    text-transform: uppercase;
     transition: background 0.15s ease, color 0.15s ease;
 }
-.homepage--secondary-ctas .btn-secondary:hover{
+.btn-secondary:hover{
     background: #0078C8;
     color: #fff;
+    text-decoration: none;
+}
+
+.homepage-featured-speakers a.speaker-container{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    transition: transform 0.15s ease;
+}
+.homepage-featured-speakers a.speaker-container:hover{
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+.homepage-featured-speakers a.speaker-container:hover .speaker-name{
+    text-decoration: underline;
 }
 
 .homepage-schedule-strip{
     padding-top: 2em;
     padding-bottom: 2em;
+}
+.homepage-schedule-strip h2{
+    font-size: 24px;
+    color: #0078C8;
 }
 .homepage-schedule-strip__intro{
     color: #44403c;
@@ -248,7 +268,7 @@ layout: layout.hbs
     text-decoration: none;
     color: #1c1917;
 }
-.schedule-strip__card--workshop{ border-top-color: #c2410c; }
+.schedule-strip__card--workshop{ border-top-color: #D22630; }
 .schedule-strip__card--conference{ border-top-color: #0078C8; }
 .schedule-strip__group-label{
     font-size: 0.7em;
@@ -257,8 +277,8 @@ layout: layout.hbs
     color: #57534e;
     margin-bottom: 0.4em;
 }
-.schedule-strip__card--workshop .schedule-strip__group-label{ color: #9a3412; }
-.schedule-strip__card--conference .schedule-strip__group-label{ color: #1e40af; }
+.schedule-strip__card--workshop .schedule-strip__group-label{ color: #D22630; }
+.schedule-strip__card--conference .schedule-strip__group-label{ color: #0078C8; }
 .schedule-strip__day{
     font-size: 1.25em;
     font-weight: 700;
@@ -307,12 +327,12 @@ layout: layout.hbs
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 0.8em;
-    font-weight: 700;
     color: #0078C8;
     margin-bottom: 0.4em;
 }
 .design-storm-2026 h2{
     margin-top: 0.2em;
+    font-size: 24px;
     color: #00497a;
 }
 .design-storm-2026__lede p{
@@ -373,51 +393,51 @@ layout: layout.hbs
 }
 </style>
 
-<div class="container section speakers">
+<div class="container section speakers homepage-featured-speakers">
     <h2 class="text-center">Featured Speakers</h2>
     <div class="flex-row">
-        <div class="speaker-container">
+        <a class="speaker-container" href="speakers/">
             <div class="new-speaker-img eric-evans"></div>
             <p class="speaker-name">Eric Evans</p>
             <p class="speaker-details">Author of Domain-Driven Design</p>
             <p class="speaker-details"><strong>Opening Keynote</strong></p>
-        </div>
-        <div class="speaker-container">
+        </a>
+        <a class="speaker-container" href="speakers/">
             <div class="new-speaker-img indu-alagarsamy"></div>
             <p class="speaker-name">Indu Alagarsamy</p>
             <p class="speaker-details">Principal Engineer, CircleCI</p>
             <p class="speaker-details"><strong>Pre-Conference Workshop</strong></p>
-        </div>
-        <div class="speaker-container">
+        </a>
+        <a class="speaker-container" href="speakers/">
             <div class="new-speaker-img paul-rayner"></div>
             <p class="speaker-name">Paul Rayner</p>
             <p class="speaker-details">Consultant, Virtual Genius</p>
-        </div>
-        <div class="speaker-container">
+        </a>
+        <a class="speaker-container" href="speakers/">
             <div class="new-speaker-img javiera-laso"></div>
             <p class="speaker-name">Javiera Laso</p>
             <p class="speaker-details">Lead Engineer Consultant at Thoughtworks</p>
-        </div>
-        <div class="speaker-container">
+        </a>
+        <a class="speaker-container" href="speakers/">
             <div class="new-speaker-img sonya-natanzon"></div>
             <p class="speaker-name">Sonya Natanzon</p>
             <p class="speaker-details">Architect, team leader, decomplexifier</p>
-        </div>
-        <div class="speaker-container">
+        </a>
+        <a class="speaker-container" href="speakers/">
             <div class="new-speaker-img joseph-yoder"></div>
             <p class="speaker-name">Joseph Yoder</p>
             <p class="speaker-details">The Refactory - MetaYoda</p>
-        </div>
-        <div class="speaker-container">
+        </a>
+        <a class="speaker-container" href="speakers/">
             <div class="new-speaker-img tina-thomas"></div>
             <p class="speaker-name">Tina Thomas</p>
             <p class="speaker-details">Senior Software Developer at Thoughtworks</p>
-        </div>
-        <div class="speaker-container">
+        </a>
+        <a class="speaker-container" href="speakers/">
             <div class="new-speaker-img kyle-brown"></div>
             <p class="speaker-name">Kyle Brown</p>
             <p class="speaker-details">IBM Fellow</p>
-        </div>
+        </a>
     </div>
 </div>
 <div class="testimonials-rotating">
