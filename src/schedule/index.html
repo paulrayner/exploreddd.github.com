@@ -963,6 +963,22 @@ title: Schedule | Explore DDD 2026
     color: var(--text);
     white-space: pre-wrap;
   }
+  .eddd-schedule-2026 .sched-modal-cta{
+    display: inline-block;
+    background: #0078C8;
+    color: #fff;
+    padding: 0.7em 1.2em;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95em;
+    transition: background 0.15s ease;
+  }
+  .eddd-schedule-2026 .sched-modal-cta:hover{
+    background: #005f9e;
+    text-decoration: none;
+    color: #fff;
+  }
   .eddd-schedule-2026 .sched-modal-speaker{
     display: flex;
     gap: 0.75em;
@@ -1184,6 +1200,13 @@ const TBD_SESSIONS = {
 };
 
 const WORKSHOPS = ["1215159", "1154435", "1182143", "1188600"];
+
+const WORKSHOP_PAGES = {
+  "1215159": { url: "/workshops/essential-ddd.html", blurb: "A 2-day primer on Domain-Driven Design fundamentals for practitioners new to DDD or sharpening the basics." },
+  "1154435": { url: "/workshops/designing-microservices.html", blurb: "A 2-day deep dive into service decomposition, API design, and inter-service collaboration in the GenAI era." },
+  "1182143": { url: "/workshops/ai-assisted-architecture.html", blurb: "Use AI tools as a force multiplier for architectural and domain discovery, working through a realistic legacy codebase over 2 days." },
+  "1188600": { url: "/workshops/build-your-own-coding-agent.html", blurb: "Build a working AI coding agent from scratch in TypeScript over 2 days. By the end you'll understand what's actually happening under the hood." }
+};
 
 const STORM_TOOLTIP = {
   title: "Why \"Design Storm\"?",
@@ -1711,6 +1734,13 @@ function renderFriday(main, day) {
 function openModal(session) {
   const overlay = document.getElementById("sched-modal-overlay");
   const modal = document.getElementById("sched-modal");
+  const workshop = WORKSHOP_PAGES[session.id];
+  const bodySection = workshop
+    ? `<div class="sched-modal-section">
+         <p class="sched-modal-description" style="margin-bottom:1em;">${workshop.blurb}</p>
+         <a class="sched-modal-cta" href="${workshop.url}">View full workshop details &rarr;</a>
+       </div>`
+    : (session.description ? `<div class="sched-modal-section"><h3>Abstract</h3><div class="sched-modal-description">${session.description}</div></div>` : "");
   modal.innerHTML = `
     <button class="sched-modal-close" onclick="closeModal()">&times;</button>
     <h2>${session.title}</h2>
@@ -1718,7 +1748,7 @@ function openModal(session) {
       ${session.formatName ? `<span>${session.formatName}</span>` : ""}
       ${session.pending ? '<span style="background:#fef3c7;color:#92400e;">Pending Sessionize submission</span>' : ""}
     </div>
-    ${session.description ? `<div class="sched-modal-section"><h3>Abstract</h3><div class="sched-modal-description">${session.description}</div></div>` : ""}
+    ${bodySection}
     <div class="sched-modal-section">
       <h3>Speaker${session.speakers.length === 1 ? "" : "s"}</h3>
       ${(session.speakers.length ? session.speakers.map(sp => `
@@ -1749,6 +1779,7 @@ document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal
 
 function findDayForSession(sessionId) {
   for (const [key, day] of Object.entries(SCHEDULE)) {
+    if (day.workshops && day.workshops.includes(sessionId)) return key;
     for (const row of day.rows || []) {
       if (row.sessionId === sessionId) return key;
       if (row.sessionIds && row.sessionIds.includes(sessionId)) return key;
