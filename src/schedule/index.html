@@ -1217,6 +1217,13 @@ const WORKSHOP_PAGES = {
   "1188600": { url: "/workshops/build-your-own-coding-agent.html", blurb: "Build a working AI coding agent from scratch in TypeScript over 2 days. By the end you'll understand what's actually happening under the hood." }
 };
 
+const SURFACING_TOOLTIP = {
+  title: "How Surfacing works",
+  paragraphs: [
+    "Think science fair. Each cohort sets up at a station with their work, their model, their AI prompts, sketches, whatever they want to show. You wander, ask questions, see how other cohorts approached the same challenge. The contrast between cohorts is where the real learning is."
+  ]
+};
+
 const STORM_TOOLTIP = {
   title: "Why \"Design Storm\"?",
   paragraphs: [
@@ -1428,7 +1435,7 @@ const SCHEDULE = {
         ]
       },
       { type: "break", time: "12:45 - 1:45", title: "Lunch" },
-      { type: "plenary", time: "1:45 - 2:30", title: "Surfacing: cohort demos and shared learning" },
+      { type: "plenary", time: "1:45 - 2:30", title: "Surfacing: cohort demos and shared learning", tooltip: SURFACING_TOOLTIP },
       { type: "plenary", time: "2:30 - 3:30", title: "Conference close: reflections + send-off" }
     ]
   }
