@@ -1263,7 +1263,10 @@ const SCHEDULE = {
     type: "workshops",
     title: "Pre-Conference Workshops",
     subtitle: "Day 1 of 2 · 9:00 AM - 5:00 PM · Workshops are ticketed separately from the conference",
-    workshops: WORKSHOPS
+    workshops: WORKSHOPS,
+    rows: [
+      { type: "break", time: "8:00 - 9:00", title: "Registration" }
+    ]
   },
   tue: {
     label: "Tuesday",
@@ -1281,6 +1284,7 @@ const SCHEDULE = {
     subtitle: "Eric Evans's keynote opens the day. After that, the choice is yours: three rounds, each one a pick between 45-minute talks in Confluence and a 2-hour hands-on workshop in one of four rooms (Sociotechnical, Foundations DDD, DDD, or Agentic).",
     rooms: ROOMS_WED,
     rows: [
+      { type: "break", time: "8:00 - 9:00", title: "Registration" },
       { type: "plenary", time: "9:00", title: "Conference kickoff" },
       { type: "session-row", time: "9:15 - 10:00", room: null, sessionId: "TBD-keynote", isPlenary: true },
       { type: "break", time: "10:00 - 10:30", title: "Coffee break" },
@@ -1553,6 +1557,9 @@ function render(key) {
 }
 
 function renderWorkshops(main, day) {
+  for (const row of (day.rows || [])) {
+    if (row.type === "break") main.appendChild(breakRow(row.time, row.title));
+  }
   const grid = document.createElement("div");
   grid.className = "workshops-grid";
   for (const sid of day.workshops) {
