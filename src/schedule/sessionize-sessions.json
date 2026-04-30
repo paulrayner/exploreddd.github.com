@@ -58,7 +58,7 @@
         "questionAnswers": [
           {
             "questionId": 117320,
-            "answerValue": "None needed.  This is for programmers and non-programmers, who will work together as a team. "
+            "answerValue": "None needed.  This is for programmers and non-programmers, who will work together as a team duing the session. "
           },
           {
             "questionId": 117321,
@@ -293,7 +293,7 @@
         "recordingUrl": null,
         "status": "Accepted",
         "isInformed": true,
-        "isConfirmed": false
+        "isConfirmed": true
       },
       {
         "id": "1122189",
@@ -488,7 +488,7 @@
         "recordingUrl": null,
         "status": "Accepted",
         "isInformed": true,
-        "isConfirmed": false
+        "isConfirmed": true
       },
       {
         "id": "1131844",
@@ -763,7 +763,7 @@
       {
         "id": "1202756",
         "title": "Knowledge Flow: How to Design Smarter Information Systems",
-        "description": "## Summary\r\nAccording to Thoughtworks' Tech Radar, Knowledge Flow — knowledge as a sociotechnical system we can design —  is an essential technique to learn.\r\n\r\nHow do you generate knowledge flow? When so few decisions are driven by meaning and expertise shared across teams, tools, and digital systems ... where do you begin?\r\n\r\nThis workshop is an invitation to design knowledge flow. It doesn’t teach knowledge management—it helps you build the future of knowledge work. Through hands-on practices, real-world examples, and practices grounded in systems thinking, you will learn to architect the knowledge environments your teams need to thrive.\r\n\r\n## What you'll learn\r\n- Enter the Fireswamp where you'll face the Six Delusions of Unusual Size -- knowledge myths that keep us trapped in quicksand of systemic gaps.\r\n- Discover the Six inconceivable Truths: Practices that *actually* generate knowledge flow.\r\n- Walk the Spiral Paths: Hands-on keystone activities that shift your thinking, increase your effectiveness and deliver high-value impact with each step.\r\n- Create a Knowledge Repository: Architect as system as if everything is intertwingled. (Because it is!) Think as if complexity is the river of modern knowledge work. (Because it is!)\r\n\r\nWhether you're untangling legacy systems, designing better decision-making processes, or trying to make sense of complex product landscapes, Knowledge Flow gives you the mindset, methods, and tools to turn information overload into organisational intelligence.\r\n\r\n\r\n",
+        "description": "According to Thoughtworks' Tech Radar, Knowledge Flow — knowledge as a sociotechnical system we can design —  is an essential technique to learn.\r\n\r\nHow do you generate knowledge flow? When so few decisions are driven by meaning and expertise shared across teams, tools, and digital systems ... where do you begin?\r\n\r\nThis hands-on session is an invitation to design knowledge flow. It doesn’t teach knowledge management—it helps you build the future of knowledge work. Through hands-on practices, real-world examples, and practices grounded in systems thinking, you will learn to architect the knowledge environments your teams need to thrive.\r\n\r\nWhat you'll learn\r\n\r\n- Enter the Fireswamp where you'll face the Six Delusions of Unusual Size -- knowledge myths that keep us trapped in quicksand of systemic gaps.\r\n- Discover the Six inconceivable Truths: Practices that *actually* generate knowledge flow.\r\n- Walk the Spiral Paths: Hands-on keystone activities that shift your thinking, increase your effectiveness and deliver high-value impact with each step.\r\n- Create a Knowledge Repository: Architect as system as if everything is intertwingled. (Because it is!) Think as if complexity is the river of modern knowledge work. (Because it is!)\r\n\r\nWhether you're untangling legacy systems, designing better decision-making processes, or trying to make sense of complex product landscapes, Knowledge Flow gives you the mindset, methods, and tools to turn information overload into organisational intelligence.\r\n\r\n\r\n",
         "startsAt": null,
         "endsAt": null,
         "isServiceSession": false,
