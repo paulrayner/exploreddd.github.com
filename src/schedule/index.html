@@ -713,24 +713,98 @@ title: Schedule | Explore DDD 2026
     letter-spacing: 0.04em;
     font-variant-numeric: tabular-nums;
     color: var(--text);
-    padding: 0.15em 0 0.25em;
+    padding: 0.3em 0.5em;
+    margin: 0 -0.5em;
     border-bottom: 2px solid var(--border-strong);
+    background: var(--bg);
   }
   .eddd-schedule-2026 .session-card.mobile{ min-height: auto; }
   .eddd-schedule-2026 .session-card-meta{
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5em 0.75em;
+    gap: 0.4em 0.5em;
     align-items: center;
+  }
+
+  .eddd-schedule-2026 .track-pill{
+    display: inline-block;
     font-size: 0.7em;
-  }
-  .eddd-schedule-2026 .session-room-tag{
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
     font-weight: 700;
-    color: var(--text-muted);
+    letter-spacing: 0.03em;
+    padding: 0.25em 0.65em;
+    border-radius: 999px;
+    line-height: 1.3;
+    text-transform: none;
   }
-  .eddd-schedule-2026 .session-card.mobile .session-format-tag{ margin: 0; }
+  .eddd-schedule-2026 .track-pill[data-track="talks"]       { background: var(--track-talks);       color: var(--track-talks-strong); }
+  .eddd-schedule-2026 .track-pill[data-track="open"]        { background: var(--track-open);        color: #ffffff; }
+  .eddd-schedule-2026 .track-pill[data-track="foundations"] { background: var(--track-foundations); color: #ffffff; }
+  .eddd-schedule-2026 .track-pill[data-track="ddd"]         { background: var(--track-ddd);         color: #ffffff; }
+  .eddd-schedule-2026 .track-pill[data-track="agentic"]     { background: var(--track-agentic);     color: #ffffff; }
+  .eddd-schedule-2026 .track-pill[data-track="testing"]     { background: var(--track-testing);     color: #ffffff; }
+  .eddd-schedule-2026.theme-brand-faithful .track-pill[data-track="talks"] { color: #1c1917; }
+
+  .eddd-schedule-2026 .duration-chip{
+    display: inline-block;
+    font-size: 0.68em;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    padding: 0.2em 0.55em;
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    letter-spacing: 0.02em;
+  }
+
+  .eddd-schedule-2026 .room-name-mobile{
+    font-size: 0.78em;
+    font-weight: 500;
+    color: var(--text-soft);
+    letter-spacing: 0;
+  }
+  .eddd-schedule-2026 .room-name-mobile::before{
+    content: "\1F4CD\00a0";
+    opacity: 0.7;
+    font-size: 0.85em;
+  }
+
+  .eddd-schedule-2026 .track-filter-bar{ display: none; }
+  .eddd-schedule-2026 .track-filter-pill{
+    font: inherit;
+    font-size: 0.78em;
+    font-weight: 600;
+    padding: 0.4em 0.85em;
+    border-radius: 999px;
+    border: 1px solid var(--border-strong);
+    background: var(--surface);
+    color: var(--text-muted);
+    cursor: pointer;
+    letter-spacing: 0.02em;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .eddd-schedule-2026 .track-filter-pill:hover{ border-color: var(--accent); color: var(--text); }
+  .eddd-schedule-2026 .track-filter-pill.active[data-track="talks"]       { background: var(--track-talks);       border-color: var(--track-talks-strong);       color: var(--track-talks-strong); }
+  .eddd-schedule-2026 .track-filter-pill.active[data-track="open"]        { background: var(--track-open);        border-color: var(--track-open-strong);        color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-track="foundations"] { background: var(--track-foundations); border-color: var(--track-foundations-strong); color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-track="ddd"]         { background: var(--track-ddd);         border-color: var(--track-ddd-strong);         color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-track="agentic"]     { background: var(--track-agentic);     border-color: var(--track-agentic-strong);     color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-track="testing"]     { background: var(--track-testing);     border-color: var(--track-testing-strong);     color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-filter=""]            { background: var(--text);             border-color: var(--text);                     color: var(--surface); }
+
+  .eddd-schedule-2026[data-active-track="talks"] .block-mobile .session-card[data-track]:not([data-track="talks"])             { display: none; }
+  .eddd-schedule-2026[data-active-track="open"] .block-mobile .session-card[data-track]:not([data-track="open"])               { display: none; }
+  .eddd-schedule-2026[data-active-track="foundations"] .block-mobile .session-card[data-track]:not([data-track="foundations"]) { display: none; }
+  .eddd-schedule-2026[data-active-track="ddd"] .block-mobile .session-card[data-track]:not([data-track="ddd"])                 { display: none; }
+  .eddd-schedule-2026[data-active-track="agentic"] .block-mobile .session-card[data-track]:not([data-track="agentic"])         { display: none; }
+  .eddd-schedule-2026[data-active-track="testing"] .block-mobile .session-card[data-track]:not([data-track="testing"])         { display: none; }
+
+  .eddd-schedule-2026[data-active-track="talks"] .block-mobile .time-group:not(:has(.session-card[data-track="talks"]))             { display: none; }
+  .eddd-schedule-2026[data-active-track="open"] .block-mobile .time-group:not(:has(.session-card[data-track="open"]))               { display: none; }
+  .eddd-schedule-2026[data-active-track="foundations"] .block-mobile .time-group:not(:has(.session-card[data-track="foundations"])) { display: none; }
+  .eddd-schedule-2026[data-active-track="ddd"] .block-mobile .time-group:not(:has(.session-card[data-track="ddd"]))                 { display: none; }
+  .eddd-schedule-2026[data-active-track="agentic"] .block-mobile .time-group:not(:has(.session-card[data-track="agentic"]))         { display: none; }
+  .eddd-schedule-2026[data-active-track="testing"] .block-mobile .time-group:not(:has(.session-card[data-track="testing"]))         { display: none; }
 
   .eddd-schedule-2026 .room-col{
     display: flex;
@@ -1066,6 +1140,19 @@ title: Schedule | Explore DDD 2026
     .eddd-schedule-2026 .session-card{ min-height: auto; }
     .eddd-schedule-2026 .workshops-grid{ grid-template-columns: 1fr; }
     .eddd-schedule-2026 .sched-modal{ width: 95%; max-height: 90vh; }
+    .eddd-schedule-2026 .track-filter-bar{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35em;
+      margin: 0.2em 0 1em;
+      padding-bottom: 0.6em;
+      border-bottom: 1px solid var(--border);
+    }
+    .eddd-schedule-2026 .time-group-header{
+      position: sticky;
+      top: var(--time-group-sticky-top, 110px);
+      z-index: 4;
+    }
   }
   @media (max-width: 600px) {
     .eddd-schedule-2026 { font-size: 16px; }
@@ -1172,7 +1259,8 @@ title: Schedule | Explore DDD 2026
   .eddd-schedule-2026 .cohort-cell[data-room="spring-creek"] { background: #F2E8F4; border-color: #3D1543; border-left-color: #3D1543; }
   .eddd-schedule-2026 .cohort-cell[data-room="cottonwood"]   { background: #E6F2FB; border-color: #00497A; border-left-color: #00497A; }
   .eddd-schedule-2026 .cohort-cell[data-room="bear-creek"]   { background: #FBE5E7; border-color: #9B1B22; border-left-color: #9B1B22; }
-  .eddd-schedule-2026 .day-tabs { top: 140px; }
+  @media (min-width: 901px) { .eddd-schedule-2026 .day-tabs { top: 140px; } }
+  @media (max-width: 900px) { .eddd-schedule-2026 .day-tabs { top: 54px; } }
   .eddd-schedule-2026 h1,
   .eddd-schedule-2026 h2,
   .eddd-schedule-2026 h3,
@@ -1604,6 +1692,7 @@ function render(key) {
   else if (day.type === "designplunge") renderFriday(main, day);
 
   window.scrollTo({ top: 0, behavior: "instant" });
+  updateStickyOffset();
 }
 
 function renderWorkshops(main, day) {
@@ -1640,6 +1729,7 @@ const ROOM_SWATCH = {
 };
 
 function renderConferenceDay(main, day) {
+  main.appendChild(renderTrackFilter(day));
   let lastBlockTime = null;
   for (const row of day.rows) {
     if (row.type === "plenary") {
@@ -1674,6 +1764,74 @@ function renderConferenceDay(main, day) {
       main.appendChild(renderBlock(row.columns || day.rooms, row.slots, lastBlockTime));
     }
   }
+}
+
+const TRACK_LABELS = {
+  talks: "Talks",
+  open: "Sociotechnical",
+  foundations: "Foundations",
+  ddd: "DDD",
+  agentic: "Agentic",
+  testing: "Testing"
+};
+const TRACK_ORDER = ["talks", "open", "foundations", "ddd", "agentic", "testing"];
+
+function collectDayTracks(day) {
+  const seen = new Set();
+  for (const room of day.rooms || []) {
+    if (room.track && !room.placeholder) seen.add(room.track);
+  }
+  for (const row of day.rows || []) {
+    for (const room of row.columns || []) {
+      if (room.track && !room.placeholder) seen.add(room.track);
+    }
+  }
+  return TRACK_ORDER.filter(t => seen.has(t));
+}
+
+function renderTrackFilter(day) {
+  const bar = document.createElement("div");
+  bar.className = "track-filter-bar";
+  const tracks = collectDayTracks(day);
+
+  const all = document.createElement("button");
+  all.type = "button";
+  all.className = "track-filter-pill active";
+  all.dataset.filter = "";
+  all.textContent = "All tracks";
+  all.onclick = () => setActiveTrack("");
+  bar.appendChild(all);
+
+  for (const track of tracks) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "track-filter-pill";
+    btn.dataset.filter = track;
+    btn.dataset.track = track;
+    btn.textContent = TRACK_LABELS[track] || track;
+    btn.onclick = () => setActiveTrack(track);
+    bar.appendChild(btn);
+  }
+  return bar;
+}
+
+function setActiveTrack(track) {
+  const root = document.querySelector(".eddd-schedule-2026");
+  if (!root) return;
+  const next = root.dataset.activeTrack === track ? "" : track;
+  if (next) root.dataset.activeTrack = next;
+  else delete root.dataset.activeTrack;
+  document.querySelectorAll(".track-filter-pill").forEach(p => {
+    p.classList.toggle("active", (p.dataset.filter || "") === next);
+  });
+}
+
+function updateStickyOffset() {
+  const tabs = document.querySelector(".day-tabs");
+  if (!tabs) return;
+  const stickyTop = parseInt(getComputedStyle(tabs).top, 10) || 0;
+  const offset = stickyTop + tabs.offsetHeight;
+  document.documentElement.style.setProperty("--time-group-sticky-top", offset + "px");
 }
 
 function plenaryRow(time, title, note, tooltip) {
@@ -1807,11 +1965,14 @@ function mobileCard(entry) {
   const roomSlug = entry.room.name.toLowerCase().replace(/\s+/g, "-");
   card.dataset.room = roomSlug;
 
-  const roomLine = `<span class="session-room-tag">${entry.room.name}${entry.room.sub ? " &middot; " + entry.room.sub : ""}</span>`;
+  const trackPill = entry.room.sub
+    ? `<span class="track-pill" data-track="${entry.room.track}">${entry.room.sub}</span>`
+    : "";
+  const roomName = `<span class="room-name-mobile">${entry.room.name}</span>`;
 
   if (isCohort) {
     card.innerHTML = `
-      <div class="session-card-meta">${roomLine}</div>
+      <div class="session-card-meta">${trackPill}${roomName}</div>
       <div class="session-title">${entry.label || ""}</div>
     `;
     return card;
@@ -1821,10 +1982,10 @@ function mobileCard(entry) {
   const speakerImgs = entry.session.speakers.slice(0, 3).map(sp =>
     `<img src="${sp.profilePicture}" alt="${sp.fullName}" title="${sp.fullName}">`
   ).join("");
-  const formatTag = entry.session.formatName
-    ? `<span class="session-format-tag">${entry.session.formatName}</span>` : "";
+  const duration = durationLabel(entry.session.formatName);
+  const durationChip = duration ? `<span class="duration-chip">${duration}</span>` : "";
   card.innerHTML = `
-    <div class="session-card-meta">${roomLine}${formatTag}</div>
+    <div class="session-card-meta">${trackPill}${durationChip}${roomName}</div>
     <div class="session-title">${entry.session.title}${pending ? ' <span style="font-size:0.65em; background:#fef3c7; color:#92400e; padding:1px 5px; border-radius:3px; margin-left:3px; vertical-align:middle;">TBD</span>' : ''}</div>
     <div class="session-speakers">
       ${speakerImgs}
@@ -1832,6 +1993,14 @@ function mobileCard(entry) {
     </div>
   `;
   return card;
+}
+
+function durationLabel(formatName) {
+  if (!formatName) return "";
+  const m = formatName.match(/(\d+)\s*(hour|hr|minute|min)/i);
+  if (!m) return "";
+  const n = parseInt(m[1], 10);
+  return /hour|hr/i.test(m[2]) ? `${n} hr` : `${n} min`;
 }
 
 function parseBlockStart(blockTime) {
@@ -1959,6 +2128,7 @@ function findDayForSession(sessionId) {
 (async () => {
   try {
     await loadData();
+    window.addEventListener("resize", updateStickyOffset);
     const params = new URLSearchParams(window.location.search);
     const requestedSession = params.get("session");
     const requestedDay = params.get("day");
@@ -1966,6 +2136,7 @@ function findDayForSession(sessionId) {
     const dayFromParam = requestedDay && validDays.has(requestedDay) ? requestedDay : null;
     const startDay = (requestedSession && findDayForSession(requestedSession)) || dayFromParam || "wed";
     render(startDay);
+    updateStickyOffset();
     if (requestedSession) {
       const session = getSession(requestedSession);
       if (session && session.title && !session.title.startsWith("(missing)")) {
