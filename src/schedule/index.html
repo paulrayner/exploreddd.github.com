@@ -791,19 +791,19 @@ title: Schedule | Explore DDD 2026
   .eddd-schedule-2026 .track-filter-pill.active[data-room="bear-creek"]   { background: #D22630; border-color: #9B1B22; color: #ffffff; }
   .eddd-schedule-2026 .track-filter-pill.active[data-filter=""]            { background: var(--text); border-color: var(--text); color: var(--surface); }
 
-  .eddd-schedule-2026[data-active-track="talks"] .block-mobile .session-card[data-track]:not([data-track="talks"])             { display: none; }
-  .eddd-schedule-2026[data-active-track="open"] .block-mobile .session-card[data-track]:not([data-track="open"])               { display: none; }
-  .eddd-schedule-2026[data-active-track="foundations"] .block-mobile .session-card[data-track]:not([data-track="foundations"]) { display: none; }
-  .eddd-schedule-2026[data-active-track="ddd"] .block-mobile .session-card[data-track]:not([data-track="ddd"])                 { display: none; }
-  .eddd-schedule-2026[data-active-track="agentic"] .block-mobile .session-card[data-track]:not([data-track="agentic"])         { display: none; }
-  .eddd-schedule-2026[data-active-track="testing"] .block-mobile .session-card[data-track]:not([data-track="testing"])         { display: none; }
+  .eddd-schedule-2026[data-active-track="talks"] .block-mobile .session-card[data-track]:not([data-track="talks"]):not(.cohort)             { display: none; }
+  .eddd-schedule-2026[data-active-track="open"] .block-mobile .session-card[data-track]:not([data-track="open"]):not(.cohort)               { display: none; }
+  .eddd-schedule-2026[data-active-track="foundations"] .block-mobile .session-card[data-track]:not([data-track="foundations"]):not(.cohort) { display: none; }
+  .eddd-schedule-2026[data-active-track="ddd"] .block-mobile .session-card[data-track]:not([data-track="ddd"]):not(.cohort)                 { display: none; }
+  .eddd-schedule-2026[data-active-track="agentic"] .block-mobile .session-card[data-track]:not([data-track="agentic"]):not(.cohort)         { display: none; }
+  .eddd-schedule-2026[data-active-track="testing"] .block-mobile .session-card[data-track]:not([data-track="testing"]):not(.cohort)         { display: none; }
 
-  .eddd-schedule-2026[data-active-track="talks"] .block-mobile .time-group:not(:has(.session-card[data-track="talks"]))             { display: none; }
-  .eddd-schedule-2026[data-active-track="open"] .block-mobile .time-group:not(:has(.session-card[data-track="open"]))               { display: none; }
-  .eddd-schedule-2026[data-active-track="foundations"] .block-mobile .time-group:not(:has(.session-card[data-track="foundations"])) { display: none; }
-  .eddd-schedule-2026[data-active-track="ddd"] .block-mobile .time-group:not(:has(.session-card[data-track="ddd"]))                 { display: none; }
-  .eddd-schedule-2026[data-active-track="agentic"] .block-mobile .time-group:not(:has(.session-card[data-track="agentic"]))         { display: none; }
-  .eddd-schedule-2026[data-active-track="testing"] .block-mobile .time-group:not(:has(.session-card[data-track="testing"]))         { display: none; }
+  .eddd-schedule-2026[data-active-track="talks"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="talks"]))             { display: none; }
+  .eddd-schedule-2026[data-active-track="open"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="open"]))               { display: none; }
+  .eddd-schedule-2026[data-active-track="foundations"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="foundations"])) { display: none; }
+  .eddd-schedule-2026[data-active-track="ddd"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="ddd"]))                 { display: none; }
+  .eddd-schedule-2026[data-active-track="agentic"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="agentic"]))         { display: none; }
+  .eddd-schedule-2026[data-active-track="testing"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="testing"]))         { display: none; }
 
   .eddd-schedule-2026 .room-col{
     display: flex;
@@ -1777,13 +1777,17 @@ const TRACK_ORDER = ["talks", "open", "foundations", "ddd", "agentic", "testing"
 
 function collectDayTracks(day) {
   const trackToRoom = new Map();
-  const visit = (room) => {
-    if (!room || !room.track || room.placeholder) return;
-    if (!trackToRoom.has(room.track)) trackToRoom.set(room.track, room);
-  };
-  for (const room of day.rooms || []) visit(room);
   for (const row of day.rows || []) {
-    for (const room of row.columns || []) visit(room);
+    if (row.type !== "block") continue;
+    const rooms = row.columns || day.rooms || [];
+    const slots = row.slots || [];
+    for (let i = 0; i < rooms.length; i++) {
+      const room = rooms[i];
+      const slot = slots[i];
+      if (!room || room.placeholder || !room.track) continue;
+      if (!slot || slot.type === "cohort") continue;
+      if (!trackToRoom.has(room.track)) trackToRoom.set(room.track, room);
+    }
   }
   return TRACK_ORDER
     .filter(t => trackToRoom.has(t))
@@ -1791,9 +1795,10 @@ function collectDayTracks(day) {
 }
 
 function renderTrackFilter(day) {
+  const tracks = collectDayTracks(day);
+  if (tracks.length === 0) return document.createDocumentFragment();
   const bar = document.createElement("div");
   bar.className = "track-filter-bar";
-  const tracks = collectDayTracks(day);
 
   const all = document.createElement("button");
   all.type = "button";
@@ -1945,12 +1950,14 @@ function buildMobileList(rooms, slots, blockTime) {
 
   for (const time of sortedTimes) {
     const group = document.createElement("div");
-    group.className = "time-group";
+    const entries = groups.get(time);
+    const hasCohort = entries.some(e => e.kind === "cohort");
+    group.className = "time-group" + (hasCohort ? " has-cohorts" : "");
     const header = document.createElement("div");
     header.className = "time-group-header";
     header.textContent = time;
     group.appendChild(header);
-    for (const entry of groups.get(time)) {
+    for (const entry of entries) {
       group.appendChild(mobileCard(entry));
     }
     wrapper.appendChild(group);
@@ -1962,7 +1969,7 @@ function mobileCard(entry) {
   const card = document.createElement("div");
   const isCohort = entry.kind === "cohort";
   const pending = !isCohort && entry.session.pending;
-  card.className = "session-card mobile" + (pending ? " tbd" : "");
+  card.className = "session-card mobile" + (pending ? " tbd" : "") + (isCohort ? " cohort" : "");
   card.dataset.track = entry.room.track;
   const roomSlug = entry.room.name.toLowerCase().replace(/\s+/g, "-");
   card.dataset.room = roomSlug;
