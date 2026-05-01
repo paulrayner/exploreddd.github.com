@@ -801,19 +801,17 @@ title: Schedule | Explore DDD 2026
   .eddd-schedule-2026 .track-filter-pill.active[data-room="bear-creek"]   { background: #D22630; border-color: #9B1B22; color: #ffffff; }
   .eddd-schedule-2026 .track-filter-pill.active[data-filter=""]            { background: var(--text); border-color: var(--text); color: var(--surface); }
 
-  .eddd-schedule-2026[data-active-track="talks"] .block-mobile .session-card[data-track]:not([data-track="talks"]):not(.cohort)             { display: none; }
-  .eddd-schedule-2026[data-active-track="open"] .block-mobile .session-card[data-track]:not([data-track="open"]):not(.cohort)               { display: none; }
-  .eddd-schedule-2026[data-active-track="foundations"] .block-mobile .session-card[data-track]:not([data-track="foundations"]):not(.cohort) { display: none; }
-  .eddd-schedule-2026[data-active-track="ddd"] .block-mobile .session-card[data-track]:not([data-track="ddd"]):not(.cohort)                 { display: none; }
-  .eddd-schedule-2026[data-active-track="agentic"] .block-mobile .session-card[data-track]:not([data-track="agentic"]):not(.cohort)         { display: none; }
-  .eddd-schedule-2026[data-active-track="testing"] .block-mobile .session-card[data-track]:not([data-track="testing"]):not(.cohort)         { display: none; }
+  .eddd-schedule-2026[data-active-room="confluence"] .block-mobile .session-card[data-room]:not([data-room="confluence"]):not(.cohort)     { display: none; }
+  .eddd-schedule-2026[data-active-room="willow-creek"] .block-mobile .session-card[data-room]:not([data-room="willow-creek"]):not(.cohort) { display: none; }
+  .eddd-schedule-2026[data-active-room="spring-creek"] .block-mobile .session-card[data-room]:not([data-room="spring-creek"]):not(.cohort) { display: none; }
+  .eddd-schedule-2026[data-active-room="cottonwood"] .block-mobile .session-card[data-room]:not([data-room="cottonwood"]):not(.cohort)     { display: none; }
+  .eddd-schedule-2026[data-active-room="bear-creek"] .block-mobile .session-card[data-room]:not([data-room="bear-creek"]):not(.cohort)     { display: none; }
 
-  .eddd-schedule-2026[data-active-track="talks"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="talks"]))             { display: none; }
-  .eddd-schedule-2026[data-active-track="open"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="open"]))               { display: none; }
-  .eddd-schedule-2026[data-active-track="foundations"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="foundations"])) { display: none; }
-  .eddd-schedule-2026[data-active-track="ddd"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="ddd"]))                 { display: none; }
-  .eddd-schedule-2026[data-active-track="agentic"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="agentic"]))         { display: none; }
-  .eddd-schedule-2026[data-active-track="testing"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-track="testing"]))         { display: none; }
+  .eddd-schedule-2026[data-active-room="confluence"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-room="confluence"]))     { display: none; }
+  .eddd-schedule-2026[data-active-room="willow-creek"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-room="willow-creek"])) { display: none; }
+  .eddd-schedule-2026[data-active-room="spring-creek"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-room="spring-creek"])) { display: none; }
+  .eddd-schedule-2026[data-active-room="cottonwood"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-room="cottonwood"]))     { display: none; }
+  .eddd-schedule-2026[data-active-room="bear-creek"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-room="bear-creek"]))     { display: none; }
 
   .eddd-schedule-2026 .room-col{
     display: flex;
@@ -1790,18 +1788,8 @@ function renderConferenceDay(main, day) {
   }
 }
 
-const TRACK_LABELS = {
-  talks: "Talks",
-  open: "Sociotechnical",
-  foundations: "Foundations",
-  ddd: "DDD",
-  agentic: "Agentic",
-  testing: "Testing"
-};
-const TRACK_ORDER = ["talks", "open", "foundations", "ddd", "agentic", "testing"];
-
-function collectDayTracks(day) {
-  const trackToRoom = new Map();
+function collectDayRooms(day) {
+  const seen = new Map();
   for (const row of day.rows || []) {
     if (row.type !== "block") continue;
     const rooms = row.columns || day.rooms || [];
@@ -1809,19 +1797,18 @@ function collectDayTracks(day) {
     for (let i = 0; i < rooms.length; i++) {
       const room = rooms[i];
       const slot = slots[i];
-      if (!room || room.placeholder || !room.track) continue;
+      if (!room || room.placeholder || !room.name) continue;
       if (!slot || slot.type === "cohort") continue;
-      if (!trackToRoom.has(room.track)) trackToRoom.set(room.track, room);
+      const slug = room.name.toLowerCase().replace(/\s+/g, "-");
+      if (!seen.has(slug)) seen.set(slug, room);
     }
   }
-  return TRACK_ORDER
-    .filter(t => trackToRoom.has(t))
-    .map(t => ({ track: t, room: trackToRoom.get(t) }));
+  return [...seen.entries()].map(([slug, room]) => ({ slug, room }));
 }
 
 function renderTrackFilter(day) {
-  const tracks = collectDayTracks(day);
-  if (tracks.length === 0) return document.createDocumentFragment();
+  const rooms = collectDayRooms(day);
+  if (rooms.length === 0) return document.createDocumentFragment();
   const bar = document.createElement("div");
   bar.className = "track-filter-bar";
 
@@ -1830,29 +1817,28 @@ function renderTrackFilter(day) {
   all.className = "track-filter-pill active";
   all.dataset.filter = "";
   all.textContent = "All tracks";
-  all.onclick = () => setActiveTrack("");
+  all.onclick = () => setActiveRoom("");
   bar.appendChild(all);
 
-  for (const { track, room } of tracks) {
+  for (const { slug, room } of rooms) {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "track-filter-pill";
-    btn.dataset.filter = track;
-    btn.dataset.track = track;
-    btn.dataset.room = room.name.toLowerCase().replace(/\s+/g, "-");
-    btn.textContent = TRACK_LABELS[track] || track;
-    btn.onclick = () => setActiveTrack(track);
+    btn.dataset.filter = slug;
+    btn.dataset.room = slug;
+    btn.textContent = room.sub || room.name;
+    btn.onclick = () => setActiveRoom(slug);
     bar.appendChild(btn);
   }
   return bar;
 }
 
-function setActiveTrack(track) {
+function setActiveRoom(slug) {
   const root = document.querySelector(".eddd-schedule-2026");
   if (!root) return;
-  const next = root.dataset.activeTrack === track ? "" : track;
-  if (next) root.dataset.activeTrack = next;
-  else delete root.dataset.activeTrack;
+  const next = root.dataset.activeRoom === slug ? "" : slug;
+  if (next) root.dataset.activeRoom = next;
+  else delete root.dataset.activeRoom;
   document.querySelectorAll(".track-filter-pill").forEach(p => {
     p.classList.toggle("active", (p.dataset.filter || "") === next);
   });
