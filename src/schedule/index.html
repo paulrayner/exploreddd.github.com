@@ -700,6 +700,38 @@ title: Schedule | Explore DDD 2026
   .eddd-schedule-2026 .block-grid.cols-4{ grid-template-columns: repeat(4, 1fr); }
   .eddd-schedule-2026 .block-grid.cols-2{ grid-template-columns: repeat(2, 1fr); }
 
+  .eddd-schedule-2026 .block-mobile{ display: none; }
+  .eddd-schedule-2026 .time-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .eddd-schedule-2026 .time-group + .time-group{ margin-top: 0.9em; }
+  .eddd-schedule-2026 .time-group-header{
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+    padding: 0.15em 0 0.25em;
+    border-bottom: 2px solid var(--border-strong);
+  }
+  .eddd-schedule-2026 .session-card.mobile{ min-height: auto; }
+  .eddd-schedule-2026 .session-card-meta{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em 0.75em;
+    align-items: center;
+    font-size: 0.7em;
+  }
+  .eddd-schedule-2026 .session-room-tag{
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    color: var(--text-muted);
+  }
+  .eddd-schedule-2026 .session-card.mobile .session-format-tag{ margin: 0; }
+
   .eddd-schedule-2026 .room-col{
     display: flex;
     flex-direction: column;
@@ -1029,8 +1061,8 @@ title: Schedule | Explore DDD 2026
   .eddd-schedule-2026 .loading{ text-align: center; padding: 3em; color: var(--text-muted); }
 
   @media (max-width: 900px) {
-    .eddd-schedule-2026 .block-grid.cols-5, .eddd-schedule-2026 .block-grid.cols-4{ grid-template-columns: 1fr; }
-    .eddd-schedule-2026 .room-col{ gap: 0.4em; }
+    .eddd-schedule-2026 .block-grid{ display: none; }
+    .eddd-schedule-2026 .block-mobile{ display: flex; flex-direction: column; }
     .eddd-schedule-2026 .session-card{ min-height: auto; }
     .eddd-schedule-2026 .workshops-grid{ grid-template-columns: 1fr; }
     .eddd-schedule-2026 .sched-modal{ width: 95%; max-height: 90vh; }
@@ -1608,12 +1640,14 @@ const ROOM_SWATCH = {
 };
 
 function renderConferenceDay(main, day) {
+  let lastBlockTime = null;
   for (const row of day.rows) {
     if (row.type === "plenary") {
       main.appendChild(plenaryRow(row.time, row.title, row.note, row.tooltip));
     } else if (row.type === "break") {
       main.appendChild(breakRow(row.time, row.title, row.kind, row.room));
     } else if (row.type === "block-header") {
+      lastBlockTime = row.time;
       const h = document.createElement("div");
       h.className = "block-header";
       h.innerHTML = `<div class="block-time">${row.time}</div><div class="block-label">${row.label}</div>`;
@@ -1637,7 +1671,7 @@ function renderConferenceDay(main, day) {
       `;
       main.appendChild(el);
     } else if (row.type === "block") {
-      main.appendChild(renderBlock(row.columns || day.rooms, row.slots));
+      main.appendChild(renderBlock(row.columns || day.rooms, row.slots, lastBlockTime));
     }
   }
 }
@@ -1667,7 +1701,7 @@ function breakRow(time, title, kind, room) {
   return el;
 }
 
-function renderBlock(rooms, slots) {
+function renderBlock(rooms, slots, blockTime) {
   const block = document.createElement("div");
   block.className = "block";
   const grid = document.createElement("div");
@@ -1714,7 +1748,104 @@ function renderBlock(rooms, slots) {
     grid.appendChild(col);
   }
   block.appendChild(grid);
+  block.appendChild(buildMobileList(rooms, slots, blockTime));
   return block;
+}
+
+function buildMobileList(rooms, slots, blockTime) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "block-mobile";
+  const fallbackTime = parseBlockStart(blockTime);
+
+  const entries = [];
+  for (let i = 0; i < rooms.length; i++) {
+    const room = rooms[i];
+    const slot = slots[i];
+    if (!slot || room.placeholder) continue;
+
+    if (slot.type === "talks" || slot.type === "talks25") {
+      for (let j = 0; j < slot.sessionIds.length; j++) {
+        const session = getSession(slot.sessionIds[j]);
+        entries.push({ time: slot.time[j] || fallbackTime, session, room, kind: "session" });
+      }
+    } else if (slot.type === "cohort") {
+      entries.push({ time: fallbackTime, label: slot.label, room, kind: "cohort" });
+    } else if (slot.sessionId) {
+      const session = getSession(slot.sessionId);
+      entries.push({ time: fallbackTime, session, room, kind: "session" });
+    }
+  }
+
+  const groups = new Map();
+  for (const e of entries) {
+    if (!groups.has(e.time)) groups.set(e.time, []);
+    groups.get(e.time).push(e);
+  }
+  const sortedTimes = [...groups.keys()].sort((a, b) => timeToMinutes(a) - timeToMinutes(b));
+
+  for (const time of sortedTimes) {
+    const group = document.createElement("div");
+    group.className = "time-group";
+    const header = document.createElement("div");
+    header.className = "time-group-header";
+    header.textContent = time;
+    group.appendChild(header);
+    for (const entry of groups.get(time)) {
+      group.appendChild(mobileCard(entry));
+    }
+    wrapper.appendChild(group);
+  }
+  return wrapper;
+}
+
+function mobileCard(entry) {
+  const card = document.createElement("div");
+  const isCohort = entry.kind === "cohort";
+  const pending = !isCohort && entry.session.pending;
+  card.className = "session-card mobile" + (pending ? " tbd" : "");
+  card.dataset.track = entry.room.track;
+  const roomSlug = entry.room.name.toLowerCase().replace(/\s+/g, "-");
+  card.dataset.room = roomSlug;
+
+  const roomLine = `<span class="session-room-tag">${entry.room.name}${entry.room.sub ? " &middot; " + entry.room.sub : ""}</span>`;
+
+  if (isCohort) {
+    card.innerHTML = `
+      <div class="session-card-meta">${roomLine}</div>
+      <div class="session-title">${entry.label || ""}</div>
+    `;
+    return card;
+  }
+
+  card.onclick = () => openModal(entry.session);
+  const speakerImgs = entry.session.speakers.slice(0, 3).map(sp =>
+    `<img src="${sp.profilePicture}" alt="${sp.fullName}" title="${sp.fullName}">`
+  ).join("");
+  const formatTag = entry.session.formatName
+    ? `<span class="session-format-tag">${entry.session.formatName}</span>` : "";
+  card.innerHTML = `
+    <div class="session-card-meta">${roomLine}${formatTag}</div>
+    <div class="session-title">${entry.session.title}${pending ? ' <span style="font-size:0.65em; background:#fef3c7; color:#92400e; padding:1px 5px; border-radius:3px; margin-left:3px; vertical-align:middle;">TBD</span>' : ''}</div>
+    <div class="session-speakers">
+      ${speakerImgs}
+      <span class="names">${speakerNamesText(entry.session)}</span>
+    </div>
+  `;
+  return card;
+}
+
+function parseBlockStart(blockTime) {
+  if (!blockTime) return "";
+  return blockTime.split(/\s*[-–]\s*/)[0].trim();
+}
+
+function timeToMinutes(t) {
+  if (!t) return 0;
+  const parts = t.split(":");
+  const h = parseInt(parts[0], 10);
+  const m = parseInt(parts[1] || "0", 10);
+  const hour = h <= 7 ? h + 12 : h;
+  return hour * 60 + m;
 }
 
 function sessionCard(session, track, time, roomSlug) {
