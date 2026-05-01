@@ -47,6 +47,29 @@
     ]
   },
   {
+    "id": "96e88412-6850-4e2c-aecb-8655827e178c",
+    "firstName": "Chris",
+    "lastName": "Lauer",
+    "bio": "A career in government, science, and Kubernetes has brought me to the most challenging role in my career - Chief Architect at  NOAA's National Weather Service. I've been a Product Owner, Technical Product Manager, Tech Lead, Engineering Practice Lead, and Architect for small teams and large organizations - including the famous DevSecOps experiment at Air Force Kessel Run.\r\nI draw pictures and make decisions.",
+    "tagLine": "Chief Architect",
+    "profilePicture": "https://sessionize.com/image/90d9-400o400o1-Xshfs3DMg1FnXBnEJ4cwSZ.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1187527
+    ],
+    "fullName": "Chris Lauer",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States of America"
+      }
+    ]
+  },
+  {
     "id": "1d08cdb2-5f0e-4d02-bf79-72922ebc4ae0",
     "firstName": "Chris",
     "lastName": "Richardson",
@@ -67,29 +90,6 @@
       {
         "questionId": 117323,
         "answerValue": "United States"
-      }
-    ]
-  },
-  {
-    "id": "96e88412-6850-4e2c-aecb-8655827e178c",
-    "firstName": "Chris Lauer",
-    "lastName": "Lauer",
-    "bio": "A career in government, science, and Kubernetes has brought me to the most challenging role in my career - Chief Architect at  NOAA's National Weather Service. I've been a Product Owner, Technical Product Manager, Tech Lead, Engineering Practice Lead, and Architect for small teams and large organizations - including the famous DevSecOps experiment at Air Force Kessel Run.\r\nI draw pictures and make decisions.",
-    "tagLine": "Chief Architect",
-    "profilePicture": "https://sessionize.com/image/90d9-400o400o1-Xshfs3DMg1FnXBnEJ4cwSZ.jpg",
-    "isTopSpeaker": false,
-    "links": [],
-    "sessions": [
-      1187527
-    ],
-    "fullName": "Chris Lauer Lauer",
-    "categoryItems": [
-      422802
-    ],
-    "questionAnswers": [
-      {
-        "questionId": 117323,
-        "answerValue": "United States of America"
       }
     ]
   },
@@ -878,19 +878,5 @@
         "answerValue": "United States"
       }
     ]
-  },
-  {
-    "id": "fc6ec4d9-6597-4c14-a25f-31278d0bf087",
-    "firstName": "Eric",
-    "lastName": "Evans",
-    "fullName": "Eric Evans",
-    "tagLine": "Author of Domain-Driven Design; Founder, Domain Language",
-    "bio": "Eric Evans is the author of \"Domain-Driven Design: Tackling Complexity in Software\" (Addison-Wesley, 2004). Since the early 1990s he has worked on many large business systems, and the blue book is a synthesis of that experience, presenting a system of modeling and design techniques teams use to align complex software with business needs and keep projects agile as systems grow. Eric leads Domain Language, a consulting group that coaches and trains teams applying domain-driven design.",
-    "profilePicture": "img/eric-evans.jpg",
-    "isTopSpeaker": true,
-    "links": [],
-    "sessions": [],
-    "categoryItems": [],
-    "questionAnswers": []
   }
 ]

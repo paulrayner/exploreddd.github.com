@@ -259,7 +259,7 @@
         "recordingUrl": null,
         "status": "Accepted",
         "isInformed": true,
-        "isConfirmed": false
+        "isConfirmed": true
       },
       {
         "id": "1189257",
