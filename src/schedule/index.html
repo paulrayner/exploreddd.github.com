@@ -735,14 +735,14 @@ title: Schedule | Explore DDD 2026
     border-radius: 999px;
     line-height: 1.3;
     text-transform: none;
+    background: var(--surface-2);
+    color: var(--text-muted);
   }
-  .eddd-schedule-2026 .track-pill[data-track="talks"]       { background: var(--track-talks);       color: var(--track-talks-strong); }
-  .eddd-schedule-2026 .track-pill[data-track="open"]        { background: var(--track-open);        color: #ffffff; }
-  .eddd-schedule-2026 .track-pill[data-track="foundations"] { background: var(--track-foundations); color: #ffffff; }
-  .eddd-schedule-2026 .track-pill[data-track="ddd"]         { background: var(--track-ddd);         color: #ffffff; }
-  .eddd-schedule-2026 .track-pill[data-track="agentic"]     { background: var(--track-agentic);     color: #ffffff; }
-  .eddd-schedule-2026 .track-pill[data-track="testing"]     { background: var(--track-testing);     color: #ffffff; }
-  .eddd-schedule-2026.theme-brand-faithful .track-pill[data-track="talks"] { color: #1c1917; }
+  .eddd-schedule-2026 .track-pill[data-room="confluence"]   { background: #FFC72C; color: #1c1917; }
+  .eddd-schedule-2026 .track-pill[data-room="willow-creek"] { background: #00925E; color: #ffffff; }
+  .eddd-schedule-2026 .track-pill[data-room="spring-creek"] { background: #5F2167; color: #ffffff; }
+  .eddd-schedule-2026 .track-pill[data-room="cottonwood"]   { background: #0078C8; color: #ffffff; }
+  .eddd-schedule-2026 .track-pill[data-room="bear-creek"]   { background: #D22630; color: #ffffff; }
 
   .eddd-schedule-2026 .duration-chip{
     display: inline-block;
@@ -784,13 +784,12 @@ title: Schedule | Explore DDD 2026
     transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   }
   .eddd-schedule-2026 .track-filter-pill:hover{ border-color: var(--accent); color: var(--text); }
-  .eddd-schedule-2026 .track-filter-pill.active[data-track="talks"]       { background: var(--track-talks);       border-color: var(--track-talks-strong);       color: var(--track-talks-strong); }
-  .eddd-schedule-2026 .track-filter-pill.active[data-track="open"]        { background: var(--track-open);        border-color: var(--track-open-strong);        color: #ffffff; }
-  .eddd-schedule-2026 .track-filter-pill.active[data-track="foundations"] { background: var(--track-foundations); border-color: var(--track-foundations-strong); color: #ffffff; }
-  .eddd-schedule-2026 .track-filter-pill.active[data-track="ddd"]         { background: var(--track-ddd);         border-color: var(--track-ddd-strong);         color: #ffffff; }
-  .eddd-schedule-2026 .track-filter-pill.active[data-track="agentic"]     { background: var(--track-agentic);     border-color: var(--track-agentic-strong);     color: #ffffff; }
-  .eddd-schedule-2026 .track-filter-pill.active[data-track="testing"]     { background: var(--track-testing);     border-color: var(--track-testing-strong);     color: #ffffff; }
-  .eddd-schedule-2026 .track-filter-pill.active[data-filter=""]            { background: var(--text);             border-color: var(--text);                     color: var(--surface); }
+  .eddd-schedule-2026 .track-filter-pill.active[data-room="confluence"]   { background: #FFC72C; border-color: #B0830C; color: #1c1917; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-room="willow-creek"] { background: #00925E; border-color: #00553A; color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-room="spring-creek"] { background: #5F2167; border-color: #3D1543; color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-room="cottonwood"]   { background: #0078C8; border-color: #00497A; color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-room="bear-creek"]   { background: #D22630; border-color: #9B1B22; color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-filter=""]            { background: var(--text); border-color: var(--text); color: var(--surface); }
 
   .eddd-schedule-2026[data-active-track="talks"] .block-mobile .session-card[data-track]:not([data-track="talks"])             { display: none; }
   .eddd-schedule-2026[data-active-track="open"] .block-mobile .session-card[data-track]:not([data-track="open"])               { display: none; }
@@ -1777,16 +1776,18 @@ const TRACK_LABELS = {
 const TRACK_ORDER = ["talks", "open", "foundations", "ddd", "agentic", "testing"];
 
 function collectDayTracks(day) {
-  const seen = new Set();
-  for (const room of day.rooms || []) {
-    if (room.track && !room.placeholder) seen.add(room.track);
-  }
+  const trackToRoom = new Map();
+  const visit = (room) => {
+    if (!room || !room.track || room.placeholder) return;
+    if (!trackToRoom.has(room.track)) trackToRoom.set(room.track, room);
+  };
+  for (const room of day.rooms || []) visit(room);
   for (const row of day.rows || []) {
-    for (const room of row.columns || []) {
-      if (room.track && !room.placeholder) seen.add(room.track);
-    }
+    for (const room of row.columns || []) visit(room);
   }
-  return TRACK_ORDER.filter(t => seen.has(t));
+  return TRACK_ORDER
+    .filter(t => trackToRoom.has(t))
+    .map(t => ({ track: t, room: trackToRoom.get(t) }));
 }
 
 function renderTrackFilter(day) {
@@ -1802,12 +1803,13 @@ function renderTrackFilter(day) {
   all.onclick = () => setActiveTrack("");
   bar.appendChild(all);
 
-  for (const track of tracks) {
+  for (const { track, room } of tracks) {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "track-filter-pill";
     btn.dataset.filter = track;
     btn.dataset.track = track;
+    btn.dataset.room = room.name.toLowerCase().replace(/\s+/g, "-");
     btn.textContent = TRACK_LABELS[track] || track;
     btn.onclick = () => setActiveTrack(track);
     bar.appendChild(btn);
@@ -1966,7 +1968,7 @@ function mobileCard(entry) {
   card.dataset.room = roomSlug;
 
   const trackPill = entry.room.sub
-    ? `<span class="track-pill" data-track="${entry.room.track}">${entry.room.sub}</span>`
+    ? `<span class="track-pill" data-room="${roomSlug}">${entry.room.sub}</span>`
     : "";
   const roomName = `<span class="room-name-mobile">${entry.room.name}</span>`;
 
