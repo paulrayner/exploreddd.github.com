@@ -590,7 +590,6 @@ title: Schedule | Explore DDD 2026
     font-size: 0.85em;
     opacity: 0.7;
   }
-  .eddd-schedule-2026 .plenary-row.has-tooltip:hover .tooltip-hint{ opacity: 1; }
   .eddd-schedule-2026 .plenary-tooltip{
     position: absolute;
     top: calc(100% + 8px);
@@ -623,10 +622,19 @@ title: Schedule | Explore DDD 2026
     border: 5px solid transparent;
     border-bottom-color: #1c1917;
   }
-  .eddd-schedule-2026 .plenary-row.has-tooltip:hover .plenary-tooltip{
+  @media (hover: hover) {
+    .eddd-schedule-2026 .plenary-row.has-tooltip:hover .plenary-tooltip{
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .eddd-schedule-2026 .plenary-row.has-tooltip:hover .tooltip-hint{ opacity: 1; }
+  }
+  .eddd-schedule-2026 .plenary-row.has-tooltip.tooltip-open .plenary-tooltip{
     opacity: 1;
     transform: translateY(0);
+    pointer-events: auto;
   }
+  .eddd-schedule-2026 .plenary-row.has-tooltip.tooltip-open .tooltip-hint{ opacity: 1; }
   .eddd-schedule-2026 .plenary-tooltip-title{
     font-weight: 700;
     color: #fff;
@@ -783,7 +791,9 @@ title: Schedule | Explore DDD 2026
     letter-spacing: 0.02em;
     transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   }
-  .eddd-schedule-2026 .track-filter-pill:hover{ border-color: var(--accent); color: var(--text); }
+  @media (hover: hover) {
+    .eddd-schedule-2026 .track-filter-pill:hover{ border-color: var(--accent); color: var(--text); }
+  }
   .eddd-schedule-2026 .track-filter-pill.active[data-room="confluence"]   { background: #FFC72C; border-color: #B0830C; color: #1c1917; }
   .eddd-schedule-2026 .track-filter-pill.active[data-room="willow-creek"] { background: #00925E; border-color: #00553A; color: #ffffff; }
   .eddd-schedule-2026 .track-filter-pill.active[data-room="spring-creek"] { background: #5F2167; border-color: #3D1543; color: #ffffff; }
@@ -863,9 +873,11 @@ title: Schedule | Explore DDD 2026
     border: 5px solid transparent;
     border-bottom-color: #1c1917;
   }
-  .eddd-schedule-2026 .room-header:hover .room-tooltip{
-    opacity: 1;
-    transform: translateX(-50%) translateY(0);
+  @media (hover: hover) {
+    .eddd-schedule-2026 .room-header:hover .room-tooltip{
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
   }
 
   .eddd-schedule-2026 .session-card{
@@ -883,9 +895,11 @@ title: Schedule | Explore DDD 2026
     gap: 0.4em;
     min-height: 110px;
   }
-  .eddd-schedule-2026 .session-card:hover{
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-md);
+  @media (hover: hover) {
+    .eddd-schedule-2026 .session-card:hover{
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-md);
+    }
   }
   .eddd-schedule-2026 .session-card.tbd{
     border-style: dashed;
@@ -1152,6 +1166,17 @@ title: Schedule | Explore DDD 2026
       top: var(--time-group-sticky-top, 110px);
       z-index: 4;
     }
+    .eddd-schedule-2026 .plenary-row.has-tooltip{ flex-wrap: wrap; cursor: pointer; }
+    .eddd-schedule-2026 .plenary-row.has-tooltip .plenary-tooltip{
+      position: static;
+      flex-basis: 100%;
+      max-width: none;
+      margin-top: 0.6em;
+      transform: none;
+      display: none;
+    }
+    .eddd-schedule-2026 .plenary-row.has-tooltip .plenary-tooltip::before{ display: none; }
+    .eddd-schedule-2026 .plenary-row.has-tooltip.tooltip-open .plenary-tooltip{ display: block; }
   }
   @media (max-width: 600px) {
     .eddd-schedule-2026 { font-size: 16px; }
@@ -1856,8 +1881,24 @@ function plenaryRow(time, title, note, tooltip) {
     <div class="plenary-room">Confluence</div>
     ${tooltipHtml}
   `;
+  if (tooltip) {
+    el.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const wasOpen = el.classList.contains("tooltip-open");
+      closeAllTooltips();
+      if (!wasOpen) el.classList.add("tooltip-open");
+    });
+  }
   return el;
 }
+
+function closeAllTooltips() {
+  document.querySelectorAll(".plenary-row.tooltip-open").forEach(r => r.classList.remove("tooltip-open"));
+}
+
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".plenary-row.has-tooltip")) closeAllTooltips();
+});
 
 function breakRow(time, title, kind, room) {
   const el = document.createElement("div");
