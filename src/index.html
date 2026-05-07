@@ -50,7 +50,8 @@ layout: layout.hbs
         <div class="text-center">
             <a class="btn" href="https://ti.to/EDDD/explore-ddd-2026" target="_blank">REGISTER</a>
             <p>
-                Deepen your software design practice at an immersive event for technical leaders.
+                Deepen your software design practice at an immersive event for the people who shape
+                software for complex domains.
             </p>
             <p>
                 Explore is not your typical conference. Two days of pre-conference workshops (Sept 21-22),
@@ -77,7 +78,7 @@ layout: layout.hbs
                 <span class="value-prop__text">Tackle real challenges hands-on alongside industry experts</span>
             </div>
             <div class="value-prop">
-                <span class="value-prop__text">Connect with a community of architects, engineers, and design practitioners</span>
+                <span class="value-prop__text">Connect with a community of architects, engineers, product managers, designers, testers, and domain experts</span>
             </div>
         </div>
     </div>
@@ -197,6 +198,12 @@ layout: layout.hbs
                     new patterns alongside other experts.</p>
             </div>
         </div>
+        <p class="design-storm-2026__cohort-intro text-center">
+            Each cohort is self-directed and decides its own approach. Most will bring agents into
+            the loop, that's part of why the format is interesting now. A cohort can also stay in
+            discovery and modeling, or write a minimal code probe to express the model. The goal is
+            the modeling, not a mandated output.
+        </p>
         <p class="design-storm-2026__takeaway text-center">
             You leave with sustained practice in modeling under genuine ambiguity with agents in the
             loop, and a cohort of peers you'll keep talking to long after the conference closes.
@@ -213,6 +220,54 @@ layout: layout.hbs
         </p>
     </div>
 </section>
+
+<style>
+.design-storm-faq{
+    margin-bottom: 3em;
+}
+.design-storm-faq__inner{
+    max-width: 820px;
+    margin: 0 auto;
+}
+.design-storm-faq h2{
+    margin-bottom: 1.2em;
+}
+.faq-item{
+    border-top: 1px solid #d9d9d9;
+    padding: 1em 0;
+}
+.faq-item:last-of-type{
+    border-bottom: 1px solid #d9d9d9;
+}
+.faq-item summary{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1em;
+    list-style: none;
+    position: relative;
+    padding-right: 1.6em;
+}
+.faq-item summary::-webkit-details-marker{ display: none; }
+.faq-item summary::after{
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 1;
+    transition: transform 0.15s ease;
+}
+.faq-item[open] summary::after{
+    content: "\2212";
+}
+.faq-item__body{
+    padding-top: 0.6em;
+}
+.faq-item__body p{
+    margin: 0;
+}
+</style>
 
 <style>
 .homepage--secondary-ctas{
@@ -689,6 +744,59 @@ layout: layout.hbs
         </div>
     </div>
 </div>
+<section class="container section design-storm-faq" id="faq">
+    <div class="design-storm-faq__inner">
+        <h2 class="text-center">Frequently asked questions</h2>
+        <details class="faq-item">
+            <summary>Who is Explore DDD for?</summary>
+            <div class="faq-item__body">
+                <p>Anyone whose work shapes software for complex domains: software architects,
+                    engineers, technical leaders, product managers, designers, testers, domain
+                    experts, and platform engineers. You'll find people new to DDD looking for
+                    foundations, seasoned practitioners pushing strategic design, and folks
+                    exploring what AI-assisted development changes about how we model.</p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary>Do I need to know how to code to attend?</summary>
+            <div class="faq-item__body">
+                <p>No. AI-assisted development has changed who can build software, and our
+                    programming meets people across that spectrum. Whether you're shipping production
+                    code or shaping the design and product strategy behind it, you'll find sessions
+                    and Design Storm cohorts built for you.</p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary>Can I attend without engaging much with AI content?</summary>
+            <div class="faq-item__body">
+                <p>Yes. Plenty of talks and hands-on sessions across all three days are not AI-focused.
+                    You can build a path through the conference that emphasizes DDD fundamentals,
+                    strategic design, and team practices.</p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary>Are sessions recorded?</summary>
+            <div class="faq-item__body">
+                <p>Yes. Keynotes and select talks from past Explore DDD conferences are available
+                    free on our <a href="https://www.youtube.com/exploreddd">YouTube channel</a>.
+                    Workshops and Design Storm working sessions are reserved for in-person attendees,
+                    the value of those sessions comes from doing the work alongside others, which
+                    doesn't translate to video.</p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary>I'm a vendor or solution provider. Can I attend?</summary>
+            <div class="faq-item__body">
+                <p>Explore DDD isn't a vendor showcase, there are no sales pitches, and our
+                    programming is built for practitioners. That said, if your company is interested
+                    in supporting the work as a sponsor or partner, we'd love to talk. See the
+                    <a href="sponsors/">partnership page</a> or reach out at
+                    <a href="mailto:contact@exploreddd.com">contact@exploreddd.com</a>.</p>
+            </div>
+        </details>
+    </div>
+</section>
+
 <div class="container">
     <div class="row">
         <p class="text-center">View past conferences: <a href="./2025">2025</a> &#124; <a href="./2024">2024</a> &#124;
