@@ -1,3 +1,10 @@
 node_modules
 .DS_Store
 docs/
+
+# Design mockup screenshots kept locally, not part of the site
+homepage-cards.png
+homepage-value-props.png
+mobile-cards.png
+mobile-cards-v2.png
+mobile-cards-v3.png
