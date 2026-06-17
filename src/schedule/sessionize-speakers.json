@@ -255,6 +255,29 @@
     ]
   },
   {
+    "id": "85320b57-16bc-4418-8f4b-721304c7abcd",
+    "firstName": "Ignacio",
+    "lastName": "Castillejos",
+    "bio": "Staff Engineer. The New York Times.",
+    "tagLine": "Staff Engineer. The New York Times.",
+    "profilePicture": "https://sessionize.com/image/c634-400o400o1-ff3B11BMFEMyHxz1euRpys.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1182143
+    ],
+    "fullName": "Ignacio Castillejos",
+    "categoryItems": [
+      422803
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States of America"
+      }
+    ]
+  },
+  {
     "id": "5d75dcd9-5de6-48f4-a6fc-c980fc7c6cba",
     "firstName": "Indu",
     "lastName": "Alagarsamy",
@@ -837,8 +860,8 @@
     "id": "fba0166b-1333-48e5-b630-edf6c1fff32a",
     "firstName": "Tina",
     "lastName": "Thomas",
-    "bio": "Tina Thomas is an Application Developer at Thoughtworks with over 10 years of experience building resilient, distributed applications. She has worked across a wide range of technologies, including Kotlin, .NET, React, Vue.js, Node.js, and Go.\r\n\r\nThroughout her career, Tina has partnered closely with clients and stakeholders to understand complex business problems, collaborated with Business Analysts and Product Owners to design effective solutions, and worked alongside delivery teams to bring those solutions to life. She has held multiple roles across engagements, including Tech Anchor, Tech Lead, Front-End Developer, and Full-Stack Developer, allowing her to contribute both technically and strategically across the delivery lifecycle",
-    "tagLine": "Senior Software Developer",
+    "bio": "Tina Thomas is a Senior Developer Consultant at Thoughtworks with over a decade of experience building resilient, distributed systems. Throughout her career, she has bridged the gap between complex business strategy and technical execution, contributing both technically and strategically across the entire delivery lifecycle. Navigating diverse stacks including Kotlin, .NET, and Go, Tina is passionate about collaborating with stakeholders to build software solutions that solve real-world problems.",
+    "tagLine": "Senior Software Consultant",
     "profilePicture": "https://sessionize.com/image/c5d6-400o400o1-sUGeRTXYJULnKeqHzGd9oJ.jpg",
     "isTopSpeaker": false,
     "links": [],
