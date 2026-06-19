@@ -1064,7 +1064,7 @@ title: Schedule | Explore DDD 2026
   .eddd-schedule-2026 .sched-modal-close:hover{ background: var(--surface-2); color: var(--text); }
   .eddd-schedule-2026 .sched-modal h2{ font-size: 1.4em; font-weight: 700; line-height: 1.25; margin-bottom: 0.4em; padding-right: 2.5em; }
   .eddd-schedule-2026 .sched-modal .sched-modal-meta{ display: flex; gap: 0.5em; flex-wrap: wrap; margin-bottom: 1.25em; }
-  .eddd-schedule-2026 .sched-modal .sched-modal-meta span{
+  .eddd-schedule-2026 .sched-modal .sched-modal-meta span:not(.track-pill){
     font-size: 0.75em;
     font-weight: 600;
     text-transform: uppercase;
@@ -1769,7 +1769,7 @@ function renderConferenceDay(main, day) {
       const el = document.createElement("div");
       el.className = "plenary-row";
       el.style.cursor = "pointer";
-      el.onclick = () => openModal(s);
+      el.onclick = () => openModal(s, { time: row.time });
       const speakerImgs = (s.speakers || []).slice(0, 3).map(sp =>
         `<img src="${sp.profilePicture}" alt="${sp.fullName}" title="${sp.fullName}">`
       ).join("");
@@ -1924,7 +1924,7 @@ function renderBlock(rooms, slots, blockTime) {
           col.appendChild(breakEl);
         }
         const s = getSession(slot.sessionIds[j]);
-        col.appendChild(sessionCard(s, room.track, slot.time[j], roomSlug));
+        col.appendChild(sessionCard(s, room, slot.time[j]));
       }
     } else if (slot.type === "cohort") {
       const cell = document.createElement("div");
@@ -1935,7 +1935,7 @@ function renderBlock(rooms, slots, blockTime) {
       col.appendChild(cell);
     } else if (slot.sessionId) {
       const s = getSession(slot.sessionId);
-      col.appendChild(sessionCard(s, room.track, null, roomSlug));
+      col.appendChild(sessionCard(s, room, parseBlockStart(blockTime)));
     }
     grid.appendChild(col);
   }
@@ -2014,7 +2014,7 @@ function mobileCard(entry) {
     return card;
   }
 
-  card.onclick = () => openModal(entry.session);
+  card.onclick = () => openModal(entry.session, { time: entry.time, trackSub: entry.room.sub, roomSlug });
   const speakerImgs = entry.session.speakers.slice(0, 3).map(sp =>
     `<img src="${sp.profilePicture}" alt="${sp.fullName}" title="${sp.fullName}">`
   ).join("");
@@ -2053,12 +2053,14 @@ function timeToMinutes(t) {
   return hour * 60 + m;
 }
 
-function sessionCard(session, track, time, roomSlug) {
+function sessionCard(session, room, time) {
+  const track = room.track;
+  const roomSlug = room.name ? room.name.toLowerCase().replace(/\s+/g, "-") : "";
   const card = document.createElement("div");
   card.className = "session-card" + (session.pending ? " tbd" : "");
   card.dataset.track = track;
   if (roomSlug) card.dataset.room = roomSlug;
-  card.onclick = () => openModal(session);
+  card.onclick = () => openModal(session, { time, trackSub: room.sub, roomSlug });
 
   const speakerImgs = session.speakers.slice(0, 3).map(sp =>
     `<img src="${sp.profilePicture}" alt="${sp.fullName}" title="${sp.fullName}">`
@@ -2093,7 +2095,7 @@ function renderFriday(main, day) {
 
 // -- Modal ------------------------------------------------------------------
 
-function openModal(session) {
+function openModal(session, meta = {}) {
   const overlay = document.getElementById("sched-modal-overlay");
   const modal = document.getElementById("sched-modal");
   const workshop = WORKSHOP_PAGES[session.id];
@@ -2107,6 +2109,8 @@ function openModal(session) {
     <button class="sched-modal-close" onclick="closeModal()">&times;</button>
     <h2>${session.title}</h2>
     <div class="sched-modal-meta">
+      ${meta.trackSub ? `<span class="track-pill" data-room="${meta.roomSlug || ""}">${meta.trackSub}</span>` : ""}
+      ${meta.time ? `<span>${meta.time}</span>` : ""}
       ${session.formatName ? `<span>${session.formatName}</span>` : ""}
     </div>
     ${bodySection}
