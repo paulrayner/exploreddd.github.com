@@ -258,7 +258,7 @@
     "id": "85320b57-16bc-4418-8f4b-721304c7abcd",
     "firstName": "Ignacio",
     "lastName": "Castillejos",
-    "bio": "Staff Engineer. The New York Times.",
+    "bio": "Ignacio Castillejos is a Staff Engineer at The New York Times, where he focuses on event-driven architecture, subscription modernization, and building strong engineering cultures. With a career spanning tech giants like Nike and Motorola, Ignacio bridges the gap between deep technical capabilities including extensive expertise in AWS ecosystems and strategic product management. \r\n\r\nHe is passionate about process improvement, and developing high-performing, distributed engineering teams. A lifelong learner holding dual master's degrees in Software Engineering and Tech Management, Ignacio loves sharing practical insights on architecture, technical leadership, and scaling global digital platforms.",
     "tagLine": "Staff Engineer. The New York Times.",
     "profilePicture": "https://sessionize.com/image/c634-400o400o1-ff3B11BMFEMyHxz1euRpys.jpg",
     "isTopSpeaker": false,
@@ -895,25 +895,6 @@
     "categoryItems": [
       422803
     ],
-    "questionAnswers": [
-      {
-        "questionId": 117323,
-        "answerValue": "United States"
-      }
-    ]
-  },
-  {
-    "id": "fc6ec4d9-6597-4c14-a25f-31278d0bf087",
-    "firstName": "Eric",
-    "lastName": "Evans",
-    "bio": "Eric Evans is the author of Domain-Driven Design: Tackling Complexity in Software, Addison-Wesley 2004.\r\nSince the early 1990s, he has worked on many projects developing large business systems with objects with many different approaches and many different outcomes. The book is a synthesis of that experience. It presents a system of modeling and design techniques that successful teams have used to align complex software systems with business needs and to keep projects agile as systems grow large.\r\nEric now leads Domain Language, a consulting group which coaches and trains teams applying domain-driven design, helping them to make their development work more productive and more valuable to their business.",
-    "tagLine": "Author of Domain-Driven Design",
-    "profilePicture": "img/eric-evans.jpg",
-    "isTopSpeaker": true,
-    "links": [],
-    "sessions": [],
-    "fullName": "Eric Evans",
-    "categoryItems": [],
     "questionAnswers": [
       {
         "questionId": 117323,
