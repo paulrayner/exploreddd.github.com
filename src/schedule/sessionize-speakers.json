@@ -117,29 +117,6 @@
     ]
   },
   {
-    "id": "c3ee1096-1735-4b4f-83db-a95d1c287928",
-    "firstName": "Devika",
-    "lastName": "Rajhamundry",
-    "bio": "Devika Rajhamundry is an accomplished data warehousing and business intelligence professional with extensive experience designing and implementing enterprise data solutions across healthcare and financial services environments. She has built a reputation for leading complex data integration initiatives, developing scalable data warehouse architectures, and enabling organizations to transform large volumes of operational data into actionable insights. Her expertise spans data modeling, ETL architecture, database administration, and enterprise reporting solutions built on Microsoft Business Intelligence technologies.\r\nIn her current leadership role at Keck Medicine of USC, Devika manages business intelligence and data warehouse initiatives that support strategic decision-making across the organization. She works closely with senior leadership, technical teams, and operational stakeholders to translate complex business requirements into robust analytics solutions. Her work focuses on building reliable ETL pipelines, integrating data from multiple enterprise systems, and delivering analytical tools that support revenue cycle operations, financial reporting, and operational performance monitoring. Devika also guides development teams, establishes best practices for ETL design and deployment, and ensures data accuracy and system reliability through strong governance and change management processes.\r\nThroughout her career, Devika has contributed to large-scale enterprise systems that integrate diverse data sources and support mission-critical reporting and analytics. She has led the design and implementation of data extraction and transformation frameworks, developed complex SQL logic and stored procedures for performance-optimized data processing, and implemented automated monitoring and validation processes to maintain data integrity. Her projects have supported healthcare analytics platforms, provider data integration systems, building business intelligence applications, and regulatory reporting systems within major financial institutions.\r\nDevika combines strong technical expertise with collaborative leadership, enabling teams to deliver high-quality analytics solutions that drive operational efficiency and informed decision-making. Her multidisciplinary background in computer science and healthcare administration further strengthens her ability to bridge technology and healthcare operations, allowing organizations to leverage data as a strategic asset for continuous improvement and innovation. ",
-    "tagLine": "University of Southern California",
-    "profilePicture": "https://cdn.sessionize.com/image/736b-400o400o1-GfrgWQVhFX7Pc3tP8CHvQU.jpg",
-    "isTopSpeaker": false,
-    "links": [],
-    "sessions": [
-      1188610
-    ],
-    "fullName": "Devika Rajhamundry",
-    "categoryItems": [
-      422803
-    ],
-    "questionAnswers": [
-      {
-        "questionId": 117323,
-        "answerValue": "USA"
-      }
-    ]
-  },
-  {
     "id": "ffc04f2e-579f-4653-8dad-5779557fd386",
     "firstName": "Diana",
     "lastName": "Montalion",

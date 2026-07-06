@@ -133,30 +133,6 @@
         "isConfirmed": true
       },
       {
-        "id": "1188610",
-        "title": "Applying Domain-Driven Design to Complex Healthcare Workflows",
-        "description": "Healthcare revenue cycle systems represent a highly complex domain involving clinical data, billing processes, regulatory rules, and external integrations. Managing this complexity often leads to fragmented systems, inconsistent data, and tightly coupled workflows.\r\n\r\nThis session explores how Domain-Driven Design (DDD) can be applied to model and simplify such complex, data-intensive systems. Using real-world healthcare scenarios, we demonstrate how to identify bounded contexts across EMR, billing, and payment systems, and align data pipelines with domain boundaries. Core concepts such as ubiquitous language, domain services, and context mapping are used to structure validation rules, code updates, and financial workflows.\r\n\r\nThe talk also examines how domain models can drive the design of data pipelines, enabling clearer separation of concerns, improved data consistency, and more maintainable integrations. Attendees will learn how to translate complex business rules into well-defined domain models and build scalable, loosely coupled systems that evolve with changing regulatory and operational requirements.",
-        "startsAt": null,
-        "endsAt": null,
-        "isServiceSession": false,
-        "isPlenumSession": false,
-        "speakers": [
-          "c3ee1096-1735-4b4f-83db-a95d1c287928"
-        ],
-        "categoryItems": [
-          422793,
-          422797,
-          422808
-        ],
-        "questionAnswers": [],
-        "roomId": null,
-        "liveUrl": null,
-        "recordingUrl": null,
-        "status": "Accepted",
-        "isInformed": true,
-        "isConfirmed": true
-      },
-      {
         "id": "1122846",
         "title": "Architect as a Systems Thinker: Turning Strategy into Action",
         "description": "In this hands-on session, participants will learn how to bridge the gap between technical strategy and execution using systems thinking principles.\r\n\r\nThrough some exercises, software architects will practice mapping business goals, constraints, and feedback loops, then translate them into a clear and adaptable technical roadmap.\r\nThe workshop focuses on helping architects/engineers to move from abstract vision to actionable outcomes, aligning architecture with value, sequencing initiatives, and communicating trade-offs effectively to stakeholders.\r\nBy the end of this workshop, participants will be able to:\r\n\r\n-Understand how systems thinking reveals dependencies and leverage points within technical ecosystems\r\n-Identify how business outcomes can be mapped to technical capabilities\r\n-Practice creating an adaptive roadmap using “Now / Next / Later” framing\r\n-Learn to communicate trade-offs and priorities in a way that aligns with business goals\r\n-Leave with a reusable framework and template for turning architectural strategy into delivery steps",
