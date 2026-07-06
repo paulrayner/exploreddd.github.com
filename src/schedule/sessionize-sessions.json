@@ -1089,6 +1089,48 @@
         "status": "Accepted",
         "isInformed": true,
         "isConfirmed": true
+      },
+      {
+        "id": "TBD-keynote",
+        "title": "Opening Keynote",
+        "description": "Opening keynote.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": true,
+        "speakers": [
+          "fc6ec4d9-6597-4c14-a25f-31278d0bf087"
+        ],
+        "categoryItems": [],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "TBD-evans-interp",
+        "title": "An AI tool for examining the domain language",
+        "description": "Eric Evans on using AI to examine domain language.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "fc6ec4d9-6597-4c14-a25f-31278d0bf087"
+        ],
+        "categoryItems": [
+          446484
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
       }
     ]
   }

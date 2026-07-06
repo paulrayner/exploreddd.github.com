@@ -465,7 +465,7 @@
     "id": "78a50410-2be6-4370-bc1b-fe7815d110d7",
     "firstName": "Joseph",
     "lastName": "Yoder",
-    "bio": " Joe is a research collaborator at IME/USP, founder and principal of the Refactory (www.refactory.com), and a fellow and president of the Hillside Group, a non-profit dedicated to improving the quality of life of everyone who uses, builds, and encounters software systems. He believes software is still too hard to change and wants to do something about this. To address this challenge he dedicates time to teach and mentors teams and organizations on agile and lean practices, architecture, domain-modeling, flexible systems, clean design, patterns, refactoring, and testing.\r\n\r\nJoe is an author of many patterns and is well-known for the Big Ball of Mud pattern, which illuminates many fallacies in software architecture. He is a co-author of A Scrum Book: The Spirit of the Game which includes 96 patterns for getting the most out of Scrum. Joe received the New Directions award at the Software Engineering Institutes (SEI's) conference on Software Architecture (SATURN) and the ACM recently recognized Joe as a Distinguished Member in the category of \"Outstanding Engineering Contributions to Computing\".",
+    "bio": " Joe is a research collaborator at IME/USP, founder and principal of the Refactory (www.refactory.com), and a fellow and president of the Hillside Group, a non-profit dedicated to improving the quality of life of everyone who uses, builds, and encounters software systems. He believes software is still too hard to change and wants to do something about this. To address this challenge, he dedicates time to teach and mentor teams and organizations on agile and lean practices, architecture, domain-modeling, flexible systems, clean design, patterns, refactoring, and testing.\r\n\r\nJoe is an author of many patterns and is well-known for the Big Ball of Mud pattern, which illuminates many fallacies in software architecture. He is a co-author of A Scrum Book: The Spirit of the Game, which includes 96 patterns for getting the most out of Scrum and a book about Cloud Architecture Application Patterns on designing, building, and modernizing for the Cloud. Joe received the New Directions award at the Software Engineering Institute's (SEI's) conference on Software Architecture (SATURN), and the ACM recently recognized Joe as a Distinguished Member in the category of \"Outstanding Engineering Contributions to Computing\".",
     "tagLine": "The Refactory - MetaYoda",
     "profilePicture": "https://cdn.sessionize.com/image/d8a4-400o400o1-JpKkE5zdy5AsJzLByqcpuR.png",
     "isTopSpeaker": false,
@@ -911,7 +911,10 @@
     "profilePicture": "img/eric-evans.jpg",
     "isTopSpeaker": true,
     "links": [],
-    "sessions": [],
+    "sessions": [
+      "TBD-keynote",
+      "TBD-evans-interp"
+    ],
     "fullName": "Eric Evans",
     "categoryItems": [],
     "questionAnswers": [
