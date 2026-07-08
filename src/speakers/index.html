@@ -195,6 +195,20 @@ function speakerImageUrl(sp){
     return "../schedule/" + url;
 }
 
+function speakerSlug(sp){
+    return String(sp.fullName || "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+}
+
+function openFromUrl(){
+    const slug = new URLSearchParams(location.search).get("speaker");
+    if (!slug) return;
+    const sp = Object.values(SPEAKERS).find(s => speakerSlug(s) === slug);
+    if (sp) openModal(sp);
+}
+
 function sessionFormatLabel(session){
     for (const itemId of (session.categoryItems || [])) {
         if (FORMAT_LABELS[itemId]) return FORMAT_LABELS[itemId];
@@ -278,6 +292,9 @@ function openModal(sp){
     overlay.classList.add("open");
     overlay.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
+    const params = new URLSearchParams(location.search);
+    params.set("speaker", speakerSlug(sp));
+    history.replaceState(null, "", location.pathname + "?" + params.toString());
 }
 
 function closeModal(){
@@ -285,6 +302,10 @@ function closeModal(){
     overlay.classList.remove("open");
     overlay.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
+    const params = new URLSearchParams(location.search);
+    params.delete("speaker");
+    const qs = params.toString();
+    history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
 }
 
 function escapeHtml(s){
@@ -316,6 +337,7 @@ function renderGrid(){
     try {
         await loadData();
         renderGrid();
+        openFromUrl();
     } catch (err) {
         document.getElementById("speakers-grid").innerHTML =
             `<p style="color:#991b1b; text-align:center; padding:2em;">Could not load speakers. ${escapeHtml(err.message)}</p>`;
