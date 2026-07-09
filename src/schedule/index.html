@@ -2112,7 +2112,17 @@ function openModal(session, meta = {}) {
          <p class="sched-modal-description" style="margin-bottom:1em;">${workshop.blurb}</p>
          <a class="sched-modal-cta" href="${workshop.url}">View full workshop details &rarr;</a>
        </div>`
-    : (session.description ? `<div class="sched-modal-section"><h3>Abstract</h3><div class="sched-modal-description">${session.description}</div></div>` : "");
+    : (session.description ? (() => {
+        const prereqMarker = '\n\nPrerequisites:';
+        const prereqIdx = session.description.indexOf(prereqMarker);
+        if (prereqIdx === -1) {
+          return `<div class="sched-modal-section"><h3>Abstract</h3><div class="sched-modal-description">${session.description}</div></div>`;
+        }
+        const abstract = session.description.slice(0, prereqIdx);
+        const prereqs = session.description.slice(prereqIdx + prereqMarker.length).trim();
+        return `<div class="sched-modal-section"><h3>Abstract</h3><div class="sched-modal-description">${abstract}</div></div>`
+             + `<div class="sched-modal-section"><h3>Prerequisites</h3><div class="sched-modal-description">${prereqs}</div></div>`;
+      })() : "");
   modal.innerHTML = `
     <button class="sched-modal-close" onclick="closeModal()">&times;</button>
     <h2>${session.title}</h2>
