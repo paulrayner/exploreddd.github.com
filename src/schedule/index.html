@@ -1320,20 +1320,6 @@ title: Schedule | Explore DDD 2026
 // ---------------------------------------------------------------------------
 
 const TBD_SESSIONS = {
-  "TBD-keynote": {
-    title: "Opening Keynote",
-    description: "Opening keynote.",
-    speakerIds: ["fc6ec4d9-6597-4c14-a25f-31278d0bf087"],
-    format: "Keynote (45 minutes)",
-    pending: false
-  },
-  "TBD-evans-interp": {
-    title: "An AI tool for examining the domain language",
-    description: "Eric Evans on using AI to examine domain language.",
-    speakerIds: ["fc6ec4d9-6597-4c14-a25f-31278d0bf087"],
-    format: "Talk Session (25 minutes)",
-    pending: false
-  },
   "TBD-indu-legacy": {
     title: "Surfacing the Hidden Domain Model: AI-Assisted Discovery in Legacy Code",
     description: "Your company has gone all-in on AI, but the hard problems haven't changed: sprawling codebases, domain concepts buried implicitly across thousands of files, knowledge that lives in a few people's heads. AI won't simplify a complex system, but it can dramatically accelerate your understanding of one.\n\nIn this hands-on session, you'll work with a realistic legacy codebase and use AI tools to extract the implicit domain model already hiding in your code: entities, relationships, domain events, communication patterns, and the business rules nobody has documented. You'll leave with a repeatable approach you can apply to your own systems on Monday.\n\nDemos will use Claude Code; bring whatever tool you already have installed (Copilot, Cursor, anything). Different tools surface different insights, and that's where the most useful conversations happen.\n\nPrerequisites: comfort reading code in any mainstream language; AI coding tool of your choice already installed.",
@@ -1452,7 +1438,7 @@ const SCHEDULE = {
     rows: [
       { type: "break", time: "8:00 - 9:00", title: "Registration", kind: "registration", room: "Lobby" },
       { type: "plenary", time: "9:00", title: "Conference kickoff" },
-      { type: "session-row", time: "9:15 - 10:00", room: null, sessionId: "TBD-keynote", isPlenary: true },
+      { type: "session-row", time: "9:15 - 10:00", room: null, sessionId: "1283873", isPlenary: true },
       { type: "break", time: "10:00 - 10:30", title: "Coffee break" },
 
       { type: "block-header", label: "Block 1", time: "10:30 - 12:30" },
@@ -1528,7 +1514,7 @@ const SCHEDULE = {
         type: "block",
         slots: [
           { type: "talks", time: ["12:45", "1:45"], sessionIds: ["1129252", "1189435"] },
-          { type: "talks25", time: ["12:45", "1:15", "1:45", "2:15"], sessionIds: ["TBD-evans-interp", "1187527", "1189152", "1185200"], note: "4 × 25-min" },
+          { type: "talks25", time: ["12:45", "1:15", "1:45", "2:15"], sessionIds: ["1283877", "1187527", "1189152", "1185200"], note: "4 × 25-min" },
           { sessionId: "1184524" },
           { sessionId: "TBD-indu-legacy" },
           { sessionId: "1185110" }
