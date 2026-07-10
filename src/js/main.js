@@ -288,3 +288,14 @@ $(document).ready(function () {
   }
 });
 
+// Newsletter icon / nav link: after jumping to the signup form, put the cursor
+// in the email field so the visitor can type straight away.
+$(document).ready(function () {
+  $('a[href="#newsletter"]').on('click', function () {
+    var email = $('#newsletter').find('input[type="email"]').first();
+    if (email.length) {
+      setTimeout(function () { email.trigger('focus'); }, 0);
+    }
+  });
+});
+
