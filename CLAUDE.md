@@ -5,8 +5,9 @@ Static website for Explore DDD Conference built with Metalsmith. Source files in
 
 ## Commands
 - `npm install` - Install dependencies
-- `npm run build` - Build site with live reload and file watching
-- Serve built site: `live-server docs`
+- `npm run build` - Build site and watch source/layouts/partials for changes (native Metalsmith watch; rebuilds `docs/` on save)
+- `npm run build:once` - One-off build with no watch (what CI runs)
+- Serve built site: `live-server docs` (provides browser live-reload when `docs/` changes)
 
 ## Architecture
 - Metalsmith static site generator

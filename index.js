@@ -1,8 +1,7 @@
 var Metalsmith = require("metalsmith"),
   layouts = require("@metalsmith/layouts"),
   sass = require("@metalsmith/sass"),
-  discoverPartials = require("metalsmith-discover-partials"),
-  watch = require("metalsmith-watch");
+  discoverPartials = require("metalsmith-discover-partials");
 
 var shouldWatch = process.env.WATCH !== "false";
 
@@ -44,16 +43,10 @@ var metalsmith = Metalsmith(__dirname)
 // }))
 
 if (shouldWatch) {
-  metalsmith = metalsmith.use(
-    watch({
-      paths: {
-        "${source}/**/*": true,
-        "partials/**/*": "**/*.hbs",
-        "layouts/**/*": "**/*.hbs",
-      },
-      livereload: true,
-    })
-  );
+  // Native Metalsmith watch. Partials and layouts live outside the source
+  // directory, so they are watched explicitly; a change there triggers a
+  // full rebuild. Browser live-reload comes from `live-server docs`.
+  metalsmith.watch(["src", "layouts", "partials"]);
 }
 
 metalsmith.build(function (err, files) {

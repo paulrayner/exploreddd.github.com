@@ -11,7 +11,6 @@
     "@metalsmith/sass": "^1.11.0",
     "jstransformer-handlebars": "^1.2.0",
     "metalsmith": "^2.6.3",
-    "metalsmith-discover-partials": "^0.1.2",
-    "metalsmith-watch": "^1.0.3"
+    "metalsmith-discover-partials": "^0.1.2"
   }
 }
