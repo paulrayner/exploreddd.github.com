@@ -259,7 +259,26 @@ nav {
 	background-color: $brand-blue ;
 }
 
+.skip-link {
+	position: fixed;
+	top: -60px;
+	left: $half-margin;
+	z-index: 2000;
+	background: $brand-blue;
+	color: $brand-white;
+	padding: $quarter-margin $half-margin;
+	font-family: NunitoSansBold, sans-serif;
+	text-decoration: none;
+	transition: top 0.15s ease-in-out;
+
+	&:focus {
+		top: 0;
+		color: $brand-white;
+	}
+}
+
 .nav-logo {
+	display: block;
 	background-image: url('../img/ddd-logo-blue.svg');
 	height: 46px;
 	width: 160px;
@@ -926,6 +945,7 @@ figure {
 		z-index: 2;
 
 		.big-text {
+			margin: 0;
 			font-size: 40px;
 			font-family: NunitoSansBold, sans-serif;
 			color: white;
