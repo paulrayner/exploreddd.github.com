@@ -288,13 +288,22 @@ $(document).ready(function () {
   }
 });
 
-// Newsletter icon / nav link: after jumping to the signup form, put the cursor
-// in the email field so the visitor can type straight away.
+// Newsletter icon / nav link: scroll to the signup form and put the cursor in
+// the email field so the visitor can type straight away. On the home page the
+// inline "Stay in the loop" form near the top wins; other pages use the footer
+// form (id="newsletter").
 $(document).ready(function () {
-  $('a[href="#newsletter"]').on('click', function () {
-    var email = $('#newsletter').find('input[type="email"]').first();
+  $('a[href="#newsletter"]').on('click', function (e) {
+    var $target = $('.newsletter-signup--inline').first();
+    if (!$target.length) $target = $('#newsletter');
+    if (!$target.length) return;
+
+    e.preventDefault();
+    $target[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+    var email = $target.find('input[type="email"]').first();
     if (email.length) {
-      setTimeout(function () { email.trigger('focus'); }, 0);
+      setTimeout(function () { email[0].focus({ preventScroll: true }); }, 350);
     }
   });
 });
