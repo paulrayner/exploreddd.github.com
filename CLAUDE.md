@@ -17,13 +17,14 @@ Static website for Explore DDD Conference built with Metalsmith. Source files in
 
 ## Deployment Workflow
 
-- **NEVER commit `docs/` files locally.** Although `docs/` is tracked in git (not gitignored), it is built and committed exclusively by GitHub Actions. Local builds will show `docs/` as modified; always discard those changes with `git checkout -- docs/` before committing.
+- **Only edit `src/`** (plus `layouts/`, `partials/`). `docs/` is a build output, never hand-edit it. It is gitignored and untracked; local builds regenerate it and those changes are ignored.
 - GitHub Actions (`.github/workflows/build.yml`) automatically:
   1. Triggers on pushes to `src/`, `layouts/`, `partials/`, or template files
-  2. Runs `npm run build:once`
-  3. Commits the generated `docs/` folder
-- Only commit and push source file changes (`src/`, `layouts/`, `partials/`, `src/css/`); CI handles the build output
-- GitHub Pages serves from the `docs/` directory
+  2. Runs `npm run build:once` (Metalsmith, clean build) into `docs/`
+  3. Uploads `docs/` as a Pages artifact and deploys it (`actions/deploy-pages`)
+- **CI does NOT commit `docs/`.** The live site is a fresh clean build of `src/` served as a Pages artifact (Pages `build_type` is `workflow`), so stale files never reach production and the committed repo carries no build output. The custom domain survives clean builds via `src/CNAME`.
+- Only commit and push source-file changes (`src/`, `layouts/`, `partials/`, `src/css/`).
+- After pushing `src/`, wait for the Action (~1 min), then verify live rather than assuming.
 
 ## Navigation
 
