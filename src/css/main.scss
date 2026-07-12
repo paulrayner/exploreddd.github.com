@@ -466,6 +466,29 @@ nav {
 	}
 }
 
+// In the md band (992-1199px) the floated logo + menu drop the menu onto a second
+// line, overflowing the fixed 75px nav onto the fixed top bar below it. Lay the nav
+// out with flexbox for this band only so the logo and menu share one centered line
+// inside the nav box. sm (one row already) and lg (100px, fits) are left untouched.
+@media (min-width: 992px) and (max-width: 1199px) {
+	nav.navbar-fixed-top .not-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 75px;
+	}
+
+	nav.navbar-fixed-top .navbar-header {
+		float: none;
+	}
+
+	nav.navbar-fixed-top .nav-list {
+		float: none;
+		top: 0;
+		margin-top: 0;
+	}
+}
+
 .navbar-collapse {
 	text-align: center;
 	padding-bottom: $half-margin;
