@@ -1296,6 +1296,35 @@ canonical: "https://www.exploreddd.com/schedule/"
   .eddd-schedule-2026 .session-format-tag,
   .eddd-schedule-2026 .workshop-tag,
   .eddd-schedule-2026 .room-header .room-name { text-transform: uppercase; }
+
+  /* --- Modal scroll affordance: long modals must read as scrollable, not cropped --- */
+  /* CSS scroll shadows: edge shadows appear only while content is hidden beyond that edge. */
+  .eddd-schedule-2026 .sched-modal{
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(28,25,23,0.35) transparent;
+    background:
+      linear-gradient(var(--surface) 30%, rgba(0,0,0,0)) center top / 100% 2.5em no-repeat local,
+      linear-gradient(rgba(0,0,0,0), var(--surface) 70%) center bottom / 100% 2.5em no-repeat local,
+      radial-gradient(farthest-side at 50% 0, rgba(0,0,0,0.16), rgba(0,0,0,0)) center top / 100% 0.85em no-repeat,
+      radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,0.16), rgba(0,0,0,0)) center bottom / 100% 0.85em no-repeat,
+      var(--surface);
+  }
+  .eddd-schedule-2026 .sched-modal::-webkit-scrollbar{ width: 8px; }
+  .eddd-schedule-2026 .sched-modal::-webkit-scrollbar-thumb{ background: rgba(28,25,23,0.28); border-radius: 6px; }
+
+  /* --- Open Space track (placeholder, black/white identity) --- */
+  .eddd-schedule-2026 .block-grid.cols-6{ grid-template-columns: repeat(6, 1fr); }
+  .eddd-schedule-2026 .room-header[data-track="openspace"]{ background: #1c1917; color: #ffffff; }
+  .eddd-schedule-2026.theme-brand-faithful .room-header[data-track="openspace"]{ background: #1c1917; color: #ffffff; }
+  .eddd-schedule-2026 .room-header[data-track="openspace"] .room-name{ color: #ffffff; opacity: 0.7; }
+  .eddd-schedule-2026 .session-card[data-track="openspace"]{ border-left-color: #1c1917; background: #fafaf9; }
+  .eddd-schedule-2026 .openspace-card .session-format-tag{ background: #1c1917; color: #ffffff; }
+  .eddd-schedule-2026 .openspace-note{ margin-top: 0.4em; font-size: 0.72em; font-style: italic; color: #57534e; line-height: 1.35; }
+  .eddd-schedule-2026 .track-pill[data-room="rock-creek"]{ background: #1c1917; color: #ffffff; }
+  .eddd-schedule-2026 .track-filter-pill.active[data-room="rock-creek"]{ background: #1c1917; border-color: #000000; color: #ffffff; }
+  .eddd-schedule-2026[data-active-room="rock-creek"] .block-mobile .session-card[data-room]:not([data-room="rock-creek"]):not(.cohort){ display: none; }
+  .eddd-schedule-2026[data-active-room="rock-creek"] .block-mobile .time-group:not(.has-cohorts):not(:has(.session-card[data-room="rock-creek"])){ display: none; }
 </style>
 
 <div class="eddd-schedule-2026 theme-brand-faithful">
@@ -1382,6 +1411,7 @@ const TRACK_DESCRIPTIONS = {
   "DDD Hands-On": "Working sessions for practitioners ready to wrestle with strategic and tactical design problems together.",
   "Agentic Hands-On": "Build with agents. Working sessions on coding agents, agent design, and integrating AI into your delivery flow.",
   "DDD & Testing Hands-On": "Working sessions on testing alongside DDD: examples, prototypes, and verifying your model lives up to its promise.",
+  "Open Space": "An attendee-led track. Sessions are proposed and scheduled by the people in the room at the marketplace, right after Wednesday's opening keynote, then run in 45-min slots in Rock Creek. Bring a topic, a question, or a conversation you want to host.",
   "Headwaters A": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Storm.",
   "Headwaters B": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Storm.",
   "Watershed": "Where streams converge. For attendees comfortable with modeling OR agentic coding (not both yet), looking to bring their strengths and stretch into the other.",
@@ -1394,7 +1424,8 @@ const ROOMS_WED = [
   { name: "Willow Creek", track: "open",        sub: "Sociotechnical Hands-On" },
   { name: "Spring Creek", track: "foundations", sub: "Foundations Hands-On" },
   { name: "Cottonwood",   track: "ddd",         sub: "DDD Hands-On" },
-  { name: "Bear Creek",   track: "agentic",     sub: "Agentic Hands-On" }
+  { name: "Bear Creek",   track: "agentic",     sub: "Agentic Hands-On" },
+  { name: "Rock Creek", track: "openspace", sub: "Open Space" }
 ];
 
 const ROOMS_THU = [
@@ -1402,7 +1433,8 @@ const ROOMS_THU = [
   { name: "Willow Creek", track: "agentic",     sub: "Agentic Talks" },
   { name: "Spring Creek", track: "foundations", sub: "Foundations Hands-On" },
   { name: "Cottonwood",   track: "agentic",     sub: "Agentic Hands-On" },
-  { name: "Bear Creek",   track: "testing",     sub: "DDD & Testing Hands-On" }
+  { name: "Bear Creek",   track: "testing",     sub: "DDD & Testing Hands-On" },
+  { name: "Rock Creek", track: "openspace", sub: "Open Space" }
 ];
 
 const COHORTS = [
@@ -1444,7 +1476,7 @@ const SCHEDULE = {
       { type: "break", time: "8:00 - 9:00", title: "Registration", kind: "registration", room: "Lobby" },
       { type: "plenary", time: "9:00", title: "Conference kickoff" },
       { type: "session-row", time: "9:15 - 10:00", room: null, sessionId: "1283873", isPlenary: true },
-      { type: "break", time: "10:00 - 10:30", title: "Coffee break" },
+      { type: "break", time: "10:00 - 10:30", title: "Coffee break + Open Space marketplace", room: "Confluence" },
 
       { type: "block-header", label: "Block 1", time: "10:30 - 12:30" },
       {
@@ -1454,7 +1486,8 @@ const SCHEDULE = {
           { sessionId: "1189380" },
           { sessionId: "1188263" },
           { sessionId: "1122846" },
-          { sessionId: "1148133" }
+          { sessionId: "1148133" },
+          { type: "openspace", times: ["10:30", "11:30"] }
         ]
       },
 
@@ -1468,7 +1501,8 @@ const SCHEDULE = {
           { sessionId: "1176941" },
           { sessionId: "1188398" },
           { sessionId: "1189174" },
-          { sessionId: "1188182" }
+          { sessionId: "1188182" },
+          { type: "openspace", times: ["1:30", "2:30"] }
         ]
       },
 
@@ -1482,7 +1516,8 @@ const SCHEDULE = {
           { sessionId: "1184500" },
           { sessionId: "1153183" },
           { sessionId: "1122189" },
-          { sessionId: "1188592" }
+          { sessionId: "1188592" },
+          { type: "openspace", times: ["4:00", "5:00"] }
         ]
       },
 
@@ -1508,7 +1543,8 @@ const SCHEDULE = {
           { type: "talks", time: ["9:45", "10:45"], sessionIds: ["1117537", "1189426"] },
           { sessionId: "1202756" },
           { sessionId: "1189257" },
-          { sessionId: "1142871" }
+          { sessionId: "1142871" },
+          { type: "openspace", times: ["9:45", "10:45"] }
         ]
       },
 
@@ -1522,7 +1558,8 @@ const SCHEDULE = {
           { type: "talks25", time: ["12:45", "1:15", "1:45", "2:15"], sessionIds: ["1283877", "1187527", "1189152", "1185200"], note: "4 × 25-min" },
           { sessionId: "1184524" },
           { sessionId: "TBD-indu-legacy" },
-          { sessionId: "1185110" }
+          { sessionId: "1185110" },
+          { type: "openspace", times: ["12:45", "1:45"] }
         ]
       },
 
@@ -1925,6 +1962,17 @@ function renderBlock(rooms, slots, blockTime) {
         const s = getSession(slot.sessionIds[j]);
         col.appendChild(sessionCard(s, room, slot.time[j]));
       }
+    } else if (slot.type === "openspace") {
+      const times = slot.times || [];
+      for (let j = 0; j < times.length; j++) {
+        if (j > 0) {
+          const breakEl = document.createElement("div");
+          breakEl.className = "session-break";
+          breakEl.textContent = "15 min break";
+          col.appendChild(breakEl);
+        }
+        col.appendChild(openSpaceCard(room, times[j]));
+      }
     } else if (slot.type === "cohort") {
       const cell = document.createElement("div");
       cell.className = "cohort-cell";
@@ -1958,6 +2006,10 @@ function buildMobileList(rooms, slots, blockTime) {
       for (let j = 0; j < slot.sessionIds.length; j++) {
         const session = getSession(slot.sessionIds[j]);
         entries.push({ time: slot.time[j] || fallbackTime, session, room, kind: "session" });
+      }
+    } else if (slot.type === "openspace") {
+      for (const t of (slot.times || [])) {
+        entries.push({ time: t, room, kind: "openspace", label: "Self-organizing session" });
       }
     } else if (slot.type === "cohort") {
       entries.push({ time: fallbackTime, label: slot.label, room, kind: "cohort" });
@@ -1993,6 +2045,17 @@ function buildMobileList(rooms, slots, blockTime) {
 
 function mobileCard(entry) {
   const card = document.createElement("div");
+  if (entry.kind === "openspace") {
+    card.className = "session-card mobile openspace-card";
+    card.dataset.track = "openspace";
+    card.dataset.room = "rock-creek";
+    card.onclick = () => openOpenSpaceModal();
+    card.innerHTML = `
+      <div class="session-card-meta"><span class="track-pill" data-room="rock-creek">Open Space</span><span class="room-name-mobile">Rock Creek</span></div>
+      <div class="session-title">${entry.label || "Self-organizing session"}</div>
+    `;
+    return card;
+  }
   const isCohort = entry.kind === "cohort";
   const pending = !isCohort && entry.session.pending;
   card.className = "session-card mobile" + (pending ? " tbd" : "") + (isCohort ? " cohort" : "");
@@ -2077,6 +2140,21 @@ function sessionCard(session, room, time) {
   return card;
 }
 
+function openSpaceCard(room, time) {
+  const card = document.createElement("div");
+  card.className = "session-card openspace-card";
+  card.dataset.track = "openspace";
+  card.dataset.room = "rock-creek";
+  card.onclick = () => openOpenSpaceModal();
+  card.innerHTML = `
+    ${time ? `<div class="session-time">${time}</div>` : ""}
+    <div class="session-title">Self-organizing session</div>
+    <span class="session-format-tag">Open Space · 45 min</span>
+    <div class="openspace-note">Proposed &amp; scheduled at the marketplace</div>
+  `;
+  return card;
+}
+
 function renderFriday(main, day) {
   const list = document.createElement("div");
   list.className = "friday-list";
@@ -2135,6 +2213,33 @@ function openModal(session, meta = {}) {
           </div>
         </div>
       `).join("") : (session.speakerNames.length ? session.speakerNames.map(n => `<div class="sched-modal-speaker"><div><div class="sched-modal-speaker-name">${n}</div><div class="sched-modal-speaker-tag">Speaker bio pending</div></div></div>`).join("") : "<p style='color:var(--text-muted);'>Speaker info pending</p>"))}
+    </div>
+  `;
+  overlay.classList.add("open");
+}
+
+function openOpenSpaceModal() {
+  const overlay = document.getElementById("sched-modal-overlay");
+  const modal = document.getElementById("sched-modal");
+  modal.innerHTML = `
+    <button class="sched-modal-close" onclick="closeModal()">&times;</button>
+    <h2>Open Space</h2>
+    <div class="sched-modal-meta">
+      <span class="track-pill" data-room="rock-creek">Open Space</span>
+      <span>Rock Creek</span>
+      <span>45-minute sessions</span>
+    </div>
+    <div class="sched-modal-section">
+      <h3>How it works</h3>
+      <div class="sched-modal-description">Open Space is an attendee-led track. There is no fixed programme here yet, and that is the point. The sessions are proposed and scheduled by the people in the room, on the day.</div>
+    </div>
+    <div class="sched-modal-section">
+      <h3>The marketplace</h3>
+      <div class="sched-modal-description">Bring a topic you want to explore, a question you are wrestling with, or a conversation you want to host. On Wednesday, right after Eric Evans's opening keynote, we gather in the Confluence theatre during the coffee break to build the board together. Anyone can offer a session.</div>
+    </div>
+    <div class="sched-modal-section">
+      <h3>When and where</h3>
+      <div class="sched-modal-description">Sessions run in Rock Creek in 45-minute slots: all three blocks on Wednesday and the first two blocks on Thursday. The grid fills in live as the marketplace takes shape, so what you see here now is a placeholder for the conversations you will create.</div>
     </div>
   `;
   overlay.classList.add("open");
