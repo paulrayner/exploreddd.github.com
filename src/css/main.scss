@@ -1786,18 +1786,34 @@ footer {
 				@include mq(lg) {}
 			}
 
-			.icepanel {
-				@include mq(xs) {
-					height: 55px
+			// Deterministic tier sizing: each tier is a bounding box (max
+			// width + max height). Higher tier = bigger box. Drop in any
+			// logo, tag it with its tier, and it scales to fit, aspect ratio
+			// preserved. No per-logo height tuning.
+			.sponsor-tier-logo {
+				width: auto;
+				height: auto;
+
+				&.platinum {
+					@include mq(xs) { max-height: 200px; max-width: 80vw; }
+					@include mq(sm) { max-height: 280px; max-width: 300px; }
 				}
 
-				@include mq(sm) {
-					height: 65px
+				&.gold {
+					@include mq(xs) { max-height: 100px; max-width: 220px; }
+					@include mq(sm) { max-height: 130px; max-width: 280px; }
 				}
 
-				@include mq(md) {}
+				&.silver {
+					@include mq(xs) { max-height: 80px; max-width: 200px; }
+					@include mq(sm) { max-height: 100px; max-width: 250px; }
+				}
 
-				@include mq(lg) {}
+				&.bronze,
+				&.media {
+					@include mq(xs) { max-height: 55px; max-width: 180px; }
+					@include mq(sm) { max-height: 70px; max-width: 220px; }
+				}
 			}
 		}
 	}
