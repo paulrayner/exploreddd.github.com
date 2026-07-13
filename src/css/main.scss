@@ -1785,6 +1785,20 @@ footer {
 
 				@include mq(lg) {}
 			}
+
+			.icepanel {
+				@include mq(xs) {
+					height: 55px
+				}
+
+				@include mq(sm) {
+					height: 65px
+				}
+
+				@include mq(md) {}
+
+				@include mq(lg) {}
+			}
 		}
 	}
 
