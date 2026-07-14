@@ -30,6 +30,7 @@ Static website for Explore DDD Conference built with Metalsmith. Source files in
 
 - **Two nav partials must stay in sync:** `partials/nav.hbs` (homepage) and `partials/nav-tier2.hbs` (sub-pages). They contain the same link list but with different path prefixes (`cfp/` vs `../cfp/`).
 - The `../` relative paths in `nav-tier2.hbs` are intentional: archive year pages (e.g. `/2025/about/`) rely on them to link within their own year. Do NOT replace with absolute paths.
+- **Partners link is a deliberate exception to the sync rule.** `nav.hbs` uses `partners/` (the live route); `nav-tier2.hbs` uses `../sponsors/`. The page lives at `/partners/`, and `/sponsors/` is a redirect stub (`src/sponsors/index.html`, meta-refresh + canonical) pointing to it, kept so old `/sponsors/` links and SEO carry over. Archive years have `/YYYY/sponsors/` but no `/YYYY/partners/`, so `nav-tier2.hbs` must stay `../sponsors/` (current sub-pages then route through the redirect; archive pages resolve to their own year's sponsors page). Do NOT "sync" tier2 to `../partners/`; it 404s every archive page. The prospectus PDF lives at `src/partners/`.
 - When adding or removing a nav link, update BOTH partials.
 
 ## Speakers & Workshops

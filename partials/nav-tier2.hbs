@@ -1,4 +1,9 @@
-{{!-- KEEP IN SYNC with nav.hbs (same links, different path prefix) --}}
+{{!-- KEEP IN SYNC with nav.hbs (same links, different path prefix).
+      EXCEPTION: the Partners link is "../sponsors/" here, not "../partners/".
+      Archive year pages share this partial and resolve nav links within their
+      own year; they have /YYYY/sponsors/ but no /YYYY/partners/. On the current
+      site /sponsors/ is a redirect stub to /partners/, so this link still lands
+      on the live partners page. Do NOT change to "../partners/". --}}
 <nav class="navbar navbar-fixed-top" role="navigation">
   <div class="not-container">
     <div class="navbar-header">
