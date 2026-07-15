@@ -1870,6 +1870,23 @@ footer {
 		margin-top: $half-margin;
 	}
 
+	.stats-subhead {
+		font-family: NunitoSansSemiBold, sans-serif;
+		font-size: 12px;
+		color: #666;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin: $standard-margin 0 $half-margin;
+	}
+
+	.stats-grid-secondary {
+		margin-bottom: 0;
+
+		.stat-item .stat-number {
+			font-size: 28px;
+		}
+	}
+
 	.sponsor-why {
 		margin: $standard-margin * 2 0;
 
