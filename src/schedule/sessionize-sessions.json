@@ -844,6 +844,30 @@
         "isConfirmed": true
       },
       {
+        "id": "1288265",
+        "title": "Migrating from Monolith to Modern SaaS: Untangling 40 Years of Legacy",
+        "description": "What does it take to successfully modernize and migrate a mission-critical line of business running on a 40-year-old monolith to a more modern SaaS? In this talk, I'll share my journey of leading a large media organization to evolve a deeply embedded legacy system into a modern, service-oriented SaaS platform. To be clear, this wasn't a clean-slate rewrite—it was a careful transformation that involved unpacking decades of tribal knowledge, understanding complex business rules, and reshaping existing workflows while creating new ones. Dealing with tight integrations with other parts of the systems in the organization, all the while maintaining business continuity for the different lines of business that still run on the monolith. No migration is complete without a successful decommissioning, yet it must be done without risking revenue and business as usual.\r\n\r\nWe'll explore how domain-driven design and systems thinking guided us through complex decision-making, from identifying bounded contexts to decoupling capabilities. I'll discuss some of the architecture patterns that worked—and the ones that didn't—along with the lessons learned in stakeholder and team alignment, delivery, and balancing pragmatism with long-term goals. Whether you're staring down a legacy system or already in the trenches of migration, I'll share my hard-won insights to help you lead change with clarity and resilience.\r\n\r\nSpoiler Alert: It's not just about the components, services, and architecture that will result in a successful modernization of systems. Systems are for people. Understanding the socio-technical challenges of an extensive modernization is the key.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "5d75dcd9-5de6-48f4-a6fc-c980fc7c6cba"
+        ],
+        "categoryItems": [
+          422793,
+          422797,
+          422808
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
+      },
+      {
         "id": "1189380",
         "title": "Non-Authoritarian Team Practices: a Co-Created Handbook",
         "description": "In many workplaces – as in civil society itself – people are struggling with collaborative and democratic decision-making. When alignment is elusive, it’s tempting to pass decision-making to an authority figure. However, if teams want agency over their work, they need foundational practices that don’t lean on authoritarian short-cuts.\r\n\r\nIn this workshop, we’ll co-create a handbook of non-authoritarian team practices. After a brief history of collaborative structures for the workplace, we will use a starter-pack of decision-making techniques to source and agree patterns. We will describe the patterns and put them into immediate practice if they apply, validating them with our own use. We will also analyze the room for what perspectives are not present and propose ways to incorporate missing perspectives for ongoing pattern use. \r\n\r\nYou’ll leave not just with the co-created handbook, but also with the collective wisdom of Explore DDD participants and a first-hand experience of new participatory decision-making techniques.\r\n",
