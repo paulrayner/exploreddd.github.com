@@ -3467,6 +3467,142 @@ blockquote .quote-source {
 }
 
 
+/* Virtual Experience (livestream ticket) promotion: top-of-page band + Registration card */
+.virtual-cta-band {
+	background: $brand-blue;
+}
+
+.virtual-banner {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+	flex-wrap: nowrap;
+	padding: 24px 30px;
+
+	@include mq(xs) {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 20px 22px;
+	}
+}
+
+.virtual-banner__copy {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.virtual-banner__head {
+	font-family: NunitoSansExtraBold, sans-serif;
+	font-size: 22px;
+	color: $brand-white;
+	margin: 0 0 4px;
+}
+
+.virtual-banner__sub {
+	font-family: NunitoSans, sans-serif;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.9);
+	margin: 0;
+}
+
+.virtual-banner__cta {
+	flex: 0 0 auto;
+	display: inline-block;
+	font-family: NunitoSansSemiBold, sans-serif;
+	font-size: 16px;
+	color: #3a2b00;
+	background: $brand-yellow;
+	text-transform: uppercase;
+	padding: 12px 20px;
+	text-decoration: none;
+	white-space: nowrap;
+	transition: background 0.2s, color 0.2s;
+
+	&:hover {
+		background: $brand-white;
+		color: $brand-blue;
+	}
+}
+
+.virtual-callout {
+	border: 1px solid rgba(0, 130, 200, 0.28);
+	border-left: 5px solid $brand-blue;
+	background: linear-gradient(180deg, rgba(0, 130, 200, 0.055), rgba(0, 130, 200, 0.02));
+	border-radius: 6px;
+	padding: 20px 22px;
+	margin-bottom: $standard-margin * 1.5;
+}
+
+.virtual-pill {
+	display: inline-block;
+	font-family: NunitoSansExtraBold, sans-serif;
+	font-size: 11px;
+	letter-spacing: 1.3px;
+	text-transform: uppercase;
+	color: #3a2b00;
+	background: $brand-yellow;
+	padding: 4px 10px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+.virtual-title {
+	font-family: NunitoSansBold, sans-serif;
+	font-size: 20px;
+	color: $brand-blue;
+	text-transform: uppercase;
+	margin: 0 0 3px;
+}
+
+.virtual-headline {
+	font-family: NunitoSansBold, sans-serif;
+	font-size: 19px;
+	color: #12212b;
+	margin: 0 0 8px;
+}
+
+.virtual-body {
+	font-family: NunitoSans, sans-serif;
+	font-size: 15px;
+	color: #3a4a52;
+	line-height: 1.55;
+	margin: 0 0 12px;
+	max-width: 56ch;
+}
+
+.vc-price {
+	font-family: NunitoSans, sans-serif;
+	font-size: 16px;
+	color: #12212b;
+	margin: 0 0 16px;
+
+	strong {
+		font-family: NunitoSansBold, sans-serif;
+		color: $brand-blue;
+	}
+}
+
+.virtual-cta {
+	display: inline-block;
+	font-family: NunitoSansSemiBold, sans-serif;
+	font-size: 16px;
+	color: $brand-white;
+	background: $brand-yellow;
+	text-transform: uppercase;
+	padding: 10px 18px;
+	text-decoration: none;
+	transition: background 0.2s;
+
+	&:hover {
+		background: $brand-blue;
+		color: $brand-white;
+	}
+}
+
+
 /* Overflow hotels (RiNo alternatives when Catbird is full) */
 .rino-notice {
 	border-left: 4px solid $brand-yellow;
