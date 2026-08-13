@@ -155,12 +155,14 @@ const WORKSHOP_LINKS = {
     "Indu Alagarsamy": "/workshops/ai-assisted-architecture.html",
     "Ignacio Castillejos": "/workshops/ai-assisted-architecture.html",
     "Paul Rayner": "/workshops/essential-ddd.html",
-    "Chris Richardson": "/workshops/designing-microservices.html",
-    "Matt Wynne": "/workshops/build-your-own-coding-agent.html",
-    "Steven Diamante": "/workshops/build-your-own-coding-agent.html"
+    "Chris Richardson": "/workshops/designing-microservices.html"
 };
 const KEYNOTE_NAMES = new Set(["Eric Evans"]);
-const FEATURED_ORDER = ["Eric Evans", "Indu Alagarsamy", "Ignacio Castillejos", "Paul Rayner", "Chris Richardson", "Matt Wynne", "Steven Diamante"];
+const FEATURED_ORDER = ["Eric Evans", "Indu Alagarsamy", "Ignacio Castillejos", "Paul Rayner", "Chris Richardson"];
+
+// Sessionize still carries the withdrawn coding-agent workshop, and sessionize-fetch.sh
+// copies every session regardless of status, so filter it out here rather than in the snapshot.
+const EXCLUDED_SESSIONS = new Set(["1188600"]);
 
 const FORMAT_LABELS = {
     422793: "Talk Session (45 min)",
@@ -180,6 +182,7 @@ async function loadData() {
     ]);
     for (const speaker of speakersRaw) SPEAKERS[speaker.id] = speaker;
     for (const session of sessionsRaw[0].sessions) {
+        if (EXCLUDED_SESSIONS.has(String(session.id))) continue;
         SESSIONS[session.id] = session;
         const seen = new Set();
         for (const sid of (session.speakers || [])) {
