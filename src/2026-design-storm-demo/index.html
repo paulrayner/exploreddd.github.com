@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>Denver's Water, in 3D</title>
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
@@ -117,11 +118,81 @@
   <div id="attribution">
     Imagery &copy; Esri &amp; contributors &middot; Terrain: Mapzen/AWS &middot;
     Live data: USGS &amp; USDA NRCS &middot; Boundaries: USGS NLDI &middot;
-    Pipelines &copy; OpenStreetMap contributors &middot;
-    Storm radar: NEXRAD archive via Iowa State Mesonet.
+    Pipelines &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> &middot;
+    Storm radar: NEXRAD archive via Iowa State Mesonet &middot;
+    Foothills influent lab data &copy; 2026 <a href="https://www.denverwater.org/about-us/how-we-operate/public-records" target="_blank" rel="noopener">Denver Water</a>,
+    provisional, provided as is, no warranty of any kind.
     Built from <code>water-system-3d/system.json</code>.
   </div>
 </div>
+
+<div id="demo-gate" style="position:fixed;inset:0;z-index:99;background:#101418;display:flex;align-items:center;justify-content:center;font-family:-apple-system,'Segoe UI',Roboto,sans-serif">
+  <form id="demo-gate-form" style="background:rgba(16,20,24,.92);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:22px 24px;width:300px;color:#f2f4f6">
+    <h2 style="margin:0 0 6px;font-size:17px">Denver's Water, in 3D</h2>
+    <p style="margin:0 0 14px;font-size:13px;color:#b8c0c8">Explore DDD 2026 demo. Enter the passphrase from your workshop materials.</p>
+    <input id="demo-gate-pw" type="password" autocomplete="current-password" style="width:100%;box-sizing:border-box;padding:8px 10px;border-radius:8px;border:1px solid rgba(255,255,255,.25);background:#181e24;color:#f2f4f6;font-size:14px">
+    <p id="demo-gate-err" style="display:none;margin:8px 0 0;font-size:12px;color:#ff9d87">That passphrase did not work. Check for typos and try again.</p>
+    <button type="submit" style="margin-top:12px;width:100%;padding:8px 0;border:0;border-radius:8px;background:#2b6fd0;color:#fff;font-size:14px;cursor:pointer">Enter</button>
+  </form>
+</div>
+<script>
+"use strict";
+(function () {
+  var ENC_PATH = "water-system-3d/foothills-influent.json";
+  var decrypted = null;
+  var unlock;
+  var unlocked = new Promise(function (resolve) { unlock = resolve; });
+  var realFetch = window.fetch.bind(window);
+  window.fetch = function (url, opts) {
+    if (typeof url === "string" && url.indexOf(ENC_PATH) !== -1) {
+      return unlocked.then(function () {
+        return new Response(decrypted, { status: 200, headers: { "Content-Type": "application/json" } });
+      });
+    }
+    return realFetch(url, opts);
+  };
+  function b64ToBytes(b64) {
+    var bin = atob(b64.trim());
+    var out = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+  async function tryPassword(pw) {
+    var blob = b64ToBytes(await (await realFetch(ENC_PATH + ".enc")).text());
+    var salt = blob.slice(0, 16), iv = blob.slice(16, 28), ct = blob.slice(28);
+    var base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
+    var key = await crypto.subtle.deriveKey(
+      { name: "PBKDF2", salt: salt, iterations: 200000, hash: "SHA-256" },
+      base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+    var plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: iv }, key, ct);
+    return new TextDecoder().decode(plain);
+  }
+  function admit(text, pw) {
+    decrypted = text;
+    try { sessionStorage.setItem("demo-pw", pw); } catch (e) {}
+    var gateEl = document.getElementById("demo-gate");
+    if (gateEl) gateEl.remove();
+    unlock();
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    var form = document.getElementById("demo-gate-form");
+    var input = document.getElementById("demo-gate-pw");
+    var err = document.getElementById("demo-gate-err");
+    var cached = null;
+    try { cached = sessionStorage.getItem("demo-pw"); } catch (e) {}
+    if (cached) tryPassword(cached).then(function (t) { admit(t, cached); }).catch(function () {});
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var pw = input.value;
+      tryPassword(pw).then(function (t) { admit(t, pw); }).catch(function () {
+        err.style.display = "block";
+        input.select();
+      });
+    });
+    input.focus();
+  });
+})();
+</script>
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>
 "use strict";
