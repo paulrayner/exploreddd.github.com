@@ -178,9 +178,21 @@
     var form = document.getElementById("demo-gate-form");
     var input = document.getElementById("demo-gate-pw");
     var err = document.getElementById("demo-gate-err");
+    var fromUrl = null;
+    var m = location.hash.match(/^#pw=(.+)$/);
+    if (m) {
+      fromUrl = decodeURIComponent(m[1]);
+      history.replaceState(null, "", location.pathname + location.search);
+    }
     var cached = null;
     try { cached = sessionStorage.getItem("demo-pw"); } catch (e) {}
-    if (cached) tryPassword(cached).then(function (t) { admit(t, cached); }).catch(function () {});
+    if (fromUrl) {
+      tryPassword(fromUrl).then(function (t) { admit(t, fromUrl); }).catch(function () {
+        err.style.display = "block";
+      });
+    } else if (cached) {
+      tryPassword(cached).then(function (t) { admit(t, cached); }).catch(function () {});
+    }
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
       var pw = input.value;
