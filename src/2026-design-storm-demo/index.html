@@ -122,7 +122,7 @@
     Storm radar: NEXRAD archive via Iowa State Mesonet &middot;
     Foothills influent lab data &copy; 2026 <a href="https://www.denverwater.org/about-us/how-we-operate/public-records" target="_blank" rel="noopener">Denver Water</a>,
     provisional, provided as is, no warranty of any kind.
-    Built from <code>water-system-3d/system.json</code>.
+    Built in the <a href="https://github.com/paulrayner/design-storm-2026" target="_blank" rel="noopener">Design Storm workspace</a>.
   </div>
 </div>
 
@@ -211,7 +211,7 @@
 
 const KINDS = {
   reservoir: { color: "#3987e5", label: "Reservoirs & dams", shape: "circle" },
-  gage:      { color: "#d95926", label: "River gauges", shape: "triangle" },
+  gage:      { color: "#d95926", label: "River gages", shape: "triangle" },
   snotel:    { color: "#ffffff", label: "Snow stations", shape: "diamond" },
   plant:     { color: "#199e70", label: "Treatment plants", shape: "square" },
 };
@@ -385,7 +385,7 @@ function buildLegend() {
 }
 
 const KIND_INTRO = {
-  reservoir: "Reservoir / dam", gage: "River gauge",
+  reservoir: "Reservoir / dam", gage: "River gage",
   snotel: "Snow station (SNOTEL)", plant: "Treatment plant", tunnel: "Tunnel / conduit",
 };
 
@@ -568,7 +568,7 @@ async function renderInfluent() {
       decides how hard the treatment chemistry must work, and alkalinity
       decides how that chemistry behaves. Both need a lab, so they arrive as
       history, never as forecast. But water takes about four days to get here
-      from the sentinel gauge, and Denver Water's answer is a soft sensor:
+      from the gage above Strontia, and Denver Water's answer is a soft sensor:
       a model that predicts these lab numbers from the cheap upstream probes
       before the water arrives. That model is the design storm problem.</p>
       <div class="spark-label">Organic carbon arriving at the plant (TOC), mg/L</div>
@@ -758,9 +758,9 @@ const TOUR = [
   { id: "roberts", center: [-105.85, 39.55], zoom: 9.2, pitch: 55, bearing: 60,
     text: "Instead it takes the Roberts Tunnel: 23 miles straight under the Continental Divide, from Dillon to the North Fork of the South Platte." },
   { id: "gage-06702500", zoom: 11, pitch: 60,
-    text: "At Grant, tunnel water pours into the North Fork. This gauge watches the river swell with borrowed Blue River water." },
+    text: "At Grant, tunnel water pours into the North Fork. This gage watches the river swell with borrowed Blue River water." },
   { id: "gage-06707525", zoom: 11.2, pitch: 60,
-    text: "Everything converges here: the sentinel gauge above Strontia Springs. It reads turbidity, temperature, and chemistry every 15 minutes. 80% of Denver's supply passes this point." },
+    text: "Everything converges here: the gage above Strontia Springs Reservoir. It reads turbidity, temperature, and chemistry every 15 minutes. 80% of Denver's supply passes this point." },
   { id: "dam-strontia", zoom: 11.8, pitch: 62, bearing: -30,
     text: "Strontia Springs Dam, in Waterton Canyon. From here water is piped to the Foothills and Marston treatment plants. Aurora drinks from this reservoir too." },
   { id: "plant-foothills", zoom: 11.4, pitch: 55,
@@ -769,7 +769,7 @@ const TOUR = [
     text: "There is a second, northern route: the Moffat Tunnel carries Fraser River water under the divide at Winter Park to Gross Reservoir, Ralston, and the new Northwater plant." },
   { view: HOME,
     title: "The whole machine",
-    text: "Snow stations forecast it, reservoirs store it, tunnels move it, gauges watch it, plants finish it. Click any marker to see what it is measuring right now." },
+    text: "Snow stations forecast it, reservoirs store it, tunnels move it, gages watch it, plants finish it. Click any marker to see what it is measuring right now." },
 ];
 
 function tourGo(i) {
@@ -845,13 +845,13 @@ function buildCaptions() {
   const turbPeak = STORM.turb.reduce((best, d, i) => (d.v > STORM.turb[best].v ? i : best), 0);
   const flowRise = STORM.flow.findIndex((d) => d.v > STORM.flow[0].v * 1.5);
   return [
-    { from: 0, text: "Midday, Aug 14: baseline. The river runs clear at about 2 FNU past the sentinel gauge." },
+    { from: 0, text: "Midday, Aug 14: baseline. The river runs clear at about 2 FNU past the gage above Strontia." },
     { from: Math.max(0, frameIndexAt(13, 0, 14)),
-      text: "1:00 PM: the conductance probe at the sentinel blips to 38 (its neighbors read about 300). It carries only the routine provisional flag. Nobody is paged." },
+      text: "1:00 PM: the conductance probe at the gage blips to 38 (its neighbors read about 300). It carries only the routine provisional flag. Nobody is paged." },
     { from: Math.max(0, frameIndexAt(17, 0, 14)),
       text: "Evening: monsoon cells train over the upper basin. Watch the radar paint the canyons above Strontia Springs." },
     ...(flowRise > 0 ? [{ from: flowRise,
-      text: `The river answers: flow at Trumbull climbs past ${Math.round(STORM.flow[flowRise].v)} cubic ft/s.` }] : []),
+      text: `The river answers: flow at the gage near Trumbull climbs past ${Math.round(STORM.flow[flowRise].v)} cubic ft/s.` }] : []),
     { from: turbPeak,
       text: `${formatFrameTime(STORM.frames[turbPeak])}: turbidity spikes to ${Math.round(STORM.turb[turbPeak].v)} FNU, from a baseline of 2. The sediment pulse is minutes from Strontia Springs Reservoir.` },
     { from: Math.min(turbPeak + 12, STORM.frames.length - 1),
@@ -880,12 +880,12 @@ function setRadarFrame(date) {
     paint: { "raster-opacity": 0.7, "raster-fade-duration": 0 } }, "basin-line");
 }
 
-const REPLAY_GAUGES = ["gage-06701900", "gage-06707525"];
+const REPLAY_GAGES = ["gage-06701900", "gage-06707525"];
 
 function addReplayLabels() {
   if (map.getLayer("replay-labels")) return;
   map.addLayer({ id: "replay-labels", type: "symbol", source: "points",
-    filter: ["in", "id", ...REPLAY_GAUGES],
+    filter: ["in", "id", ...REPLAY_GAGES],
     layout: {
       "text-field": ["get", "name"],
       "text-font": ["Noto Sans Regular"],
@@ -946,9 +946,9 @@ async function replayStart() {
   }
   document.getElementById("replay-slider").max = STORM.frames.length - 1;
   document.getElementById("replay-charts").innerHTML = `
-    <div class="spark-label">Flow at the Trumbull gauge, cubic ft/s</div>
+    <div class="spark-label">Flow at the gage near Trumbull, cubic ft/s</div>
     <canvas class="spark" id="replay-flow"></canvas>
-    <div class="spark-label">Turbidity at the sentinel gauge, FNU</div>
+    <div class="spark-label">Turbidity at the gage above Strontia, FNU</div>
     <canvas class="spark" id="replay-turb"></canvas>`;
   addReplayLabels();
   replaySet(0);

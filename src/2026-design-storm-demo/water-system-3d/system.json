@@ -113,7 +113,7 @@
   {
    "id": "gage-06707525",
    "kind": "gage",
-   "name": "Strontia Springs Sentinel Gauge",
+   "name": "South Platte River above Strontia Springs Reservoir",
    "usgs_name": "SOUTH PLATTE RIVER ABV STRONTIA SPGS RESERVOIR, CO",
    "lat": 39.4164,
    "lon": -105.15106,
@@ -128,7 +128,7 @@
   {
    "id": "gage-06701900",
    "kind": "gage",
-   "name": "South Platte Gauge near Trumbull",
+   "name": "South Platte River below Brush Creek near Trumbull",
    "usgs_name": "SOUTH PLATTE RIVER BLW BRUSH CRK NEAR TRUMBULL, CO",
    "lat": 39.26,
    "lon": -105.2214,
@@ -155,7 +155,7 @@
   {
    "id": "gage-09023562",
    "kind": "gage",
-   "name": "Fraser River below Moffat Tunnel",
+   "name": "Fraser River below Moffat Tunnel at Winter Park",
    "usgs_name": "FRASER RIVER BLW MOFFAT TUNNEL AT WINTER PARK, CO",
    "lat": 39.8876,
    "lon": -105.762019,
@@ -177,7 +177,7 @@
   {
    "id": "gage-09037500",
    "kind": "gage",
-   "name": "Williams Fork Gauge near Parshall",
+   "name": "Williams Fork near Parshall",
    "usgs_name": "WILLIAMS FORK NEAR PARSHALL, CO",
    "lat": 40.0002,
    "lon": -106.180367,
@@ -192,7 +192,7 @@
   {
    "id": "gage-06702500",
    "kind": "gage",
-   "name": "North Fork Gauge at Grant",
+   "name": "North Fork South Platte River at Grant",
    "usgs_name": "NORTH FORK SOUTH PLATTE RIVER AT GRANT, CO.",
    "lat": 39.45915449,
    "lon": -105.6641716,
@@ -207,7 +207,7 @@
   {
    "id": "gage-06707000",
    "kind": "gage",
-   "name": "North Fork Confluence Gauge",
+   "name": "North Fork South Platte River at South Platte",
    "usgs_name": "NF SOUTH PLATTE RIVER AT SOUTH PLATTE, CO.",
    "lat": 39.408878,
    "lon": -105.1758234,
@@ -222,7 +222,7 @@
   {
    "id": "gage-06707500",
    "kind": "gage",
-   "name": "South Platte Mainstem Gauge",
+   "name": "South Platte River at South Platte",
    "usgs_name": "SOUTH PLATTE RIVER AT SOUTH PLATTE, CO",
    "lat": 39.4091558,
    "lon": -105.1699899,
