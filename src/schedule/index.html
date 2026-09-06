@@ -1366,6 +1366,20 @@ const TBD_SESSIONS = {
     speakerNames: ["Hosted by Eric Evans"],
     format: "Panel (45 min)",
     pending: true
+  },
+  "TBD-thu-block1-talk": {
+    title: "Session to be announced",
+    description: "This slot is being finalized. Check back soon.",
+    speakerNames: [],
+    format: "Talk (45 min)",
+    pending: true
+  },
+  "TBD-thu-block2-talk": {
+    title: "Session to be announced",
+    description: "This slot is being finalized. Check back soon.",
+    speakerNames: [],
+    format: "Talk (45 min)",
+    pending: true
   }
 };
 
@@ -1533,7 +1547,7 @@ const SCHEDULE = {
         type: "block",
         slots: [
           { type: "talks", time: ["9:45", "10:45"], sessionIds: ["1189215", "1288265"] },
-          { type: "talks", time: ["9:45", "10:45"], sessionIds: ["1117537", "1189426"] },
+          { type: "talks", time: ["9:45", "10:45"], sessionIds: ["1117537", "TBD-thu-block1-talk"] },
           { sessionId: "1202756" },
           { sessionId: "1189257" },
           { sessionId: "1142871" },
@@ -1547,7 +1561,7 @@ const SCHEDULE = {
       {
         type: "block",
         slots: [
-          { type: "talks", time: ["12:45", "1:45"], sessionIds: ["1129252", "1189435"] },
+          { type: "talks", time: ["12:45", "1:45"], sessionIds: ["1129252", "TBD-thu-block2-talk"] },
           { type: "talks25", time: ["12:45", "1:15", "1:45", "2:15"], sessionIds: ["1283877", "1187527", "1189152", "1185200"], note: "4 × 25-min" },
           { sessionId: "1189380" },
           { sessionId: "TBD-indu-legacy" },

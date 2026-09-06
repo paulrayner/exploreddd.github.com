@@ -517,30 +517,6 @@
         "isConfirmed": true
       },
       {
-        "id": "1189426",
-        "title": "Designing Agentic UIs: When AI is a Domain Actor",
-        "description": "As we integrate LLMs and autonomous agents into our applications, the traditional boundaries of software design are breaking. We used to have human users sending commands to a system. Now, we have AI agents observing the system, communicating with users, and taking autonomous actions.\r\n\r\nHow do we model this in DDD? Is an AI agent a User? A Domain Service? An external Bounded Context? In this talk, we’ll look at the architectural implications of building \"Agentic UIs\" and integrating AI into the domain. We’ll explore how to model agent permissions, how to design commands that can be safely issued by non-humans, and how to use the Ubiquitous Language to prompt and constrain LLM behaviors. This is a forward-looking talk about applying rigorous domain modeling principles to the wild west of AI-driven fullstack applications.",
-        "startsAt": null,
-        "endsAt": null,
-        "isServiceSession": false,
-        "isPlenumSession": false,
-        "speakers": [
-          "a1bb832b-5d10-4914-8150-dfdae9875e8a"
-        ],
-        "categoryItems": [
-          422793,
-          422797,
-          422808
-        ],
-        "questionAnswers": [],
-        "roomId": null,
-        "liveUrl": null,
-        "recordingUrl": null,
-        "status": "Accepted",
-        "isInformed": true,
-        "isConfirmed": true
-      },
-      {
         "id": "1154435",
         "title": "Designing microservices: responsibilities, APIs and collaborations",
         "description": "GenAI-based coding agents dramatically increase the rate of change, making fast flow even more essential. The microservice architecture enables that flow at scale, and well-designed service boundaries act as guardrails for coding agents, containing complexity and limiting technical debt. Yet it is far too easy to get service boundaries wrong and create a fragile distributed monolith where teams are tightly coupled; services change in lockstep; deployments are risky; autonomy is an illusion; and fast flow becomes systemic friction.\r\n\r\nIn this workshop, Chris Richardson presents a structured, collaborative process for defining a microservice architecture that enables fast flow. Through lectures and guided discussions, you will learn how to design microservices with clear responsibilities, well-defined APIs, and explicit collaboration patterns. In hands-on modeling exercises, you will apply the process using a GenAI-assisted architect’s workbench that accelerates architecture exploration and refinement while reinforcing disciplined design thinking.\r\n\r\nBy the end of the workshop, you will have a practical, repeatable approach for defining a microservice architecture that reduces friction, increases team autonomy, and enables sustainable high-velocity delivery in the age of GenAI.\r\n\r\nAgenda:\r\n\r\nDay 1\r\nDesigning a microservice architecture for fast, sustainable flow\r\nDiscovering system operations\r\nDesigning subdomains.\r\nService collaboration patterns\r\n\r\nDay 2\r\nDesigning a service architecture\r\nEvaluating a microservice architecture\r\nRefactoring a microservice architecture.",
@@ -999,30 +975,6 @@
           422793,
           422797,
           422807
-        ],
-        "questionAnswers": [],
-        "roomId": null,
-        "liveUrl": null,
-        "recordingUrl": null,
-        "status": "Accepted",
-        "isInformed": true,
-        "isConfirmed": true
-      },
-      {
-        "id": "1189435",
-        "title": "Tactical DDD Without Over Engineering: When Simple Is the Smartest Design",
-        "description": "Somewhere along the way, applying tactical DDD started to mean adding patterns whether the problem needed them or not. Teams implement domain events for CRUD applications, build saga orchestration for workflows with two steps, and introduce event stores for systems that will never need temporal queries. The result is often the same: a system that is harder to understand, slower to deliver, and more expensive to maintain than the simpler alternative would have been.\r\n\r\nThis talk makes the case for minimal viable DDD, applying just enough tactical patterns to get the design benefits without paying unnecessary architectural cost.\r\n\r\nWe will start with an honest inventory of tactical DDD patterns and ask a question that is not asked often enough: what does each pattern actually cost? Not in lines of code, but in conceptual overhead, operational complexity, onboarding time, debugging difficulty, and long term maintenance burden. Event sourcing gives you a complete audit trail and temporal queries, but it also introduces eventual consistency, event versioning, and a very different operational model. CQRS gives you independent read and write optimization, but it also brings synchronization complexity and a larger codebase. Every pattern has a price, and that price should be justified by the problem.\r\n\r\nThe core of the talk is a decision framework built around a simple question: do I actually need this pattern? We will walk through five tactical patterns, Aggregates, Value Objects, Domain Events, CQRS, and Event Sourcing, and for each one I will show the level of complexity where the pattern begins to earn its cost. Below that threshold, I will show the simpler alternative that delivers most of the benefit with much less overhead.\r\n\r\nWe will examine real before and after examples of systems that improved by removing unnecessary tactical patterns. An event sourced system replaced by a simple audit log table. A saga based workflow simplified into a transaction. A CQRS design collapsed into a single model because the read and write sides never meaningfully diverged.\r\n\r\nThis is not an anti DDD talk. It is a pro DDD talk that argues the most sophisticated thing you can do is choose the simplest design that solves your actual problem. Strategic DDD, including bounded contexts, context mapping, and ubiquitous language, is often worth the investment. Tactical patterns should be earned, not assumed.\r\n\r\nYou will leave with a practical checklist for evaluating whether a pattern is pulling its weight in your system, and the confidence to simplify when the answer is no.",
-        "startsAt": null,
-        "endsAt": null,
-        "isServiceSession": false,
-        "isPlenumSession": false,
-        "speakers": [
-          "9a90eef3-1c5b-46c8-bff8-b6a63b76069c"
-        ],
-        "categoryItems": [
-          422793,
-          422797,
-          422808
         ],
         "questionAnswers": [],
         "roomId": null,

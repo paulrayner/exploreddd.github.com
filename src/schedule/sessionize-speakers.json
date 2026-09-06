@@ -94,29 +94,6 @@
     ]
   },
   {
-    "id": "a1bb832b-5d10-4914-8150-dfdae9875e8a",
-    "firstName": "Dev",
-    "lastName": "Agrawal",
-    "bio": "I build and teach how to build awesome fullstack applications. I work as a DevRel Engineer at PowerSync, I'm a core team member of Solid.js, and I make content on YouTube and Twitch. I talk about web development, architecture, reactive programming, home brewing coffee, and heavy metal music.",
-    "tagLine": "Developer Relations Engineer, PowerSync",
-    "profilePicture": "https://cdn.sessionize.com/image/8d06-400o400o1-wtZV7wx95BCPKqUZhNDrvq.jpg",
-    "isTopSpeaker": false,
-    "links": [],
-    "sessions": [
-      1189426
-    ],
-    "fullName": "Dev Agrawal",
-    "categoryItems": [
-      422802
-    ],
-    "questionAnswers": [
-      {
-        "questionId": 117323,
-        "answerValue": "US"
-      }
-    ]
-  },
-  {
     "id": "ffc04f2e-579f-4653-8dad-5779557fd386",
     "firstName": "Diana",
     "lastName": "Montalion",
@@ -743,29 +720,6 @@
     ]
   },
   {
-    "id": "9a90eef3-1c5b-46c8-bff8-b6a63b76069c",
-    "firstName": "Sachin",
-    "lastName": "Gupta",
-    "bio": "I am a senior backend and platform engineer at eBay with over 14 years of experience building and modernizing enterprise systems. I work on large scale billing and financial platforms that demand high reliability, strong security, and precise data correctness. I spend most of my time modernizing legacy architectures, designing cloud ready services, and building APIs and pipelines that hold up under heavy traffic and real world failure modes.\r\n\r\nLately, I have been integrating AI into engineering workflows, focusing on diagnostics, observability, testing, and automation that help teams move faster without sacrificing safety.\r\n\r\nOn stage, I share field tested patterns and mistakes to avoid, from migrations and cutovers to incident driven design and operational readiness. My goal is to give engineers practical takeaways they can apply immediately when building and modernizing systems at scale.",
-    "tagLine": "Technical Leader at eBay",
-    "profilePicture": "https://cdn.sessionize.com/image/79fb-400o400o1-sc8oaFYsMU2WDTFbZNVCod.png",
-    "isTopSpeaker": false,
-    "links": [],
-    "sessions": [
-      1189435
-    ],
-    "fullName": "Sachin Gupta",
-    "categoryItems": [
-      422803
-    ],
-    "questionAnswers": [
-      {
-        "questionId": 117323,
-        "answerValue": "United States"
-      }
-    ]
-  },
-  {
     "id": "18fbb953-a960-4f73-bcd4-a078fc1b886a",
     "firstName": "Sonya",
     "lastName": "Natanzon",
@@ -862,7 +816,7 @@
     "id": "fba0166b-1333-48e5-b630-edf6c1fff32a",
     "firstName": "Tina",
     "lastName": "Thomas",
-    "bio": "Tina Thomas is a Senior Developer Consultant at Thoughtworks with over a decade of experience building resilient, distributed systems. Throughout her career, she has bridged the gap between complex business strategy and technical execution, contributing both technically and strategically across the entire delivery lifecycle. Navigating diverse stacks including Kotlin, .NET, and Go, Tina is passionate about collaborating with stakeholders to build software solutions that solve real-world problems.",
+    "bio": "Tina Thomas is a Lead Developer Consultant at Thoughtworks with over a decade of experience building resilient, distributed systems. Working across diverse tech stacks—including Kotlin, .NET, and Go—she bridges the gap between complex business strategy and execution throughout the delivery lifecycle. Currently active in MLE, she remains passionate about working with stakeholders to build software that solves real-world problems.",
     "tagLine": "Senior Software Consultant",
     "profilePicture": "https://cdn.sessionize.com/image/c5d6-400o400o1-sUGeRTXYJULnKeqHzGd9oJ.jpg",
     "isTopSpeaker": false,
