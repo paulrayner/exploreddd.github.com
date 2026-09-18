@@ -192,41 +192,6 @@
         "isConfirmed": true
       },
       {
-        "id": "1188592",
-        "title": "Build your own coding agent from scratch",
-        "description": "You use AI agents every day: Claude Code, Codex, Cursor. But do you know what's actually happening under the hood? It turns out, the core of every AI agent is surprisingly simple: a while loop, a language model, and some tools.\n\nIn this live-coding session, we'll build an AI coding agent without any frameworks. We'll start from a bare frontier model call to an LLM and incrementally add capabilities. At each step, we'll hit a real limitation, understand why it exists, and solve it. You'll watch a basic chatbot evolve into a sophisticated coding agent with tools, conversation history, and guardrails.\n\nBy the end of this session, you'll be able to:\n- explain the agentic loop that powers LLM agents\n- identify the core components of AI agents\n- build your own simple agent and extend it with custom tools\n\nPrerequisites: Bring your own coding agent (Claude Code, Codex, Gemini CLI, etc.) with an active subscription. For the agent itself, you'll need an OpenRouter.ai account (openrouter.ai). You can use free or cheap models; token usage is modest.",
-        "startsAt": null,
-        "endsAt": null,
-        "isServiceSession": false,
-        "isPlenumSession": false,
-        "speakers": [
-          "f24225da-4a42-490f-a8e2-9894cf32a736",
-          "6f1f2448-c7d3-4627-b450-e61bc158d1d3"
-        ],
-        "categoryItems": [
-          422794,
-          422798,
-          422800,
-          422808
-        ],
-        "questionAnswers": [
-          {
-            "questionId": 117320,
-            "answerValue": "We'll work in TypeScript\r\nYou need to bring your own API key for Anthropic, OpenAI or a similar frontier model provider."
-          },
-          {
-            "questionId": 117321,
-            "answerValue": "25-30? We can have them work in pairs or small groups"
-          }
-        ],
-        "roomId": null,
-        "liveUrl": null,
-        "recordingUrl": null,
-        "status": "Accepted",
-        "isInformed": true,
-        "isConfirmed": true
-      },
-      {
         "id": "1188600",
         "title": "Build your own coding agent from scratch",
         "description": "You use AI agents every day: Claude Code, Codex, Cursor. But do you know what's actually happening under the hood? It turns out, the core of every AI agent is surprisingly simple: a while loop, a language model, and some tools.\r\n\r\nIn this hands-on workshop, we'll build an AI agent from scratch without any frameworks. We'll start from a bare frontier model call to an LLM and incrementally add capabilities.\r\n\r\nAt each step, we'll hit a real limitation, understand why it exists, and solve it. You'll watch a basic chatbot evolve into a sophisticated agent with tools, conversation history, and guardrails.\r\n\r\nBy the end of day one, you'll be able to:\r\n- explain the agentic loop that powers LLM agents\r\n- identify the core components of AI agents\r\n- build your own simple agent and extend it with custom tools\r\n- explain context windows and how to manage agent context\r\n\r\nOn the second day we'll explore deeper topics like:\r\n- deterministic vs non-deterministic capabilities of agents: when and where each is appropriate\r\n- using evals to test the non-deterministic behaviour of your agent\r\n- adding domain-specific tools to manage ludic constraints\r\n\r\nWe'll attempt a refactoring challenge, and pit our agents against each other in a fun competition to end the workshop.",
@@ -253,6 +218,41 @@
           {
             "questionId": 117321,
             "answerValue": "25-30"
+          }
+        ],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "id": "1188592",
+        "title": "Build your own coding agent from scratch",
+        "description": "You use AI agents every day: Claude Code, Codex, Cursor. But do you know what's actually happening under the hood? It turns out, the core of every AI agent is surprisingly simple: a while loop, a language model, and some tools.\n\nIn this live-coding session, we'll build an AI coding agent without any frameworks. We'll start from a bare frontier model call to an LLM and incrementally add capabilities. At each step, we'll hit a real limitation, understand why it exists, and solve it. You'll watch a basic chatbot evolve into a sophisticated coding agent with tools, conversation history, and guardrails.\n\nBy the end of this session, you'll be able to:\n- explain the agentic loop that powers LLM agents\n- identify the core components of AI agents\n- build your own simple agent and extend it with custom tools\n\nPrerequisites: Bring your own coding agent (Claude Code, Codex, Gemini CLI, etc.) with an active subscription. For the agent itself, you'll need an OpenRouter.ai account (openrouter.ai). You can use free or cheap models; token usage is modest.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "f24225da-4a42-490f-a8e2-9894cf32a736",
+          "6f1f2448-c7d3-4627-b450-e61bc158d1d3"
+        ],
+        "categoryItems": [
+          422794,
+          422798,
+          422800,
+          422808
+        ],
+        "questionAnswers": [
+          {
+            "questionId": 117320,
+            "answerValue": "We'll work in TypeScript\r\nYou need to bring your own API key for Anthropic, OpenAI or a similar frontier model provider."
+          },
+          {
+            "questionId": 117321,
+            "answerValue": "25-30? We can have them work in pairs or small groups"
           }
         ],
         "roomId": null,
@@ -459,8 +459,8 @@
       },
       {
         "id": "1188263",
-        "title": "DDD Discovery Deck: Play Your Way Through Six Essential Modeling Activities",
-        "description": "Grab a seat at the table. We're dealing you into a fast-paced, boardgame-style tour of six discovery and modeling techniques. Using a custom card deck and a shared business domain, your team will play through six rounds: Wardley Mapping to map where value flows and what's evolving, Domain Storytelling to uncover how work really happens by narrating real scenarios, Service Blueprints to see how customers experience the system and what happens backstage, Event Storming to surface the domain events, commands, and actors driving it all, Bounded Context Canvas to name and document what's inside each boundary, and Team Topologies Mapping to figure out who owns what and how the teams interact. Each round builds on the last, so by the final hand you'll have gone from \"where does value flow?\" to \"here's how we organize around it.\" You'll walk away with a practical feel for when and why to reach for each technique.",
+        "title": "DDD Discovery Deck: Play Your Way Through Five Essential Modeling Activities",
+        "description": "Grab a seat at the table. We're dealing you into a fast-paced, boardgame-style tour of five discovery and modeling techniques. Using a custom card deck and a shared business domain, your team will play through five rounds: Ecosystem Mapping to discover the stakeholders, Wardley Mapping to map where value flows and what's evolving, Domain Storytelling to uncover how work really happens by narrating real scenarios, Event Storming to surface the domain events, commands, and actors driving it all, and Bounded Context Canvas to name and document what's inside each boundary. Each round builds on the last, so by the final hand you'll have gone from \"where does value flow?\" to \"here's how we organize around it.\" You'll walk away with a practical feel for when and why to reach for each technique.",
         "startsAt": null,
         "endsAt": null,
         "isServiceSession": false,
@@ -1059,7 +1059,7 @@
       {
         "id": "1188398",
         "title": "You Inherited the EventStorming Board. Now What?",
-        "description": "Most developers will never run an EventStorming session — but they’ll often inherit the output. This workshop starts with a pre-built EventStorming board for a realistic domain (15-min facilitated walkthrough), then splits attendees into teams, each owning a different bounded context. Teams model their service, agree on event contracts across context boundaries, and implement their slice using AI coding assistants and AWS CDK (TypeScript). The integration moment — where teams wire their services together through shared events — is where the real DDD lessons land: how team boundaries become service boundaries, how event contracts are a design conversation, and why Conway’s Law isn’t just theory. Attendees leave having felt the tension and payoff of distributed domain modeling firsthand.\r\n\r\nCoding language: TypeScript (CDK + Lambda). Free AWS accounts provided.",
+        "description": "Most developers will never run an EventStorming session — but they’ll often inherit the output. This workshop starts with a pre-built EventStorming board for a realistic domain (30-min facilitated walkthrough), then splits attendees into teams, each owning a different bounded context. Teams model their service, agree on event contracts across context boundaries, and implement their slice using AI coding assistants and infrastructure as code (IaC) on AWS. The integration moment — where teams wire their services together through shared events — is where the real DDD lessons land: how team boundaries become service boundaries, how event contracts are a design conversation, and why Conway’s Law isn’t just theory. Attendees leave having felt the tension and payoff of distributed domain modeling firsthand.\r\n\r\nCoding languages: TypeScript or Python (both fully supported; any language your IaC tooling supports also works). Free AWS accounts provided.",
         "startsAt": null,
         "endsAt": null,
         "isServiceSession": false,
@@ -1076,7 +1076,7 @@
         "questionAnswers": [
           {
             "questionId": 117320,
-            "answerValue": "Ability to code in python or typescript. AWS accounts provided for free. "
+            "answerValue": "Ability to code in python or typescript. AWS accounts provided for free. \r\n\r\nVS Code and Docker required. We'll try to provide Claude Code access too, but bringing your own subscription to a coding assistant (Claude Code, Cursor, Codex, or similar) is the safest bet."
           },
           {
             "questionId": 117321,

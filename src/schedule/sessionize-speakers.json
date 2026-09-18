@@ -27,8 +27,8 @@
     "id": "44bea5e6-40d9-44c3-b996-ee34ebbdc57a",
     "firstName": "Brian",
     "lastName": "Zambrano",
-    "bio": "Brian Zambrano is a Sr. Deep Learning Architect at AWS. He comes from a 25+ year career building software as an engineer and architect. He currently works in the AWS Generative AI Innovation Center where he helps bring customer's GenAI solutions to life, using his background in cloud architecture, serverless, and event-driven systems. Brian is the author of Serverless Design Patterns and Best Practices published in 2018. Brian has held multiple roles in his seven years at AWS, including software engineer, Enterprise Solutions Architect, and Specialist Solutions Architect.",
-    "tagLine": "AWS, Deep Learning Architect ",
+    "bio": "Brian Zambrano is a Staff Solutions Architect at Temporal, with a 25+ year career building software as an engineer and architect. Prior to Temporal, he spent 7.5 years at AWS in roles spanning software development engineer, solutions architect, and specialist solutions architect for serverless, most recently as a Sr. Deep Learning Architect in the AWS Generative AI Innovation Center. A believer in software craftsmanship, Brian has spent recent years championing domain-driven design and EventStorming as tools for taming complex systems. He founded and scaled AWS's EventStorming facilitator program, training 150+ practitioners. He is the author of Serverless Design Patterns and Best Practices (Packt, 2018).",
+    "tagLine": "Temporal, Staff Solutions Architect",
     "profilePicture": "https://cdn.sessionize.com/image/7322-400o400o1-DXjW3fB5Tz2zt3VDutMJKq.jpg",
     "isTopSpeaker": false,
     "links": [],
@@ -37,7 +37,7 @@
     ],
     "fullName": "Brian Zambrano",
     "categoryItems": [
-      422802
+      422803
     ],
     "questionAnswers": [
       {
@@ -565,8 +565,8 @@
     "isTopSpeaker": false,
     "links": [],
     "sessions": [
-      1188592,
       1188600,
+      1188592,
       1189380
     ],
     "fullName": "Matt Wynne",
@@ -752,8 +752,8 @@
     "isTopSpeaker": false,
     "links": [],
     "sessions": [
-      1188592,
-      1188600
+      1188600,
+      1188592
     ],
     "fullName": "Steven Diamante",
     "categoryItems": [
