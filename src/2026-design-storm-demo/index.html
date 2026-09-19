@@ -567,10 +567,12 @@ async function renderInfluent() {
       These are two signals it wishes it could see coming: organic carbon
       decides how hard the treatment chemistry must work, and alkalinity
       decides how that chemistry behaves. Both need a lab, so they arrive as
-      history, never as forecast. But water takes about four days to get here
-      from the gage above Strontia, and Denver Water's answer is a soft sensor:
-      a model that predicts these lab numbers from the cheap upstream probes
-      before the water arrives. That model is the design storm problem.</p>
+      history, never as forecast. What arrives here tracks the gage above
+      Strontia from a day or two earlier (the water itself takes about four
+      hours; the reservoir's mixing stretches the signal), and Denver Water's
+      answer is a soft sensor: a model that predicts these lab numbers from the
+      cheap upstream probes before the water arrives. That model is the design
+      storm problem.</p>
       <div class="spark-label">Organic carbon arriving at the plant (TOC), mg/L</div>
       <canvas class="spark" id="influent-toc"></canvas>
       <div class="spark-label">Alkalinity of the arriving water, mg/L</div>
@@ -751,8 +753,8 @@ const TOUR = [
   { view: HOME,
     title: "Where a city keeps its water",
     text: "Everything Denver drinks starts as mountain snow inside these dashed basin outlines, on both sides of the Continental Divide. Follow one drop." },
-  { id: "sntl-937", zoom: 11, pitch: 62,
-    text: "It starts as snow. This pillow at 10,700 ft weighs the snowpack all winter; its melt feeds the South Platte." },
+  { id: "sntl-938", zoom: 11, pitch: 62,
+    text: "It starts as snow. This pillow at Buckskin Joe, 11,160 ft up, weighs the snowpack all winter; its melt feeds the South Platte. Most of Denver's water begins this way, with a smaller share arriving as rain." },
   { id: "res-dillon", zoom: 10.6, pitch: 58, bearing: 25,
     text: "Snowmelt on the WEST side of the divide fills Dillon Reservoir, Denver Water's biggest bucket. Left alone, this water would flow to the Pacific." },
   { id: "roberts", center: [-105.85, 39.55], zoom: 9.2, pitch: 55, bearing: 60,

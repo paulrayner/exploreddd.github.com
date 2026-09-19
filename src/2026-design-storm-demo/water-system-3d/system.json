@@ -25,15 +25,6 @@
    }
   },
   {
-   "id": "res-williams_fork_reservoir",
-   "kind": "reservoir",
-   "name": "Williams Fork Reservoir",
-   "usgs_name": "WILLIAMS FORK RESERVOIR NEAR DAM",
-   "lat": 40.03,
-   "lon": -106.2106,
-   "blurb": "West-slope storage used to repay the Colorado River basin for water diverted east."
-  },
-  {
    "id": "res-gross",
    "kind": "reservoir",
    "name": "Gross Reservoir",
@@ -62,10 +53,10 @@
    "id": "res-eleven_mile",
    "kind": "reservoir",
    "name": "Eleven Mile Canyon Reservoir",
-   "usgs_name": "ELEVEN MILE CANYON RESERVOIR NR HARTSEL, CO.",
-   "lat": 38.9661,
-   "lon": -105.5822,
-   "blurb": "High-plains storage on the South Platte in South Park."
+   "usgs_name": "ELEVENMILE CANYON RE NEAR LAKE GEORGE, CO.",
+   "lat": 38.9053,
+   "lon": -105.4756,
+   "blurb": "High-plains storage on the South Platte in South Park. The marker sits at the dam, near Lake George."
   },
   {
    "id": "res-antero",
@@ -95,11 +86,11 @@
   {
    "id": "res-marston",
    "kind": "reservoir",
-   "name": "Marston Lake",
+   "name": "Marston Forebay",
    "usgs_name": "MARSTON LAKE",
    "lat": 39.6217,
    "lon": -105.065,
-   "blurb": "Terminal storage inside Denver, beside the Marston Treatment Plant. Fed by gravity from Waterton Canyon through Conduit 20."
+   "blurb": "Terminal storage inside Denver, beside the Marston Treatment Plant. Fed by gravity from Waterton Canyon through Conduit 20. A forebay, not a lake: it has no natural inputs, water is moved here specifically to be treated."
   },
   {
    "id": "res-ralston",
@@ -113,11 +104,11 @@
   {
    "id": "gage-06707525",
    "kind": "gage",
-   "name": "South Platte River above Strontia Springs Reservoir",
+   "name": "Strontia Springs Sentinel Gauge",
    "usgs_name": "SOUTH PLATTE RIVER ABV STRONTIA SPGS RESERVOIR, CO",
    "lat": 39.4164,
    "lon": -105.15106,
-   "blurb": "The sentinel. The last measurement point before 80% of Denver's water enters Strontia Springs Reservoir. Reads temperature, conductance, dissolved oxygen, pH, and turbidity every 15 minutes. Water passing here takes about four days to reach the plant intake (Denver Water's own figure), mostly resting in the reservoir; that transit time is the warning window a soft sensor tries to use. In the August 2026 storm, evening rain became a 329 FNU spike here by 1:45 AM while the flow gauge upstream barely moved: the sediment washed in from side canyons between the two, the stretch no gauge watches.",
+   "blurb": "The sentinel. The last measurement point before 80% of Denver's water enters Strontia Springs Reservoir. Reads temperature, conductance, dissolved oxygen, pH, and turbidity every 15 minutes. Water passing here reaches the plant intake in about four hours (Denver Water's raw water group), yet what the plant receives tracks these readings from a day or two earlier, because the reservoir mixes and settles what arrives; that lag is the warning window a soft sensor tries to use. In the August 2026 storm, evening rain became a 329 FNU spike here by 1:45 AM while the flow gauge upstream barely moved: the sediment washed in from side canyons between the two, the stretch no gauge watches.",
    "chart": {
     "type": "usgs",
     "site": "06707525",
@@ -128,7 +119,7 @@
   {
    "id": "gage-06701900",
    "kind": "gage",
-   "name": "South Platte River below Brush Creek near Trumbull",
+   "name": "South Platte Gauge near Trumbull",
    "usgs_name": "SOUTH PLATTE RIVER BLW BRUSH CRK NEAR TRUMBULL, CO",
    "lat": 39.26,
    "lon": -105.2214,
@@ -155,7 +146,7 @@
   {
    "id": "gage-09023562",
    "kind": "gage",
-   "name": "Fraser River below Moffat Tunnel at Winter Park",
+   "name": "Fraser River below Moffat Tunnel",
    "usgs_name": "FRASER RIVER BLW MOFFAT TUNNEL AT WINTER PARK, CO",
    "lat": 39.8876,
    "lon": -105.762019,
@@ -177,7 +168,7 @@
   {
    "id": "gage-09037500",
    "kind": "gage",
-   "name": "Williams Fork near Parshall",
+   "name": "Williams Fork Gauge near Parshall",
    "usgs_name": "WILLIAMS FORK NEAR PARSHALL, CO",
    "lat": 40.0002,
    "lon": -106.180367,
@@ -192,7 +183,7 @@
   {
    "id": "gage-06702500",
    "kind": "gage",
-   "name": "North Fork South Platte River at Grant",
+   "name": "North Fork Gauge at Grant",
    "usgs_name": "NORTH FORK SOUTH PLATTE RIVER AT GRANT, CO.",
    "lat": 39.45915449,
    "lon": -105.6641716,
@@ -207,7 +198,7 @@
   {
    "id": "gage-06707000",
    "kind": "gage",
-   "name": "North Fork South Platte River at South Platte",
+   "name": "North Fork Confluence Gauge",
    "usgs_name": "NF SOUTH PLATTE RIVER AT SOUTH PLATTE, CO.",
    "lat": 39.408878,
    "lon": -105.1758234,
@@ -222,7 +213,7 @@
   {
    "id": "gage-06707500",
    "kind": "gage",
-   "name": "South Platte River at South Platte",
+   "name": "South Platte Mainstem Gauge",
    "usgs_name": "SOUTH PLATTE RIVER AT SOUTH PLATTE, CO",
    "lat": 39.4091558,
    "lon": -105.1699899,
@@ -441,10 +432,10 @@
   {
    "id": "dam-marston-diversion",
    "kind": "reservoir",
-   "name": "Marston Diversion Dam",
+   "name": "Conduit 20 Diversion",
    "lat": 39.47026,
    "lon": -105.13474,
-   "blurb": "The second, smaller intake 2.6 miles below Strontia Springs Dam. Feeds Conduit 20, which flows by gravity to Marston Lake."
+   "blurb": "The second, smaller intake 2.6 miles below Strontia Springs Dam: an instream diversion structure with a weir that forms a small forebay in the river. The conduit intake here delivers water directly to Marston Forebay and the Marston Treatment Plant."
   }
  ],
  "lines": [
@@ -495,7 +486,7 @@
      39.46637
     ]
    ],
-   "blurb": "3.7 miles of 120-inch pipe from Strontia Springs Dam to the Foothills plant. Capacity 750 million gallons a day. At that full capacity the published diameter and flow work out to about 15 ft/s, so water leaving the dam is only about 20 minutes from the plant. The slow part comes before: from the sentinel gauge, through the reservoir, to the intake takes about four days."
+   "blurb": "3.7 miles of 120-inch pipe from Strontia Springs Dam to the Foothills plant. Capacity 750 million gallons a day. At that full capacity the published diameter and flow work out to about 15 ft/s, so water leaving the dam is only about 20 minutes from the plant. Even from the sentinel gauge, through the reservoir, to the intake is only about four hours; the days-long lag the soft sensor uses comes from mixing and settling in the reservoir, not travel."
   },
   {
    "id": "conduit-20",
@@ -511,7 +502,7 @@
      39.6217
     ]
    ],
-   "blurb": "Gravity conduit from the Marston Diversion Dam in Waterton Canyon to Marston Lake inside Denver."
+   "blurb": "Gravity conduit from the Conduit 20 Diversion in Waterton Canyon to Marston Forebay inside Denver."
   }
  ]
 }
