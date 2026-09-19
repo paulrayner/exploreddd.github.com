@@ -1536,10 +1536,10 @@ const SCHEDULE = {
     date: "Sept 24",
     type: "conference",
     title: "Thursday",
-    subtitle: "Opens with the Design Storm Kickoff, where the water management domain expert lays out the challenge. Spend the morning and afternoon picking from talks and hands-on sessions, then at 3pm find your cohort and start working the Design Storm together. Day closes with an AI + DDD panel hosted by Eric Evans: leading practitioners on what's actually changing about how we model and design software now that AI is writing more of the code.",
+    subtitle: "Opens with the Design Storm Kickoff, where Denver Water lays out the challenge. Spend the morning and afternoon picking from talks and hands-on sessions, then at 3pm find your cohort and start working the Design Storm together, closing with a whole-room domain expert debrief with Denver Water. Day closes with an AI + DDD panel hosted by Eric Evans: leading practitioners on what's actually changing about how we model and design software now that AI is writing more of the code.",
     rooms: ROOMS_THU,
     rows: [
-      { type: "plenary", time: "9:00 - 9:30", title: "Design Storm Kickoff", note: "The water management domain expert and the challenge", tooltip: STORM_TOOLTIP },
+      { type: "plenary", time: "9:00 - 9:30", title: "Design Storm Kickoff", note: "The water management challenge, straight from Denver Water", tooltip: STORM_TOOLTIP },
       { type: "break", time: "9:30 - 9:45", title: "Coffee break" },
 
       { type: "block-header", label: "Block 1", time: "9:45 - 11:45" },
@@ -1571,7 +1571,7 @@ const SCHEDULE = {
       },
 
       { type: "break", time: "2:45 - 3:00", title: "Break" },
-      { type: "block-header", label: "Design Storm: Working Session 1", time: "3:00 - 5:00" },
+      { type: "block-header", label: "Design Storm: Working Session 1", time: "3:00 - 4:45" },
       {
         type: "block",
         columns: COHORTS,
@@ -1583,6 +1583,7 @@ const SCHEDULE = {
           { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" }
         ]
       },
+      { type: "plenary", time: "4:45 - 5:00", title: "Domain expert debrief", note: "All cohorts gather back together for a domain expert debrief with Denver Water" },
       { type: "break", time: "5:00 - 5:15", title: "Break" },
       { type: "session-row", time: "5:15 - 6:00", room: null, sessionId: "TBD-panel", isPlenary: true },
       { type: "break", time: "6:00", title: "Day wraps. Find a dinner group and head to RiNo." }
@@ -1698,7 +1699,7 @@ const DAY_TOOLTIPS = {
   mon: { title: "Workshop Day 1", lines: ["Optional 2-day deep-dives", "Ticketed separately from the conference", "3 workshops to choose from"] },
   tue: { title: "Workshop Day 2", lines: ["Same instructors and topics as Monday", "Workshops run all day", "Ticketed separately from the conference"] },
   wed: { title: "Wednesday", lines: ["Eric Evans keynote opens the day", "6 × 45-min talks in Confluence", "12 hands-on sessions across 4 tracks", "Evenings: dinner in RiNo with fellow attendees"] },
-  thu: { title: "Thursday", lines: ["Design Storm kickoff", "6 × 45-min talks", "4 × 25-min short-form talks", "6 hands-on sessions", "First Design Storm working session", "AI + DDD panel to close the day", "Evenings: dinner in RiNo with fellow attendees"] },
+  thu: { title: "Thursday", lines: ["Design Storm kickoff", "6 × 45-min talks", "4 × 25-min short-form talks", "6 hands-on sessions", "First Design Storm working session", "Domain expert debrief with all cohorts", "AI + DDD panel to close the day", "Evenings: dinner in RiNo with fellow attendees"] },
   fri: { title: "Friday", lines: ["Facilitated day with cohorts self-assigned by experience level", "Working sessions continue from Thursday", "Surfacing demos + conference close at 3pm"] }
 };
 
