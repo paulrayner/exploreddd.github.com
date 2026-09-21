@@ -363,7 +363,7 @@
         "recordingUrl": null,
         "status": "Accepted",
         "isInformed": true,
-        "isConfirmed": false
+        "isConfirmed": true
       },
       {
         "id": "1153183",
@@ -1055,6 +1055,30 @@
         "status": "Accepted",
         "isInformed": true,
         "isConfirmed": true
+      },
+      {
+        "id": "1338341",
+        "title": "Who Are We Now?",
+        "description": "As developers, who are we now that agents do the coding? I loved the feeling of knowing the code intimately because I wrote or changed it, like the software is an extension of myself. How do we get that feeling now? How do we deploy with confidence?\r\nAnd larger: when AI can reason, who are we now, as people? Who are we, as humanity? ",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "a959b7bd-0bcf-44cb-9f68-f1160cfba934"
+        ],
+        "categoryItems": [
+          422793,
+          422796,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
       },
       {
         "id": "1188398",
