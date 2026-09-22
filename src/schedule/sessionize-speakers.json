@@ -721,6 +721,29 @@
     ]
   },
   {
+    "id": "ae676d1d-c63e-4e86-bcc2-c035c4fd0716",
+    "firstName": "Ryan",
+    "lastName": "Hillard",
+    "bio": "Ryan Hillard is a Solutions Architect at Amazon Web Services.  He specializes in serverless technology and believes that event-driven architectures model the real world in a more natural, intuitive way.  In the past, he has spoken at multiple GitHub, DevOpsDays, and AWS events.",
+    "tagLine": "Amazon Web Services, Solutions Architect",
+    "profilePicture": "https://cdn.sessionize.com/image/2153-400o400o1-UCMnpD9iEdy6beDMU5Vrmy.jpg",
+    "isTopSpeaker": false,
+    "links": [],
+    "sessions": [
+      1188398
+    ],
+    "fullName": "Ryan Hillard",
+    "categoryItems": [
+      422802
+    ],
+    "questionAnswers": [
+      {
+        "questionId": 117323,
+        "answerValue": "United States"
+      }
+    ]
+  },
+  {
     "id": "18fbb953-a960-4f73-bcd4-a078fc1b886a",
     "firstName": "Sonya",
     "lastName": "Natanzon",
