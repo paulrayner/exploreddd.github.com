@@ -1091,6 +1091,11 @@ canonical: "https://www.exploreddd.com/schedule/"
     color: var(--text);
     white-space: pre-wrap;
   }
+  .eddd-schedule-2026 .sched-modal-description a{
+    color: #0078C8;
+    text-decoration: underline;
+    overflow-wrap: anywhere;
+  }
   .eddd-schedule-2026 .sched-modal-cta{
     display: inline-block;
     background: #0078C8;
@@ -2173,6 +2178,13 @@ function renderFriday(main, day) {
 
 // -- Modal ------------------------------------------------------------------
 
+// Sessionize descriptions are plain text; bare URLs stay unclickable unless wrapped here.
+// Trailing sentence punctuation is left outside the link so "…/repo." links to the repo.
+function linkifyUrls(text) {
+  return text.replace(/https?:\/\/[^\s<]+[^\s<.,;:!?)]/g,
+    url => `<a href="${url}" target="_blank" rel="noopener">${url}</a>`);
+}
+
 function openModal(session, meta = {}) {
   const overlay = document.getElementById("sched-modal-overlay");
   const modal = document.getElementById("sched-modal");
@@ -2186,10 +2198,10 @@ function openModal(session, meta = {}) {
         const prereqMarker = '\n\nPrerequisites:';
         const prereqIdx = session.description.indexOf(prereqMarker);
         if (prereqIdx === -1) {
-          return `<div class="sched-modal-section"><h3>Abstract</h3><div class="sched-modal-description">${session.description}</div></div>`;
+          return `<div class="sched-modal-section"><h3>Abstract</h3><div class="sched-modal-description">${linkifyUrls(session.description)}</div></div>`;
         }
-        const abstract = session.description.slice(0, prereqIdx);
-        const prereqs = session.description.slice(prereqIdx + prereqMarker.length).trim();
+        const abstract = linkifyUrls(session.description.slice(0, prereqIdx));
+        const prereqs = linkifyUrls(session.description.slice(prereqIdx + prereqMarker.length).trim());
         return `<div class="sched-modal-section"><h3>Abstract</h3><div class="sched-modal-description">${abstract}</div></div>`
              + `<div class="sched-modal-section"><h3>Prerequisites</h3><div class="sched-modal-description">${prereqs}</div></div>`;
       })() : "");
