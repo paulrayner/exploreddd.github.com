@@ -903,6 +903,30 @@
         "isConfirmed": false
       },
       {
+        "id": "1340930",
+        "title": "Rework is Just Discovery You Paid For Twice",
+        "description": "Rework feels like a technical problem. It's usually a discovery problem - insights that arrived too late to be cheap.\r\n \r\nEventStorming is collaborative discovery on a wall - business experts and developers modeling a process together as domain events on a timeline. It's deceptively simple, but something powerful happens when the people who know the questions meet the people who know the answers, exploring together what they thought they already understood. \r\n\r\nIn this session, you'll learn:\r\n\r\n* Why modeling behavior over time reveals what data models and architecture diagrams hide\r\n* How to surface hidden complexity before it surfaces in production\r\n* The questions that unlock stuck conversations and expose risky assumptions\r\n* Why starting messy gets you to clarity faster\r\n* Practical techniques to run your first EventStorming session next week\r\n\r\nYou'll leave with a concrete approach for shared understanding that turns weeks of meetings into hours on a wall.",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "2b859f14-2cf2-46ea-97dd-37ecc7637e69"
+        ],
+        "categoryItems": [
+          422793,
+          422796,
+          422807
+        ],
+        "questionAnswers": [],
+        "roomId": null,
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
+      },
+      {
         "id": "1185110",
         "title": "See What You Modeled: Turning Domain Stories into Testable Prototypes in Minutes",
         "description": "Domain Storytelling and Visual Glossaries are powerful tools for surfacing shared understanding. But there is always a moment at the end of a workshop when participants look at the board and ask: did we get it right? Traditionally, the answer comes days or weeks later, when a developer interprets the artifacts and builds something — by which point the room has dispersed, and the shared understanding has faded.\r\n\r\nLLMs change that moment.\r\n\r\nIn this workshop, you don't just hear about the idea — you live it. Working in small groups around a fresh, unknown domain introduced at the start of the session, you run a Domain Storytelling session, build a Visual Glossary, and then feed your artifacts directly to an LLM to generate a testable prototype. \r\nThen you do what a domain expert would do: click through it, question it, and use what you find to sharpen your model.\r\n\r\nThe prototype validates your workshop - and continues it.\r\n\r\nEach group brings their results back to the room. We compare what different groups modeled from the same domain, what the LLM reflected back, and what surprised everyone. Those surprises are the learning — they reveal where the language was precise, where it was ambiguous, and what a Visual Glossary needs to contain to make prototype generation reliable.\r\n\r\nNo laptop is required — groups share devices and the facilitator supports generation where needed. What is required is curiosity and a willingness to model something you don't yet fully understand.\r\n\r\nThe central claim is simple: LLMs make workshop output immediately testable. The distance between modeling and feedback, which used to be measured in weeks, can now be closed in minutes. That changes what a workshop can be — not just a discovery activity, but the first step in a rapid validation loop.\r\n\r\nParticipants will leave with:\r\n\r\n- Hands-on experience generating a prototype directly from Domain Story and Visual Glossary artifacts\r\n- A concrete sense of how modeling precision shapes generated output — felt, not just explained\r\n- Practical guidance on what to capture explicitly in a workshop to make prototype generation reliable\r\n- A new question to ask at the end of every modeling session: Shall we see what we modeled?\r\n\r\n",
