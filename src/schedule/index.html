@@ -953,6 +953,8 @@ canonical: "https://www.exploreddd.com/schedule/"
     border-left-width: 4px;
     padding: 0.85em 0.95em;
     display: flex;
+    flex-direction: column;
+    gap: 0.6em;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -970,6 +972,20 @@ canonical: "https://www.exploreddd.com/schedule/"
     font-style: italic;
     max-width: 220px;
   }
+  .eddd-schedule-2026 .cohort-cell-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    font-size: 0.92em;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+    line-height: 1.2;
+  }
+  .eddd-schedule-2026 .cohort-cell-link:hover{ opacity: 0.75; }
+  .eddd-schedule-2026 .session-card.cohort .cohort-cell-link{ margin-top: 0.5em; align-self: flex-start; }
   .eddd-schedule-2026 .cohort-cell[data-track="talks"]{ background: var(--track-talks-bg);        border-color: var(--track-talks-strong);        border-left-color: var(--track-talks-strong); }
   .eddd-schedule-2026 .cohort-cell[data-track="open"]{ background: var(--track-open-bg);         border-color: var(--track-open-strong);         border-left-color: var(--track-open-strong); }
   .eddd-schedule-2026 .cohort-cell[data-track="foundations"]{ background: var(--track-foundations-bg);  border-color: var(--track-foundations-strong);  border-left-color: var(--track-foundations-strong); }
@@ -1445,6 +1461,11 @@ const ROOMS_THU = [
   { name: "Bear Creek",   track: "testing",     sub: "DDD & Testing Hands-On" },
   { name: "Rock Creek", track: "openspace", sub: "Open Space" }
 ];
+
+const DESIGN_STORM_REPO = {
+  href: "https://github.com/paulrayner/design-storm-2026",
+  text: "Data &amp; materials"
+};
 
 const COHORTS = [
   { name: "Confluence",   track: "talks",       sub: "" },
@@ -1992,7 +2013,7 @@ function renderBlock(rooms, slots, blockTime) {
       cell.className = "cohort-cell";
       cell.dataset.track = room.track;
       if (roomSlug) cell.dataset.room = roomSlug;
-      if (slot.label) cell.innerHTML = `<span class="cohort-cell-label">${slot.label}</span>`;
+      if (slot.label) cell.innerHTML = `<span class="cohort-cell-label">${slot.label}</span>${repoLink()}`;
       col.appendChild(cell);
     } else if (slot.sessionId) {
       const s = getSession(slot.sessionId);
@@ -2003,6 +2024,10 @@ function renderBlock(rooms, slots, blockTime) {
   block.appendChild(grid);
   block.appendChild(buildMobileList(rooms, slots, blockTime));
   return block;
+}
+
+function repoLink() {
+  return `<a class="cohort-cell-link" href="${DESIGN_STORM_REPO.href}" target="_blank" rel="noopener">${DESIGN_STORM_REPO.text} &rarr;</a>`;
 }
 
 function buildMobileList(rooms, slots, blockTime) {
@@ -2086,6 +2111,7 @@ function mobileCard(entry) {
     card.innerHTML = `
       <div class="session-card-meta">${trackPill}${roomName}</div>
       <div class="session-title">${entry.label || ""}</div>
+      ${repoLink()}
     `;
     return card;
   }
