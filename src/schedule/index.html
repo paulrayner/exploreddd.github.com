@@ -972,6 +972,10 @@ canonical: "https://www.exploreddd.com/schedule/"
     font-style: italic;
     max-width: 220px;
   }
+  .eddd-schedule-2026 .cohort-cell-label.describes{
+    color: var(--text);
+    font-style: normal;
+  }
   .eddd-schedule-2026 .cohort-cell-link{
     display: inline-flex;
     align-items: center;
@@ -1600,10 +1604,10 @@ const SCHEDULE = {
         columns: COHORTS,
         slots: [
           { type: "empty" },
-          { type: "cohort", label: "Find your cohort, form a small team, frame the challenge" },
-          { type: "cohort", label: "Find your cohort, form a small team, frame the challenge" },
-          { type: "cohort", label: "Find your cohort, form a small team, frame the challenge" },
-          { type: "cohort", label: "Find your cohort, form a small team, frame the challenge" }
+          { type: "cohort", describeCohort: true },
+          { type: "cohort", describeCohort: true },
+          { type: "cohort", describeCohort: true },
+          { type: "cohort", describeCohort: true }
         ]
       },
       { type: "plenary", time: "4:45 - 5:00", title: "Domain expert debrief", note: "All cohorts gather back together for a domain expert debrief with Denver Water" },
@@ -2013,7 +2017,9 @@ function renderBlock(rooms, slots, blockTime) {
       cell.className = "cohort-cell";
       cell.dataset.track = room.track;
       if (roomSlug) cell.dataset.room = roomSlug;
-      if (slot.label) cell.innerHTML = `<span class="cohort-cell-label">${slot.label}</span>${repoLink()}`;
+      const cellText = cohortCellText(slot, room);
+      const labelClass = "cohort-cell-label" + (slot.describeCohort ? " describes" : "");
+      if (cellText) cell.innerHTML = `<span class="${labelClass}">${cellText}</span>${repoLink()}`;
       col.appendChild(cell);
     } else if (slot.sessionId) {
       const s = getSession(slot.sessionId);
@@ -2024,6 +2030,10 @@ function renderBlock(rooms, slots, blockTime) {
   block.appendChild(grid);
   block.appendChild(buildMobileList(rooms, slots, blockTime));
   return block;
+}
+
+function cohortCellText(slot, room) {
+  return slot.describeCohort ? TRACK_DESCRIPTIONS[room.sub] : slot.label;
 }
 
 function repoLink() {
@@ -2051,7 +2061,7 @@ function buildMobileList(rooms, slots, blockTime) {
         entries.push({ time: t, room, kind: "openspace", label: "Self-organizing session" });
       }
     } else if (slot.type === "cohort") {
-      entries.push({ time: fallbackTime, label: slot.label, room, kind: "cohort" });
+      entries.push({ time: fallbackTime, label: cohortCellText(slot, room), room, kind: "cohort" });
     } else if (slot.sessionId) {
       const session = getSession(slot.sessionId);
       entries.push({ time: fallbackTime, session, room, kind: "session" });
