@@ -1367,10 +1367,16 @@ const TBD_SESSIONS = {
   },
   "TBD-panel": {
     title: "AI+DDD Thought Leader Panel",
-    description: "Hosted by Eric Evans",
-    speakerNames: ["Hosted by Eric Evans"],
+    description: "Moderator: Indu Alagarsamy\n\nPanelists: Eric Evans, Kyle Brown, Annegret Junker, Chris Richardson",
+    speakerIds: [
+      "5d75dcd9-5de6-48f4-a6fc-c980fc7c6cba",
+      "fc6ec4d9-6597-4c14-a25f-31278d0bf087",
+      "d1724b9f-e5e6-413e-a6d3-1853126d58cc",
+      "31dedd7c-2cfe-44c5-8273-da611cdade14",
+      "1d08cdb2-5f0e-4d02-bf79-72922ebc4ae0"
+    ],
     format: "Panel (45 min)",
-    pending: true
+    pending: false
   }
 };
 
@@ -1805,7 +1811,7 @@ function renderConferenceDay(main, day) {
       el.className = "plenary-row";
       el.style.cursor = "pointer";
       el.onclick = () => openModal(s, { time: row.time });
-      const speakerImgs = (s.speakers || []).slice(0, 3).map(sp =>
+      const speakerImgs = (s.speakers || []).map(sp =>
         `<img src="${sp.profilePicture}" alt="${sp.fullName}" title="${sp.fullName}">`
       ).join("");
       el.innerHTML = `
