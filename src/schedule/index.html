@@ -959,6 +959,12 @@ canonical: "https://www.exploreddd.com/schedule/"
     font-size: 0.85em;
     line-height: 1.45;
   }
+  .eddd-schedule-2026 .cohort-cell.empty{
+    background: var(--surface);
+    border-style: solid;
+    border-color: var(--border);
+    border-left-color: var(--border);
+  }
   .eddd-schedule-2026 .cohort-cell-label{
     color: var(--text-muted);
     font-style: italic;
@@ -1416,8 +1422,7 @@ const TRACK_DESCRIPTIONS = {
   "Agentic Hands-On": "Build with agents. Working sessions on coding agents, agent design, and integrating AI into your delivery flow.",
   "DDD & Testing Hands-On": "Working sessions on testing alongside DDD: examples, prototypes, and verifying your model lives up to its promise.",
   "Open Space": "An attendee-led track. Sessions are proposed and scheduled by the people in the room at the marketplace, right after Wednesday's opening keynote, then run in 45-min slots in Rock Creek. Bring a topic, a question, or a conversation you want to host.",
-  "Headwaters A": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Storm.",
-  "Headwaters B": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Storm.",
+  "Headwaters": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Storm.",
   "Watershed": "Where streams converge. For attendees comfortable with modeling OR agentic coding (not both yet), looking to bring their strengths and stretch into the other.",
   "Rapids": "Fast-moving water. For attendees confident in both modeling and agentic coding, ready to move fast on harder challenges.",
   "Uncharted Waters": "Beyond the map. For experts in both modeling and agentic coding, ready to invent new patterns alongside other experts."
@@ -1442,8 +1447,8 @@ const ROOMS_THU = [
 ];
 
 const COHORTS = [
-  { name: "Confluence",   track: "foundations", sub: "Headwaters A" },
-  { name: "Willow Creek", track: "foundations", sub: "Headwaters B" },
+  { name: "Confluence",   track: "talks",       sub: "" },
+  { name: "Willow Creek", track: "foundations", sub: "Headwaters" },
   { name: "Spring Creek", track: "ddd",         sub: "Watershed" },
   { name: "Cottonwood",   track: "agentic",     sub: "Rapids" },
   { name: "Bear Creek",   track: "open",        sub: "Uncharted Waters" }
@@ -1573,7 +1578,7 @@ const SCHEDULE = {
         type: "block",
         columns: COHORTS,
         slots: [
-          { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
+          { type: "empty" },
           { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
           { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
           { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
@@ -1598,7 +1603,7 @@ const SCHEDULE = {
       {
         type: "block",
         slots: [
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
+          { type: "empty" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
@@ -1610,7 +1615,7 @@ const SCHEDULE = {
       {
         type: "block",
         slots: [
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
+          { type: "empty" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
@@ -1839,7 +1844,7 @@ function collectDayRooms(day) {
       const room = rooms[i];
       const slot = slots[i];
       if (!room || room.placeholder || !room.name) continue;
-      if (!slot || slot.type === "cohort") continue;
+      if (!slot || slot.type === "cohort" || slot.type === "empty") continue;
       const slug = room.name.toLowerCase().replace(/\s+/g, "-");
       if (!seen.has(slug)) seen.set(slug, room);
     }
@@ -1978,6 +1983,10 @@ function renderBlock(rooms, slots, blockTime) {
         }
         col.appendChild(openSpaceCard(room, times[j]));
       }
+    } else if (slot.type === "empty") {
+      const cell = document.createElement("div");
+      cell.className = "cohort-cell empty";
+      col.appendChild(cell);
     } else if (slot.type === "cohort") {
       const cell = document.createElement("div");
       cell.className = "cohort-cell";
