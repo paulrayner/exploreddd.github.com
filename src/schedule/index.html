@@ -1413,17 +1413,17 @@ const WORKSHOP_PAGES = {
 const SURFACING_TOOLTIP = {
   title: "How Surfacing works",
   paragraphs: [
-    "Think science fair. Each cohort sets up at a station with their work, their model, their AI prompts, sketches, whatever they want to show. You wander, ask questions, see how other cohorts approached the same challenge. The contrast between cohorts is where the real learning is."
+    "Think science fair. Each small team sets up at a station with their work, their model, their AI prompts, sketches, whatever they want to show. You wander, ask questions, see how other teams approached the same challenge. The contrast between them is where the real learning is."
   ]
 };
 
 const STORM_TOOLTIP = {
   title: "What's the Design Storm?",
   paragraphs: [
-    "The last two days of the conference, you join a small cohort and take on one real problem together: model a slice of water management, discover how it actually works, and bring it to life in working code with AI agents alongside you. You're doing the work, next to people right at your level.",
+    "The last two days of the conference, you join a cohort at your own experience level, then form a small team of two to four and take on one real problem together: model a slice of water management, discover how it actually works, and bring it to life in working code with AI agents alongside you. You're doing the work, next to people right at your level.",
     "Wherever you are with DDD, your cohort is built for it: Headwaters is made for first-timers (one of the fastest ways to learn), Rapids and Uncharted Waters for seasoned practitioners pushing the modeling craft with agents in the loop. Curiosity is the only entry requirement.",
     "The domain is water management: everyone depends on water, it's one of the most contested resources anywhere right now, and it's deliberately unfamiliar so everyone discovers it together. Why call it a design storm? Civil engineers use the term for a calibrated event like the 100-year rainfall, real enough to matter, bounded enough to actually build for.",
-    "Friday afternoon, every cohort surfaces what they built science-fair style, and you see how differently people solved the same problem. That contrast is where half the learning is.",
+    "Friday afternoon, every small team surfaces what they built science-fair style, and you see how differently people solved the same problem. That contrast is where half the learning is.",
     "The venue, Hydro at CSU Spur, is built around water stewardship; the breakout rooms are named for Colorado rivers."
   ]
 };
@@ -1559,7 +1559,7 @@ const SCHEDULE = {
     date: "Sept 24",
     type: "conference",
     title: "Thursday",
-    subtitle: "Opens with the Design Storm Kickoff, where Denver Water lays out the challenge. Spend the morning and afternoon picking from talks and hands-on sessions, then at 3pm find your cohort and start working the Design Storm together, closing with a whole-room domain expert debrief with Denver Water. Day closes with an AI + DDD panel hosted by Eric Evans: leading practitioners on what's actually changing about how we model and design software now that AI is writing more of the code.",
+    subtitle: "Opens with the Design Storm Kickoff, where Denver Water lays out the challenge. Spend the morning and afternoon picking from talks and hands-on sessions, then at 3pm find your cohort, form a small team, and start working the Design Storm together, closing with a whole-room domain expert debrief with Denver Water. Day closes with an AI + DDD panel hosted by Eric Evans: leading practitioners on what's actually changing about how we model and design software now that AI is writing more of the code.",
     rooms: ROOMS_THU,
     rows: [
       { type: "plenary", time: "9:00 - 9:30", title: "Design Storm Kickoff", note: "The water management challenge, straight from Denver Water", tooltip: STORM_TOOLTIP },
@@ -1600,10 +1600,10 @@ const SCHEDULE = {
         columns: COHORTS,
         slots: [
           { type: "empty" },
-          { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
-          { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
-          { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
-          { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" }
+          { type: "cohort", label: "Find your cohort, form a small team, frame the challenge" },
+          { type: "cohort", label: "Find your cohort, form a small team, frame the challenge" },
+          { type: "cohort", label: "Find your cohort, form a small team, frame the challenge" },
+          { type: "cohort", label: "Find your cohort, form a small team, frame the challenge" }
         ]
       },
       { type: "plenary", time: "4:45 - 5:00", title: "Domain expert debrief", note: "All cohorts gather back together for a domain expert debrief with Denver Water" },
@@ -1617,7 +1617,7 @@ const SCHEDULE = {
     date: "Sept 25",
     type: "conference",
     title: "Friday",
-    subtitle: "Your cohort works through two more sessions on the Design Storm challenge, then everyone gathers for a surfacing session where each cohort demos what they built, followed by the conference close.",
+    subtitle: "Your small team works through two more sessions on the Design Storm challenge, then everyone gathers for a surfacing session where each team demos what they built, followed by the conference close.",
     rooms: COHORTS,
     rows: [
       { type: "block-header", label: "Working Session 2", time: "9:00 - 10:45" },
@@ -1625,10 +1625,10 @@ const SCHEDULE = {
         type: "block",
         slots: [
           { type: "empty" },
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" }
+          { type: "cohort", label: "Continue Design Storm work in your small teams" },
+          { type: "cohort", label: "Continue Design Storm work in your small teams" },
+          { type: "cohort", label: "Continue Design Storm work in your small teams" },
+          { type: "cohort", label: "Continue Design Storm work in your small teams" }
         ]
       },
       { type: "break", time: "10:45 - 11:00", title: "Break" },
@@ -1637,14 +1637,14 @@ const SCHEDULE = {
         type: "block",
         slots: [
           { type: "empty" },
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" }
+          { type: "cohort", label: "Continue Design Storm work in your small teams" },
+          { type: "cohort", label: "Continue Design Storm work in your small teams" },
+          { type: "cohort", label: "Continue Design Storm work in your small teams" },
+          { type: "cohort", label: "Continue Design Storm work in your small teams" }
         ]
       },
       { type: "break", time: "12:45 - 1:45", title: "Lunch" },
-      { type: "plenary", time: "1:45 - 2:30", title: "Surfacing: cohort demos and shared learning", tooltip: SURFACING_TOOLTIP },
+      { type: "plenary", time: "1:45 - 2:30", title: "Surfacing: small team demos and shared learning", tooltip: SURFACING_TOOLTIP },
       { type: "plenary", time: "2:30 - 3:30", title: "Conference close: reflections + send-off" }
     ]
   }
@@ -1722,8 +1722,8 @@ const DAY_TOOLTIPS = {
   mon: { title: "Workshop Day 1", lines: ["Optional 2-day deep-dives", "Ticketed separately from the conference", "3 workshops to choose from"] },
   tue: { title: "Workshop Day 2", lines: ["Same instructors and topics as Monday", "Workshops run all day", "Ticketed separately from the conference"] },
   wed: { title: "Wednesday", lines: ["Eric Evans keynote opens the day", "6 × 45-min talks in Confluence", "12 hands-on sessions across 4 tracks", "Evenings: dinner in RiNo with fellow attendees"] },
-  thu: { title: "Thursday", lines: ["Design Storm kickoff", "6 × 45-min talks", "4 × 25-min short-form talks", "6 hands-on sessions", "First Design Storm working session", "Domain expert debrief with all cohorts", "AI + DDD panel to close the day", "Evenings: dinner in RiNo with fellow attendees"] },
-  fri: { title: "Friday", lines: ["Facilitated day with cohorts self-assigned by experience level", "Working sessions continue from Thursday", "Surfacing demos + conference close at 3pm"] }
+  thu: { title: "Thursday", lines: ["Design Storm kickoff", "6 × 45-min talks", "4 × 25-min short-form talks", "6 hands-on sessions", "First Design Storm working session in small teams", "Domain expert debrief with all cohorts", "AI + DDD panel to close the day", "Evenings: dinner in RiNo with fellow attendees"] },
+  fri: { title: "Friday", lines: ["Cohorts self-assigned by experience level, working in small teams", "Working sessions continue from Thursday", "Surfacing demos + conference close at 3pm"] }
 };
 
 function renderTabs(activeKey) {
