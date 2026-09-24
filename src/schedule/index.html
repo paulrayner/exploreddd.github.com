@@ -1483,6 +1483,7 @@ const SCHEDULE = {
   mon: {
     label: "Monday",
     date: "Sept 21",
+    iso: "2026-09-21",
     type: "workshops",
     title: "Pre-Conference Workshops",
     subtitle: "Day 1 of 2 · 9:00 AM - 5:00 PM · Workshops are ticketed separately from the conference",
@@ -1494,6 +1495,7 @@ const SCHEDULE = {
   tue: {
     label: "Tuesday",
     date: "Sept 22",
+    iso: "2026-09-22",
     type: "workshops",
     title: "Pre-Conference Workshops",
     subtitle: "Day 2 of 2 · 9:00 AM - 5:00 PM · Same instructors and topics as Monday",
@@ -1502,6 +1504,7 @@ const SCHEDULE = {
   wed: {
     label: "Wednesday",
     date: "Sept 23",
+    iso: "2026-09-23",
     type: "conference",
     title: "Wednesday",
     subtitle: "Eric Evans's keynote opens the day. After that, the choice is yours: three rounds, each one a pick between 45-minute talks in Confluence and a 2-hour hands-on workshop in one of four rooms (Sociotechnical, Foundations DDD, DDD, or Agentic).",
@@ -1561,6 +1564,7 @@ const SCHEDULE = {
   thu: {
     label: "Thursday",
     date: "Sept 24",
+    iso: "2026-09-24",
     type: "conference",
     title: "Thursday",
     subtitle: "Opens with the Design Storm Kickoff, where Denver Water lays out the challenge. Spend the morning and afternoon picking from talks and hands-on sessions, then at 3pm find your cohort, form a small team, and start working the Design Storm together, closing with a whole-room domain expert debrief with Denver Water. Day closes with an AI + DDD panel hosted by Eric Evans: leading practitioners on what's actually changing about how we model and design software now that AI is writing more of the code.",
@@ -1619,6 +1623,7 @@ const SCHEDULE = {
   fri: {
     label: "Friday",
     date: "Sept 25",
+    iso: "2026-09-25",
     type: "conference",
     title: "Friday",
     subtitle: "Your small team works through two more sessions on the Design Storm challenge, then everyone gathers for a surfacing session where each team demos what they built, followed by the conference close.",
@@ -2336,6 +2341,23 @@ function findDayForSession(sessionId) {
 
 // -- Boot -------------------------------------------------------------------
 
+// Which conference day it is in Denver, so the schedule opens on the same day for
+// everyone watching, not on whatever day it happens to be where they are.
+function currentConferenceDay() {
+  let today;
+  try {
+    today = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "America/Denver", year: "numeric", month: "2-digit", day: "2-digit"
+    }).format(new Date());
+  } catch (e) {
+    return null;
+  }
+  for (const key of Object.keys(SCHEDULE)) {
+    if (SCHEDULE[key].iso === today) return key;
+  }
+  return null;
+}
+
 (async () => {
   try {
     await loadData();
@@ -2345,7 +2367,8 @@ function findDayForSession(sessionId) {
     const requestedDay = params.get("day");
     const validDays = new Set(["mon", "tue", "wed", "thu", "fri"]);
     const dayFromParam = requestedDay && validDays.has(requestedDay) ? requestedDay : null;
-    const startDay = (requestedSession && findDayForSession(requestedSession)) || dayFromParam || "wed";
+    const startDay = (requestedSession && findDayForSession(requestedSession))
+      || dayFromParam || currentConferenceDay() || "wed";
     render(startDay);
     updateStickyOffset();
     if (requestedSession) {
