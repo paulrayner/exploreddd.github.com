@@ -953,17 +953,39 @@ canonical: "https://www.exploreddd.com/schedule/"
     border-left-width: 4px;
     padding: 0.85em 0.95em;
     display: flex;
+    flex-direction: column;
+    gap: 0.6em;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 0.85em;
     line-height: 1.45;
   }
+  .eddd-schedule-2026 .cohort-cell.empty{
+    background: var(--surface, #ffffff);
+    border-style: solid;
+    border-color: var(--border);
+    border-left-color: var(--border);
+  }
   .eddd-schedule-2026 .cohort-cell-label{
     color: var(--text-muted);
     font-style: italic;
     max-width: 220px;
   }
+  .eddd-schedule-2026 .cohort-cell-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    font-size: 0.92em;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+    line-height: 1.2;
+  }
+  .eddd-schedule-2026 .cohort-cell-link:hover{ opacity: 0.75; }
+  .eddd-schedule-2026 .session-card.cohort .cohort-cell-link{ margin-top: 0.5em; }
   .eddd-schedule-2026 .cohort-cell[data-track="talks"]{ background: var(--track-talks-bg);        border-color: var(--track-talks-strong);        border-left-color: var(--track-talks-strong); }
   .eddd-schedule-2026 .cohort-cell[data-track="open"]{ background: var(--track-open-bg);         border-color: var(--track-open-strong);         border-left-color: var(--track-open-strong); }
   .eddd-schedule-2026 .cohort-cell[data-track="foundations"]{ background: var(--track-foundations-bg);  border-color: var(--track-foundations-strong);  border-left-color: var(--track-foundations-strong); }
@@ -1416,8 +1438,7 @@ const TRACK_DESCRIPTIONS = {
   "Agentic Hands-On": "Build with agents. Working sessions on coding agents, agent design, and integrating AI into your delivery flow.",
   "DDD & Testing Hands-On": "Working sessions on testing alongside DDD: examples, prototypes, and verifying your model lives up to its promise.",
   "Open Space": "An attendee-led track. Sessions are proposed and scheduled by the people in the room at the marketplace, right after Wednesday's opening keynote, then run in 45-min slots in Rock Creek. Bring a topic, a question, or a conversation you want to host.",
-  "Headwaters A": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Storm.",
-  "Headwaters B": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Storm.",
+  "Headwaters": "Where the river starts. For attendees newer to both modeling and agentic coding, looking for a gentle entry into the Design Storm.",
   "Watershed": "Where streams converge. For attendees comfortable with modeling OR agentic coding (not both yet), looking to bring their strengths and stretch into the other.",
   "Rapids": "Fast-moving water. For attendees confident in both modeling and agentic coding, ready to move fast on harder challenges.",
   "Uncharted Waters": "Beyond the map. For experts in both modeling and agentic coding, ready to invent new patterns alongside other experts."
@@ -1441,9 +1462,14 @@ const ROOMS_THU = [
   { name: "Rock Creek", track: "openspace", sub: "Open Space" }
 ];
 
+const DESIGN_STORM_REPO = {
+  href: "https://github.com/paulrayner/design-storm-2026",
+  text: "Data &amp; materials"
+};
+
 const COHORTS = [
-  { name: "Confluence",   track: "foundations", sub: "Headwaters A" },
-  { name: "Willow Creek", track: "foundations", sub: "Headwaters B" },
+  { name: "Confluence",   track: "talks",       sub: "" },
+  { name: "Willow Creek", track: "foundations", sub: "Headwaters" },
   { name: "Spring Creek", track: "ddd",         sub: "Watershed" },
   { name: "Cottonwood",   track: "agentic",     sub: "Rapids" },
   { name: "Bear Creek",   track: "open",        sub: "Uncharted Waters" }
@@ -1573,7 +1599,7 @@ const SCHEDULE = {
         type: "block",
         columns: COHORTS,
         slots: [
-          { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
+          { type: "empty" },
           { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
           { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
           { type: "cohort", label: "Join your cohort, frame the challenge, begin discovery" },
@@ -1598,7 +1624,7 @@ const SCHEDULE = {
       {
         type: "block",
         slots: [
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
+          { type: "empty" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
@@ -1610,7 +1636,7 @@ const SCHEDULE = {
       {
         type: "block",
         slots: [
-          { type: "cohort", label: "Continue Design Storm work in your cohorts" },
+          { type: "empty" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
           { type: "cohort", label: "Continue Design Storm work in your cohorts" },
@@ -1839,7 +1865,7 @@ function collectDayRooms(day) {
       const room = rooms[i];
       const slot = slots[i];
       if (!room || room.placeholder || !room.name) continue;
-      if (!slot || slot.type === "cohort") continue;
+      if (!slot || slot.type === "cohort" || slot.type === "empty") continue;
       const slug = room.name.toLowerCase().replace(/\s+/g, "-");
       if (!seen.has(slug)) seen.set(slug, room);
     }
@@ -1978,12 +2004,16 @@ function renderBlock(rooms, slots, blockTime) {
         }
         col.appendChild(openSpaceCard(room, times[j]));
       }
+    } else if (slot.type === "empty") {
+      const cell = document.createElement("div");
+      cell.className = "cohort-cell empty";
+      col.appendChild(cell);
     } else if (slot.type === "cohort") {
       const cell = document.createElement("div");
       cell.className = "cohort-cell";
       cell.dataset.track = room.track;
       if (roomSlug) cell.dataset.room = roomSlug;
-      if (slot.label) cell.innerHTML = `<span class="cohort-cell-label">${slot.label}</span>`;
+      if (slot.label) cell.innerHTML = `<span class="cohort-cell-label">${slot.label}</span>${repoLink()}`;
       col.appendChild(cell);
     } else if (slot.sessionId) {
       const s = getSession(slot.sessionId);
@@ -1994,6 +2024,10 @@ function renderBlock(rooms, slots, blockTime) {
   block.appendChild(grid);
   block.appendChild(buildMobileList(rooms, slots, blockTime));
   return block;
+}
+
+function repoLink() {
+  return `<a class="cohort-cell-link" href="${DESIGN_STORM_REPO.href}" target="_blank" rel="noopener">${DESIGN_STORM_REPO.text} &rarr;</a>`;
 }
 
 function buildMobileList(rooms, slots, blockTime) {
@@ -2077,6 +2111,7 @@ function mobileCard(entry) {
     card.innerHTML = `
       <div class="session-card-meta">${trackPill}${roomName}</div>
       <div class="session-title">${entry.label || ""}</div>
+      ${repoLink()}
     `;
     return card;
   }
